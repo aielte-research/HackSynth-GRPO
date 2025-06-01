@@ -1,0 +1,18 @@
+A hacker intercepted an encrypted message. Using AES, can you recover the secret code hidden inside? The ciphertext is: ciphertext1:8262d6555f097485dfaa8e17beb6, ciphertext2: 8262d6555f4d34c380a09748a8b6
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{tr1fekmp}
+ciphertext: ciphertext1:8262d6555f097485dfaa8e17beb6, ciphertext2: 8262d6555f4d34c380a09748a8b6
+tag1: 3d33ac39b6275f94d0b0a35ef11ea69c
+tag2: ded633ae8b00749f3e122e1ed748b97b
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 8d607de2c9310a272e3337
+subtype: aes_ccm
+archetype: aes

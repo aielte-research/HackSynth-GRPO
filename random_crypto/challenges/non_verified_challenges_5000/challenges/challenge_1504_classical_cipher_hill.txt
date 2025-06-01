@@ -1,0 +1,17 @@
+Intercepted instructions from a secret society were encoded with numbers. Can you decrypt their message using a Hill cipher matrix? Ciphertext: wkyfoerobaufnacgrktfvmexenuzddrkwetlvutleweqbqqnigyahskgluyvgcaqbtetjo
+
+The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+
+---
+
+## Challenge Technical Details
+flag: flag{aaybpruw}
+ciphertext: wkyfoerobaufnacgrktfvmexenuzddrkwetlvutleweqbqqnigyahskgluyvgcaqbtetjo
+cipher: Hill
+hint: Hill ciphers can be broken using known-plaintext attacks and linear algebra mod 26.
+necessary_info: The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+extra_info: The matrix used is: [[14, 13], [9, 18]]
+subtype: hill
+archetype: classical_cipher

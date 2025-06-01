@@ -1,0 +1,18 @@
+An intercepted message, encrypted with AES, hides the vault combination. Decrypt ciphertext1:56bfe1d0225478b75d961abcdffa, ciphertext2: 56bfe1d0221062af50c61ce88bfa to reveal the secret before the timer runs out.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{sviycg79}
+ciphertext: ciphertext1:56bfe1d0225478b75d961abcdffa, ciphertext2: 56bfe1d0221062af50c61ce88bfa
+tag1: 56b0550a2ae45b1d7d63d9d338eb04fe
+tag2: 5d2e862f71c814646628820fd05e9f5f
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 9a3df89f143b2cf627c940
+subtype: aes_ccm
+archetype: aes

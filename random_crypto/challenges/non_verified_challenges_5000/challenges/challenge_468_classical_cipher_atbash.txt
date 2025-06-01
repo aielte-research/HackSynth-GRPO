@@ -1,0 +1,14 @@
+An ancient scroll was found with this strange inscription. Legend says it hides a message using a mirror alphabet. Can you reveal its secret? uozt{ralx5msa}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{izoc5nhz}
+cipher: Atbash
+ciphertext: uozt{ralx5msa}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

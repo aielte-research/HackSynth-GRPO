@@ -1,0 +1,19 @@
+
+Someone hid the key to a lost vault by encrypting it using AES-CFB. They left this ciphertext behind: 1a59bc6a1a9de83476bf6fe2c2d0e6bcefe6d60a048dd5314faaff1f5e536eeaecf40c1830c571b4e08de2c22fe66d463e2a6ad0c7ae550328a84925af273b1bd69f860da8c73a819aecc9be82f8fab7814a9d79d5ae6e197e94b9e124e28dbcdffcdec8bd29071ffa1f1dbab1ae8900f0cc9b62ad3f8d824e16fa0c3f45ea3a0e748fd616954b239e2cb472f624e3a6ab8f323c831a5f8399ddde9014be3c5605aff0896d001046a146d0c2c56c5d4366. Can you recover the original key?
+
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{yecm5vi8}
+ciphertext: 1a59bc6a1a9de83476bf6fe2c2d0e6bcefe6d60a048dd5314faaff1f5e536eeaecf40c1830c571b4e08de2c22fe66d463e2a6ad0c7ae550328a84925af273b1bd69f860da8c73a819aecc9be82f8fab7814a9d79d5ae6e197e94b9e124e28dbcdffcdec8bd29071ffa1f1dbab1ae8900f0cc9b62ad3f8d824e16fa0c3f45ea3a0e748fd616954b239e2cb472f624e3a6ab8f323c831a5f8399ddde9014be3c5605aff0896d001046a146d0c2c56c5d4366
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: c52245328f80de9d05f6650ea5770d51
+subtype: aes_cfb
+archetype: aes

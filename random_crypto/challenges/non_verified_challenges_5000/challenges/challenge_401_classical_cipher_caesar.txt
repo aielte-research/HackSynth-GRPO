@@ -1,0 +1,15 @@
+The infamous hacker CipherCat has left a secret message for their crew, encrypted with a simple Caesar shift. Can you crack their code? djye{alwlehpw}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{cnyngjry}
+ciphertext: djye{alwlehpw}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 24
+subtype: caesar
+archetype: classical_cipher

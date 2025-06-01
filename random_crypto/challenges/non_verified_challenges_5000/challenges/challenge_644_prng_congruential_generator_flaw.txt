@@ -1,0 +1,29 @@
+
+Intercepted messages from the rogue AI are scrambled with LCG Predictability. Recover the original command hidden in the cipher: 2d23de12307ad2473b7d8e102832
+
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1510291274
+  - Multiplier: 847929115
+  - Increment: 513642435
+The first 5 outputs of the LCG are provided: [840961834, 670108997, 252386348, 1505778597, 472111034] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{5m2p21ec}
+ciphertext: 2d23de12307ad2473b7d8e102832
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1510291274
+  - Multiplier: 847929115
+  - Increment: 513642435
+The first 5 outputs of the LCG are provided: [840961834, 670108997, 252386348, 1505778597, 472111034] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

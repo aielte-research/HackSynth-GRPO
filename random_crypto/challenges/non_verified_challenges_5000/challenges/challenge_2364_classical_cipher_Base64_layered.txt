@@ -1,0 +1,17 @@
+
+A hacker coded the access password in Base64 before vanishing. Decode this message to recover it: Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVcxS1IxZHVhRmRTTTFKUVZtMTRTMk15VGtsaFJscFhaV3hhYjFaclpEUlpWMUpJVm10c2FWSnVRbGhXYWtaS1pXeGFjbFZyWkZoaVZrWTBWMnRvUzJGc1NuTlhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0=
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{c5bylw9h}
+cipher: Base64
+ciphertext: Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVcxS1IxZHVhRmRTTTFKUVZtMTRTMk15VGtsaFJscFhaV3hhYjFaclpEUlpWMUpJVm10c2FWSnVRbGhXYWtaS1pXeGFjbFZyWkZoaVZrWTBWMnRvUzJGc1NuTlhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 9 times in total.
+subtype: Base64_layered
+archetype: classical_cipher

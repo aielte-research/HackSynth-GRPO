@@ -1,0 +1,19 @@
+
+Intercepted spy notes use a mysterious grid cipher. Decode zngtrlfdblxapunhqasqrlfdblstpvlxwhqcnhhrtphkgtrlfdblxapunhplrdldizlryflynfpslghtaxuspnhkzheaikpvchmhcotpnhgmstrnnpctlrbmcpdlpydppnpzpnhkgltbctcmbcspkx to reveal the agent’s secret meeting point.
+
+
+The flag format is flag{...}
+The keyword is: gwcfebog
+
+---
+
+## Challenge Technical Details
+flag: flag{9rtl295v}
+ciphertext: zngtrlfdblxapunhqasqrlfdblstpvlxwhqcnhhrtphkgtrlfdblxapunhplrdldizlryflynfpslghtaxuspnhkzheaikpvchmhcotpnhgmstrnnpctlrbmcpdlpydppnpzpnhkgltbctcmbcspkx
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: gwcfebog
+extra_info: The playfair table is [['g', 'w', 'c', 'f', 'e'], ['b', 'o', 'a', 'd', 'h'], ['i', 'k', 'l', 'm', 'n'], ['p', 'q', 'r', 's', 't'], ['u', 'v', 'x', 'y', 'z']]
+subtype: playfair
+archetype: classical_cipher

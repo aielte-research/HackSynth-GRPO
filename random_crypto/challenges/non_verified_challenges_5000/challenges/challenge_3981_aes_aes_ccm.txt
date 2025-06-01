@@ -1,0 +1,18 @@
+Intercepted from a covert channel, this AES-encrypted message holds the agent's next rendezvous. Recover the plaintext to reveal the secret instructions: ciphertext1:5317248963723cfff875dfd74515, ciphertext2: 53172489637b7db6fc66c0841915
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{mwppiyd7}
+ciphertext: ciphertext1:5317248963723cfff875dfd74515, ciphertext2: 53172489637b7db6fc66c0841915
+tag1: 9d8b21ba716c63ef296d7ef7e82170d1
+tag2: 1a389a25fb367bde42dfb06c6b80d0c7
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 30f4d0e7c91b036c07a5bf
+subtype: aes_ccm
+archetype: aes

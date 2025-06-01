@@ -1,0 +1,17 @@
+
+An ancient mathematician left a message encoded with the sequence he discovered. Can you decode his secret using Fibonacci Encoding? Here’s the ciphertext: 10001000001 10001010011 10000100001 10001000011 10100000001 10000100011 10001001011 1000000011 10001000011 10001010011 10010010101 101010001 101000011 10100000101
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{bj8glu40}
+ciphertext: 10001000001 10001010011 10000100001 10001000011 10100000001 10000100011 10001001011 1000000011 10001000011 10001010011 10010010101 101010001 101000011 10100000101
+cipher: Fibonacci Encoding
+hint: Each ASCII character is represented as a sum of non-consecutive Fibonacci numbers, always ending in 1.
+necessary_info: The flag format is flag{...}
+extra_info: Each character of the flag is independently encoded using Fibonacci representation.
+subtype: fibonacci_encoding
+archetype: classical_cipher

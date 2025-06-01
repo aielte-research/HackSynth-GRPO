@@ -1,0 +1,15 @@
+A hacker intercepted the key, but shifted each ASCII code before sending. Recover the original passphrase: mshnxjpyymx
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{qcirrzfq}
+cipher: ASCII Shift
+ciphertext: mshnxjpyymx
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 7
+subtype: ascii_shift
+archetype: classical_cipher

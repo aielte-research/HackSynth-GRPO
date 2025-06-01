@@ -1,0 +1,11 @@
+A hacker intercepted your API token. Can you retrieve the admin flag from this suspicious JWT? Ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3t5NzV5aXNnNn0ifQ.
+
+---
+
+## Challenge Technical Details
+flag: flag{y75yisg6}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3t5NzV5aXNnNn0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

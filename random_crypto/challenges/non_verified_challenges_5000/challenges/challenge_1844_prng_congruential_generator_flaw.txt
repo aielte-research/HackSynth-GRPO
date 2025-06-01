@@ -1,0 +1,29 @@
+
+A hacker encrypted critical coordinates using a flawed stream cipher. Intercept the ciphertext, break the weak LCG Predictability algorithm, and recover the secret: 6b90608776c93590779e798b6681
+
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 662482089
+  - Multiplier: 94292092
+  - Increment: 532621820
+The first 5 outputs of the LCG are provided: [541233042, 625274603, 161583130, 378624405, 127073903] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{54pzbxkk}
+ciphertext: 6b90608776c93590779e798b6681
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 662482089
+  - Multiplier: 94292092
+  - Increment: 532621820
+The first 5 outputs of the LCG are provided: [541233042, 625274603, 161583130, 378624405, 127073903] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

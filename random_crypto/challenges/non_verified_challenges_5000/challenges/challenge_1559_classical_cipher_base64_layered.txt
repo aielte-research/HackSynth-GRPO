@@ -1,0 +1,17 @@
+
+Intercepted spy notes use strange symbols. Can you decode Agent X’s secret message? The coded string is below: Vm0weGQxTnRVWGxXYTFwUFZsZG9WRmxVU2xOalJsSlZWR3RPYW1KR1dubFdNalZyVm14S2MxZHVhRlpOYWtGNFdXdGtTMUl4VG5OaFJtUlhUVEZHTTFkV1dtRlRiVkYzVGxaV1UySkdXbGhXYlhSYVpXeGFWbGRyV2xCV2EwcFRWVVpSZDFCUlBUMD0=
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{z4hw12er}
+cipher: Base64
+ciphertext: Vm0weGQxTnRVWGxXYTFwUFZsZG9WRmxVU2xOalJsSlZWR3RPYW1KR1dubFdNalZyVm14S2MxZHVhRlpOYWtGNFdXdGtTMUl4VG5OaFJtUlhUVEZHTTFkV1dtRlRiVkYzVGxaV1UySkdXbGhXYlhSYVpXeGFWbGRyV2xCV2EwcFRWVVpSZDFCUlBUMD0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 8 times in total.
+subtype: base64_layered
+archetype: classical_cipher

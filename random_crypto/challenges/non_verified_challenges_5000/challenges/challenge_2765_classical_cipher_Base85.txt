@@ -1,0 +1,15 @@
+An anonymous hacker left a secret stash location encoded in Base85. Can you uncover it from the message below? W^7?+dpI&<cx*8;cYO
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{82cxl12w}
+cipher: Base85
+ciphertext: W^7?+dpI&<cx*8;cYO
+hint: Use a Base85 decoder to retrieve the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is straightforward; only one layer is used.
+subtype: Base85
+archetype: classical_cipher

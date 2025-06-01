@@ -1,0 +1,19 @@
+
+Intercepted during a covert transmission, algshtumqhndpwmzspsrhtumqhsnbwtozspxmzqkrkpogshtumqhndpwmzplokhkubthyklysmdxfgcsdnwsqlpokdzfpfbwzkrcvqrkmzhlsndrlqdsthgldpkhnyknqlbxqlpogfoidshmqzagarmw was hidden using a classic Playfair cipher. Can you decode the secret message?
+
+
+The flag format is flag{...}
+The keyword is: baqtkczg
+
+---
+
+## Challenge Technical Details
+flag: flag{qzto7j9y}
+ciphertext: algshtumqhndpwmzspsrhtumqhsnbwtozspxmzqkrkpogshtumqhndpwmzplokhkubthyklysmdxfgcsdnwsqlpokdzfpfbwzkrcvqrkmzhlsndrlqdsthgldpkhnyknqlbxqlpogfoidshmqzagarmw
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: baqtkczg
+extra_info: The playfair table is [['b', 'a', 'q', 't', 'k'], ['c', 'z', 'g', 'd', 'e'], ['f', 'h', 'i', 'l', 'm'], ['n', 'o', 'p', 'r', 's'], ['u', 'v', 'w', 'x', 'y']]
+subtype: playfair
+archetype: classical_cipher

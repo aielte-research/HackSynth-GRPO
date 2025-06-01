@@ -1,0 +1,14 @@
+A hacker intercepted an urgent signed message, but noticed the signature cipher had an unusually low exponent. Can you forge a valid signature for the intercepted ciphertext, 0x3f052464bcad0e344ffc8b71b0698d92e89f089bee7978be5a837e5f7f5eceeaab0e2587bb2b88f174aba4394d7b7e87320b5e7640250e0543807c95845d458c?
+
+Public Key (n, e): (10349347551996352118827272849676232916535114466189345256967506526562470333492488174240287854890821763443929789946653371001713568964863328881266117433923139, 3)
+
+---
+
+## Challenge Technical Details
+flag: flag{e6ssz715}
+ciphertext: 0x3f052464bcad0e344ffc8b71b0698d92e89f089bee7978be5a837e5f7f5eceeaab0e2587bb2b88f174aba4394d7b7e87320b5e7640250e0543807c95845d458c
+cipher: RSA Low-Exponent Signature
+hint: What happens when you cube small numbers? Remember e=3!
+necessary_info: Public Key (n, e): (10349347551996352118827272849676232916535114466189345256967506526562470333492488174240287854890821763443929789946653371001713568964863328881266117433923139, 3)
+subtype: rsa_sign_with_low_public_exponent
+archetype: signature_schemes

@@ -1,0 +1,20 @@
+
+A rogue AI encrypted its secret instructions using AES. Can you recover the original message from this mysterious ciphertext? ciphertext1:070f6f19c2236949f77733709ec3, ciphertext2: 070f6f19c22f3c5be67b2f3283c3
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{a3udfy3n}
+ciphertext: ciphertext1:070f6f19c2236949f77733709ec3, ciphertext2: 070f6f19c22f3c5be67b2f3283c3
+tag1: f14fecda7c0e53918e3ac07ca13a96e3
+tag2: 8f2dac6a8dde793a2457ecfbb9bd043d
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 1d92be50aa3b5f6fd44c1a
+subtype: aes_ccm
+archetype: aes

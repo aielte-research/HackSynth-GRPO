@@ -1,0 +1,29 @@
+
+An intern tried securing the flag with a homebrew cipher based on an LCG, but left the output too predictable. Can you recover the flag from this ciphertext: 4365b9ff5e62ecf5477de1e81074?
+
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1334347222
+  - Multiplier: 819815632
+  - Increment: 881338018
+The first 5 outputs of the LCG are provided: [907929828, 40895896, 522159560, 273302044, 76390444] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{k4mbt9p5}
+ciphertext: 4365b9ff5e62ecf5477de1e81074
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1334347222
+  - Multiplier: 819815632
+  - Increment: 881338018
+The first 5 outputs of the LCG are provided: [907929828, 40895896, 522159560, 273302044, 76390444] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

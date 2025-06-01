@@ -1,0 +1,14 @@
+An old hacker left a mysterious HEX-coded message on a floppy disk. Can you decode the secret by converting the 666c61677b31306862343066307d back to plain text?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{10hb40f0}
+cipher: Hex
+ciphertext: 666c61677b31306862343066307d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

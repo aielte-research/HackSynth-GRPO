@@ -1,0 +1,18 @@
+An undercover agent sent a secret message. Only those who know the AES key can reveal its contents: ciphertext1:b61166709131c209ce85d1faa248, ciphertext2: b6116670916ad74d99d5d6a2b648
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{6gs5aiir}
+ciphertext: ciphertext1:b61166709131c209ce85d1faa248, ciphertext2: b6116670916ad74d99d5d6a2b648
+tag1: 8bb6f159789065c2bee1056c1d4af1e2
+tag2: 8e51a26abdfacbcb0987cef8cb942f12
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 16d254f4bee1ea6d57e16a
+subtype: aes_ccm
+archetype: aes

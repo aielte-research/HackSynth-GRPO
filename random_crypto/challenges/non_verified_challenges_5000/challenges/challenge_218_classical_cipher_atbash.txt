@@ -1,0 +1,14 @@
+Found in an old library, this coded message hints at an ancient method: letters written backward. Can you unveil the original text from uozt{rpm2c4uw}?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ikn2x4fd}
+cipher: Atbash
+ciphertext: uozt{rpm2c4uw}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

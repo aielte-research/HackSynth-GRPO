@@ -1,0 +1,15 @@
+An old hacker left a secret message in a classic substitution cipher. Can you decode el wzpvtakzrvhp, r simstetiteal wevhuz es r juthad ac ulwzpvtelk el yhewh ilets ac vfreltuxt rzu zuvfrwud yeth thu wevhuztuxt, el r ducelud jrlluz, yeth thu hufv ac r bup; thu "ilets" jrp mu selkfu futtuzs (thu jast wajjal), vrezs ac futtuzs, tzevfuts ac futtuzs, jextizus ac thu rmaqu, rld sa cazth. thu zuwuequz duwevhuzs thu tuxt mp vuzcazjelk thu elquzsu simstetiteal vzawuss ta uxtzrwt thu azekelrf jussrku. febuyesu, orwnius niewbfp gevvud thzaikh r niusteal al guza-blayfudku vzaacs, ulsizelk la wzetewrf futtuz yrs fuct ait ac aiz wzpvtakzrvhew viggfu.cfrk{sm78nu1y} and reveal their hidden tip?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{sb78qe1w}
+ciphertext: el wzpvtakzrvhp, r simstetiteal wevhuz es r juthad ac ulwzpvtelk el yhewh ilets ac vfreltuxt rzu zuvfrwud yeth thu wevhuztuxt, el r ducelud jrlluz, yeth thu hufv ac r bup; thu "ilets" jrp mu selkfu futtuzs (thu jast wajjal), vrezs ac futtuzs, tzevfuts ac futtuzs, jextizus ac thu rmaqu, rld sa cazth. thu zuwuequz duwevhuzs thu tuxt mp vuzcazjelk thu elquzsu simstetiteal vzawuss ta uxtzrwt thu azekelrf jussrku. febuyesu, orwnius niewbfp gevvud thzaikh r niusteal al guza-blayfudku vzaacs, ulsizelk la wzetewrf futtuz yrs fuct ait ac aiz wzpvtakzrvhew viggfu.cfrk{sm78nu1y}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'r', 'b': 'm', 'c': 'w', 'd': 'd', 'e': 'u', 'f': 'c', 'g': 'k', 'h': 'h', 'i': 'e', 'j': 'o', 'k': 'b', 'l': 'f', 'm': 'j', 'n': 'l', 'o': 'a', 'p': 'v', 'q': 'n', 'r': 'z', 's': 's', 't': 't', 'u': 'i', 'v': 'q', 'w': 'y', 'x': 'x', 'y': 'p', 'z': 'g'}
+subtype: substitution
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+An agent intercepted a secret message, but it's hidden—XORed with a single-byte key. Can you recover the hidden flag from this ciphertext? stringA: 093f51350b042104720b3525374a stringB: 6f5330527077463242625a425837
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{sg60iogo}
+cipher: XOR
+ciphertext: stringA: 093f51350b042104720b3525374a stringB: 6f5330527077463242625a425837
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

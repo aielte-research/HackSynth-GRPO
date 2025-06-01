@@ -1,0 +1,17 @@
+
+You discover an old postcard with scrambled text. Decode the Substitution cipher to reveal the sender’s secret message: yb vpzstmwpesuz, e akhatytktymb vysunp ya e gntumc mf nbvpzstybw yb quyvu kbyta mf soeybtnit epn pnsoevnc qytu tun vysunptnit, yb e cnfybnc gebbnp, qytu tun unos mf e rnz; tun "kbyta" gez hn aybwon onttnpa (tun gmat vmggmb), seypa mf onttnpa, tpysonta mf onttnpa, gyitkpna mf tun ehmdn, ebc am fmptu. tun pnvnydnp cnvysunpa tun tnit hz snpfmpgybw tun ybdnpan akhatytktymb spmvnaa tm nitpevt tun mpywybeo gnaaewn. oyrnqyan, xevlkna lkyvroz jyssnc tupmkwu e lknatymb mb jnpm-rbmqoncwn spmmfa, nbakpybw bm vpytyveo onttnp qea onft mkt mf mkp vpzstmwpesuyv skjjon.foew{330eqjzw}
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{330awzyg}
+ciphertext: yb vpzstmwpesuz, e akhatytktymb vysunp ya e gntumc mf nbvpzstybw yb quyvu kbyta mf soeybtnit epn pnsoevnc qytu tun vysunptnit, yb e cnfybnc gebbnp, qytu tun unos mf e rnz; tun "kbyta" gez hn aybwon onttnpa (tun gmat vmggmb), seypa mf onttnpa, tpysonta mf onttnpa, gyitkpna mf tun ehmdn, ebc am fmptu. tun pnvnydnp cnvysunpa tun tnit hz snpfmpgybw tun ybdnpan akhatytktymb spmvnaa tm nitpevt tun mpywybeo gnaaewn. oyrnqyan, xevlkna lkyvroz jyssnc tupmkwu e lknatymb mb jnpm-rbmqoncwn spmmfa, nbakpybw bm vpytyveo onttnp qea onft mkt mf mkp vpzstmwpesuyv skjjon.foew{330eqjzw}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'e', 'b': 'h', 'c': 'v', 'd': 'c', 'e': 'n', 'f': 'f', 'g': 'w', 'h': 'u', 'i': 'y', 'j': 'x', 'k': 'r', 'l': 'o', 'm': 'g', 'n': 'b', 'o': 'm', 'p': 's', 'q': 'l', 'r': 'p', 's': 'a', 't': 't', 'u': 'k', 'v': 'd', 'w': 'q', 'x': 'i', 'y': 'z', 'z': 'j'}
+subtype: substitution
+archetype: classical_cipher

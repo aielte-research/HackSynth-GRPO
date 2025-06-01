@@ -1,0 +1,15 @@
+A mysterious USB arrived, labeled "XTS Archive." Files are locked with AES-XTS. Can you recover the original from this encrypted data: ciphertext1:79c8c49500c102bb2df827608dcf71ee, ciphertext2: 956359fc1877301fd603b59e9919900e835453abefc0a3c6e3ed20d3f65ca73a?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{03y3021g}
+ciphertext: ciphertext1:79c8c49500c102bb2df827608dcf71ee, ciphertext2: 956359fc1877301fd603b59e9919900e835453abefc0a3c6e3ed20d3f65ca73a
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 3de918e59be0557be219428b3672dd76
+subtype: aes_xts
+archetype: aes

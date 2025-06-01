@@ -1,0 +1,15 @@
+Decrypt this intercepted message encrypted with SplitNumberMix. The sender split and mixed numbers to hide the truth. Ciphertext:  77777 flag{ 77777 wzkjiwah} 77777 
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{wzkjiwah}
+ciphertext:  77777 flag{ 77777 wzkjiwah} 77777 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 2 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

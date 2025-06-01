@@ -1,0 +1,27 @@
+Someone’s locked the server with a pseudorandom code. All you have is this 7e10332663183e226b0821292c01 and rumors they used a Linear Congruential Generator. Can you crack it?
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 758682473
+  - Multiplier: 554813111
+  - Increment: 648453818
+The first 5 outputs of the LCG are provided: [642583088, 219255157, 739765934, 503542202, 153883933] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{dlcstsh4}
+ciphertext: 7e10332663183e226b0821292c01
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 758682473
+  - Multiplier: 554813111
+  - Increment: 648453818
+The first 5 outputs of the LCG are provided: [642583088, 219255157, 739765934, 503542202, 153883933] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

@@ -1,0 +1,15 @@
+An old hacker left a secret in Base85 for her protégé. The answer is hidden in Q8sTRJX$6xX;4yHCRQp_RatdGPi!<pZBZzDP((;WL3Vageg. Can you decode it and claim her digital legacy?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{zxgpo9db}
+cipher: Base85
+ciphertext: Q8sTRJX$6xX;4yHCRQp_RatdGPi!<pZBZzDP((;WL3Vageg
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 5 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

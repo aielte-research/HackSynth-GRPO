@@ -1,0 +1,18 @@
+Two messages were securely sent, but someone mistakenly reused the nonce with AES-GCM. Can you exploit this to recover the plaintexts from the ciphertexts? ciphertext1:bb907fec5684a3a32c7554881311, ciphertext2: a99477f80d8eaaed7a6c55dc1f4c52f2bf85
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{czn8vutm}
+ciphertext: ciphertext1:bb907fec5684a3a32c7554881311, ciphertext2: a99477f80d8eaaed7a6c55dc1f4c52f2bf85
+tag1: 00abd5537f943ba4e2511ac9bfab44dd
+tag2: 8c542e4798374a4bec88d29f09f5ac98
+cipher: AES-GCM
+vulnerability: nonce reuse
+hint: AES-GCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 2a5762668485b43baed0e653
+subtype: aes_gcm
+archetype: aes

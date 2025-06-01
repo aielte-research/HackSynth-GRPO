@@ -1,0 +1,15 @@
+A hacker slipped their secret into a digital note. All you found is a suspicious string: ZmxhZ3tiZ2o1czg4eH0=. Can you decode what message they hid?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{bgj5s88x}
+cipher: Base64
+ciphertext: ZmxhZ3tiZ2o1czg4eH0=
+hint: Use a Base64 decoder to obtain the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is direct; no additional layers or tricks.
+subtype: Base64
+archetype: classical_cipher

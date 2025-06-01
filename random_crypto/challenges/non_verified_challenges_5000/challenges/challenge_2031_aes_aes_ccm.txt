@@ -1,0 +1,20 @@
+
+A covert agent encrypts a secret message using AES before transmission. Only with the right key can you reveal the hidden intel in ciphertext1:9eacc794e39b39730036b7547dea, ciphertext2: 9eacc794e396377a5b22ad4264ea.
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{l7j3nwyn}
+ciphertext: ciphertext1:9eacc794e39b39730036b7547dea, ciphertext2: 9eacc794e396377a5b22ad4264ea
+tag1: 4cf883e6fdf428cb6c50933be816c703
+tag2: 6813dd7b35786fa36d3b119a23eb0cd7
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: b9683be336c1218c7a186c
+subtype: aes_ccm
+archetype: aes

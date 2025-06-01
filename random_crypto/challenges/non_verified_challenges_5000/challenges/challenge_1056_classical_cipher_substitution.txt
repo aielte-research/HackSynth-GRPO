@@ -1,0 +1,15 @@
+An ancient treasure map uses a coded message. Can you reveal the hidden location by deciphering this classic substitution cipher? Ciphertext: tf exrvanlxzvsr, z dwudatawatnf etvsqx td z jqasnb np qfexrvatfl tf kstes wftad np vhztfaqia zxq xqvhzeqb ktas asq etvsqxaqia, tf z bqptfqb jzffqx, ktas asq sqhv np z oqr; asq "wftad" jzr uq dtflhq hqaaqxd (asq jnda enjjnf), vztxd np hqaaqxd, axtvhqad np hqaaqxd, jtiawxqd np asq zungq, zfb dn pnxas. asq xqeqtgqx bqetvsqxd asq aqia ur vqxpnxjtfl asq tfgqxdq dwudatawatnf vxneqdd an qiaxzea asq nxtltfzh jqddzlq. htoqktdq, czemwqd mwteohr ytvvqb asxnwls z mwqdatnf nf yqxn-ofnkhqblq vxnnpd, qfdwxtfl fn extatezh hqaaqx kzd hqpa nwa np nwx exrvanlxzvste vwyyhq.phzl{me00j45w}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{qc00m45u}
+ciphertext: tf exrvanlxzvsr, z dwudatawatnf etvsqx td z jqasnb np qfexrvatfl tf kstes wftad np vhztfaqia zxq xqvhzeqb ktas asq etvsqxaqia, tf z bqptfqb jzffqx, ktas asq sqhv np z oqr; asq "wftad" jzr uq dtflhq hqaaqxd (asq jnda enjjnf), vztxd np hqaaqxd, axtvhqad np hqaaqxd, jtiawxqd np asq zungq, zfb dn pnxas. asq xqeqtgqx bqetvsqxd asq aqia ur vqxpnxjtfl asq tfgqxdq dwudatawatnf vxneqdd an qiaxzea asq nxtltfzh jqddzlq. htoqktdq, czemwqd mwteohr ytvvqb asxnwls z mwqdatnf nf yqxn-ofnkhqblq vxnnpd, qfdwxtfl fn extatezh hqaaqx kzd hqpa nwa np nwx exrvanlxzvste vwyyhq.phzl{me00j45w}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'z', 'b': 'u', 'c': 'e', 'd': 'b', 'e': 'q', 'f': 'p', 'g': 'l', 'h': 's', 'i': 't', 'j': 'c', 'k': 'o', 'l': 'h', 'm': 'j', 'n': 'f', 'o': 'n', 'p': 'v', 'q': 'm', 'r': 'x', 's': 'd', 't': 'a', 'u': 'w', 'v': 'g', 'w': 'k', 'x': 'i', 'y': 'r', 'z': 'y'}
+subtype: substitution
+archetype: classical_cipher

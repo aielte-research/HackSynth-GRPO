@@ -1,0 +1,12 @@
+An old forum used weak session cookies, protected by the Insecure Session Token cipher. Find out what secret data the token 757365725f357571373a666c61677b673363676b7767797d3a31373438313635363431 hides.
+
+---
+
+## Challenge Technical Details
+flag: flag{g3cgkwgy}
+ciphertext: 757365725f357571373a666c61677b673363676b7767797d3a31373438313635363431
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_5uq7:flag{g3cgkwgy}:1748165641'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

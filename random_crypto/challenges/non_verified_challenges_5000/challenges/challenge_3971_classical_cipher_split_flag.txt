@@ -1,0 +1,17 @@
+
+A rogue AI is sending secret coordinates using the SplitNumberMix cipher. Can you recover the message hidden in  33333333 fla 33333333 g{bjzee 33333333 kbw} 33333333  before it falls into the wrong hands?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{bjzeekbw}
+ciphertext:  33333333 fla 33333333 g{bjzee 33333333 kbw} 33333333 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 3 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

@@ -1,0 +1,17 @@
+
+Intercepted at HQ: the villain split the flag using ChunkedFlag. Crack fla g{ 6r 5q cg 5t } to help us piece it back together!
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{6r5qcg5t}
+ciphertext: fla g{ 6r 5q cg 5t }
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

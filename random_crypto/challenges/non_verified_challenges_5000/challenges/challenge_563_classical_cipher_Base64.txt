@@ -1,0 +1,15 @@
+A hacker sent a secret code using a mysterious encoding. Can you uncover the hidden message behind this Base64-encrypted text? Here it is: ZmxhZ3tyN2trcHo0Z30=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{r7kkpz4g}
+cipher: Base64
+ciphertext: ZmxhZ3tyN2trcHo0Z30=
+hint: Use a Base64 decoder to obtain the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is direct; no additional layers or tricks.
+subtype: Base64
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+An old hacker group left f{8mlg99h2}asx as the key to their club. Decode the message using the Rail Fence cipher to reveal the secret password.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{9s98hx2m}
+ciphertext: f{8mlg99h2}asx
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 3
+subtype: rail_fence
+archetype: classical_cipher

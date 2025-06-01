@@ -1,0 +1,15 @@
+An old hacker hid the vault password by storing its MD5 hash. Retrieve the original password from this hash: 8db5cea6385faa2eae756db47d3920ad
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{vhcaw}
+ciphertext: 8db5cea6385faa2eae756db47d3920ad
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

@@ -1,0 +1,17 @@
+
+Agent Vega intercepted a suspicious note containing this SplitNumberMix-encrypted message:  4444444 flag{l 4444444 q 4444444 a 4444444 kqrqv} 4444444 . Can you retrieve the secret code hidden within?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{lqakqrqv}
+ciphertext:  4444444 flag{l 4444444 q 4444444 a 4444444 kqrqv} 4444444 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 4 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

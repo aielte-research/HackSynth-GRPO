@@ -1,0 +1,15 @@
+An old hacker left a secret stash’s location encoded in an ASCII Shift cipher. Can you crack the code and find the hidden treasure? Ciphertext: ntiolsw;n?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{dwkow3f7}
+cipher: ASCII Shift
+ciphertext: ntiolsw;n?
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 8
+subtype: ascii_shift
+archetype: classical_cipher

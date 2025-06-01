@@ -1,0 +1,19 @@
+After reusing their pet’s name as a SHA-256 salt, the admin hashed passwords. Can you crack the weakly protected hash? The hash is: 1c3bafdd0c76b81fd0c036b79a0a260019418d071dccc145cbf6ee26b07fbbfd
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{ecv}
+ciphertext: 1c3bafdd0c76b81fd0c036b79a0a260019418d071dccc145cbf6ee26b07fbbfd
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

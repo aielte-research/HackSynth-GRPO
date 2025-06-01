@@ -1,0 +1,15 @@
+An intercepted spy message uses a simple letter swap. Can you reveal the original instructions from the coded text below? qz confhvyolfpn, l useuhqhshqvz cqfpio qu l gihpvj vr izconfhqzy qz xpqcp szqhu vr fwlqzhith loi oifwlcij xqhp hpi cqfpiohith, qz l jirqzij glzzio, xqhp hpi piwf vr l min; hpi "szqhu" gln ei uqzywi wihhiou (hpi gvuh cvggvz), flqou vr wihhiou, hoqfwihu vr wihhiou, gqthsoiu vr hpi levdi, lzj uv rvohp. hpi oiciqdio jicqfpiou hpi hith en fiorvogqzy hpi qzdioui useuhqhshqvz fovciuu hv itholch hpi voqyqzlw giuulyi. wqmixqui, klcbsiu bsqcmwn aqffij hpovsyp l bsiuhqvz vz aiov-mzvxwijyi fovvru, izusoqzy zv coqhqclw wihhio xlu wirh vsh vr vso confhvyolfpqc fsaawi.rwly{9wrous2d}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{9lfrsu2v}
+ciphertext: qz confhvyolfpn, l useuhqhshqvz cqfpio qu l gihpvj vr izconfhqzy qz xpqcp szqhu vr fwlqzhith loi oifwlcij xqhp hpi cqfpiohith, qz l jirqzij glzzio, xqhp hpi piwf vr l min; hpi "szqhu" gln ei uqzywi wihhiou (hpi gvuh cvggvz), flqou vr wihhiou, hoqfwihu vr wihhiou, gqthsoiu vr hpi levdi, lzj uv rvohp. hpi oiciqdio jicqfpiou hpi hith en fiorvogqzy hpi qzdioui useuhqhshqvz fovciuu hv itholch hpi voqyqzlw giuulyi. wqmixqui, klcbsiu bsqcmwn aqffij hpovsyp l bsiuhqvz vz aiov-mzvxwijyi fovvru, izusoqzy zv coqhqclw wihhio xlu wirh vsh vr vso confhvyolfpqc fsaawi.rwly{9wrous2d}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'l', 'b': 'e', 'c': 'c', 'd': 'j', 'e': 'i', 'f': 'r', 'g': 'y', 'h': 'p', 'i': 'q', 'j': 'k', 'k': 'm', 'l': 'w', 'm': 'g', 'n': 'z', 'o': 'v', 'p': 'f', 'q': 'b', 'r': 'o', 's': 'u', 't': 'h', 'u': 's', 'v': 'd', 'w': 'x', 'x': 't', 'y': 'n', 'z': 'a'}
+subtype: substitution
+archetype: classical_cipher

@@ -1,0 +1,17 @@
+An archaeologist found a postcard with secret instructions. The note says, "Decrypt the following using Playfair." Ciphertext: qgalpebubhkihrdambkrpebubhkzfnbpoamzdaoqwuetalpebubhkihrdazrxypotnepucpwlofmcddeikakfgetnodifdfnobelxowudabrkznmgfblepgcimopuyyzfgqnfgetdcxpblnrohzzvaqz
+
+The flag format is flag{...}
+The keyword is: untqfyeo
+
+---
+
+## Challenge Technical Details
+flag: flag{4x24xe1f}
+ciphertext: qgalpebubhkihrdambkrpebubhkzfnbpoamzdaoqwuetalpebubhkihrdazrxypotnepucpwlofmcddeikakfgetnodifdfnobelxowudabrkznmgfblepgcimopuyyzfgqnfgetdcxpblnrohzzvaqz
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: untqfyeo
+extra_info: The playfair table is [['u', 'n', 't', 'q', 'f'], ['y', 'e', 'o', 'a', 'b'], ['c', 'd', 'g', 'h', 'i'], ['k', 'l', 'm', 'p', 'r'], ['s', 'v', 'w', 'x', 'z']]
+subtype: playfair
+archetype: classical_cipher

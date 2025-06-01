@@ -1,0 +1,19 @@
+An intruder left a secret message locked by a time-based PRNG cipher. Crack the code below and find their escape route: 666c3a827b646f90766e229c757d
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 68862)
+The system time when the encryption process started was around: 2025-05-25 11:55:02 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{d4uvnyyu}
+ciphertext: 666c3a827b646f90766e229c757d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 68862)
+The system time when the encryption process started was around: 2025-05-25 11:55:02 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 23525.
+subtype: time_based_seed
+archetype: prng

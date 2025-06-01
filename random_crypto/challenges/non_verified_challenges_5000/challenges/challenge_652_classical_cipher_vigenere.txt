@@ -1,0 +1,16 @@
+An intercepted message hints at a secret wallet key. Experts suspect a Vigenère cipher hides the answer. Can you decrypt ueob{rzttdvbw} and discover the hidden value?
+
+The flag format is flag{...}
+The keyword is: ptovqnvs
+
+---
+
+## Challenge Technical Details
+flag: flag{bmybocnb}
+ciphertext: ueob{rzttdvbw}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: ptovqnvs
+subtype: vigenere
+archetype: classical_cipher

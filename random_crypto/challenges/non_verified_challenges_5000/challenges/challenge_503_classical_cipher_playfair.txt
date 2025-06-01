@@ -1,0 +1,17 @@
+Detective Lila found a coded note in an old book. Legend says its secret is unlocked using a 5x5 Playfair cipher square. Ciphertext: rndqamkbgltgfrmhtisqamkbglstpvgsnbwimhcstpctdqamkbgltgfrmhwgxmsmdzmaqaslnhpsoghdgtkqroctqngnhopvmydexgtpmhblstsoorhqmahfhwmspxlqropzroctgordhqbocakgugmw
+
+The flag format is flag{...}
+The keyword is: fbilokyg
+
+---
+
+## Challenge Technical Details
+flag: flag{9cywk0h1}
+ciphertext: rndqamkbgltgfrmhtisqamkbglstpvgsnbwimhcstpctdqamkbgltgfrmhwgxmsmdzmaqaslnhpsoghdgtkqroctqngnhopvmydexgtpmhblstsoorhqmahfhwmspxlqropzroctgordhqbocakgugmw
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: fbilokyg
+extra_info: The playfair table is [['f', 'b', 'i', 'l', 'o'], ['k', 'y', 'g', 'a', 'c'], ['d', 'e', 'h', 'm', 'n'], ['p', 'q', 'r', 's', 't'], ['u', 'v', 'w', 'x', 'z']]
+subtype: playfair
+archetype: classical_cipher

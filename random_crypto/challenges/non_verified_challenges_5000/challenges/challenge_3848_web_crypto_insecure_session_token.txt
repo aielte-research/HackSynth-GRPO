@@ -1,0 +1,12 @@
+An intern's web app generates session tokens using a weak homebrew cipher. Can you recover the original session data from this token: 757365725f6c3635393a666c61677b797671726b34746f7d3a31373438313639353230?
+
+---
+
+## Challenge Technical Details
+flag: flag{yvqrk4to}
+ciphertext: 757365725f6c3635393a666c61677b797671726b34746f7d3a31373438313639353230
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_l659:flag{yvqrk4to}:1748169520'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

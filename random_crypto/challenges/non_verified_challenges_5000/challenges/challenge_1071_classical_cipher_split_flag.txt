@@ -1,0 +1,17 @@
+
+An encrypted password to the vault was left in a note—split and mixed via an obscure method. Can you decipher it? Ciphertext:  88888888 fla 88888888 g{kznplpm 88888888 m} 88888888 
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{kznplpmm}
+ciphertext:  88888888 fla 88888888 g{kznplpm 88888888 m} 88888888 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 3 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

@@ -1,0 +1,21 @@
+Agent N left a coded note. Only those who crack the substitution cipher will discover the hidden rendezvous: oext{pmg3o5js}
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'x', 'b': 'm', 'c': 'c', 'd': 'z', 'e': 'i', 'f': 'o', 'g': 't', 'h': 'j', 'i': 'r', 'j': 'v', 'k': 'h', 'l': 'e', 'm': 'f', 'n': 'd', 'o': 'y', 'p': 'g', 'q': 'w', 'r': 's', 's': 'a', 't': 'q', 'u': 'k', 'v': 'b', 'w': 'u', 'x': 'n', 'y': 'l', 'z': 'p'}
+
+---
+
+## Challenge Technical Details
+flag: flag{zbp3f5hr}
+cipher: Substitution
+ciphertext: oext{pmg3o5js}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'x', 'b': 'm', 'c': 'c', 'd': 'z', 'e': 'i', 'f': 'o', 'g': 't', 'h': 'j', 'i': 'r', 'j': 'v', 'k': 'h', 'l': 'e', 'm': 'f', 'n': 'd', 'o': 'y', 'p': 'g', 'q': 'w', 'r': 's', 's': 'a', 't': 'q', 'u': 'k', 'v': 'b', 'w': 'u', 'x': 'n', 'y': 'l', 'z': 'p'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

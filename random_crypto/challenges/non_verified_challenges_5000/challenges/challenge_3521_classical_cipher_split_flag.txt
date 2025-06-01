@@ -1,0 +1,17 @@
+
+Agent Nova hid the password using SplitNumberMix. Can you decode the secret message? Ciphertext:  444444444 flag{coennxaf 444444444 } 444444444 
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{coennxaf}
+ciphertext:  444444444 flag{coennxaf 444444444 } 444444444 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 2 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

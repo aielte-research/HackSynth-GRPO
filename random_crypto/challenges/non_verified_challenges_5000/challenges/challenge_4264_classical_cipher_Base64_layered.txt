@@ -1,0 +1,15 @@
+A hacker sent you a strange encoded string. Can you decode the message hidden in the Base64 ciphertext? Here it is: Vm0weGQxTnRVWGxXYTFwUFZsZG9WRmxVU2xOalJsSlZWR3RPYWxadVFsbFpNM0JIWVVaS2MxZHViRmROYm1neldXdGFTMk14VG5OWGJHUlRUVEpvZVZkV1dsWmxSbVJJVld0V1dHSkdXbGhXYlhSYVpXeGFWbGRyV2xCV2EwcFRWVVpSZDFCUlBUMD0=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{7d5u3uhc}
+cipher: Base64
+ciphertext: Vm0weGQxTnRVWGxXYTFwUFZsZG9WRmxVU2xOalJsSlZWR3RPYWxadVFsbFpNM0JIWVVaS2MxZHViRmROYm1neldXdGFTMk14VG5OWGJHUlRUVEpvZVZkV1dsWmxSbVJJVld0V1dHSkdXbGhXYlhSYVpXeGFWbGRyV2xCV2EwcFRWVVpSZDFCUlBUMD0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 8 times in total.
+subtype: Base64_layered
+archetype: classical_cipher

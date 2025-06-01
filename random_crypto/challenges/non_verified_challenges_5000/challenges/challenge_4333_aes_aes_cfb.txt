@@ -1,0 +1,17 @@
+A spy encoded the vault password with AES-CFB. All you have is this ciphertext: a76e71c4f09accee814cfddedf4221d0d2e88a699dde9d290b04d7504863ddfe7000b4d64afded1c5b97c8b93696e29bb6c8c5d9925572d58ec0cd991619703f107a6efda59a985d48a3c8ff3ba14891e101d8b291af8155092a3c0209a66c81e400f98000c1747b66008d85eff3080ff43cf7ae0a266e12b3409cb22e744cb289fa55c99dc4a30792adf3516b13252bd7a5cccc687a3d8322a0e9d266fa09d6e76604170ff9bbeaa05aef11c956369afb. Recover the original message to enter the vault.
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{u24jl1uh}
+ciphertext: a76e71c4f09accee814cfddedf4221d0d2e88a699dde9d290b04d7504863ddfe7000b4d64afded1c5b97c8b93696e29bb6c8c5d9925572d58ec0cd991619703f107a6efda59a985d48a3c8ff3ba14891e101d8b291af8155092a3c0209a66c81e400f98000c1747b66008d85eff3080ff43cf7ae0a266e12b3409cb22e744cb289fa55c99dc4a30792adf3516b13252bd7a5cccc687a3d8322a0e9d266fa09d6e76604170ff9bbeaa05aef11c956369afb
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: dd724317a9ddcd2f72bd18af5a53e6b0
+subtype: aes_cfb
+archetype: aes

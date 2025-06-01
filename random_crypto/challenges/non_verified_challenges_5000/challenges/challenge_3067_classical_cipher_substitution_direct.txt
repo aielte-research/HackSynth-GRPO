@@ -1,0 +1,21 @@
+Intercepted messages from a secret syndicate are encoded. Can you break their simple substitution cipher and reveal the hidden deal in bkas{2uegtax4}?
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'a', 'b': 'd', 'c': 'c', 'd': 'o', 'e': 'e', 'f': 'b', 'g': 's', 'h': 'm', 'i': 'v', 'j': 'f', 'k': 'l', 'l': 'k', 'm': 'q', 'n': 'r', 'o': 'g', 'p': 'z', 'q': 'h', 'r': 'w', 's': 'p', 't': 'y', 'u': 'i', 'v': 't', 'w': 'n', 'x': 'j', 'y': 'x', 'z': 'u'}
+
+---
+
+## Challenge Technical Details
+flag: flag{2zeovay4}
+cipher: Substitution
+ciphertext: bkas{2uegtax4}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'a', 'b': 'd', 'c': 'c', 'd': 'o', 'e': 'e', 'f': 'b', 'g': 's', 'h': 'm', 'i': 'v', 'j': 'f', 'k': 'l', 'l': 'k', 'm': 'q', 'n': 'r', 'o': 'g', 'p': 'z', 'q': 'h', 'r': 'w', 's': 'p', 't': 'y', 'u': 'i', 'v': 't', 'w': 'n', 'x': 'j', 'y': 'x', 'z': 'u'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

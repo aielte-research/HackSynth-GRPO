@@ -1,0 +1,15 @@
+The mysterious hacker left a secret message for their accomplice, encoded with a simple substitution cipher. Can you decrypt ns vofdhxkobdcf, b eupehnhuhnxs vndcqo ne b zqhcxi xw qsvofdhnsk ns lcnvc usnhe xw dgbnshqmh boq oqdgbvqi lnhc hcq vndcqohqmh, ns b iqwnsqi zbssqo, lnhc hcq cqgd xw b jqf; hcq "usnhe" zbf pq enskgq gqhhqoe (hcq zxeh vxzzxs), dbnoe xw gqhhqoe, hondgqhe xw gqhhqoe, znmhuoqe xw hcq bpxyq, bsi ex wxohc. hcq oqvqnyqo iqvndcqoe hcq hqmh pf dqowxoznsk hcq nsyqoeq eupehnhuhnxs doxvqee hx qmhobvh hcq xonknsbg zqeebkq. gnjqlneq, abvruqe runvjgf tnddqi hcoxukc b ruqehnxs xs tqox-jsxlgqikq doxxwe, qseuonsk sx vonhnvbg gqhhqo lbe gqwh xuh xw xuo vofdhxkobdcnv duttgq.wgbk{dsozk8k7} to reveal their plan?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{pnrmg8g7}
+ciphertext: ns vofdhxkobdcf, b eupehnhuhnxs vndcqo ne b zqhcxi xw qsvofdhnsk ns lcnvc usnhe xw dgbnshqmh boq oqdgbvqi lnhc hcq vndcqohqmh, ns b iqwnsqi zbssqo, lnhc hcq cqgd xw b jqf; hcq "usnhe" zbf pq enskgq gqhhqoe (hcq zxeh vxzzxs), dbnoe xw gqhhqoe, hondgqhe xw gqhhqoe, znmhuoqe xw hcq bpxyq, bsi ex wxohc. hcq oqvqnyqo iqvndcqoe hcq hqmh pf dqowxoznsk hcq nsyqoeq eupehnhuhnxs doxvqee hx qmhobvh hcq xonknsbg zqeebkq. gnjqlneq, abvruqe runvjgf tnddqi hcoxukc b ruqehnxs xs tqox-jsxlgqikq doxxwe, qseuonsk sx vonhnvbg gqhhqo lbe gqwh xuh xw xuo vofdhxkobdcnv duttgq.wgbk{dsozk8k7}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'b', 'b': 'p', 'c': 'v', 'd': 'i', 'e': 'q', 'f': 'w', 'g': 'k', 'h': 'c', 'i': 'n', 'j': 'a', 'k': 'j', 'l': 'g', 'm': 'z', 'n': 's', 'o': 'x', 'p': 'd', 'q': 'r', 'r': 'o', 's': 'e', 't': 'h', 'u': 'u', 'v': 'y', 'w': 'l', 'x': 'm', 'y': 'f', 'z': 't'}
+subtype: substitution
+archetype: classical_cipher

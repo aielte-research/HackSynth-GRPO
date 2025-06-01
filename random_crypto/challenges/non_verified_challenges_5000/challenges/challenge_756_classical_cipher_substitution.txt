@@ -1,0 +1,17 @@
+
+A secret society encoded their meeting location using a simple letter swap. Can you decipher their message? Here it is: th dlpxkcslyxvp, y emzektkmktch dtxvbl te y ubkvcr cf bhdlpxkths th avtdv mhtke cf xiythkbgk ylb lbxiydbr atkv kvb dtxvblkbgk, th y rbfthbr uyhhbl, atkv kvb vbix cf y qbp; kvb "mhtke" uyp zb ethsib ibkkble (kvb ucek dcuuch), xytle cf ibkkble, kltxibke cf ibkkble, utgkmlbe cf kvb yzcwb, yhr ec fclkv. kvb lbdbtwbl rbdtxvble kvb kbgk zp xblfcluths kvb thwbleb emzektkmktch xlcdbee kc bgklydk kvb cltsthyi ubeeysb. itqbateb, oydjmbe jmtdqip ntxxbr kvlcmsv y jmbektch ch nblc-qhcaibrsb xlccfe, bhemlths hc dltktdyi ibkkbl aye ibfk cmk cf cml dlpxkcslyxvtd xmnnib.fiys{awfnyqr4}
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{wvfzakd4}
+ciphertext: th dlpxkcslyxvp, y emzektkmktch dtxvbl te y ubkvcr cf bhdlpxkths th avtdv mhtke cf xiythkbgk ylb lbxiydbr atkv kvb dtxvblkbgk, th y rbfthbr uyhhbl, atkv kvb vbix cf y qbp; kvb "mhtke" uyp zb ethsib ibkkble (kvb ucek dcuuch), xytle cf ibkkble, kltxibke cf ibkkble, utgkmlbe cf kvb yzcwb, yhr ec fclkv. kvb lbdbtwbl rbdtxvble kvb kbgk zp xblfcluths kvb thwbleb emzektkmktch xlcdbee kc bgklydk kvb cltsthyi ubeeysb. itqbateb, oydjmbe jmtdqip ntxxbr kvlcmsv y jmbektch ch nblc-qhcaibrsb xlccfe, bhemlths hc dltktdyi ibkkbl aye ibfk cmk cf cml dlpxkcslyxvtd xmnnib.fiys{awfnyqr4}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'y', 'b': 'z', 'c': 'd', 'd': 'r', 'e': 'b', 'f': 'f', 'g': 's', 'h': 'v', 'i': 't', 'j': 'o', 'k': 'q', 'l': 'i', 'm': 'u', 'n': 'h', 'o': 'c', 'p': 'x', 'q': 'j', 'r': 'l', 's': 'e', 't': 'k', 'u': 'm', 'v': 'w', 'w': 'a', 'x': 'g', 'y': 'p', 'z': 'n'}
+subtype: substitution
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+An old terminal flashes: "Shift the past to read the future." The file contains a message hidden using an ASCII Shift cipher: oujp=s=>?uk
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{4j456lxb}
+cipher: ASCII Shift
+ciphertext: oujp=s=>?uk
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 9
+subtype: ascii_shift
+archetype: classical_cipher

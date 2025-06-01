@@ -1,0 +1,18 @@
+The admin encrypted the flag with RSA but lazily chose small primes. Can you recover the message from this ciphertext? 3235007099880487733
+
+The flag format is flag{...}
+n=11598799149215035259, e=3707021897120110367
+
+---
+
+## Challenge Technical Details
+flag: flag{2hqqy6qd}
+cipher: RSA
+ciphertext: 3235007099880487733
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=11598799149215035259, e=3707021897120110367
+extra_info: p=3369094429, q=3442705271, φ(n)=11598799142403235560
+subtype: small_primes
+archetype: rsa

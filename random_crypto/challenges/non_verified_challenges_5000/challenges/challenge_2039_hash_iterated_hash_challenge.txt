@@ -1,0 +1,24 @@
+An anonymous hacker left a single SHA-256 hash: 01ab730ea18422d82426ece066668e481269f9eb99dafc770deeb7259d6fb063. Can you crack the original message and reveal the secret?
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{q9kb}
+ciphertext: 01ab730ea18422d82426ece066668e481269f9eb99dafc770deeb7259d6fb063
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

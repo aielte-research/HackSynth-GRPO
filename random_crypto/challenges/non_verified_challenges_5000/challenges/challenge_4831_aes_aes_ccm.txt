@@ -1,0 +1,18 @@
+The rogue AI encrypted its code with AES before escaping. Can you recover the master key and decrypt the crucial instructions in ciphertext1:f22ec9c647cb3e52aad6c25e2e17, ciphertext2: f22ec9c647cb2a4bf08e9a433f17?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{guh39kuc}
+ciphertext: ciphertext1:f22ec9c647cb3e52aad6c25e2e17, ciphertext2: f22ec9c647cb2a4bf08e9a433f17
+tag1: 799f3ee5307ec50f1337a8cd87b1a492
+tag2: e7400c71839f78ecb1bee124835183ea
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 53496061313226d549839f
+subtype: aes_ccm
+archetype: aes

@@ -1,0 +1,17 @@
+
+A hacker hid their password using a simple XOR trick. Crack their ciphered string: stringA: 2a38182149030a37194301591f2d stringB: 4c547946326e6b4e68706d6d7050
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{mayq3l4o}
+cipher: XOR
+ciphertext: stringA: 2a38182149030a37194301591f2d stringB: 4c547946326e6b4e68706d6d7050
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

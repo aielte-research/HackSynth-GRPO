@@ -1,0 +1,24 @@
+An anonymous hacker left a SHA-256 hash as the password to unlock the vault. Can you recover the original message from ebdf677e4101a3eb25bd394359d0205326b8394cda26e43b963f8f043f8a51ec?
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{7xlw}
+ciphertext: ebdf677e4101a3eb25bd394359d0205326b8394cda26e43b963f8f043f8a51ec
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

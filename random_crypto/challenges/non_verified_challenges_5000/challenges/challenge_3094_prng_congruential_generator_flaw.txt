@@ -1,0 +1,29 @@
+
+A hacker stole secret coordinates using an LCG-based encryption. Recover the message from the intercepted ciphertext: 5afcfaa347a1f2ab51f8a9f50ced
+
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1923229946
+  - Multiplier: 1505381543
+  - Increment: 1394446552
+The first 5 outputs of the LCG are provided: [1879182198, 817222186, 1121042938, 1416562978, 1535081984] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{1iomh210}
+ciphertext: 5afcfaa347a1f2ab51f8a9f50ced
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1923229946
+  - Multiplier: 1505381543
+  - Increment: 1394446552
+The first 5 outputs of the LCG are provided: [1879182198, 817222186, 1121042938, 1416562978, 1535081984] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

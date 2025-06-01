@@ -1,0 +1,20 @@
+
+Intercepted communications revealed a secret key exchange. Decode the hidden message, encrypted with AES, to uncover the next target: ciphertext1:8b09f2475e9891f7fbfe4343804e, ciphertext2: 8b09f2475e80d1acaee04004dd4e
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{v10boyvi}
+ciphertext: ciphertext1:8b09f2475e9891f7fbfe4343804e, ciphertext2: 8b09f2475e80d1acaee04004dd4e
+tag1: 9288e4b045986c6cddc88da5c55132bc
+tag2: 7c9253b0ac0d605e1f015c0808792fb4
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: df43dcd4e7b333de440273
+subtype: aes_ccm
+archetype: aes

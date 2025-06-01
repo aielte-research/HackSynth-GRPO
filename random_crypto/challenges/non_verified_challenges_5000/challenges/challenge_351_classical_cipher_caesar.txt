@@ -1,0 +1,15 @@
+A mysterious message labeled "Julius' Secret" was found in an old ledger. Can you reveal its true meaning? Here it is: gmbh{03lol35h}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{03knk35g}
+ciphertext: gmbh{03lol35h}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 1
+subtype: caesar
+archetype: classical_cipher

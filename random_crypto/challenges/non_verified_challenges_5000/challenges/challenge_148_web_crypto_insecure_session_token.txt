@@ -1,0 +1,12 @@
+Our webshop uses an "Insecure Session Token" to authenticate users. Somehow, your "admin" login attempt returned this session token: 757365725f663664773a666c61677b68626834316663797d3a31373437343832303930.
+
+---
+
+## Challenge Technical Details
+flag: flag{hbh41fcy}
+ciphertext: 757365725f663664773a666c61677b68626834316663797d3a31373437343832303930
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_f6dw:flag{hbh41fcy}:1747482090'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

@@ -1,0 +1,15 @@
+After a midnight server breach, the hacker left a taunting encrypted note. Can you decipher the hidden message using an ASCII Shift cipher? Ciphertext: lrgmsr|qtk?7
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{mlvkne91}
+cipher: ASCII Shift
+ciphertext: lrgmsr|qtk?7
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 6
+subtype: ascii_shift
+archetype: classical_cipher

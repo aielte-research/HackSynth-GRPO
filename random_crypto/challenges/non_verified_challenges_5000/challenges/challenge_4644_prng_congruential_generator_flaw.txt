@@ -1,0 +1,27 @@
+The vault lock uses an LCG-based cipher. I intercepted this message: 7df7352060e2222f6ef23a2c79e6. Can you predict the next code to open it?
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1382877144
+  - Multiplier: 304042363
+  - Increment: 368584649
+The first 5 outputs of the LCG are provided: [765768690, 615372191, 754561054, 453518763, 595359770] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{yvhuinkb}
+ciphertext: 7df7352060e2222f6ef23a2c79e6
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1382877144
+  - Multiplier: 304042363
+  - Increment: 368584649
+The first 5 outputs of the LCG are provided: [765768690, 615372191, 754561054, 453518763, 595359770] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

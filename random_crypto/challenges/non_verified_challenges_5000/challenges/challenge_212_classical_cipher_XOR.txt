@@ -1,0 +1,17 @@
+
+An intercepted spy message reads: stringA: 0b5431332b791b350c3f473e0109 stringB: 6d38505450417946634670523874. Decipher it using the agent’s favorite tool—XOR.
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{8bsoy7l9}
+cipher: XOR
+ciphertext: stringA: 0b5431332b791b350c3f473e0109 stringB: 6d38505450417946634670523874
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

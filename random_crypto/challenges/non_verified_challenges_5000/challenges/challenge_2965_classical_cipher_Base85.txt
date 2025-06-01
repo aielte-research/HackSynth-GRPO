@@ -1,0 +1,15 @@
+An old hacker left a secret inside this strange Base85-encoded string. Recover the original message: W^7?+dt_!~Wocq!Ieh
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{dfceibb9}
+cipher: Base85
+ciphertext: W^7?+dt_!~Wocq!Ieh
+hint: Use a Base85 decoder to retrieve the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is straightforward; only one layer is used.
+subtype: Base85
+archetype: classical_cipher

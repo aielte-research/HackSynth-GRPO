@@ -1,0 +1,14 @@
+An ancient scroll from a secret society contains this encoded message. Decipher it using the mirror alphabet they revered: uozt{yhh3y5nc}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{bss3b5mx}
+cipher: Atbash
+ciphertext: uozt{yhh3y5nc}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

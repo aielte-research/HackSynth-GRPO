@@ -1,0 +1,21 @@
+A secret club encoded their invite with a letter-for-letter swap. Crack their substitution and reveal the details: azdf{97i8b5vd}
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'd', 'b': 'q', 'c': 'v', 'd': 'm', 'e': 't', 'f': 'a', 'g': 'f', 'h': 'k', 'i': 'u', 'j': 'h', 'k': 'e', 'l': 'z', 'm': 'c', 'n': 's', 'o': 'b', 'p': 'i', 'q': 'y', 'r': 'x', 's': 'j', 't': 'o', 'u': 'n', 'v': 'g', 'w': 'p', 'x': 'r', 'y': 'w', 'z': 'l'}
+
+---
+
+## Challenge Technical Details
+flag: flag{97p8o5ca}
+cipher: Substitution
+ciphertext: azdf{97i8b5vd}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'd', 'b': 'q', 'c': 'v', 'd': 'm', 'e': 't', 'f': 'a', 'g': 'f', 'h': 'k', 'i': 'u', 'j': 'h', 'k': 'e', 'l': 'z', 'm': 'c', 'n': 's', 'o': 'b', 'p': 'i', 'q': 'y', 'r': 'x', 's': 'j', 't': 'o', 'u': 'n', 'v': 'g', 'w': 'p', 'x': 'r', 'y': 'w', 'z': 'l'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

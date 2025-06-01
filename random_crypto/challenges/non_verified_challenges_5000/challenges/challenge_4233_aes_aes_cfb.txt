@@ -1,0 +1,17 @@
+A secret message remains hidden in the c8431e73a6682e8504f0f8bfb02f3f480fb7fb63bf859799af3ff6f862d6d924e3cfd910735610566e144204fd7a55a25b401e8b322be92f1635f73bea83edeb3569d3a6eac6f65196fb19f5d34ce4d5dff0b42eb4a032a459e4f42ac54f81f0d83563361e0d07da84f1587939a037fd38a472249b1bb205a3712d2c45a1e2187c75b27727d3107422cf6b5051d25c36c2b47f3de940be21f1d44ee9f338ad26b3f3291f83e8fc233731614be8b0f900ff. Can you decrypt it? Rumor says it was encrypted using the AES-CFB mode. The key lies in your hands.
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{8qxqjc00}
+ciphertext: c8431e73a6682e8504f0f8bfb02f3f480fb7fb63bf859799af3ff6f862d6d924e3cfd910735610566e144204fd7a55a25b401e8b322be92f1635f73bea83edeb3569d3a6eac6f65196fb19f5d34ce4d5dff0b42eb4a032a459e4f42ac54f81f0d83563361e0d07da84f1587939a037fd38a472249b1bb205a3712d2c45a1e2187c75b27727d3107422cf6b5051d25c36c2b47f3de940be21f1d44ee9f338ad26b3f3291f83e8fc233731614be8b0f900ff
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: b5663de2ccde09a8c43dac19a5ad91c5
+subtype: aes_cfb
+archetype: aes

@@ -1,0 +1,11 @@
+Intercepted JWTs from an unknown source may hide the admin secret. Can you analyze eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3t2bHpjM2lwNH0ifQ. and reveal the hidden flag?
+
+---
+
+## Challenge Technical Details
+flag: flag{vlzc3ip4}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3t2bHpjM2lwNH0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

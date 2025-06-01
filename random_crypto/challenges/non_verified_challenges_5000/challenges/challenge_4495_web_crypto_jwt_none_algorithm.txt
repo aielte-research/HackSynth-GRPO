@@ -1,0 +1,13 @@
+
+The admin's secret flag is hidden in a JWT token. Can you recover it from this cipher? eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tkdTluYmFpb30ifQ.
+
+
+---
+
+## Challenge Technical Details
+flag: flag{du9nbaio}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tkdTluYmFpb30ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

@@ -1,0 +1,17 @@
+A hacker sent a secret message to their partner using a Playfair cipher. Can you decrypt the message below to uncover the plan? Ciphertext: vogmgwtlxbqdbmxknwmqgwtlxbmypvwpfxydxkoutuztgmgwtlxbqdbmxkmduxpxptwgtssismynzdfmdqurszztsfkcmzpvgxrzxhtuxkezmyyfzslmwgizlpxptviuszuvszztdzqalmgebpfnsxma
+
+The flag format is flag{...}
+The keyword is: xoahwjzh
+
+---
+
+## Challenge Technical Details
+flag: flag{zfmsp07x}
+ciphertext: vogmgwtlxbqdbmxknwmqgwtlxbmypvwpfxydxkoutuztgmgwtlxbqdbmxkmduxpxptwgtssismynzdfmdqurszztsfkcmzpvgxrzxhtuxkezmyyfzslmwgizlpxptviuszuvszztdzqalmgebpfnsxma
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: xoahwjzh
+extra_info: The playfair table is [['x', 'o', 'a', 'h', 'w'], ['i', 'z', 'b', 'c', 'd'], ['e', 'f', 'g', 'k', 'l'], ['m', 'n', 'p', 'q', 'r'], ['s', 't', 'u', 'v', 'y']]
+subtype: playfair
+archetype: classical_cipher

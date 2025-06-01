@@ -1,0 +1,19 @@
+Our intern hashed secrets with SHA-256, salting each with the timestamp. Find the original message hidden in 1234c2c323a2c1f88ea5adfe30be82e066acd8643321f0fedc76ab223f44370d.
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{l92}
+ciphertext: 1234c2c323a2c1f88ea5adfe30be82e066acd8643321f0fedc76ab223f44370d
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

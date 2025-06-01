@@ -1,0 +1,17 @@
+An intercepted message from a rival hacker group uses a matrix-encoded secret. Can you break the Hill cipher and reveal their plan? Ciphertext: csojgcpibckbnaqexijzxqkvevwbxtxiosxzhqxzmiyivcqtwqywxoyuxwijdmhwylyxxk
+
+The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+
+---
+
+## Challenge Technical Details
+flag: flag{jyrzyfgs}
+ciphertext: csojgcpibckbnaqexijzxqkvevwbxtxiosxzhqxzmiyivcqtwqywxoyuxwijdmhwylyxxk
+cipher: Hill
+hint: Hill ciphers can be broken using known-plaintext attacks and linear algebra mod 26.
+necessary_info: The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+extra_info: The matrix used is: [[22, 3], [15, 0]]
+subtype: hill
+archetype: classical_cipher

@@ -1,0 +1,29 @@
+
+Our casino uses a homebrewed cipher to secure bets. Can you predict the outcome and decrypt the flag? Ciphertext: 172847360a2b483f137444604039
+
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1972381890
+  - Multiplier: 1205045860
+  - Increment: 492282855
+The first 5 outputs of the LCG are provided: [723242745, 464657805, 530939715, 1041813675, 54483825] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{onnb0b11}
+ciphertext: 172847360a2b483f137444604039
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1972381890
+  - Multiplier: 1205045860
+  - Increment: 492282855
+The first 5 outputs of the LCG are provided: [723242745, 464657805, 530939715, 1041813675, 54483825] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

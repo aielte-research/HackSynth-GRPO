@@ -1,0 +1,16 @@
+
+An ancient scroll uses a mirror cipher to conceal its secret. Can you reveal the hidden message in uozt{jcwti69y}?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{qxdgr69b}
+cipher: Atbash
+ciphertext: uozt{jcwti69y}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

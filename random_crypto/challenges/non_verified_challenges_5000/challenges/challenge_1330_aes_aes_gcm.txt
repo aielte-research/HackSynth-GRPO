@@ -1,0 +1,18 @@
+An intern encrypted two different secrets with the same nonce using AES-GCM. Both ciphertexts were intercepted. Can you recover one secret from ciphertext1:03b32121e70f3eafabcfb864a0c3, ciphertext2: 11b72935bc1228bcf2d3a33db69ef0d3b0ee?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{te37soyw}
+ciphertext: ciphertext1:03b32121e70f3eafabcfb864a0c3, ciphertext2: 11b72935bc1228bcf2d3a33db69ef0d3b0ee
+tag1: 74cfc395f8439b4f6fe9d5b24aadba0f
+tag2: 31b233e89623973b5443490c65f4e32c
+cipher: AES-GCM
+vulnerability: nonce reuse
+hint: AES-GCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 6adb10b13a7f5e6222dc4038
+subtype: aes_gcm
+archetype: aes

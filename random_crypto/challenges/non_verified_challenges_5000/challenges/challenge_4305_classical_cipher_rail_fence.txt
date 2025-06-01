@@ -1,0 +1,15 @@
+An agent left a scrambled message on a fence post. Can you reconstruct the secret by deciphering this Rail Fence-encoded note? f{k9lg0g4w}a9k
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{09gk4kw9}
+ciphertext: f{k9lg0g4w}a9k
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 3
+subtype: rail_fence
+archetype: classical_cipher

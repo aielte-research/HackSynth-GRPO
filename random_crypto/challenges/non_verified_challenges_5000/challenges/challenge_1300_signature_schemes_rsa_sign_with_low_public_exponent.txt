@@ -1,0 +1,14 @@
+The CEO hastily signed a message with a custom app using RSA signatures and a low exponent. Now, only 0xbacd8c086619516eebc19dbcfd1d9d7657e838bbc8d170bf119a93f8542112d3fd06973b9568db61321065d7789c6ba9eff9d422aafc0fe32bbed642d2aa794 remains—can you recover the original message?
+
+Public Key (n, e): (6103361174044629249206536385646020285360800528471116161061645001344329232071141603313495888514032324510260523250271658181005429288282400083498919601194579, 3)
+
+---
+
+## Challenge Technical Details
+flag: flag{fwtdkmpu}
+ciphertext: 0xbacd8c086619516eebc19dbcfd1d9d7657e838bbc8d170bf119a93f8542112d3fd06973b9568db61321065d7789c6ba9eff9d422aafc0fe32bbed642d2aa794
+cipher: RSA Low-Exponent Signature
+hint: What happens when you cube small numbers? Remember e=3!
+necessary_info: Public Key (n, e): (6103361174044629249206536385646020285360800528471116161061645001344329232071141603313495888514032324510260523250271658181005429288282400083498919601194579, 3)
+subtype: rsa_sign_with_low_public_exponent
+archetype: signature_schemes

@@ -1,0 +1,15 @@
+An anonymous hacker left a secret message encrypted with MD5. A known vulnerability allows reversing it. Recover the original message: 7dfbfe4880fa3dbbb8c71715bbee9553
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ahssi}
+ciphertext: 7dfbfe4880fa3dbbb8c71715bbee9553
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

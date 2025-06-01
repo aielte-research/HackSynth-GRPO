@@ -1,0 +1,19 @@
+A hacker hid the flag in 666cc3cb7b7a93c13971c8c2777d using a cipher seeded with the server’s Unix timestamp at encryption. Can you recover the secret?
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 81869)
+The system time when the encryption process started was around: 2025-05-25 12:03:13 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{z1m9qjnw}
+ciphertext: 666cc3cb7b7a93c13971c8c2777d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 81869)
+The system time when the encryption process started was around: 2025-05-25 12:03:13 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 41644.
+subtype: time_based_seed
+archetype: prng

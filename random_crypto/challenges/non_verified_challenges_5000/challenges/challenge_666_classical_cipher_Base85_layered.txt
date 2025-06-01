@@ -1,0 +1,15 @@
+An ancient hacker hid the password in a Base85 string. Can you uncover the secret behind Q8+6$C09T(Kr2)>FllT?Dp5>4T0>tyaZhPwOiNd6Y-Ax&En-MNP&_hHHe`KeN_<l|NMkEbOm1o^L3MT|c1AmMRzXK4ICN%HI3q<fL{366J4AC%WKd5;N^xsiM0R2&Q!{WiHc%-%Z(mqMc3M7UI{?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{zzs7vxoh}
+cipher: Base85
+ciphertext: Q8+6$C09T(Kr2)>FllT?Dp5>4T0>tyaZhPwOiNd6Y-Ax&En-MNP&_hHHe`KeN_<l|NMkEbOm1o^L3MT|c1AmMRzXK4ICN%HI3q<fL{366J4AC%WKd5;N^xsiM0R2&Q!{WiHc%-%Z(mqMc3M7UI{
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 10 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

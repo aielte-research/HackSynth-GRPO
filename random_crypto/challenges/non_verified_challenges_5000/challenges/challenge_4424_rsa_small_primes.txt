@@ -1,0 +1,20 @@
+
+The admin encrypted the secret with RSA, but rushed and picked small primes. Can you recover the flag from this ciphertext? 5930843052345994146
+
+
+The flag format is flag{...}
+n=8778254286629787131, e=7180292538942063727
+
+---
+
+## Challenge Technical Details
+flag: flag{y47cpuos}
+cipher: RSA
+ciphertext: 5930843052345994146
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=8778254286629787131, e=7180292538942063727
+extra_info: p=4031052023, q=2177658397, φ(n)=8778254280421076712
+subtype: small_primes
+archetype: rsa

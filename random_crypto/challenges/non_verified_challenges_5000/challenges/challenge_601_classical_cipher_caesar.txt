@@ -1,0 +1,15 @@
+The secret forum password was hidden using Caesar's old code. Can you shift your mind and crack this message: qwlr{mjfohs5w}?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{byudwh5l}
+ciphertext: qwlr{mjfohs5w}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 11
+subtype: caesar
+archetype: classical_cipher

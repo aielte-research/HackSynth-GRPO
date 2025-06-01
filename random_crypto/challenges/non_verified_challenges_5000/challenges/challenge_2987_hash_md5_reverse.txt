@@ -1,0 +1,15 @@
+A hacker left a secret message using MD5's known reversing flaw. Can you recover the original text from f3625ea7b941073d78e8dc4bea7b213f?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{xbdcc}
+ciphertext: f3625ea7b941073d78e8dc4bea7b213f
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

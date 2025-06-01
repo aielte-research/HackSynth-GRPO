@@ -1,0 +1,16 @@
+A hacker left a coded message for their accomplice. Only those who know the secret keyword can reveal its contents: lsda{gxisv1wd}
+
+The flag format is flag{...}
+The keyword is: ghdup
+
+---
+
+## Challenge Technical Details
+flag: flag{rrbpb1hx}
+ciphertext: lsda{gxisv1wd}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: ghdup
+subtype: vigenere
+archetype: classical_cipher

@@ -1,0 +1,18 @@
+An anonymous hacker left an encrypted message hidden in the server logs. It’s protected with AES. Can you reveal the secret behind ciphertext1:75c537c47a10b1d26c1723287c5e, ciphertext2: 75c537c47a0fa5877559237b665e?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{xybm9x0v}
+ciphertext: ciphertext1:75c537c47a10b1d26c1723287c5e, ciphertext2: 75c537c47a0fa5877559237b665e
+tag1: 31186945231896309ccd9f08d8fe9dcc
+tag2: 28e243bfa278440d2dd0bd16180579fc
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 9a6bee28b6b6d80f2717da
+subtype: aes_ccm
+archetype: aes

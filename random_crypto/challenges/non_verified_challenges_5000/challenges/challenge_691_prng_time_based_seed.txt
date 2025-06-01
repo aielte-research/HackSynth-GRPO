@@ -1,0 +1,19 @@
+The museum’s artifact logs are scrambled each midnight for security. Can you recover tonight’s entry encrypted with their shifting time-based cipher? Ciphertext: 666c28807b6139d6767778d76a7d
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 63140)
+The system time when the encryption process started was around: 2025-05-17 13:53:31 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{ap1vw10j}
+ciphertext: 666c28807b6139d6767778d76a7d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 63140)
+The system time when the encryption process started was around: 2025-05-17 13:53:31 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 18919.
+subtype: time_based_seed
+archetype: prng

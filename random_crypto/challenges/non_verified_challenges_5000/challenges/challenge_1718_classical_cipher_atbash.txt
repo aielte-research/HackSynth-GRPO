@@ -1,0 +1,14 @@
+An ancient scroll hides the secret word in a mirrored alphabet cipher. Crack the message below to reveal the truth: uozt{c1vlihcl}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{x1eorsxo}
+cipher: Atbash
+ciphertext: uozt{c1vlihcl}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

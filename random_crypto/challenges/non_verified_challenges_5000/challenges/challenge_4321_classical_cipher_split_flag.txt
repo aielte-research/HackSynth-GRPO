@@ -1,0 +1,15 @@
+A secretive mathematician split a vital number and mixed it using their custom cipher. Can you decipher their message and uncover the original secret?  44444 flag{kuub 44444 ntts} 44444 
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{kuubntts}
+ciphertext:  44444 flag{kuub 44444 ntts} 44444 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 2 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

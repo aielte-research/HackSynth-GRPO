@@ -1,0 +1,24 @@
+A hacker left a hash as their calling card. Can you recover the original message from this SHA-256 ciphertext? 69a1b5c185bcdd9a2bc6c633292f246ec81a163a31bb4841d02408fc296808f2
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{zk1b}
+ciphertext: 69a1b5c185bcdd9a2bc6c633292f246ec81a163a31bb4841d02408fc296808f2
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

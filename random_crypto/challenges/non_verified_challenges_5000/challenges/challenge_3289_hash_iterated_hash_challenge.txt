@@ -1,0 +1,24 @@
+An encrypted password, hashed using SHA-256, was found in a hacker's notes. Can you recover the original password from the ciphertext below? 2baba03f2fc856ab3885ca7b74460f1c1a23d36bc35bbb35996a803b131148ae
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{8ki1}
+ciphertext: 2baba03f2fc856ab3885ca7b74460f1c1a23d36bc35bbb35996a803b131148ae
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

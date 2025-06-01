@@ -1,0 +1,16 @@
+Bob used AES-ECB to encrypt his password with a short key, padded with null bytes. Can you recover the password from this ciphertext? 871bc18c79678917561cf9ea7be8ae7a
+
+An encryption key that is only 2 bytes long?.
+
+---
+
+## Challenge Technical Details
+flag: flag{3chpbjhx}
+ciphertext: 871bc18c79678917561cf9ea7be8ae7a
+cipher: AES-ECB
+vulnerability: small key padded with null bytes
+hint: ECB mode with a short key makes brute-forcing possible. Consider the small key entropy.
+necessary_info: An encryption key that is only 2 bytes long?.
+extra_info: Padding follows PKCS#7. The key is padded to 16 bytes with null bytes.
+subtype: weak_cookie_encryption
+archetype: web_crypto

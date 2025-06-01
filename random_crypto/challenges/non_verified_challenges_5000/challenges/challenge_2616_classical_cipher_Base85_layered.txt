@@ -1,0 +1,15 @@
+Intercepted: A hacker hid a key in Base85 inside this briefcase. Can you decipher it? Ciphertext: Q8;r{Qc74PHh5S&G<irvP-k=_MrK2FIaX~{c1B4#H!wp>QFbzNQ(8MvJYjn
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ormblgwh}
+cipher: Base85
+ciphertext: Q8;r{Qc74PHh5S&G<irvP-k=_MrK2FIaX~{c1B4#H!wp>QFbzNQ(8MvJYjn
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 6 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

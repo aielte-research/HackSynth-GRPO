@@ -1,0 +1,14 @@
+A hacker hid a wallet key and posted its hex-encoded form. Can you recover the secret? The code is: 666c61677b61377039776b666f7d
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{a7p9wkfo}
+cipher: Hex
+ciphertext: 666c61677b61377039776b666f7d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

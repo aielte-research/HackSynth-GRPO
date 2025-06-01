@@ -1,0 +1,14 @@
+A forgotten scroll holds a cryptic clue from an ancient order. Decode the message with their favorite cipher: uozt{ugsvjsy7}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ftheqhb7}
+cipher: Atbash
+ciphertext: uozt{ugsvjsy7}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

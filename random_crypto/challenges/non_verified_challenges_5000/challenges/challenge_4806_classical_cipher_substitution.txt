@@ -1,0 +1,15 @@
+A hacker scrambled the access code using a substitution cipher. Can you decipher kb nwqprucwepvq, e sztsrkrzrkub nkpvyw ks e myrvug uj ybnwqprkbc kb lvknv zbkrs uj phekbrydr ewy wyphenyg lkrv rvy nkpvywrydr, kb e gyjkbyg mebbyw, lkrv rvy vyhp uj e oyq; rvy "zbkrs" meq ty skbchy hyrryws (rvy musr nummub), pekws uj hyrryws, rwkphyrs uj hyrryws, mkdrzwys uj rvy etuay, ebg su juwrv. rvy wynykayw gynkpvyws rvy rydr tq pywjuwmkbc rvy kbaywsy sztsrkrzrkub pwunyss ru ydrwenr rvy uwkckbeh myssecy. hkoylksy, ienfzys fzknohq xkppyg rvwuzcv e fzysrkub ub xywu-obulhygcy pwuujs, ybszwkbc bu nwkrkneh hyrryw les hyjr uzr uj uzw nwqprucwepvkn pzxxhy.jhec{d1qij5w5} to reveal the secret?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{x1yjf5r5}
+ciphertext: kb nwqprucwepvq, e sztsrkrzrkub nkpvyw ks e myrvug uj ybnwqprkbc kb lvknv zbkrs uj phekbrydr ewy wyphenyg lkrv rvy nkpvywrydr, kb e gyjkbyg mebbyw, lkrv rvy vyhp uj e oyq; rvy "zbkrs" meq ty skbchy hyrryws (rvy musr nummub), pekws uj hyrryws, rwkphyrs uj hyrryws, mkdrzwys uj rvy etuay, ebg su juwrv. rvy wynykayw gynkpvyws rvy rydr tq pywjuwmkbc rvy kbaywsy sztsrkrzrkub pwunyss ru ydrwenr rvy uwkckbeh myssecy. hkoylksy, ienfzys fzknohq xkppyg rvwuzcv e fzysrkub ub xywu-obulhygcy pwuujs, ybszwkbc bu nwkrkneh hyrryw les hyjr uzr uj uzw nwqprucwepvkn pzxxhy.jhec{d1qij5w5}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'e', 'b': 't', 'c': 'n', 'd': 'g', 'e': 'y', 'f': 'j', 'g': 'c', 'h': 'v', 'i': 'k', 'j': 'i', 'k': 'o', 'l': 'h', 'm': 'm', 'n': 'b', 'o': 'u', 'p': 'p', 'q': 'f', 'r': 'w', 's': 's', 't': 'r', 'u': 'z', 'v': 'a', 'w': 'l', 'x': 'd', 'y': 'q', 'z': 'x'}
+subtype: substitution
+archetype: classical_cipher

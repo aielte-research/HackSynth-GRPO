@@ -1,0 +1,19 @@
+
+Agent Sienna intercepted a coded message. She suspects it's a Playfair cipher. Can you help her recover the secret passphrase hidden in this ciphertext: vfdqmwadbsxwzudfxlzqmwadbssitvwshlwedffsaskodqmwadbsxwzudfsxaftfuiwmzaoslfqsxbglwxdzuskoqfhoubtvfwkgabasdfgssiqmsulwwmgzeiftitaiusuvuskobxvdlwembfmtzxsz?
+
+
+The flag format is flag{...}
+The keyword is: zrsjxjyw
+
+---
+
+## Challenge Technical Details
+flag: flag{fmx95ir5}
+ciphertext: vfdqmwadbsxwzudfxlzqmwadbssitvwshlwedffsaskodqmwadbsxwzudfsxaftfuiwmzaoslfqsxbglwxdzuskoqfhoubtvfwkgabasdfgssiqmsulwwmgzeiftitaiusuvuskobxvdlwembfmtzxsz
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: zrsjxjyw
+extra_info: The playfair table is [['z', 'r', 's', 'i', 'x'], ['y', 'w', 'a', 'b', 'c'], ['d', 'e', 'f', 'g', 'h'], ['k', 'l', 'm', 'n', 'o'], ['p', 'q', 't', 'u', 'v']]
+subtype: playfair
+archetype: classical_cipher

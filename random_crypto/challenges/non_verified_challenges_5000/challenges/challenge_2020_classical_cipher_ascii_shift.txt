@@ -1,0 +1,15 @@
+Intercepted hacker message: "Decrypt the payload! Only those who can undo the ASCII Shift will read the secret." Ciphertext: pvkqp@r
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{fxyx6huw}
+cipher: ASCII Shift
+ciphertext: pvkqp@r
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 10
+subtype: ascii_shift
+archetype: classical_cipher

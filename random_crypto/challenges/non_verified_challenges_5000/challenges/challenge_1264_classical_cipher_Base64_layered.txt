@@ -1,0 +1,15 @@
+An analyst intercepted a secret message encoded for quick transmission. Can you decode the agent’s Base64-encrypted instructions? The message: Vm1wSmQyVkZOVWhTYTJScFRUTkNjbFZxVG05aU1XeFlUVlU1VDFKdVFraFpWVlpQWVVaYWRHUkVXbFZXVmtZelZVWkZPVkJSUFQwPQ==
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ej71upbc}
+cipher: Base64
+ciphertext: Vm1wSmQyVkZOVWhTYTJScFRUTkNjbFZxVG05aU1XeFlUVlU1VDFKdVFraFpWVlpQWVVaYWRHUkVXbFZXVmtZelZVWkZPVkJSUFQwPQ==
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 6 times in total.
+subtype: Base64_layered
+archetype: classical_cipher

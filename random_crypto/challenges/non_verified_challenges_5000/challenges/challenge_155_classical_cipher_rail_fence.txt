@@ -1,0 +1,15 @@
+A hacker left a clue on the blockchain, but it's scrambled. Use the Rail Fence cipher to decode this message: f{0alggk1w}al1
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{glk011wa}
+ciphertext: f{0alggk1w}al1
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 3
+subtype: rail_fence
+archetype: classical_cipher

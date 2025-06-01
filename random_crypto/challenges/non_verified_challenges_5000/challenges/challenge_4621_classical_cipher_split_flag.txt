@@ -1,0 +1,15 @@
+An old heist note encodes the vault code, split and mingled with diversions. Crack  44444444 fla 44444444 g{p 44444444 jfpfbi 44444444 p} 44444444  to reveal the hidden number.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{pjfpfbip}
+ciphertext:  44444444 fla 44444444 g{p 44444444 jfpfbi 44444444 p} 44444444 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 4 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

@@ -1,0 +1,11 @@
+Someone intercepted a suspicious JWT: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tnem1hY24xeX0ifQ.. Can you uncover what’s inside?
+
+---
+
+## Challenge Technical Details
+flag: flag{gzmacn1y}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tnem1hY24xeX0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

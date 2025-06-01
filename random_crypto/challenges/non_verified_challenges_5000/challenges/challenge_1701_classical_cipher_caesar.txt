@@ -1,0 +1,15 @@
+A hacker left a clue in ancient Rome’s code: only Caesar’s shift reveals the treasure. Can you decrypt the message? oujp{y8a2l5cx}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{p8r2c5to}
+ciphertext: oujp{y8a2l5cx}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 9
+subtype: caesar
+archetype: classical_cipher

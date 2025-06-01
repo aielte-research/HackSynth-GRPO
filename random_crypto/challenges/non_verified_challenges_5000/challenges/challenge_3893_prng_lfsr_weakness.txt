@@ -1,0 +1,19 @@
+Intercepted radio messages use a homebrew stream cipher, but analysts suspect an LFSR flaw. Can you recover the message? Ciphertext: 512856234c28542f54734f225639
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[4786, 35161, 17580, 41558, 53547, 59541, 29770, 47653, 56594, 28297]
+
+---
+
+## Challenge Technical Details
+flag: flag{lckc7xfa}
+ciphertext: 512856234c28542f54734f225639
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[4786, 35161, 17580, 41558, 53547, 59541, 29770, 47653, 56594, 28297]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

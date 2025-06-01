@@ -1,0 +1,15 @@
+A hacker left a coded message online. Can you decode Vm0weGQxTnRVWGxXYTFwUFZsZG9WRmxVU2xOalJsSlZWR3RPYW1KR1ZqTldNalZyVmxVeFdHVkljRmROYWxaUVZrUkdZV014VG5WaVJtaG9UVmhDVFZkWGRHRlRiVlpIV2toR1UySkdXbGhXYlhSYVpXeGFWbGRyV2xCV2EwcFRWVVpSZDFCUlBUMD0= to reveal the secret password?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{o2f24d1z}
+cipher: Base64
+ciphertext: Vm0weGQxTnRVWGxXYTFwUFZsZG9WRmxVU2xOalJsSlZWR3RPYW1KR1ZqTldNalZyVmxVeFdHVkljRmROYWxaUVZrUkdZV014VG5WaVJtaG9UVmhDVFZkWGRHRlRiVlpIV2toR1UySkdXbGhXYlhSYVpXeGFWbGRyV2xCV2EwcFRWVVpSZDFCUlBUMD0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 8 times in total.
+subtype: base64_layered
+archetype: classical_cipher

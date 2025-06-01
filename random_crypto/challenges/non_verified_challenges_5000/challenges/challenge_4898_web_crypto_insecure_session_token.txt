@@ -1,0 +1,12 @@
+An intern built a login demo using an "Insecure Session Token" cipher. The session token below grants admin; can you recover the key? Ciphertext: 757365725f7736666b3a666c61677b6d7a7578617069717d3a31373438313730393635
+
+---
+
+## Challenge Technical Details
+flag: flag{mzuxapiq}
+ciphertext: 757365725f7736666b3a666c61677b6d7a7578617069717d3a31373438313730393635
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_w6fk:flag{mzuxapiq}:1748170965'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

@@ -1,0 +1,19 @@
+
+Agent Vega intercepted a coded message labeled “Playfair.” Can you decrypt sekmofaubozgkoihxlzlofaubowgfyfximvxihubbspokmofaubozgkoihxdbyoumyfohsovvmgvkbhmgzqnbepoemskohfyiulhxybsihadwggmebdvfoekdfuotycbbeetbepobknkdvgrfbbhdxxyaw and find the hidden location before time runs out?
+
+
+The flag format is flag{...}
+The keyword is: fuyaqgts
+
+---
+
+## Challenge Technical Details
+flag: flag{sji8rway}
+ciphertext: sekmofaubozgkoihxlzlofaubowgfyfximvxihubbspokmofaubozgkoihxdbyoumyfohsovvmgvkbhmgzqnbepoemskohfyiulhxybsihadwggmebdvfoekdfuotycbbeetbepobknkdvgrfbbhdxxyaw
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: fuyaqgts
+extra_info: The playfair table is [['f', 'u', 'y', 'a', 'q'], ['g', 't', 's', 'b', 'c'], ['d', 'e', 'h', 'i', 'k'], ['l', 'm', 'n', 'o', 'p'], ['r', 'v', 'w', 'x', 'z']]
+subtype: playfair
+archetype: classical_cipher

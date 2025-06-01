@@ -1,0 +1,17 @@
+An agent intercepted this AES-CFB encrypted message: 3c24c6a4f2356b606f7cf30537655599e5e71ba2af63e4f5a0419559c85921c08f454a1acbafb53a450a50548124db0692d6c59a2231ef874a0194cb144b81360baa6de108fbb647072303765a05b08d65d6ff0d287721f3ec11b51b18d176c3f3d3e89ffd2afcf7a5176acc362cf7203d076021d245ba8d4a9bc92ff86074af6919c40eef87d9664c7c34d881a6ac828a2c09095ec03d4a21b66007905d4749c5563cb8a411ce39d26be02b7f48e9c58f. Only the right key and IV will reveal the confidential coordinates hidden within.
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{xwes59sm}
+ciphertext: 3c24c6a4f2356b606f7cf30537655599e5e71ba2af63e4f5a0419559c85921c08f454a1acbafb53a450a50548124db0692d6c59a2231ef874a0194cb144b81360baa6de108fbb647072303765a05b08d65d6ff0d287721f3ec11b51b18d176c3f3d3e89ffd2afcf7a5176acc362cf7203d076021d245ba8d4a9bc92ff86074af6919c40eef87d9664c7c34d881a6ac828a2c09095ec03d4a21b66007905d4749c5563cb8a411ce39d26be02b7f48e9c58f
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: 82d7eef09393684bd9c18821466db0f9
+subtype: aes_cfb
+archetype: aes

@@ -1,0 +1,15 @@
+An agent left secret files encoded in Base85. Can you decode the message? The ciphertext is: W^7?+dvs)YH(_aXa(w
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{tdx7aitr}
+cipher: Base85
+ciphertext: W^7?+dvs)YH(_aXa(w
+hint: Use a Base85 decoder to retrieve the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is straightforward; only one layer is used.
+subtype: Base85
+archetype: classical_cipher

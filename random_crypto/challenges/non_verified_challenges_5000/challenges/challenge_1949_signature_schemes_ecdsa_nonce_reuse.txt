@@ -1,0 +1,24 @@
+While testing a smart contract, Alice signed two different messages using the same ECDSA nonce. Can you recover her private key from the signatures below? Sig1: c050c3f0b8d45b9e093a91cb96d097b24100e66585d0d8561e01c1231837493feeb8e165cdd297fb0082419b52410ef7443bdc47a7226e76914b6f173c460e88
+Sig2: c050c3f0b8d45b9e093a91cb96d097b24100e66585d0d8561e01c1231837493fd8b0c4d93a85538993eaefcae5b946074c3bb09caf4f48fd678f339f5be30c70
+
+Public Key (x,y): (56356271385499565163261177988617892419584643762973996399433417302279496997884, 14668491180602378311177200805622716026711240822086797961449819803117784768030)
+Messages:
+1. CTF challenge message
+2. Second signed message
+Curve: secp256k1The flag format is flag{hex(private_key)}
+
+---
+
+## Challenge Technical Details
+flag: flag{4428d92591053553a4ce612e0d8cd58080452e632528e94b3c12a7627e275983}
+ciphertext: Sig1: c050c3f0b8d45b9e093a91cb96d097b24100e66585d0d8561e01c1231837493feeb8e165cdd297fb0082419b52410ef7443bdc47a7226e76914b6f173c460e88
+Sig2: c050c3f0b8d45b9e093a91cb96d097b24100e66585d0d8561e01c1231837493fd8b0c4d93a85538993eaefcae5b946074c3bb09caf4f48fd678f339f5be30c70
+cipher: ECDSA Nonce Reuse
+hint: Identical nonce usage breaks ECDSA security. What's common between the signatures?
+necessary_info: Public Key (x,y): (56356271385499565163261177988617892419584643762973996399433417302279496997884, 14668491180602378311177200805622716026711240822086797961449819803117784768030)
+Messages:
+1. CTF challenge message
+2. Second signed message
+Curve: secp256k1The flag format is flag{hex(private_key)}
+subtype: ecdsa_nonce_reuse
+archetype: signature_schemes

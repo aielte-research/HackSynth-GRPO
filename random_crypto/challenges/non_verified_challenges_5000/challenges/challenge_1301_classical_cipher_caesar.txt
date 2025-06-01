@@ -1,0 +1,17 @@
+
+A message from ancient Rome has surfaced. Can you decrypt Caesar's hidden command, encrypted thus: gmbh{o1us2e1q}?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{n1tr2d1p}
+ciphertext: gmbh{o1us2e1q}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 1
+subtype: caesar
+archetype: classical_cipher

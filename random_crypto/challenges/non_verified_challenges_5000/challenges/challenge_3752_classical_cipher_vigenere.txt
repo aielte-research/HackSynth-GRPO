@@ -1,0 +1,16 @@
+An old hacker left a mysterious note for you: "uybf{pg6qft5a}". Can you uncover the secret word using your cryptography skills?
+
+The flag format is flag{...}
+The keyword is: pnbz
+
+---
+
+## Challenge Technical Details
+flag: flag{at6pge5n}
+ciphertext: uybf{pg6qft5a}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: pnbz
+subtype: vigenere
+archetype: classical_cipher

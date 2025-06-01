@@ -1,0 +1,29 @@
+
+A rogue AI secures stolen data using predictable random keys. Recover the flag from the intercepted ciphertext: 4f193e3f52056839424d6a3d4f08
+
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1680715149
+  - Multiplier: 1200650903
+  - Increment: 58738403
+The first 5 outputs of the LCG are provided: [1144099332, 1114194614, 575197005, 765385262, 74599890] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{p7ak85ef}
+ciphertext: 4f193e3f52056839424d6a3d4f08
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1680715149
+  - Multiplier: 1200650903
+  - Increment: 58738403
+The first 5 outputs of the LCG are provided: [1144099332, 1114194614, 575197005, 765385262, 74599890] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

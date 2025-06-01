@@ -1,0 +1,14 @@
+An archaeologist found a coded message in an ancient script. He suspects a simple mirror cipher. Can you decode this clue? uozt{7g54ngg5}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{7t54mtt5}
+cipher: Atbash
+ciphertext: uozt{7g54ngg5}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

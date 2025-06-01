@@ -1,0 +1,19 @@
+An old hacker left a note encrypted with a stream cipher known to have an LFSR weakness. Can you recover the secret from this 838884839e919192818d878f8a99?
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[37227, 51381, 58458, 61997, 30998, 48267, 24133, 12066, 38801, 52168]
+
+---
+
+## Challenge Technical Details
+flag: flag{utvdibko}
+ciphertext: 838884839e919192818d878f8a99
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[37227, 51381, 58458, 61997, 30998, 48267, 24133, 12066, 38801, 52168]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

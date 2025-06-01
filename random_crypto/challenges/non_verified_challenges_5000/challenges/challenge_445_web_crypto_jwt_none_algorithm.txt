@@ -1,0 +1,11 @@
+The admin's login token (eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3s3dTJyN3I1eH0ifQ.) was intercepted. Can you uncover the secret hidden within this JWT and reveal the admin's identity?
+
+---
+
+## Challenge Technical Details
+flag: flag{7u2r7r5x}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3s3dTJyN3I1eH0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

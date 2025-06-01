@@ -1,0 +1,18 @@
+Oops! I used tiny primes for RSA to save time. Can you recover my secret from this encrypted message? 7404888105625736132
+
+The flag format is flag{...}
+n=13846391916951058639, e=5200654658692199003
+
+---
+
+## Challenge Technical Details
+flag: flag{t6jl8psv}
+cipher: RSA
+ciphertext: 7404888105625736132
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=13846391916951058639, e=5200654658692199003
+extra_info: p=4153164439, q=3333937801, φ(n)=13846391909463956400
+subtype: small_primes
+archetype: rsa

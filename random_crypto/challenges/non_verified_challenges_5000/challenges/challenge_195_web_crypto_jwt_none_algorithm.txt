@@ -1,0 +1,11 @@
+The hacker intercepted a JWT token during a data breach. Can you recover the secret information from this token? The token is: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tuNzI3a2ZkNH0ifQ.
+
+---
+
+## Challenge Technical Details
+flag: flag{n727kfd4}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tuNzI3a2ZkNH0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

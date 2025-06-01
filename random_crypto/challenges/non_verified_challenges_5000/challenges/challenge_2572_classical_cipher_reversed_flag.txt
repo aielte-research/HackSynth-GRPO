@@ -1,0 +1,15 @@
+An agent hid the password by reversing its letters. Recover the original message from this reversed text: }oxfxw9h5{galf
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{5h9wxfxo}
+ciphertext: }oxfxw9h5{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

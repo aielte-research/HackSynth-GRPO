@@ -1,0 +1,18 @@
+A careless administrator used RSA with tiny primes. He encrypted the secret: 3426531602358386677. Can you recover it by exploiting the weak keys?
+
+The flag format is flag{...}
+n=9465328004850008857, e=7964520478292308301
+
+---
+
+## Challenge Technical Details
+flag: flag{x7ytr9qr}
+cipher: RSA
+ciphertext: 3426531602358386677
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=9465328004850008857, e=7964520478292308301
+extra_info: p=4132662293, q=2290370549, φ(n)=9465327998426976016
+subtype: small_primes
+archetype: rsa

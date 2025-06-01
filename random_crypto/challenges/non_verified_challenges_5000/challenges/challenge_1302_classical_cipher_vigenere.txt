@@ -1,0 +1,18 @@
+
+A mysterious hacker encoded a secret meeting location using the Vigenère cipher. Can you recover the message? Ciphertext: smwl{zxx0165d}
+
+
+The flag format is flag{...}
+The keyword is: nbwfwog
+
+---
+
+## Challenge Technical Details
+flag: flag{djr0165q}
+ciphertext: smwl{zxx0165d}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: nbwfwog
+subtype: vigenere
+archetype: classical_cipher

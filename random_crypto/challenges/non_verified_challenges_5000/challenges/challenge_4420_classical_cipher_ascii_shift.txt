@@ -1,0 +1,15 @@
+A hacker hid their password in a message, shifting each letter's ASCII value by a secret number. Can you recover it? Ciphertext: lrgml=l~;?=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{f7fx5y97}
+cipher: ASCII Shift
+ciphertext: lrgml=l~;?=
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 6
+subtype: ascii_shift
+archetype: classical_cipher

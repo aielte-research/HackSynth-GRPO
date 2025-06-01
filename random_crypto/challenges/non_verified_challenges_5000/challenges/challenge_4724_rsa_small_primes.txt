@@ -1,0 +1,18 @@
+The admin encrypted the flag with RSA, but chose small primes for speed. Recover the flag from 1668244108535159876 by exploiting this weakness.
+
+The flag format is flag{...}
+n=11051718647921478011, e=10247266683379963519
+
+---
+
+## Challenge Technical Details
+flag: flag{rj6yrp5w}
+cipher: RSA
+ciphertext: 1668244108535159876
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=11051718647921478011, e=10247266683379963519
+extra_info: p=4181716339, q=2642866649, φ(n)=11051718641096895024
+subtype: small_primes
+archetype: rsa

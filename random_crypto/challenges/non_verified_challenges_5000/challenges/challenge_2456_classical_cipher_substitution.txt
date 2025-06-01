@@ -1,0 +1,15 @@
+A hacker left behind a suspicious encrypted note. Can you crack the Substitution cipher to reveal its hidden message? Ciphertext: am vyeinxbyoiwe, o slpsnanlnaxm vaiwhy as o fhnwxt xd hmvyeinamb am gwavw lmans xd iuoamnhrn oyh yhiuovht ganw nwh vaiwhynhrn, am o thdamht fommhy, ganw nwh whui xd o jhe; nwh "lmans" foe ph sambuh uhnnhys (nwh fxsn vxffxm), ioays xd uhnnhys, nyaiuhns xd uhnnhys, farnlyhs xd nwh opxkh, omt sx dxynw. nwh yhvhakhy thvaiwhys nwh nhrn pe ihydxyfamb nwh amkhysh slpsnanlnaxm iyxvhss nx hrnyovn nwh xyabamou fhssobh. uajhgash, qovzlhs zlavjue caiiht nwyxlbw o zlhsnaxm xm chyx-jmxguhtbh iyxxds, hmslyamb mx vyanavou uhnnhy gos uhdn xln xd xly vyeinxbyoiwav ilccuh.duob{acz3r3ro}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{izq3x3xa}
+ciphertext: am vyeinxbyoiwe, o slpsnanlnaxm vaiwhy as o fhnwxt xd hmvyeinamb am gwavw lmans xd iuoamnhrn oyh yhiuovht ganw nwh vaiwhynhrn, am o thdamht fommhy, ganw nwh whui xd o jhe; nwh "lmans" foe ph sambuh uhnnhys (nwh fxsn vxffxm), ioays xd uhnnhys, nyaiuhns xd uhnnhys, farnlyhs xd nwh opxkh, omt sx dxynw. nwh yhvhakhy thvaiwhys nwh nhrn pe ihydxyfamb nwh amkhysh slpsnanlnaxm iyxvhss nx hrnyovn nwh xyabamou fhssobh. uajhgash, qovzlhs zlavjue caiiht nwyxlbw o zlhsnaxm xm chyx-jmxguhtbh iyxxds, hmslyamb mx vyanavou uhnnhy gos uhdn xln xd xly vyeinxbyoiwav ilccuh.duob{acz3r3ro}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'o', 'b': 'p', 'c': 'v', 'd': 't', 'e': 'h', 'f': 'd', 'g': 'b', 'h': 'w', 'i': 'a', 'j': 'q', 'k': 'j', 'l': 'u', 'm': 'f', 'n': 'm', 'o': 'x', 'p': 'i', 'q': 'z', 'r': 'y', 's': 's', 't': 'n', 'u': 'l', 'v': 'k', 'w': 'g', 'x': 'r', 'y': 'e', 'z': 'c'}
+subtype: substitution
+archetype: classical_cipher

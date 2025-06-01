@@ -1,0 +1,18 @@
+An agent left a secret message hidden in the network logs, encrypted with AES for safety. Can you recover the hidden flag from this ciphertext? ciphertext1:6940d959bc9c7b187c76fd21c986, ciphertext2: 6940d959bc9073546335f46cc486
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{9y9v1pyu}
+ciphertext: ciphertext1:6940d959bc9c7b187c76fd21c986, ciphertext2: 6940d959bc9073546335f46cc486
+tag1: c82855fa6e669c8ee9966b4e3b3dee72
+tag2: b9406cfe65de44b63dd6aa335bc8b789
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: f5273265f83b83aa8ebdb2
+subtype: aes_ccm
+archetype: aes

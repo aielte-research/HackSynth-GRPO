@@ -1,0 +1,15 @@
+The hacker left a secret note, but used MD5 to hide it. Thanks to MD5's reversing flaw, you might reveal the message: 0645471b0da0416e1826ad4591e0cd6f
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{xdnvq}
+ciphertext: 0645471b0da0416e1826ad4591e0cd6f
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

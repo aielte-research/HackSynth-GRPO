@@ -1,0 +1,13 @@
+
+A rogue admin left a JWT token as their only clue. Can you reveal the secret hidden in eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3s2ZjEyOXdlMH0ifQ.?
+
+
+---
+
+## Challenge Technical Details
+flag: flag{6f129we0}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3s2ZjEyOXdlMH0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

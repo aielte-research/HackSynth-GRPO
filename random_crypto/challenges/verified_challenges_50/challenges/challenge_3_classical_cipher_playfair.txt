@@ -1,0 +1,17 @@
+A mysterious letter was found in Turing's desk. Can you decrypt the secret message using the Playfair cipher? The ciphertext is: zdmercvgqnlamqdfknxarcvgqnlnptfagmkxdfqvizsomercvgqnlamqdfwnncnpmvcrozupumvwsqfmalubwtsoudhsomptfpifrqizdfdnlnzwtwfxcritfkpnmzcowtuvwtsoqscefxhrbfotfimq
+
+The flag format is flag{...}
+The keyword is: wxrklqrp
+
+---
+
+## Challenge Technical Details
+flag: flag{j2y0dnip}
+ciphertext: zdmercvgqnlamqdfknxarcvgqnlnptfagmkxdfqvizsomercvgqnlamqdfwnncnpmvcrozupumvwsqfmalubwtsoudhsomptfpifrqizdfdnlnzwtwfxcritfkpnmzcowtuvwtsoqscefxhrbfotfimq
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: wxrklqrp
+extra_info: The playfair table is [['w', 'x', 'r', 'k', 'l'], ['q', 'p', 'a', 'b', 'c'], ['d', 'e', 'f', 'g', 'h'], ['i', 'm', 'n', 'o', 's'], ['t', 'u', 'v', 'y', 'z']]
+subtype: playfair
+archetype: classical_cipher

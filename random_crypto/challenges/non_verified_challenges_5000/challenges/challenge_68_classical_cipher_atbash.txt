@@ -1,0 +1,14 @@
+An archaeologist found a note in an ancient ruin. She suspects the message uses a simple mirror substitution. Can you decode it? Ciphertext: uozt{lhnym4in}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{osmbn4rm}
+cipher: Atbash
+ciphertext: uozt{lhnym4in}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

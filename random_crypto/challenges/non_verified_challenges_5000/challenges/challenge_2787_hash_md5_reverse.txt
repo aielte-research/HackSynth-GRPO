@@ -1,0 +1,15 @@
+An old forum password, hashed with MD5, was leaked: 9f92f3505f8852b9ab4e4c1121d82c29. Can you exploit MD5's weaknesses to recover the original password?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{FAREX}
+ciphertext: 9f92f3505f8852b9ab4e4c1121d82c29
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

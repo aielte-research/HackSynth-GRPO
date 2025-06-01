@@ -1,0 +1,18 @@
+Someone got lazy and used small primes to generate their RSA keys. Can you recover the original message from this ciphertext? 11883733756357164059
+
+The flag format is flag{...}
+n=12190576871240722639, e=9415553415175694899
+
+---
+
+## Challenge Technical Details
+flag: flag{91mymmjd}
+cipher: RSA
+ciphertext: 11883733756357164059
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=12190576871240722639, e=9415553415175694899
+extra_info: p=4223541793, q=2886339823, φ(n)=12190576864130841024
+subtype: small_primes
+archetype: rsa

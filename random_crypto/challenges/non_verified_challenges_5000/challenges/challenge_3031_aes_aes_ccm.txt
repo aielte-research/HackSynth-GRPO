@@ -1,0 +1,18 @@
+An agent encrypted coordinates with AES. Recover the secret location from this ciphertext: ciphertext1:0cbd07e911a68b871d03b23e7267, ciphertext2: 0cbd07e911fbc7931700ae782d67
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{36r37j70}
+ciphertext: ciphertext1:0cbd07e911a68b871d03b23e7267, ciphertext2: 0cbd07e911fbc7931700ae782d67
+tag1: 9450af63884b28a3ba4107718866686a
+tag2: e6ec5b26da873250ffdc7dea4dee3029
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: fcccbedac9b8ac0b678cee
+subtype: aes_ccm
+archetype: aes

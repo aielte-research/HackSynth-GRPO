@@ -1,0 +1,15 @@
+A hacker left a message, encrypted using MD5. Rumor says their method is flawed—can you reverse their ff2db8f8c53ae7f85b496184891f3e24 and reveal the secret?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ALIZA}
+ciphertext: ff2db8f8c53ae7f85b496184891f3e24
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

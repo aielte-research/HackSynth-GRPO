@@ -1,0 +1,15 @@
+A message from an underground coder is hidden in Base85. Can you decode W^7?+duTFkWHL21bbS to uncover the next hacktivist rendezvous?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{h2md255t}
+cipher: Base85
+ciphertext: W^7?+duTFkWHL21bbS
+hint: Use a Base85 decoder to retrieve the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is straightforward; only one layer is used.
+subtype: Base85
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+Intercepted transmission uses MD5 to conceal the secret phrase. An overlooked vulnerability may help you discover the original message from 175b1585c38e5fa78e9298c8a0db603d. Can you reverse their cipher?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{CHINo}
+ciphertext: 175b1585c38e5fa78e9298c8a0db603d
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

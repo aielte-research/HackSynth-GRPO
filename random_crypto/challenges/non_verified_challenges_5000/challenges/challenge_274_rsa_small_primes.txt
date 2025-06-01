@@ -1,0 +1,18 @@
+An intern rushed the encryption and used tiny RSA primes. Can you recover the message from this weak 9226341312868353320 ciphertext?
+
+The flag format is flag{...}
+n=10264080439507483697, e=9533388745140679037
+
+---
+
+## Challenge Technical Details
+flag: flag{2d73yn3p}
+cipher: RSA
+ciphertext: 9226341312868353320
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=10264080439507483697, e=9533388745140679037
+extra_info: p=3890879987, q=2637984331, φ(n)=10264080432978619380
+subtype: small_primes
+archetype: rsa

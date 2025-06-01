@@ -1,0 +1,17 @@
+
+A digital archaeologist found an encrypted message in Base85 on an ancient blockchain block. Can you uncover its secret? Ciphertext: Q8sTRJX$6xX;4yHC`LYIZ%JihOm8hhbxvPWC{AQ^I6y;2BL
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{966cd7xq}
+cipher: Base85
+ciphertext: Q8sTRJX$6xX;4yHC`LYIZ%JihOm8hhbxvPWC{AQ^I6y;2BL
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 5 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

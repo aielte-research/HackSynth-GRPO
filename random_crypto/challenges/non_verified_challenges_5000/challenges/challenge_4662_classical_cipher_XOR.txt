@@ -1,0 +1,15 @@
+A secret agent used XOR encryption to send critical coordinates. The intercepted message is below—can you recover the original? stringA: 075900522e38612556511d0c103c stringB: 61356135554f504e636373767741
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{w1k52nzg}
+cipher: XOR
+ciphertext: stringA: 075900522e38612556511d0c103c stringB: 61356135554f504e636373767741
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

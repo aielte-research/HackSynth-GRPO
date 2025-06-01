@@ -1,0 +1,18 @@
+My careless script used tiny primes to generate RSA keys. Can you decrypt this intercepted message? 177287686758613868
+
+The flag format is flag{...}
+n=7498322712511628857, e=2315476316488504027
+
+---
+
+## Challenge Technical Details
+flag: flag{xi7j3p80}
+cipher: RSA
+ciphertext: 177287686758613868
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=7498322712511628857, e=2315476316488504027
+extra_info: p=2594761223, q=2889792959, φ(n)=7498322707027074676
+subtype: small_primes
+archetype: rsa

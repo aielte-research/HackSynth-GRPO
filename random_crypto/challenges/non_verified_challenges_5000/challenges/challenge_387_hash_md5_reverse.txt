@@ -1,0 +1,15 @@
+Someone left an MD5 hash, confident it can't be reversed. Prove them wrong: recover the original message from 0b9e4c77c0dd87ad5271018472fc7523.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{SUMBR}
+ciphertext: 0b9e4c77c0dd87ad5271018472fc7523
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

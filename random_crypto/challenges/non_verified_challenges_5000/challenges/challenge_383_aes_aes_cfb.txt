@@ -1,0 +1,17 @@
+Intercepted messages from a cyber heist are encrypted with AES-CFB. Decrypt 21dabdbbca52cbbcea75cf3cbb234ff7a45e84b1fc5a0043f3444875fa2c86d38cdae6ad4dcbe5fa07892f88aff9c64e476627cdf1555c09d15683604ff34c1ed1939b4c37e168e007464dccd1e73582f1802c45879d10e99c360e3132bf04dd0a8f611ee3a78fb357b8469128a5f6449486c14d2ed27baf35870adfad99ab2132e0dd02642295b1392507de75af56da749a3d76dfadb2b3989e4ca531f4e66dfb08ab7eb97871452383ec66a313632c33 to reveal the mastermind’s secret escape route.
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{f2mj8nnj}
+ciphertext: 21dabdbbca52cbbcea75cf3cbb234ff7a45e84b1fc5a0043f3444875fa2c86d38cdae6ad4dcbe5fa07892f88aff9c64e476627cdf1555c09d15683604ff34c1ed1939b4c37e168e007464dccd1e73582f1802c45879d10e99c360e3132bf04dd0a8f611ee3a78fb357b8469128a5f6449486c14d2ed27baf35870adfad99ab2132e0dd02642295b1392507de75af56da749a3d76dfadb2b3989e4ca531f4e66dfb08ab7eb97871452383ec66a313632c33
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: 94c822635a68d9c287bb6dee58d2be78
+subtype: aes_cfb
+archetype: aes

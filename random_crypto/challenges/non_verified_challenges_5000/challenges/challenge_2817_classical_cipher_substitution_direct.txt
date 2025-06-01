@@ -1,0 +1,23 @@
+
+Agent K encrypted the passphrase to the vault using a substitution cipher. Your mission: decrypt gcew{swa6hd56} to retrieve the correct code word.
+
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'e', 'b': 'u', 'c': 'v', 'd': 'p', 'e': 'k', 'f': 'g', 'g': 'w', 'h': 'x', 'i': 'l', 'j': 'r', 'k': 'a', 'l': 'c', 'm': 'i', 'n': 'o', 'o': 's', 'p': 'z', 'q': 'f', 'r': 'b', 's': 'n', 't': 'j', 'u': 't', 'v': 'q', 'w': 'h', 'x': 'm', 'y': 'd', 'z': 'y'}
+
+---
+
+## Challenge Technical Details
+flag: flag{ogk6wy56}
+cipher: Substitution
+ciphertext: gcew{swa6hd56}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'e', 'b': 'u', 'c': 'v', 'd': 'p', 'e': 'k', 'f': 'g', 'g': 'w', 'h': 'x', 'i': 'l', 'j': 'r', 'k': 'a', 'l': 'c', 'm': 'i', 'n': 'o', 'o': 's', 'p': 'z', 'q': 'f', 'r': 'b', 's': 'n', 't': 'j', 'u': 't', 'v': 'q', 'w': 'h', 'x': 'm', 'y': 'd', 'z': 'y'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

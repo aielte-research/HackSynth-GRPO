@@ -1,0 +1,21 @@
+A suspicious note appeared in the hacker lounge. Can you decipher its meaning, hidden by a classic substitution cipher? Here’s the encrypted message: qxmz{wt02dh6r}
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'm', 'b': 'y', 'c': 'h', 'd': 'c', 'e': 'a', 'f': 'q', 'g': 'z', 'h': 'i', 'i': 'd', 'j': 'l', 'k': 'e', 'l': 'x', 'm': 'u', 'n': 't', 'o': 'b', 'p': 'w', 'q': 'j', 'r': 'n', 's': 'r', 't': 's', 'u': 'k', 'v': 'p', 'w': 'o', 'x': 'v', 'y': 'f', 'z': 'g'}
+
+---
+
+## Challenge Technical Details
+flag: flag{pn02ic6s}
+cipher: Substitution
+ciphertext: qxmz{wt02dh6r}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'm', 'b': 'y', 'c': 'h', 'd': 'c', 'e': 'a', 'f': 'q', 'g': 'z', 'h': 'i', 'i': 'd', 'j': 'l', 'k': 'e', 'l': 'x', 'm': 'u', 'n': 't', 'o': 'b', 'p': 'w', 'q': 'j', 'r': 'n', 's': 'r', 't': 's', 'u': 'k', 'v': 'p', 'w': 'o', 'x': 'v', 'y': 'f', 'z': 'g'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

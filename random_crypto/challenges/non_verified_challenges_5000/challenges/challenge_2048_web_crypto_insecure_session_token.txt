@@ -1,0 +1,12 @@
+During a rushed deployment, the devs left the session token cipher vulnerable. Can you recover the admin token from this intercepted data: 757365725f30366f333a666c61677b38797234317430377d3a31373438313636393738?
+
+---
+
+## Challenge Technical Details
+flag: flag{8yr41t07}
+ciphertext: 757365725f30366f333a666c61677b38797234317430377d3a31373438313636393738
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_06o3:flag{8yr41t07}:1748166978'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

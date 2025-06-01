@@ -1,0 +1,27 @@
+A hacker left a taunting note encrypted with a flawed LCG cipher. Can you break their scheme and reveal the message? Ciphertext: 46e0c0e05bfdd8e94eeec8f04af1
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 2098958390
+  - Multiplier: 2077285800
+  - Increment: 1073547963
+The first 5 outputs of the LCG are provided: [134480343, 1794501553, 1820364583, 1417232823, 667233003] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{qynnbiwj}
+ciphertext: 46e0c0e05bfdd8e94eeec8f04af1
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 2098958390
+  - Multiplier: 2077285800
+  - Increment: 1073547963
+The first 5 outputs of the LCG are provided: [134480343, 1794501553, 1820364583, 1417232823, 667233003] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

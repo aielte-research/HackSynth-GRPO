@@ -1,0 +1,12 @@
+An outdated forum uses weak session tokens. Someone leaked their token, but only left the raw encrypted text: 757365725f763979373a666c61677b34696e766a676a657d3a31373438313730333338. Can you recover their original session ID?
+
+---
+
+## Challenge Technical Details
+flag: flag{4invjgje}
+ciphertext: 757365725f763979373a666c61677b34696e766a676a657d3a31373438313730333338
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_v9y7:flag{4invjgje}:1748170338'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

@@ -1,0 +1,24 @@
+A hacker left a secret message hashed with SHA-256. Can you find the original text from the digest? Ciphertext: 562dfef494788c74327c1fe67b777f1202fadec9290a4f6e021435fb06a73faa
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{w5ja}
+ciphertext: 562dfef494788c74327c1fe67b777f1202fadec9290a4f6e021435fb06a73faa
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

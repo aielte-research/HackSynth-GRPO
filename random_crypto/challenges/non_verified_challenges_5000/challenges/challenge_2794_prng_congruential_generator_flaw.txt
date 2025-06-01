@@ -1,0 +1,27 @@
+We've intercepted a message from the hacker, encrypted with their homebrew PRNG. Can you break the 7f372e33623e7a32686b25277d26 and reveal their next move?
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 634523767
+  - Multiplier: 500839059
+  - Increment: 550552280
+The first 5 outputs of the LCG are provided: [149886885, 255822078, 563605890, 253925649, 149608772] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{e5fq0jsd}
+ciphertext: 7f372e33623e7a32686b25277d26
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 634523767
+  - Multiplier: 500839059
+  - Increment: 550552280
+The first 5 outputs of the LCG are provided: [149886885, 255822078, 563605890, 253925649, 149608772] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

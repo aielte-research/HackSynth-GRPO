@@ -1,0 +1,18 @@
+Rushed for a demo, Alice encrypts two secrets with AES-GCM, accidentally reusing the same nonce. Can you exploit this mistake and recover the messages from ciphertext1:28ec14d8e84690c60f1d226af0a3, ciphertext2: 3ae81cccb317998f54436e22f9fe12fc7f4f?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{8zi518hh}
+ciphertext: ciphertext1:28ec14d8e84690c60f1d226af0a3, ciphertext2: 3ae81cccb317998f54436e22f9fe12fc7f4f
+tag1: ee889d6bc2f6a44c14e503f72db35536
+tag2: a5dcc68aecb1be078104d310983bd149
+cipher: AES-GCM
+vulnerability: nonce reuse
+hint: AES-GCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 407a6d54d8d9bf4e6b7173b4
+subtype: aes_gcm
+archetype: aes

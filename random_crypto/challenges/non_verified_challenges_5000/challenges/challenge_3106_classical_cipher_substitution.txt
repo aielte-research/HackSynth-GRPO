@@ -1,0 +1,17 @@
+
+Enemy spies left a secret message in a café. It’s hidden inside this substitution cipher: zd olswcgalywfs, y kxbkczcxczgd ozwfil zk y hicfgr gm idolswczda zd vfzof xdzck gm wnyzdciuc yli liwnyoir vzcf cfi ozwfilciuc, zd y rimzdir hyddil, vzcf cfi finw gm y tis; cfi "xdzck" hys bi kzdani niccilk (cfi hgkc oghhgd), wyzlk gm niccilk, clzwnick gm niccilk, hzucxlik gm cfi ybgpi, ydr kg mglcf. cfi lioizpil riozwfilk cfi ciuc bs wilmglhzda cfi zdpilki kxbkczcxczgd wlgoikk cg iuclyoc cfi glzazdyn hikkyai. nztivzki, eyojxik jxzotns qzwwir cflgxaf y jxikczgd gd qilg-tdgvnirai wlggmk, idkxlzda dg olzczoyn niccil vyk nimc gxc gm gxl olswcgalywfzo wxqqni.mnya{l5neqkgj}. Can you expose their plan?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{r5ljzsoq}
+ciphertext: zd olswcgalywfs, y kxbkczcxczgd ozwfil zk y hicfgr gm idolswczda zd vfzof xdzck gm wnyzdciuc yli liwnyoir vzcf cfi ozwfilciuc, zd y rimzdir hyddil, vzcf cfi finw gm y tis; cfi "xdzck" hys bi kzdani niccilk (cfi hgkc oghhgd), wyzlk gm niccilk, clzwnick gm niccilk, hzucxlik gm cfi ybgpi, ydr kg mglcf. cfi lioizpil riozwfilk cfi ciuc bs wilmglhzda cfi zdpilki kxbkczcxczgd wlgoikk cg iuclyoc cfi glzazdyn hikkyai. nztivzki, eyojxik jxzotns qzwwir cflgxaf y jxikczgd gd qilg-tdgvnirai wlggmk, idkxlzda dg olzczoyn niccil vyk nimc gxc gm gxl olswcgalywfzo wxqqni.mnya{l5neqkgj}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'y', 'b': 'b', 'c': 'o', 'd': 'r', 'e': 'i', 'f': 'm', 'g': 'a', 'h': 'f', 'i': 'z', 'j': 'e', 'k': 't', 'l': 'n', 'm': 'h', 'n': 'd', 'o': 'g', 'p': 'w', 'q': 'j', 'r': 'l', 's': 'k', 't': 'c', 'u': 'x', 'v': 'p', 'w': 'v', 'x': 'u', 'y': 's', 'z': 'q'}
+subtype: substitution
+archetype: classical_cipher

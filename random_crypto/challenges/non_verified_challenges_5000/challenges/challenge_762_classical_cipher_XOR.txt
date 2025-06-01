@@ -1,0 +1,15 @@
+An old hacker left a secret message encrypted with XOR. Can you recover the flag from this cipher? stringA: 0a1f50063d407f5539505a235b28 stringB: 6c73316146794f664c666d546e55
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{903u67w5}
+cipher: XOR
+ciphertext: stringA: 0a1f50063d407f5539505a235b28 stringB: 6c73316146794f664c666d546e55
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

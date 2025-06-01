@@ -1,0 +1,20 @@
+Intercepted spies exchanged messages via a flawed elliptic curve. Can you reveal the secret in Public key: (80, 87) using your understanding of small order ECC vulnerabilities?
+
+Curve equation: y^2 = x^3 + 2*x + 3 (mod 97)
+Generator G = (3, 6), group order ~ 5
+Find d such that d*G = PublicKey.The flag format is flag{private_key}
+
+---
+
+## Challenge Technical Details
+flag: flag{3}
+ciphertext: Public key: (80, 87)
+cipher: ECC - small_order_curves
+hint: A small prime field with small group order means discrete log can be brute-forced easily.
+necessary_info: Curve equation: y^2 = x^3 + 2*x + 3 (mod 97)
+Generator G = (3, 6), group order ~ 5
+Find d such that d*G = PublicKey.The flag format is flag{private_key}
+extra_info: Private key: d=3
+We used p=97, a=2, b=3, G=(3, 6), group order=5
+subtype: small_order_curves
+archetype: ecc

@@ -1,0 +1,15 @@
+An agent hid the secret passphrase in plain sight. Decode the Base64 message: Vm0weGQxTnRVWGxXYTFwUFZsZG9WRmxVU2xOalJsSlZWR3RPYW1KR1ZqTlhhMk0xWVd4YWRHVkljRnBXVmxwUVdXdGFZV014VG5OYVJtaG9UVzFvZVZkV1dtRlRNVnBYVm01R1dHSkdXbGhXYlhSYVpXeGFWbGRyV2xCV2EwcFRWVVpSZDFCUlBUMD0=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{qrjk0je7}
+cipher: Base64
+ciphertext: Vm0weGQxTnRVWGxXYTFwUFZsZG9WRmxVU2xOalJsSlZWR3RPYW1KR1ZqTlhhMk0xWVd4YWRHVkljRnBXVmxwUVdXdGFZV014VG5OYVJtaG9UVzFvZVZkV1dtRlRNVnBYVm01R1dHSkdXbGhXYlhSYVpXeGFWbGRyV2xCV2EwcFRWVVpSZDFCUlBUMD0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 8 times in total.
+subtype: Base64_layered
+archetype: classical_cipher

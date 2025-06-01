@@ -1,0 +1,17 @@
+
+A lost drive uses AES-XTS for disk encryption. Can you decrypt the hidden message inside? The ciphertext is: ciphertext1:aea3c805a33731293da86008a7db9b2f, ciphertext2: 3efe7a6dc26719542e0da2c9bcb406be630dd53370d25ccb94dac7e6ddd0b798
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{hz5w1sl9}
+ciphertext: ciphertext1:aea3c805a33731293da86008a7db9b2f, ciphertext2: 3efe7a6dc26719542e0da2c9bcb406be630dd53370d25ccb94dac7e6ddd0b798
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: fc2472854d376b0767bf881d2f76fa11
+subtype: aes_xts
+archetype: aes

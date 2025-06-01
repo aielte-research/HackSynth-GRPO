@@ -1,0 +1,11 @@
+An anonymous tipster sent you a suspicious JWT token containing a hidden message. Can you extract the secret from eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3twOXhuOTB3dX0ifQ.?
+
+---
+
+## Challenge Technical Details
+flag: flag{p9xn90wu}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3twOXhuOTB3dX0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

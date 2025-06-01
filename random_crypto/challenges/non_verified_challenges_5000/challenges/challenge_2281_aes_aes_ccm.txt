@@ -1,0 +1,18 @@
+A secret agent encrypted the coordinates to the drop point using AES. Can you recover the message from the mysterious ciphertext below? ciphertext1:ca26457ab356b81ee95c6feed91f, ciphertext2: ca26457ab359ab09a1036beedd1f
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{wko1ktyn}
+ciphertext: ciphertext1:ca26457ab356b81ee95c6feed91f, ciphertext2: ca26457ab359ab09a1036beedd1f
+tag1: 6a479691dbdf82f3e9658f7907d21222
+tag2: fb2639a4ea11216b2130600f045aa5ae
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: bffb3182f01b33583da944
+subtype: aes_ccm
+archetype: aes

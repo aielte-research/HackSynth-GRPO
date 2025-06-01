@@ -1,0 +1,15 @@
+A mysterious message encoded with the SplitNumberMix cipher appeared in an online treasure hunt. Can you recover the flag from this encrypted text?  777777777 flag{k 777777777 ol 777777777 qtqsd 777777777 } 777777777 
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{kolqtqsd}
+ciphertext:  777777777 flag{k 777777777 ol 777777777 qtqsd 777777777 } 777777777 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 4 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

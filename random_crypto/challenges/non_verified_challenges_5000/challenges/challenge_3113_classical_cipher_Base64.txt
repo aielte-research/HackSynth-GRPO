@@ -1,0 +1,17 @@
+
+The hacker's message was scrambled using a simple encoding. Decode ZmxhZ3t4aHdwbHU3Y30= to reveal the secret plan.
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{xhwplu7c}
+cipher: Base64
+ciphertext: ZmxhZ3t4aHdwbHU3Y30=
+hint: Use a Base64 decoder to obtain the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is direct; no additional layers or tricks.
+subtype: Base64
+archetype: classical_cipher

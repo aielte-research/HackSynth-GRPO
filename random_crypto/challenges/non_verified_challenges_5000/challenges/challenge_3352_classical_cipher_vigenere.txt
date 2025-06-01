@@ -1,0 +1,16 @@
+An intercepted agent note reads: vevv{hevhxoe6}. Intelligence suggests a keyword-based cipher—can you uncover their secret message?
+
+The flag format is flag{...}
+The keyword is: qtvpm
+
+---
+
+## Challenge Technical Details
+flag: flag{vocmico6}
+ciphertext: vevv{hevhxoe6}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: qtvpm
+subtype: vigenere
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+A hacker left a clue encrypted with an ASCII Shift. Can you decode the secret embedded in: mshnx}p<=?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{zqvi56xx}
+cipher: ASCII Shift
+ciphertext: mshnx}p<=
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 7
+subtype: ascii_shift
+archetype: classical_cipher

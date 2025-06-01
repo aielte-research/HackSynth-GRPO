@@ -1,0 +1,12 @@
+After logging in, Anna found her session token encrypted with a suspicious homemade scheme. Can you derive her session from this token? Encrypted token: 757365725f386c666a3a666c61677b6b6a37333770786f7d3a31373437343832323135
+
+---
+
+## Challenge Technical Details
+flag: flag{kj737pxo}
+ciphertext: 757365725f386c666a3a666c61677b6b6a37333770786f7d3a31373437343832323135
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_8lfj:flag{kj737pxo}:1747482215'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

@@ -1,0 +1,29 @@
+
+Intercepted messages from an underground casino use the LCG Predictability cipher. Can you recover the roulette winner’s name from 5706a3264a1dbb2d071bfb330017?
+
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1176432537
+  - Multiplier: 509315416
+  - Increment: 557503695
+The first 5 outputs of the LCG are provided: [951777480, 573056802, 839699871, 199087773, 411434670] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{wyl6q9r1}
+ciphertext: 5706a3264a1dbb2d071bfb330017
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1176432537
+  - Multiplier: 509315416
+  - Increment: 557503695
+The first 5 outputs of the LCG are provided: [951777480, 573056802, 839699871, 199087773, 411434670] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

@@ -1,0 +1,15 @@
+Intercepted at a hackerspace: a secret message encoded with Base85. Can you reveal what Q8+ttdr@OIG*C!rHB%->JZW-vP-9e6ZdPn7Kvh#UayMu}d1*2~Vm4q|Vq<e(L2ynyY*QgseKA- hides?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{cwy4f64x}
+cipher: Base85
+ciphertext: Q8+ttdr@OIG*C!rHB%->JZW-vP-9e6ZdPn7Kvh#UayMu}d1*2~Vm4q|Vq<e(L2ynyY*QgseKA-
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 7 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

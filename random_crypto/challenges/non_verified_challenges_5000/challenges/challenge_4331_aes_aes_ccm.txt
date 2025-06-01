@@ -1,0 +1,18 @@
+A mysterious transaction note arrived, encrypted with AES. Can you decrypt ciphertext1:83daf95957f2e6fc277f03417667, ciphertext2: 83daf95957fab1bd7e7c4d527967 to reveal its hidden message and recover the lost funds?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{06wi1yfh}
+ciphertext: ciphertext1:83daf95957f2e6fc277f03417667, ciphertext2: 83daf95957fab1bd7e7c4d527967
+tag1: 2f98ed1df48ab7cf227a6e7fcc1dd1a1
+tag2: 855b83ce2a9a5ce8d900935008321eca
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 23536bf3934d9100bf7f4b
+subtype: aes_ccm
+archetype: aes

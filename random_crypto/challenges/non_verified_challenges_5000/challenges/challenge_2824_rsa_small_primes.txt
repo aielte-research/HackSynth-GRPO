@@ -1,0 +1,20 @@
+
+An intern rushed the RSA setup, using small primes for speed. Can you decrypt the intercepted message? Ciphertext: 13657598250506541829
+
+
+The flag format is flag{...}
+n=14820402201242634319, e=1685089617095553463
+
+---
+
+## Challenge Technical Details
+flag: flag{apwn9gvj}
+cipher: RSA
+ciphertext: 13657598250506541829
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=14820402201242634319, e=1685089617095553463
+extra_info: p=4288519231, q=3455832049, φ(n)=14820402193498283040
+subtype: small_primes
+archetype: rsa

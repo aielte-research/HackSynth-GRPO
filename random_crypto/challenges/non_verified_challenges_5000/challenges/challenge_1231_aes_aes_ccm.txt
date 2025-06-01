@@ -1,0 +1,18 @@
+A hacker intercepted a top-secret message encrypted with AES. Can you decrypt ciphertext1:2bd480e3c0b8776e75bd68e8e41a, ciphertext2: 2bd480e3c0f9326e39a833e8ba1a to reveal the mission details?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{95u4z1ii}
+ciphertext: ciphertext1:2bd480e3c0b8776e75bd68e8e41a, ciphertext2: 2bd480e3c0f9326e39a833e8ba1a
+tag1: 8dcac3d51bffd6c0e0daab9572db1d4d
+tag2: 1aa5cac6cf83815f4e274b1d7d52ec0c
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: acf855d49398bac66e024e
+subtype: aes_ccm
+archetype: aes

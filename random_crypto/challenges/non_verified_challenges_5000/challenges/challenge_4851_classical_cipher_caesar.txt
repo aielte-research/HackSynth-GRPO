@@ -1,0 +1,15 @@
+A message was intercepted from a suspicious forum user. It appears jumbled—can you help decrypt it and reveal what they're hiding? wcrx{oa1av27l}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{xj1je27u}
+ciphertext: wcrx{oa1av27l}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 17
+subtype: caesar
+archetype: classical_cipher

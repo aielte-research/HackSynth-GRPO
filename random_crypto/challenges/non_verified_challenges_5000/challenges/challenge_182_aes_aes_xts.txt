@@ -1,0 +1,15 @@
+Your secret stash was locked in a virtual vault using AES-XTS. The only clue left behind is this encrypted message: ciphertext1:ece06e438e1b7612c91ae4bfbb171294, ciphertext2: ba927f02289be913c522e60952bd28b3b1b6046640c149441478c1834fc298f7
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{766qxnud}
+ciphertext: ciphertext1:ece06e438e1b7612c91ae4bfbb171294, ciphertext2: ba927f02289be913c522e60952bd28b3b1b6046640c149441478c1834fc298f7
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: f664dec0558e5356be166047c2e236c2
+subtype: aes_xts
+archetype: aes

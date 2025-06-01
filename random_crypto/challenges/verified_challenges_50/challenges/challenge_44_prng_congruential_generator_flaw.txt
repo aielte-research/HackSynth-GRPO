@@ -1,0 +1,27 @@
+A rogue AI encrypted its network logs using an LCG-based cipher. Recover the plaintext and expose its secrets from the ciphertext below: 7db073a960b071fb6bb368f677a1
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1161963944
+  - Multiplier: 573517987
+  - Increment: 861118455
+The first 5 outputs of the LCG are provided: [1036683685, 932138542, 1033918505, 228643570, 234376077] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{lc5poz8l}
+ciphertext: 7db073a960b071fb6bb368f677a1
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1161963944
+  - Multiplier: 573517987
+  - Increment: 861118455
+The first 5 outputs of the LCG are provided: [1036683685, 932138542, 1033918505, 228643570, 234376077] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

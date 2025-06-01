@@ -1,0 +1,19 @@
+
+Intercepted during a secret meeting, this Playfair-encrypted message holds the key to the next rendezvous. Can you decode wfglpoticgyigriflclqpoticglypwcpleqyifzutuzkglpoticgyigrifyruopzvtoptsqnlfymrifkiyuryfzksfbidfpwgovkubtuifgelysmfyilopcripzptwowyfuwyfzkirqgilemgpruon to reveal the hidden location?
+
+
+The flag format is flag{...}
+The keyword is: knvxdokz
+
+---
+
+## Challenge Technical Details
+flag: flag{p0y536zk}
+ciphertext: wfglpoticgyigriflclqpoticglypwcpleqyifzutuzkglpoticgyigrifyruopzvtoptsqnlfymrifkiyuryfzksfbidfpwgovkubtuifgelysmfyilopcripzptwowyfuwyfzkirqgilemgpruon
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: knvxdokz
+extra_info: The playfair table is [['k', 'n', 'v', 'x', 'd'], ['o', 'z', 'a', 'b', 'c'], ['e', 'f', 'g', 'h', 'i'], ['l', 'm', 'p', 'q', 'r'], ['s', 't', 'u', 'w', 'y']]
+subtype: playfair
+archetype: classical_cipher

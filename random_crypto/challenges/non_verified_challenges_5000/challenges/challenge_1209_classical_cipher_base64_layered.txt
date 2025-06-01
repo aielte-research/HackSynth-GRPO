@@ -1,0 +1,15 @@
+An agent hid a secret in Base64. Can you decode the message and reveal the flag? Here’s the encrypted note: VmpJd2VFNUhSa2RpTTNCcVpXeGFjMVV3Vm1GaU1YQklUbFZLVDFKdGREWlVWVkYzVUZFOVBRPT0=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{9xqavp8c}
+cipher: Base64
+ciphertext: VmpJd2VFNUhSa2RpTTNCcVpXeGFjMVV3Vm1GaU1YQklUbFZLVDFKdGREWlVWVkYzVUZFOVBRPT0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 5 times in total.
+subtype: base64_layered
+archetype: classical_cipher

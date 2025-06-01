@@ -1,0 +1,18 @@
+A mysterious hacker left you an encrypted message: ciphertext1:a852ea0af48a9de502ca4066b716, ciphertext2: a852ea0af4cfdff7409b4f32ae16. They claim the secret key is hidden in plain sight. Can you unlock it using AES?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{31s6cz2x}
+ciphertext: ciphertext1:a852ea0af48a9de502ca4066b716, ciphertext2: a852ea0af4cfdff7409b4f32ae16
+tag1: 9d93ef763e78cb0541d0e334f9377ca0
+tag2: e6aafbe28d144ae12d0b62e7da79fa6b
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 31397e7b0ed168f56ef4dd
+subtype: aes_ccm
+archetype: aes

@@ -1,0 +1,18 @@
+An encrypted message, believed to expose the traitor, was intercepted. Only someone skilled with AES can reveal its secret: ciphertext1:9c5bfc48d5705271251432402637, ciphertext2: 9c5bfc48d570583f271779467c37
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{umx27zsk}
+ciphertext: ciphertext1:9c5bfc48d5705271251432402637, ciphertext2: 9c5bfc48d570583f271779467c37
+tag1: 77c51eddf36a1e829a2306814e9e277f
+tag2: 5093d9a1a0140876a576f5b768b87524
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 693c6b85709e728017592b
+subtype: aes_ccm
+archetype: aes

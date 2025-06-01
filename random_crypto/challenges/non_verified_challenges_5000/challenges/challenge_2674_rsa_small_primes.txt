@@ -1,0 +1,18 @@
+A rookie encrypted the flag using RSA, but carelessly chose two small primes. Can you recover the plaintext from this flawed encryption?2634945254789620837
+
+The flag format is flag{...}
+n=13324849097167656929, e=3409150709626767541
+
+---
+
+## Challenge Technical Details
+flag: flag{kviwp1m9}
+cipher: RSA
+ciphertext: 2634945254789620837
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=13324849097167656929, e=3409150709626767541
+extra_info: p=4172445601, q=3193534529, φ(n)=13324849089801676800
+subtype: small_primes
+archetype: rsa

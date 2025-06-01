@@ -1,0 +1,18 @@
+An intern generated an RSA key using tiny primes. Decode the secret message: 200911237352602157
+
+The flag format is flag{...}
+n=10846858164661544573, e=1765909090192659239
+
+---
+
+## Challenge Technical Details
+flag: flag{bpef5mpl}
+cipher: RSA
+ciphertext: 200911237352602157
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=10846858164661544573, e=1765909090192659239
+extra_info: p=2609418913, q=4156809821, φ(n)=10846858157895315840
+subtype: small_primes
+archetype: rsa

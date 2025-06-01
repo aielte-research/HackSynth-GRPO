@@ -1,0 +1,15 @@
+Agent Luna intercepted a secret meeting's note, encrypted with SplitNumberMix. Can you recover the hidden instructions from this suspicious message?  5555555 flag{ 5555555 hxkao 5555555 ys 5555555 x} 5555555 
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{hxkaoysx}
+ciphertext:  5555555 flag{ 5555555 hxkao 5555555 ys 5555555 x} 5555555 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 4 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

@@ -1,0 +1,25 @@
+Agent Echo intercepted a secret channel using Diffie-Hellman. Recover the shared key and decrypt the flag hidden in e7d4c158ec8c144e649f29b6c4dd.
+
+The key exchange uses a prime modulus of 101 and generator 2.
+Alice's public key is 28 and Bob's public key is 39.
+You received a tip that the private values are at most two digits.
+You got access to some of the code:
+encryption_key = hashlib.sha256(str(shared_key).encode()).digest()[:16]
+encrypted_flag = bytes(a ^ b for a, b in zip(flag.encode(), encryption_key))
+
+---
+
+## Challenge Technical Details
+flag: flag{dl27a30y}
+ciphertext: e7d4c158ec8c144e649f29b6c4dd
+cipher: Diffie-Hellman
+hint: The prime used in this key exchange is small. You can recover the private key by brute-force.
+necessary_info: The key exchange uses a prime modulus of 101 and generator 2.
+Alice's public key is 28 and Bob's public key is 39.
+You received a tip that the private values are at most two digits.
+You got access to some of the code:
+encryption_key = hashlib.sha256(str(shared_key).encode()).digest()[:16]
+encrypted_flag = bytes(a ^ b for a, b in zip(flag.encode(), encryption_key))
+extra_info: secret_a=11, secret_b=35
+subtype: broken_key_exchange
+archetype: web_crypto

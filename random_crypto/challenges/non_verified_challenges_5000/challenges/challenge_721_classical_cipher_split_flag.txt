@@ -1,0 +1,17 @@
+
+A famous hacker split their secret number and mixed it cleverly. Can you reverse their SplitNumberMix cipher and reveal the hidden flag? Ciphertext:  333333333 fl 333333333 ag{ 333333333 pbxi 333333333 ardl} 333333333 
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{pbxiardl}
+ciphertext:  333333333 fl 333333333 ag{ 333333333 pbxi 333333333 ardl} 333333333 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 4 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

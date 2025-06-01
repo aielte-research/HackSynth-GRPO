@@ -1,0 +1,18 @@
+An anonymous sender left you a file titled "vault.aes". Decrypt ciphertext1:0ea7f9cd4051e2079b30b1fa7146, ciphertext2: 0ea7f9cd400ce3418a3ca5f07546 to access their hidden message and prove your cryptographic skills.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{3qqccfri}
+ciphertext: ciphertext1:0ea7f9cd4051e2079b30b1fa7146, ciphertext2: 0ea7f9cd400ce3418a3ca5f07546
+tag1: b01e8c8e4d07ba47e3b7a7f9d9e37a73
+tag2: 24aa645b7bb7c4c53989db93e8d5db2e
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 7d77cbb75b3aab3f318b8a
+subtype: aes_ccm
+archetype: aes

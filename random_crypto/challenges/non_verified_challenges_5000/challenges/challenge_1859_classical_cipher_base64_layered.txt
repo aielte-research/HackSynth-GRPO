@@ -1,0 +1,15 @@
+An agent hid secret coordinates using Base64. Can you decode the message? Here it is: Vm0weGQxTnRVWGxXYTFwUFZsZG9WRmxVU2xOalJsSlZWR3RPYW1KR1dubFdiVFZyWVd4S2MyTklhRlpOYWtFeFZrUkdTMk14VG5OYVJtaG9UVmhDYjFkWGRHRlhiVlpIV2toS2FsSnNXbGhXYlhSYVpXeGFWbGRyV2xCV2EwcFRWVVpSZDFCUlBUMD0=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{vmhq0e2x}
+cipher: Base64
+ciphertext: Vm0weGQxTnRVWGxXYTFwUFZsZG9WRmxVU2xOalJsSlZWR3RPYW1KR1dubFdiVFZyWVd4S2MyTklhRlpOYWtFeFZrUkdTMk14VG5OYVJtaG9UVmhDYjFkWGRHRlhiVlpIV2toS2FsSnNXbGhXYlhSYVpXeGFWbGRyV2xCV2EwcFRWVVpSZDFCUlBUMD0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 8 times in total.
+subtype: base64_layered
+archetype: classical_cipher

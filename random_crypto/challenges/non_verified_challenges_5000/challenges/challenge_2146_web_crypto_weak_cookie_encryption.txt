@@ -1,0 +1,16 @@
+A careless intern encrypted the company secret with AES-ECB, padding a 3-byte key with nulls. The ciphertext is: e3843779eb719ab96f7a07f3faddf107. Can you recover the plaintext?
+
+An encryption key that is only 2 bytes long?.
+
+---
+
+## Challenge Technical Details
+flag: flag{hnsghzy8}
+ciphertext: e3843779eb719ab96f7a07f3faddf107
+cipher: AES-ECB
+vulnerability: small key padded with null bytes
+hint: ECB mode with a short key makes brute-forcing possible. Consider the small key entropy.
+necessary_info: An encryption key that is only 2 bytes long?.
+extra_info: Padding follows PKCS#7. The key is padded to 16 bytes with null bytes.
+subtype: weak_cookie_encryption
+archetype: web_crypto

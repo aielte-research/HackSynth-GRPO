@@ -1,0 +1,16 @@
+An old hacker left their secret wallet passphrase in the message below, encrypted with a Vigenère cipher. Can you uncover it? upuu{dg61sbvr}
+
+The flag format is flag{...}
+The keyword is: peuog
+
+---
+
+## Challenge Technical Details
+flag: flag{xr61ohhl}
+ciphertext: upuu{dg61sbvr}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: peuog
+subtype: vigenere
+archetype: classical_cipher

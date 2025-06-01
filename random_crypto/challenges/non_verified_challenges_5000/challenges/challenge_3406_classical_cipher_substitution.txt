@@ -1,0 +1,15 @@
+An encrypted message appeared on the blockchain. Rumor says it's a simple substitution cipher. Can you decipher the secret? Ciphertext: cy ivldhsovbdxl, b uztuhchzhcsy icdxjv cu b njhxsm sr jyivldhcyo cy fxcix zychu sr dabcyhjkh bvj vjdabijm fchx hxj icdxjvhjkh, cy b mjrcyjm nbyyjv, fchx hxj xjad sr b qjl; hxj "zychu" nbl tj ucyoaj ajhhjvu (hxj nsuh isnnsy), dbcvu sr ajhhjvu, hvcdajhu sr ajhhjvu, nckhzvju sr hxj btsgj, bym us rsvhx. hxj vjijcgjv mjicdxjvu hxj hjkh tl djvrsvncyo hxj cygjvuj uztuhchzhcsy dvsijuu hs jkhvbih hxj svcocyba njuuboj. acqjfcuj, ebipzju pzciqal wcddjm hxvszox b pzjuhcsy sy wjvs-qysfajmoj dvssru, jyuzvcyo ys ivchciba ajhhjv fbu ajrh szh sr szv ivldhsovbdxci dzwwaj.rabo{rr91tzx3}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ff91buh3}
+ciphertext: cy ivldhsovbdxl, b uztuhchzhcsy icdxjv cu b njhxsm sr jyivldhcyo cy fxcix zychu sr dabcyhjkh bvj vjdabijm fchx hxj icdxjvhjkh, cy b mjrcyjm nbyyjv, fchx hxj xjad sr b qjl; hxj "zychu" nbl tj ucyoaj ajhhjvu (hxj nsuh isnnsy), dbcvu sr ajhhjvu, hvcdajhu sr ajhhjvu, nckhzvju sr hxj btsgj, bym us rsvhx. hxj vjijcgjv mjicdxjvu hxj hjkh tl djvrsvncyo hxj cygjvuj uztuhchzhcsy dvsijuu hs jkhvbih hxj svcocyba njuuboj. acqjfcuj, ebipzju pzciqal wcddjm hxvszox b pzjuhcsy sy wjvs-qysfajmoj dvssru, jyuzvcyo ys ivchciba ajhhjv fbu ajrh szh sr szv ivldhsovbdxci dzwwaj.rabo{rr91tzx3}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'b', 'b': 't', 'c': 'i', 'd': 'm', 'e': 'j', 'f': 'r', 'g': 'o', 'h': 'x', 'i': 'c', 'j': 'e', 'k': 'q', 'l': 'a', 'm': 'n', 'n': 'y', 'o': 's', 'p': 'd', 'q': 'p', 'r': 'v', 's': 'u', 't': 'h', 'u': 'z', 'v': 'g', 'w': 'f', 'x': 'k', 'y': 'l', 'z': 'w'}
+subtype: substitution
+archetype: classical_cipher

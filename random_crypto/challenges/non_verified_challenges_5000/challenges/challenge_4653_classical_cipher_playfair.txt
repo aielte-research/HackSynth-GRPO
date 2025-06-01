@@ -1,0 +1,19 @@
+
+A secret agent left a Playfair-encrypted note for you in the library basement. The message reads: bptlmwskcgqdhqftydlqmwskcglymxdmzeldftbzveeotlmwskcgqdhqftqkuwugzxwmusqulzopqizodqvrnheonzbicqmxzwocabveftgklyephnolwmckkmguuvwvnhzvnheoiqvpollsgmeahmhb
+
+
+The flag format is flag{...}
+The keyword is: eezttnow
+
+---
+
+## Challenge Technical Details
+flag: flag{z5wgpb7t}
+ciphertext: bptlmwskcgqdhqftydlqmwskcglymxdmzeldftbzveeotlmwskcgqdhqftqkuwugzxwmusqulzopqizodqvrnheonzbicqmxzwocabveftgklyephnolwmckkmguuvwvnhzvnheoiqvpollsgmeahmhb
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: eezttnow
+extra_info: The playfair table is [['e', 'z', 't', 'n', 'o'], ['w', 'a', 'b', 'c', 'd'], ['f', 'g', 'h', 'i', 'k'], ['l', 'm', 'p', 'q', 'r'], ['s', 'u', 'v', 'x', 'y']]
+subtype: playfair
+archetype: classical_cipher

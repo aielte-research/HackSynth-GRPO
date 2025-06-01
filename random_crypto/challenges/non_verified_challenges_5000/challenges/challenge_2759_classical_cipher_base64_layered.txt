@@ -1,0 +1,15 @@
+A hacker hid the server password in a Base64-encoded message. Decode Vm0xd1NtUXlWa1pPVldoVFlUSlNjRlJVVGtOalZsSlZVMnBTVmxKc1dubFdiWGhoWWtaYWRWRnNiRlZXYldoeVdXdGFTMlJXUm5KalJsWlhWbXRaZWxaVldrWlBWa0pTVUZRd1BRPT0= to uncover it.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{2416zjqd}
+cipher: Base64
+ciphertext: Vm0xd1NtUXlWa1pPVldoVFlUSlNjRlJVVGtOalZsSlZVMnBTVmxKc1dubFdiWGhoWWtaYWRWRnNiRlZXYldoeVdXdGFTMlJXUm5KalJsWlhWbXRaZWxaVldrWlBWa0pTVUZRd1BRPT0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 7 times in total.
+subtype: base64_layered
+archetype: classical_cipher

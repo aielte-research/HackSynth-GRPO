@@ -1,0 +1,17 @@
+
+A secret agent hid her password using XOR encryption. Can you recover it from the following message? stringA: 153459503c32305625586f57721b stringB: 7358383747595139556c5a644566
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{kaop4537}
+cipher: XOR
+ciphertext: stringA: 153459503c32305625586f57721b stringB: 7358383747595139556c5a644566
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

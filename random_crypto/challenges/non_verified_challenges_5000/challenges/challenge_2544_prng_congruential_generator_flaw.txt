@@ -1,0 +1,27 @@
+Intercepted messages from a rogue botnet use an old LCG-based cipher. Can you predict the next output and decrypt this suspicious communication? Ciphertext: 255583b23841d3e77b529ae73544
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 2001705324
+  - Multiplier: 1781299502
+  - Increment: 196117043
+The first 5 outputs of the LCG are provided: [856069065, 1663917257, 1772974581, 494764433, 1336419837] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{x128kx2v}
+ciphertext: 255583b23841d3e77b529ae73544
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 2001705324
+  - Multiplier: 1781299502
+  - Increment: 196117043
+The first 5 outputs of the LCG are provided: [856069065, 1663917257, 1772974581, 494764433, 1336419837] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

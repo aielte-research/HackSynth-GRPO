@@ -1,0 +1,11 @@
+Intercepted at the hackers’ meet: a protected message, encoded as a JWT. Can you decode eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3sza3p0bWJxcH0ifQ. and reveal the hidden secret?
+
+---
+
+## Challenge Technical Details
+flag: flag{3kztmbqp}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3sza3p0bWJxcH0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

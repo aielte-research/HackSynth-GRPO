@@ -1,0 +1,17 @@
+
+A spy encoded the password to a secret wallet using the Rail Fence cipher. Can you uncover the original message from this ciphertext? f{3elgtoyz}a9l
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{t9o3ylze}
+ciphertext: f{3elgtoyz}a9l
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 3
+subtype: rail_fence
+archetype: classical_cipher

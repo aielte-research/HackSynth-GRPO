@@ -1,0 +1,17 @@
+
+A hacker left a secret message using a simple letter-to-letter swap. Can you reveal the hidden password from this classic substitution cipher? tu xjqzdypjizfq, i lvmldtdvdtyu xtzfej tl i hedfys yr euxjqzdtup tu kftxf vutdl yr zwitudend ije jezwixes ktdf dfe xtzfejdend, tu i sertues hiuuej, ktdf dfe fewz yr i geq; dfe "vutdl" hiq me ltupwe weddejl (dfe hyld xyhhyu), zitjl yr weddejl, djtzwedl yr weddejl, htndvjel yr dfe imyae, ius ly ryjdf. dfe jexetaej sextzfejl dfe dend mq zejryjhtup dfe tuaejle lvmldtdvdtyu zjyxell dy endjixd dfe yjtptuiw hellipe. wtgektle, cixbvel bvtxgwq otzzes dfjyvpf i bveldtyu yu oejy-guykwespe zjyyrl, eulvjtup uy xjtdtxiw weddej kil werd yvd yr yvj xjqzdypjizftx zvoowe.rwip{ml3j02fv}
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{bs3r02hu}
+ciphertext: tu xjqzdypjizfq, i lvmldtdvdtyu xtzfej tl i hedfys yr euxjqzdtup tu kftxf vutdl yr zwitudend ije jezwixes ktdf dfe xtzfejdend, tu i sertues hiuuej, ktdf dfe fewz yr i geq; dfe "vutdl" hiq me ltupwe weddejl (dfe hyld xyhhyu), zitjl yr weddejl, djtzwedl yr weddejl, htndvjel yr dfe imyae, ius ly ryjdf. dfe jexetaej sextzfejl dfe dend mq zejryjhtup dfe tuaejle lvmldtdvdtyu zjyxell dy endjixd dfe yjtptuiw hellipe. wtgektle, cixbvel bvtxgwq otzzes dfjyvpf i bveldtyu yu oejy-guykwespe zjyyrl, eulvjtup uy xjtdtxiw weddej kil werd yvd yr yvj xjqzdypjizftx zvoowe.rwip{ml3j02fv}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'i', 'b': 'm', 'c': 'x', 'd': 's', 'e': 'e', 'f': 'r', 'g': 'p', 'h': 'f', 'i': 't', 'j': 'c', 'k': 'g', 'l': 'w', 'm': 'h', 'n': 'u', 'o': 'y', 'p': 'z', 'q': 'b', 'r': 'j', 's': 'l', 't': 'd', 'u': 'v', 'v': 'a', 'w': 'k', 'x': 'n', 'y': 'q', 'z': 'o'}
+subtype: substitution
+archetype: classical_cipher

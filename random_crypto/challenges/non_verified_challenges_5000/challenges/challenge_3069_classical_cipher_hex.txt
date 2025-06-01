@@ -1,0 +1,14 @@
+Intercepted in a hacker chat: a shady figure boasts, "Decrypt this hex and find my secret word: 666c61677b6c386f65626e7a6c7d". Think you can break it?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{l8oebnzl}
+cipher: Hex
+ciphertext: 666c61677b6c386f65626e7a6c7d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

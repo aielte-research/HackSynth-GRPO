@@ -1,0 +1,17 @@
+
+A hacker left a suspicious numeric message on the server. Decode it using the SplitNumberMix cipher:  0000000 flag 0000000 {ipwxuumh} 0000000 
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ipwxuumh}
+ciphertext:  0000000 flag 0000000 {ipwxuumh} 0000000 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 2 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

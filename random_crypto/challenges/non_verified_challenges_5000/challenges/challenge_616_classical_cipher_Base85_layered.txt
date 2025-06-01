@@ -1,0 +1,17 @@
+
+Intercepted from a hacker’s message drop, this secret uses a rare Base85 cipher. Can you decode and discover what Q8+ttdr@OIG*C!rHB%->JZW-vRbV7{YfWHPJa$JaRBSs}Z+$@~Vs|ufZbwQ{a%oLGU`|40QFn6 means?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{79t9642p}
+cipher: Base85
+ciphertext: Q8+ttdr@OIG*C!rHB%->JZW-vRbV7{YfWHPJa$JaRBSs}Z+$@~Vs|ufZbwQ{a%oLGU`|40QFn6
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 7 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

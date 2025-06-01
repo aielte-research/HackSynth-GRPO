@@ -1,0 +1,19 @@
+A hacker intercepted a secret transmission from a rogue AI. The message is encrypted with an LFSR-based cipher. Can you break it and reveal the secret? 1155165e0c534450155b01540544
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[59366, 29683, 14841, 40188, 52862, 59199, 29599, 47567, 56551, 61043]
+
+---
+
+## Challenge Technical Details
+flag: flag{j3ibbvmr}
+ciphertext: 1155165e0c534450155b01540544
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[59366, 29683, 14841, 40188, 52862, 59199, 29599, 47567, 56551, 61043]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

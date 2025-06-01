@@ -1,0 +1,17 @@
+
+A hacker hid a flag in an MD5 hash. Exploit MD5’s weaknesses to reverse 7e1a2380cc072d7a8718e6d6c45c315c and unveil the secret message.
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{mileo}
+ciphertext: 7e1a2380cc072d7a8718e6d6c45c315c
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

@@ -1,0 +1,19 @@
+
+A secret agent hid the password to a crypto wallet using a Playfair cipher. Can you reveal the original message from this ciphertext: gdfofcwlbasbaoidspsrfcwlbasmzxbpoupxidhwmyszfofcwlbasbaoidobpcphzycfynrtodxmahlzbswsuhszudhizczxfiglvfmyideasmydhukocfehqmhpoycruhuwuhszhamakokdhvhcdwrq?
+
+
+The flag format is flag{...}
+The keyword is: gzvqnzhi
+
+---
+
+## Challenge Technical Details
+flag: flag{7cb7f6tk}
+ciphertext: gdfofcwlbasbaoidspsrfcwlbasmzxbpoupxidhwmyszfofcwlbasbaoidobpcphzycfynrtodxmahlzbswsuhszudhizczxfiglvfmyideasmydhukocfehqmhpoycruhuwuhszhamakokdhvhcdwrq
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: gzvqnzhi
+extra_info: The playfair table is [['g', 'z', 'v', 'q', 'n'], ['h', 'i', 'a', 'b', 'c'], ['d', 'e', 'f', 'k', 'l'], ['m', 'o', 'p', 'r', 's'], ['t', 'u', 'w', 'x', 'y']]
+subtype: playfair
+archetype: classical_cipher

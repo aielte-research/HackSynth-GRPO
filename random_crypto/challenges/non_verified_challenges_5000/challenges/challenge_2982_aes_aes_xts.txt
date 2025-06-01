@@ -1,0 +1,17 @@
+
+A lost laptop contained critical files encrypted with AES-XTS. All that remains is the disk sector ciphertext: ciphertext1:9281ec83d1ef31e0afaf5fb83310ac7f, ciphertext2: 563f2be78ae03da7a3ebaf91e7d9d55aa083d50519b345a8ca57534de65a590b. Can you decrypt and recover the original data?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{9sf9d6ir}
+ciphertext: ciphertext1:9281ec83d1ef31e0afaf5fb83310ac7f, ciphertext2: 563f2be78ae03da7a3ebaf91e7d9d55aa083d50519b345a8ca57534de65a590b
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 11b5535c8a9f179420c4dce0d526014f
+subtype: aes_xts
+archetype: aes

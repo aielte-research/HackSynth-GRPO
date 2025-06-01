@@ -1,0 +1,14 @@
+A hacker left a note in hexadecimal on a USB drive. Can you decipher the secret message hidden in 666c61677b39347238623239797d?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{94r8b29y}
+cipher: Hex
+ciphertext: 666c61677b39347238623239797d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

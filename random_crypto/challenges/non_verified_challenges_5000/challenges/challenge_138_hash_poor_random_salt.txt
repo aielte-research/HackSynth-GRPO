@@ -1,0 +1,21 @@
+
+An intern hashed passwords with SHA-256 and a timestamp as salt. Can you recover the original password from 0c81a07a710d843eaf312e6327add104eafe049433fe236af14bd2466b5afe05 by exploiting the weak random salt?
+
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{wxw}
+ciphertext: 0c81a07a710d843eaf312e6327add104eafe049433fe236af14bd2466b5afe05
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

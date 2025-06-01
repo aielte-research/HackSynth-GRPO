@@ -1,0 +1,19 @@
+Rival hackers intercepted a flag hidden with a weak PRNG scheme. They encrypted it below; can you exploit its low entropy to recover the flag? 666c615b7b7a6f0c73633854767d
+
+The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [485, 275, 541, 358, 146, 390, 11, 383, 494, 280, 471, 233, 571, 1, 148, 450, 376, 166, 347, 215]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 593)
+
+---
+
+## Challenge Technical Details
+flag: flag{zo0sc8hv}
+ciphertext: 666c615b7b7a6f0c73633854767d
+cipher: Low-entropy PRNG
+hint: The PRNG seed space is small. You can try brute-forcing all possible seeds to reconstruct the sequence.
+necessary_info: The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [485, 275, 541, 358, 146, 390, 11, 383, 494, 280, 471, 233, 571, 1, 148, 450, 376, 166, 347, 215]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 593)
+extra_info: Since the seed has only 256 possible values, it can be brute-forced to recover the secret number and decrypt the flag.
+subtype: low_entropy_generator
+archetype: prng

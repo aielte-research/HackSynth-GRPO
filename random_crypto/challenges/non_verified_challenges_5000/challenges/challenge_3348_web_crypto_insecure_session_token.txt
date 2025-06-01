@@ -1,0 +1,12 @@
+Alex intercepted a session token encrypted with the Insecure Session Token cipher. Can you recover the original message from this ciphertext: 757365725f707573373a666c61677b68763933647439797d3a31373438313638383233?
+
+---
+
+## Challenge Technical Details
+flag: flag{hv93dt9y}
+ciphertext: 757365725f707573373a666c61677b68763933647439797d3a31373438313638383233
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_pus7:flag{hv93dt9y}:1748168823'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

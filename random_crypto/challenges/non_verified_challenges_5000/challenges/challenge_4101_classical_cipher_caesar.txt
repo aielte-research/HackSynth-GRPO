@@ -1,0 +1,15 @@
+A hacker left a secret message for their accomplice, encoded with an ancient Caesar cipher. Can you decode djye{3p31rm6t} to reveal their plan?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{3r31to6v}
+ciphertext: djye{3p31rm6t}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 24
+subtype: caesar
+archetype: classical_cipher

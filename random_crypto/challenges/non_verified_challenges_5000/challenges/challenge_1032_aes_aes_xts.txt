@@ -1,0 +1,15 @@
+A secure disk image was encrypted with AES-XTS, but the key got lost. Can you recover the secret message hidden in ciphertext1:6ef0965b3801498f74328b4a4ae57a56, ciphertext2: 3930d5498836bf94d4c25523e45544d192a4d93dc4498bf694992f874a5c65c1?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{9o7wo81l}
+ciphertext: ciphertext1:6ef0965b3801498f74328b4a4ae57a56, ciphertext2: 3930d5498836bf94d4c25523e45544d192a4d93dc4498bf694992f874a5c65c1
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: c3324738401f85c990785e1b8ac87e69
+subtype: aes_xts
+archetype: aes

@@ -1,0 +1,17 @@
+
+A hacker left a note at the scene, encoded with an old ASCII Shift technique. Can you shift it back to reveal the secret? Ciphertext: kqflhr}:{y5
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{zcmx5vt0}
+cipher: ASCII Shift
+ciphertext: kqflhr}:{y5
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 5
+subtype: ascii_shift
+archetype: classical_cipher

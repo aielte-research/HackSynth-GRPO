@@ -1,0 +1,12 @@
+Admin uses an "Insecure Session Token" cipher for logins. Their latest session token is: 757365725f6f6e71623a666c61677b6330656e33326d367d3a31373437343832343332. Can you recover the original session identifier?
+
+---
+
+## Challenge Technical Details
+flag: flag{c0en32m6}
+ciphertext: 757365725f6f6e71623a666c61677b6330656e33326d367d3a31373437343832343332
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_onqb:flag{c0en32m6}:1747482432'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

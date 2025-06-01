@@ -1,0 +1,15 @@
+An agent left us a secret hint, but it's hidden with an XOR cipher. Can you recover the original message from this ciphertext? stringA: 2b3f3b1448093a0e28612e154e44 stringB: 4d535a7333664967595148703739
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{osiq0fey}
+cipher: XOR
+ciphertext: stringA: 2b3f3b1448093a0e28612e154e44 stringB: 4d535a7333664967595148703739
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

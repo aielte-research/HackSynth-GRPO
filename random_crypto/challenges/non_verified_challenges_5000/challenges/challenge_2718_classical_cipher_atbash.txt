@@ -1,0 +1,14 @@
+An archaeologist found a coded message in an ancient scroll. Can you reveal its secret using the cipher once favored by old scholars? Decode: uozt{qwsfxhj2}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{jdhucsq2}
+cipher: Atbash
+ciphertext: uozt{qwsfxhj2}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

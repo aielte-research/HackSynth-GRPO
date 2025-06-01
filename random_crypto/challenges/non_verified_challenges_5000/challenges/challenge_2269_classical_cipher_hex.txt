@@ -1,0 +1,14 @@
+A hacker hid a secret message in an encrypted note. Can you decode the flag from the following hex-encoded string? 666c61677b753468643530796a7d
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{u4hd50yj}
+cipher: Hex
+ciphertext: 666c61677b753468643530796a7d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

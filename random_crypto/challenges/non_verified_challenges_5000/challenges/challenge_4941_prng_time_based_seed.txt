@@ -1,0 +1,19 @@
+Agent Zero left a message encoded with a PRNG cipher seeded at 13:37 UTC. Recover the original text from this ciphertext: 666ccbc27b37cfce6e369b96327d
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 68131)
+The system time when the encryption process started was around: 2025-05-25 13:03:55 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{7ekn6132}
+ciphertext: 666ccbc27b37cfce6e369b96327d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 68131)
+The system time when the encryption process started was around: 2025-05-25 13:03:55 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 43685.
+subtype: time_based_seed
+archetype: prng

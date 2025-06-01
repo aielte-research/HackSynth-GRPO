@@ -1,0 +1,15 @@
+Someone hashed the admin password with MD5, trusting its security. Can you reverse the hash ed276e0ca6ce1c6e0228f6e3da4cd9a2 to recover the original password?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{pgiug}
+ciphertext: ed276e0ca6ce1c6e0228f6e3da4cd9a2
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

@@ -1,0 +1,14 @@
+
+A careless developer left a note: "Session tokens aren't secrets, right?" Decrypt the session cookie: 757365725f393162773a666c61677b3079636e6a7164627d3a31373438313639333231
+
+
+---
+
+## Challenge Technical Details
+flag: flag{0ycnjqdb}
+ciphertext: 757365725f393162773a666c61677b3079636e6a7164627d3a31373438313639333231
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_91bw:flag{0ycnjqdb}:1748169321'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

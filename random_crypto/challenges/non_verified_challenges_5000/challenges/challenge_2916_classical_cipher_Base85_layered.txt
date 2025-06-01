@@ -1,0 +1,15 @@
+The hacker Obelix left a secret message encoded in Base85. Can you recover the hidden flag? Here’s the encrypted text: Q8;r{Qc74PHh5S&G<irvQ%+1uNH{1^MNCyoH8DhQb44UWQb}!QWK?BoGgm?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{4bz87iki}
+cipher: Base85
+ciphertext: Q8;r{Qc74PHh5S&G<irvQ%+1uNH{1^MNCyoH8DhQb44UWQb}!QWK?BoGgm?
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 6 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

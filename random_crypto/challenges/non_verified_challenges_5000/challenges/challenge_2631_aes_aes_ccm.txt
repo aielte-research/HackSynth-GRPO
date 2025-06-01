@@ -1,0 +1,18 @@
+An encrypted message was intercepted from a secret network. Rumors say it’s protected with AES. Can you recover its contents? Here is the ciphertext: ciphertext1:e295647fc03deeea8f60287df77d, ciphertext2: e295647fc02de4b4ca69703fe07d
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{zam4dn0t}
+ciphertext: ciphertext1:e295647fc03deeea8f60287df77d, ciphertext2: e295647fc02de4b4ca69703fe07d
+tag1: 0304bef6a7ced4c72d6d795c52b01c7f
+tag2: 52eec0b35af785933bf75536ea774266
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: bc61c6a30e43ec83c89db4
+subtype: aes_ccm
+archetype: aes

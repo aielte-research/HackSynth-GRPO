@@ -1,0 +1,15 @@
+An agent hid the flag in an XOR-encrypted message. Recover it from the secret transmission: stringA: 2d2300500e5854073d742d1f1a30 stringB: 4b4f61377537386c524159766e4d
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{olko5tit}
+cipher: XOR
+ciphertext: stringA: 2d2300500e5854073d742d1f1a30 stringB: 4b4f61377537386c524159766e4d
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

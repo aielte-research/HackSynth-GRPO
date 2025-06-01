@@ -1,0 +1,15 @@
+Intercepted data was hashed with MD5, but careless use led to a vulnerability. Can you uncover the original message from this cipher: 3ddb029e80f9b6619a75bab10dbfe958?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{GOCOV}
+ciphertext: 3ddb029e80f9b6619a75bab10dbfe958
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

@@ -1,0 +1,17 @@
+An old notebook reveals a spy's message in jumbled letters. Can you use the Hill cipher to decode their urgent instructions? Ciphertext: ggddssxulsljnaakduarfodhfhhjwpducgertoeryuuunshpooeqlwkynqfdqeijnpnwbe
+
+The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+
+---
+
+## Challenge Technical Details
+flag: flag{ihhdmupg}
+ciphertext: ggddssxulsljnaakduarfodhfhhjwpducgertoeryuuunshpooeqlwkynqfdqeijnpnwbe
+cipher: Hill
+hint: Hill ciphers can be broken using known-plaintext attacks and linear algebra mod 26.
+necessary_info: The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+extra_info: The matrix used is: [[17, 25], [5, 0]]
+subtype: hill
+archetype: classical_cipher

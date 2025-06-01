@@ -1,0 +1,14 @@
+
+Your friend sent a session cookie, but suspects the site’s token generator is weak. Analyze 757365725f7a7573373a666c61677b78766a74666f666a7d3a31373438313730353630 to find out what’s inside.
+
+
+---
+
+## Challenge Technical Details
+flag: flag{xvjtfofj}
+ciphertext: 757365725f7a7573373a666c61677b78766a74666f666a7d3a31373438313730353630
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_zus7:flag{xvjtfofj}:1748170560'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

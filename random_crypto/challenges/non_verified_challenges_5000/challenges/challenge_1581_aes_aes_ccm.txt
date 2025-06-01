@@ -1,0 +1,18 @@
+An encrypted message using AES was intercepted from a hacker’s server. Can you recover the flag from the ciphertext below? ciphertext1:93a7eb5dca2c38b381ac14bf429c, ciphertext2: 93a7eb5dca203bb49caf01ea1f9c
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{hylgrmb8}
+ciphertext: ciphertext1:93a7eb5dca2c38b381ac14bf429c, ciphertext2: 93a7eb5dca203bb49caf01ea1f9c
+tag1: 2070c26cef29f255772470565208e1b9
+tag2: d608d6d3a4f5e4cc698c03f85f314248
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 8f53bff732661b5798925b
+subtype: aes_ccm
+archetype: aes

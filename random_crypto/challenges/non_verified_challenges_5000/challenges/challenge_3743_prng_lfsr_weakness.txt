@@ -1,0 +1,21 @@
+
+Intercepted comms from a notorious hacker group were encrypted with a flawed LFSR-based cipher. Can you recover their secret by cracking the ciphertext? 4797409c5acb45cf129944981386
+
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[60685, 63110, 64323, 64929, 32464, 16232, 8116, 4058, 34797, 17398]
+
+---
+
+## Challenge Technical Details
+flag: flag{0d43bec2}
+ciphertext: 4797409c5acb45cf129944981386
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[60685, 63110, 64323, 64929, 32464, 16232, 8116, 4058, 34797, 17398]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

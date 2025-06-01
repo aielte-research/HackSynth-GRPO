@@ -1,0 +1,23 @@
+
+An old hacker left a secret tip encoded for his friends. Can you decipher his message below? efng{578xfuek}
+
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'n', 'b': 't', 'c': 'y', 'd': 'c', 'e': 'k', 'f': 'e', 'g': 'g', 'h': 'd', 'i': 'w', 'j': 'm', 'k': 'h', 'l': 'f', 'm': 'j', 'n': 'u', 'o': 'l', 'p': 's', 'q': 'b', 'r': 'z', 's': 'p', 't': 'x', 'u': 'q', 'v': 'v', 'w': 'i', 'x': 'a', 'y': 'r', 'z': 'o'}
+
+---
+
+## Challenge Technical Details
+flag: flag{578tlnfe}
+cipher: Substitution
+ciphertext: efng{578xfuek}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'n', 'b': 't', 'c': 'y', 'd': 'c', 'e': 'k', 'f': 'e', 'g': 'g', 'h': 'd', 'i': 'w', 'j': 'm', 'k': 'h', 'l': 'f', 'm': 'j', 'n': 'u', 'o': 'l', 'p': 's', 'q': 'b', 'r': 'z', 's': 'p', 't': 'x', 'u': 'q', 'v': 'v', 'w': 'i', 'x': 'a', 'y': 'r', 'z': 'o'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

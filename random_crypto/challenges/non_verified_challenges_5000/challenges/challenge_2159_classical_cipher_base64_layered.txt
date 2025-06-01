@@ -1,0 +1,15 @@
+A secret agent encoded their password using Base64 before transmission. Can you decode the message hidden in VmpJd2VFNUhSa2RpTTNCcVpXdHdhRmxzVWxka1ZtdzJWRzVrYVZKVWJGcFVWVkYzVUZFOVBRPT0=?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{6fngsze9}
+cipher: Base64
+ciphertext: VmpJd2VFNUhSa2RpTTNCcVpXdHdhRmxzVWxka1ZtdzJWRzVrYVZKVWJGcFVWVkYzVUZFOVBRPT0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 5 times in total.
+subtype: base64_layered
+archetype: classical_cipher

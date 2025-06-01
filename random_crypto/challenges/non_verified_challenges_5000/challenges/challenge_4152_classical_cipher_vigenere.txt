@@ -1,0 +1,16 @@
+An old hacker left a mysterious message. Can you decrypt the Vigenère-encoded secret below to find the missing password? wceo{rojnknlf}
+
+The flag format is flag{...}
+The keyword is: rreixsk
+
+---
+
+## Challenge Technical Details
+flag: flag{uwzwtjdi}
+ciphertext: wceo{rojnknlf}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: rreixsk
+subtype: vigenere
+archetype: classical_cipher

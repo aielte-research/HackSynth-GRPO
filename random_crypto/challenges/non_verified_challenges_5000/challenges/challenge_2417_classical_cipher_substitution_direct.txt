@@ -1,0 +1,21 @@
+An agent left a coded message using a secret substitution alphabet. Can you decipher the true message hidden in ioep{0n8l687u}?
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'e', 'b': 'd', 'c': 'r', 'd': 'b', 'e': 'k', 'f': 'i', 'g': 'p', 'h': 'y', 'i': 'q', 'j': 'j', 'k': 'a', 'l': 'o', 'm': 'f', 'n': 'n', 'o': 'v', 'p': 'w', 'q': 'h', 'r': 's', 's': 'l', 't': 'g', 'u': 'c', 'v': 'x', 'w': 't', 'x': 'u', 'y': 'm', 'z': 'z'}
+
+---
+
+## Challenge Technical Details
+flag: flag{0n8s687x}
+cipher: Substitution
+ciphertext: ioep{0n8l687u}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'e', 'b': 'd', 'c': 'r', 'd': 'b', 'e': 'k', 'f': 'i', 'g': 'p', 'h': 'y', 'i': 'q', 'j': 'j', 'k': 'a', 'l': 'o', 'm': 'f', 'n': 'n', 'o': 'v', 'p': 'w', 'q': 'h', 'r': 's', 's': 'l', 't': 'g', 'u': 'c', 'v': 'x', 'w': 't', 'x': 'u', 'y': 'm', 'z': 'z'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

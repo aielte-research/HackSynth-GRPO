@@ -1,0 +1,15 @@
+A Roman general hid the invasion date with a simple letter shift. Can you reveal his secret message? Here is the coded note: synt{ltglhehj}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ygtyuruw}
+ciphertext: synt{ltglhehj}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 13
+subtype: caesar
+archetype: classical_cipher

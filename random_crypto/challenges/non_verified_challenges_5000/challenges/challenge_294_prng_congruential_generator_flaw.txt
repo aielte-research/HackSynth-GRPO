@@ -1,0 +1,27 @@
+The secret passcode was encrypted using an LCG-based method. Can you predict the next output and recover the flag from this ciphertext? 229b690d3f826b1f2ec0600b2d8a
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1302969051
+  - Multiplier: 616732260
+  - Increment: 728490861
+The first 5 outputs of the LCG are provided: [251039523, 74818854, 303971562, 706277907, 412513587] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{ucuj7hai}
+ciphertext: 229b690d3f826b1f2ec0600b2d8a
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1302969051
+  - Multiplier: 616732260
+  - Increment: 728490861
+The first 5 outputs of the LCG are provided: [251039523, 74818854, 303971562, 706277907, 412513587] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

@@ -1,0 +1,15 @@
+A hacker left a note encoded with a simple ASCII Shift. Decrypt hnci}smv5nck| to find the password needed to access the next server.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{qkt3laiz}
+cipher: ASCII Shift
+ciphertext: hnci}smv5nck|
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 2
+subtype: ascii_shift
+archetype: classical_cipher

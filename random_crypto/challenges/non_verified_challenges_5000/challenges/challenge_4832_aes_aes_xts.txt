@@ -1,0 +1,15 @@
+An old hard drive is encrypted with AES-XTS. Recover the original file from this ciphertext: ciphertext1:41e900515e1362d434152fee1c897e2d, ciphertext2: c894872f26b8fbe5f2dfe9d65e63dd14de233be00df67b8a5d4e6de14687cc07
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{erhw5vfq}
+ciphertext: ciphertext1:41e900515e1362d434152fee1c897e2d, ciphertext2: c894872f26b8fbe5f2dfe9d65e63dd14de233be00df67b8a5d4e6de14687cc07
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 3544336dee0db2e0a80c80a13fe14c69
+subtype: aes_xts
+archetype: aes

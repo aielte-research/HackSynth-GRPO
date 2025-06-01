@@ -1,0 +1,18 @@
+A forgotten USB drive holds an encrypted message: ciphertext1:d774ae40c42bcc81a6a7d3c76d82, ciphertext2: d774ae40c431c0c3fde3d4da6e82. Can you unlock its secret, armed only with your knowledge of AES?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{cc6j4nyb}
+ciphertext: ciphertext1:d774ae40c42bcc81a6a7d3c76d82, ciphertext2: d774ae40c431c0c3fde3d4da6e82
+tag1: 023803aed7c1563c2b596f10d09f618d
+tag2: dde6093d304d533fec9328707b63e2a9
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 6858bfd11c7b4fdb28dfff
+subtype: aes_ccm
+archetype: aes

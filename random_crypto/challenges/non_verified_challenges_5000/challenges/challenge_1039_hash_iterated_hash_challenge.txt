@@ -1,0 +1,24 @@
+An unknown hacker left this cryptic e936d43f1ccb2f391f4342607ef763180a0ea995b5f9712b3429adf1f74424dc with a note: "Only those who understand SHA-256 can unlock my secret." Can you reveal the original message?
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{t46x}
+ciphertext: e936d43f1ccb2f391f4342607ef763180a0ea995b5f9712b3429adf1f74424dc
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

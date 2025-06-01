@@ -1,0 +1,13 @@
+
+Intercepted admin session token: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3szcXpraGtzdH0ifQ.. Crack the JWT and reveal the admin's secret.
+
+
+---
+
+## Challenge Technical Details
+flag: flag{3qzkhkst}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3szcXpraGtzdH0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

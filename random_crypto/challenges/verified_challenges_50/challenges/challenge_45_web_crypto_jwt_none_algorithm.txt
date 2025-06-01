@@ -1,0 +1,11 @@
+The admin left a signed JWT token on the server. Can you recover the secret key and forge your own token? Intercepted token: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3s3NDd0a25za30ifQ.
+
+---
+
+## Challenge Technical Details
+flag: flag{747tknsk}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3s3NDd0a25za30ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

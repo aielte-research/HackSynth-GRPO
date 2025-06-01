@@ -1,0 +1,15 @@
+An old server encrypts passwords with MD5. A leak exposed 2f14dd55eaca3027ad6d7460043df978. Exploit MD5's reversible weakness to recover the original password.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{xlqfa}
+ciphertext: 2f14dd55eaca3027ad6d7460043df978
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

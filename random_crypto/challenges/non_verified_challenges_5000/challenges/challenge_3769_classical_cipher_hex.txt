@@ -1,0 +1,14 @@
+A hacker left an encoded message in hexadecimal. Can you convert it back to its original readable form? Here is the secret: 666c61677b313971383037326e7d
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{19q8072n}
+cipher: Hex
+ciphertext: 666c61677b313971383037326e7d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

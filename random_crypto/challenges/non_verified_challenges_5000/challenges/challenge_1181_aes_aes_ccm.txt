@@ -1,0 +1,18 @@
+An encrypted note was found on a hacker's laptop. The AES cipher was used, but only the following ciphertext remains: ciphertext1:233795e91828dfd953ad30377664, ciphertext2: 233795e918259ecb50fd2c747d64
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{43af1u0r}
+ciphertext: ciphertext1:233795e91828dfd953ad30377664, ciphertext2: 233795e918259ecb50fd2c747d64
+tag1: ab9b93357472aacb209606a6f9cafb3b
+tag2: 4c40e6b5c3deed72a6c0fcfa1a7f5ae9
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: edb7447ee73c64aeee5827
+subtype: aes_ccm
+archetype: aes

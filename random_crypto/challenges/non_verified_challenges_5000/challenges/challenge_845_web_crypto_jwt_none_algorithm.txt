@@ -1,0 +1,11 @@
+Intercepted from a hacker's secret chat, this JWT token hides their next target. Can you break it and reveal the message? Token: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tpeGkwOGk1N30ifQ.
+
+---
+
+## Challenge Technical Details
+flag: flag{ixi08i57}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tpeGkwOGk1N30ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

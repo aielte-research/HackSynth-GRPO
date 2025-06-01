@@ -1,0 +1,15 @@
+An infamous hacker encoded his secret passphrase using a substitution cipher. Can you decrypt te oqsxzmyqgxrs, g jhbjztzhztme otxrvq tj g fvzrmu mn veoqsxztey te irtor hetzj mn xkgtezvpz gqv qvxkgovu itzr zrv otxrvqzvpz, te g uvntevu fgeevq, itzr zrv rvkx mn g dvs; zrv "hetzj" fgs bv jteykv kvzzvqj (zrv fmjz omffme), xgtqj mn kvzzvqj, zqtxkvzj mn kvzzvqj, ftpzhqvj mn zrv gbmav, geu jm nmqzr. zrv qvovtavq uvotxrvqj zrv zvpz bs xvqnmqftey zrv teavqjv jhbjztzhztme xqmovjj zm vpzqgoz zrv mqtytegk fvjjgyv. ktdvitjv, lgochvj chtodks wtxxvu zrqmhyr g chvjztme me wvqm-demikvuyv xqmmnj, vejhqtey em oqtztogk kvzzvq igj kvnz mhz mn mhq oqsxzmyqgxrto xhwwkv.nkgy{6w7w4v9t} to reveal what he's hiding?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{6z7z4e9i}
+ciphertext: te oqsxzmyqgxrs, g jhbjztzhztme otxrvq tj g fvzrmu mn veoqsxztey te irtor hetzj mn xkgtezvpz gqv qvxkgovu itzr zrv otxrvqzvpz, te g uvntevu fgeevq, itzr zrv rvkx mn g dvs; zrv "hetzj" fgs bv jteykv kvzzvqj (zrv fmjz omffme), xgtqj mn kvzzvqj, zqtxkvzj mn kvzzvqj, ftpzhqvj mn zrv gbmav, geu jm nmqzr. zrv qvovtavq uvotxrvqj zrv zvpz bs xvqnmqftey zrv teavqjv jhbjztzhztme xqmovjj zm vpzqgoz zrv mqtytegk fvjjgyv. ktdvitjv, lgochvj chtodks wtxxvu zrqmhyr g chvjztme me wvqm-demikvuyv xqmmnj, vejhqtey em oqtztogk kvzzvq igj kvnz mhz mn mhq oqsxzmyqgxrto xhwwkv.nkgy{6w7w4v9t}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'g', 'b': 'b', 'c': 'o', 'd': 'u', 'e': 'v', 'f': 'n', 'g': 'y', 'h': 'r', 'i': 't', 'j': 'l', 'k': 'd', 'l': 'k', 'm': 'f', 'n': 'e', 'o': 'm', 'p': 'x', 'q': 'c', 'r': 'q', 's': 'j', 't': 'z', 'u': 'h', 'v': 'a', 'w': 'i', 'x': 'p', 'y': 's', 'z': 'w'}
+subtype: substitution
+archetype: classical_cipher

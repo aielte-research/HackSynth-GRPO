@@ -1,0 +1,19 @@
+An intern secured the flag with a stream cipher, but forgot about LFSR weaknesses. Ciphertext: 445e435559464a0313474f5a524f. Recover the flag.
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[51602, 25801, 12900, 6450, 35993, 17996, 8998, 4499, 35017, 17508]
+
+---
+
+## Challenge Technical Details
+flag: flag{th11umhp}
+ciphertext: 445e435559464a0313474f5a524f
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[51602, 25801, 12900, 6450, 35993, 17996, 8998, 4499, 35017, 17508]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

@@ -1,0 +1,14 @@
+
+A rookie developer deployed an API using insecure session tokens. Recover the user info hidden in this token: 757365725f633932673a666c61677b6b756169676678707d3a31373437333934343133
+
+
+---
+
+## Challenge Technical Details
+flag: flag{kuaigfxp}
+ciphertext: 757365725f633932673a666c61677b6b756169676678707d3a31373437333934343133
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_c92g:flag{kuaigfxp}:1747394413'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

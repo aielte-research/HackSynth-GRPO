@@ -1,0 +1,19 @@
+An agent intercepted a secret transmission, encoded using a cipher seeded by the sender’s system time. Can you recover the original message from this encrypted text? 666c362b7b31657a6c363e23737d
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 73320)
+The system time when the encryption process started was around: 2025-05-25 12:22:07 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{126l6ios}
+ciphertext: 666c362b7b31657a6c363e23737d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 73320)
+The system time when the encryption process started was around: 2025-05-25 12:22:07 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 22348.
+subtype: time_based_seed
+archetype: prng

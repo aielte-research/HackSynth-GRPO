@@ -1,0 +1,17 @@
+An encrypted message was intercepted from a secret channel. Rumor says it’s protected with AES-CFB. The ciphertext is: 036e199209a69e56fea072a98f8295197ff6d65a7fba6fdc7f3ac90f126163a1c91910d0613990564a5b516166d8824376dac5e353dc2a8591ff0656c0ef83c87aa8b3f801149143e72fcb9cdc7c92fc751de7246a4fd3845512e11a0761c43ac94ff9739feca5b91a05a26cdef840e8edb09c72d26ea4ef61ad4d97ef534b527f3e48eeb1c98a83047b6cce2827c40ac1710fa6aebd6dc0e4586a9be0b9eeb3dcaf42c0914b27d33e64e27c943b600d4c. Can you recover the hidden command?
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{onan7zd4}
+ciphertext: 036e199209a69e56fea072a98f8295197ff6d65a7fba6fdc7f3ac90f126163a1c91910d0613990564a5b516166d8824376dac5e353dc2a8591ff0656c0ef83c87aa8b3f801149143e72fcb9cdc7c92fc751de7246a4fd3845512e11a0761c43ac94ff9739feca5b91a05a26cdef840e8edb09c72d26ea4ef61ad4d97ef534b527f3e48eeb1c98a83047b6cce2827c40ac1710fa6aebd6dc0e4586a9be0b9eeb3dcaf42c0914b27d33e64e27c943b600d4c
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: 6efc4094cd6cc677c57629b16d6986b8
+subtype: aes_cfb
+archetype: aes

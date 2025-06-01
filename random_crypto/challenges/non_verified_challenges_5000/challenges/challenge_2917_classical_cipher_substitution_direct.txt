@@ -1,0 +1,21 @@
+An ancient guild encoded their motto using a simple letter swap before sharing it across forums. Can you decrypt their message? Here it is: garx{io2d1dcf}
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'r', 'b': 'e', 'c': 'j', 'd': 'p', 'e': 'u', 'f': 'g', 'g': 'x', 'h': 'n', 'i': 'l', 'j': 'k', 'k': 'm', 'l': 'a', 'm': 'y', 'n': 's', 'o': 'd', 'p': 'v', 'q': 'w', 'r': 't', 's': 'b', 't': 'i', 'u': 'o', 'v': 'h', 'w': 'z', 'x': 'f', 'y': 'q', 'z': 'c'}
+
+---
+
+## Challenge Technical Details
+flag: flag{tu2o1ozx}
+cipher: Substitution
+ciphertext: garx{io2d1dcf}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'r', 'b': 'e', 'c': 'j', 'd': 'p', 'e': 'u', 'f': 'g', 'g': 'x', 'h': 'n', 'i': 'l', 'j': 'k', 'k': 'm', 'l': 'a', 'm': 'y', 'n': 's', 'o': 'd', 'p': 'v', 'q': 'w', 'r': 't', 's': 'b', 't': 'i', 'u': 'o', 'v': 'h', 'w': 'z', 'x': 'f', 'y': 'q', 'z': 'c'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

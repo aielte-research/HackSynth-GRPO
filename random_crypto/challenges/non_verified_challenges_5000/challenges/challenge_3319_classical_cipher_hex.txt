@@ -1,0 +1,14 @@
+An old hacker left a message in hexadecimal on a floppy disk. Decode 666c61677b32306d683978706b7d to find the password and unlock the mainframe.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{20mh9xpk}
+cipher: Hex
+ciphertext: 666c61677b32306d683978706b7d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

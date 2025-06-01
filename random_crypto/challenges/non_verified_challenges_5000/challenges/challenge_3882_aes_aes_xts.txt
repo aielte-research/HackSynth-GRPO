@@ -1,0 +1,15 @@
+Someone misplaced their encrypted drive. The key is lost, but if you recover the flag from this AES-XTS ciphertext: ciphertext1:59c53910abd93b875344840ea9e86b6f, ciphertext2: 0139f6e23d3c73c85f9e7c33abbd68cbfe848fd6b27d90288426b1cc03a841dd, they'll reward you!
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{8bocjj5z}
+ciphertext: ciphertext1:59c53910abd93b875344840ea9e86b6f, ciphertext2: 0139f6e23d3c73c85f9e7c33abbd68cbfe848fd6b27d90288426b1cc03a841dd
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 727bca7baa89a5d4f713bb909c6c4967
+subtype: aes_xts
+archetype: aes

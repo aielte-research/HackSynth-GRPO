@@ -1,0 +1,29 @@
+
+Intercepted messages use a flawed random number generator. Can you predict its outputs and recover the secret from this 6da6c56370fb9c3d62ba926e6eb7?
+
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 585351164
+  - Multiplier: 43197466
+  - Increment: 344499984
+The first 5 outputs of the LCG are provided: [34177018, 504070016, 115854924, 5497220, 472981820] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{189ip6je}
+ciphertext: 6da6c56370fb9c3d62ba926e6eb7
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 585351164
+  - Multiplier: 43197466
+  - Increment: 344499984
+The first 5 outputs of the LCG are provided: [34177018, 504070016, 115854924, 5497220, 472981820] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

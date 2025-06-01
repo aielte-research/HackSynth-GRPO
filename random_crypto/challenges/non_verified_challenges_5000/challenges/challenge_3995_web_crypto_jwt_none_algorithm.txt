@@ -1,0 +1,13 @@
+
+A rogue admin sent secret instructions encoded as a JWT. Can you uncover the hidden message in eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tvNjc5bXRhd30ifQ.?
+
+
+---
+
+## Challenge Technical Details
+flag: flag{o679mtaw}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tvNjc5bXRhd30ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

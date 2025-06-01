@@ -1,0 +1,17 @@
+
+A hacker left a hidden password in a Base64-encoded message. Can you decode Vm0weGQxTnRVWGxXYTFwUFZsZG9WRmxVU2xOalJsSlZWR3RPYWxac1NsWlZNbmhQVmxVeFYxWnFUbGhoTVVwVVdXdGFZV014VG5GUmJGWlhWakpvZVZaclpEUlRNVnBZVTJ0a2FsSnNXbGhXYlhSYVpXeGFWbGRyV2xCV2EwcFRWVVpSZDFCUlBUMD0= to uncover it?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{00yk6m49}
+cipher: Base64
+ciphertext: Vm0weGQxTnRVWGxXYTFwUFZsZG9WRmxVU2xOalJsSlZWR3RPYWxac1NsWlZNbmhQVmxVeFYxWnFUbGhoTVVwVVdXdGFZV014VG5GUmJGWlhWakpvZVZaclpEUlRNVnBZVTJ0a2FsSnNXbGhXYlhSYVpXeGFWbGRyV2xCV2EwcFRWVVpSZDFCUlBUMD0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 8 times in total.
+subtype: base64_layered
+archetype: classical_cipher

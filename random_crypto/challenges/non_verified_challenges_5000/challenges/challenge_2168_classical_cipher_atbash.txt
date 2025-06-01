@@ -1,0 +1,14 @@
+An ancient map hides its next clue behind a simple code: decode uozt{59zqrn2t} to reveal the lost coordinates.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{59ajim2g}
+cipher: Atbash
+ciphertext: uozt{59zqrn2t}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

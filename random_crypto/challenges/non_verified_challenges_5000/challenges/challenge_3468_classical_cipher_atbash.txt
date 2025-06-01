@@ -1,0 +1,14 @@
+An ancient scroll uses a forgotten code. Can you reveal the original message hidden beneath this Atbash cipher? uozt{n7475a0z}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{m7475z0a}
+cipher: Atbash
+ciphertext: uozt{n7475a0z}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

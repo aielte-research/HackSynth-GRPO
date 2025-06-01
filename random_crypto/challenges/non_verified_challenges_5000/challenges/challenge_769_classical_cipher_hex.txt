@@ -1,0 +1,16 @@
+
+A hacker left a message in hexadecimal during a server breach. Can you decode 666c61677b326f3971367071747d to reveal their plans?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{2o9q6pqt}
+cipher: Hex
+ciphertext: 666c61677b326f3971367071747d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

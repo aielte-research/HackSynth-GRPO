@@ -1,0 +1,25 @@
+A secret key was exchanged over an insecure network using Diffie-Hellman. The intercepted message is: 52f020476052a8e262ff0a333636. Recover the shared secret.
+
+The key exchange uses a prime modulus of 101 and generator 2.
+Alice's public key is 45 and Bob's public key is 80.
+You received a tip that the private values are at most two digits.
+You got access to some of the code:
+encryption_key = hashlib.sha256(str(shared_key).encode()).digest()[:16]
+encrypted_flag = bytes(a ^ b for a, b in zip(flag.encode(), encryption_key))
+
+---
+
+## Challenge Technical Details
+flag: flag{0sgsmlof}
+ciphertext: 52f020476052a8e262ff0a333636
+cipher: Diffie-Hellman
+hint: The prime used in this key exchange is small. You can recover the private key by brute-force.
+necessary_info: The key exchange uses a prime modulus of 101 and generator 2.
+Alice's public key is 45 and Bob's public key is 80.
+You received a tip that the private values are at most two digits.
+You got access to some of the code:
+encryption_key = hashlib.sha256(str(shared_key).encode()).digest()[:16]
+encrypted_flag = bytes(a ^ b for a, b in zip(flag.encode(), encryption_key))
+extra_info: secret_a=62, secret_b=28
+subtype: broken_key_exchange
+archetype: web_crypto

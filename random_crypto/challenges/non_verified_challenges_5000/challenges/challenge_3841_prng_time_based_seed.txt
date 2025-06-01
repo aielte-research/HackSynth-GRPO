@@ -1,0 +1,19 @@
+An encrypted distress call arrived, timestamp unknown. Recover the original message from this 666d60797b6733753735632e7a7c scrambled using a time-seeded PRNG cipher.
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 94421)
+The system time when the encryption process started was around: 2025-05-25 12:38:30 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{f2k74b0z}
+ciphertext: 666d60797b6733753735632e7a7c
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 94421)
+The system time when the encryption process started was around: 2025-05-25 12:38:30 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 65822.
+subtype: time_based_seed
+archetype: prng

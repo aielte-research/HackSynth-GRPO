@@ -1,0 +1,15 @@
+Agent Nova intercepted a message encoded with the SplitNumberMix cipher. Decoding it unlocks the vault. Ciphertext:  111111 f 111111 lag{ 111111 bvomwniq} 111111 
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{bvomwniq}
+ciphertext:  111111 f 111111 lag{ 111111 bvomwniq} 111111 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 3 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

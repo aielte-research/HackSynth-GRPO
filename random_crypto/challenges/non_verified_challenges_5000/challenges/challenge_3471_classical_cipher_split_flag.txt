@@ -1,0 +1,15 @@
+A hacker intercepted a secret meeting invite but scrambled it with the SplitNumberMix cipher. Can you recover the message from this encoded text?  66666 flag{pcynstq 66666 g} 66666 
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{pcynstqg}
+ciphertext:  66666 flag{pcynstq 66666 g} 66666 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 2 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

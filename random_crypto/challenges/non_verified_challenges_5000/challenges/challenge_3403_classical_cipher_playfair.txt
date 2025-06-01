@@ -1,0 +1,17 @@
+An old hacker left "ikclnewgbyxetodbvlxlnewgbysuaseublszdbcyxwpoclnewgbyxetodbvzuqnquyenuwpslqzxtbalextnztpozcbkoyasqblgyqxwdbhwsuzptzdzenhzduqnuvqvztyxztpobtokdzdmgneuxflupv" in their notes. Rumor says it's a Playfair cipher hiding a password—crack it to uncover their secret stash.
+
+The flag format is flag{...}
+The keyword is: zwyjtewq
+
+---
+
+## Challenge Technical Details
+flag: flag{arsknr6o}
+ciphertext: ikclnewgbyxetodbvlxlnewgbysuaseublszdbcyxwpoclnewgbyxetodbvzuqnquyenuwpslqzxtbalextnztpozcbkoyasqblgyqxwdbhwsuzptzdzenhzduqnuvqvztyxztpobtokdzdmgneuxflupv
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: zwyjtewq
+extra_info: The playfair table is [['z', 'w', 'y', 'i', 't'], ['e', 'q', 'a', 'b', 'c'], ['d', 'f', 'g', 'h', 'k'], ['l', 'm', 'n', 'o', 'p'], ['r', 's', 'u', 'v', 'x']]
+subtype: playfair
+archetype: classical_cipher

@@ -1,0 +1,14 @@
+An old computer stores the password in hex. Can you decode this hex-encoded secret? Ciphertext: 666c61677b6a6c6673326a64307d
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{jlfs2jd0}
+cipher: Hex
+ciphertext: 666c61677b6a6c6673326a64307d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

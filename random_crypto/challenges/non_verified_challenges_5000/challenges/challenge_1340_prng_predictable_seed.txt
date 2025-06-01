@@ -1,0 +1,21 @@
+
+A novice hacker encrypted the flag using a "homebrew PRNG cipher" script, unaware of its weak randomness. Recover the flag from the ciphertext: 6617611c7b1d6213330c39143606
+
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 2**7)
+A secret number was generated using Python's PRNG with a seed from 0 to 9,999. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{fbh3w9o6}
+ciphertext: 6617611c7b1d6213330c39143606
+cipher: Predictable PRNG
+hint: The seed range is small enough for brute-force. Try recreating the PRNG sequence.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 2**7)
+A secret number was generated using Python's PRNG with a seed from 0 to 9,999. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: If you can predict or brute-force the seed, you can reconstruct the PRNG output and decrypt the flag.
+subtype: predictable_seed
+archetype: prng

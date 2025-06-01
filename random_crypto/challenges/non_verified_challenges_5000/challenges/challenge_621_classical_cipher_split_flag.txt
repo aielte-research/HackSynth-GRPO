@@ -1,0 +1,15 @@
+A rogue mathematician hid her wallet's passphrase using the SplitNumberMix cipher. Can you recover it from this coded message?  1111111 f 1111111 lag{upjf 1111111 wjyr} 1111111 
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{upjfwjyr}
+ciphertext:  1111111 f 1111111 lag{upjf 1111111 wjyr} 1111111 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 3 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

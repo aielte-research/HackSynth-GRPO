@@ -1,0 +1,19 @@
+An impatient hacker encrypted secret plans using a passphrase and the server’s current time. Crack the 666c67457b3137416c73304e6b7d before the time window disappears!
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 99767)
+The system time when the encryption process started was around: 2025-05-17 13:45:43 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{11cls6lk}
+ciphertext: 666c67457b3137416c73304e6b7d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 99767)
+The system time when the encryption process started was around: 2025-05-17 13:45:43 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 1570.
+subtype: time_based_seed
+archetype: prng

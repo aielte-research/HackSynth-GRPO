@@ -1,0 +1,23 @@
+
+A hacker intercepted a coded message from the rival guild. Can you crack their Substitution cipher and reveal the secret? Ciphertext: gboy{hz537eej}
+
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'o', 'b': 'x', 'c': 'e', 'd': 'z', 'e': 'w', 'f': 'g', 'g': 'y', 'h': 'c', 'i': 'p', 'j': 'a', 'k': 'v', 'l': 'b', 'm': 'k', 'n': 'n', 'o': 'h', 'p': 'f', 'q': 'r', 'r': 'l', 's': 'd', 't': 'm', 'u': 'j', 'v': 't', 'w': 'i', 'x': 'u', 'y': 's', 'z': 'q'}
+
+---
+
+## Challenge Technical Details
+flag: flag{od537ccu}
+cipher: Substitution
+ciphertext: gboy{hz537eej}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'o', 'b': 'x', 'c': 'e', 'd': 'z', 'e': 'w', 'f': 'g', 'g': 'y', 'h': 'c', 'i': 'p', 'j': 'a', 'k': 'v', 'l': 'b', 'm': 'k', 'n': 'n', 'o': 'h', 'p': 'f', 'q': 'r', 'r': 'l', 's': 'd', 't': 'm', 'u': 'j', 'v': 't', 'w': 'i', 'x': 'u', 'y': 's', 'z': 'q'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

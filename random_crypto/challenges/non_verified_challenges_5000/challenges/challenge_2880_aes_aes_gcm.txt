@@ -1,0 +1,18 @@
+The intern accidentally encrypted two secret messages using AES-GCM with the same nonce. Both ciphertexts are leaked: ciphertext1:293121e261f159146dadac215e4e, ciphertext2: 3b3529f63aea4f0273b5e93208132fcc192f. Can you recover the plaintexts?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{re6pw137}
+ciphertext: ciphertext1:293121e261f159146dadac215e4e, ciphertext2: 3b3529f63aea4f0273b5e93208132fcc192f
+tag1: d383c50a178935e9b3f1646d18d172c6
+tag2: e4a9e5d8eac4d8d18c7b8337ac1127fe
+cipher: AES-GCM
+vulnerability: nonce reuse
+hint: AES-GCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 4426602ad9c970a67131e78e
+subtype: aes_gcm
+archetype: aes

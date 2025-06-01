@@ -1,0 +1,15 @@
+An encrypted hard drive image contains secret files, secured with AES-XTS. Recover the hidden message from the sector: ciphertext1:5cd88de58563ca1a3333e81ad17a7929, ciphertext2: f3434bfb822f1709e19e12594c1e0630885669a5709438e6360cf4b92c84b093
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{b1ynyu9a}
+ciphertext: ciphertext1:5cd88de58563ca1a3333e81ad17a7929, ciphertext2: f3434bfb822f1709e19e12594c1e0630885669a5709438e6360cf4b92c84b093
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 9857beffbe00dc3383b2e93e200bdb8e
+subtype: aes_xts
+archetype: aes

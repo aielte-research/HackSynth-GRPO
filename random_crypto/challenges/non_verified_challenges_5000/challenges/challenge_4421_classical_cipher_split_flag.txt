@@ -1,0 +1,17 @@
+
+Agent Nova intercepted a secret file. To read the coordinates inside, decrypt the SplitNumberMix cipher:  333333333 f 333333333 lag{e 333333333 vhfggpe} 333333333 
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{evhfggpe}
+ciphertext:  333333333 f 333333333 lag{e 333333333 vhfggpe} 333333333 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 3 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

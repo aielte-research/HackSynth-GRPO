@@ -1,0 +1,23 @@
+
+A rogue AI scrambles agent names using a secret alphabet. Can you restore the original message? The encrypted brief is: pklt{i2zaosxm}
+
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'l', 'b': 'd', 'c': 'a', 'd': 'f', 'e': 'z', 'f': 'p', 'g': 't', 'h': 'q', 'i': 'i', 'j': 'b', 'k': 'j', 'l': 'k', 'm': 'r', 'n': 'y', 'o': 'e', 'p': 'v', 'q': 'g', 'r': 'n', 's': 'w', 't': 'c', 'u': 's', 'v': 'm', 'w': 'u', 'x': 'o', 'y': 'x', 'z': 'h'}
+
+---
+
+## Challenge Technical Details
+flag: flag{i2ecxuyv}
+cipher: Substitution
+ciphertext: pklt{i2zaosxm}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'l', 'b': 'd', 'c': 'a', 'd': 'f', 'e': 'z', 'f': 'p', 'g': 't', 'h': 'q', 'i': 'i', 'j': 'b', 'k': 'j', 'l': 'k', 'm': 'r', 'n': 'y', 'o': 'e', 'p': 'v', 'q': 'g', 'r': 'n', 's': 'w', 't': 'c', 'u': 's', 'v': 'm', 'w': 'u', 'x': 'o', 'y': 'x', 'z': 'h'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

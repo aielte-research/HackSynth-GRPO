@@ -1,0 +1,15 @@
+The hacker left a clue at the scene. It’s scrambled using ASCII Shift—can you recover the password? Ciphertext: kqfl5{7=:hmh
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{0v285chc}
+cipher: ASCII Shift
+ciphertext: kqfl5{7=:hmh
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 5
+subtype: ascii_shift
+archetype: classical_cipher

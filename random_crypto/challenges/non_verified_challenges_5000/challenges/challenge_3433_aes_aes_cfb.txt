@@ -1,0 +1,17 @@
+An agent sent a secret using AES-CFB mode, but the key is lost. Can you recover the message from the intercepted ciphertext? Here it is: 18a75422301e2cccabdd756d37cd84e209c8c484b60d126cd4d63d69ed4057fef21e82cb9283cf90e86361fedad0020af3f4d0a4df1000896a5ab69b934dd2de3459b960ebc86a6d3ac35784842926d41f79c67c9ecabfbf9aff072849c130dee1003aa84f13bd7e5dc40474bf92374549ec7e7d688e7c09b0fffe116cf09986652c10093ac97c2a2a60c3f856218eed2427d7424873f2ff2697c7b8b809934c5aa61e13e0e008f8d668453b9047709a05
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{h8ye70zf}
+ciphertext: 18a75422301e2cccabdd756d37cd84e209c8c484b60d126cd4d63d69ed4057fef21e82cb9283cf90e86361fedad0020af3f4d0a4df1000896a5ab69b934dd2de3459b960ebc86a6d3ac35784842926d41f79c67c9ecabfbf9aff072849c130dee1003aa84f13bd7e5dc40474bf92374549ec7e7d688e7c09b0fffe116cf09986652c10093ac97c2a2a60c3f856218eed2427d7424873f2ff2697c7b8b809934c5aa61e13e0e008f8d668453b9047709a05
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: a0d70c9173d3a17d6fb6ccc2019a53ca
+subtype: aes_cfb
+archetype: aes

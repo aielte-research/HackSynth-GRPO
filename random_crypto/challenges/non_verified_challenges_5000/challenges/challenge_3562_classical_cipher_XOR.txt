@@ -1,0 +1,15 @@
+An agent encoded their location using XOR to hide from prying eyes. Can you recover their secret using the encrypted note below? stringA: 2a35373d28104a79432c502a5331 stringB: 4c59565a5373724a3245324e644c
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{c83qibd7}
+cipher: XOR
+ciphertext: stringA: 2a35373d28104a79432c502a5331 stringB: 4c59565a5373724a3245324e644c
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

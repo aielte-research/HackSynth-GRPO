@@ -1,0 +1,15 @@
+A hacker left a secret message encoded in an old Base64 format. Can you decode Vm0wd2QyVkhVWGhVYmxKV1YwZDRXRmxVUm5kVlJscHpXa2M1VjFKdGVGWlZNbmhQWVd4S2MxTnNXbGRTTTFKUVdWZDRZV014VG5OWGJHUlRUVEZLVVZacVNqUlpWMDE0Vkc1T2FWSXdXbGhXYWtwdlpWWmtWMVZyWkZwV01VcElWbTAxVDJGV1NuTlhiR2hhWVRGYU0xVnNXbXRXTVZwMFVteHdWMkpJUWxsV2JUQXhVakZrU0ZOclpGaGlSMmhZV1d4b1UxbFdjRmhsUjBaWFlrZFNlVll5ZUVOV01rVjNZMFpTVjFaV2NGTmFSRVpEVld4Q1ZVMUVNRDA9 to reveal their hidden clue?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{3cfgbkb7}
+cipher: Base64
+ciphertext: Vm0wd2QyVkhVWGhVYmxKV1YwZDRXRmxVUm5kVlJscHpXa2M1VjFKdGVGWlZNbmhQWVd4S2MxTnNXbGRTTTFKUVdWZDRZV014VG5OWGJHUlRUVEZLVVZacVNqUlpWMDE0Vkc1T2FWSXdXbGhXYWtwdlpWWmtWMVZyWkZwV01VcElWbTAxVDJGV1NuTlhiR2hhWVRGYU0xVnNXbXRXTVZwMFVteHdWMkpJUWxsV2JUQXhVakZrU0ZOclpGaGlSMmhZV1d4b1UxbFdjRmhsUjBaWFlrZFNlVll5ZUVOV01rVjNZMFpTVjFaV2NGTmFSRVpEVld4Q1ZVMUVNRDA9
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 10 times in total.
+subtype: base64_layered
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+An old forum admin hashed his password with MD5, believing it secure. Now, only 49f235c35f3ad05c3fc0287d8d175356 remains. Can you reverse MD5 and recover his secret?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{OCHUN}
+ciphertext: 49f235c35f3ad05c3fc0287d8d175356
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

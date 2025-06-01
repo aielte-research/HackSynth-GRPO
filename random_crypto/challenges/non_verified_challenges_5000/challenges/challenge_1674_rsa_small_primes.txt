@@ -1,0 +1,20 @@
+
+A rookie generated an RSA key with tiny primes for quick testing—and accidentally encrypted an admin password with it. The ciphertext is: 3972753864296465349
+
+
+The flag format is flag{...}
+n=7114520934835776857, e=4957291671912927511
+
+---
+
+## Challenge Technical Details
+flag: flag{n5yx0q0c}
+cipher: RSA
+ciphertext: 3972753864296465349
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=7114520934835776857, e=4957291671912927511
+extra_info: p=3172851727, q=2242311191, φ(n)=7114520929420613940
+subtype: small_primes
+archetype: rsa

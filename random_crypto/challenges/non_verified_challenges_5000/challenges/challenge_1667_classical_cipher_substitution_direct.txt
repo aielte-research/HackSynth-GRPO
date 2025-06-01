@@ -1,0 +1,21 @@
+An old hacker left a hidden message in a substitution cipher. Can you decode eubl{gmzr9n5n} to reveal the secret?
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'b', 'b': 'd', 'c': 'f', 'd': 'i', 'e': 'k', 'f': 'e', 'g': 'l', 'h': 'g', 'i': 'v', 'j': 'p', 'k': 'o', 'l': 'u', 'm': 'n', 'n': 'm', 'o': 'a', 'p': 'r', 'q': 'j', 'r': 'h', 's': 'w', 't': 'q', 'u': 'z', 'v': 'c', 'w': 's', 'x': 'x', 'y': 'y', 'z': 't'}
+
+---
+
+## Challenge Technical Details
+flag: flag{hnup9m5m}
+cipher: Substitution
+ciphertext: eubl{gmzr9n5n}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'b', 'b': 'd', 'c': 'f', 'd': 'i', 'e': 'k', 'f': 'e', 'g': 'l', 'h': 'g', 'i': 'v', 'j': 'p', 'k': 'o', 'l': 'u', 'm': 'n', 'n': 'm', 'o': 'a', 'p': 'r', 'q': 'j', 'r': 'h', 's': 'w', 't': 'q', 'u': 'z', 'v': 'c', 'w': 's', 'x': 'x', 'y': 'y', 'z': 't'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

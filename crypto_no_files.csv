@@ -1,0 +1,79 @@
+Unnamed: 0,name,question,difficulty,id,flag,necessary_info
+0,Mod 26,"Cryptography can be easy, do you know what ROT13 is? cvpbPGS{arkg_gvzr_V'yy_gel_2_ebhaqf_bs_ebg13_Ncualgvd}",easy,144,flag{next_time_I'll_try_2_rounds_of_rot13_Aphnytiq},
+1,rotation,"You will find the flag after decrypting this file.
+
+File (encrypted.txt) content:
+xqkwKBN{z0bib1wv_l3kzgxb3l_555957n3}
+",medium,373,flag{r0tat1on_d3crypt3d_555957f3},
+2,Easy1,"The one time pad can be cryptographically secure, but not when you know the key. Can you solve this? We've given you the encrypted flag, key, and a table to help UFJKXQZQUNB with the key of SOLVECRYPTO. Can you use this table to solve it?
+
+File (table.txt) content:
+    A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
+   +----------------------------------------------------
+A | A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+B | B C D E F G H I J K L M N O P Q R S T U V W X Y Z A
+C | C D E F G H I J K L M N O P Q R S T U V W X Y Z A B
+D | D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
+E | E F G H I J K L M N O P Q R S T U V W X Y Z A B C D
+F | F G H I J K L M N O P Q R S T U V W X Y Z A B C D E
+G | G H I J K L M N O P Q R S T U V W X Y Z A B C D E F
+H | H I J K L M N O P Q R S T U V W X Y Z A B C D E F G
+I | I J K L M N O P Q R S T U V W X Y Z A B C D E F G H
+J | J K L M N O P Q R S T U V W X Y Z A B C D E F G H I
+K | K L M N O P Q R S T U V W X Y Z A B C D E F G H I J
+L | L M N O P Q R S T U V W X Y Z A B C D E F G H I J K
+M | M N O P Q R S T U V W X Y Z A B C D E F G H I J K L
+N | N O P Q R S T U V W X Y Z A B C D E F G H I J K L M
+O | O P Q R S T U V W X Y Z A B C D E F G H I J K L M N
+P | P Q R S T U V W X Y Z A B C D E F G H I J K L M N O
+Q | Q R S T U V W X Y Z A B C D E F G H I J K L M N O P
+R | R S T U V W X Y Z A B C D E F G H I J K L M N O P Q
+S | S T U V W X Y Z A B C D E F G H I J K L M N O P Q R
+T | T U V W X Y Z A B C D E F G H I J K L M N O P Q R S
+U | U V W X Y Z A B C D E F G H I J K L M N O P Q R S T
+V | V W X Y Z A B C D E F G H I J K L M N O P Q R S T U
+W | W X Y Z A B C D E F G H I J K L M N O P Q R S T U V
+X | X Y Z A B C D E F G H I J K L M N O P Q R S T U V W
+Y | Y Z A B C D E F G H I J K L M N O P Q R S T U V W X
+Z | Z A B C D E F G H I J K L M N O P Q R S T U V W X Y
+
+",medium,43,flag{CRYPTOISFUN},
+3,"No Padding, No Problem","Oracles can be your best friend, they will decrypt anything, except the flag's ciphertext. How will you break it? Connect with nc mercury.picoctf.net 60368.",medium,154,flag{m4yb3_Th0se_m3s54g3s_4r3_difurrent_3279013},
+4,New Caesar,"We found a brand new type of encryption, can you break the secret code? (Wrap with picoCTF{}) dcebcmebecamcmanaedbacdaanafagapdaaoabaaafdbapdpaaapadanandcafaadbdaapdpandcac
+
+File (new_caesar.py) content:
+import string
+
+LOWERCASE_OFFSET = ord(""a"")
+ALPHABET = string.ascii_lowercase[:16]
+
+def b16_encode(plain):
+	enc = """"
+	for c in plain:
+		binary = ""{0:08b}"".format(ord(c))
+		enc += ALPHABET[int(binary[:4], 2)]
+		enc += ALPHABET[int(binary[4:], 2)]
+	return enc
+
+def shift(c, k):
+	t1 = ord(c) - LOWERCASE_OFFSET
+	t2 = ord(k) - LOWERCASE_OFFSET
+	return ALPHABET[(t1 + t2) % len(ALPHABET)]
+
+flag = ""redacted""
+key = ""redacted""
+assert all([k in ALPHABET for k in key])
+assert len(key) == 1
+
+b16 = b16_encode(flag)
+enc = """"
+for i, c in enumerate(b16):
+	enc += shift(c, key[i % len(key)])
+print(enc)
+",medium,158,flag{et_tu?_07d5c0892c1438d2b32600e83dc2b0e5},
+5,Dachshund Attacks,What if d is too small? Connect with nc mercury.picoctf.net 30761.,medium,159,flag{proving_wiener_8652838},
+6,13,"Cryptography can be easy, do you know what ROT13 is? cvpbPGS{abg_gbb_onq_bs_n_ceboyrz}",easy,62,flag{not_too_bad_of_a_problem},
+7,Mr-Worldwide,"A musician left us a message. What's it mean?
+
+File (message.txt) content:
+picoCTF{(35.028309, 135.753082)(46.469391, 30.740883)(39.758949, -84.191605)(41.015137, 28.979530)(24.466667, 54.366669)(3.140853, 101.693207)_(9.005401, 38.763611)(-3.989038, -79.203560)(52.377956, 4.897070)(41.085651, -73.858467)(57.790001, -152.407227)(31.205753, 29.924526)}",medium,40,flag{KODIAK_ALASKA},

@@ -1,0 +1,26 @@
+
+A hacker left a message encoded with SHA-256. The original phrase unlocks access. Can you recover the secret from this hash? ebb3eae1ed9fffebda99e3c8801b8f4bd2bb1db026de3b2071803780f3ef10a1
+
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{4hdi}
+ciphertext: ebb3eae1ed9fffebda99e3c8801b8f4bd2bb1db026de3b2071803780f3ef10a1
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

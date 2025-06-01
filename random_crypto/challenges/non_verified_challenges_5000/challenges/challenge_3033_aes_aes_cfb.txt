@@ -1,0 +1,17 @@
+A spy intercepted a crucial AES-CFB encrypted message, but the key was lost. Can you recover the secret from this ciphertext? d2071a7e62a1764e568ea9f19b2412a9851b125628ed77711e31d453306817cd3a708f62c252ec5a2e72b6f5928d0f189433cffabee5221a49f471a4e16f3ce7ee83a0cccc7c1df4475cf313f52306c7b1c6c6b0701fc4f9e916652d38709ef92da3003e6ddfe1a2f66fa5d053b4dfd9166eaeecf2e5e129ad8701db7ff0c69202125f80407b2ebe1e44a56349574f151b1dd07e06eebcdeb9a7d7768b41432e27b6e69f8031fc35f0a2437019a7f0e35f
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{6lckjl48}
+ciphertext: d2071a7e62a1764e568ea9f19b2412a9851b125628ed77711e31d453306817cd3a708f62c252ec5a2e72b6f5928d0f189433cffabee5221a49f471a4e16f3ce7ee83a0cccc7c1df4475cf313f52306c7b1c6c6b0701fc4f9e916652d38709ef92da3003e6ddfe1a2f66fa5d053b4dfd9166eaeecf2e5e129ad8701db7ff0c69202125f80407b2ebe1e44a56349574f151b1dd07e06eebcdeb9a7d7768b41432e27b6e69f8031fc35f0a2437019a7f0e35f
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: 4daaf30bff8a1e83b7d7c02b24560fac
+subtype: aes_cfb
+archetype: aes

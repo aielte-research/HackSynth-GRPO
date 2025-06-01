@@ -1,0 +1,15 @@
+A hacker left a coded clue on their website. Decode the Base64 message below to uncover the next step: Vm0wd2QyVkhVWGhVYmxKV1YwZDRXRmxVUm5kVlJscHpXa2M1VjFKdGVGWlZNbmhQWVd4S2MxTnNXbGRTTTFKUVdWY3hTMUl4WkhWaVJtUnBWMFpHTTFadE1UUlRNazE0Vkc1T1dHSkdjSEJXYTFwaFlqRmFjbGt6YUZSTlZXdzBWa2MxVDFsV1NuUmhSemxWVm0xb1JGWldXbXRXTVdSMFpFWlNUbFp0ZHpCV1ZFa3hVakZrU0ZOclpGaGlSMmhZV1d4b1UxbFdjRmhsUjBaWFlrZFNlVll5ZUVOV01rVjNZMFpTVjFaV2NGTmFSRVpEVld4Q1ZVMUVNRDA9
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{t7vz0dgw}
+cipher: Base64
+ciphertext: Vm0wd2QyVkhVWGhVYmxKV1YwZDRXRmxVUm5kVlJscHpXa2M1VjFKdGVGWlZNbmhQWVd4S2MxTnNXbGRTTTFKUVdWY3hTMUl4WkhWaVJtUnBWMFpHTTFadE1UUlRNazE0Vkc1T1dHSkdjSEJXYTFwaFlqRmFjbGt6YUZSTlZXdzBWa2MxVDFsV1NuUmhSemxWVm0xb1JGWldXbXRXTVdSMFpFWlNUbFp0ZHpCV1ZFa3hVakZrU0ZOclpGaGlSMmhZV1d4b1UxbFdjRmhsUjBaWFlrZFNlVll5ZUVOV01rVjNZMFpTVjFaV2NGTmFSRVpEVld4Q1ZVMUVNRDA9
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 10 times in total.
+subtype: Base64_layered
+archetype: classical_cipher

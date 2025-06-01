@@ -1,0 +1,18 @@
+
+A rogue AI hid crucial data in Base85 code. Can you decipher its message?  
+W^7?+dv;=XFlli!Z+!
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{vbw0iq3o}
+cipher: Base85
+ciphertext: W^7?+dv;=XFlli!Z+!
+hint: Use a Base85 decoder to retrieve the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is straightforward; only one layer is used.
+subtype: Base85
+archetype: classical_cipher

@@ -1,0 +1,27 @@
+An impatient hacker sends you a message: "I thought my random generator was clever. Bet you can't predict my next move!" The encrypted answer is: 56c059a64b9d5da805ca5fad53d1
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 2030140126
+  - Multiplier: 709499991
+  - Increment: 1838841715
+The first 5 outputs of the LCG are provided: [1956204886, 297909003, 1378370228, 1418047091, 316288924] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{1ei5fglc}
+ciphertext: 56c059a64b9d5da805ca5fad53d1
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 2030140126
+  - Multiplier: 709499991
+  - Increment: 1838841715
+The first 5 outputs of the LCG are provided: [1956204886, 297909003, 1378370228, 1418047091, 316288924] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

@@ -1,0 +1,20 @@
+
+A rookie admin used tiny primes for RSA keys. Can you recover the original message from this weak ciphertext?8375441739574171629
+
+
+The flag format is flag{...}
+n=9283588776412888621, e=7469640923416865921
+
+---
+
+## Challenge Technical Details
+flag: flag{saglfoak}
+cipher: RSA
+ciphertext: 8375441739574171629
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=9283588776412888621, e=7469640923416865921
+extra_info: p=2233382773, q=4156738777, φ(n)=9283588770022767072
+subtype: small_primes
+archetype: rsa

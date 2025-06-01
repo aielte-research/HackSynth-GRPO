@@ -1,0 +1,15 @@
+A rogue hacker left a clue in plaintext—then reversed it to hide the secret flag. Can you decrypt their trickery and recover the message? Cipher: }44bp3x71{galf
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{17x3pb44}
+ciphertext: }44bp3x71{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

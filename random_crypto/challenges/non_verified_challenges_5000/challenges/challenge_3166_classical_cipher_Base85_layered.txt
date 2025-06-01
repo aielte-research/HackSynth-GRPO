@@ -1,0 +1,17 @@
+
+A rogue AI stored sensitive keys using Base85. Retrieve the flag from its archive: Q8+7fbYyZsPf15ALm_fVLM1IeN?KPfc2Z(kUL;XuLS`mOWKM5tRzPn-T30(!ZzW7serj@8Oi6ftPH$jnWkx+CQ%g)$CQ<
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{8536ybcp}
+cipher: Base85
+ciphertext: Q8+7fbYyZsPf15ALm_fVLM1IeN?KPfc2Z(kUL;XuLS`mOWKM5tRzPn-T30(!ZzW7serj@8Oi6ftPH$jnWkx+CQ%g)$CQ<
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 8 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

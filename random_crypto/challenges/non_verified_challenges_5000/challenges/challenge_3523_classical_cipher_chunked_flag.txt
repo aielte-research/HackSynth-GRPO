@@ -1,0 +1,15 @@
+Agent Z encrypted the flag using her new ChunkedFlag cipher before disappearing. Can you reverse her process and recover the hidden secret from fla g{r kd vf 065 }?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{rkdvf065}
+ciphertext: fla g{r kd vf 065 }
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

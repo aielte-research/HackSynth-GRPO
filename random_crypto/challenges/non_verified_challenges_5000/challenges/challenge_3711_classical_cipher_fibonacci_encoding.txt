@@ -1,0 +1,17 @@
+
+An anonymous developer left you a message in Fibonacci encoding. Can you decode the secret buried inside? Ciphertext: 10001000001 10001010011 10000100001 10001000011 10100000001 10010010001 10010100001 10010101001 10001000001 1000000011 10000100001 10001000101 101001001 10100000101
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{svyf8ah2}
+ciphertext: 10001000001 10001010011 10000100001 10001000011 10100000001 10010010001 10010100001 10010101001 10001000001 1000000011 10000100001 10001000101 101001001 10100000101
+cipher: Fibonacci Encoding
+hint: Each ASCII character is represented as a sum of non-consecutive Fibonacci numbers, always ending in 1.
+necessary_info: The flag format is flag{...}
+extra_info: Each character of the flag is independently encoded using Fibonacci representation.
+subtype: fibonacci_encoding
+archetype: classical_cipher

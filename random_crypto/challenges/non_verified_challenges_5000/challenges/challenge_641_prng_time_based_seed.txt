@@ -1,0 +1,19 @@
+A mysterious log-in page returns 666c10e47b6207f7626f05e9727d as a response at midnight daily. Crack the PRNG-based encryption to discover its hidden secret before the timer resets!
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 46045)
+The system time when the encryption process started was around: 2025-05-17 13:52:23 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{bvtbotjr}
+ciphertext: 666c10e47b6207f7626f05e9727d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 46045)
+The system time when the encryption process started was around: 2025-05-17 13:52:23 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 29059.
+subtype: time_based_seed
+archetype: prng

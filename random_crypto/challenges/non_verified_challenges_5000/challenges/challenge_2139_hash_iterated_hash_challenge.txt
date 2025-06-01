@@ -1,0 +1,26 @@
+
+A rogue AI left behind secrets using SHA-256. Decrypt the following hash to recover the password and stop its hidden protocol: 4ea4947bcce9fa14bc8ade3a28770d50baf0598ac106be8eba9107fded737b8f
+
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{rd6o}
+ciphertext: 4ea4947bcce9fa14bc8ade3a28770d50baf0598ac106be8eba9107fded737b8f
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

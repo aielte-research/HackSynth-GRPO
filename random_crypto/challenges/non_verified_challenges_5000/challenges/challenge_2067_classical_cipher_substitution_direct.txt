@@ -1,0 +1,21 @@
+An old hacker left a secret in a note encoded with a simple substitution cipher. Can you reveal the message hidden in oxhj{dz1uahiq}?
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'h', 'b': 'z', 'c': 'd', 'd': 'a', 'e': 'm', 'f': 'o', 'g': 'j', 'h': 'q', 'i': 'l', 'j': 'c', 'k': 'n', 'l': 'x', 'm': 'e', 'n': 'v', 'o': 'r', 'p': 't', 'q': 'u', 'r': 's', 's': 'b', 't': 'g', 'u': 'k', 'v': 'i', 'w': 'f', 'x': 'w', 'y': 'p', 'z': 'y'}
+
+---
+
+## Challenge Technical Details
+flag: flag{cb1qdavh}
+cipher: Substitution
+ciphertext: oxhj{dz1uahiq}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'h', 'b': 'z', 'c': 'd', 'd': 'a', 'e': 'm', 'f': 'o', 'g': 'j', 'h': 'q', 'i': 'l', 'j': 'c', 'k': 'n', 'l': 'x', 'm': 'e', 'n': 'v', 'o': 'r', 'p': 't', 'q': 'u', 'r': 's', 's': 'b', 't': 'g', 'u': 'k', 'v': 'i', 'w': 'f', 'x': 'w', 'y': 'p', 'z': 'y'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

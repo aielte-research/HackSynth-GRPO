@@ -1,0 +1,19 @@
+An intercepted message using an outdated LFSR-based stream cipher holds the coordinates to the hacker's next attack. Can you break the ab3bac30b667a538bf66b736b82a?
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[23863, 44699, 22349, 43942, 21971, 43753, 54644, 27322, 13661, 39598]
+
+---
+
+## Challenge Technical Details
+flag: flag{0hor1zau}
+ciphertext: ab3bac30b667a538bf66b736b82a
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[23863, 44699, 22349, 43942, 21971, 43753, 54644, 27322, 13661, 39598]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

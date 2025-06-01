@@ -1,0 +1,19 @@
+The fortune cookie company encrypts all secret messages with a homebrew cipher. They claim it’s super secure. Here’s one message: 665961527b05675d7a4172076348
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 2**8)
+A secret number was generated using Python's PRNG with a seed from 0 to 9,999. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{0ghztr2c}
+ciphertext: 665961527b05675d7a4172076348
+cipher: Predictable PRNG
+hint: The seed range is small enough for brute-force. Try recreating the PRNG sequence.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 2**8)
+A secret number was generated using Python's PRNG with a seed from 0 to 9,999. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: If you can predict or brute-force the seed, you can reconstruct the PRNG output and decrypt the flag.
+subtype: predictable_seed
+archetype: prng

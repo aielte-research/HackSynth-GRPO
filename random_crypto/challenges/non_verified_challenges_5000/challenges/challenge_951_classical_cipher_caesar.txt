@@ -1,0 +1,15 @@
+A secret Roman message was intercepted. Can you decode the Caesar-shifted text below to reveal the orders? Ciphertext: qwlr{sknpjtx9}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{hzceyim9}
+ciphertext: qwlr{sknpjtx9}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 11
+subtype: caesar
+archetype: classical_cipher

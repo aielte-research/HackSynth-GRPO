@@ -1,0 +1,15 @@
+A hacker hid the access code using Base85 encoding. Can you recover the original message from this encoded string: Q8sTRJX$6xX;4yHC`La{N<MpQS|n5}GEil3X=X%TZgEgWWB?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{9djz4n83}
+cipher: Base85
+ciphertext: Q8sTRJX$6xX;4yHC`La{N<MpQS|n5}GEil3X=X%TZgEgWWB
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 5 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

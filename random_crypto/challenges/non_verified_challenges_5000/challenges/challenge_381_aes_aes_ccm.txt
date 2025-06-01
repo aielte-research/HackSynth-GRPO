@@ -1,0 +1,18 @@
+An agent hid secret plans in ciphertext1:d221e7f417092f58dfde01966da4, ciphertext2: d221e7f417147141dfcf1cd72fa4, encrypted using AES. Recover the original message to uncover the agency's next target.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{o1xogq34}
+ciphertext: ciphertext1:d221e7f417092f58dfde01966da4, ciphertext2: d221e7f417147141dfcf1cd72fa4
+tag1: 2ee49ea53bd3e38c1352367b2f656d72
+tag2: d5608bcd63773260072ad70149d6ae43
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: c1d824db81b664cceac39f
+subtype: aes_ccm
+archetype: aes

@@ -1,0 +1,19 @@
+A rogue engineer left this encrypted message using a flawed LFSR stream cipher. Can you exploit the weakness and recover the secret? Ciphertext: 123815330f20113b192102311c29
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[20786, 43161, 21580, 10790, 5395, 35465, 17732, 41634, 53585, 59560]
+
+---
+
+## Challenge Technical Details
+flag: flag{teomuveh}
+ciphertext: 123815330f20113b192102311c29
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[20786, 43161, 21580, 10790, 5395, 35465, 17732, 41634, 53585, 59560]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

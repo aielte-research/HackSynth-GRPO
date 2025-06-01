@@ -1,0 +1,17 @@
+Intercepted in the 19th century, an agent’s encoded message may reveal the meeting’s location. Can you decrypt their Playfair cipher? Ciphertext: ondsnkzernkdpwmugpdwnkzernbpocgkusdrmufztothdsnkzernkdpwmudptbnbhfknyblysmpaldfmdkwspnthsfulhlocfbifzrtomudnbpqnnpdbkniprkbnoeeypnofpnthdloidbcngrqeqk
+
+The flag format is flag{...}
+The keyword is: grkbauud
+
+---
+
+## Challenge Technical Details
+flag: flag{6174scl0}
+ciphertext: ondsnkzernkdpwmugpdwnkzernbpocgkusdrmufztothdsnkzernkdpwmudptbnbhfknyblysmpaldfmdkwspnthsfulhlocfbifzrtomudnbpqnnpdbkniprkbnoeeypnofpnthdloidbcngrqeqk
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: grkbauud
+extra_info: The playfair table is [['g', 'r', 'k', 'b', 'a'], ['u', 'd', 'c', 'e', 'f'], ['h', 'i', 'l', 'm', 'n'], ['o', 'p', 'q', 's', 't'], ['v', 'w', 'x', 'y', 'z']]
+subtype: playfair
+archetype: classical_cipher

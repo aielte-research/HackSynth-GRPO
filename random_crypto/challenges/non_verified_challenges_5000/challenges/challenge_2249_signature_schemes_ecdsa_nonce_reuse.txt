@@ -1,0 +1,24 @@
+Famous hacker Bob signed two messages on the blockchain but reused his ECDSA nonce. Can you recover Bob's private key and decrypt the flag? Ciphertext: Sig1: c050c3f0b8d45b9e093a91cb96d097b24100e66585d0d8561e01c1231837493f43451eb9ad47ccb59fe8a74bf25a2a85fc052a6a8e28945253bae113afabad1b
+Sig2: c050c3f0b8d45b9e093a91cb96d097b24100e66585d0d8561e01c1231837493f2d3d022d19fa88443351557b85d261960404febf96556ed929fea59bcf48ab03
+
+Public Key (x,y): (113162868821553752211269019738231743212115919965322525315376580610007411877479, 39917913239268371714651081816936956174504831920189674709985333723249992607545)
+Messages:
+1. CTF challenge message
+2. Second signed message
+Curve: secp256k1The flag format is flag{hex(private_key)}
+
+---
+
+## Challenge Technical Details
+flag: flag{9658e8e760660d48e33a5bd03b52fa35e18ef0595cd5d9d24b999bd12aa41af0}
+ciphertext: Sig1: c050c3f0b8d45b9e093a91cb96d097b24100e66585d0d8561e01c1231837493f43451eb9ad47ccb59fe8a74bf25a2a85fc052a6a8e28945253bae113afabad1b
+Sig2: c050c3f0b8d45b9e093a91cb96d097b24100e66585d0d8561e01c1231837493f2d3d022d19fa88443351557b85d261960404febf96556ed929fea59bcf48ab03
+cipher: ECDSA Nonce Reuse
+hint: Identical nonce usage breaks ECDSA security. What's common between the signatures?
+necessary_info: Public Key (x,y): (113162868821553752211269019738231743212115919965322525315376580610007411877479, 39917913239268371714651081816936956174504831920189674709985333723249992607545)
+Messages:
+1. CTF challenge message
+2. Second signed message
+Curve: secp256k1The flag format is flag{hex(private_key)}
+subtype: ecdsa_nonce_reuse
+archetype: signature_schemes

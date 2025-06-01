@@ -1,0 +1,17 @@
+An intercepted message, encrypted by rival spies using a Hill cipher, could reveal the drop location. Can you decrypt wulxoirqbchpnacarkgnvirxrvhtqrrkwygjvugjecegbadtimywhckqlalvgotetknkls to uncover their secret?
+
+The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+
+---
+
+## Challenge Technical Details
+flag: flag{mgpgvaxy}
+ciphertext: wulxoirqbchpnacarkgnvirxrvhtqrrkwygjvugjecegbadtimywhckqlalvgotetknkls
+cipher: Hill
+hint: Hill ciphers can be broken using known-plaintext attacks and linear algebra mod 26.
+necessary_info: The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+extra_info: The matrix used is: [[1, 13], [9, 14]]
+subtype: hill
+archetype: classical_cipher

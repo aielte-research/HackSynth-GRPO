@@ -1,0 +1,19 @@
+A careless intern used tiny primes to encrypt a secret. Can you recover the original message from the intercepted RSA ciphertext?
+558942902027332923
+
+The flag format is flag{...}
+n=7444435465143381403, e=577933420916629359
+
+---
+
+## Challenge Technical Details
+flag: flag{87y9m6kc}
+cipher: RSA
+ciphertext: 558942902027332923
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=7444435465143381403, e=577933420916629359
+extra_info: p=2738467103, q=2718468101, φ(n)=7444435459686446200
+subtype: small_primes
+archetype: rsa

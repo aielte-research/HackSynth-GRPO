@@ -1,0 +1,17 @@
+
+A hacker hid the secret access code using Base64 encoding. Can you decode this to unlock the message? Ciphertext: ZmxhZ3tkOXUydHJzY30=
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{d9u2trsc}
+cipher: Base64
+ciphertext: ZmxhZ3tkOXUydHJzY30=
+hint: Use a Base64 decoder to obtain the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is direct; no additional layers or tricks.
+subtype: Base64
+archetype: classical_cipher

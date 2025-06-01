@@ -1,0 +1,15 @@
+Agent Zero split the vault code and disguised it using their SplitNumberMix method. Retrieve the original code from:  5555555 flag{ycgjj 5555555 q 5555555 zi} 5555555 
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ycgjjqzi}
+ciphertext:  5555555 flag{ycgjj 5555555 q 5555555 zi} 5555555 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 3 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

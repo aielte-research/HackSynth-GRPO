@@ -1,0 +1,17 @@
+
+Agent Z encoded the meeting location using the Rail Fence cipher. Can you recover the secret by deciphering this message: fa{tojflgbxm5}?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{btxomj5f}
+ciphertext: fa{tojflgbxm5}
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 2
+subtype: rail_fence
+archetype: classical_cipher

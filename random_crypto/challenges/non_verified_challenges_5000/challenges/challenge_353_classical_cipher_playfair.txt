@@ -1,0 +1,17 @@
+A secret society encoded the meeting location using Playfair cipher. Can you decrypt their hidden message? Here it is: aelyhdieogxbgykfnbschdieogsmmwbqftqxkfbomdfvlyhdieogxbgykfncqdqtmvdhmpruumbmgpfmbxiyoyfvemgkvomwhtsoghmdkfnosmdeyokmdhopcqtqmzdroyeyoyfvpgglkmhehaaprbclbc
+
+The flag format is flag{...}
+The keyword is: yigcjpto
+
+---
+
+## Challenge Technical Details
+flag: flag{dgkcpkc5}
+ciphertext: aelyhdieogxbgykfnbschdieogsmmwbqftqxkfbomdfvlyhdieogxbgykfncqdqtmvdhmpruumbmgpfmbxiyoyfvemgkvomwhtsoghmdkfnosmdeyokmdhopcqtqmzdroyeyoyfvpgglkmhehaaprbclbc
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: yigcjpto
+extra_info: The playfair table is [['y', 'i', 'g', 'c', 'p'], ['t', 'o', 'a', 'b', 'd'], ['e', 'f', 'h', 'k', 'l'], ['m', 'n', 'q', 'r', 's'], ['u', 'v', 'w', 'x', 'z']]
+subtype: playfair
+archetype: classical_cipher

@@ -1,0 +1,24 @@
+The hacker left you a message: "473f083b59938f94135288f00c54d955b48ca2bf9ece00aeaf7445fcfacabc8a". Can you recover the flag using SHA-256?
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{wwsx}
+ciphertext: 473f083b59938f94135288f00c54d955b48ca2bf9ece00aeaf7445fcfacabc8a
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

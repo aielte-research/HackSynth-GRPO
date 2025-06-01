@@ -1,0 +1,17 @@
+An agent hid the password to their vault by encrypting it with AES-CFB. All you have is the ciphertext: ebd1d3386b45d24736944b15a4e225fbea9a8d356db5e85fdc6f3b078c52b5048511868b3db91ef43a85a9aade6c54a2bea97ce880326285770630bff8465e4dead6d7e7f744ef6d0eb0256c000313ea2548a605c209f33a266066b7d8c556717917aee8c168db64ebc31d7a205e49c12943920619932174232a8041aebee9545b4101cc61470c7156bf1b69aa26b319463e203c76f0e71ae9a9c1df8a1bc9cdc51472b67a13754e688477096f063ddddb. Can you reveal the original secret?
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{t70vpwho}
+ciphertext: ebd1d3386b45d24736944b15a4e225fbea9a8d356db5e85fdc6f3b078c52b5048511868b3db91ef43a85a9aade6c54a2bea97ce880326285770630bff8465e4dead6d7e7f744ef6d0eb0256c000313ea2548a605c209f33a266066b7d8c556717917aee8c168db64ebc31d7a205e49c12943920619932174232a8041aebee9545b4101cc61470c7156bf1b69aa26b319463e203c76f0e71ae9a9c1df8a1bc9cdc51472b67a13754e688477096f063ddddb
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: 0e4d0675eda08b20a7c671d3e4421e5b
+subtype: aes_cfb
+archetype: aes

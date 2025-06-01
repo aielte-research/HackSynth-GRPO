@@ -1,0 +1,14 @@
+A hacker left a hidden wallet passphrase. All you found is this hex-encoded clue: 666c61677b75677232766161777d. Can you decode it and unlock the next hint?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ugr2vaaw}
+cipher: Hex
+ciphertext: 666c61677b75677232766161777d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

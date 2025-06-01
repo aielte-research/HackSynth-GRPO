@@ -1,0 +1,15 @@
+Agent X reversed the secret code to hide the message. Can you recover the original by undoing their trick? Ciphertext: }5q0y8het{galf
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{teh8y0q5}
+ciphertext: }5q0y8het{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

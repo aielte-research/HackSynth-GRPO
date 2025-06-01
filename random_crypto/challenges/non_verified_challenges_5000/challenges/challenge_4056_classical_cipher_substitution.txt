@@ -1,0 +1,15 @@
+An agent intercepted a coded message, but it's written in a simple letter-substitution cipher. Can you crack cs lvomtwzvdmxo, d aghatctgtcws lcmxrv ca d ertxwi wy rslvomtcsz cs fxclx gscta wy mpdcstrjt dvr vrmpdlri fctx txr lcmxrvtrjt, cs d irycsri edssrv, fctx txr xrpm wy d kro; txr "gscta" edo hr acszpr prttrva (txr ewat lweews), mdcva wy prttrva, tvcmprta wy prttrva, ecjtgvra wy txr dhwbr, dsi aw ywvtx. txr vrlrcbrv irlcmxrva txr trjt ho mrvywvecsz txr csbrvar aghatctgtcws mvwlraa tw rjtvdlt txr wvczcsdp eraadzr. pckrfcar, udlqgra qgclkpo ncmmri txvwgzx d qgratcws ws nrvw-kswfprizr mvwwya, rsagvcsz sw lvctcldp prttrv fda pryt wgt wy wgv lvomtwzvdmxcl mgnnpr.ypdz{hxvajzeo} to reveal the secret instructions?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{bhrsxgmy}
+ciphertext: cs lvomtwzvdmxo, d aghatctgtcws lcmxrv ca d ertxwi wy rslvomtcsz cs fxclx gscta wy mpdcstrjt dvr vrmpdlri fctx txr lcmxrvtrjt, cs d irycsri edssrv, fctx txr xrpm wy d kro; txr "gscta" edo hr acszpr prttrva (txr ewat lweews), mdcva wy prttrva, tvcmprta wy prttrva, ecjtgvra wy txr dhwbr, dsi aw ywvtx. txr vrlrcbrv irlcmxrva txr trjt ho mrvywvecsz txr csbrvar aghatctgtcws mvwlraa tw rjtvdlt txr wvczcsdp eraadzr. pckrfcar, udlqgra qgclkpo ncmmri txvwgzx d qgratcws ws nrvw-kswfprizr mvwwya, rsagvcsz sw lvctcldp prttrv fda pryt wgt wy wgv lvomtwzvdmxcl mgnnpr.ypdz{hxvajzeo}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'd', 'b': 'h', 'c': 'l', 'd': 'i', 'e': 'r', 'f': 'y', 'g': 'z', 'h': 'x', 'i': 'c', 'j': 'u', 'k': 'k', 'l': 'p', 'm': 'e', 'n': 's', 'o': 'w', 'p': 'm', 'q': 'q', 'r': 'v', 's': 'a', 't': 't', 'u': 'g', 'v': 'b', 'w': 'f', 'x': 'j', 'y': 'o', 'z': 'n'}
+subtype: substitution
+archetype: classical_cipher

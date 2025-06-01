@@ -1,0 +1,27 @@
+Our vault’s lock relies on an LCG-based scheme. Unfortunately, someone leaked a sequence. Can you break the pattern and recover the flag from this ciphertext? 4fb37e0c52b46d1d1cbc741b11a2
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 987224042
+  - Multiplier: 315259321
+  - Increment: 216272946
+The first 5 outputs of the LCG are provided: [388136977, 126993031, 238179155, 458521347, 476105347] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{krv5ckp8}
+ciphertext: 4fb37e0c52b46d1d1cbc741b11a2
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 987224042
+  - Multiplier: 315259321
+  - Increment: 216272946
+The first 5 outputs of the LCG are provided: [388136977, 126993031, 238179155, 458521347, 476105347] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

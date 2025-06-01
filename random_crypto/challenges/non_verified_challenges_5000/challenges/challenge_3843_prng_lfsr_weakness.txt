@@ -1,0 +1,19 @@
+Intercepted radio chatter reveals a secret code. Can you break the message encrypted with a flawed LFSR scheme? Decipher this: 4a124d19570e431759165b121a03
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[64147, 64841, 32420, 16210, 8105, 36820, 51178, 25589, 45562, 22781]
+
+---
+
+## Challenge Technical Details
+flag: flag{poiuhwl6}
+ciphertext: 4a124d19570e431759165b121a03
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[64147, 64841, 32420, 16210, 8105, 36820, 51178, 25589, 45562, 22781]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

@@ -1,0 +1,21 @@
+
+A rookie hacker encrypted the club’s guestlist using a shoddy homemade cipher and a weak password. Can you recover the names from this mysterious jumble?666c60647b6e3761676265666a7d
+
+
+The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [370, 480, 492, 291, 426, 232, 457, 5, 419, 265, 243, 227, 10, 303, 309, 343, 145, 317, 22, 225]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 575)
+
+---
+
+## Challenge Technical Details
+flag: flag{n6bgbdej}
+ciphertext: 666c60647b6e3761676265666a7d
+cipher: Low-entropy PRNG
+hint: The PRNG seed space is small. You can try brute-forcing all possible seeds to reconstruct the sequence.
+necessary_info: The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [370, 480, 492, 291, 426, 232, 457, 5, 419, 265, 243, 227, 10, 303, 309, 343, 145, 317, 22, 225]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 575)
+extra_info: Since the seed has only 256 possible values, it can be brute-forced to recover the secret number and decrypt the flag.
+subtype: low_entropy_generator
+archetype: prng

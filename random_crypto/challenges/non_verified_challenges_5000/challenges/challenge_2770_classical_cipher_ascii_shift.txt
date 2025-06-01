@@ -1,0 +1,15 @@
+The hacker left a suspicious note on your terminal. Decipher the ASCII-shifted message to reveal their next target: iodj~6l:8fhhq
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{3i75ceen}
+cipher: ASCII Shift
+ciphertext: iodj~6l:8fhhq
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 3
+subtype: ascii_shift
+archetype: classical_cipher

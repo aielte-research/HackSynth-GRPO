@@ -1,0 +1,17 @@
+
+A notorious hacker left a taunting message on our server. Decode the classic substitution cipher they used: bx igqdtsfgodmq, o uzputbtztbsx ibdmrg bu o artmsl sk rxigqdtbxf bx ymbim zxbtu sk dnobxtret ogr grdnoirl ybtm tmr ibdmrgtret, bx o lrkbxrl aoxxrg, ybtm tmr mrnd sk o vrq; tmr "zxbtu" aoq pr ubxfnr nrttrgu (tmr asut isaasx), dobgu sk nrttrgu, tgbdnrtu sk nrttrgu, abetzgru sk tmr opswr, oxl us ksgtm. tmr grirbwrg lribdmrgu tmr tret pq drgksgabxf tmr bxwrgur uzputbtztbsx dgsiruu ts retgoit tmr sgbfbxon aruuofr. nbvrybur, joiczru czbivnq hbddrl tmgszfm o czrutbsx sx hrgs-vxsynrlfr dgssku, rxuzgbxf xs igbtbion nrttrg you nrkt szt sk szg igqdtsfgodmbi dzhhnr.knof{m9fcz1ux}
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{h9gqu1sn}
+ciphertext: bx igqdtsfgodmq, o uzputbtztbsx ibdmrg bu o artmsl sk rxigqdtbxf bx ymbim zxbtu sk dnobxtret ogr grdnoirl ybtm tmr ibdmrgtret, bx o lrkbxrl aoxxrg, ybtm tmr mrnd sk o vrq; tmr "zxbtu" aoq pr ubxfnr nrttrgu (tmr asut isaasx), dobgu sk nrttrgu, tgbdnrtu sk nrttrgu, abetzgru sk tmr opswr, oxl us ksgtm. tmr grirbwrg lribdmrgu tmr tret pq drgksgabxf tmr bxwrgur uzputbtztbsx dgsiruu ts retgoit tmr sgbfbxon aruuofr. nbvrybur, joiczru czbivnq hbddrl tmgszfm o czrutbsx sx hrgs-vxsynrlfr dgssku, rxuzgbxf xs igbtbion nrttrg you nrkt szt sk szg igqdtsfgodmbi dzhhnr.knof{m9fcz1ux}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'o', 'b': 'p', 'c': 'i', 'd': 'l', 'e': 'r', 'f': 'k', 'g': 'f', 'h': 'm', 'i': 'b', 'j': 'j', 'k': 'v', 'l': 'n', 'm': 'a', 'n': 'x', 'o': 's', 'p': 'd', 'q': 'c', 'r': 'g', 's': 'u', 't': 't', 'u': 'z', 'v': 'w', 'w': 'y', 'x': 'e', 'y': 'q', 'z': 'h'}
+subtype: substitution
+archetype: classical_cipher

@@ -1,0 +1,23 @@
+
+Someone switched the letters of a secret message about the treasure's location. Can you decode the substitution cipher? Here is the encrypted clue: yceq{d6z1ow8c}
+
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'e', 'b': 'v', 'c': 'g', 'd': 'n', 'e': 'u', 'f': 'y', 'g': 'q', 'h': 's', 'i': 'o', 'j': 'a', 'k': 't', 'l': 'c', 'm': 'f', 'n': 'k', 'o': 'z', 'p': 'x', 'q': 'w', 'r': 'h', 's': 'i', 't': 'p', 'u': 'l', 'v': 'd', 'w': 'r', 'x': 'b', 'y': 'j', 'z': 'm'}
+
+---
+
+## Challenge Technical Details
+flag: flag{v6o1iq8l}
+cipher: Substitution
+ciphertext: yceq{d6z1ow8c}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'e', 'b': 'v', 'c': 'g', 'd': 'n', 'e': 'u', 'f': 'y', 'g': 'q', 'h': 's', 'i': 'o', 'j': 'a', 'k': 't', 'l': 'c', 'm': 'f', 'n': 'k', 'o': 'z', 'p': 'x', 'q': 'w', 'r': 'h', 's': 'i', 't': 'p', 'u': 'l', 'v': 'd', 'w': 'r', 'x': 'b', 'y': 'j', 'z': 'm'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

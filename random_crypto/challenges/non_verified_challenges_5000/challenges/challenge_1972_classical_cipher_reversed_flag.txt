@@ -1,0 +1,15 @@
+A hacker flipped a secret message before leaking it online. Can you restore it to read the flag? Here's the ciphertext: }ld7bua5l{galf
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{l5aub7dl}
+ciphertext: }ld7bua5l{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

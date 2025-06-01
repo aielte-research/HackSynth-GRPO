@@ -1,0 +1,15 @@
+An encrypted disk sector was intercepted. Only the right key and tweak will decrypt ciphertext1:2e39d07df3a952624041d4f24bedccef, ciphertext2: 5c46d4ebad8da233a4bcccfd35525e68e790b6c8456534552ee6f595b98d6cdb, which hides the flag. Can you recover it using your AES-XTS skills?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{xboww9mp}
+ciphertext: ciphertext1:2e39d07df3a952624041d4f24bedccef, ciphertext2: 5c46d4ebad8da233a4bcccfd35525e68e790b6c8456534552ee6f595b98d6cdb
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 18aabd557f935b60b280e5de81258188
+subtype: aes_xts
+archetype: aes

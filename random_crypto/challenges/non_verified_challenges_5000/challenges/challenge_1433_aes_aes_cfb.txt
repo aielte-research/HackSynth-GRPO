@@ -1,0 +1,17 @@
+An agent encrypted coordinates using AES-CFB. The only clue left behind is this ciphertext: bf81563cda2d24f9c95cd9a38b9ddc36e44f6c41eaa701af3c762cee4f13ce8f7183d2777699cc06739ae1297e08d8b77112da770c6bf3f5655ac16218ebfc72aeeda608691fa069c0786c34937080ba161680f029dafac5e6cba9b21cd26809b52abbecb94dabbf8c18c8634542c51b45ae084f59fd66ee2494311f579cff259363d31ce7213ee1a2ef2e506831b3c45ecbbaf09182f232746cc576631168d3f0730ba5f587d137e88c00e5636518f4e0. Can you recover the location?
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{wtsnu4x4}
+ciphertext: bf81563cda2d24f9c95cd9a38b9ddc36e44f6c41eaa701af3c762cee4f13ce8f7183d2777699cc06739ae1297e08d8b77112da770c6bf3f5655ac16218ebfc72aeeda608691fa069c0786c34937080ba161680f029dafac5e6cba9b21cd26809b52abbecb94dabbf8c18c8634542c51b45ae084f59fd66ee2494311f579cff259363d31ce7213ee1a2ef2e506831b3c45ecbbaf09182f232746cc576631168d3f0730ba5f587d137e88c00e5636518f4e0
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: 3f3e05d11eb2ec1b129f34f2ba8a4768
+subtype: aes_cfb
+archetype: aes

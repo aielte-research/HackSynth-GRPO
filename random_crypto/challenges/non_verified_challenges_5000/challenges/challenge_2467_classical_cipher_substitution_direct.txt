@@ -1,0 +1,21 @@
+A secret agent encoded the vault code using a simple letter swap. Can you decipher sdbu{qctvz03h} to open the vault?
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'b', 'b': 'z', 'c': 'k', 'd': 'x', 'e': 'r', 'f': 's', 'g': 'u', 'h': 't', 'i': 'h', 'j': 'a', 'k': 'j', 'l': 'd', 'm': 'w', 'n': 'p', 'o': 'y', 'p': 'l', 'q': 'c', 'r': 'e', 's': 'q', 't': 'f', 'u': 'i', 'v': 'o', 'w': 'g', 'x': 'n', 'y': 'm', 'z': 'v'}
+
+---
+
+## Challenge Technical Details
+flag: flag{sqhzb03i}
+cipher: Substitution
+ciphertext: sdbu{qctvz03h}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'b', 'b': 'z', 'c': 'k', 'd': 'x', 'e': 'r', 'f': 's', 'g': 'u', 'h': 't', 'i': 'h', 'j': 'a', 'k': 'j', 'l': 'd', 'm': 'w', 'n': 'p', 'o': 'y', 'p': 'l', 'q': 'c', 'r': 'e', 's': 'q', 't': 'f', 'u': 'i', 'v': 'o', 'w': 'g', 'x': 'n', 'y': 'm', 'z': 'v'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

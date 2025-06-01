@@ -1,0 +1,18 @@
+An agent secured their secrets using AES encryption. Can you recover the original message hidden within this mysterious ciphertext? ciphertext1:e38c7ce15a36e7c72bc1bbc5469c, ciphertext2: e38c7ce15a3ca3d326dbbc991c9c
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{p2rxrclb}
+ciphertext: ciphertext1:e38c7ce15a36e7c72bc1bbc5469c, ciphertext2: e38c7ce15a3ca3d326dbbc991c9c
+tag1: 119294e0906245858b16c40edb94848c
+tag2: 3ccd410a8a95a7cafe9c880814ff3ddc
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 42a262422bff27c521dc28
+subtype: aes_ccm
+archetype: aes

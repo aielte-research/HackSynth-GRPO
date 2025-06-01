@@ -1,0 +1,20 @@
+
+An intern chose weak, small primes to quickly encrypt the secret: 248220069895511175. Recover the message using RSA's vulnerability.
+
+
+The flag format is flag{...}
+n=7609231360458816527, e=7578744962673640313
+
+---
+
+## Challenge Technical Details
+flag: flag{dxp4xsxc}
+cipher: RSA
+ciphertext: 248220069895511175
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=7609231360458816527, e=7578744962673640313
+extra_info: p=2731165847, q=2786074441, φ(n)=7609231354941576240
+subtype: small_primes
+archetype: rsa

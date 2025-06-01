@@ -1,0 +1,17 @@
+An encrypted message, stolen from a hacker, hides a password in its CFB-segmented bytes. Can you unlock the secret from this AES transmission? 4fc569e774b3aceddd3f57e9888daafe8ca997090aa75f70a6e2d1cd3a49664906720d13d1d8e6ff207e649d8edbd38a08b842616eb8470c81c3b3e28d372dfd425a28ac61e3784b09aa7fe4c91d944e463b1b7d94a8374664159338c00d6d1d373ecb899be5fc5fd72c1246632a4fc7759852e9577ddf18fe76eb9bc0a177ffef840d33d1ab18b2c7c7d39b6b42476851034d51fe17de45531dac631ea0bf37acac59627f1ff6b18f9a196f47750e15f3
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{cvtc4onu}
+ciphertext: 4fc569e774b3aceddd3f57e9888daafe8ca997090aa75f70a6e2d1cd3a49664906720d13d1d8e6ff207e649d8edbd38a08b842616eb8470c81c3b3e28d372dfd425a28ac61e3784b09aa7fe4c91d944e463b1b7d94a8374664159338c00d6d1d373ecb899be5fc5fd72c1246632a4fc7759852e9577ddf18fe76eb9bc0a177ffef840d33d1ab18b2c7c7d39b6b42476851034d51fe17de45531dac631ea0bf37acac59627f1ff6b18f9a196f47750e15f3
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: a4783876e72a1611f3205c5b5599122a
+subtype: aes_cfb
+archetype: aes

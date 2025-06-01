@@ -1,0 +1,19 @@
+Track the hacker who encrypted the flag with a weak PRNG. Analyze their ciphertext: 666c61c47b74339562716ac2357d
+
+The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [243, 133, 378, 485, 67, 13, 480, 265, 239, 196, 481, 487, 406, 154, 237, 155, 535, 399, 15, 65]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 552)
+
+---
+
+## Challenge Technical Details
+flag: flag{t36bqja5}
+ciphertext: 666c61c47b74339562716ac2357d
+cipher: Low-entropy PRNG
+hint: The PRNG seed space is small. You can try brute-forcing all possible seeds to reconstruct the sequence.
+necessary_info: The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [243, 133, 378, 485, 67, 13, 480, 265, 239, 196, 481, 487, 406, 154, 237, 155, 535, 399, 15, 65]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 552)
+extra_info: Since the seed has only 256 possible values, it can be brute-forced to recover the secret number and decrypt the flag.
+subtype: low_entropy_generator
+archetype: prng

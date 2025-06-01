@@ -1,0 +1,21 @@
+
+An intern hashed passwords with SHA-256, but reused a weak random salt. Can you reverse their mistake and recover the original from this hash: 417676658b5852022051afa142076d5a447c12ac8b21aaea321e3c457bbe66eb?
+
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{8cd}
+ciphertext: 417676658b5852022051afa142076d5a447c12ac8b21aaea321e3c457bbe66eb
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

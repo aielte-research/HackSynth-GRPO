@@ -1,0 +1,19 @@
+A hacker left behind an encrypted message in a hurry, using a simple LFSR stream cipher. Can you break the weakness and recover the secret from df9cd897c295d485d1c7c1c5d68d?
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[49354, 57445, 61490, 63513, 31756, 15878, 40707, 53121, 59328, 29664]
+
+---
+
+## Challenge Technical Details
+flag: flag{emuh7x5o}
+ciphertext: df9cd897c295d485d1c7c1c5d68d
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[49354, 57445, 61490, 63513, 31756, 15878, 40707, 53121, 59328, 29664]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

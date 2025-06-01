@@ -1,0 +1,15 @@
+A mysterious message, said to reveal the location of hidden coins, was found etched onto an old Roman coin: yetz{ipe8kq35}. Can you crack its ancient code?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{pwl8rx35}
+ciphertext: yetz{ipe8kq35}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 19
+subtype: caesar
+archetype: classical_cipher

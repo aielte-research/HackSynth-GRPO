@@ -1,0 +1,19 @@
+
+An old journal hints at a lost fortune. Decode the Playfair-encrypted clue below to continue your quest: wgdqmvrkdgxnpxkbwlxlmvrkdgynosvtbqtxkbgzzyludqmvrkdgxnpxkbxfzetgzcvmesptqawtpdvsnxxqxgluyauicfosvbcvtbzykbgkynrmgxvyvmipftgtnceuxgwzxgludpoivylrgmzlfwpc
+
+
+The flag format is flag{...}
+The keyword is: nnzucszv
+
+---
+
+## Challenge Technical Details
+flag: flag{7nmh3r4j}
+ciphertext: wgdqmvrkdgxnpxkbwlxlmvrkdgynosvtbqtxkbgzzyludqmvrkdgxnpxkbxfzetgzcvmesptqawtpdvsnxxqxgluyauicfosvbcvtbzykbgkynrmgxvyvmipftgtnceuxgwzxgludpoivylrgmzlfwpc
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: nnzucszv
+extra_info: The playfair table is [['n', 'z', 'u', 'c', 's'], ['v', 'a', 'b', 'd', 'e'], ['f', 'g', 'h', 'i', 'k'], ['l', 'm', 'o', 'p', 'q'], ['r', 't', 'w', 'x', 'y']]
+subtype: playfair
+archetype: classical_cipher

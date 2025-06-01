@@ -1,0 +1,15 @@
+A hacker posted a secret Base85-encoded clue on a forum. Decode the message: Q8+7fbYyZsPf15ALm_fVLM1IeN?KPfc2Fd5cur9!L`f=QdT(<zS~xKzUSo1{LugbnFlaDjdofZfS|clZSYmu=XFW=DeoO
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{eytdvppk}
+cipher: Base85
+ciphertext: Q8+7fbYyZsPf15ALm_fVLM1IeN?KPfc2Fd5cur9!L`f=QdT(<zS~xKzUSo1{LugbnFlaDjdofZfS|clZSYmu=XFW=DeoO
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 8 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

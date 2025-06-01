@@ -1,0 +1,18 @@
+Bob used RSA but picked tiny primes for quick key generation. Can you recover the secret message? Ciphertext: 6485952779970883396
+
+The flag format is flag{...}
+n=10521208169725965121, e=9877705641772961609
+
+---
+
+## Challenge Technical Details
+flag: flag{csnwew0v}
+cipher: RSA
+ciphertext: 6485952779970883396
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=10521208169725965121, e=9877705641772961609
+extra_info: p=3872603923, q=2716830427, φ(n)=10521208163136530772
+subtype: small_primes
+archetype: rsa

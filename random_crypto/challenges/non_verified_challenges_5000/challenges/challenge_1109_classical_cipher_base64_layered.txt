@@ -1,0 +1,15 @@
+Agent Nova left a secret in a message. Decode Vm0wd2QyVkhVWGhVYmxKV1YwZDRXRmxVUm5kVlJscHpXa2M1VjFKdGVGWlZNbmhQWVd4S2MxTnNXbGRTTTFKUVdWY3hTMUl4WkhGU2JIQk9VbTVDZVZkV1pEUlRNbEpYVW01T2FWSnVRbk5aV0hCWFpWWmtWMVZyU214U2JWSklWbTAxVjJGV1NuUlZiR2hoVmpOU1IxcFZXbUZqYkZaeVdrWlNhVlpyV1hwV1IzaGhXVmRHYzFOdVRsaGlSMmhZV1d4b1UxbFdjRmhsUjBaWFlrZFNlVll5ZUVOV01rVjNZMFpTVjFaV2NGTmFSRVpEVld4Q1ZVMUVNRDA9 to reveal the password she hid using her favorite Base64 technique.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{go34d8xp}
+cipher: Base64
+ciphertext: Vm0wd2QyVkhVWGhVYmxKV1YwZDRXRmxVUm5kVlJscHpXa2M1VjFKdGVGWlZNbmhQWVd4S2MxTnNXbGRTTTFKUVdWY3hTMUl4WkhGU2JIQk9VbTVDZVZkV1pEUlRNbEpYVW01T2FWSnVRbk5aV0hCWFpWWmtWMVZyU214U2JWSklWbTAxVjJGV1NuUlZiR2hoVmpOU1IxcFZXbUZqYkZaeVdrWlNhVlpyV1hwV1IzaGhXVmRHYzFOdVRsaGlSMmhZV1d4b1UxbFdjRmhsUjBaWFlrZFNlVll5ZUVOV01rVjNZMFpTVjFaV2NGTmFSRVpEVld4Q1ZVMUVNRDA9
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 10 times in total.
+subtype: base64_layered
+archetype: classical_cipher

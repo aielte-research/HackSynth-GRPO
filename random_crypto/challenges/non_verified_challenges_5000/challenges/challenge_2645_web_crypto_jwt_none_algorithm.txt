@@ -1,0 +1,11 @@
+Intercepted during a covert exchange, this JWT token—eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3t0bHp6MzJ6Zn0ifQ.—might hold the key to an underground wallet. Can you reveal its hidden secrets?
+
+---
+
+## Challenge Technical Details
+flag: flag{tlzz32zf}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3t0bHp6MzJ6Zn0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

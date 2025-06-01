@@ -1,0 +1,24 @@
+An anonymous hacker hid a secret flag by hashing it with SHA-256. Can you recover the original flag given its hash? Here it is: 42fe4973d8007396091493b57ea32065e0ddae26ca6a7cb3b8e78c33ba0da107
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{82j1}
+ciphertext: 42fe4973d8007396091493b57ea32065e0ddae26ca6a7cb3b8e78c33ba0da107
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

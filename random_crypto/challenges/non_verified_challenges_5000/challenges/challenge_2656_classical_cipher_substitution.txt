@@ -1,0 +1,15 @@
+A secret agent has intercepted a message from a rival group. Decode the Substitution cipher below to reveal their next move: oe vqywpklqfwxy, f dcsdpopcpoke vowxzq od f hzpxkt kn zevqywpoel oe jxovx ceopd kn wmfoepzgp fqz qzwmfvzt jopx pxz vowxzqpzgp, oe f tznoezt hfeezq, jopx pxz xzmw kn f bzy; pxz "ceopd" hfy sz doelmz mzppzqd (pxz hkdp vkhhke), wfoqd kn mzppzqd, pqowmzpd kn mzppzqd, hogpcqzd kn pxz fskiz, fet dk nkqpx. pxz qzvzoizq tzvowxzqd pxz pzgp sy wzqnkqhoel pxz oeizqdz dcsdpopcpoke wqkvzdd pk zgpqfvp pxz kqoloefm hzddflz. mobzjodz, rfvaczd acovbmy uowwzt pxqkclx f aczdpoke ke uzqk-bekjmztlz wqkknd, zedcqoel ek vqopovfm mzppzq jfd mznp kcp kn kcq vqywpklqfwxov wcuumz.nmfl{hnjn7hm2}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{mfwf7ml2}
+ciphertext: oe vqywpklqfwxy, f dcsdpopcpoke vowxzq od f hzpxkt kn zevqywpoel oe jxovx ceopd kn wmfoepzgp fqz qzwmfvzt jopx pxz vowxzqpzgp, oe f tznoezt hfeezq, jopx pxz xzmw kn f bzy; pxz "ceopd" hfy sz doelmz mzppzqd (pxz hkdp vkhhke), wfoqd kn mzppzqd, pqowmzpd kn mzppzqd, hogpcqzd kn pxz fskiz, fet dk nkqpx. pxz qzvzoizq tzvowxzqd pxz pzgp sy wzqnkqhoel pxz oeizqdz dcsdpopcpoke wqkvzdd pk zgpqfvp pxz kqoloefm hzddflz. mobzjodz, rfvaczd acovbmy uowwzt pxqkclx f aczdpoke ke uzqk-bekjmztlz wqkknd, zedcqoel ek vqopovfm mzppzq jfd mznp kcp kn kcq vqywpklqfwxov wcuumz.nmfl{hnjn7hm2}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'f', 'b': 's', 'c': 'v', 'd': 't', 'e': 'z', 'f': 'n', 'g': 'l', 'h': 'x', 'i': 'o', 'j': 'r', 'k': 'b', 'l': 'm', 'm': 'h', 'n': 'e', 'o': 'k', 'p': 'w', 'q': 'a', 'r': 'q', 's': 'd', 't': 'p', 'u': 'c', 'v': 'i', 'w': 'j', 'x': 'g', 'y': 'y', 'z': 'u'}
+subtype: substitution
+archetype: classical_cipher

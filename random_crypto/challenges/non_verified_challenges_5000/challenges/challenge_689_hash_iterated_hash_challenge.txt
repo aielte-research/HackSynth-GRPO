@@ -1,0 +1,24 @@
+Decode the secret phrase hidden by a rogue agent using SHA-256. The hash is: 3e2ce00a8fcde82563b9932754b85aaf8ab6033ebcff23a5c7bd75d8608711d8. Can you uncover the original message?
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{or5q}
+ciphertext: 3e2ce00a8fcde82563b9932754b85aaf8ab6033ebcff23a5c7bd75d8608711d8
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

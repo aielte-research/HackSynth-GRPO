@@ -1,0 +1,21 @@
+
+An intern generated RSA keys using tiny primes. Their encrypted admin password is: 4697629007853243050
+Can you recover it and teach them a lesson?
+
+
+The flag format is flag{...}
+n=6775096103762196557, e=4726455655301615237
+
+---
+
+## Challenge Technical Details
+flag: flag{55yrc0ma}
+cipher: RSA
+ciphertext: 4697629007853243050
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=6775096103762196557, e=4726455655301615237
+extra_info: p=2270270239, q=2984268563, φ(n)=6775096098507657756
+subtype: small_primes
+archetype: rsa

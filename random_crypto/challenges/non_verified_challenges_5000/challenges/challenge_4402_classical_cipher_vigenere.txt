@@ -1,0 +1,16 @@
+A forgotten diary holds a secret phrase. An encrypted line awaits: asfa{8zoupgkx}. Can you reveal the hidden message using the right keyword?
+
+The flag format is flag{...}
+The keyword is: vhfuwtlx
+
+---
+
+## Challenge Technical Details
+flag: flag{8dvjslds}
+ciphertext: asfa{8zoupgkx}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: vhfuwtlx
+subtype: vigenere
+archetype: classical_cipher

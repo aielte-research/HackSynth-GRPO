@@ -1,0 +1,14 @@
+
+An intern deployed a login demo, but used the Insecure Session Token cipher for session cookies. Can you recover the admin session from this ciphertext? 757365725f676c69673a666c61677b7277366536726e777d3a31373438313637313933
+
+
+---
+
+## Challenge Technical Details
+flag: flag{rw6e6rnw}
+ciphertext: 757365725f676c69673a666c61677b7277366536726e777d3a31373438313637313933
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_glig:flag{rw6e6rnw}:1748167193'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

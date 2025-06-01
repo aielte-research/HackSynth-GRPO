@@ -1,0 +1,19 @@
+Intercepted at midnight, this message's key changed with time. Can you break the 666c73f87b6662e8373274a6617d using only the clue that the PRNG seed matches the Unix timestamp?
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 52398)
+The system time when the encryption process started was around: 2025-05-25 11:31:04 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{fpw72f9a}
+ciphertext: 666c73f87b6662e8373274a6617d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 52398)
+The system time when the encryption process started was around: 2025-05-25 11:31:04 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 4767.
+subtype: time_based_seed
+archetype: prng

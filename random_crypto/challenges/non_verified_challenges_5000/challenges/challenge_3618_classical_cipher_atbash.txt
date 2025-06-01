@@ -1,0 +1,14 @@
+An ancient scroll encodes the true heir's name using the alphabet's mirror image. Decipher uozt{y7ezzpc9} to reveal the long-lost secret.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{b7vaakx9}
+cipher: Atbash
+ciphertext: uozt{y7ezzpc9}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

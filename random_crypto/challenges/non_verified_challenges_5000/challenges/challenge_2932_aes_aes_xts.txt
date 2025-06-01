@@ -1,0 +1,15 @@
+An encrypted hard drive crashed. Salvaged data includes a crucial sector, protected with AES-XTS. Recover the original file from the ciphertext: ciphertext1:f955acea3083b60431d48c3915a9ac5a, ciphertext2: 7db51d61e1590d149f7c8212944704731f6b20cf311dd9947ac16fba1049f86a
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{qsyqdt8a}
+ciphertext: ciphertext1:f955acea3083b60431d48c3915a9ac5a, ciphertext2: 7db51d61e1590d149f7c8212944704731f6b20cf311dd9947ac16fba1049f86a
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 8cc640bfd649f0bc2fce5000ae08188e
+subtype: aes_xts
+archetype: aes

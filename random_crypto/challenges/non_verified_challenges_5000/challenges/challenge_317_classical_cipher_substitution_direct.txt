@@ -1,0 +1,24 @@
+
+A secret society left the next clue encoded with a simple substitution cipher. Can you uncover their hidden message?
+rfnh{kz2tdol3}
+
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'n', 'b': 'l', 'c': 'x', 'd': 'i', 'e': 'b', 'f': 'r', 'g': 'h', 'h': 'm', 'i': 'y', 'j': 's', 'k': 'p', 'l': 'f', 'm': 'j', 'n': 'u', 'o': 'e', 'p': 'k', 'q': 'o', 'r': 'z', 's': 'c', 't': 'q', 'u': 't', 'v': 'd', 'w': 'v', 'x': 'w', 'y': 'a', 'z': 'g'}
+
+---
+
+## Challenge Technical Details
+flag: flag{pr2uvqb3}
+cipher: Substitution
+ciphertext: rfnh{kz2tdol3}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'n', 'b': 'l', 'c': 'x', 'd': 'i', 'e': 'b', 'f': 'r', 'g': 'h', 'h': 'm', 'i': 'y', 'j': 's', 'k': 'p', 'l': 'f', 'm': 'j', 'n': 'u', 'o': 'e', 'p': 'k', 'q': 'o', 'r': 'z', 's': 'c', 't': 'q', 'u': 't', 'v': 'd', 'w': 'v', 'x': 'w', 'y': 'a', 'z': 'g'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

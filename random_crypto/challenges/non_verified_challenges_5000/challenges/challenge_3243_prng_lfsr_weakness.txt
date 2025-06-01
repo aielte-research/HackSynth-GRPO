@@ -1,0 +1,19 @@
+A hacker used a flawed stream cipher to send a secret plan. Only the 1f06180d021b1059411d11031e17 message remains, and it's up to you to uncover the weakness and recover the plaintext.
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[43800, 54668, 27334, 46435, 23217, 11608, 38572, 52054, 58795, 62165]
+
+---
+
+## Challenge Technical Details
+flag: flag{qi38whig}
+ciphertext: 1f06180d021b1059411d11031e17
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[43800, 54668, 27334, 46435, 23217, 11608, 38572, 52054, 58795, 62165]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

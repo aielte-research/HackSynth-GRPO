@@ -1,0 +1,29 @@
+
+The vault’s code was encrypted using a predictable LCG-based method. If you can break its sequence, the secret inside is yours: 5b234f3e4636483e5f22173f4732
+
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1189044831
+  - Multiplier: 970795349
+  - Increment: 915204198
+The first 5 outputs of the LCG are provided: [14431864, 536973482, 227909263, 495843725, 688824850] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{yfgbm9fz}
+ciphertext: 5b234f3e4636483e5f22173f4732
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1189044831
+  - Multiplier: 970795349
+  - Increment: 915204198
+The first 5 outputs of the LCG are provided: [14431864, 536973482, 227909263, 495843725, 688824850] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

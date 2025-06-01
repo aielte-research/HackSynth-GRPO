@@ -1,0 +1,16 @@
+Intercept the vault message: it's encrypted with AES-ECB, using a short password padded with null bytes. Can you decipher 5fcfb68c08ea353756b6f86d59ffedb9 and access the loot?
+
+An encryption key that is only 2 bytes long?.
+
+---
+
+## Challenge Technical Details
+flag: flag{lz1oqwit}
+ciphertext: 5fcfb68c08ea353756b6f86d59ffedb9
+cipher: AES-ECB
+vulnerability: small key padded with null bytes
+hint: ECB mode with a short key makes brute-forcing possible. Consider the small key entropy.
+necessary_info: An encryption key that is only 2 bytes long?.
+extra_info: Padding follows PKCS#7. The key is padded to 16 bytes with null bytes.
+subtype: weak_cookie_encryption
+archetype: web_crypto

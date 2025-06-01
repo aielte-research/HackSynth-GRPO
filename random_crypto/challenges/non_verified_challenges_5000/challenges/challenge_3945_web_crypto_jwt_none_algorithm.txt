@@ -1,0 +1,11 @@
+Intercepted JWTs protect access to the vault. Can you decipher eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3s0enJpZDVsb30ifQ. and reveal the hidden admin secret?
+
+---
+
+## Challenge Technical Details
+flag: flag{4zrid5lo}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3s0enJpZDVsb30ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

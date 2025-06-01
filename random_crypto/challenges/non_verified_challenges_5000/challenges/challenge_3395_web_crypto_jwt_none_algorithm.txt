@@ -1,0 +1,11 @@
+An insider left a JWT token among the logs. Can you extract the hidden secret from its contents? Here's the token: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tmb2R4ejFuZX0ifQ.
+
+---
+
+## Challenge Technical Details
+flag: flag{fodxz1ne}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tmb2R4ejFuZX0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

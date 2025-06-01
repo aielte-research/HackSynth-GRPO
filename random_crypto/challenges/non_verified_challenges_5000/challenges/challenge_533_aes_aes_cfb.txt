@@ -1,0 +1,19 @@
+
+Intercepted at midnight: a secret message encrypted with AES-CFB. Can you recover its meaning from the ciphertext below? 900719957a100efea7359a9a49435b746e8a7c33cc6cbf0aeb1d8c96c1c16f841a4a31fd52670627ed0e1ffd9bcbe40bdc6c06182d87d5757892e22cbb367fa43e055394838354306657895da53c816a1e0502c47ad197e492325a40c8b0f81fb79f95c192623efed5a5f9e7ac2a7e69556398b157cd5aeb7e8c98712a0ce01e2b1088f767564c0238cc4ef04f11dce675bb15d056b4e265f6c1a3a5c09afcfbc2c0283c04b098f0ac0dea8dc3e6acbff0
+
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{8twpvhk7}
+ciphertext: 900719957a100efea7359a9a49435b746e8a7c33cc6cbf0aeb1d8c96c1c16f841a4a31fd52670627ed0e1ffd9bcbe40bdc6c06182d87d5757892e22cbb367fa43e055394838354306657895da53c816a1e0502c47ad197e492325a40c8b0f81fb79f95c192623efed5a5f9e7ac2a7e69556398b157cd5aeb7e8c98712a0ce01e2b1088f767564c0238cc4ef04f11dce675bb15d056b4e265f6c1a3a5c09afcfbc2c0283c04b098f0ac0dea8dc3e6acbff0
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: 6b74061a7c3654113179c44dfbae74ac
+subtype: aes_cfb
+archetype: aes

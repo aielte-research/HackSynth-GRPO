@@ -1,0 +1,15 @@
+The hacker left a secret message encrypted with MD5. Rumor says it's vulnerable to a known MD5 reversing weakness. Can you recover the original message from 62679749cdbf763b404c02fab12a8207?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{TEEKU}
+ciphertext: 62679749cdbf763b404c02fab12a8207
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

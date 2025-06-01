@@ -1,0 +1,20 @@
+
+Intercepted transmission! Agent Lila encrypted a top-secret file using AES. Can you recover the original message from this ciphertext: ciphertext1:7bcb6b00337aca9676170ee41edb, ciphertext2: 7bcb6b003336d692360c0fbb19db?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{tj7tnuna}
+ciphertext: ciphertext1:7bcb6b00337aca9676170ee41edb, ciphertext2: 7bcb6b003336d692360c0fbb19db
+tag1: 03f7d46ec2741dd82a4a92c7d11d4ccf
+tag2: 2f48e0cafd92c16a4bfa3470638f1503
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: cd3c1af3e437ad3ace9b7f
+subtype: aes_ccm
+archetype: aes

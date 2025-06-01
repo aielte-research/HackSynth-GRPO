@@ -1,0 +1,15 @@
+An agent’s secret meeting time was encoded using a zigzag pattern to avoid interception. Can you decipher the message, fa{f5cilg9b8k}, and reveal the time?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{9fb58cki}
+ciphertext: fa{f5cilg9b8k}
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 2
+subtype: rail_fence
+archetype: classical_cipher

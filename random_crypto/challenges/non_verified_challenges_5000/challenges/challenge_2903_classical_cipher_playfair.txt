@@ -1,0 +1,19 @@
+
+Intercepted in a spy’s notebook, yihmhduhchqdhqifmpmqhduhchmzotdpfmpzifcyxkvfhmhduhchqdhqifqlwbpbfndhwkqssmgqqifbdqawcqvfkiaicfothbabyhxkifhlmzgiqclmdhcldzbpvkekcqgycqvfiqwplmhedygpmsbf is the coded key to their safehouse. Rumors point to “Playfair” as the method. Can you break the message?
+
+
+The flag format is flag{...}
+The keyword is: kuytgbnb
+
+---
+
+## Challenge Technical Details
+flag: flag{yre2mn5e}
+ciphertext: yihmhduhchqdhqifmpmqhduhchmzotdpfmpzifcyxkvfhmhduhchqdhqifqlwbpbfndhwkqssmgqqifbdqawcqvfkiaicfothbabyhxkifhlmzgiqclmdhcldzbpvkekcqgycqvfiqwplmhedygpmsbf
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: kuytgbnb
+extra_info: The playfair table is [['k', 'u', 'y', 't', 'g'], ['b', 'n', 'a', 'c', 'd'], ['e', 'f', 'h', 'i', 'l'], ['m', 'o', 'p', 'q', 'r'], ['s', 'v', 'w', 'x', 'z']]
+subtype: playfair
+archetype: classical_cipher

@@ -1,0 +1,17 @@
+An old diary reveals a Playfair-encrypted message leading to hidden treasure. Can you uncover its secret? Ciphertext: bdcvntvhgaztysfbxlzsntvhgastmztwbmuxfbbetdqocvntvhgaztysfbwsitnemwtnvpouufdspaamtzpsasqoeabkwamzablgigtdfbgvstdrsatutngsdwenvrtyaserasqoapyktudmgnpayomvke
+
+The flag format is flag{...}
+The keyword is: svivypte
+
+---
+
+## Challenge Technical Details
+flag: flag{icxhfufc}
+ciphertext: bdcvntvhgaztysfbxlzsntvhgastmztwbmuxfbbetdqocvntvhgaztysfbwsitnemwtnvpouufdspaamtzpsasqoeabkwamzablgigtdfbgvstdrsatutngsdwenvrtyaserasqoapyktudmgnpayomvke
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: svivypte
+extra_info: The playfair table is [['s', 'v', 'i', 'y', 'p'], ['t', 'e', 'a', 'b', 'c'], ['d', 'f', 'g', 'h', 'k'], ['l', 'm', 'n', 'o', 'q'], ['r', 'u', 'w', 'x', 'z']]
+subtype: playfair
+archetype: classical_cipher

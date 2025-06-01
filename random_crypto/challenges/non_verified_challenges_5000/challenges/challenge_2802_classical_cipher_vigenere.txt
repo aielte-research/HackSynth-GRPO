@@ -1,0 +1,16 @@
+An old hacker left a Vigenère-encrypted note in the blockchain. Can you decipher yyyx{y9vraf5y} and reveal the hidden private key?
+
+The flag format is flag{...}
+The keyword is: tnyr
+
+---
+
+## Challenge Technical Details
+flag: flag{f9itjm5l}
+ciphertext: yyyx{y9vraf5y}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: tnyr
+subtype: vigenere
+archetype: classical_cipher

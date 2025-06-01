@@ -1,0 +1,29 @@
+
+The casino encrypts its secret jackpot code every hour using an "unbreakable" LCG-based scheme. Can you outsmart the RNG and reveal the fortune hidden in 4cb9b02751a2e42b4bb2b0314fa8?
+
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 914723845
+  - Multiplier: 36540185
+  - Increment: 658185623
+The first 5 outputs of the LCG are provided: [901556228, 68914168, 236193118, 664509913, 619177568] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{w5kagaqe}
+ciphertext: 4cb9b02751a2e42b4bb2b0314fa8
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 914723845
+  - Multiplier: 36540185
+  - Increment: 658185623
+The first 5 outputs of the LCG are provided: [901556228, 68914168, 236193118, 664509913, 619177568] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

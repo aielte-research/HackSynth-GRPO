@@ -1,0 +1,15 @@
+An old server stored a forgotten admin secret, protected only by the weak MD5 cipher. Recover the plaintext hidden behind this vulnerable hash: 585cf24d506b086591353e96e6946f08
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{TAXMA}
+ciphertext: 585cf24d506b086591353e96e6946f08
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

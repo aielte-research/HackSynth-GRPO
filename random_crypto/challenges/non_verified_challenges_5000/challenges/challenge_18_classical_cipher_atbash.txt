@@ -1,0 +1,14 @@
+An archaeologist found an encrypted scroll from an ancient order. Decipher uozt{t5khu52i} to reveal the secret message hidden by their simplest code.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{g5psf52r}
+cipher: Atbash
+ciphertext: uozt{t5khu52i}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

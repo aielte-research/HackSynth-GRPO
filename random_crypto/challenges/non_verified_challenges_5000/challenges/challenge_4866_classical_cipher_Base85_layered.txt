@@ -1,0 +1,15 @@
+Intercepted data from a hacker uses an obscure Base85 cipher. Decode the secret to reveal their next target: Q8+6$C09T(Kr2)>FllT?Dp5>4T0>tyaZhPwOiNd6Y-Ax&En-MNP$(v4L}55jRw+y~LufNcDn2DCSWI_kK2jx1J6TXeBSn5wdOTHFQDS3eGDs>%UQl6GUN$^UO;1vMOfw}@URP{vRd7u{Q!O%Deg
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{11j5ud8s}
+cipher: Base85
+ciphertext: Q8+6$C09T(Kr2)>FllT?Dp5>4T0>tyaZhPwOiNd6Y-Ax&En-MNP$(v4L}55jRw+y~LufNcDn2DCSWI_kK2jx1J6TXeBSn5wdOTHFQDS3eGDs>%UQl6GUN$^UO;1vMOfw}@URP{vRd7u{Q!O%Deg
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 10 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

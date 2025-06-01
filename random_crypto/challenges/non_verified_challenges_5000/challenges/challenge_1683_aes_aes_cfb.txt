@@ -1,0 +1,17 @@
+An agent hid vital data using AES-CFB mode. Only 5f2c7047ee62f14bde14c41dedeedd81e8200dc7b4b2a1bf042fcd1dc2eb99913824fd14a3a44e5530af74a3b3ad03a713eed6471d40079192ffd3fc2c51ea1e7b451c158792a696ffae55caea02282d9d0af5e879b4e74cfe1b5eaa816abf71bddec18957991a4abdb8482404c084bf0703eeeb879cc86f148d0c22b044b13e547b647d38da6e172741228871122ed6184cda1a58d9f03d2da699c8f605ca6e587e5a3fd21e4f6483402ded32f9708c9d remains, and the key is lost. Can you decrypt their secret?
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{8u7qoini}
+ciphertext: 5f2c7047ee62f14bde14c41dedeedd81e8200dc7b4b2a1bf042fcd1dc2eb99913824fd14a3a44e5530af74a3b3ad03a713eed6471d40079192ffd3fc2c51ea1e7b451c158792a696ffae55caea02282d9d0af5e879b4e74cfe1b5eaa816abf71bddec18957991a4abdb8482404c084bf0703eeeb879cc86f148d0c22b044b13e547b647d38da6e172741228871122ed6184cda1a58d9f03d2da699c8f605ca6e587e5a3fd21e4f6483402ded32f9708c9d
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: dee9e1164ae6a9e4badf00aa4aab8330
+subtype: aes_cfb
+archetype: aes

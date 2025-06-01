@@ -1,0 +1,18 @@
+A mysterious hacker left an encrypted message, stating that only those who understand AES can reveal the secret. Can you decrypt this cryptic note? ciphertext1:5cc97751a2ed8c3bb527be0541ca, ciphertext2: 5cc97751a2eadc3cab32b60412ca
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{75ewrp7e}
+ciphertext: ciphertext1:5cc97751a2ed8c3bb527be0541ca, ciphertext2: 5cc97751a2eadc3cab32b60412ca
+tag1: 36ff8786f2113a1c7db7b8fa2323bc50
+tag2: 03c16eb2a01202e313b91de0847c13ff
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 5600f48830c4edc790c46b
+subtype: aes_ccm
+archetype: aes

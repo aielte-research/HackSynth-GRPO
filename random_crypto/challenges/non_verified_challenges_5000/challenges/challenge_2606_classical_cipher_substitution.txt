@@ -1,0 +1,15 @@
+An artifact contains a secret message, but its letters are scrambled by a substitution cipher. Can you recover the original words from this encrypted text? kr ujgfsmzjcfbg, c hqwhsksqskmr ukfbej kh c pesbmi md erujgfskrz kr xbkub qrksh md fnckrseys cje jefncuei xksb sbe ukfbejseys, kr c iedkrei pcrrej, xksb sbe benf md c aeg; sbe "qrksh" pcg we hkrzne nessejh (sbe pmhs umppmr), fckjh md nessejh, sjkfnesh md nessejh, pkysqjeh md sbe cwmle, cri hm dmjsb. sbe jeueklej ieukfbejh sbe seys wg fejdmjpkrz sbe krlejhe hqwhsksqskmr fjmuehh sm eysjcus sbe mjkzkrcn pehhcze. nkaexkhe, tcuvqeh vqkuang okffei sbjmqzb c vqehskmr mr oejm-armxneize fjmmdh, erhqjkrz rm ujkskucn nessej xch neds mqs md mqj ujgfsmzjcfbku fqoone.dncz{xzvd6cmw}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{wgqf6aob}
+ciphertext: kr ujgfsmzjcfbg, c hqwhsksqskmr ukfbej kh c pesbmi md erujgfskrz kr xbkub qrksh md fnckrseys cje jefncuei xksb sbe ukfbejseys, kr c iedkrei pcrrej, xksb sbe benf md c aeg; sbe "qrksh" pcg we hkrzne nessejh (sbe pmhs umppmr), fckjh md nessejh, sjkfnesh md nessejh, pkysqjeh md sbe cwmle, cri hm dmjsb. sbe jeueklej ieukfbejh sbe seys wg fejdmjpkrz sbe krlejhe hqwhsksqskmr fjmuehh sm eysjcus sbe mjkzkrcn pehhcze. nkaexkhe, tcuvqeh vqkuang okffei sbjmqzb c vqehskmr mr oejm-armxneize fjmmdh, erhqjkrz rm ujkskucn nessej xch neds mqs md mqj ujgfsmzjcfbku fqoone.dncz{xzvd6cmw}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'c', 'b': 'w', 'c': 'u', 'd': 'i', 'e': 'e', 'f': 'd', 'g': 'z', 'h': 'b', 'i': 'k', 'j': 't', 'k': 'a', 'l': 'n', 'm': 'p', 'n': 'r', 'o': 'm', 'p': 'f', 'q': 'v', 'r': 'j', 's': 'h', 't': 's', 'u': 'q', 'v': 'l', 'w': 'x', 'x': 'y', 'y': 'g', 'z': 'o'}
+subtype: substitution
+archetype: classical_cipher

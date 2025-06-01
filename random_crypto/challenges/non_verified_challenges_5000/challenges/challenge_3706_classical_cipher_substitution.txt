@@ -1,0 +1,17 @@
+
+Agent Z left a secret message using a codebook. Can you uncover the hidden instructions by deciphering this substitution cipher? The encoded note: dn iqxrvaeqbrpx, b tsgtvdvsvdan idrpzq dt b lzvpau aw zniqxrvdne dn jpdip sndvt aw rhbdnvzkv bqz qzrhbizu jdvp vpz idrpzqvzkv, dn b uzwdnzu lbnnzq, jdvp vpz pzhr aw b yzx; vpz "sndvt" lbx gz tdnehz hzvvzqt (vpz latv iallan), rbdqt aw hzvvzqt, vqdrhzvt aw hzvvzqt, ldkvsqzt aw vpz bgacz, bnu ta waqvp. vpz qzizdczq uzidrpzqt vpz vzkv gx rzqwaqldne vpz dnczqtz tsgtvdvsvdan rqaiztt va zkvqbiv vpz aqdednbh lzttbez. hdyzjdtz, mbifszt fsdiyhx odrrzu vpqasep b fsztvdan an ozqa-ynajhzuez rqaawt, zntsqdne na iqdvdibh hzvvzq jbt hzwv asv aw asq iqxrvaeqbrpdi rsoohz.whbe{03qqq6d5}
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{03rrr6i5}
+ciphertext: dn iqxrvaeqbrpx, b tsgtvdvsvdan idrpzq dt b lzvpau aw zniqxrvdne dn jpdip sndvt aw rhbdnvzkv bqz qzrhbizu jdvp vpz idrpzqvzkv, dn b uzwdnzu lbnnzq, jdvp vpz pzhr aw b yzx; vpz "sndvt" lbx gz tdnehz hzvvzqt (vpz latv iallan), rbdqt aw hzvvzqt, vqdrhzvt aw hzvvzqt, ldkvsqzt aw vpz bgacz, bnu ta waqvp. vpz qzizdczq uzidrpzqt vpz vzkv gx rzqwaqldne vpz dnczqtz tsgtvdvsvdan rqaiztt va zkvqbiv vpz aqdednbh lzttbez. hdyzjdtz, mbifszt fsdiyhx odrrzu vpqasep b fsztvdan an ozqa-ynajhzuez rqaawt, zntsqdne na iqdvdibh hzvvzq jbt hzwv asv aw asq iqxrvaeqbrpdi rsoohz.whbe{03qqq6d5}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'b', 'b': 'g', 'c': 'i', 'd': 'u', 'e': 'z', 'f': 'w', 'g': 'e', 'h': 'p', 'i': 'd', 'j': 'm', 'k': 'y', 'l': 'h', 'm': 'l', 'n': 'n', 'o': 'a', 'p': 'r', 'q': 'f', 'r': 'q', 's': 't', 't': 'v', 'u': 's', 'v': 'c', 'w': 'j', 'x': 'k', 'y': 'x', 'z': 'o'}
+subtype: substitution
+archetype: classical_cipher

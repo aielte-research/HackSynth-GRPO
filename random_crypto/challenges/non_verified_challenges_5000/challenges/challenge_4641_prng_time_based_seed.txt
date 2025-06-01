@@ -1,0 +1,19 @@
+An AI hid sensitive data using a cipher that changes every second. Recover the original message from this snapshot: 666cf0537b78e2566238f342697d
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 37414)
+The system time when the encryption process started was around: 2025-05-25 12:56:57 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{xsbb8bvi}
+ciphertext: 666cf0537b78e2566238f342697d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 37414)
+The system time when the encryption process started was around: 2025-05-25 12:56:57 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 37172.
+subtype: time_based_seed
+archetype: prng

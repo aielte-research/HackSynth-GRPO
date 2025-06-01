@@ -1,0 +1,21 @@
+
+A rogue bot sent us a secret message, but its random generator is weak. Can you recover the original plaintext from this low-entropy cipher? 666c606d7b73386c7136717e737d
+
+
+The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [109, 630, 667, 539, 252, 277, 261, 298, 74, 674, 460, 310, 477, 406, 403, 121, 269, 228, 323, 366]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 674)
+
+---
+
+## Challenge Technical Details
+flag: flag{s9fq6pts}
+ciphertext: 666c606d7b73386c7136717e737d
+cipher: Low-entropy PRNG
+hint: The PRNG seed space is small. You can try brute-forcing all possible seeds to reconstruct the sequence.
+necessary_info: The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [109, 630, 667, 539, 252, 277, 261, 298, 74, 674, 460, 310, 477, 406, 403, 121, 269, 228, 323, 366]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 674)
+extra_info: Since the seed has only 256 possible values, it can be brute-forced to recover the secret number and decrypt the flag.
+subtype: low_entropy_generator
+archetype: prng

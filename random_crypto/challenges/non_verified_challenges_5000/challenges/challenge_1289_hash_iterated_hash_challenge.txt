@@ -1,0 +1,24 @@
+Decrypted a message, but the sender hashed it with SHA-256. Can you recover the hidden flag from the hash? Here’s the hash: b560fa810f459bd0c0457302cf6d86f66be4944827fa16d6c386adf7d890fd6e
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{mq6l}
+ciphertext: b560fa810f459bd0c0457302cf6d86f66be4944827fa16d6c386adf7d890fd6e
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

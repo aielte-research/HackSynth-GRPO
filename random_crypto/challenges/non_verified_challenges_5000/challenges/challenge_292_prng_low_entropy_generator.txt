@@ -1,0 +1,19 @@
+Our secret chat app used a quick homemade PRNG to encrypt this flag. Can you break its low entropy and recover the original message from 666c63ee7b7976bb786c6fbc6d7d?
+
+The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [463, 573, 476, 462, 520, 601, 194, 189, 524, 487, 644, 628, 190, 96, 457, 310, 145, 92, 551, 710]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 745)
+
+---
+
+## Challenge Technical Details
+flag: flag{yt2xlm5m}
+ciphertext: 666c63ee7b7976bb786c6fbc6d7d
+cipher: Low-entropy PRNG
+hint: The PRNG seed space is small. You can try brute-forcing all possible seeds to reconstruct the sequence.
+necessary_info: The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [463, 573, 476, 462, 520, 601, 194, 189, 524, 487, 644, 628, 190, 96, 457, 310, 145, 92, 551, 710]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 745)
+extra_info: Since the seed has only 256 possible values, it can be brute-forced to recover the secret number and decrypt the flag.
+subtype: low_entropy_generator
+archetype: prng

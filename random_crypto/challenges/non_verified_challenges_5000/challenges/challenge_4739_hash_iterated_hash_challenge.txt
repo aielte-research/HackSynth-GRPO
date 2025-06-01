@@ -1,0 +1,24 @@
+An anonymous hacker left a secret message in a file, secured by a SHA-256 hash. Can you recover the original text from this cryptic fingerprint? ab9db7436125bd632c4113830b44b01c0a772cfc5ae2e39a54e40e29d687b859
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{4lnh}
+ciphertext: ab9db7436125bd632c4113830b44b01c0a772cfc5ae2e39a54e40e29d687b859
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

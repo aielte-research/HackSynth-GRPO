@@ -1,0 +1,15 @@
+An old hacker encoded the password using Base64. Can you decode this message to find it? Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVcxS1IxZHVhRmRTZWtFeFdWVmFTMlJIVmtsalJtUk9ZV3hhVFZaclpEUlpWMDE0VTI1R1ZXSklRbGhXYWtwdlpWWmFjbHBFVWxSTmJFcFlWVzAxUjFVeVNrZFhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{eff98ztf}
+cipher: Base64
+ciphertext: Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVcxS1IxZHVhRmRTZWtFeFdWVmFTMlJIVmtsalJtUk9ZV3hhVFZaclpEUlpWMDE0VTI1R1ZXSklRbGhXYWtwdlpWWmFjbHBFVWxSTmJFcFlWVzAxUjFVeVNrZFhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 9 times in total.
+subtype: base64_layered
+archetype: classical_cipher

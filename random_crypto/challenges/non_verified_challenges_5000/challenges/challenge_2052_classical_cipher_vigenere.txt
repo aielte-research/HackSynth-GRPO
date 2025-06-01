@@ -1,0 +1,16 @@
+A hacker intercepted a message between secret agents. The text "ciuc{ji5ongt3}" is believed to be encrypted with a Vigenère cipher. Can you reveal the hidden information?
+
+The flag format is flag{...}
+The keyword is: xxuwcwbf
+
+---
+
+## Challenge Technical Details
+flag: flag{hm5nijw3}
+ciphertext: ciuc{ji5ongt3}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: xxuwcwbf
+subtype: vigenere
+archetype: classical_cipher

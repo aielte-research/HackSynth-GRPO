@@ -1,0 +1,17 @@
+
+A hacker left a strange note encoded with an ASCII Shift cipher. Can you recover the original message from this scrambled text? Ciphertext: jpek;|e78y{l
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{7xa34uwh}
+cipher: ASCII Shift
+ciphertext: jpek;|e78y{l
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 4
+subtype: ascii_shift
+archetype: classical_cipher

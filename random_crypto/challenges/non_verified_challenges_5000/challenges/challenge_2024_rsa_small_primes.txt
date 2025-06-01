@@ -1,0 +1,18 @@
+Recover the secret message from a rushed RSA implementation where both primes are suspiciously small. Ciphertext: 9819439515607890609
+
+The flag format is flag{...}
+n=13443183926685070577, e=9621575123789363401
+
+---
+
+## Challenge Technical Details
+flag: flag{m5723arn}
+cipher: RSA
+ciphertext: 9819439515607890609
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=13443183926685070577, e=9621575123789363401
+extra_info: p=4181474767, q=3214938431, φ(n)=13443183919288657380
+subtype: small_primes
+archetype: rsa

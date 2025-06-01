@@ -1,0 +1,24 @@
+Agent T left a secret passphrase behind—only its SHA-256 hash remains: 26eab57f55bf84691a6d7ca95bf4dea6a7f6e15f53e860b744f70169ac77b8ea. Can you recover the original?
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{y4n6}
+ciphertext: 26eab57f55bf84691a6d7ca95bf4dea6a7f6e15f53e860b744f70169ac77b8ea
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

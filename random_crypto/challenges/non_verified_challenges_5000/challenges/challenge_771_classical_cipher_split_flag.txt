@@ -1,0 +1,15 @@
+An old hacker left a secret in this scrambled number sequence using SplitNumberMix cipher. Can you decode the hidden message within? Ciphertext:  99999 fl 99999 ag{gzjztnx 99999 m} 99999 
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{gzjztnxm}
+ciphertext:  99999 fl 99999 ag{gzjztnx 99999 m} 99999 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 3 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

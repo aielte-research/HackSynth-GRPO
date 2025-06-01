@@ -1,0 +1,15 @@
+An old developer hid the server password by shifting each character’s ASCII code. Can you restore the original string from this encrypted message? kqflx6vnp<:
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{s1qik75z}
+cipher: ASCII Shift
+ciphertext: kqflx6vnp<:
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 5
+subtype: ascii_shift
+archetype: classical_cipher

@@ -1,0 +1,13 @@
+
+You intercepted a suspicious API token. Can you reveal its secret contents? Here’s the token: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3t5eXd0dTY4N30ifQ.
+
+
+---
+
+## Challenge Technical Details
+flag: flag{yywtu687}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3t5eXd0dTY4N30ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

@@ -1,0 +1,17 @@
+
+A hacker split a flag into chunks, encrypting each piece with their mysterious ChunkedFlag cipher. Can you reconstruct the original flag from this encrypted message? fla g{d koq fj 0p }
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{dkoqfj0p}
+ciphertext: fla g{d koq fj 0p }
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

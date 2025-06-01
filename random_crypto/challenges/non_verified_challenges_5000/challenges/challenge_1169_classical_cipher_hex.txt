@@ -1,0 +1,14 @@
+An anonymous hacker sent you a string in hexadecimal as the key to a locked wallet. Can you decode their message? Ciphertext: 666c61677b7a687a6f786d35777d
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{zhzoxm5w}
+cipher: Hex
+ciphertext: 666c61677b7a687a6f786d35777d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

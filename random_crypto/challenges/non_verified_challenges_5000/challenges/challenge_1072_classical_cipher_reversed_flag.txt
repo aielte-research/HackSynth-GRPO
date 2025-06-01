@@ -1,0 +1,17 @@
+
+A spy left a message in reverse before vanishing. Can you flip it to read the hidden clue? Cipher: }uvxci8kx{galf
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{xk8icxvu}
+ciphertext: }uvxci8kx{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

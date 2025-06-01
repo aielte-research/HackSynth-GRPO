@@ -1,0 +1,21 @@
+
+Our server used timestamps as PRNG seeds to encrypt secrets. Can you recover the flag from this intercepted message? 666c53f17b635cf86e7a5dfe6f7d
+
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 85193)
+The system time when the encryption process started was around: 2025-05-17 13:39:11 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{cnnnzoho}
+ciphertext: 666c53f17b635cf86e7a5dfe6f7d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 85193)
+The system time when the encryption process started was around: 2025-05-17 13:39:11 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 12950.
+subtype: time_based_seed
+archetype: prng

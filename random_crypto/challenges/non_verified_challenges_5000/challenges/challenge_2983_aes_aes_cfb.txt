@@ -1,0 +1,17 @@
+An intercepted message encrypted with AES-CFB hides the vault code. Can you recover the secret from 389d9559cd7e1e9e9abc419352e1c52001e03afac11c676c017d831f5e05687c23b28d6ee45eb6e1b3ebc6e58e915939bc78faea0963a81461496373ce3ca57453aefa7be8ac1028f341cce6d4b173ed8fd4fe897a197c04b0d1a5d5314d55f1ed10ae0ebc45413b1bc60e261f227533ca593571bd6fa0406b4d36ec52131a151fc01ea1e8f3796d24689f899ae7f40f092a89be2fdced7608d837cad4de6ab5008b786b79c18a93373e9540b05ac176ce and reveal what the agent tried to protect?
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{pd2phlxe}
+ciphertext: 389d9559cd7e1e9e9abc419352e1c52001e03afac11c676c017d831f5e05687c23b28d6ee45eb6e1b3ebc6e58e915939bc78faea0963a81461496373ce3ca57453aefa7be8ac1028f341cce6d4b173ed8fd4fe897a197c04b0d1a5d5314d55f1ed10ae0ebc45413b1bc60e261f227533ca593571bd6fa0406b4d36ec52131a151fc01ea1e8f3796d24689f899ae7f40f092a89be2fdced7608d837cad4de6ab5008b786b79c18a93373e9540b05ac176ce
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: 72e1a53a689ca64dbe58e4544468f2be
+subtype: aes_cfb
+archetype: aes

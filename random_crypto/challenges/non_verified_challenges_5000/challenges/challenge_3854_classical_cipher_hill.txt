@@ -1,0 +1,17 @@
+The hacker left a scrambled message, encrypted with a Hill cipher. Can you uncover their secret by deciphering: cqbigwsputzkangkgzfroftmpyhmrrgzksxpmlxpqiykqfvswumomxkgudxuymsagrhrwj?
+
+The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+
+---
+
+## Challenge Technical Details
+flag: flag{ocowtzbk}
+ciphertext: cqbigwsputzkangkgzfroftmpyhmrrgzksxpmlxpqiykqfvswumomxkgudxuymsagrhrwj
+cipher: Hill
+hint: Hill ciphers can be broken using known-plaintext attacks and linear algebra mod 26.
+necessary_info: The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+extra_info: The matrix used is: [[21, 2], [16, 7]]
+subtype: hill
+archetype: classical_cipher

@@ -1,0 +1,19 @@
+An admin hashed passwords with SHA-256, but reused "salt123" for all. Crack the password from this hash: 603c533522dbe335aeaec77ac50480ef0403b6ff5b4cfa0120d9dcab051e9a1a
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{u5m}
+ciphertext: 603c533522dbe335aeaec77ac50480ef0403b6ff5b4cfa0120d9dcab051e9a1a
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

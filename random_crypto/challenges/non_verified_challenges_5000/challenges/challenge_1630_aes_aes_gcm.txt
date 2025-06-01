@@ -1,0 +1,18 @@
+An intern encrypted two messages for their boss with AES-GCM but forgot to change the nonce. Both ciphertexts, one is: ciphertext1:5338e9c5d66231e9f5aa4e943d05, ciphertext2: 413ce1d18d7138a5f6bd4dc26b584c26c0b3, were intercepted. What did the boss receive?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{zzlmxwv7}
+ciphertext: ciphertext1:5338e9c5d66231e9f5aa4e943d05, ciphertext2: 413ce1d18d7138a5f6bd4dc26b584c26c0b3
+tag1: de771c409006d17ff037248873c7774d
+tag2: 01d29585d5ef835bdb387719b3afb197
+cipher: AES-GCM
+vulnerability: nonce reuse
+hint: AES-GCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: d661d9cb72c8be4f7ce51547
+subtype: aes_gcm
+archetype: aes

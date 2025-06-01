@@ -1,0 +1,21 @@
+
+Intercepted radio traffic uses a homemade LFSR-based stream cipher. We need the plaintext hidden in b5fcb2f7a8a8a5e1bff7b8a4a3ed—can you break their weak encryption?
+
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[16680, 8340, 36938, 51237, 58386, 29193, 14596, 40066, 20033, 42784]
+
+---
+
+## Challenge Technical Details
+flag: flag{8vqlgk4p}
+ciphertext: b5fcb2f7a8a8a5e1bff7b8a4a3ed
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[16680, 8340, 36938, 51237, 58386, 29193, 14596, 40066, 20033, 42784]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

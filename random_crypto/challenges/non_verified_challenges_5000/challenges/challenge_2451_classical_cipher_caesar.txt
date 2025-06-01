@@ -1,0 +1,15 @@
+A mysterious note was slipped under your door. It contains a message, but the letters are all shifted. Can you decipher this Caesar-encrypted secret? bhwc{qgbbaut2}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ukffeyx2}
+ciphertext: bhwc{qgbbaut2}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 22
+subtype: caesar
+archetype: classical_cipher

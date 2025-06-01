@@ -1,0 +1,14 @@
+An archaeologist found a coded message on an ancient relic. It reads: uozt{pvhfbrpw} Can you reveal its meaning using a forgotten cipher?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{kesuyikd}
+cipher: Atbash
+ciphertext: uozt{pvhfbrpw}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

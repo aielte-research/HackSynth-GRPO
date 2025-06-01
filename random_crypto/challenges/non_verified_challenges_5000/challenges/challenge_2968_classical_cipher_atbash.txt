@@ -1,0 +1,14 @@
+A message from an ancient order awaits. Legends say its secret is revealed by reversing every letter. Can you decrypt the code below? uozt{db3gugm0}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{wy3tftn0}
+cipher: Atbash
+ciphertext: uozt{db3gugm0}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

@@ -1,0 +1,19 @@
+Intercepted at midnight, the hacker's secret message uses a time-based PRNG cipher. Can you recover the original text from this ciphertext? 666c6aeb7b7969eb6c317ebb6e7d
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 38562)
+The system time when the encryption process started was around: 2025-05-25 12:42:01 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{ybgl1u7n}
+ciphertext: 666c6aeb7b7969eb6c317ebb6e7d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 38562)
+The system time when the encryption process started was around: 2025-05-25 12:42:01 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 2956.
+subtype: time_based_seed
+archetype: prng

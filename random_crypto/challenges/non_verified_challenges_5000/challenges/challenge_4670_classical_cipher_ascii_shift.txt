@@ -1,0 +1,15 @@
+An old hacker left a shifting ASCII message for their apprentice. To unlock the next clue, decipher this: pvkqkl?llll
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ab5bvbbb}
+cipher: ASCII Shift
+ciphertext: pvkqkl?llll
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 10
+subtype: ascii_shift
+archetype: classical_cipher

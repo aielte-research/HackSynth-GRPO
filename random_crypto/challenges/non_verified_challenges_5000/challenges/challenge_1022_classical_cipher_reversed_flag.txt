@@ -1,0 +1,17 @@
+
+Agent X left a secret message, but reversed the letters for security. Can you uncover their hidden phrase? Ciphertext: }3qay9t1b{galf
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{b1t9yaq3}
+ciphertext: }3qay9t1b{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

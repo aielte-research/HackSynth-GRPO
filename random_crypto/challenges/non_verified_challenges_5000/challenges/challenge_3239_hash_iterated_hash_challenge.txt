@@ -1,0 +1,24 @@
+An encrypted file labeled "c5e4f057226428b5a58580f7b978d00ca160033b0be15df370151f7daf9a9525" appeared in the dev team's server logs. They suspect SHA-256 hides the secret. Can you reveal what was concealed?
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{fcez}
+ciphertext: c5e4f057226428b5a58580f7b978d00ca160033b0be15df370151f7daf9a9525
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

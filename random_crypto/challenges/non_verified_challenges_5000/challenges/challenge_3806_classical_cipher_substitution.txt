@@ -1,0 +1,15 @@
+A secret agent left a message encrypted with a substitution cipher. Can you crack the code and uncover the hidden instructions within yi uohtezxoctmh, c wagweyeaeyzi uytmqo yw c jqemzb zl qiuohteyix yi fmyum aiyew zl trcyieqde coq oqtrcuqb fyem emq uytmqoeqde, yi c bqlyiqb jciiqo, fyem emq mqrt zl c nqh; emq "aiyew" jch gq wyixrq rqeeqow (emq jzwe uzjjzi), tcyow zl rqeeqow, eoytrqew zl rqeeqow, jydeaoqw zl emq cgzpq, cib wz lzoem. emq oquqypqo bquytmqow emq eqde gh tqolzojyix emq yipqowq wagweyeaeyzi tozuqww ez qdeocue emq zoyxyicr jqwwcxq. rynqfywq, vcusaqw sayunrh kyttqb emozaxm c saqweyzi zi kqoz-nizfrqbxq tozzlw, qiwaoyix iz uoyeyucr rqeeqo fcw rqle zae zl zao uohtezxoctmyu takkrq.lrcx{3rs7modw}?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{3lq7hrxs}
+ciphertext: yi uohtezxoctmh, c wagweyeaeyzi uytmqo yw c jqemzb zl qiuohteyix yi fmyum aiyew zl trcyieqde coq oqtrcuqb fyem emq uytmqoeqde, yi c bqlyiqb jciiqo, fyem emq mqrt zl c nqh; emq "aiyew" jch gq wyixrq rqeeqow (emq jzwe uzjjzi), tcyow zl rqeeqow, eoytrqew zl rqeeqow, jydeaoqw zl emq cgzpq, cib wz lzoem. emq oquqypqo bquytmqow emq eqde gh tqolzojyix emq yipqowq wagweyeaeyzi tozuqww ez qdeocue emq zoyxyicr jqwwcxq. rynqfywq, vcusaqw sayunrh kyttqb emozaxm c saqweyzi zi kqoz-nizfrqbxq tozzlw, qiwaoyix iz uoyeyucr rqeeqo fcw rqle zae zl zao uohtezxoctmyu takkrq.lrcx{3rs7modw}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'c', 'b': 'g', 'c': 'u', 'd': 'b', 'e': 'q', 'f': 'l', 'g': 'x', 'h': 'm', 'i': 'y', 'j': 'v', 'k': 'n', 'l': 'r', 'm': 'j', 'n': 'i', 'o': 'z', 'p': 't', 'q': 's', 'r': 'o', 's': 'w', 't': 'e', 'u': 'a', 'v': 'p', 'w': 'f', 'x': 'd', 'y': 'h', 'z': 'k'}
+subtype: substitution
+archetype: classical_cipher

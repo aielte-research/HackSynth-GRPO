@@ -1,0 +1,15 @@
+An old hacker left behind a mysterious note encrypted with SplitNumberMix. Can you decipher this to find the hidden clue? Ciphertext:  333333333 flag 333333333 {euv 333333333 jkswa} 333333333 
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{euvjkswa}
+ciphertext:  333333333 flag 333333333 {euv 333333333 jkswa} 333333333 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 3 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

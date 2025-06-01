@@ -1,0 +1,14 @@
+An old hacker left a message in hex. Can you decode 666c61677b61766276696571727d to reveal the secret behind their last heist?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{avbvieqr}
+cipher: Hex
+ciphertext: 666c61677b61766276696571727d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

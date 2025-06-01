@@ -1,0 +1,15 @@
+A secret key slipped through the rails of the fence in Morse's lab. Decode the zig-zag pattern to reveal the message: f{ohlgpxfh}akq
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{pkxofqhh}
+ciphertext: f{ohlgpxfh}akq
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 3
+subtype: rail_fence
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+A secret code from the underground hacker forum uses the SplitNumberMix cipher. Can you crack the message below? Ciphertext:  888888 flag{xkf 888888 f 888888 wiab} 888888 
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{xkffwiab}
+ciphertext:  888888 flag{xkf 888888 f 888888 wiab} 888888 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 3 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

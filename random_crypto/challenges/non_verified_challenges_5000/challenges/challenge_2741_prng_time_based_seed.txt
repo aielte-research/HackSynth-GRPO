@@ -1,0 +1,19 @@
+Our trading bot sent an encrypted trade using a time-based PRNG. We intercepted 666ca1ac7b30b0a33864a5ac317d, but forgot the exact second. Can you recover the trade's secret?
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 61337)
+The system time when the encryption process started was around: 2025-05-25 12:12:37 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{0ph8deg1}
+ciphertext: 666ca1ac7b30b0a33864a5ac317d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 61337)
+The system time when the encryption process started was around: 2025-05-25 12:12:37 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 49355.
+subtype: time_based_seed
+archetype: prng

@@ -1,0 +1,14 @@
+
+A careless admin exposed session tokens encrypted with an old method. Recover the user ID hidden in this 757365725f747578713a666c61677b35396a687966636f7d3a31373438313639303334 before someone else exploits the flaw.
+
+
+---
+
+## Challenge Technical Details
+flag: flag{59jhyfco}
+ciphertext: 757365725f747578713a666c61677b35396a687966636f7d3a31373438313639303334
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_tuxq:flag{59jhyfco}:1748169034'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

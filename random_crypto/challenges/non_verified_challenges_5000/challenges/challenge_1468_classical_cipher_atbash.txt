@@ -1,0 +1,14 @@
+An old manuscript from a secret society hints that their password is hidden using an ancient reverse-alphabet cipher. Can you decode this Atbash message: uozt{ae609nr5}?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{zv609mi5}
+cipher: Atbash
+ciphertext: uozt{ae609nr5}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

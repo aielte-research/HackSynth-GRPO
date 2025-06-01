@@ -1,0 +1,15 @@
+Agent K embedded secret coordinates in a message using Base64. Decode Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVcxS1IxWnFUbGhoTVhCUVdWWlZlRll4WkhWaFJscHBWMFpHTTFkV1dsWmxSbVJJVm10a1dHSkdjRTlaYlhoSFRURmtWMWRzV214U2EzQllWakkxUzJGc1NuTlhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0= to retrieve the hidden location.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{phdakbh4}
+cipher: Base64
+ciphertext: Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVcxS1IxWnFUbGhoTVhCUVdWWlZlRll4WkhWaFJscHBWMFpHTTFkV1dsWmxSbVJJVm10a1dHSkdjRTlaYlhoSFRURmtWMWRzV214U2EzQllWakkxUzJGc1NuTlhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 9 times in total.
+subtype: Base64_layered
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+A mysterious hacker sends you an encrypted message. They hint: "Look at it backwards." Can you reveal the secret by unraveling }e81ih6i3{galf?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{3i6hi18e}
+ciphertext: }e81ih6i3{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

@@ -1,0 +1,23 @@
+
+A hacker disguised a secret passphrase with a simple substitution cipher. Crack the code to reveal the message: khxw{8nh4fu3v}
+
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'x', 'b': 'z', 'c': 't', 'd': 'v', 'e': 'i', 'f': 'k', 'g': 'w', 'h': 'n', 'i': 'a', 'j': 'y', 'k': 'q', 'l': 'h', 'm': 's', 'n': 'f', 'o': 'c', 'p': 'j', 'q': 'r', 'r': 'm', 's': 'b', 't': 'g', 'u': 'l', 'v': 'p', 'w': 'd', 'x': 'e', 'y': 'u', 'z': 'o'}
+
+---
+
+## Challenge Technical Details
+flag: flag{8hl4ny3d}
+cipher: Substitution
+ciphertext: khxw{8nh4fu3v}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'x', 'b': 'z', 'c': 't', 'd': 'v', 'e': 'i', 'f': 'k', 'g': 'w', 'h': 'n', 'i': 'a', 'j': 'y', 'k': 'q', 'l': 'h', 'm': 's', 'n': 'f', 'o': 'c', 'p': 'j', 'q': 'r', 'r': 'm', 's': 'b', 't': 'g', 'u': 'l', 'v': 'p', 'w': 'd', 'x': 'e', 'y': 'u', 'z': 'o'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

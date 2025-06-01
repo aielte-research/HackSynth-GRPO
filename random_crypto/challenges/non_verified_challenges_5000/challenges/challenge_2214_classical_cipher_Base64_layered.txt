@@ -1,0 +1,15 @@
+An agent hid the password using Base64 encoding. Decode Vm0weGQxTnRVWGxXYTFwUFZsZG9WRmxVU2xOalJsSlZWR3RPYW1KR1dubFdiRkpIVm14S2MyTklhRlppV0ZKb1ZrZDRTMlJHVm5OaFJtaG9UVzFvZVZaclpIcGxSbVJHVDFaV1dHSkdXbGhXYlhSYVpXeGFWbGRyV2xCV2EwcFRWVVpSZDFCUlBUMD0= to reveal the secret word needed to access the next stage.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{w5d8ajwg}
+cipher: Base64
+ciphertext: Vm0weGQxTnRVWGxXYTFwUFZsZG9WRmxVU2xOalJsSlZWR3RPYW1KR1dubFdiRkpIVm14S2MyTklhRlppV0ZKb1ZrZDRTMlJHVm5OaFJtaG9UVzFvZVZaclpIcGxSbVJHVDFaV1dHSkdXbGhXYlhSYVpXeGFWbGRyV2xCV2EwcFRWVVpSZDFCUlBUMD0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 8 times in total.
+subtype: Base64_layered
+archetype: classical_cipher

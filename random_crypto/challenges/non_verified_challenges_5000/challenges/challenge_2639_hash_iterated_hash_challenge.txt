@@ -1,0 +1,24 @@
+Your hacker friend left a secret message for you, but only gave you its SHA-256 hash: 0059b6e5018c00d0861f8c4d454c11321a921e3ceda7f62f4aafe965e5575fe0. Can you recover the original message?
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{8hc2}
+ciphertext: 0059b6e5018c00d0861f8c4d454c11321a921e3ceda7f62f4aafe965e5575fe0
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

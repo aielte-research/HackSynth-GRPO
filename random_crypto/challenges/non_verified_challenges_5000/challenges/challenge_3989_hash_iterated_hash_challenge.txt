@@ -1,0 +1,24 @@
+The hacker left a mysterious note hashed using SHA-256. Can you reveal the original message from this fingerprint: b24de40fdce464c472ec7677c4c7bffb8ee8014076f7051478e8156427c86169?
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{kvgo}
+ciphertext: b24de40fdce464c472ec7677c4c7bffb8ee8014076f7051478e8156427c86169
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

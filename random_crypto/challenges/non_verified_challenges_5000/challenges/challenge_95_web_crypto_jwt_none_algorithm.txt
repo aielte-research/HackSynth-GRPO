@@ -1,0 +1,11 @@
+Intercepted admin JWT detected. Can you break the signature and reveal the true content of eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3trbHAxZWt4b30ifQ.?
+
+---
+
+## Challenge Technical Details
+flag: flag{klp1ekxo}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3trbHAxZWt4b30ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

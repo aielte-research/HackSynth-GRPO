@@ -1,0 +1,14 @@
+An ancient scroll hides the location of lost treasure. Its message reads: uozt{nc0n68op} Decode it using an old cipher mirrored through the alphabet.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{mx0m68lk}
+cipher: Atbash
+ciphertext: uozt{nc0n68op}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

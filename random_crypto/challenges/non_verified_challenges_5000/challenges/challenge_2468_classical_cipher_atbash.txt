@@ -1,0 +1,14 @@
+An encrypted relic from an ancient order hides a name. Decipher uozt{ehicocra} using their reversed alphabet code to reveal the secret.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{vsrxlxiz}
+cipher: Atbash
+ciphertext: uozt{ehicocra}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

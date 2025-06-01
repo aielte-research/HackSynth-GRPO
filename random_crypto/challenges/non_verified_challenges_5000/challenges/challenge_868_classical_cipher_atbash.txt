@@ -1,0 +1,14 @@
+An archaeologist found a coded message from an ancient sect. Can you reveal its secret using a cipher once whispered among rebels? Decode: uozt{6c3q1b0r}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{6x3j1y0i}
+cipher: Atbash
+ciphertext: uozt{6c3q1b0r}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

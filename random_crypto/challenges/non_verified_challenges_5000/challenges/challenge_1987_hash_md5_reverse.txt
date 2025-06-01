@@ -1,0 +1,15 @@
+Intercepted message uses MD5 to hide the password. Luckily, the vulnerability allows you to reverse it. Find the original password: 0ab5add98edfefbbf75ea524778586f7
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ACUMA}
+ciphertext: 0ab5add98edfefbbf75ea524778586f7
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

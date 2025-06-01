@@ -1,0 +1,15 @@
+A secret message was hidden in a Base64 string during a hacker's exchange. Can you decode the following to uncover it? ZmxhZ3tvbWpmZDM1dH0=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{omjfd35t}
+cipher: Base64
+ciphertext: ZmxhZ3tvbWpmZDM1dH0=
+hint: Use a Base64 decoder to obtain the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is direct; no additional layers or tricks.
+subtype: Base64
+archetype: classical_cipher

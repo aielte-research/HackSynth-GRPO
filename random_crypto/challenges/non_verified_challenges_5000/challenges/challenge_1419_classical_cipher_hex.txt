@@ -1,0 +1,14 @@
+A hacker intercepted a secret meeting's code, left in hex on a napkin. Can you reveal the message? 666c61677b6f37726172386c627d
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{o7rar8lb}
+cipher: Hex
+ciphertext: 666c61677b6f37726172386c627d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

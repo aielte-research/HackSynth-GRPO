@@ -1,0 +1,17 @@
+The spy agency intercepted a secret message encrypted with AES-CFB. Can you recover the original note from the ciphertext below?2c6cf940829939de692023d2c899df97401ca8366edf34ddfaaf5c7b1ddd1d04b80500899f7b229aa6b58c0176c1217da84f6c1d670784a1a9f622bdc52081e7cf550f43e21e6c06e820a952c0a8c97ff7baec0a8991ecd88811f88ef6bd231c9b6cd731c1f436d1c40eda82036e4522c1255bdbf805a9f4d7276dc9e7e6a7fec93bbb7fb977798e5ca83a70e413159dbae3ff531a5f193f7280f2aa4b1e3cb34b9647fcd51cee9ba99c081f9471a5a9c4
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{4w4ld80v}
+ciphertext: 2c6cf940829939de692023d2c899df97401ca8366edf34ddfaaf5c7b1ddd1d04b80500899f7b229aa6b58c0176c1217da84f6c1d670784a1a9f622bdc52081e7cf550f43e21e6c06e820a952c0a8c97ff7baec0a8991ecd88811f88ef6bd231c9b6cd731c1f436d1c40eda82036e4522c1255bdbf805a9f4d7276dc9e7e6a7fec93bbb7fb977798e5ca83a70e413159dbae3ff531a5f193f7280f2aa4b1e3cb34b9647fcd51cee9ba99c081f9471a5a9c4
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: c998def3c1c663b29fa47abd89befbbb
+subtype: aes_cfb
+archetype: aes

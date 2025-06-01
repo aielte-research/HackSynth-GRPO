@@ -1,0 +1,13 @@
+
+Intercepted in a web exploit, this JWT token holds admin secrets. Can you extract the hidden flag from eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3t0NWd2cjF4NX0ifQ.?
+
+
+---
+
+## Challenge Technical Details
+flag: flag{t5gvr1x5}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3t0NWd2cjF4NX0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

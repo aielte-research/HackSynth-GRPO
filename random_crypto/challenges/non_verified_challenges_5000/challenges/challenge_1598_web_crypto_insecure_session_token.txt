@@ -1,0 +1,14 @@
+
+A careless developer rolled their own session token system. Can you break their 757365725f6e7a73353a666c61677b6265723271356c7a7d3a31373438313636333133 encrypted token and reveal the hidden flag inside?
+
+
+---
+
+## Challenge Technical Details
+flag: flag{ber2q5lz}
+ciphertext: 757365725f6e7a73353a666c61677b6265723271356c7a7d3a31373438313636333133
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_nzs5:flag{ber2q5lz}:1748166313'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

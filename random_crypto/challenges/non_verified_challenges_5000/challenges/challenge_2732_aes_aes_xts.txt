@@ -1,0 +1,15 @@
+A rogue admin encrypted critical disk sectors with AES-XTS before vanishing. Can you recover the secret from this disk dump? Ciphertext: ciphertext1:1b4fefa83498df22147cbbd0692e48bc, ciphertext2: dde0c8eda43ee8e4fa804c9701d691dc2b53679cfd718e3568384fd642ee5d11
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ir3feahp}
+ciphertext: ciphertext1:1b4fefa83498df22147cbbd0692e48bc, ciphertext2: dde0c8eda43ee8e4fa804c9701d691dc2b53679cfd718e3568384fd642ee5d11
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 866e90a38c0329b9e3fe307bf5124664
+subtype: aes_xts
+archetype: aes

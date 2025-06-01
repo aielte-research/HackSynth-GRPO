@@ -1,0 +1,14 @@
+An archaeologist finds a coded message in an ancient scroll. Can you reveal its hidden meaning by deciphering the following Atbash-encrypted text? uozt{t6vqf6de}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{g6eju6wv}
+cipher: Atbash
+ciphertext: uozt{t6vqf6de}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

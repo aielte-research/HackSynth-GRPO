@@ -1,0 +1,21 @@
+A mysterious message, encrypted during a secret meeting, was intercepted. Decipher onga{0qep1iny} to reveal the location of the hidden artifact.
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'g', 'b': 'p', 'c': 'm', 'd': 'y', 'e': 'h', 'f': 'o', 'g': 'a', 'h': 's', 'i': 'i', 'j': 'u', 'k': 'v', 'l': 'n', 'm': 'w', 'n': 'q', 'o': 'e', 'p': 'b', 'q': 'f', 'r': 'r', 's': 't', 't': 'j', 'u': 'l', 'v': 'x', 'w': 'k', 'x': 'c', 'y': 'd', 'z': 'z'}
+
+---
+
+## Challenge Technical Details
+flag: flag{0nob1ild}
+cipher: Substitution
+ciphertext: onga{0qep1iny}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'g', 'b': 'p', 'c': 'm', 'd': 'y', 'e': 'h', 'f': 'o', 'g': 'a', 'h': 's', 'i': 'i', 'j': 'u', 'k': 'v', 'l': 'n', 'm': 'w', 'n': 'q', 'o': 'e', 'p': 'b', 'q': 'f', 'r': 'r', 's': 't', 't': 'j', 'u': 'l', 'v': 'x', 'w': 'k', 'x': 'c', 'y': 'd', 'z': 'z'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

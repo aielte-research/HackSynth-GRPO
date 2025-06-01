@@ -1,0 +1,17 @@
+
+Agent X hid secret coordinates using XOR. Only those who can decipher stringA: 22012a0c0863575975454a085b08 stringB: 446d4b6b735065324d73326f6975 will find the location. Can you recover the message?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{32k86xg2}
+cipher: XOR
+ciphertext: stringA: 22012a0c0863575975454a085b08 stringB: 446d4b6b735065324d73326f6975
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

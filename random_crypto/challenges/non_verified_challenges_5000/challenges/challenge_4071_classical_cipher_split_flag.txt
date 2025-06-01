@@ -1,0 +1,17 @@
+
+A hacker split a secret code into numbers and mixed them up using the SplitNumberMix cipher. Can you recover the original message from this scrambled code?  222222222 f 222222222 lag{njzfwiga} 222222222 
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{njzfwiga}
+ciphertext:  222222222 f 222222222 lag{njzfwiga} 222222222 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 2 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

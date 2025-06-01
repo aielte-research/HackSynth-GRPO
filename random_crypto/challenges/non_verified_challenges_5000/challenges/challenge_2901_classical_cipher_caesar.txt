@@ -1,0 +1,17 @@
+
+A Roman general encoded his secret command using Caesar's own method. Can you reveal his orders from this cipher? ekzf{2exvtx2y}
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{2fywuy2z}
+ciphertext: ekzf{2exvtx2y}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 25
+subtype: caesar
+archetype: classical_cipher

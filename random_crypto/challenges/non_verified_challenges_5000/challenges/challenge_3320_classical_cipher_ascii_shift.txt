@@ -1,0 +1,17 @@
+
+Professor Ada hid the wallet password using an ASCII Shift cipher. Decode pvkqwv};s< to retrieve it.
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{mzxls1i2}
+cipher: ASCII Shift
+ciphertext: pvkqwv};s<
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 10
+subtype: ascii_shift
+archetype: classical_cipher

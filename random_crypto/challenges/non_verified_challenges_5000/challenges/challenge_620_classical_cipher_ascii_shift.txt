@@ -1,0 +1,15 @@
+An old hacker left behind a note: "lrgm;ojuott|". Rumor says it's only readable if you shift each letter by the right ASCII value.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{5idoinnv}
+cipher: ASCII Shift
+ciphertext: lrgm;ojuott|
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 6
+subtype: ascii_shift
+archetype: classical_cipher

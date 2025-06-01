@@ -1,0 +1,15 @@
+An agent intercepted a suspicious encoded message. Can you decode the hidden clue from this Base64 string? Vm0xd1NtUXlWa1pPVldoVFlUSlNjRlJVVGtOalZsSlZVMnBTYUZKc1duaFZNbmhQVkd4YWRHVkdjRnBOUmxsM1dWVlZlR05yTlZaalJsWlhWbXRaZWxaVldrWlBWa0pTVUZRd1BRPT0=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{2dgnk2dp}
+cipher: Base64
+ciphertext: Vm0xd1NtUXlWa1pPVldoVFlUSlNjRlJVVGtOalZsSlZVMnBTYUZKc1duaFZNbmhQVkd4YWRHVkdjRnBOUmxsM1dWVlZlR05yTlZaalJsWlhWbXRaZWxaVldrWlBWa0pTVUZRd1BRPT0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 7 times in total.
+subtype: base64_layered
+archetype: classical_cipher

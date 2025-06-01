@@ -1,0 +1,15 @@
+A hacker left a secret message on the server, but it's encoded strangely. Can you decode the Base64 ciphertext below and find what they hid? Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVcxS1IxZHFSbHBOUjJoUVdWY3hTMU5IVmtWUmJGWlhZa2hDVVZaclpEUlpWMUpYVW01S1lWSnRhRzlVVmxwM1pWWmtWMVZyWkZwV2JIQllWakkxVDJGc1NuTlhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{hvwntan5}
+cipher: Base64
+ciphertext: Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVcxS1IxZHFSbHBOUjJoUVdWY3hTMU5IVmtWUmJGWlhZa2hDVVZaclpEUlpWMUpYVW01S1lWSnRhRzlVVmxwM1pWWmtWMVZyWkZwV2JIQllWakkxVDJGc1NuTlhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 9 times in total.
+subtype: base64_layered
+archetype: classical_cipher

@@ -1,0 +1,27 @@
+The hacker group "RandomSeed" claims their RNG is unbreakable. Prove them wrong by recovering their secret message: 6893c94075ccca4a3889d0416382
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1775193001
+  - Multiplier: 807989665
+  - Increment: 1505618087
+The first 5 outputs of the LCG are provided: [1517832973, 1106803416, 410507561, 1158657191, 1228219382] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{3bm6vxfm}
+ciphertext: 6893c94075ccca4a3889d0416382
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1775193001
+  - Multiplier: 807989665
+  - Increment: 1505618087
+The first 5 outputs of the LCG are provided: [1517832973, 1106803416, 410507561, 1158657191, 1228219382] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

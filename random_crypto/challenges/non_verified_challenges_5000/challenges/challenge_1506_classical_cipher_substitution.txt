@@ -1,0 +1,15 @@
+A hacker left a coded message. Can you crack the simple letter substitution and reveal their secret? Here’s what they sent: fm hgjqrangwqzj, w yxoyrfrxrfam hfqzvg fy w cvrzas ai vmhgjqrfmn fm ezfhz xmfry ai qpwfmrvdr wgv gvqpwhvs efrz rzv hfqzvgrvdr, fm w svifmvs cwmmvg, efrz rzv zvpq ai w tvj; rzv "xmfry" cwj ov yfmnpv pvrrvgy (rzv cayr haccam), qwfgy ai pvrrvgy, rgfqpvry ai pvrrvgy, cfdrxgvy ai rzv woalv, wms ya iagrz. rzv gvhvflvg svhfqzvgy rzv rvdr oj qvgiagcfmn rzv fmlvgyv yxoyrfrxrfam qgahvyy ra vdrgwhr rzv agfnfmwp cvyywnv. pftvefyv, uwhkxvy kxfhtpj bfqqvs rzgaxnz w kxvyrfam am bvga-tmaepvsnv qgaaiy, vmyxgfmn ma hgfrfhwp pvrrvg ewy pvir axr ai axg hgjqrangwqzfh qxbbpv.ipwn{kcy54gnz}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{qms54rgh}
+ciphertext: fm hgjqrangwqzj, w yxoyrfrxrfam hfqzvg fy w cvrzas ai vmhgjqrfmn fm ezfhz xmfry ai qpwfmrvdr wgv gvqpwhvs efrz rzv hfqzvgrvdr, fm w svifmvs cwmmvg, efrz rzv zvpq ai w tvj; rzv "xmfry" cwj ov yfmnpv pvrrvgy (rzv cayr haccam), qwfgy ai pvrrvgy, rgfqpvry ai pvrrvgy, cfdrxgvy ai rzv woalv, wms ya iagrz. rzv gvhvflvg svhfqzvgy rzv rvdr oj qvgiagcfmn rzv fmlvgyv yxoyrfrxrfam qgahvyy ra vdrgwhr rzv agfnfmwp cvyywnv. pftvefyv, uwhkxvy kxfhtpj bfqqvs rzgaxnz w kxvyrfam am bvga-tmaepvsnv qgaaiy, vmyxgfmn ma hgfrfhwp pvrrvg ewy pvir axr ai axg hgjqrangwqzfh qxbbpv.ipwn{kcy54gnz}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'w', 'b': 'o', 'c': 'h', 'd': 's', 'e': 'v', 'f': 'i', 'g': 'n', 'h': 'z', 'i': 'f', 'j': 'u', 'k': 't', 'l': 'p', 'm': 'c', 'n': 'm', 'o': 'a', 'p': 'q', 'q': 'k', 'r': 'g', 's': 'y', 't': 'r', 'u': 'x', 'v': 'l', 'w': 'e', 'x': 'd', 'y': 'j', 'z': 'b'}
+subtype: substitution
+archetype: classical_cipher

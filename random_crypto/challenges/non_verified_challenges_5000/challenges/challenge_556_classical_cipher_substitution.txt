@@ -1,0 +1,15 @@
+An old hacker left a coded message for his protege. Can you decipher it? The secret lies in a simple substitution. Here it is: up twvfzdowxfmv, x rhjrzuzhzudp tufmlw ur x nlzmdy di lptwvfzupo up amutm hpuzr di fexupzlcz xwl wlfextly auzm zml tufmlwzlcz, up x yliuply nxpplw, auzm zml mlef di x qlv; zml "hpuzr" nxv jl rupoel elzzlwr (zml ndrz tdnndp), fxuwr di elzzlwr, zwufelzr di elzzlwr, nuczhwlr di zml xjdbl, xpy rd idwzm. zml wltlublw yltufmlwr zml zlcz jv flwidwnupo zml upblwrl rhjrzuzhzudp fwdtlrr zd lczwxtz zml dwuoupxe nlrrxol. euqlaurl, gxtshlr shutqev kuffly zmwdhom x shlrzudp dp klwd-qpdaelyol fwddir, lprhwupo pd twuzutxe elzzlw axr eliz dhz di dhw twvfzdowxfmut fhkkel.iexo{lcugf3ol}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{exijp3ge}
+ciphertext: up twvfzdowxfmv, x rhjrzuzhzudp tufmlw ur x nlzmdy di lptwvfzupo up amutm hpuzr di fexupzlcz xwl wlfextly auzm zml tufmlwzlcz, up x yliuply nxpplw, auzm zml mlef di x qlv; zml "hpuzr" nxv jl rupoel elzzlwr (zml ndrz tdnndp), fxuwr di elzzlwr, zwufelzr di elzzlwr, nuczhwlr di zml xjdbl, xpy rd idwzm. zml wltlublw yltufmlwr zml zlcz jv flwidwnupo zml upblwrl rhjrzuzhzudp fwdtlrr zd lczwxtz zml dwuoupxe nlrrxol. euqlaurl, gxtshlr shutqev kuffly zmwdhom x shlrzudp dp klwd-qpdaelyol fwddir, lprhwupo pd twuzutxe elzzlw axr eliz dhz di dhw twvfzdowxfmut fhkkel.iexo{lcugf3ol}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'x', 'b': 'j', 'c': 't', 'd': 'y', 'e': 'l', 'f': 'i', 'g': 'o', 'h': 'm', 'i': 'u', 'j': 'g', 'k': 'q', 'l': 'e', 'm': 'n', 'n': 'p', 'o': 'd', 'p': 'f', 'q': 's', 'r': 'w', 's': 'r', 't': 'z', 'u': 'h', 'v': 'b', 'w': 'a', 'x': 'c', 'y': 'v', 'z': 'k'}
+subtype: substitution
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+Someone split the flag using the ChunkedFlag cipher. Recover the original message from this ciphertext: fla g{ ik zdp 4bp }
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ikzdp4bp}
+ciphertext: fla g{ ik zdp 4bp }
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

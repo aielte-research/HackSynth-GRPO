@@ -1,0 +1,15 @@
+A mysterious figure sent you a message: ca qftdpwlfbdet, b gkxgpcpkpcwa qcdehf cg b ohpewm wr haqftdpcal ca vecqe kacpg wr dibcaphzp bfh fhdibqhm vcpe peh qcdehfphzp, ca b mhrcahm obaahf, vcpe peh ehid wr b yht; peh "kacpg" obt xh gcalih ihpphfg (peh owgp qwoowa), dbcfg wr ihpphfg, pfcdihpg wr ihpphfg, oczpkfhg wr peh bxwuh, bam gw rwfpe. peh fhqhcuhf mhqcdehfg peh phzp xt dhfrwfocal peh cauhfgh gkxgpcpkpcwa dfwqhgg pw hzpfbqp peh wfclcabi ohggblh. icyhvcgh, nbqjkhg jkcqyit scddhm pefwkle b jkhgpcwa wa shfw-yawvihmlh dfwwrg, hagkfcal aw qfcpcqbi ihpphf vbg ihrp wkp wr wkf qftdpwlfbdecq dkssih.ribl{tpe8u491}. Rumor says only those who master simple substitution can learn the secret within.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{yth8v491}
+ciphertext: ca qftdpwlfbdet, b gkxgpcpkpcwa qcdehf cg b ohpewm wr haqftdpcal ca vecqe kacpg wr dibcaphzp bfh fhdibqhm vcpe peh qcdehfphzp, ca b mhrcahm obaahf, vcpe peh ehid wr b yht; peh "kacpg" obt xh gcalih ihpphfg (peh owgp qwoowa), dbcfg wr ihpphfg, pfcdihpg wr ihpphfg, oczpkfhg wr peh bxwuh, bam gw rwfpe. peh fhqhcuhf mhqcdehfg peh phzp xt dhfrwfocal peh cauhfgh gkxgpcpkpcwa dfwqhgg pw hzpfbqp peh wfclcabi ohggblh. icyhvcgh, nbqjkhg jkcqyit scddhm pefwkle b jkhgpcwa wa shfw-yawvihmlh dfwwrg, hagkfcal aw qfcpcqbi ihpphf vbg ihrp wkp wr wkf qftdpwlfbdecq dkssih.ribl{tpe8u491}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'b', 'b': 'x', 'c': 'q', 'd': 'm', 'e': 'h', 'f': 'r', 'g': 'l', 'h': 'e', 'i': 'c', 'j': 'n', 'k': 'y', 'l': 'i', 'm': 'o', 'n': 'a', 'o': 'w', 'p': 'd', 'q': 'j', 'r': 'f', 's': 'g', 't': 'p', 'u': 'k', 'v': 'u', 'w': 'v', 'x': 'z', 'y': 't', 'z': 's'}
+subtype: substitution
+archetype: classical_cipher

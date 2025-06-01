@@ -1,0 +1,14 @@
+A hacker left a secret wallet key in the source code, but it's in a strange hex format. Can you decode it? Ciphertext: 666c61677b31703266686338657d
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{1p2fhc8e}
+cipher: Hex
+ciphertext: 666c61677b31703266686338657d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

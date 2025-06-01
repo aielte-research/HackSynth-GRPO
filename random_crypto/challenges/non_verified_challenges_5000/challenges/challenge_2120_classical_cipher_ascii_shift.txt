@@ -1,0 +1,15 @@
+An old hacker left you a note saying, "Shift my message and you'll find the wallet key." The note reads: oujpy;{;z>Ap
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{p2r2q58g}
+cipher: ASCII Shift
+ciphertext: oujpy;{;z>Ap
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 9
+subtype: ascii_shift
+archetype: classical_cipher

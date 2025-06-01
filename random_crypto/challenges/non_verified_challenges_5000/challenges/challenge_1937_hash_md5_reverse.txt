@@ -1,0 +1,17 @@
+
+An old hacker left a secret in an MD5 hash, counting on its weakness. Recover the original password from this a3a15fd7877c4cfe4e7e9692ffb49c9a to prove MD5's flaw.
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{dosho}
+ciphertext: a3a15fd7877c4cfe4e7e9692ffb49c9a
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

@@ -1,0 +1,16 @@
+A hacker intercepted your message! To keep secrets safe, you used a Vigenère cipher. Can you reveal the flag hidden in this ciphertext? fgfw{gt6iorse}
+
+The flag format is flag{...}
+The keyword is: avfqif
+
+---
+
+## Challenge Technical Details
+flag: flag{yo6itmcw}
+ciphertext: fgfw{gt6iorse}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: avfqif
+subtype: vigenere
+archetype: classical_cipher

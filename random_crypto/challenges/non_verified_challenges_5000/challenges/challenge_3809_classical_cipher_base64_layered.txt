@@ -1,0 +1,15 @@
+Intercepted at midnight, this encoded message hides the wallet key—decode it to unlock the vault: Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVd4YWRWRnNiRnBOTTBKSVZtMTRZV014WkhWaVJtUk9ZV3hhVFZkWGRHRlRNbEpJVldwYVZHSkhVbFJhVjNSWFRURmFjbFZyZEZSTlZUVkpWbTEwYTJGc1NuTlhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{7865swza}
+cipher: Base64
+ciphertext: Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVd4YWRWRnNiRnBOTTBKSVZtMTRZV014WkhWaVJtUk9ZV3hhVFZkWGRHRlRNbEpJVldwYVZHSkhVbFJhVjNSWFRURmFjbFZyZEZSTlZUVkpWbTEwYTJGc1NuTlhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 9 times in total.
+subtype: base64_layered
+archetype: classical_cipher

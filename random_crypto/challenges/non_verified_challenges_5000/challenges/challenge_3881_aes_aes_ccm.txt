@@ -1,0 +1,20 @@
+
+Intercepted transmission: The rival syndicate encrypted a meeting location using AES. Decrypt ciphertext1:36c0086a7bd5e433223486203e4d, ciphertext2: 36c0086a7bc9e63a2e3bdd24304d to uncover where the exchange will take place.
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{jtbny62j}
+ciphertext: ciphertext1:36c0086a7bd5e433223486203e4d, ciphertext2: 36c0086a7bc9e63a2e3bdd24304d
+tag1: a4bdae4b0b4e2c58f55a31376f57fa09
+tag2: 4c5d7e948878989cfa713043f6913f7e
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 278b5bf32ffe0a925e2fda
+subtype: aes_ccm
+archetype: aes

@@ -1,0 +1,15 @@
+An old hacker left a clue at a digital rail station: fa{gwrnlghbfi}. Decode his Rail Fence note to find the access code he hid.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{hgbwfrin}
+ciphertext: fa{gwrnlghbfi}
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 2
+subtype: rail_fence
+archetype: classical_cipher

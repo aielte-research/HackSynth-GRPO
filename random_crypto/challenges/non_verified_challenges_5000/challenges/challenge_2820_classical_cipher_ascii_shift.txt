@@ -1,0 +1,15 @@
+An agent left a secret in the codebase, but shifted every ASCII character by 5. Can you recover the message from this encoded string? jpeko;gge7:x
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{k7cca36t}
+cipher: ASCII Shift
+ciphertext: jpeko;gge7:x
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 4
+subtype: ascii_shift
+archetype: classical_cipher

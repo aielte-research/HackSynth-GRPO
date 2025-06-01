@@ -1,0 +1,15 @@
+The archivist hid the next clue behind a simple Caesar shift. Can you decode this classic cipher? Here’s the encrypted message: cixd{xrgsur64}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{aujvxu64}
+ciphertext: cixd{xrgsur64}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 23
+subtype: caesar
+archetype: classical_cipher

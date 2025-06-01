@@ -1,0 +1,15 @@
+An old pirate map reveals a hidden message. Decipher the treasure instructions encrypted below using the Rail Fence cipher: fa{uy4qlgnn75}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{nuny745q}
+ciphertext: fa{uy4qlgnn75}
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 2
+subtype: rail_fence
+archetype: classical_cipher

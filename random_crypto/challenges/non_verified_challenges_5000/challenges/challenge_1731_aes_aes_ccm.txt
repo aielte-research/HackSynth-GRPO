@@ -1,0 +1,18 @@
+The hacker intercepted a secret transmission, but it's encrypted with AES. Can you recover the message and uncover the syndicate’s plan? Ciphertext: ciphertext1:e9beca8268c577e9b6e9da478ea3, ciphertext2: e9beca8268c86ffdf3ec8f589aa3
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{jnf7tafe}
+ciphertext: ciphertext1:e9beca8268c577e9b6e9da478ea3, ciphertext2: e9beca8268c86ffdf3ec8f589aa3
+tag1: 60b03a5240fc691537994f9840d44f51
+tag2: b98418e89f31c63b3a4c12f509360c8e
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 0b654bfd55289dacd4e75f
+subtype: aes_ccm
+archetype: aes

@@ -1,0 +1,14 @@
+An ancient scroll holds a hidden message from a secret society. Decipher their words to reveal the password: uozt{kedtb9un}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{pvwgy9fm}
+cipher: Atbash
+ciphertext: uozt{kedtb9un}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

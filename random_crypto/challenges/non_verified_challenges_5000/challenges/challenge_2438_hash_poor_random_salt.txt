@@ -1,0 +1,19 @@
+An intern hashed passwords with SHA-256, using a timestamp as the salt. Crack the hash: 6d506c8a46a044373bcc7f7de8426c36afffae425195ebaadfe6afb2bf827cbf
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{3am}
+ciphertext: 6d506c8a46a044373bcc7f7de8426c36afffae425195ebaadfe6afb2bf827cbf
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

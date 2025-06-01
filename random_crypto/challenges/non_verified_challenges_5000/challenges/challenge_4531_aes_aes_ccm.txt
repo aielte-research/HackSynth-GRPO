@@ -1,0 +1,18 @@
+A spy encoded a secret using AES. Can you retrieve the original message from this ciphertext? ciphertext1:c27e0713894bb44b2f44b9b85989, ciphertext2: c27e0713891efa453c58b1f10089
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{08cwyzq1}
+ciphertext: ciphertext1:c27e0713894bb44b2f44b9b85989, ciphertext2: c27e0713891efa453c58b1f10089
+tag1: 0f14cfa9d8c21d2cb9a7ef1afb8528fd
+tag2: ad9f494a37932411a73fb0b2925eb639
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 945bf47d81dbc938b6fc7e
+subtype: aes_ccm
+archetype: aes

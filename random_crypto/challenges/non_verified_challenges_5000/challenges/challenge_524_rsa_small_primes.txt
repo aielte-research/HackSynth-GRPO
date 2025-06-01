@@ -1,0 +1,18 @@
+Our intern used tiny primes to speed up RSA. Recover the secret from 10859470155782898825 before their embarrassing mistake is found.
+
+The flag format is flag{...}
+n=12883155595930242619, e=6388256927786027863
+
+---
+
+## Challenge Technical Details
+flag: flag{l5g5dwv1}
+cipher: RSA
+ciphertext: 10859470155782898825
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=12883155595930242619, e=6388256927786027863
+extra_info: p=4171859227, q=3088108897, φ(n)=12883155588670274496
+subtype: small_primes
+archetype: rsa

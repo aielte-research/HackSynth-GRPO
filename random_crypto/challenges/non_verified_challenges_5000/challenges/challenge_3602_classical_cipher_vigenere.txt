@@ -1,0 +1,16 @@
+Agent Vega left a hidden message for extraction. Decode the Vigenère-encrypted text below to retrieve the safehouse coordinates: hkjs{tg6q3wjw}
+
+The flag format is flag{...}
+The keyword is: czjm
+
+---
+
+## Challenge Technical Details
+flag: flag{rh6h3khx}
+ciphertext: hkjs{tg6q3wjw}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: czjm
+subtype: vigenere
+archetype: classical_cipher

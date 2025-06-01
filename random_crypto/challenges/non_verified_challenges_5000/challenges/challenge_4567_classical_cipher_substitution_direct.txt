@@ -1,0 +1,21 @@
+An intercepted message reads nepv{ogxkgez9}. Rumor says the spy used a simple Substitution cipher. Can you recover the plaintext?
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'p', 'b': 'y', 'c': 'g', 'd': 'x', 'e': 'k', 'f': 'n', 'g': 'v', 'h': 't', 'i': 'c', 'j': 'a', 'k': 'f', 'l': 'e', 'm': 'j', 'n': 'o', 'o': 'b', 'p': 'r', 'q': 'l', 'r': 's', 's': 'm', 't': 'i', 'u': 'w', 'v': 'u', 'w': 'q', 'x': 'd', 'y': 'z', 'z': 'h'}
+
+---
+
+## Challenge Technical Details
+flag: flag{ncdecly9}
+cipher: Substitution
+ciphertext: nepv{ogxkgez9}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'p', 'b': 'y', 'c': 'g', 'd': 'x', 'e': 'k', 'f': 'n', 'g': 'v', 'h': 't', 'i': 'c', 'j': 'a', 'k': 'f', 'l': 'e', 'm': 'j', 'n': 'o', 'o': 'b', 'p': 'r', 'q': 'l', 'r': 's', 's': 'm', 't': 'i', 'u': 'w', 'v': 'u', 'w': 'q', 'x': 'd', 'y': 'z', 'z': 'h'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

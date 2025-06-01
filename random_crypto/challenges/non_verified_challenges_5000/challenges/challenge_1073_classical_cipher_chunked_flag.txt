@@ -1,0 +1,17 @@
+
+An intercepted message uses the experimental ChunkedFlag cipher. Analysts can't break it—can you recover the flag from this ciphertext? fl ag{ iv9 ki aba }
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{iv9kiaba}
+ciphertext: fl ag{ iv9 ki aba }
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

@@ -1,0 +1,17 @@
+The archivist found a torn note in Alan Turing’s notebook; legend says the keyword cracks the code. Can you decrypt this Playfair-encrypted message? vgkqmuuldgchewifznqvmuuldgyvybcxikzvifgxtvkokqmuuldgchewifzhtutglcumyutakgvxhdhkhcqswgkopghnohybgboctdtvifgeyvsmgwhqumiohxgtyfupwgsawgkodhvehqlsgmwqesca
+
+The flag format is flag{...}
+The keyword is: qyqxrzbu
+
+---
+
+## Challenge Technical Details
+flag: flag{1pz7fpau}
+ciphertext: vgkqmuuldgchewifznqvmuuldgyvybcxikzvifgxtvkokqmuuldgchewifzhtutglcumyutakgvxhdhkhcqswgkopghnohybgboctdtvifgeyvsmgwhqumiohxgtyfupwgsawgkodhvehqlsgmwqesca
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: qyqxrzbu
+extra_info: The playfair table is [['q', 'y', 'x', 'r', 'z'], ['b', 'u', 'a', 'c', 'd'], ['e', 'f', 'g', 'h', 'i'], ['k', 'l', 'm', 'n', 'o'], ['p', 's', 't', 'v', 'w']]
+subtype: playfair
+archetype: classical_cipher

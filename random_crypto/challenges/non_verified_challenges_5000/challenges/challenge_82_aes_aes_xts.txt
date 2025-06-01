@@ -1,0 +1,17 @@
+
+A rogue sysadmin encrypted the vault coordinates using AES-XTS. Recover the original location from the ciphertext: ciphertext1:454d4b47fc84661488eaf868807149ab, ciphertext2: 457ed98060c0e8e4a768b2847ef0150dfe060cd98c46b7c78ed3038985c8fdd3
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{etgi80pj}
+ciphertext: ciphertext1:454d4b47fc84661488eaf868807149ab, ciphertext2: 457ed98060c0e8e4a768b2847ef0150dfe060cd98c46b7c78ed3038985c8fdd3
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 8d8a2b97e1043d8a662007a0da95b71f
+subtype: aes_xts
+archetype: aes

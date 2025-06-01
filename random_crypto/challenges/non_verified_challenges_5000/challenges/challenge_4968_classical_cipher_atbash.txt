@@ -1,0 +1,14 @@
+An old manuscript reveals a secret society’s code; they claimed the alphabet's end hides truth. Solve their message: uozt{mxdz478u}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ncwa478f}
+cipher: Atbash
+ciphertext: uozt{mxdz478u}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

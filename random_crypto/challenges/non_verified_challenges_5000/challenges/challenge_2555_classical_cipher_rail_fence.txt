@@ -1,0 +1,15 @@
+Agent Z hid the access code in a message scrambled with the Rail Fence cipher. Can you reconstruct the code from the ciphertext? Here it is: fa{qs45lgieq6}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{iqesq465}
+ciphertext: fa{qs45lgieq6}
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 2
+subtype: rail_fence
+archetype: classical_cipher

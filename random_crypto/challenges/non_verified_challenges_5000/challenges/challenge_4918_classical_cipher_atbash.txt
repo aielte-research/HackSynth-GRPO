@@ -1,0 +1,14 @@
+A mysterious message, rumored to reveal the key to an ancient vault, was encoded using a cipher once favored by secret societies: uozt{q8vrmht4}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{j8einsg4}
+cipher: Atbash
+ciphertext: uozt{q8vrmht4}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

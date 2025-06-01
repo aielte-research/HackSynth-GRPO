@@ -1,0 +1,15 @@
+The hacker intercepted a secret transmission protected by a simple XOR cipher. Can you recover the hidden message from the code below? stringA: 281e06261e2f7b27005b40364308 stringB: 4e72674165464e4f7832344c3275
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{i5hxitzq}
+cipher: XOR
+ciphertext: stringA: 281e06261e2f7b27005b40364308 stringB: 4e72674165464e4f7832344c3275
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

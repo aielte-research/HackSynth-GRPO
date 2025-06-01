@@ -1,0 +1,15 @@
+An old hacker left a Base85-encrypted flag inside this snippet: Q8+7fbYyZsPf15ALm_fVLM1IeN?KPfc2Ff%SSwgbMl^6_duusAL~b-YSwVI=F)3D0R3u1Cenxj@Lw;c}cv5*{OKw(BJWK. Can you reveal the hidden message?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{pzpfqsfi}
+cipher: Base85
+ciphertext: Q8+7fbYyZsPf15ALm_fVLM1IeN?KPfc2Ff%SSwgbMl^6_duusAL~b-YSwVI=F)3D0R3u1Cenxj@Lw;c}cv5*{OKw(BJWK
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 8 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

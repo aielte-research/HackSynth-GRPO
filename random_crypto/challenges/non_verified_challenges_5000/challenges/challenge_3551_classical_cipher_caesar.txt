@@ -1,0 +1,15 @@
+A secret Roman message was intercepted. Decipher the Caesar-encrypted text below to reveal its hidden instruction: gmbh{z5xq5p4m}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{y5wp5o4l}
+ciphertext: gmbh{z5xq5p4m}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 1
+subtype: caesar
+archetype: classical_cipher

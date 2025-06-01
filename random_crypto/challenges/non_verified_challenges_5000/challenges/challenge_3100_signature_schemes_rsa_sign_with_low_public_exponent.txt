@@ -1,0 +1,14 @@
+Intercepted during an urgent message broadcast, this digital signature was sent with suspiciously small encryption parameters. Analyze 0x703374e823aa9d2e0ee005c2ab243efe408743c87baffdc5cd3caedb8f64fbb821026384bf08b3c64fc639530d4bb85b865fa37121a2e979f0ba2d978c0d4331 to reveal its secrets.
+
+Public Key (n, e): (10019959569538961786158500397764530766937418721287740617485320703896624114623485219606959350288581482792349019801908624543703327533948355536021197501293061, 3)
+
+---
+
+## Challenge Technical Details
+flag: flag{pp1psouy}
+ciphertext: 0x703374e823aa9d2e0ee005c2ab243efe408743c87baffdc5cd3caedb8f64fbb821026384bf08b3c64fc639530d4bb85b865fa37121a2e979f0ba2d978c0d4331
+cipher: RSA Low-Exponent Signature
+hint: What happens when you cube small numbers? Remember e=3!
+necessary_info: Public Key (n, e): (10019959569538961786158500397764530766937418721287740617485320703896624114623485219606959350288581482792349019801908624543703327533948355536021197501293061, 3)
+subtype: rsa_sign_with_low_public_exponent
+archetype: signature_schemes

@@ -1,0 +1,24 @@
+A hacker left a SHA-256 hash on a bulletin board. Can you recover the original password from the hash? The hash: 7e155a6817fe27978f0ff2c4113a589d85e7b3fa5e2fe7e511c69e428d7e0431
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{yy8s}
+ciphertext: 7e155a6817fe27978f0ff2c4113a589d85e7b3fa5e2fe7e511c69e428d7e0431
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

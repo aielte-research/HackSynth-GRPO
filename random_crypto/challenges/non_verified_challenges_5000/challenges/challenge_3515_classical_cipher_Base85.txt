@@ -1,0 +1,15 @@
+An old hacker left a message for their protégé. All that's left is this strange Base85 code: W^7?+do*%oYG!L>X?*. Can you reveal the hidden secret?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{4rejfkdi}
+cipher: Base85
+ciphertext: W^7?+do*%oYG!L>X?*
+hint: Use a Base85 decoder to retrieve the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is straightforward; only one layer is used.
+subtype: Base85
+archetype: classical_cipher

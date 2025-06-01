@@ -1,0 +1,16 @@
+We found a message encrypted in AES-ECB, but the key looks suspiciously short. Can you recover the plaintext from this ciphertext? a6517bb2dcf5dfe3899a7939a4a6e3df
+
+An encryption key that is only 2 bytes long?.
+
+---
+
+## Challenge Technical Details
+flag: flag{qd1ioqat}
+ciphertext: a6517bb2dcf5dfe3899a7939a4a6e3df
+cipher: AES-ECB
+vulnerability: small key padded with null bytes
+hint: ECB mode with a short key makes brute-forcing possible. Consider the small key entropy.
+necessary_info: An encryption key that is only 2 bytes long?.
+extra_info: Padding follows PKCS#7. The key is padded to 16 bytes with null bytes.
+subtype: weak_cookie_encryption
+archetype: web_crypto

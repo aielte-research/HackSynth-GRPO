@@ -1,0 +1,18 @@
+A mysterious hacker sent you a file encrypted with AES. They claim ciphertext1:afe5936bafb2e12c5f7e7e6acd2d, ciphertext2: afe5936bafb7a528586e3323d22d hides the key to their next puzzle. Can you decrypt it?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{q55qv93k}
+ciphertext: ciphertext1:afe5936bafb2e12c5f7e7e6acd2d, ciphertext2: afe5936bafb7a528586e3323d22d
+tag1: 8e45778648fd292b060a596af007a2e4
+tag2: f9fc7d1acbdaceb71c5fd88c8e84bef3
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 600f8bd43236c037d9cef4
+subtype: aes_ccm
+archetype: aes

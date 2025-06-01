@@ -1,0 +1,15 @@
+An anonymous hacker left a scrambled clue on your terminal, encrypted with a simple ASCII Shift cipher. Can you recover the original message? mshn{{pmmzw
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ttiffsyp}
+cipher: ASCII Shift
+ciphertext: mshn{{pmmzw
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 7
+subtype: ascii_shift
+archetype: classical_cipher

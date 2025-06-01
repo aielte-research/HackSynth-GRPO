@@ -1,0 +1,15 @@
+A hacker left an encoded password on a terminal, encrypted with an ASCII Shift cipher. Can you recover the original text from this message? mshn9zh{pjrx
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{2satickq}
+cipher: ASCII Shift
+ciphertext: mshn9zh{pjrx
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 7
+subtype: ascii_shift
+archetype: classical_cipher

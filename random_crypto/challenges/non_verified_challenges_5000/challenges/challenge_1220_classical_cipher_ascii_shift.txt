@@ -1,0 +1,15 @@
+An anonymous hacker sent you a coded message: kqfl78{hk~~;. Legend says shifting the letters reveals the secret. Can you crack it?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{23vcfyy6}
+cipher: ASCII Shift
+ciphertext: kqfl78{hk~~;
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 5
+subtype: ascii_shift
+archetype: classical_cipher

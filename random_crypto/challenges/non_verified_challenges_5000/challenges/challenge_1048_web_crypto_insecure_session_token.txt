@@ -1,0 +1,12 @@
+An intern built a login system with weak session tokens. They've encrypted your token below using the Insecure Session Token cipher. Can you recover the original session? 757365725f316a32693a666c61677b79386162307173617d3a31373438313635343736
+
+---
+
+## Challenge Technical Details
+flag: flag{y8ab0qsa}
+ciphertext: 757365725f316a32693a666c61677b79386162307173617d3a31373438313635343736
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_1j2i:flag{y8ab0qsa}:1748165476'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

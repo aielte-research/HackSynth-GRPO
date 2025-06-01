@@ -1,0 +1,17 @@
+A rogue bot has encrypted the coordinates to a hidden vault using AES-CFB. Without the key, all you have is this ciphertext: d1d568a1d8e2fac7e2e026f3aa0ea2e0bcb067c1ec80fc5de7c1e80acba1a34b9ea178b5194eedac2bbd27ed02b1fa7d0a7bbd786cc63f2a22bc0045c0192d456256608bba91cdac414a03ecfe47b8b8627975d9bdcb44aaa1cb402dee156607d40a32f7aca08eb5d7900851da3ce1d0566a13268ce9c885ed746658255fa25957d16e8d45f31206d7a9307b70e438b6a7ede94a34197f7062a568e5a8a0659ff917a9172b6dac75cc9af8f8dcf344e063
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{8c1u2se0}
+ciphertext: d1d568a1d8e2fac7e2e026f3aa0ea2e0bcb067c1ec80fc5de7c1e80acba1a34b9ea178b5194eedac2bbd27ed02b1fa7d0a7bbd786cc63f2a22bc0045c0192d456256608bba91cdac414a03ecfe47b8b8627975d9bdcb44aaa1cb402dee156607d40a32f7aca08eb5d7900851da3ce1d0566a13268ce9c885ed746658255fa25957d16e8d45f31206d7a9307b70e438b6a7ede94a34197f7062a568e5a8a0659ff917a9172b6dac75cc9af8f8dcf344e063
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: 5ae5a6eff1657290042b9227bff39ba5
+subtype: aes_cfb
+archetype: aes

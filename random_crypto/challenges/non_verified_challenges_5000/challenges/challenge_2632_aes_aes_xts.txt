@@ -1,0 +1,15 @@
+You've intercepted a top-secret disk sector, encrypted with AES-XTS. Only by decrypting ciphertext1:d9bb4a034064dc5b1b2dd9eec72206ae, ciphertext2: 87f2c71afc70e1953eab818c387a8e942922fb0685409c4ac06355f466dda2a8 can you extract the mission details within.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{09qjsorm}
+ciphertext: ciphertext1:d9bb4a034064dc5b1b2dd9eec72206ae, ciphertext2: 87f2c71afc70e1953eab818c387a8e942922fb0685409c4ac06355f466dda2a8
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 6c2633f1553d9282d0a0da469eb6436b
+subtype: aes_xts
+archetype: aes

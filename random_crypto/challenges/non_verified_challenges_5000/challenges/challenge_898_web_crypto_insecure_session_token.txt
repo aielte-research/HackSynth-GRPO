@@ -1,0 +1,14 @@
+
+A careless developer used the insecure "SessionToken" cipher for user authentication. Can you recover the original session info from this suspicious token? 757365725f646d37353a666c61677b6f6969336c6173307d3a31373437343833303834
+
+
+---
+
+## Challenge Technical Details
+flag: flag{oii3las0}
+ciphertext: 757365725f646d37353a666c61677b6f6969336c6173307d3a31373437343833303834
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_dm75:flag{oii3las0}:1747483084'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

@@ -1,0 +1,17 @@
+
+An archaeologist found an encoded note in an old ledger. It reads: Q8+6%W@1@+T60ilF*QL<ZC_?qOieLKWlld!P-bH?P(&eDa7KM4Qde(6a!4aVOk!4WY(79qL1TO}OEhI{R9Yo-GI2|HCOJY(V0m;nWPMCaZ(1oKUnW^4eg. Legend says it's Base85. Can you reveal the secret message?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{1vdu5kgc}
+cipher: Base85
+ciphertext: Q8+6%W@1@+T60ilF*QL<ZC_?qOieLKWlld!P-bH?P(&eDa7KM4Qde(6a!4aVOk!4WY(79qL1TO}OEhI{R9Yo-GI2|HCOJY(V0m;nWPMCaZ(1oKUnW^4eg
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 9 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

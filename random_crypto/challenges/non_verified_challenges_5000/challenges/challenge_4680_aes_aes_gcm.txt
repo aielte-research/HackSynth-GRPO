@@ -1,0 +1,18 @@
+A frantic intern reused the nonce encrypting two different documents with AES-GCM. The leaked ciphertexts are below—can you uncover the plaintexts? ciphertext1:f30503290e69f07ebd9d6fe7be7b, ciphertext2: e1010b3d556aec6da4987ebebd263b3dff34
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{jo3wjeyb}
+ciphertext: ciphertext1:f30503290e69f07ebd9d6fe7be7b, ciphertext2: e1010b3d556aec6da4987ebebd263b3dff34
+tag1: 9aa4489a2d28ff18a0a56cb03f6ea73a
+tag2: dd7647132f817c3aab9fa8cd9c25df81
+cipher: AES-GCM
+vulnerability: nonce reuse
+hint: AES-GCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 86e0be4776f23b7c2a99d16d
+subtype: aes_gcm
+archetype: aes

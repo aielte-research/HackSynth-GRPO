@@ -1,0 +1,21 @@
+A notorious hacker sent you a message encrypted with a classic substitution cipher. Crack the code to reveal the secret phrase: yijw{jxpqnzht}
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'j', 'b': 'f', 'c': 'k', 'd': 'h', 'e': 'd', 'f': 'y', 'g': 'w', 'h': 'q', 'i': 'u', 'j': 'b', 'k': 'x', 'l': 'i', 'm': 't', 'n': 'z', 'o': 'c', 'p': 'o', 'q': 's', 'r': 'n', 's': 'p', 't': 'r', 'u': 'e', 'v': 'a', 'w': 'v', 'x': 'l', 'y': 'g', 'z': 'm'}
+
+---
+
+## Challenge Technical Details
+flag: flag{akshrndm}
+cipher: Substitution
+ciphertext: yijw{jxpqnzht}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'j', 'b': 'f', 'c': 'k', 'd': 'h', 'e': 'd', 'f': 'y', 'g': 'w', 'h': 'q', 'i': 'u', 'j': 'b', 'k': 'x', 'l': 'i', 'm': 't', 'n': 'z', 'o': 'c', 'p': 'o', 'q': 's', 'r': 'n', 's': 'p', 't': 'r', 'u': 'e', 'v': 'a', 'w': 'v', 'x': 'l', 'y': 'g', 'z': 'm'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

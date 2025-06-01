@@ -1,0 +1,11 @@
+A hacker intercepted a JWT while sneaking into a company's API. Can you extract the secrets hidden within? Here is the token: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tubXEwNnFsOH0ifQ.
+
+---
+
+## Challenge Technical Details
+flag: flag{nmq06ql8}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tubXEwNnFsOH0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

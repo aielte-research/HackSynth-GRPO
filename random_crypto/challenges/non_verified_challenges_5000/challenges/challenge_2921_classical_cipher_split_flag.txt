@@ -1,0 +1,15 @@
+A message hidden in a puzzle box uses the SplitNumberMix cipher. Can you decode  55555555 f 55555555 lag{jifryzfn} 55555555  and reveal the secret left by the box’s creator?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{jifryzfn}
+ciphertext:  55555555 f 55555555 lag{jifryzfn} 55555555 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 2 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

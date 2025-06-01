@@ -1,0 +1,11 @@
+Intercepted from a hacker's tool, the eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3szMGkzZjRjMH0ifQ. token hides access to a secret API. Can you uncover the payload and extract the admin's hidden flag?
+
+---
+
+## Challenge Technical Details
+flag: flag{30i3f4c0}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3szMGkzZjRjMH0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

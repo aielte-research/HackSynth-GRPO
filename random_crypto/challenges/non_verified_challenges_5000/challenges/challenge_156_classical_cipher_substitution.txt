@@ -1,0 +1,15 @@
+A rogue AI hid a password using a substitution cipher. Decode bx emcslanmkstc, k dyvdlblylbax ebstrm bd k jrltau ag rxemcslbxn bx itbet yxbld ag swkbxlrzl kmr mrswkeru iblt ltr ebstrmlrzl, bx k urgbxru jkxxrm, iblt ltr trws ag k qrc; ltr "yxbld" jkc vr dbxnwr wrllrmd (ltr jadl eajjax), skbmd ag wrllrmd, lmbswrld ag wrllrmd, jbzlymrd ag ltr kvafr, kxu da gamlt. ltr mrerbfrm urebstrmd ltr lrzl vc srmgamjbxn ltr bxfrmdr dyvdlblylbax smaerdd la rzlmkel ltr ambnbxkw jrddknr. wbqribdr, hkeoyrd oybeqwc pbssru ltmaynt k oyrdlbax ax prma-qxaiwrunr smaagd, rxdymbxn xa emblbekw wrllrm ikd wrgl ayl ag aym emcslanmkstbe syppwr.gwkn{0npuxbfg} to recover the key and regain control.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{0gzdnivf}
+ciphertext: bx emcslanmkstc, k dyvdlblylbax ebstrm bd k jrltau ag rxemcslbxn bx itbet yxbld ag swkbxlrzl kmr mrswkeru iblt ltr ebstrmlrzl, bx k urgbxru jkxxrm, iblt ltr trws ag k qrc; ltr "yxbld" jkc vr dbxnwr wrllrmd (ltr jadl eajjax), skbmd ag wrllrmd, lmbswrld ag wrllrmd, jbzlymrd ag ltr kvafr, kxu da gamlt. ltr mrerbfrm urebstrmd ltr lrzl vc srmgamjbxn ltr bxfrmdr dyvdlblylbax smaerdd la rzlmkel ltr ambnbxkw jrddknr. wbqribdr, hkeoyrd oybeqwc pbssru ltmaynt k oyrdlbax ax prma-qxaiwrunr smaagd, rxdymbxn xa emblbekw wrllrm ikd wrgl ayl ag aym emcslanmkstbe syppwr.gwkn{0npuxbfg}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'k', 'b': 'v', 'c': 'e', 'd': 'u', 'e': 'r', 'f': 'g', 'g': 'n', 'h': 't', 'i': 'b', 'j': 'h', 'k': 'q', 'l': 'w', 'm': 'j', 'n': 'x', 'o': 'a', 'p': 's', 'q': 'o', 'r': 'm', 's': 'd', 't': 'l', 'u': 'y', 'v': 'f', 'w': 'i', 'x': 'z', 'y': 'c', 'z': 'p'}
+subtype: substitution
+archetype: classical_cipher

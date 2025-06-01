@@ -1,0 +1,19 @@
+A careless coder hashed passwords with SHA-256 and predictable random salts. Crack the hash from their database: 838f8354c98d43ac9007f1a1712b7d1aa3cd64a34613ad9b95f1e3d7dceae5d4
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{7hh}
+ciphertext: 838f8354c98d43ac9007f1a1712b7d1aa3cd64a34613ad9b95f1e3d7dceae5d4
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

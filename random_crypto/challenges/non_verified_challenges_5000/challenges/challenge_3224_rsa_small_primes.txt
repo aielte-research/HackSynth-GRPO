@@ -1,0 +1,18 @@
+You intercepted a secret message hidden with RSA, but the sender carelessly used very small primes. Can you break the weak encryption? Ciphertext: 1174962250832423862
+
+The flag format is flag{...}
+n=12227727002236536683, e=6127229194806649693
+
+---
+
+## Challenge Technical Details
+flag: flag{jntwuk0a}
+cipher: RSA
+ciphertext: 1174962250832423862
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=12227727002236536683, e=6127229194806649693
+extra_info: p=3304534097, q=3700287739, φ(n)=12227726995231714848
+subtype: small_primes
+archetype: rsa

@@ -1,0 +1,15 @@
+The hacker left a coded message for their partner. Can you crack the substitution cipher and reveal what’s hidden in ih vmlgbapmqgol, q yrdybibrbiah vigojm iy q ejboas an jhvmlgbihp ih woivo rhiby an gtqihbjub qmj mjgtqvjs wibo boj vigojmbjub, ih q sjnihjs eqhhjm, wibo boj ojtg an q xjl; boj "rhiby" eql dj yihptj tjbbjmy (boj eayb vaeeah), gqimy an tjbbjmy, bmigtjby an tjbbjmy, eiubrmjy an boj qdacj, qhs ya nambo. boj mjvjicjm sjvigojmy boj bjub dl gjmnameihp boj ihcjmyj yrdybibrbiah gmavjyy ba jubmqvb boj amipihqt ejyyqpj. tixjwiyj, zqvkrjy krivxtl figgjs bomarpo q krjybiah ah fjma-xhawtjspj gmaany, jhyrmihp ha vmibivqt tjbbjm wqy tjnb arb an arm vmlgbapmqgoiv grfftj.ntqp{oxwd08wm}?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{hkwb08wr}
+ciphertext: ih vmlgbapmqgol, q yrdybibrbiah vigojm iy q ejboas an jhvmlgbihp ih woivo rhiby an gtqihbjub qmj mjgtqvjs wibo boj vigojmbjub, ih q sjnihjs eqhhjm, wibo boj ojtg an q xjl; boj "rhiby" eql dj yihptj tjbbjmy (boj eayb vaeeah), gqimy an tjbbjmy, bmigtjby an tjbbjmy, eiubrmjy an boj qdacj, qhs ya nambo. boj mjvjicjm sjvigojmy boj bjub dl gjmnameihp boj ihcjmyj yrdybibrbiah gmavjyy ba jubmqvb boj amipihqt ejyyqpj. tixjwiyj, zqvkrjy krivxtl figgjs bomarpo q krjybiah ah fjma-xhawtjspj gmaany, jhyrmihp ha vmibivqt tjbbjm wqy tjnb arb an arm vmlgbapmqgoiv grfftj.ntqp{oxwd08wm}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'q', 'b': 'd', 'c': 'v', 'd': 's', 'e': 'j', 'f': 'n', 'g': 'p', 'h': 'o', 'i': 'i', 'j': 'z', 'k': 'x', 'l': 't', 'm': 'e', 'n': 'h', 'o': 'a', 'p': 'g', 'q': 'k', 'r': 'm', 's': 'y', 't': 'b', 'u': 'r', 'v': 'c', 'w': 'w', 'x': 'u', 'y': 'l', 'z': 'f'}
+subtype: substitution
+archetype: classical_cipher

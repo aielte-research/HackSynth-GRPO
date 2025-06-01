@@ -1,0 +1,24 @@
+Someone hashed the top-secret flag with SHA-256, but only left the hash: 021f71f35bff51cfc36655f67bf9cfaa15f97d7326f576b68cf5b9b20fd5f768. Can you recover the original message?
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{pok8}
+ciphertext: 021f71f35bff51cfc36655f67bf9cfaa15f97d7326f576b68cf5b9b20fd5f768
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

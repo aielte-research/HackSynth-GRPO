@@ -1,0 +1,17 @@
+An old diary contains poctrlvndapacqoctlsqrlvndastpvlwotwbocertpmxctrlvndapacqocqardldgylrynonodpsaidxapusqemxzohpfdpvcddmbltpocikstroeqatlreabpdlpynrqepzqemxiaupatbkcbzv—but its owner loved Victorian ciphers. Can you break the secret using Playfair?
+
+The flag format is flag{...}
+The keyword is: gfbnxcfi
+
+---
+
+## Challenge Technical Details
+flag: flag{2y322u33}
+ciphertext: poctrlvndapacqoctlsqrlvndastpvlwotwbocertpmxctrlvndapacqocqardldgylrynonodpsaidxapusqemxzohpfdpvcddmbltpocikstroeqatlreabpdlpynrqepzqemxiaupatbkcbzv
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: gfbnxcfi
+extra_info: The playfair table is [['g', 'f', 'b', 'n', 'x'], ['c', 'i', 'a', 'd', 'e'], ['h', 'k', 'l', 'm', 'o'], ['p', 'q', 'r', 's', 't'], ['u', 'v', 'w', 'y', 'z']]
+subtype: playfair
+archetype: classical_cipher

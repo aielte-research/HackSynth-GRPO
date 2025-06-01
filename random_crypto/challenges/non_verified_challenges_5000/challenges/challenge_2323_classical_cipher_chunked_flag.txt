@@ -1,0 +1,15 @@
+The notorious hacker ByteBeard split the flag into mysterious chunks and encrypted them. Can you piece it together and decrypt with the ChunkedFlag cipher? fl ag {rq di ma2 6}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{rqdima26}
+ciphertext: fl ag {rq di ma2 6}
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

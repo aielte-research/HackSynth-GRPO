@@ -1,0 +1,20 @@
+
+A rookie hacker encrypted the secret flag with RSA, but carelessly chose tiny primes. Can you recover the message from this ciphertext? 4169697053505322934
+
+
+The flag format is flag{...}
+n=7367227749971142943, e=5060411966320976019
+
+---
+
+## Challenge Technical Details
+flag: flag{0ixip66o}
+cipher: RSA
+ciphertext: 4169697053505322934
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=7367227749971142943, e=5060411966320976019
+extra_info: p=3202921277, q=2300158859, φ(n)=7367227744468062808
+subtype: small_primes
+archetype: rsa

@@ -1,0 +1,15 @@
+A hacker intercepted a secret message encoded in Base85. Can you decode Q8+7fbYyZsPf15ALm_fVLM1IeN?KPfc2Fd5cuizcHEK;vKsz)=NJJ_lBTZ6!Fh)>ANn;^YGG;t=WO779byaU;J#$zsYHI to reveal the confidential instructions?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ehrod4nw}
+cipher: Base85
+ciphertext: Q8+7fbYyZsPf15ALm_fVLM1IeN?KPfc2Fd5cuizcHEK;vKsz)=NJJ_lBTZ6!Fh)>ANn;^YGG;t=WO779byaU;J#$zsYHI
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 8 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

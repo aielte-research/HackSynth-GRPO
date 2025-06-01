@@ -1,0 +1,15 @@
+An intern tried to hide the admin password using MD5 hashing, unaware of its weaknesses. Can you reverse the hash and reveal their secret? d62cd45a48cbac0fed856d1f44ef58e1
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{UPP-P}
+ciphertext: d62cd45a48cbac0fed856d1f44ef58e1
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

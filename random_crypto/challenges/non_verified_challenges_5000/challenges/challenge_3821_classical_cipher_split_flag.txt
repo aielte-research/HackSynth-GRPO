@@ -1,0 +1,15 @@
+A hacker split a secret code into odd and even digits, then mixed the parts. Can you recover the message from the ciphertext below?  999999999 flag{sqd 999999999 lozwl} 999999999 
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{sqdlozwl}
+ciphertext:  999999999 flag{sqd 999999999 lozwl} 999999999 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 2 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+An old note from a secret society contains a hidden message. They used a substitution cipher. Can you reveal their secret? Ciphertext: xd kyvsjhqyascv, a roerjxjojxhd kxscty xr a ltjchn hi tdkyvsjxdq xd fcxkc odxjr hi smaxdjtuj ayt ytsmaktn fxjc jct kxsctyjtuj, xd a ntixdtn laddty, fxjc jct ctms hi a btv; jct "odxjr" lav et rxdqmt mtjjtyr (jct lhrj khllhd), saxyr hi mtjjtyr, jyxsmtjr hi mtjjtyr, lxujoytr hi jct aehzt, adn rh ihyjc. jct ytktxzty ntkxsctyr jct jtuj ev styihylxdq jct xdztyrt roerjxjojxhd syhktrr jh tujyakj jct hyxqxdam ltrraqt. mxbtfxrt, gakpotr poxkbmv wxsstn jcyhoqc a potrjxhd hd wtyh-bdhfmtnqt syhhir, tdroyxdq dh kyxjxkam mtjjty far mtij hoj hi hoy kyvsjhqyascxk sowwmt.imaq{xnqihrze}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{idgfosvb}
+ciphertext: xd kyvsjhqyascv, a roerjxjojxhd kxscty xr a ltjchn hi tdkyvsjxdq xd fcxkc odxjr hi smaxdjtuj ayt ytsmaktn fxjc jct kxsctyjtuj, xd a ntixdtn laddty, fxjc jct ctms hi a btv; jct "odxjr" lav et rxdqmt mtjjtyr (jct lhrj khllhd), saxyr hi mtjjtyr, jyxsmtjr hi mtjjtyr, lxujoytr hi jct aehzt, adn rh ihyjc. jct ytktxzty ntkxsctyr jct jtuj ev styihylxdq jct xdztyrt roerjxjojxhd syhktrr jh tujyakj jct hyxqxdam ltrraqt. mxbtfxrt, gakpotr poxkbmv wxsstn jcyhoqc a potrjxhd hd wtyh-bdhfmtnqt syhhir, tdroyxdq dh kyxjxkam mtjjty far mtij hoj hi hoy kyvsjhqyascxk sowwmt.imaq{xnqihrze}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'a', 'b': 'e', 'c': 'k', 'd': 'n', 'e': 't', 'f': 'i', 'g': 'q', 'h': 'c', 'i': 'x', 'j': 'g', 'k': 'b', 'l': 'm', 'm': 'l', 'n': 'd', 'o': 'h', 'p': 's', 'q': 'p', 'r': 'y', 's': 'r', 't': 'j', 'u': 'o', 'v': 'z', 'w': 'f', 'x': 'u', 'y': 'v', 'z': 'w'}
+subtype: substitution
+archetype: classical_cipher

@@ -1,0 +1,18 @@
+
+An old hacker left a note labeled "Vigenère" in a hidden wallet. Inside: gykj{qtamwq5u}. Can you recover the passphrase and unlock its secret?
+
+
+The flag format is flag{...}
+The keyword is: bnkd
+
+---
+
+## Challenge Technical Details
+flag: flag{pgqjvd5k}
+ciphertext: gykj{qtamwq5u}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: bnkd
+subtype: vigenere
+archetype: classical_cipher

@@ -1,0 +1,18 @@
+An old laptop reveals a hidden message protected by AES encryption. Only with the right key can you recover its secret: ciphertext1:62881bf3ec8e05ac8731eecde354, ciphertext2: 62881bf3ec8950a8836ff290b654
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{1dhpksj0}
+ciphertext: ciphertext1:62881bf3ec8e05ac8731eecde354, ciphertext2: 62881bf3ec8950a8836ff290b654
+tag1: 6e1cc31d32fcde4f89959a702f1d5340
+tag2: 3e66e8576c9b0d168f48972a1b3ff9e2
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: e9c06c3b85358865c68959
+subtype: aes_ccm
+archetype: aes

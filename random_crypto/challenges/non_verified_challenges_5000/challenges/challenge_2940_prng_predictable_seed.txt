@@ -1,0 +1,20 @@
+A rookie developer encrypted secret launch codes with Predictable PRNG for "security." The resulting ciphertext is below. Can you recover the original message?
+6674617f7b2f787d6d736e737965
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 2**8)
+A secret number was generated using Python's PRNG with a seed from 0 to 9,999. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{7xemknky}
+ciphertext: 6674617f7b2f787d6d736e737965
+cipher: Predictable PRNG
+hint: The seed range is small enough for brute-force. Try recreating the PRNG sequence.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 2**8)
+A secret number was generated using Python's PRNG with a seed from 0 to 9,999. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: If you can predict or brute-force the seed, you can reconstruct the PRNG output and decrypt the flag.
+subtype: predictable_seed
+archetype: prng

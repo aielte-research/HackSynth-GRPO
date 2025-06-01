@@ -1,0 +1,26 @@
+
+An elusive hacker hid the flag by hashing it with SHA-256. The only clue is this hash: 3c3416307b1e20ed781e6097b8a950d3029e80555be3ed6558b575032502c7f6. Can you recover the original flag?
+
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{el9l}
+ciphertext: 3c3416307b1e20ed781e6097b8a950d3029e80555be3ed6558b575032502c7f6
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

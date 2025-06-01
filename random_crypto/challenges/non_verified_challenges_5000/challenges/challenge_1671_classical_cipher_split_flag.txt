@@ -1,0 +1,17 @@
+
+Agent Nova sent a secret code using the SplitNumberMix cipher. Can you reveal their hidden message? Ciphertext:  444444 flag{rt 444444 mjzqik 444444 } 444444 
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{rtmjzqik}
+ciphertext:  444444 flag{rt 444444 mjzqik 444444 } 444444 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 3 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

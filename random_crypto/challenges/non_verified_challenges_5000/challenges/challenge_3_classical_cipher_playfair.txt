@@ -1,0 +1,17 @@
+A spy encoded the vault's coordinates with Playfair cipher. Decode uncrgefdcgpepvlbzemqgefdcgmznfemlepolbbstvurcrgefdcgpepvlbplxgsgtbegtzsaraznpibrepvqvhurzbbiphnfabqbxctvlbwkmzzhhvlzegcklmgstxatvhubvhuripnilzokgmqceyigdu to uncover the secret location!
+
+The flag format is flag{...}
+The keyword is: xuwfoouf
+
+---
+
+## Challenge Technical Details
+flag: flag{pddzhlbf}
+ciphertext: uncrgefdcgpepvlbzemqgefdcgmznfemlepolbbstvurcrgefdcgpepvlbplxgsgtbegtzsaraznpibrepvqvhurzbbiphnfabqbxctvlbwkmzzhhvlzegcklmgstxatvhubvhuripnilzokgmqceyigdu
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: xuwfoouf
+extra_info: The playfair table is [['x', 'u', 'w', 'f', 'o'], ['a', 'b', 'c', 'd', 'e'], ['g', 'h', 'i', 'k', 'l'], ['m', 'n', 'p', 'q', 'r'], ['s', 't', 'v', 'y', 'z']]
+subtype: playfair
+archetype: classical_cipher

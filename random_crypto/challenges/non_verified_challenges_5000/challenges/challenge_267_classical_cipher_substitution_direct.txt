@@ -1,0 +1,21 @@
+A mysterious hacker swapped every letter in a message about their next attack. Can you crack the substitution cipher and reveal the secret? Ciphertext: xsqg{2abxb28g}
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'q', 'b': 'f', 'c': 'p', 'd': 'a', 'e': 'v', 'f': 'x', 'g': 'g', 'h': 'u', 'i': 'y', 'j': 'd', 'k': 't', 'l': 's', 'm': 'e', 'n': 'l', 'o': 'w', 'p': 'i', 'q': 'o', 'r': 'n', 's': 'c', 't': 'b', 'u': 'h', 'v': 'm', 'w': 'j', 'x': 'r', 'y': 'z', 'z': 'k'}
+
+---
+
+## Challenge Technical Details
+flag: flag{2dtft28g}
+cipher: Substitution
+ciphertext: xsqg{2abxb28g}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'q', 'b': 'f', 'c': 'p', 'd': 'a', 'e': 'v', 'f': 'x', 'g': 'g', 'h': 'u', 'i': 'y', 'j': 'd', 'k': 't', 'l': 's', 'm': 'e', 'n': 'l', 'o': 'w', 'p': 'i', 'q': 'o', 'r': 'n', 's': 'c', 't': 'b', 'u': 'h', 'v': 'm', 'w': 'j', 'x': 'r', 'y': 'z', 'z': 'k'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

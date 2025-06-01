@@ -1,0 +1,18 @@
+An encrypted heist plan was intercepted. Rumor has it AES was used. Crack the code: ciphertext1:9eaadffc0904332cc03d49311e5d, ciphertext2: 9eaadffc0900383dd0764b6c155d
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{bzyysqor}
+ciphertext: ciphertext1:9eaadffc0904332cc03d49311e5d, ciphertext2: 9eaadffc0900383dd0764b6c155d
+tag1: 9c1ffca883da632dc61723b0250804d5
+tag2: 1d0a8175ed104e4cdef0147e8cb8b9b4
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 7b4f6ccea3d7b7109eb4a3
+subtype: aes_ccm
+archetype: aes

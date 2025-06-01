@@ -1,0 +1,24 @@
+An agent has left you a message, but it's hidden behind a SHA-256 hash. Can you recover the original password from this hash? 136b7c4e2766317b26e34c5cc438002db2c78a9b77d22c03e2a38a7812511198
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{q427}
+ciphertext: 136b7c4e2766317b26e34c5cc438002db2c78a9b77d22c03e2a38a7812511198
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

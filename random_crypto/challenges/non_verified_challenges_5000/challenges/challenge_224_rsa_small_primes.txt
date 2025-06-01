@@ -1,0 +1,18 @@
+Our intern generated this RSA key with tiny primes. Can you recover the secret from the encrypted message? Here it is: 8283085039139705191
+
+The flag format is flag{...}
+n=8375352529083920461, e=1140201191867714697
+
+---
+
+## Challenge Technical Details
+flag: flag{d4y09oqz}
+cipher: RSA
+ciphertext: 8283085039139705191
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=8375352529083920461, e=1140201191867714697
+extra_info: p=3852007109, q=2174282729, φ(n)=8375352523057630624
+subtype: small_primes
+archetype: rsa

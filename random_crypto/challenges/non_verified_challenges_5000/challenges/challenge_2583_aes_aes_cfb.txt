@@ -1,0 +1,17 @@
+An agent hid the password using AES-CFB before disappearing. Can you recover the secret from the encrypted note? Here it is: bba3dbbc9c591ce29f6cfabec14103739accb46409f4440131fc61744551f423ef608e636a4c9b3eb5ad1d10295b4fcfdd4024bdfbfcca96503fa0472434f1a6039fd2a51ebe4dad88969406bd58dbc366bf84d01fe2cb5170a5ed74da7b1e0ad015382d240c2ff3d7ca3375c3794e7b29fee365e415b31708795265f4f6bdde8393dfcf0d014a0d6a0d24b9a21d62eb85d3e06a647538904c5c66be5cb56ee05adf9980ea23c86161da97726215c762c0
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{v4bbpzlx}
+ciphertext: bba3dbbc9c591ce29f6cfabec14103739accb46409f4440131fc61744551f423ef608e636a4c9b3eb5ad1d10295b4fcfdd4024bdfbfcca96503fa0472434f1a6039fd2a51ebe4dad88969406bd58dbc366bf84d01fe2cb5170a5ed74da7b1e0ad015382d240c2ff3d7ca3375c3794e7b29fee365e415b31708795265f4f6bdde8393dfcf0d014a0d6a0d24b9a21d62eb85d3e06a647538904c5c66be5cb56ee05adf9980ea23c86161da97726215c762c0
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: 190f1cf010b794d8043b36b102dcd6ec
+subtype: aes_cfb
+archetype: aes

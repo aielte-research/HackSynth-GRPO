@@ -1,0 +1,15 @@
+A mysterious Roman scroll was uncovered. Decipher the hidden message encoded with Caesar’s favorite shift: ntio{s1zlixth}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{k1rdaplz}
+ciphertext: ntio{s1zlixth}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 8
+subtype: caesar
+archetype: classical_cipher

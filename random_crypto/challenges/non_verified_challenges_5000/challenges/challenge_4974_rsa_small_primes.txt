@@ -1,0 +1,18 @@
+Agent Zero encrypted the plans with RSA, but used small prime numbers. Cracking the message—594830954997205570—could reveal their secret if you exploit this weakness.
+
+The flag format is flag{...}
+n=8618469753439904887, e=7380582017294967267
+
+---
+
+## Challenge Technical Details
+flag: flag{9mjd7y5e}
+cipher: RSA
+ciphertext: 594830954997205570
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=8618469753439904887, e=7380582017294967267
+extra_info: p=2340486227, q=3682341581, φ(n)=8618469747417077080
+subtype: small_primes
+archetype: rsa

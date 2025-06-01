@@ -1,0 +1,14 @@
+An ancient map describes hidden treasure, but its location is written in a reversed alphabet code. Can you reveal the secret message? Here is the clue: uozt{tlzqu7nh}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{goajf7ms}
+cipher: Atbash
+ciphertext: uozt{tlzqu7nh}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

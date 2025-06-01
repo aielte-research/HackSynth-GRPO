@@ -1,0 +1,16 @@
+Agent Vega hid the coordinates in a Vigenère-encrypted message. Only those with the secret key can read it: wyqn{xz9s39l7}
+
+The flag format is flag{...}
+The keyword is: rnqh
+
+---
+
+## Challenge Technical Details
+flag: flag{gm9c39e7}
+ciphertext: wyqn{xz9s39l7}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: rnqh
+subtype: vigenere
+archetype: classical_cipher

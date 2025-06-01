@@ -1,0 +1,15 @@
+An intercepted message was encrypted using the ChunkedFlag cipher. Can you recover the flag from the scrambled pieces? Ciphertext: fla g{ f5v kb txm }
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{f5vkbtxm}
+ciphertext: fla g{ f5v kb txm }
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

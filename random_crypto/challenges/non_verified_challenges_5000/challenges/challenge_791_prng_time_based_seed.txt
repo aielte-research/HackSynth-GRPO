@@ -1,0 +1,19 @@
+An agent sent you a secret, but forgot to include the exact time they encrypted it with their homebrew PRNG. Can you recover the message? Ciphertext: 666c5bc37b7a48ca6f7950c1307d
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 36650)
+The system time when the encryption process started was around: 2025-05-17 13:55:37 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{zrnoyje0}
+ciphertext: 666c5bc37b7a48ca6f7950c1307d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 36650)
+The system time when the encryption process started was around: 2025-05-17 13:55:37 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 15012.
+subtype: time_based_seed
+archetype: prng

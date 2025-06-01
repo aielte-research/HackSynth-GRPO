@@ -1,0 +1,15 @@
+A hacker left a taunting note hidden in code, encrypted with the mysterious SplitNumberMix cipher. Can you crack  111111 flag 111111 {rnvnpnsq} 111111  to reveal their secret?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{rnvnpnsq}
+ciphertext:  111111 flag 111111 {rnvnpnsq} 111111 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 2 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

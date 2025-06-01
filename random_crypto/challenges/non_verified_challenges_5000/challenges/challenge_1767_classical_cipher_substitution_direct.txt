@@ -1,0 +1,21 @@
+An intercepted message from a rival hacker group is encrypted using a simple substitution cipher. Can you decode the secret plans hidden in xptr{xxavyxrj}?
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 't', 'b': 'd', 'c': 'h', 'd': 'i', 'e': 'w', 'f': 'x', 'g': 'r', 'h': 'e', 'i': 'j', 'j': 'b', 'k': 'a', 'l': 'p', 'm': 'v', 'n': 'o', 'o': 'z', 'p': 's', 'q': 'f', 'r': 'u', 's': 'g', 't': 'l', 'u': 'y', 'v': 'm', 'w': 'n', 'x': 'k', 'y': 'q', 'z': 'c'}
+
+---
+
+## Challenge Technical Details
+flag: flag{ffkmufgi}
+cipher: Substitution
+ciphertext: xptr{xxavyxrj}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 't', 'b': 'd', 'c': 'h', 'd': 'i', 'e': 'w', 'f': 'x', 'g': 'r', 'h': 'e', 'i': 'j', 'j': 'b', 'k': 'a', 'l': 'p', 'm': 'v', 'n': 'o', 'o': 'z', 'p': 's', 'q': 'f', 'r': 'u', 's': 'g', 't': 'l', 'u': 'y', 'v': 'm', 'w': 'n', 'x': 'k', 'y': 'q', 'z': 'c'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

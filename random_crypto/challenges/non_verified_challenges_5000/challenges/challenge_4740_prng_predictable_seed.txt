@@ -1,0 +1,22 @@
+
+An intern encrypted the flag with their custom PRNG stream cipher. The output is below. Can you recover the original message?
+6627612c7b2d393b387a313e3636
+
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 2**7)
+A secret number was generated using Python's PRNG with a seed from 0 to 9,999. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{f9p811u6}
+ciphertext: 6627612c7b2d393b387a313e3636
+cipher: Predictable PRNG
+hint: The seed range is small enough for brute-force. Try recreating the PRNG sequence.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 2**7)
+A secret number was generated using Python's PRNG with a seed from 0 to 9,999. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: If you can predict or brute-force the seed, you can reconstruct the PRNG output and decrypt the flag.
+subtype: predictable_seed
+archetype: prng

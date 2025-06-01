@@ -1,0 +1,24 @@
+Decode the secret hidden by Satoshi: the flag is hashed using SHA-256. Can you recover the original message from this cryptic hash? f11daf86574fb5266f8af9900e4e82c9ba0fc2c450a9d8c67f8866193f923b8f
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{7ecc}
+ciphertext: f11daf86574fb5266f8af9900e4e82c9ba0fc2c450a9d8c67f8866193f923b8f
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

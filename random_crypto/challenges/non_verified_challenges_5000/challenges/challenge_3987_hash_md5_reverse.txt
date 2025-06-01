@@ -1,0 +1,15 @@
+The hacker left an encrypted message using MD5, boasting that its weakness makes it trivial to recover. Can you reverse the hash to reveal the original secret? 0d313830d80ea6f140ff22e0409aae05
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{i-era}
+ciphertext: 0d313830d80ea6f140ff22e0409aae05
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

@@ -1,0 +1,24 @@
+A secret phrase was hashed with SHA-256; its hash is 0e789e84f8d6698939f425cfa118e0068bb90c34fd3815953e02586348f23958. Can you recover the original phrase?
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{owr8}
+ciphertext: 0e789e84f8d6698939f425cfa118e0068bb90c34fd3815953e02586348f23958
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

@@ -1,0 +1,15 @@
+An old hacker left a secret in this file, but used XOR to mask the message. Can you recover the flag from the following ciphertext? stringA: 013e2909194e02522a5719653f0b stringB: 6752486e62766430593276574f76
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{8fbseo2p}
+cipher: XOR
+ciphertext: stringA: 013e2909194e02522a5719653f0b stringB: 6752486e62766430593276574f76
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

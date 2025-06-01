@@ -1,0 +1,21 @@
+
+Intercepted satellite data uses an outdated LFSR stream cipher. Decrypt 79447e4f644a681d791a6a1e7655 to reveal the hidden coordinates.
+
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[41234, 20617, 10308, 37922, 51729, 58632, 62084, 63810, 31905, 15952]
+
+---
+
+## Challenge Technical Details
+flag: flag{bw5f2u6i}
+ciphertext: 79447e4f644a681d791a6a1e7655
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[41234, 20617, 10308, 37922, 51729, 58632, 62084, 63810, 31905, 15952]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

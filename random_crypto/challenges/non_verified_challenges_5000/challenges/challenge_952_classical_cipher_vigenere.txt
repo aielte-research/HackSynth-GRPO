@@ -1,0 +1,16 @@
+An old digital diary was found, protected by a repeating-key cipher. Can you uncover the secret message? Ciphertext: pliw{qudek3cs}
+
+The flag format is flag{...}
+The keyword is: kaiqq
+
+---
+
+## Challenge Technical Details
+flag: flag{akdwu3mi}
+ciphertext: pliw{qudek3cs}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: kaiqq
+subtype: vigenere
+archetype: classical_cipher

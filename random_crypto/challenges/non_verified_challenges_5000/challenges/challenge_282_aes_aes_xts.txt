@@ -1,0 +1,17 @@
+
+A rogue sysadmin encrypted secret blueprints with AES-XTS before vanishing. Only ciphertext1:8bcf2e3be7182d3eb972193109b0a200, ciphertext2: c321c21325d492c1e65ce362e1ffec3592466b6d0b830a0cb8d567ae9c148e2e remains—can you uncover the hidden plans?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{la2lb086}
+ciphertext: ciphertext1:8bcf2e3be7182d3eb972193109b0a200, ciphertext2: c321c21325d492c1e65ce362e1ffec3592466b6d0b830a0cb8d567ae9c148e2e
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 8b81c731241060dcad11b048aafdac7a
+subtype: aes_xts
+archetype: aes

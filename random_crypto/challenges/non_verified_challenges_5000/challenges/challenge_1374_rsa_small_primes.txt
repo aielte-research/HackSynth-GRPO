@@ -1,0 +1,18 @@
+An intern encrypted the secret with RSA, accidentally choosing very small primes. Can you recover the flag from this vulnerable ciphertext? 6138799794593688728
+
+The flag format is flag{...}
+n=8301997837037963801, e=3907829366754919559
+
+---
+
+## Challenge Technical Details
+flag: flag{50nsedgq}
+cipher: RSA
+ciphertext: 6138799794593688728
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=8301997837037963801, e=3907829366754919559
+extra_info: p=2927340257, q=2836020793, φ(n)=8301997831274602752
+subtype: small_primes
+archetype: rsa

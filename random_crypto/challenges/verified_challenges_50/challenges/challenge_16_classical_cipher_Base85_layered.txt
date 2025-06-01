@@ -1,0 +1,15 @@
+An old hacker left a secret message encoded in Base85. Can you decode Q8+ttdr@OIG*C!rHB%->JZW-vP%A`nV^BzYGdx*lZEG`9ByUo5VM9D&Sx!zNG(k^HNK<%LZaYr to reveal their hidden instructions?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{w911sbht}
+cipher: Base85
+ciphertext: Q8+ttdr@OIG*C!rHB%->JZW-vP%A`nV^BzYGdx*lZEG`9ByUo5VM9D&Sx!zNG(k^HNK<%LZaYr
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 7 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

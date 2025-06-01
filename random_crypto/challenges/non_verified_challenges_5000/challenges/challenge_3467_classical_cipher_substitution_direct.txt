@@ -1,0 +1,23 @@
+
+A rival hacker group intercepted your secret message. Only by decoding lumq{ft990tt4}—encrypted with a letter-for-letter substitution—can you recover the key and beat them to the prize.
+
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'm', 'b': 'i', 'c': 's', 'd': 'j', 'e': 'y', 'f': 'l', 'g': 'q', 'h': 'b', 'i': 'f', 'j': 't', 'k': 'a', 'l': 'u', 'm': 'v', 'n': 'd', 'o': 'n', 'p': 'x', 'q': 'w', 'r': 'r', 's': 'z', 't': 'o', 'u': 'p', 'v': 'c', 'w': 'h', 'x': 'k', 'y': 'e', 'z': 'g'}
+
+---
+
+## Challenge Technical Details
+flag: flag{ij990jj4}
+cipher: Substitution
+ciphertext: lumq{ft990tt4}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'm', 'b': 'i', 'c': 's', 'd': 'j', 'e': 'y', 'f': 'l', 'g': 'q', 'h': 'b', 'i': 'f', 'j': 't', 'k': 'a', 'l': 'u', 'm': 'v', 'n': 'd', 'o': 'n', 'p': 'x', 'q': 'w', 'r': 'r', 's': 'z', 't': 'o', 'u': 'p', 'v': 'c', 'w': 'h', 'x': 'k', 'y': 'e', 'z': 'g'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

@@ -1,0 +1,13 @@
+
+Intercept the secure login token sent between agents. Can you decode and reveal the secret password hidden within this JWT? The token: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3t3OTgyeXd0MX0ifQ.
+
+
+---
+
+## Challenge Technical Details
+flag: flag{w982ywt1}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3t3OTgyeXd0MX0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

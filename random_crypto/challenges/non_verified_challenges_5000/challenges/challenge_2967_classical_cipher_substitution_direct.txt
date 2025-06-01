@@ -1,0 +1,23 @@
+
+A rogue agent encrypted the rendezvous point using a simple letter swap. Can you decode the message? Ciphertext: ynkz{cndycbo8}
+
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'k', 'b': 'v', 'c': 'h', 'd': 'u', 'e': 'j', 'f': 'y', 'g': 'z', 'h': 'e', 'i': 'l', 'j': 'm', 'k': 'x', 'l': 'n', 'm': 'c', 'n': 't', 'o': 'f', 'p': 'd', 'q': 'i', 'r': 'r', 's': 's', 't': 'o', 'u': 'a', 'v': 'g', 'w': 'q', 'x': 'p', 'y': 'b', 'z': 'w'}
+
+---
+
+## Challenge Technical Details
+flag: flag{mlpfmyt8}
+cipher: Substitution
+ciphertext: ynkz{cndycbo8}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'k', 'b': 'v', 'c': 'h', 'd': 'u', 'e': 'j', 'f': 'y', 'g': 'z', 'h': 'e', 'i': 'l', 'j': 'm', 'k': 'x', 'l': 'n', 'm': 'c', 'n': 't', 'o': 'f', 'p': 'd', 'q': 'i', 'r': 'r', 's': 's', 't': 'o', 'u': 'a', 'v': 'g', 'w': 'q', 'x': 'p', 'y': 'b', 'z': 'w'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

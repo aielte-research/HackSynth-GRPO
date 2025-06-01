@@ -1,0 +1,15 @@
+An agent hid coordinates in a message, encrypted it with XOR, and left this clue: stringA: 17291b2d1f28402d5a4e30154f0f stringB: 71457a4a64513054383852737672. Can you recover the secret location?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ypybvbf9}
+cipher: XOR
+ciphertext: stringA: 17291b2d1f28402d5a4e30154f0f stringB: 71457a4a64513054383852737672
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

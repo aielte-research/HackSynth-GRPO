@@ -1,0 +1,15 @@
+A secret agent encoded her message to HQ using the Rail Fence cipher. Can you reveal her urgent warning from this ciphertext? fa{fxh7lg5j39}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{5fjx3h97}
+ciphertext: fa{fxh7lg5j39}
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 2
+subtype: rail_fence
+archetype: classical_cipher

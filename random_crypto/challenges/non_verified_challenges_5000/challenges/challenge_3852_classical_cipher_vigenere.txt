@@ -1,0 +1,16 @@
+Agent Nova intercepted a coded message. She knows the enemy always uses 'orbit' as their Vigenère key. Can you reveal their secret plans? Ciphertext: zljz{v2lufzdu}
+
+The flag format is flag{...}
+The keyword is: uajt
+
+---
+
+## Challenge Technical Details
+flag: flag{b2llmfdl}
+ciphertext: zljz{v2lufzdu}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: uajt
+subtype: vigenere
+archetype: classical_cipher

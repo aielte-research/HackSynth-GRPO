@@ -1,0 +1,15 @@
+A spy intercepted a secret message. It’s hidden with a classic substitution cipher. Can you reveal the plaintext from this coded note? Ciphertext: ba mykoltxyvock, v quiqlblulbta mbochy bq v fhlctr tw hamykolbax ba scbmc uablq tw ojvbalhgl vyh yhojvmhr sblc lch mbochylhgl, ba v rhwbahr fvaahy, sblc lch chjo tw v dhk; lch "uablq" fvk ih qbaxjh jhllhyq (lch ftql mtffta), ovbyq tw jhllhyq, lybojhlq tw jhllhyq, fbgluyhq tw lch viteh, var qt wtylc. lch yhmhbehy rhmbochyq lch lhgl ik ohywtyfbax lch baehyqh quiqlblulbta oytmhqq lt hglyvml lch tybxbavj fhqqvxh. jbdhsbqh, zvmnuhq nubmdjk pboohr lcytuxc v nuhqlbta ta phyt-datsjhrxh oyttwq, haquybax at myblbmvj jhllhy svq jhwl tul tw tuy mykoltxyvocbm ouppjh.wjvx{tlzwx1gi}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{otjfg1xb}
+ciphertext: ba mykoltxyvock, v quiqlblulbta mbochy bq v fhlctr tw hamykolbax ba scbmc uablq tw ojvbalhgl vyh yhojvmhr sblc lch mbochylhgl, ba v rhwbahr fvaahy, sblc lch chjo tw v dhk; lch "uablq" fvk ih qbaxjh jhllhyq (lch ftql mtffta), ovbyq tw jhllhyq, lybojhlq tw jhllhyq, fbgluyhq tw lch viteh, var qt wtylc. lch yhmhbehy rhmbochyq lch lhgl ik ohywtyfbax lch baehyqh quiqlblulbta oytmhqq lt hglyvml lch tybxbavj fhqqvxh. jbdhsbqh, zvmnuhq nubmdjk pboohr lcytuxc v nuhqlbta ta phyt-datsjhrxh oyttwq, haquybax at myblbmvj jhllhy svq jhwl tul tw tuy mykoltxyvocbm ouppjh.wjvx{tlzwx1gi}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'v', 'b': 'i', 'c': 'm', 'd': 'r', 'e': 'h', 'f': 'w', 'g': 'x', 'h': 'c', 'i': 'b', 'j': 'z', 'k': 'd', 'l': 'j', 'm': 'f', 'n': 'a', 'o': 't', 'p': 'o', 'q': 'n', 'r': 'y', 's': 'q', 't': 'l', 'u': 'u', 'v': 'e', 'w': 's', 'x': 'g', 'y': 'k', 'z': 'p'}
+subtype: substitution
+archetype: classical_cipher

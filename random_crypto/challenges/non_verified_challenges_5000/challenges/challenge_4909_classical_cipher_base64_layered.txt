@@ -1,0 +1,17 @@
+
+Agent K hid the passphrase in a Base64-encoded message. Decode VmpJd2VFNUhSa2RpTTNCcVRUSlNiMVZyVmt0bFZsSllZMFpPYkZZeFNqRlVWVkYzVUZFOVBRPT0= to retrieve it and proceed with your mission.
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{0h0k24rv}
+cipher: Base64
+ciphertext: VmpJd2VFNUhSa2RpTTNCcVRUSlNiMVZyVmt0bFZsSllZMFpPYkZZeFNqRlVWVkYzVUZFOVBRPT0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 5 times in total.
+subtype: base64_layered
+archetype: classical_cipher

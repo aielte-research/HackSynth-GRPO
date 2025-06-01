@@ -1,0 +1,18 @@
+An encrypted note was intercepted, but only the AES-ciphered message remains: ciphertext1:d6c4bf61b574fd205fe4428fb7b9, ciphertext2: d6c4bf61b56af43b59b15e81a6b9. Can you discover the original plaintext?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ydnlcwjk}
+ciphertext: ciphertext1:d6c4bf61b574fd205fe4428fb7b9, ciphertext2: d6c4bf61b56af43b59b15e81a6b9
+tag1: f4f3dbb0ba8e62c8fa4db9d19898018e
+tag2: 07d5e021ccc93c136a379c761c17221e
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 4bc9a610bde2e078e4145a
+subtype: aes_ccm
+archetype: aes

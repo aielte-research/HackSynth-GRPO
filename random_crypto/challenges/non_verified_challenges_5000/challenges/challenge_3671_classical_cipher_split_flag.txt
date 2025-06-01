@@ -1,0 +1,15 @@
+An old hacker left a final will encoded with SplitNumberMix. Only those who solve  00000000 fla 00000000 g{o 00000000 uhrzf 00000000 ew} 00000000  can claim the secret reward.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ouhrzfew}
+ciphertext:  00000000 fla 00000000 g{o 00000000 uhrzf 00000000 ew} 00000000 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 4 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

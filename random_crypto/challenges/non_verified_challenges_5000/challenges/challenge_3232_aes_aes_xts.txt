@@ -1,0 +1,17 @@
+
+A mysterious USB was found at the airport, labeled "Project SecureDisk." The crucial file is encrypted below. Can you break the AES-XTS to recover its secret? ciphertext1:a3f69f18c9b54268bb5bbb885c33146d, ciphertext2: 5b6c4a2d5ec5ee813d06775ede8b29babd52d9500ceb9da726cbb0ec95757b36
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{g4m346qk}
+ciphertext: ciphertext1:a3f69f18c9b54268bb5bbb885c33146d, ciphertext2: 5b6c4a2d5ec5ee813d06775ede8b29babd52d9500ceb9da726cbb0ec95757b36
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: c9c9365ac51081043a3a013fda8653f3
+subtype: aes_xts
+archetype: aes

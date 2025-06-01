@@ -1,0 +1,17 @@
+
+Agent K encrypted his secret message using XOR before vanishing. Recover the plaintext hidden in this strange output: stringA: 25030f0d4a500f6b57261f386a0f stringB: 436f6e6a31646a593644704a5372
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{4e2abor9}
+cipher: XOR
+ciphertext: stringA: 25030f0d4a500f6b57261f386a0f stringB: 436f6e6a31646a593644704a5372
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

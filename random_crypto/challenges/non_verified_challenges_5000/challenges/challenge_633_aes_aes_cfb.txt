@@ -1,0 +1,17 @@
+Intercepted radio traffic from a covert group is encrypted with AES-CFB. Decode the message below to reveal the secret location: cb2c0343ba3281dd017cb8c6888ed59a4714874e0bad3b182402e783537679b9056924355a292759912844f42536f73691baef00c1f864d8a33f6d8758cbd05a335f049b1667471ebf30fc544b25f1a3e4deda2048876f53322b0bb2165f274bab92ff9a8ce46ca3df372cce8bdd4747f916eaff1928f9135048cad26bca37698e4f35f5e5f13d3769a7075fd95ef895f41bff4c8acbb7a39a05207cc4c1d98d1666cb0451c61c3f9a63b5d66fae55f75a
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{nhmef4ly}
+ciphertext: cb2c0343ba3281dd017cb8c6888ed59a4714874e0bad3b182402e783537679b9056924355a292759912844f42536f73691baef00c1f864d8a33f6d8758cbd05a335f049b1667471ebf30fc544b25f1a3e4deda2048876f53322b0bb2165f274bab92ff9a8ce46ca3df372cce8bdd4747f916eaff1928f9135048cad26bca37698e4f35f5e5f13d3769a7075fd95ef895f41bff4c8acbb7a39a05207cc4c1d98d1666cb0451c61c3f9a63b5d66fae55f75a
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: 4e94d21619259200bcf2005baa2edfba
+subtype: aes_cfb
+archetype: aes

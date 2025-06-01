@@ -1,0 +1,15 @@
+A mathematician left a secret in his old journal, claiming only those who could decode the Fibonacci sequence would find it. The clue reads: 10001000001 10001010011 10000100001 10001000011 10100000001 10010000001 10010101001 10010000011 10010100101 10010001001 10010010101 10010010001 10000101001 10100000101
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{nyoxqusd}
+ciphertext: 10001000001 10001010011 10000100001 10001000011 10100000001 10010000001 10010101001 10010000011 10010100101 10010001001 10010010101 10010010001 10000101001 10100000101
+cipher: Fibonacci Encoding
+hint: Each ASCII character is represented as a sum of non-consecutive Fibonacci numbers, always ending in 1.
+necessary_info: The flag format is flag{...}
+extra_info: Each character of the flag is independently encoded using Fibonacci representation.
+subtype: fibonacci_encoding
+archetype: classical_cipher

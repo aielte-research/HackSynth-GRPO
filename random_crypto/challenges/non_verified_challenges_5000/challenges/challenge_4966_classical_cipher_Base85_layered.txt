@@ -1,0 +1,15 @@
+Intercepted during a covert exchange, this Base85-encrypted message (Q8+ttdr@OIG*C!rHB%->JZW-vP-Id&VOCyuW^zbleLgr-eK2QQPHbRaYfvg!J3&uKDQs#>F>yE) may reveal the meeting's secret location if you can break the cipher.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{dhj7934e}
+cipher: Base85
+ciphertext: Q8+ttdr@OIG*C!rHB%->JZW-vP-Id&VOCyuW^zbleLgr-eK2QQPHbRaYfvg!J3&uKDQs#>F>yE
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 7 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

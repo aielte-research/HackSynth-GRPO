@@ -1,0 +1,15 @@
+Someone left a suspicious file hashed with MD5, claiming it's unbreakable. Can you reverse-engineer the original content from this hash? The hash: ccec10f2c5344ce28a1cb5304d5805e3
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{07833}
+ciphertext: ccec10f2c5344ce28a1cb5304d5805e3
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

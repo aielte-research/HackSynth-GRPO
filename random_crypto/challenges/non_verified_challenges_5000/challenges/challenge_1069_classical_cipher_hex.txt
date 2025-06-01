@@ -1,0 +1,14 @@
+A hacker left a secret code at the scene. Can you decode the Hex message and uncover their alias? Cipher: 666c61677b71366f6c763734377d
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{q6olv747}
+cipher: Hex
+ciphertext: 666c61677b71366f6c763734377d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

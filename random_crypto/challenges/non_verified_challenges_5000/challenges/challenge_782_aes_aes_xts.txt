@@ -1,0 +1,17 @@
+
+An encrypted drive was found with a single file. It's secured using AES-XTS. Inside is a message: ciphertext1:fb7e69c575401f4bfc9201179ff4e4e8, ciphertext2: 3404bfbb9cdc70a6aba415bcdb76ee45b578ceaed216daeb5ca62af3e831ec6e
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{hg6vic7q}
+ciphertext: ciphertext1:fb7e69c575401f4bfc9201179ff4e4e8, ciphertext2: 3404bfbb9cdc70a6aba415bcdb76ee45b578ceaed216daeb5ca62af3e831ec6e
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: a028b4c0e483f27723382a835915bcda
+subtype: aes_xts
+archetype: aes

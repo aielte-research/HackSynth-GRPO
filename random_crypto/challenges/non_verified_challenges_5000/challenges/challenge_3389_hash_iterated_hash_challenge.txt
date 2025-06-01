@@ -1,0 +1,24 @@
+A whistleblower hid secret files using SHA-256. Their hash is: f240c8ec3b1f223094bfefe5f9f7b1d00116c0e329c77febe7a67fd1ddfb8726. Can you recover the original message?
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{31io}
+ciphertext: f240c8ec3b1f223094bfefe5f9f7b1d00116c0e329c77febe7a67fd1ddfb8726
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

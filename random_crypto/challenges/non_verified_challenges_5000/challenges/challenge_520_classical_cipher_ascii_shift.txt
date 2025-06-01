@@ -1,0 +1,15 @@
+An old hacker left a note encoded with their favorite ASCII Shift cipher. Can you decode the message to reveal their secret? The encrypted text: iodj~xok:zwfo
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ulh7wtcl}
+cipher: ASCII Shift
+ciphertext: iodj~xok:zwfo
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 3
+subtype: ascii_shift
+archetype: classical_cipher

@@ -1,0 +1,20 @@
+An intern misconfigured the elliptic curve parameters in our new messaging system. Now, flag fragments encrypted with Public key: (60, 75) might be recoverable. Can you exploit the mistake?
+
+Curve: y^2 = x^3 + 1*x + 1 mod 77
+Generator G=(2, 4)
+Public key = d * G. Recover d to get the flag.The flag format is flag{private_key}
+
+---
+
+## Challenge Technical Details
+flag: flag{2}
+ciphertext: Public key: (60, 75)
+cipher: ECC - faulty_curve_parameters
+hint: We used a composite number instead of a prime. Elliptic curve operations over non-prime fields are insecure. Try factoring p or brute-forcing the discrete log.
+necessary_info: Curve: y^2 = x^3 + 1*x + 1 mod 77
+Generator G=(2, 4)
+Public key = d * G. Recover d to get the flag.The flag format is flag{private_key}
+extra_info: Private key (not revealed to players): d=2
+Parameters: p=77, a=1, b=1, G=(2, 4).
+subtype: faulty_curve_parameters
+archetype: ecc

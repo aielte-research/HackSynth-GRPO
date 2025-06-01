@@ -1,0 +1,15 @@
+An old server stored admin passwords as MD5 hashes. Someone leaked 7f87c6d91a347f07dbaf4a38e587ff22. Can you reverse it to recover the original password?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{oanly}
+ciphertext: 7f87c6d91a347f07dbaf4a38e587ff22
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

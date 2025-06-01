@@ -1,0 +1,15 @@
+You've intercepted a mysterious hard drive image encrypted with AES-XTS. The attached ciphertext, ciphertext1:3c2d265548a1dce6aaef20e1728ede8e, ciphertext2: 253a5fbc90150770402ea0f86413d58004ebec16201a66142c8d2528fd776aaf, hides the access code you need. Can you recover it?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{bphyus23}
+ciphertext: ciphertext1:3c2d265548a1dce6aaef20e1728ede8e, ciphertext2: 253a5fbc90150770402ea0f86413d58004ebec16201a66142c8d2528fd776aaf
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 41973a38e081a4b3eb04e82e8c462436
+subtype: aes_xts
+archetype: aes

@@ -1,0 +1,17 @@
+
+An archivist split the vault password into parts using the secret ChunkedFlag cipher. Now the scrambled fragments are here: fl ag{ k54 gu8 s6}. Can you reassemble the original flag?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{k54gu8s6}
+ciphertext: fl ag{ k54 gu8 s6}
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

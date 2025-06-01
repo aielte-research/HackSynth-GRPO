@@ -1,0 +1,14 @@
+An anonymous hacker posted a hex-encoded secret on the forum. Decode 666c61677b653679716135776b7d to uncover their next move.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{e6yqa5wk}
+cipher: Hex
+ciphertext: 666c61677b653679716135776b7d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

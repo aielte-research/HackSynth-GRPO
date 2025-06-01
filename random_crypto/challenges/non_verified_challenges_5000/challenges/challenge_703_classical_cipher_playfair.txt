@@ -1,0 +1,17 @@
+A secret message intercepted from a 19th-century spy ring uses a Playfair cipher. Decipher afgmicvhhapalrkfsisricvhhasmwvhykwmikfbcnbqsgmicvhhapalrkfyarbrdmvcirzpuumanlafmapxraqqsdfagrqwvhdmtidnbkfhqsmcqqahmciawhpdrmzkzaqdvaqqsalrghmgqchubtnpb to reveal their next clandestine meeting spot.
+
+The flag format is flag{...}
+The keyword is: wqljodtc
+
+---
+
+## Challenge Technical Details
+flag: flag{0zdqfs3c}
+ciphertext: afgmicvhhapalrkfsisricvhhasmwvhykwmikfbcnbqsgmicvhhapalrkfyarbrdmvcirzpuumanlafmapxraqqsdfagrqwvhdmtidnbkfhqsmcqqahmciawhpdrmzkzaqdvaqqsalrghmgqchubtnpb
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: wqljodtc
+extra_info: The playfair table is [['w', 'q', 'l', 'i', 'o'], ['d', 't', 'c', 'a', 'b'], ['e', 'f', 'g', 'h', 'k'], ['m', 'n', 'p', 'r', 's'], ['u', 'v', 'x', 'y', 'z']]
+subtype: playfair
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+An agent hid a secret passphrase in the code using Base64. Can you decode the message? Here it is: Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVcxS1IxZHViRmROYmxGM1ZteFZlRmRIVmtsalJtUk9ZV3hhZVZkWGRHdFRNVTVJVm10a2FWSnNXbGhXYlhSM1UxWmtWMVZyZEZSTlZuQjZWMnRvVDJGc1NuTlhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{x2fljnoi}
+cipher: Base64
+ciphertext: Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVcxS1IxZHViRmROYmxGM1ZteFZlRmRIVmtsalJtUk9ZV3hhZVZkWGRHdFRNVTVJVm10a2FWSnNXbGhXYlhSM1UxWmtWMVZyZEZSTlZuQjZWMnRvVDJGc1NuTlhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 9 times in total.
+subtype: base64_layered
+archetype: classical_cipher

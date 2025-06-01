@@ -1,0 +1,18 @@
+Someone rushed to deploy an RSA-encrypted message. The primes were too small—can you recover the hidden flag from 4287229778858864964?
+
+The flag format is flag{...}
+n=6035742195727403461, e=5038927603888044305
+
+---
+
+## Challenge Technical Details
+flag: flag{tbcs8w8w}
+cipher: RSA
+ciphertext: 4287229778858864964
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=6035742195727403461, e=5038927603888044305
+extra_info: p=2581625257, q=2337962173, φ(n)=6035742190807816032
+subtype: small_primes
+archetype: rsa

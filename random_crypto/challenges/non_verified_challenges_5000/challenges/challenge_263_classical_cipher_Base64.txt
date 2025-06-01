@@ -1,0 +1,15 @@
+A hacker hid a secret flag in a Base64 string. Decode ZmxhZ3tzaWFmZ3pkNH0= to find it.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{siafgzd4}
+cipher: Base64
+ciphertext: ZmxhZ3tzaWFmZ3pkNH0=
+hint: Use a Base64 decoder to obtain the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is direct; no additional layers or tricks.
+subtype: Base64
+archetype: classical_cipher

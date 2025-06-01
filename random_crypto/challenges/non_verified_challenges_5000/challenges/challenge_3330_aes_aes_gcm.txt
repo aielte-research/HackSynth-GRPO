@@ -1,0 +1,18 @@
+Two files were encrypted with AES-GCM, but the same nonce was reused. Both ciphertexts are here: ciphertext1:e752c0920f873c4eb0d1bbaea26a, ciphertext2: f556c88654de7f1eaac8bdbab337ec0f388b. Recover the secret message.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{00ptvr4p}
+ciphertext: ciphertext1:e752c0920f873c4eb0d1bbaea26a, ciphertext2: f556c88654de7f1eaac8bdbab337ec0f388b
+tag1: a7b479add81b33d82260dd1fa757a0d9
+tag2: a1076844ebb47b3b770f693093abc2ce
+cipher: AES-GCM
+vulnerability: nonce reuse
+hint: AES-GCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 6b5fe954d899220dd21c9fdf
+subtype: aes_gcm
+archetype: aes

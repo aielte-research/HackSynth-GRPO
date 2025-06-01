@@ -1,0 +1,15 @@
+A secret agent left an encoded message in a Base64 cipher. Can you decode Vm0weGQxTnRVWGxXYTFwUFZsZG9WRmxVU2xOalJsSlZWR3RPYWxadVFsbGFWV1JIVmxVeFYyTklhRlpOYmtKVVZrY3hTMU5IVmtkaVJuQk9VakF3ZUZkV1dtdFNNRFZ6VTI1T2FsSnNXbGhXYlhSYVpXeGFWbGRyV2xCV2EwcFRWVVpSZDFCUlBUMD0= to reveal the hidden instructions?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{91ioj8g1}
+cipher: Base64
+ciphertext: Vm0weGQxTnRVWGxXYTFwUFZsZG9WRmxVU2xOalJsSlZWR3RPYWxadVFsbGFWV1JIVmxVeFYyTklhRlpOYmtKVVZrY3hTMU5IVmtkaVJuQk9VakF3ZUZkV1dtdFNNRFZ6VTI1T2FsSnNXbGhXYlhSYVpXeGFWbGRyV2xCV2EwcFRWVVpSZDFCUlBUMD0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 8 times in total.
+subtype: base64_layered
+archetype: classical_cipher

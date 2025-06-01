@@ -1,0 +1,15 @@
+An informant left a hidden clue. The message reads backwards. Can you reverse it to reveal the secret? Ciphertext: }dwtxo3yq{galf
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{qy3oxtwd}
+ciphertext: }dwtxo3yq{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

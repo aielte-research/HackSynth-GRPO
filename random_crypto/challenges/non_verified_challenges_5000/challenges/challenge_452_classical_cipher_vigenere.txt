@@ -1,0 +1,16 @@
+An elusive hacker posted a Vigenère-encrypted password, daring you to recover the original message. Can you break the code and reveal their secret? rnxk{uiadl39b}
+
+The flag format is flag{...}
+The keyword is: mcxe
+
+---
+
+## Challenge Technical Details
+flag: flag{igdzz39z}
+ciphertext: rnxk{uiadl39b}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: mcxe
+subtype: vigenere
+archetype: classical_cipher

@@ -1,0 +1,27 @@
+An eager developer used a basic LCG to generate the encryption key for this secret message: 735bdd046e5f8d57675fc91b7f4a. Can you predict the next key and decrypt it?
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 549382220
+  - Multiplier: 155961645
+  - Increment: 140022028
+The first 5 outputs of the LCG are provided: [193975023, 119469743, 393855323, 374001283, 358353763] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{h14rhuxj}
+ciphertext: 735bdd046e5f8d57675fc91b7f4a
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 549382220
+  - Multiplier: 155961645
+  - Increment: 140022028
+The first 5 outputs of the LCG are provided: [193975023, 119469743, 393855323, 374001283, 358353763] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

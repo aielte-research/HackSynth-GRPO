@@ -1,0 +1,15 @@
+An agent left a secret code in reverse for you to find the passphrase. Can you decode this message? }d73hirs3{galf
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{3srih37d}
+ciphertext: }d73hirs3{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

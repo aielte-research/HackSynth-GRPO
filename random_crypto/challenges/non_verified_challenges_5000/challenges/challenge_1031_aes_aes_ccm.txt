@@ -1,0 +1,18 @@
+Your mission: decrypt the secret message intercepted from a rogue agent. It’s securely locked with AES. Can you uncover their plan? Ciphertext: ciphertext1:cfcfb4f74dd8fec2165f910d88ad, ciphertext2: cfcfb4f74dd3e4800413931e88ad
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{3r8h9wxx}
+ciphertext: ciphertext1:cfcfb4f74dd8fec2165f910d88ad, ciphertext2: cfcfb4f74dd3e4800413931e88ad
+tag1: f66fe462751b0348fa10d22bc20bc181
+tag2: e6729d8c7cd016471b215fce1b816aee
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 04b38b71ef17841afd99f7
+subtype: aes_ccm
+archetype: aes

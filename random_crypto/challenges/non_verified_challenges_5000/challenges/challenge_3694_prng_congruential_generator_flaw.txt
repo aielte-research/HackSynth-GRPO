@@ -1,0 +1,29 @@
+
+A mysterious hacker sent you an encrypted message, boasting their "unbreakable" LCG-based scheme. Prove them wrong by cracking the cipher: 6c0288b07119d1b13c00daa06513
+
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1078890427
+  - Multiplier: 346690300
+  - Increment: 769708152
+The first 5 outputs of the LCG are provided: [63197850, 368526973, 786011726, 965722421, 386479342] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{w8f6n3wo}
+ciphertext: 6c0288b07119d1b13c00daa06513
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1078890427
+  - Multiplier: 346690300
+  - Increment: 769708152
+The first 5 outputs of the LCG are provided: [63197850, 368526973, 786011726, 965722421, 386479342] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

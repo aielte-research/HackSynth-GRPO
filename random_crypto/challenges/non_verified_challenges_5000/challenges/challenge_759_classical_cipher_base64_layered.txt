@@ -1,0 +1,15 @@
+A message hidden by rebels was found, but it's oddly scrambled. Can you decode their secret alliance meeting location from this Base64-encrypted text? Vm1wSmQyVkZOVWhTYTJScFRUTkNjbFZyVm5kVlZsWnhVbXhhYkdKSVFraFdWM2hyWVZaS1ZWSnFSbFZXVmtZelZVWkZPVkJSUFQwPQ==
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{v8e7u5e2}
+cipher: Base64
+ciphertext: Vm1wSmQyVkZOVWhTYTJScFRUTkNjbFZyVm5kVlZsWnhVbXhhYkdKSVFraFdWM2hyWVZaS1ZWSnFSbFZXVmtZelZVWkZPVkJSUFQwPQ==
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 6 times in total.
+subtype: base64_layered
+archetype: classical_cipher

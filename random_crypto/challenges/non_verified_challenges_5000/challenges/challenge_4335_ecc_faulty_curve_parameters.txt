@@ -1,0 +1,20 @@
+An engineer tried boosting ECC security but accidentally tweaked the curve parameters. Now, your job is to retrieve the flag from the faulty encryption: Public key: None
+
+Curve: y^2 = x^3 + 1*x + 1 mod 117
+Generator G=(2, 4)
+Public key = d * G. Recover d to get the flag.The flag format is flag{private_key}
+
+---
+
+## Challenge Technical Details
+flag: flag{5}
+ciphertext: Public key: None
+cipher: ECC - faulty_curve_parameters
+hint: We used a composite number instead of a prime. Elliptic curve operations over non-prime fields are insecure. Try factoring p or brute-forcing the discrete log.
+necessary_info: Curve: y^2 = x^3 + 1*x + 1 mod 117
+Generator G=(2, 4)
+Public key = d * G. Recover d to get the flag.The flag format is flag{private_key}
+extra_info: Private key (not revealed to players): d=5
+Parameters: p=117, a=1, b=1, G=(2, 4).
+subtype: faulty_curve_parameters
+archetype: ecc

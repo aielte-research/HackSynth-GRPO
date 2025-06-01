@@ -1,0 +1,21 @@
+A hacker left a secret phrase for their partner using a simple substitution cipher. Can you recover the original message hidden in kphd{ututzf3j}?
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'h', 'b': 'i', 'c': 'w', 'd': 'o', 'e': 's', 'f': 'k', 'g': 'd', 'h': 'f', 'i': 'a', 'j': 'y', 'k': 'x', 'l': 'p', 'm': 'u', 'n': 'z', 'o': 'j', 'p': 'm', 'q': 'e', 'r': 'q', 's': 'n', 't': 't', 'u': 'v', 'v': 'r', 'w': 'g', 'x': 'b', 'y': 'c', 'z': 'l'}
+
+---
+
+## Challenge Technical Details
+flag: flag{mtmtnh3o}
+cipher: Substitution
+ciphertext: kphd{ututzf3j}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'h', 'b': 'i', 'c': 'w', 'd': 'o', 'e': 's', 'f': 'k', 'g': 'd', 'h': 'f', 'i': 'a', 'j': 'y', 'k': 'x', 'l': 'p', 'm': 'u', 'n': 'z', 'o': 'j', 'p': 'm', 'q': 'e', 'r': 'q', 's': 'n', 't': 't', 'u': 'v', 'v': 'r', 'w': 'g', 'x': 'b', 'y': 'c', 'z': 'l'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

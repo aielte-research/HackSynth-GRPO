@@ -1,0 +1,16 @@
+Intercepted files use AES-ECB mode. We believe weak, short keys padded with null bytes are used. Can you recover the secret from this ciphertext: 9801360da33c2893e2596503b77fb0e5?
+
+An encryption key that is only 2 bytes long?.
+
+---
+
+## Challenge Technical Details
+flag: flag{q5rrhuz1}
+ciphertext: 9801360da33c2893e2596503b77fb0e5
+cipher: AES-ECB
+vulnerability: small key padded with null bytes
+hint: ECB mode with a short key makes brute-forcing possible. Consider the small key entropy.
+necessary_info: An encryption key that is only 2 bytes long?.
+extra_info: Padding follows PKCS#7. The key is padded to 16 bytes with null bytes.
+subtype: weak_cookie_encryption
+archetype: web_crypto

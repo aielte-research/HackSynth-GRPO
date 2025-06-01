@@ -1,0 +1,17 @@
+
+A laptop's drive was encrypted with AES-XTS before being stolen. Can you recover the secret file given its encrypted contents: ciphertext1:2c0c8715e4414e398258de9151161c28, ciphertext2: 0ab9b26ac8025a69a324b3b5aa721de7874a4e4fef9002e3c7ea2cbee511a5ac?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{mz3iwcu7}
+ciphertext: ciphertext1:2c0c8715e4414e398258de9151161c28, ciphertext2: 0ab9b26ac8025a69a324b3b5aa721de7874a4e4fef9002e3c7ea2cbee511a5ac
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 0c5e6df79e75512fd662ab51c19f3a1d
+subtype: aes_xts
+archetype: aes

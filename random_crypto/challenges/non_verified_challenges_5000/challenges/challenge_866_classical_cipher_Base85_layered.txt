@@ -1,0 +1,17 @@
+
+Intercepted hacker comms revealed a Base85-encoded passphrase. Can you decode their secret message? Ciphertext: Q8+7fbYyZsPf15ALm_fVLM1IeN?KPfc2PDzZ+A~fPD@uvVI(7OWKuYKUqxt0CN)wtUw2qRcW_NIQ+FmZNn~+1U}s?^Hfs
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{0bj7nj52}
+cipher: Base85
+ciphertext: Q8+7fbYyZsPf15ALm_fVLM1IeN?KPfc2PDzZ+A~fPD@uvVI(7OWKuYKUqxt0CN)wtUw2qRcW_NIQ+FmZNn~+1U}s?^Hfs
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 8 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

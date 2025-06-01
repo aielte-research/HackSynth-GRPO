@@ -1,0 +1,16 @@
+A hacker intercepted a secret message hidden by an old cipher. Can you recover the original text from lczi{lpxj23qy}? The key is a common cybersecurity term.
+
+The flag format is flag{...}
+The keyword is: grzcmq
+
+---
+
+## Challenge Technical Details
+flag: flag{zzrs23rw}
+ciphertext: lczi{lpxj23qy}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: grzcmq
+subtype: vigenere
+archetype: classical_cipher

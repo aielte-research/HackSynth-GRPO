@@ -1,0 +1,19 @@
+Intercepted under radio static, this encrypted message uses an old stream cipher vulnerable to LFSR weaknesses. Can you recover the original text from 2ab82db337ad74ae38b07bba2ea9?
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[20988, 43262, 54399, 27199, 13599, 39567, 52551, 26275, 13137, 39336]
+
+---
+
+## Challenge Technical Details
+flag: flag{y8ztd7nb}
+ciphertext: 2ab82db337ad74ae38b07bba2ea9
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[20988, 43262, 54399, 27199, 13599, 39567, 52551, 26275, 13137, 39336]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

@@ -1,0 +1,15 @@
+An anonymous hacker uploaded secret coordinates encoded with Base85. Can you decode the message below to reveal the location? Ciphertext: Q8+7fbYyZsPf15ALm_fVLM1IeN?KPfc2Fd6D<M})LSIToWhx<BN_Tu@AyZ;$YEx1qcv)6Lbzw+ROjT_;U{+8eRWeL5BS!
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{fzae61vv}
+cipher: Base85
+ciphertext: Q8+7fbYyZsPf15ALm_fVLM1IeN?KPfc2Fd6D<M})LSIToWhx<BN_Tu@AyZ;$YEx1qcv)6Lbzw+ROjT_;U{+8eRWeL5BS!
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 8 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

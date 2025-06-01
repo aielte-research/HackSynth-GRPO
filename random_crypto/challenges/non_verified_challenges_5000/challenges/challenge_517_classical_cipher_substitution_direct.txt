@@ -1,0 +1,21 @@
+A mysterious hacker left you a coded note. They claim it hides a wallet key. Can you crack the substitution cipher in fqym{kwvau10e} to reveal their secret?
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'y', 'b': 'c', 'c': 'r', 'd': 'p', 'e': 'g', 'f': 'f', 'g': 'm', 'h': 'w', 'i': 'x', 'j': 'o', 'k': 'l', 'l': 'q', 'm': 'h', 'n': 't', 'o': 'e', 'p': 'u', 'q': 'z', 'r': 'i', 's': 'v', 't': 's', 'u': 'k', 'v': 'n', 'w': 'd', 'x': 'a', 'y': 'j', 'z': 'b'}
+
+---
+
+## Challenge Technical Details
+flag: flag{uhsxp10o}
+cipher: Substitution
+ciphertext: fqym{kwvau10e}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'y', 'b': 'c', 'c': 'r', 'd': 'p', 'e': 'g', 'f': 'f', 'g': 'm', 'h': 'w', 'i': 'x', 'j': 'o', 'k': 'l', 'l': 'q', 'm': 'h', 'n': 't', 'o': 'e', 'p': 'u', 'q': 'z', 'r': 'i', 's': 'v', 't': 's', 'u': 'k', 'v': 'n', 'w': 'd', 'x': 'a', 'y': 'j', 'z': 'b'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

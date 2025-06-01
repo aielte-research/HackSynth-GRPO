@@ -1,0 +1,15 @@
+A hacker left a mysterious code in a Base85 format on the server. Can you decode W^7?+do^Kfb~R-=Xng to reveal their secret message?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{5alv5e9h}
+cipher: Base85
+ciphertext: W^7?+do^Kfb~R-=Xng
+hint: Use a Base85 decoder to retrieve the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is straightforward; only one layer is used.
+subtype: Base85
+archetype: classical_cipher

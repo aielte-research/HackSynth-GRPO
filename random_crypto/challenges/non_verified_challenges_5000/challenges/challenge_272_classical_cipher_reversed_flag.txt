@@ -1,0 +1,15 @@
+An old hacker hid a passphrase, reversed for secrecy. Can you uncover the original message from this ciphertext? }ei1xzi7d{galf
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{d7izx1ie}
+ciphertext: }ei1xzi7d{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

@@ -1,0 +1,17 @@
+An agent left a coded message in your locker. It’s encrypted with the Playfair cipher. Can you reveal their secret instructions from this ciphertext? qlgohdxschyigrigtptqhdxschycoxcqoupyigdqbrpmgohdxschyigrigyrfcfvmwdhcsfuvootrigmiywrrlpmolaisgoxhvbkxkbrigshycztlriodhclipvfmymbrlozrlpmirqgiobhkhnvzv
+
+The flag format is flag{...}
+The keyword is: mnfsbvkf
+
+---
+
+## Challenge Technical Details
+flag: flag{0mkud155}
+ciphertext: qlgohdxschyigrigtptqhdxschycoxcqoupyigdqbrpmgohdxschyigrigyrfcfvmwdhcsfuvootrigmiywrrlpmolaisgoxhvbkxkbrigshycztlriodhclipvfmymbrlozrlpmirqgiobhkhnvzv
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: mnfsbvkf
+extra_info: The playfair table is [['m', 'n', 'f', 's', 'b'], ['v', 'k', 'a', 'c', 'd'], ['e', 'g', 'h', 'i', 'l'], ['o', 'p', 'q', 'r', 't'], ['u', 'w', 'x', 'y', 'z']]
+subtype: playfair
+archetype: classical_cipher

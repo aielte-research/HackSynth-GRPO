@@ -1,0 +1,19 @@
+An engineer secured the lab’s door with a 666c04397b30506c79340e3f747d cipher, generated using the server’s clock. Can you decipher the entry code before time runs out?
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 93180)
+The system time when the encryption process started was around: 2025-05-25 12:53:19 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{052y4kat}
+ciphertext: 666c04397b30506c79340e3f747d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 93180)
+The system time when the encryption process started was around: 2025-05-25 12:53:19 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 25950.
+subtype: time_based_seed
+archetype: prng

@@ -1,0 +1,15 @@
+Intercepted from a hacker’s tool, this string hides stolen data. Its developer only trusts secrets encoded in Base85. Can you decode W^7?+duDMnH*Rh-Xng?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{fq37nn3h}
+cipher: Base85
+ciphertext: W^7?+duDMnH*Rh-Xng
+hint: Use a Base85 decoder to retrieve the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is straightforward; only one layer is used.
+subtype: Base85
+archetype: classical_cipher

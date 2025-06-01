@@ -1,0 +1,18 @@
+A secret message was encrypted using AES before the agent vanished. Can you recover the flag from the ciphertext below? ciphertext1:c7a3fbcb55adeffa6599e08647b5, ciphertext2: c7a3fbcb55aee5fd629bb3cd15b5
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{aeo046rc}
+ciphertext: ciphertext1:c7a3fbcb55adeffa6599e08647b5, ciphertext2: c7a3fbcb55aee5fd629bb3cd15b5
+tag1: 6b9c1b519c4b42799615e0aa2b18c495
+tag2: 4a5f1cc7446ecfc09e884bcc5384026a
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: eb4dbe44044f64358bc1ec
+subtype: aes_ccm
+archetype: aes

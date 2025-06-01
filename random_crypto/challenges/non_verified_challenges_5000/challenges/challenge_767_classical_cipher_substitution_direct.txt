@@ -1,0 +1,23 @@
+
+Intercepted messages from a secret society were encrypted using a simple letter-for-letter substitution. Crack the code to reveal their hidden plans: zjpk{8v0gz6bd}
+
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'p', 'b': 'e', 'c': 't', 'd': 'a', 'e': 'g', 'f': 'z', 'g': 'k', 'h': 'b', 'i': 'y', 'j': 'v', 'k': 'f', 'l': 'j', 'm': 'l', 'n': 'x', 'o': 'u', 'p': 's', 'q': 'o', 'r': 'n', 's': 'r', 't': 'i', 'u': 'h', 'v': 'c', 'w': 'q', 'x': 'w', 'y': 'm', 'z': 'd'}
+
+---
+
+## Challenge Technical Details
+flag: flag{8j0ef6hz}
+cipher: Substitution
+ciphertext: zjpk{8v0gz6bd}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'p', 'b': 'e', 'c': 't', 'd': 'a', 'e': 'g', 'f': 'z', 'g': 'k', 'h': 'b', 'i': 'y', 'j': 'v', 'k': 'f', 'l': 'j', 'm': 'l', 'n': 'x', 'o': 'u', 'p': 's', 'q': 'o', 'r': 'n', 's': 'r', 't': 'i', 'u': 'h', 'v': 'c', 'w': 'q', 'x': 'w', 'y': 'm', 'z': 'd'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

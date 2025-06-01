@@ -1,0 +1,24 @@
+A careless developer reused nonces signing code updates. Can you recover the private key from the signatures and decrypt the latest commit? Ciphertext: Sig1: c050c3f0b8d45b9e093a91cb96d097b24100e66585d0d8561e01c1231837493fd52e4386cef8615aa3f75f36eaa712036f72517c947680edef21bc0bdc4e2d3b
+Sig2: c050c3f0b8d45b9e093a91cb96d097b24100e66585d0d8561e01c1231837493fbf2626fa3bab1ce937600d667e1f4913777225d19ca35b74c5658093fbeb2b23
+
+Public Key (x,y): (22146737819363439439316603585660971477238258674195807275651528571861742031670, 85401777125306107232864730185664554680633439256275844735883054409752377715867)
+Messages:
+1. CTF challenge message
+2. Second signed message
+Curve: secp256k1The flag format is flag{hex(private_key)}
+
+---
+
+## Challenge Technical Details
+flag: flag{2aa51bc02d1543f43d17eb96117f565daf23c0e4aabe2e59d8ec9b7ef71eb527}
+ciphertext: Sig1: c050c3f0b8d45b9e093a91cb96d097b24100e66585d0d8561e01c1231837493fd52e4386cef8615aa3f75f36eaa712036f72517c947680edef21bc0bdc4e2d3b
+Sig2: c050c3f0b8d45b9e093a91cb96d097b24100e66585d0d8561e01c1231837493fbf2626fa3bab1ce937600d667e1f4913777225d19ca35b74c5658093fbeb2b23
+cipher: ECDSA Nonce Reuse
+hint: Identical nonce usage breaks ECDSA security. What's common between the signatures?
+necessary_info: Public Key (x,y): (22146737819363439439316603585660971477238258674195807275651528571861742031670, 85401777125306107232864730185664554680633439256275844735883054409752377715867)
+Messages:
+1. CTF challenge message
+2. Second signed message
+Curve: secp256k1The flag format is flag{hex(private_key)}
+subtype: ecdsa_nonce_reuse
+archetype: signature_schemes

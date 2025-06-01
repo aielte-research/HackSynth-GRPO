@@ -1,0 +1,19 @@
+An intern hashed passwords with SHA-256, but reused a weak random salt. Given 37bbe2f597a18804486c03b758bb5b557745350cce63966e03a823f16395d893, can you recover the original password exploiting the salt vulnerability?
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{b4c}
+ciphertext: 37bbe2f597a18804486c03b758bb5b557745350cce63966e03a823f16395d893
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

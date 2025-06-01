@@ -1,0 +1,20 @@
+
+A rushed hacker reused a nonce in AES-GCM while encrypting two secret files. Both ciphertexts are here: ciphertext1:c4d8fe6a5e39d2c730a553840da1, ciphertext2: d6dcf67e053ed1863ba2129658fc601ba484. Can you exploit the mistake to recover the plaintexts?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{npaeh524}
+ciphertext: ciphertext1:c4d8fe6a5e39d2c730a553840da1, ciphertext2: d6dcf67e053ed1863ba2129658fc601ba484
+tag1: d0d1748f08943cc207216acb9e94a80b
+tag2: 7b86dff4a36f64068ec20315d606a149
+cipher: AES-GCM
+vulnerability: nonce reuse
+hint: AES-GCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 45b9d465ae1ee6be00b6d5ad
+subtype: aes_gcm
+archetype: aes

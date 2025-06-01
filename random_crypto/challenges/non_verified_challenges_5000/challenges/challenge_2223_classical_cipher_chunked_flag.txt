@@ -1,0 +1,15 @@
+Intercepted transmissions use ChunkedFlag cipher. Decrypt fl ag {my y4i re3 } to reveal the secret passphrase hidden in the fragments.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{myy4ire3}
+ciphertext: fl ag {my y4i re3 }
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

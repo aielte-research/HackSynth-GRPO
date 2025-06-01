@@ -1,0 +1,19 @@
+Intercepted at midnight, this message hides its secret behind a ticking clock and a hasty PRNG. Can you reverse time to reveal its contents? 666ca16e7b34f67d3038f230647d
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 76684)
+The system time when the encryption process started was around: 2025-05-17 13:40:19 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{46t0829d}
+ciphertext: 666ca16e7b34f67d3038f230647d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 76684)
+The system time when the encryption process started was around: 2025-05-17 13:40:19 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 49161.
+subtype: time_based_seed
+archetype: prng

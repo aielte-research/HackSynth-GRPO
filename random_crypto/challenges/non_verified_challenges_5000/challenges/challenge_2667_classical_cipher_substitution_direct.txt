@@ -1,0 +1,21 @@
+An intercepted message, rumored to reveal coordinates of a hidden stash, was found encrypted with a simple letter substitution. Can you uncover the secret in copu{uar81cwm}?
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'p', 'b': 'l', 'c': 'z', 'd': 'g', 'e': 'n', 'f': 'c', 'g': 'u', 'h': 'h', 'i': 'y', 'j': 'f', 'k': 'k', 'l': 'o', 'm': 'r', 'n': 's', 'o': 'i', 'p': 't', 'q': 'v', 'r': 'd', 's': 'x', 't': 'q', 'u': 'j', 'v': 'a', 'w': 'm', 'x': 'e', 'y': 'w', 'z': 'b'}
+
+---
+
+## Challenge Technical Details
+flag: flag{gvm81fyw}
+cipher: Substitution
+ciphertext: copu{uar81cwm}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'p', 'b': 'l', 'c': 'z', 'd': 'g', 'e': 'n', 'f': 'c', 'g': 'u', 'h': 'h', 'i': 'y', 'j': 'f', 'k': 'k', 'l': 'o', 'm': 'r', 'n': 's', 'o': 'i', 'p': 't', 'q': 'v', 'r': 'd', 's': 'x', 't': 'q', 'u': 'j', 'v': 'a', 'w': 'm', 'x': 'e', 'y': 'w', 'z': 'b'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

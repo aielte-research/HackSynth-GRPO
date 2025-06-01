@@ -1,0 +1,15 @@
+Intercepted disk data hides a secret. Can you recover the original plaintext from the AES-XTS-encrypted blob? Ciphertext: ciphertext1:c3184fde27625893b7997cc35b067803, ciphertext2: 18d9270a036c248e4fa52a7ad9b63320d10b2bb9eac593013b0152821ab8fc2a
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{6a2morfj}
+ciphertext: ciphertext1:c3184fde27625893b7997cc35b067803, ciphertext2: 18d9270a036c248e4fa52a7ad9b63320d10b2bb9eac593013b0152821ab8fc2a
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: e18a4e45c2eac46efac8553df3ceab03
+subtype: aes_xts
+archetype: aes

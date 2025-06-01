@@ -1,0 +1,15 @@
+The hacker left a hidden password at the scene, encrypted with a simple ancient shift. Can you crack the code and recover the secret? yetz{uxjovj77}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{beqvcq77}
+ciphertext: yetz{uxjovj77}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 19
+subtype: caesar
+archetype: classical_cipher

@@ -1,0 +1,19 @@
+An old server’s logs were encrypted nightly using a time-seeded PRNG. Recover yesterday's admin note from this snippet: 666c5a987b67569766635a9e747d
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 30918)
+The system time when the encryption process started was around: 2025-05-25 11:59:44 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{gmhfcaat}
+ciphertext: 666c5a987b67569766635a9e747d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 30918)
+The system time when the encryption process started was around: 2025-05-25 11:59:44 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 15359.
+subtype: time_based_seed
+archetype: prng

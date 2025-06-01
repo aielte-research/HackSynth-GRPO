@@ -1,0 +1,21 @@
+
+A hasty developer hashed passwords with SHA-256 but used the same weak salt for everyone. Can you recover Alice’s password from 16461d86482253acdde2e9c3856a2acb5d41fde25bfd2cfe83e139ec55b7e80a?
+
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{s76}
+ciphertext: 16461d86482253acdde2e9c3856a2acb5d41fde25bfd2cfe83e139ec55b7e80a
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

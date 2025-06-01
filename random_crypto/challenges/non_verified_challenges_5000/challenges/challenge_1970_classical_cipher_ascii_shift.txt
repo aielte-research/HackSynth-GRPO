@@ -1,0 +1,15 @@
+An old hacker left a secret in plain sight—shifted by ASCII codes. Can you decode their hidden message? Here’s the encrypted string: jpeky~5x66ln
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{uz1t22hj}
+cipher: ASCII Shift
+ciphertext: jpeky~5x66ln
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 4
+subtype: ascii_shift
+archetype: classical_cipher

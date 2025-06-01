@@ -1,0 +1,15 @@
+An old admin stored the password's MD5 hash, trusting its security. Recover the original password using flaws in MD5. Here’s the hash: c8789889820b239c38b0d6707b40e5b1
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{IFTXT}
+ciphertext: c8789889820b239c38b0d6707b40e5b1
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

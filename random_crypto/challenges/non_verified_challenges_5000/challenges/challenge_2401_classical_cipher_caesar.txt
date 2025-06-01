@@ -1,0 +1,15 @@
+Agent Nova left a secret clue for their contact. Can you shift the message to reveal what Nova hid? The scrambled note: tzou{10yrlpdr}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{10kdxbpd}
+ciphertext: tzou{10yrlpdr}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 14
+subtype: caesar
+archetype: classical_cipher

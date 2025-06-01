@@ -1,0 +1,19 @@
+An intern used a predictable PRNG to encrypt the server password. The ciphertext is below. Can you recover the original password? 662961227b766e3d347470346638
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 2**10)
+A secret number was generated using Python's PRNG with a seed from 0 to 9,999. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{3nx41pqf}
+ciphertext: 662961227b766e3d347470346638
+cipher: Predictable PRNG
+hint: The seed range is small enough for brute-force. Try recreating the PRNG sequence.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 2**10)
+A secret number was generated using Python's PRNG with a seed from 0 to 9,999. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: If you can predict or brute-force the seed, you can reconstruct the PRNG output and decrypt the flag.
+subtype: predictable_seed
+archetype: prng

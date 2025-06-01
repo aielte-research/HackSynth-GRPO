@@ -1,0 +1,14 @@
+An ancient scroll hints at treasure but the message is reversed in a forgotten script. Can you decipher its secret? Here it is: uozt{gh5x2rc5}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ts5c2ix5}
+cipher: Atbash
+ciphertext: uozt{gh5x2rc5}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

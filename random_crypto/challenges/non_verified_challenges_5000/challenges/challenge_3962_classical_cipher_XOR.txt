@@ -1,0 +1,17 @@
+
+An analyst intercepted stringA: 070e580048412b1d5e41175a0a16 stringB: 616239673378457535756438396b, suspected to be an XOR-encrypted password. Can you recover the original message before the hacker returns?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{9nhk4sb3}
+cipher: XOR
+ciphertext: stringA: 070e580048412b1d5e41175a0a16 stringB: 616239673378457535756438396b
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

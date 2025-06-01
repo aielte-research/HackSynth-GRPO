@@ -1,0 +1,18 @@
+Agent reused the same AES-GCM nonce for two secret messages. The adversary intercepted both, now provided as ciphertext1:b3490206a5a215c5e4d434a2029e, ciphertext2: a14d0a12feb8148fe8d776fa09c3b9b3f3be. Recover one message using the nonce reuse flaw.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{srjbl6xj}
+ciphertext: ciphertext1:b3490206a5a215c5e4d434a2029e, ciphertext2: a14d0a12feb8148fe8d776fa09c3b9b3f3be
+tag1: 4941d5d42daa5320ce6728e65cdb544c
+tag2: ab804c2cac2e3dde3fd8ef394d895f1c
+cipher: AES-GCM
+vulnerability: nonce reuse
+hint: AES-GCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 4f98d2e971b675fb00dcdc3c
+subtype: aes_gcm
+archetype: aes

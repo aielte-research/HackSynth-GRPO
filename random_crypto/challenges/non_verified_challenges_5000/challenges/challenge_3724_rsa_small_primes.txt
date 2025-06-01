@@ -1,0 +1,18 @@
+Agent Zero encrypted the password with RSA, but rushed and picked small primes. Recover the password from this ciphertext: 4063982217020222502
+
+The flag format is flag{...}
+n=7991396463427403137, e=5310263542929916463
+
+---
+
+## Challenge Technical Details
+flag: flag{m37k9chk}
+cipher: RSA
+ciphertext: 4063982217020222502
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=7991396463427403137, e=5310263542929916463
+extra_info: p=2228627321, q=3585793097, φ(n)=7991396457612982720
+subtype: small_primes
+archetype: rsa

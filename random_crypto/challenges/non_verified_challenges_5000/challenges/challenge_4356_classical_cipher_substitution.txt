@@ -1,0 +1,15 @@
+A secret society encodes their motto using a substitution cipher. Can you uncover their hidden message? The ciphertext is: wa buxgrvhumgdx, m etyerwrtrwva bwgdcu we m qcrdvs vk cabuxgrwah wa ldwbd tawre vk gfmwarcpr muc ucgfmbcs lwrd rdc bwgdcurcpr, wa m sckwacs qmaacu, lwrd rdc dcfg vk m ncx; rdc "tawre" qmx yc ewahfc fcrrcue (rdc qver bvqqva), gmwue vk fcrrcue, ruwgfcre vk fcrrcue, qwprtuce vk rdc myvic, mas ev kvurd. rdc ucbcwicu scbwgdcue rdc rcpr yx gcukvuqwah rdc waicuec etyerwrtrwva guvbcee rv cprumbr rdc vuwhwamf qceemhc. fwnclwec, zmbotce otwbnfx jwggcs rduvthd m otcerwva va jcuv-navlfcshc guvvke, caetuwah av buwrwbmf fcrrcu lme fckr vtr vk vtu buxgrvhumgdwb gtjjfc.kfmh{14q0gs02}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{14m0pd02}
+ciphertext: wa buxgrvhumgdx, m etyerwrtrwva bwgdcu we m qcrdvs vk cabuxgrwah wa ldwbd tawre vk gfmwarcpr muc ucgfmbcs lwrd rdc bwgdcurcpr, wa m sckwacs qmaacu, lwrd rdc dcfg vk m ncx; rdc "tawre" qmx yc ewahfc fcrrcue (rdc qver bvqqva), gmwue vk fcrrcue, ruwgfcre vk fcrrcue, qwprtuce vk rdc myvic, mas ev kvurd. rdc ucbcwicu scbwgdcue rdc rcpr yx gcukvuqwah rdc waicuec etyerwrtrwva guvbcee rv cprumbr rdc vuwhwamf qceemhc. fwnclwec, zmbotce otwbnfx jwggcs rduvthd m otcerwva va jcuv-navlfcshc guvvke, caetuwah av buwrwbmf fcrrcu lme fckr vtr vk vtu buxgrvhumgdwb gtjjfc.kfmh{14q0gs02}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'm', 'b': 'y', 'c': 'b', 'd': 's', 'e': 'c', 'f': 'k', 'g': 'h', 'h': 'd', 'i': 'w', 'j': 'z', 'k': 'n', 'l': 'f', 'm': 'q', 'n': 'a', 'o': 'v', 'p': 'g', 'q': 'o', 'r': 'u', 's': 'e', 't': 'r', 'u': 't', 'v': 'i', 'w': 'l', 'x': 'p', 'y': 'x', 'z': 'j'}
+subtype: substitution
+archetype: classical_cipher

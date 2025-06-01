@@ -1,0 +1,22 @@
+
+Agent Lema left a curious ECC-encrypted note. Rumor is, the chosen curve is dangerously small. Can you break Public key: (3, 91) and reveal the message before others do?
+
+
+Curve equation: y^2 = x^3 + 2*x + 3 (mod 97)
+Generator G = (3, 6), group order ~ 5
+Find d such that d*G = PublicKey.The flag format is flag{private_key}
+
+---
+
+## Challenge Technical Details
+flag: flag{4}
+ciphertext: Public key: (3, 91)
+cipher: ECC - small_order_curves
+hint: A small prime field with small group order means discrete log can be brute-forced easily.
+necessary_info: Curve equation: y^2 = x^3 + 2*x + 3 (mod 97)
+Generator G = (3, 6), group order ~ 5
+Find d such that d*G = PublicKey.The flag format is flag{private_key}
+extra_info: Private key: d=4
+We used p=97, a=2, b=3, G=(3, 6), group order=5
+subtype: small_order_curves
+archetype: ecc

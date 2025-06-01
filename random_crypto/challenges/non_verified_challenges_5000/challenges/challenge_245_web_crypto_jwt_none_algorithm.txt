@@ -1,0 +1,11 @@
+A mysterious admin left a JWT token encoded as eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tkbWdpaTd4ZX0ifQ.. Can you uncover the hidden secret inside?
+
+---
+
+## Challenge Technical Details
+flag: flag{dmgii7xe}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tkbWdpaTd4ZX0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

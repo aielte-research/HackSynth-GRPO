@@ -1,0 +1,27 @@
+A rival hacker encoded the secret flag using their predictable custom RNG. Can you recover the flag from the ciphertext below, knowing they used LCG Predictability? 6279c6997f64c9993464d4cb7368
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 83288514
+  - Multiplier: 4966875
+  - Increment: 58063133
+The first 5 outputs of the LCG are provided: [26554589, 23610500, 65961605, 72535220, 49722635] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{qng0qs5w}
+ciphertext: 6279c6997f64c9993464d4cb7368
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 83288514
+  - Multiplier: 4966875
+  - Increment: 58063133
+The first 5 outputs of the LCG are provided: [26554589, 23610500, 65961605, 72535220, 49722635] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

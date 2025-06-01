@@ -1,0 +1,11 @@
+Intercepted from a rival hacker's API, this JWT-signed token (eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3t0emd3dHpudX0ifQ.) holds the admin secret. Can you recover the truth inside?
+
+---
+
+## Challenge Technical Details
+flag: flag{tzgwtznu}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3t0emd3dHpudX0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

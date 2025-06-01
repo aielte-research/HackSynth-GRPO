@@ -1,0 +1,12 @@
+Mysterious login tokens using the infamous Insecure Session Token cipher have surfaced. Can you uncover the admin’s secret from this session: 757365725f646d37373a666c61677b316f7762357779707d3a31373438313730323131?
+
+---
+
+## Challenge Technical Details
+flag: flag{1owb5wyp}
+ciphertext: 757365725f646d37373a666c61677b316f7762357779707d3a31373438313730323131
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_dm77:flag{1owb5wyp}:1748170211'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

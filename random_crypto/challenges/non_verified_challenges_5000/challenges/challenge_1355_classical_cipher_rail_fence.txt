@@ -1,0 +1,15 @@
+The secret meeting location is hidden using a zigzag pattern. Decode the message below using the Rail Fence cipher to uncover the coordinates: fa{1psvlgin8v}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{i1np8svv}
+ciphertext: fa{1psvlgin8v}
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 2
+subtype: rail_fence
+archetype: classical_cipher

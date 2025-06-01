@@ -1,0 +1,16 @@
+An elusive hacker left behind a puzzling message. Can you uncover their secret by decrypting this Vigenère-encrypted text? Ciphertext: pzim{26dk2t90}
+
+The flag format is flag{...}
+The keyword is: koig
+
+---
+
+## Challenge Technical Details
+flag: flag{26tw2l90}
+ciphertext: pzim{26dk2t90}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: koig
+subtype: vigenere
+archetype: classical_cipher

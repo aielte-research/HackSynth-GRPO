@@ -1,0 +1,18 @@
+An encrypted message from a secret contact landed in your inbox. Only with AES can you reveal its contents: ciphertext1:eb3ac6953512d64c232329ef769d, ciphertext2: eb3ac6953505ce176e2b75e2399d
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ch4t9nc8}
+ciphertext: ciphertext1:eb3ac6953512d64c232329ef769d, ciphertext2: eb3ac6953505ce176e2b75e2399d
+tag1: 652cd6cc9f08c28dab216052f2fd1809
+tag2: 0638e824fcb5cd26182d7f96bc3c7556
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 5d71669af373672e94ea54
+subtype: aes_ccm
+archetype: aes

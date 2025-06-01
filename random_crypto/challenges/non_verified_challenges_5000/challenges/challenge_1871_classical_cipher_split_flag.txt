@@ -1,0 +1,17 @@
+
+Agent Mira hid the vault password using her SplitNumberMix cipher. Crack the code:  55555 fl 55555 ag{uoy 55555 tndpo} 55555 
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{uoytndpo}
+ciphertext:  55555 fl 55555 ag{uoy 55555 tndpo} 55555 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 3 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

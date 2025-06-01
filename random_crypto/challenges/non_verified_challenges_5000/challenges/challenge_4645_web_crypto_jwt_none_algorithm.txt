@@ -1,0 +1,11 @@
+Intercepted admin token: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3t3Zzk0ZjRuY30ifQ.. Can you crack it to reveal the secret flag?
+
+---
+
+## Challenge Technical Details
+flag: flag{wg94f4nc}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3t3Zzk0ZjRuY30ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

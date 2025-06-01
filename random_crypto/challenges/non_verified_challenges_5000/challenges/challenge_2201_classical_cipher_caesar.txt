@@ -1,0 +1,15 @@
+The hacker left a secret Caesar-encrypted password in the server logs. Can you crack the code? Here it is: vbqw{tizn06z1}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{dsjx06j1}
+ciphertext: vbqw{tizn06z1}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 16
+subtype: caesar
+archetype: classical_cipher

@@ -1,0 +1,18 @@
+The hacker left you a secret file encrypted with AES. Can you recover the hidden message from this ciphertext? ciphertext1:10d64083a66d36f0e77396b95422, ciphertext2: 10d64083a67b23b7e961ccf34022
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ps4ts0zg}
+ciphertext: ciphertext1:10d64083a66d36f0e77396b95422, ciphertext2: 10d64083a67b23b7e961ccf34022
+tag1: 155b5c58a6a2a339343b386637072d41
+tag2: 6c28066b8cebb96bcfbc4467e292ea39
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 2d44f8f05e3bfc03339c56
+subtype: aes_ccm
+archetype: aes

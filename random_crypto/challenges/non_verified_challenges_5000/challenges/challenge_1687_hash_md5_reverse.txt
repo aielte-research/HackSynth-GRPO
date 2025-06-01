@@ -1,0 +1,15 @@
+A notorious hacker left a secret in an MD5 hash. Exploit MD5's weaknesses to reveal the password hidden in 1f2315c5c5038d094d98bc44c88dba65.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{SBSDS}
+ciphertext: 1f2315c5c5038d094d98bc44c88dba65
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

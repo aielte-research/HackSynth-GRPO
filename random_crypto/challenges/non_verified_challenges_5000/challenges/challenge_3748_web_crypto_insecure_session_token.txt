@@ -1,0 +1,14 @@
+
+A dev left the demo site’s session tokens unpatched. Can you break the chosen-ciphertext with the Insecure Session Token cipher? Here’s one session token: 757365725f69716c643a666c61677b7a6465696d6177327d3a31373438313639333830
+
+
+---
+
+## Challenge Technical Details
+flag: flag{zdeimaw2}
+ciphertext: 757365725f69716c643a666c61677b7a6465696d6177327d3a31373438313639333830
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_iqld:flag{zdeimaw2}:1748169380'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

@@ -1,0 +1,17 @@
+
+A hacker left a hidden message in the ASCII-shifted code below. Can you decode what they’re planning? Here it is: oujpxpxp|s;>
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ogogsj25}
+cipher: ASCII Shift
+ciphertext: oujpxpxp|s;>
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 9
+subtype: ascii_shift
+archetype: classical_cipher

@@ -1,0 +1,25 @@
+A secret key exchange went awry between two agents. An intercepted message, 10c969e0a388a4914a24662ae7ed, holds the clues. Can you recover the shared secret?
+
+The key exchange uses a prime modulus of 101 and generator 2.
+Alice's public key is 17 and Bob's public key is 21.
+You received a tip that the private values are at most two digits.
+You got access to some of the code:
+encryption_key = hashlib.sha256(str(shared_key).encode()).digest()[:16]
+encrypted_flag = bytes(a ^ b for a, b in zip(flag.encode(), encryption_key))
+
+---
+
+## Challenge Technical Details
+flag: flag{yfxz33hn}
+ciphertext: 10c969e0a388a4914a24662ae7ed
+cipher: Diffie-Hellman
+hint: The prime used in this key exchange is small. You can recover the private key by brute-force.
+necessary_info: The key exchange uses a prime modulus of 101 and generator 2.
+Alice's public key is 17 and Bob's public key is 21.
+You received a tip that the private values are at most two digits.
+You got access to some of the code:
+encryption_key = hashlib.sha256(str(shared_key).encode()).digest()[:16]
+encrypted_flag = bytes(a ^ b for a, b in zip(flag.encode(), encryption_key))
+extra_info: secret_a=30, secret_b=78
+subtype: broken_key_exchange
+archetype: web_crypto

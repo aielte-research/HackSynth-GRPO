@@ -1,0 +1,16 @@
+Intercepted message 735eb01f7e4d7546b41c3cfa5061968f was encrypted with AES-ECB. The key is short and padded with null bytes. Recover the plaintext.
+
+An encryption key that is only 2 bytes long?.
+
+---
+
+## Challenge Technical Details
+flag: flag{lzm2vkf6}
+ciphertext: 735eb01f7e4d7546b41c3cfa5061968f
+cipher: AES-ECB
+vulnerability: small key padded with null bytes
+hint: ECB mode with a short key makes brute-forcing possible. Consider the small key entropy.
+necessary_info: An encryption key that is only 2 bytes long?.
+extra_info: Padding follows PKCS#7. The key is padded to 16 bytes with null bytes.
+subtype: weak_cookie_encryption
+archetype: web_crypto

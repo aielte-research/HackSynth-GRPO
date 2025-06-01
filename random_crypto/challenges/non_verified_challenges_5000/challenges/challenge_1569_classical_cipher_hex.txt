@@ -1,0 +1,14 @@
+Archaeologists found a device etched with hex digits. Cracking the code may reveal coordinates to a hidden vault. Decode: 666c61677b356a7830693276367d
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{5jx0i2v6}
+cipher: Hex
+ciphertext: 666c61677b356a7830693276367d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

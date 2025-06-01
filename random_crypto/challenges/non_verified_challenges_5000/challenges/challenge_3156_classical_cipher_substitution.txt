@@ -1,0 +1,17 @@
+
+A rogue AI hid access codes using basic symbol swaps. Decode this old-school cyphertext to retrieve the passphrase: js amdeilnmzevd, z tcktijicijls ajevhm jt z xhivly lp hsamdeijsn js ovjav csjit lp ebzjsihwi zmh mhebzahy ojiv ivh ajevhmihwi, js z yhpjshy xzsshm, ojiv ivh vhbe lp z fhd; ivh "csjit" xzd kh tjsnbh bhiihmt (ivh xlti alxxls), ezjmt lp bhiihmt, imjebhit lp bhiihmt, xjwicmht lp ivh zklrh, zsy tl plmiv. ivh mhahjrhm yhajevhmt ivh ihwi kd ehmplmxjsn ivh jsrhmth tcktijicijls emlahtt il hwimzai ivh lmjnjszb xhttznh. bjfhojth, gzaqcht qcjafbd ujeehy ivmlcnv z qchtijls ls uhml-fslobhynh emllpt, hstcmjsn sl amjijazb bhiihm ozt bhpi lci lp lcm amdeilnmzevja ecuubh.pbzn{9uqx05q7}
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{9zqm05q7}
+ciphertext: js amdeilnmzevd, z tcktijicijls ajevhm jt z xhivly lp hsamdeijsn js ovjav csjit lp ebzjsihwi zmh mhebzahy ojiv ivh ajevhmihwi, js z yhpjshy xzsshm, ojiv ivh vhbe lp z fhd; ivh "csjit" xzd kh tjsnbh bhiihmt (ivh xlti alxxls), ezjmt lp bhiihmt, imjebhit lp bhiihmt, xjwicmht lp ivh zklrh, zsy tl plmiv. ivh mhahjrhm yhajevhmt ivh ihwi kd ehmplmxjsn ivh jsrhmth tcktijicijls emlahtt il hwimzai ivh lmjnjszb xhttznh. bjfhojth, gzaqcht qcjafbd ujeehy ivmlcnv z qchtijls ls uhml-fslobhynh emllpt, hstcmjsn sl amjijazb bhiihm ozt bhpi lci lp lcm amdeilnmzevja ecuubh.pbzn{9uqx05q7}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'z', 'b': 'k', 'c': 'a', 'd': 'y', 'e': 'h', 'f': 'p', 'g': 'n', 'h': 'v', 'i': 'j', 'j': 'g', 'k': 'f', 'l': 'b', 'm': 'x', 'n': 's', 'o': 'l', 'p': 'e', 'q': 'q', 'r': 'm', 's': 't', 't': 'i', 'u': 'c', 'v': 'r', 'w': 'o', 'x': 'w', 'y': 'd', 'z': 'u'}
+subtype: substitution
+archetype: classical_cipher

@@ -1,0 +1,21 @@
+A hacker intercepted a secret message encoded with a substitution cipher. Can you decrypt the hidden information from this ciphertext? cglp{b0724s7r}
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'l', 'b': 't', 'c': 'y', 'd': 'u', 'e': 'w', 'f': 'c', 'g': 'p', 'h': 'z', 'i': 'f', 'j': 'b', 'k': 'd', 'l': 'g', 'm': 'e', 'n': 'k', 'o': 's', 'p': 'x', 'q': 'v', 'r': 'r', 's': 'i', 't': 'm', 'u': 'n', 'v': 'q', 'w': 'o', 'x': 'j', 'y': 'h', 'z': 'a'}
+
+---
+
+## Challenge Technical Details
+flag: flag{j0724o7r}
+cipher: Substitution
+ciphertext: cglp{b0724s7r}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'l', 'b': 't', 'c': 'y', 'd': 'u', 'e': 'w', 'f': 'c', 'g': 'p', 'h': 'z', 'i': 'f', 'j': 'b', 'k': 'd', 'l': 'g', 'm': 'e', 'n': 'k', 'o': 's', 'p': 'x', 'q': 'v', 'r': 'r', 's': 'i', 't': 'm', 'u': 'n', 'v': 'q', 'w': 'o', 'x': 'j', 'y': 'h', 'z': 'a'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

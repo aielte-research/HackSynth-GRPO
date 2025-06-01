@@ -1,0 +1,17 @@
+
+Intercepted spy notes use a mysterious alphabet. Can you decode the secret message in po vztjranzgjmt, g wbxwrprbrpao vpjmyz pw g lyrmad as yovztjrpon po kmpvm boprw as jfgporyur gzy zyjfgvyd kprm rmy vpjmyzryur, po g dyspoyd lgooyz, kprm rmy myfj as g hyt; rmy "boprw" lgt xy wponfy fyrryzw (rmy lawr vallao), jgpzw as fyrryzw, rzpjfyrw as fyrryzw, lpurbzyw as rmy gxaiy, god wa sazrm. rmy zyvypiyz dyvpjmyzw rmy ryur xt jyzsazlpon rmy poiyzwy wbxwrprbrpao jzavyww ra yurzgvr rmy azpnpogf lywwgny. fphykpwy, egvqbyw qbpvhft cpjjyd rmzabnm g qbywrpao ao cyza-hoakfydny jzaasw, yowbzpon oa vzprpvgf fyrryz kgw fysr abr as abz vztjranzgjmpv jbccfy.sfgn{1djbgbnn} using a substitution cipher?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{1dpuaugg}
+ciphertext: po vztjranzgjmt, g wbxwrprbrpao vpjmyz pw g lyrmad as yovztjrpon po kmpvm boprw as jfgporyur gzy zyjfgvyd kprm rmy vpjmyzryur, po g dyspoyd lgooyz, kprm rmy myfj as g hyt; rmy "boprw" lgt xy wponfy fyrryzw (rmy lawr vallao), jgpzw as fyrryzw, rzpjfyrw as fyrryzw, lpurbzyw as rmy gxaiy, god wa sazrm. rmy zyvypiyz dyvpjmyzw rmy ryur xt jyzsazlpon rmy poiyzwy wbxwrprbrpao jzavyww ra yurzgvr rmy azpnpogf lywwgny. fphykpwy, egvqbyw qbpvhft cpjjyd rmzabnm g qbywrpao ao cyza-hoakfydny jzaasw, yowbzpon oa vzprpvgf fyrryz kgw fysr abr as abz vztjranzgjmpv jbccfy.sfgn{1djbgbnn}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'g', 'b': 'x', 'c': 'v', 'd': 'd', 'e': 'y', 'f': 's', 'g': 'n', 'h': 'm', 'i': 'p', 'j': 'e', 'k': 'h', 'l': 'f', 'm': 'l', 'n': 'o', 'o': 'a', 'p': 'j', 'q': 'q', 'r': 'z', 's': 'w', 't': 'r', 'u': 'b', 'v': 'i', 'w': 'k', 'x': 'u', 'y': 't', 'z': 'c'}
+subtype: substitution
+archetype: classical_cipher

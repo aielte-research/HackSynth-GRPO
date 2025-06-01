@@ -1,0 +1,17 @@
+
+A hacker left a message for you, but shifted each letter using ASCII values. Can you decode ntiok9lykAy to reveal the secret?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{cz1dqc9q}
+cipher: ASCII Shift
+ciphertext: ntiok9lykAy
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 8
+subtype: ascii_shift
+archetype: classical_cipher

@@ -1,0 +1,14 @@
+
+A web forum uses weak session tokens to authenticate users. Recover the original session info from this captured token: 757365725f6361646d3a666c61677b6b6f313772397a677d3a31373438313730343938
+
+
+---
+
+## Challenge Technical Details
+flag: flag{ko17r9zg}
+ciphertext: 757365725f6361646d3a666c61677b6b6f313772397a677d3a31373438313730343938
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_cadm:flag{ko17r9zg}:1748170498'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

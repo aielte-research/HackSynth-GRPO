@@ -1,0 +1,14 @@
+An archaeologist found a coded message on an ancient tablet. Decipher the hidden warning using an old alphabet trick: uozt{1jeb1o0u}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{1qvy1l0f}
+cipher: Atbash
+ciphertext: uozt{1jeb1o0u}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

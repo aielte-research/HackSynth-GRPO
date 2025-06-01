@@ -1,0 +1,13 @@
+
+An insider leaked a secret API token secured with a JWT. Can you recover the original claims from this encoded string? eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3s4OGg3dGlveH0ifQ.
+
+
+---
+
+## Challenge Technical Details
+flag: flag{88h7tiox}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3s4OGg3dGlveH0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

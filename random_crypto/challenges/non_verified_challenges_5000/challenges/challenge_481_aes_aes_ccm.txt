@@ -1,0 +1,20 @@
+
+Agent Nova hid the secret launch code, encrypting it with AES. Only the right passphrase will reveal it: ciphertext1:ceaf69506c611c4e4c742df8fffa, ciphertext2: ceaf69506c6c41134d7671f8aafa
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{g4oht6n2}
+ciphertext: ciphertext1:ceaf69506c611c4e4c742df8fffa, ciphertext2: ceaf69506c6c41134d7671f8aafa
+tag1: 54d4ce252e5789d6ff70216a3d304dc2
+tag2: 2ade082e96fabdc96f1924d847a5d3d3
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: bbb4fa914006d360dd6a01
+subtype: aes_ccm
+archetype: aes

@@ -1,0 +1,15 @@
+The old server's admin left a note: "Trust numbers, but watch their order." The flag is encrypted below using SplitNumberMix. Can you decipher it? 666666 fl 666666 a 666666 g{ilmdhz 666666 od} 666666 
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ilmdhzod}
+ciphertext:  666666 fl 666666 a 666666 g{ilmdhz 666666 od} 666666 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 4 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

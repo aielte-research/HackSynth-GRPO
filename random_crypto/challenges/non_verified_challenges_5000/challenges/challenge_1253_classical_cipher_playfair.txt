@@ -1,0 +1,19 @@
+
+A secret society encoded their next meeting's coordinates using the Playfair cipher. Can you decrypt bcalpeuhtpoikqfbotvipeuhtpsulytvtmvofbbzrznmalpeuhtpoikqfborvzwemsepurwoefcorizmiovqcrnmzadcoklyabzkagrzfbclsueirctuepckcvewuvzycrercrnmirqgtulugplooemrwo and uncover the hidden location?
+
+
+The flag format is flag{...}
+The keyword is: onmwxtze
+
+---
+
+## Challenge Technical Details
+flag: flag{im6mtoum}
+ciphertext: bcalpeuhtpoikqfbotvipeuhtpsulytvtmvofbbzrznmalpeuhtpoikqfborvzwemsepurwoefcorizmiovqcrnmzadcoklyabzkagrzfbclsueirctuepckcvewuvzycrercrnmirqgtulugplooemrwo
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: onmwxtze
+extra_info: The playfair table is [['o', 'n', 'm', 'w', 'x'], ['t', 'z', 'e', 'a', 'b'], ['c', 'd', 'f', 'g', 'h'], ['i', 'k', 'l', 'p', 'q'], ['r', 's', 'u', 'v', 'y']]
+subtype: playfair
+archetype: classical_cipher

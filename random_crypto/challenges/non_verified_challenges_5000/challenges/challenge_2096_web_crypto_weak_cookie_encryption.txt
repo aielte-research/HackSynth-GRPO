@@ -1,0 +1,16 @@
+Agent encrypt0r hid the flag with AES-ECB, padding a short key with zeros. Can you recover the message from 73e0c4e917e6a05781a95f74020b2716?
+
+An encryption key that is only 2 bytes long?.
+
+---
+
+## Challenge Technical Details
+flag: flag{zngn76es}
+ciphertext: 73e0c4e917e6a05781a95f74020b2716
+cipher: AES-ECB
+vulnerability: small key padded with null bytes
+hint: ECB mode with a short key makes brute-forcing possible. Consider the small key entropy.
+necessary_info: An encryption key that is only 2 bytes long?.
+extra_info: Padding follows PKCS#7. The key is padded to 16 bytes with null bytes.
+subtype: weak_cookie_encryption
+archetype: web_crypto

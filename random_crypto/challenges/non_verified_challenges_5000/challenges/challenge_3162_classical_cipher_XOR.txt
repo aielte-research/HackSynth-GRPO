@@ -1,0 +1,17 @@
+
+An agent's note was intercepted, but it’s XOR-encrypted. Can you reveal the secret by cracking this cipher? Here’s the note: stringA: 310a302938040039462054395834 stringB: 5766514e4331684f735636536a49
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{5hv5vbj2}
+cipher: XOR
+ciphertext: stringA: 310a302938040039462054395834 stringB: 5766514e4331684f735636536a49
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

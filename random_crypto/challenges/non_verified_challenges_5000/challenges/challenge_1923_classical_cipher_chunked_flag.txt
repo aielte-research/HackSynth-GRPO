@@ -1,0 +1,15 @@
+A mysterious message, split into chunks, was left behind by a rogue cryptographer. Can you reunite the pieces and decrypt the flag from this ChunkedFlag cipher: fla g{o d9n 04 lj}?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{od9n04lj}
+ciphertext: fla g{o d9n 04 lj}
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

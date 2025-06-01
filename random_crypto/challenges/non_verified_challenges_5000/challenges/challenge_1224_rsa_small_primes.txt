@@ -1,0 +1,18 @@
+An intern rushed the crypto system, using tiny primes for RSA. Can you recover the flag from this insecure ciphertext? 6313921489946162111
+
+The flag format is flag{...}
+n=15525868951390702823, e=11351449621374438985
+
+---
+
+## Challenge Technical Details
+flag: flag{2ef0l00y}
+cipher: RSA
+ciphertext: 6313921489946162111
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=15525868951390702823, e=11351449621374438985
+extra_info: p=4065928547, q=3818529709, φ(n)=15525868943506244568
+subtype: small_primes
+archetype: rsa

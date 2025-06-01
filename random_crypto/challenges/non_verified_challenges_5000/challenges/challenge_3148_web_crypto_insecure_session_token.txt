@@ -1,0 +1,14 @@
+
+A developer left an old debug endpoint live, generating session tokens with a predictable flaw. Can you recover the admin’s secret from this insecure token: 757365725f7a7973613a666c61677b347563376974656e7d3a31373438313638353433?
+
+
+---
+
+## Challenge Technical Details
+flag: flag{4uc7iten}
+ciphertext: 757365725f7a7973613a666c61677b347563376974656e7d3a31373438313638353433
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_zysa:flag{4uc7iten}:1748168543'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

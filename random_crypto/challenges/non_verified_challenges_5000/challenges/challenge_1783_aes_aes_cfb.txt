@@ -1,0 +1,17 @@
+Intercepted chat uses AES-CFB. Decrypt the secret message hidden within this ciphertext: 9afeb84ef9c562b63914c1aafff39c36fd53f3303dcc1d43bda3535c4cbff789d79cbaf4aa945f9ca1c2535af13c1abcba6fbd284067a6fe361339f23ccc6548a0d4b99bd3396bc8da111c8c4f85c3d975e91a5419375a12b65b0736f7b24568e0c264086eb02b8ea1a971c928d7f98412d65712f3f41177af358f8dca31dd468afb839bda9aa0d0b4fca2a18f445c5d134f7de6ad4690d345618da6b55c4bb1d3ebd3dc13753511d95755fa79ad209333.
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{fbqjzw73}
+ciphertext: 9afeb84ef9c562b63914c1aafff39c36fd53f3303dcc1d43bda3535c4cbff789d79cbaf4aa945f9ca1c2535af13c1abcba6fbd284067a6fe361339f23ccc6548a0d4b99bd3396bc8da111c8c4f85c3d975e91a5419375a12b65b0736f7b24568e0c264086eb02b8ea1a971c928d7f98412d65712f3f41177af358f8dca31dd468afb839bda9aa0d0b4fca2a18f445c5d134f7de6ad4690d345618da6b55c4bb1d3ebd3dc13753511d95755fa79ad209333
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: 0ce098339b002f4a02081ecdf6c526f5
+subtype: aes_cfb
+archetype: aes

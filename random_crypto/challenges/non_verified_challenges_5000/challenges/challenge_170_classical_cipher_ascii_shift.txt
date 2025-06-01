@@ -1,0 +1,17 @@
+
+A rogue AI encoded a secret access code using ASCII Shift. Can you recover the message hidden in ntioisyq;8A?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{akzqi309}
+cipher: ASCII Shift
+ciphertext: ntioisyq;8A
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 8
+subtype: ascii_shift
+archetype: classical_cipher

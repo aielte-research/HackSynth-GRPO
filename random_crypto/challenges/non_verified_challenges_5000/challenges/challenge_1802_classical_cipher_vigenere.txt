@@ -1,0 +1,16 @@
+A mysterious hacker left a coded note at the scene. Can you reveal their secret message encrypted with Vigenère? Ciphertext: kxxi{508hpsk9}
+
+The flag format is flag{...}
+The keyword is: fmxcocc
+
+---
+
+## Challenge Technical Details
+flag: flag{508tnqf9}
+ciphertext: kxxi{508hpsk9}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: fmxcocc
+subtype: vigenere
+archetype: classical_cipher

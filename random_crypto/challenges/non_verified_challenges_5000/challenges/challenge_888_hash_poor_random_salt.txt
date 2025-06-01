@@ -1,0 +1,19 @@
+Your friend hashed a secret with SHA-256, adding a "random" salt from their birth year. They've sent you 10d5c29919583a38d02de6cf651fd56ca09ab2e77aab65fbce6d76dd028b91f1; can you recover the original secret?
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{dze}
+ciphertext: 10d5c29919583a38d02de6cf651fd56ca09ab2e77aab65fbce6d76dd028b91f1
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

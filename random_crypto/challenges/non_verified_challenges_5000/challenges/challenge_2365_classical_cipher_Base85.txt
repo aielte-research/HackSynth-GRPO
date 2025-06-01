@@ -1,0 +1,17 @@
+
+You intercepted a hacker’s message: W^7?+dwMu9a%yOKGJO. Decode their secret plan using Base85.
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{z80rjhy2}
+cipher: Base85
+ciphertext: W^7?+dwMu9a%yOKGJO
+hint: Use a Base85 decoder to retrieve the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is straightforward; only one layer is used.
+subtype: Base85
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+An anonymous hacker sent a coded message to the security team. Can you decipher the secret using the Rail Fence method? Ciphertext: f{84lgxri8}ate
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{xtr8ie84}
+ciphertext: f{84lgxri8}ate
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 3
+subtype: rail_fence
+archetype: classical_cipher

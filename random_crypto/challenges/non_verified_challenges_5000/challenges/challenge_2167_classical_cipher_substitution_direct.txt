@@ -1,0 +1,21 @@
+A message to the secret society was intercepted—decode the aemt{cui0l9tn} using a simple substitution cipher to reveal the meeting location.
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'm', 'b': 'k', 'c': 'w', 'd': 'j', 'e': 'r', 'f': 'a', 'g': 't', 'h': 'p', 'i': 's', 'j': 'x', 'k': 'o', 'l': 'e', 'm': 'l', 'n': 'z', 'o': 'u', 'p': 'n', 'q': 'i', 'r': 'g', 's': 'q', 't': 'y', 'u': 'c', 'v': 'v', 'w': 'f', 'x': 'h', 'y': 'd', 'z': 'b'}
+
+---
+
+## Challenge Technical Details
+flag: flag{uoq0m9gp}
+cipher: Substitution
+ciphertext: aemt{cui0l9tn}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'm', 'b': 'k', 'c': 'w', 'd': 'j', 'e': 'r', 'f': 'a', 'g': 't', 'h': 'p', 'i': 's', 'j': 'x', 'k': 'o', 'l': 'e', 'm': 'l', 'n': 'z', 'o': 'u', 'p': 'n', 'q': 'i', 'r': 'g', 's': 'q', 't': 'y', 'u': 'c', 'v': 'v', 'w': 'f', 'x': 'h', 'y': 'd', 'z': 'b'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

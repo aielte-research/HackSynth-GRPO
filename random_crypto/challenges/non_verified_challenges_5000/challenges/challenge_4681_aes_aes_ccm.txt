@@ -1,0 +1,18 @@
+An encrypted message from a secret society was intercepted. Rumor says it hides the vault code. Can you decipher ciphertext1:aa50b3950046f6ffcb27cf0f304d, ciphertext2: aa50b395000be6ec8d778603774d with your AES skills?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{uqt0a1br}
+ciphertext: ciphertext1:aa50b3950046f6ffcb27cf0f304d, ciphertext2: aa50b395000be6ec8d778603774d
+tag1: 755454190de10681d653e63d3a0bec94
+tag2: d60ae1f1d234ccf33140012e4f5c1ec3
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 5e14223745328790666cfa
+subtype: aes_ccm
+archetype: aes

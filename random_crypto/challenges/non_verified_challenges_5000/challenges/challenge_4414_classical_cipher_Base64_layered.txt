@@ -1,0 +1,15 @@
+A hacker left a secret clue encoded for their accomplice in Base64. Can you decode the message? Here it is: Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVcxS1IxWnFUbGRpVkZaeVZtMTRTMk14VG5OWGJGcE9ZV3RHTkZaclpEUlpWMUpYVW01T1lWSnRhRzlVVmxaM1VsWmtWMVZyU214U2EzQllWVEkxUzJGc1NuTlhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{k7xyxkp0}
+cipher: Base64
+ciphertext: Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVcxS1IxWnFUbGRpVkZaeVZtMTRTMk14VG5OWGJGcE9ZV3RHTkZaclpEUlpWMUpYVW01T1lWSnRhRzlVVmxaM1VsWmtWMVZyU214U2EzQllWVEkxUzJGc1NuTlhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 9 times in total.
+subtype: Base64_layered
+archetype: classical_cipher

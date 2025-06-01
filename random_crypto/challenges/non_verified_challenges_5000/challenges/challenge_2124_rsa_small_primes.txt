@@ -1,0 +1,20 @@
+
+The admin encrypted the flag with RSA but used tiny primes for speed. Can you exploit this weakness to recover the secret? Ciphertext: 5120387329840050833
+
+
+The flag format is flag{...}
+n=6363693540701452463, e=1694081536613381633
+
+---
+
+## Challenge Technical Details
+flag: flag{00idksfm}
+cipher: RSA
+ciphertext: 5120387329840050833
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=6363693540701452463, e=1694081536613381633
+extra_info: p=2188679173, q=2907549731, φ(n)=6363693535605223560
+subtype: small_primes
+archetype: rsa

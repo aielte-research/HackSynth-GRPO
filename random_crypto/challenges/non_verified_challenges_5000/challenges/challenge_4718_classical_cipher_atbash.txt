@@ -1,0 +1,14 @@
+An archaeologist found a mysterious note with reversed letters. Can you decode the hidden message using the ancient Atbash cipher? Ciphertext: uozt{dk39524u}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{wp39524f}
+cipher: Atbash
+ciphertext: uozt{dk39524u}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

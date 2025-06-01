@@ -1,0 +1,14 @@
+The CEO signed an urgent deal using a flawed e=3 RSA signature scheme. Intercept the signature and reveal the hidden approval code: 0x96a9d7d188d909831e997caa7d7f63388a4589ed167c2a1e1675babada95ba0ea2ccecd1d5e55aecd0d4b66c04f853075b22e33fba75c7e4b2b882bbed57adb
+
+Public Key (n, e): (6367632831275747840332107101732086091900959820539755250687910078152912960739404699376091420657376790388451277382870859606569130425322862440353030730868293, 3)
+
+---
+
+## Challenge Technical Details
+flag: flag{5jldozyw}
+ciphertext: 0x96a9d7d188d909831e997caa7d7f63388a4589ed167c2a1e1675babada95ba0ea2ccecd1d5e55aecd0d4b66c04f853075b22e33fba75c7e4b2b882bbed57adb
+cipher: RSA Low-Exponent Signature
+hint: What happens when you cube small numbers? Remember e=3!
+necessary_info: Public Key (n, e): (6367632831275747840332107101732086091900959820539755250687910078152912960739404699376091420657376790388451277382870859606569130425322862440353030730868293, 3)
+subtype: rsa_sign_with_low_public_exponent
+archetype: signature_schemes

@@ -1,0 +1,14 @@
+A hacker left a signed message using RSA with unusually low exponent. Can you recover the original message from their signature? Ciphertext: 0x299b1aea1db0fa7f191b923bbdbee253f8b0ca0b512340b6e5f53dd9b0bda60b01434132ebafbb499c5185c97691541997bcb2c137731fada3d44e7516360daa
+
+Public Key (n, e): (7859779711268057166738766368579283380681147550444915615018761433773761293546411683533116210942901247599838116400500183132213591944380052302807773372899507, 3)
+
+---
+
+## Challenge Technical Details
+flag: flag{i49nxlvd}
+ciphertext: 0x299b1aea1db0fa7f191b923bbdbee253f8b0ca0b512340b6e5f53dd9b0bda60b01434132ebafbb499c5185c97691541997bcb2c137731fada3d44e7516360daa
+cipher: RSA Low-Exponent Signature
+hint: What happens when you cube small numbers? Remember e=3!
+necessary_info: Public Key (n, e): (7859779711268057166738766368579283380681147550444915615018761433773761293546411683533116210942901247599838116400500183132213591944380052302807773372899507, 3)
+subtype: rsa_sign_with_low_public_exponent
+archetype: signature_schemes

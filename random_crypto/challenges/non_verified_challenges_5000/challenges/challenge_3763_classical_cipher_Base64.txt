@@ -1,0 +1,15 @@
+An archivist hid the next clue by encoding it in Base64. Can you decode the following message to continue your quest? ZmxhZ3s3NmgwNGE2c30=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{76h04a6s}
+cipher: Base64
+ciphertext: ZmxhZ3s3NmgwNGE2c30=
+hint: Use a Base64 decoder to obtain the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is direct; no additional layers or tricks.
+subtype: Base64
+archetype: classical_cipher

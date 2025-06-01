@@ -1,0 +1,14 @@
+A hacker encoded their password in hexadecimal before sharing it: 666c61677b716f676865376a6e7d. Can you decode the message and find the secret?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{qoghe7jn}
+cipher: Hex
+ciphertext: 666c61677b716f676865376a6e7d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

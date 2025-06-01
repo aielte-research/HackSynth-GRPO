@@ -1,0 +1,27 @@
+The casino's slots RNG broke, so they used an LCG to encrypt jackpot codes. Can you predict and recover the winning code from 6772f29f7a6be788336aea8f3163?
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 507918335
+  - Multiplier: 161506315
+  - Increment: 446867016
+The first 5 outputs of the LCG are provided: [378184566, 379779691, 358043711, 214415911, 461522791] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{utp2tyw0}
+ciphertext: 6772f29f7a6be788336aea8f3163
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 507918335
+  - Multiplier: 161506315
+  - Increment: 446867016
+The first 5 outputs of the LCG are provided: [378184566, 379779691, 358043711, 214415911, 461522791] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

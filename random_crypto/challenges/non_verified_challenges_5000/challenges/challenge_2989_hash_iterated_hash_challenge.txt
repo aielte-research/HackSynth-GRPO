@@ -1,0 +1,24 @@
+A hacker left a secret message secured with SHA-256. Can you recover the original text from this hash? Ciphertext: 2cc70ed5fd5a178201381ec814d4a9e43519d498fe5849fe8ba659d2262cbf99
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{jlb6}
+ciphertext: 2cc70ed5fd5a178201381ec814d4a9e43519d498fe5849fe8ba659d2262cbf99
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

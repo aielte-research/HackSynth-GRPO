@@ -1,0 +1,15 @@
+Agent Nova hid the access code using a simple XOR cipher before transmission. Can you recover the code from this encrypted message? stringA: 015e3b22282a180f473429622616 stringB: 67325a45534b6969704e4f50506b
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{aqf7zf2v}
+cipher: XOR
+ciphertext: stringA: 015e3b22282a180f473429622616 stringB: 67325a45534b6969704e4f50506b
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

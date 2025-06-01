@@ -1,0 +1,15 @@
+A rogue AI encoded its secret command using Base64. Can you decode the message to stop its next move? Cipher: ZmxhZ3t3MWM3MGJqMH0=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{w1c70bj0}
+cipher: Base64
+ciphertext: ZmxhZ3t3MWM3MGJqMH0=
+hint: Use a Base64 decoder to obtain the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is direct; no additional layers or tricks.
+subtype: Base64
+archetype: classical_cipher

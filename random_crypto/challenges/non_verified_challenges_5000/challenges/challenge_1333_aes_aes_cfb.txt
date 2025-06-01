@@ -1,0 +1,17 @@
+Intercepted in a covert chat, Agent X sent 3b2c2c93221d15f475d0ff0082a213e0d66bf708a7a4ec761faae180ab9bd0e53fd8958aa696a2eb8273f3fc114b9b10905e295f6f3514762bfe309f60ab6944ef13b9bbea49833b0a6cfc8b98f16ff2f570ae9f9cdeeec8234d29e5363f03adf6f8e97ecebc40a9ab23e6e77e03163fc7f7127b58246da9373e909b9b6c8e945b18f151ab1c18f9c8db58b677c8b6fb1072d62416b61863e3577a1c86c57cb25d69be45a01eb378c224d29bca396b2f00 encrypted with AES-CFB. Recover their hidden keyword to prove you can break the comms.
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{tvmcdxq3}
+ciphertext: 3b2c2c93221d15f475d0ff0082a213e0d66bf708a7a4ec761faae180ab9bd0e53fd8958aa696a2eb8273f3fc114b9b10905e295f6f3514762bfe309f60ab6944ef13b9bbea49833b0a6cfc8b98f16ff2f570ae9f9cdeeec8234d29e5363f03adf6f8e97ecebc40a9ab23e6e77e03163fc7f7127b58246da9373e909b9b6c8e945b18f151ab1c18f9c8db58b677c8b6fb1072d62416b61863e3577a1c86c57cb25d69be45a01eb378c224d29bca396b2f00
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: f449a544bdc6ffbe6375693ea27bbed5
+subtype: aes_cfb
+archetype: aes

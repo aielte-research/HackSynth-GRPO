@@ -1,0 +1,16 @@
+An encrypted note was found at the hacker's hideout. Can you use your decryption skills and the Vigenère cipher to recover its message? Here it is: oiue{psblfdc1}
+
+The flag format is flag{...}
+The keyword is: jxuyrmy
+
+---
+
+## Challenge Technical Details
+flag: flag{ygdcije1}
+ciphertext: oiue{psblfdc1}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: jxuyrmy
+subtype: vigenere
+archetype: classical_cipher

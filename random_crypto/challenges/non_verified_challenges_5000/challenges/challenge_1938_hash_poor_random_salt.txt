@@ -1,0 +1,21 @@
+
+Someone stored admin passwords hashed with SHA-256 and a weak random salt. Recover the password from this hash: 750238338d7f58e64bf3391dd711814483b2563f4da64824090a1f50ab9b9473
+
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{oek}
+ciphertext: 750238338d7f58e64bf3391dd711814483b2563f4da64824090a1f50ab9b9473
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

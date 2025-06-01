@@ -1,0 +1,19 @@
+An agent hid the code in a message encrypted using a time-based PRNG. The ciphertext is below—crack it before the time window closes: 666c9b527b6c944470388d0c6f7d
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 71721)
+The system time when the encryption process started was around: 2025-05-25 12:29:09 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{lnqp8w9o}
+ciphertext: 666c9b527b6c944470388d0c6f7d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 71721)
+The system time when the encryption process started was around: 2025-05-25 12:29:09 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 64053.
+subtype: time_based_seed
+archetype: prng

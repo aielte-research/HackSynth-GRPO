@@ -1,0 +1,15 @@
+An old hacker left a note in Base85: "Q8+ttdr@OIG*C!rHB%->JZW-vP%Udhbx<v0ZDL7bXE04yY9lCXMQ?d?L1I-?A!=7}XghvRKw5J". Decode it to recover his secret password.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{nzdbke3b}
+cipher: Base85
+ciphertext: Q8+ttdr@OIG*C!rHB%->JZW-vP%Udhbx<v0ZDL7bXE04yY9lCXMQ?d?L1I-?A!=7}XghvRKw5J
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 7 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

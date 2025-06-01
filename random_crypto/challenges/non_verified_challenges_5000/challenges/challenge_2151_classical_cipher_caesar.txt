@@ -1,0 +1,15 @@
+Intercepted from a rival hacker, this message is said to hide a key. Rumor has it, Caesar would know how to crack it: ntio{5vm8l12o}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{5ne8d12g}
+ciphertext: ntio{5vm8l12o}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 8
+subtype: caesar
+archetype: classical_cipher

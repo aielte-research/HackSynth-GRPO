@@ -1,0 +1,15 @@
+An encrypted disk fragment was found on an old laptop. Recover the secret by decrypting ciphertext1:1e8bdd16c6f0f848ae785555b85dc91d, ciphertext2: 28836a5b7fb14c75a11573171c7707b5d107fc8046deb349f7de39c35a7d2ce2 using the AES-XTS cipher.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ypo3qh10}
+ciphertext: ciphertext1:1e8bdd16c6f0f848ae785555b85dc91d, ciphertext2: 28836a5b7fb14c75a11573171c7707b5d107fc8046deb349f7de39c35a7d2ce2
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 38abd6883bc65b28276cb72138dcf912
+subtype: aes_xts
+archetype: aes

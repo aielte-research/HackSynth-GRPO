@@ -1,0 +1,15 @@
+Intercepted hacktivist messages are MD5 hashes. To uncover their secrets, exploit MD5's reversible bits and retrieve the original data. Ciphertext: 9dd5ae1b9b44aec2a68e983c2437f33a
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{GOW-D}
+ciphertext: 9dd5ae1b9b44aec2a68e983c2437f33a
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

@@ -1,0 +1,21 @@
+
+A careless admin hashed passwords with SHA-256 and a weak time-based salt. Recover the original password from this hash: bebb773cfb377eb2bec00d6c03adcb3e0d44c1af834860dded33e103b1dbe849
+
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{evj}
+ciphertext: bebb773cfb377eb2bec00d6c03adcb3e0d44c1af834860dded33e103b1dbe849
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

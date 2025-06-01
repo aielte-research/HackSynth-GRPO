@@ -1,0 +1,20 @@
+A hacker encoded her password using ECC on a curve with a hidden small subgroup. Recover the secret from this flawed Public key: (80, 10).
+
+Curve equation: y^2 = x^3 + 2*x + 3 (mod 97)
+Generator G = (3, 6), group order ~ 5
+Find d such that d*G = PublicKey.The flag format is flag{private_key}
+
+---
+
+## Challenge Technical Details
+flag: flag{2}
+ciphertext: Public key: (80, 10)
+cipher: ECC - small_order_curves
+hint: A small prime field with small group order means discrete log can be brute-forced easily.
+necessary_info: Curve equation: y^2 = x^3 + 2*x + 3 (mod 97)
+Generator G = (3, 6), group order ~ 5
+Find d such that d*G = PublicKey.The flag format is flag{private_key}
+extra_info: Private key: d=2
+We used p=97, a=2, b=3, G=(3, 6), group order=5
+subtype: small_order_curves
+archetype: ecc

@@ -1,0 +1,18 @@
+Intercepted data from a hacker’s device was encrypted with AES. Can you recover the message hidden in ciphertext1:746b0b21072b50f19016f4fef8b4, ciphertext2: 746b0b21072d00a29b12ece6aab4?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ha4xjokj}
+ciphertext: ciphertext1:746b0b21072b50f19016f4fef8b4, ciphertext2: 746b0b21072d00a29b12ece6aab4
+tag1: 92114bac9052044dd6376736f480f738
+tag2: 1d458efda4da5a673399cc123c9ecfad
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 58ae488f1b7e0d7aa046c8
+subtype: aes_ccm
+archetype: aes

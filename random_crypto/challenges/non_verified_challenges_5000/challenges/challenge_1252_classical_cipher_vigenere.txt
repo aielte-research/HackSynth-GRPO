@@ -1,0 +1,18 @@
+
+A mysterious hacker sent you a message encrypted with their favorite repeating-key cipher. Can you reveal the secret by breaking the Vigenère? Ciphertext: wlvk{948lw9bl}
+
+
+The flag format is flag{...}
+The keyword is: ravemvd
+
+---
+
+## Challenge Technical Details
+flag: flag{948zb9yu}
+ciphertext: wlvk{948lw9bl}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: ravemvd
+subtype: vigenere
+archetype: classical_cipher

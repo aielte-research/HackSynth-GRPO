@@ -1,0 +1,15 @@
+Intercepted from an underground forum, a secret wallet key is hidden in this mysterious Base85-encoded string: Q8+7fbYyZsPf15ALm_fVLM1IeN?KPfc2Fd6H+fe}OG-ITKp`+aPe3$EAwpFqaAZ+9ad$XTLO3@@Oi@`+AyH&YeI!^ZbW#
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{hz1icnk9}
+cipher: Base85
+ciphertext: Q8+7fbYyZsPf15ALm_fVLM1IeN?KPfc2Fd6H+fe}OG-ITKp`+aPe3$EAwpFqaAZ+9ad$XTLO3@@Oi@`+AyH&YeI!^ZbW#
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 8 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

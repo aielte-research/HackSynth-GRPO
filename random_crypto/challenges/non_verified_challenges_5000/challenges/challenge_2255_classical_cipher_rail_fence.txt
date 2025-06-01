@@ -1,0 +1,17 @@
+
+Intercepted at midnight, the message to the hacker’s underground uses a zigzag pattern. Only those recalling the rail fence method can rearrange fa{fyfvlgko1y} into its original warning.
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{kfoy1fyv}
+ciphertext: fa{fyfvlgko1y}
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 2
+subtype: rail_fence
+archetype: classical_cipher

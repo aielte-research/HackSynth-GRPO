@@ -1,0 +1,23 @@
+
+A secret society encoded their invitation using a simple letter swap. Can you reveal the hidden message within zrfc{vcije4d8}?
+
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'f', 'b': 'u', 'c': 'x', 'd': 'y', 'e': 'k', 'f': 'z', 'g': 'c', 'h': 't', 'i': 'n', 'j': 'v', 'k': 'g', 'l': 'r', 'm': 'p', 'n': 'j', 'o': 'w', 'p': 'b', 'q': 'e', 'r': 'o', 's': 'd', 't': 'a', 'u': 'i', 'v': 'm', 'w': 's', 'x': 'q', 'y': 'l', 'z': 'h'}
+
+---
+
+## Challenge Technical Details
+flag: flag{jgunq4s8}
+cipher: Substitution
+ciphertext: zrfc{vcije4d8}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'f', 'b': 'u', 'c': 'x', 'd': 'y', 'e': 'k', 'f': 'z', 'g': 'c', 'h': 't', 'i': 'n', 'j': 'v', 'k': 'g', 'l': 'r', 'm': 'p', 'n': 'j', 'o': 'w', 'p': 'b', 'q': 'e', 'r': 'o', 's': 'd', 't': 'a', 'u': 'i', 'v': 'm', 'w': 's', 'x': 'q', 'y': 'l', 'z': 'h'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

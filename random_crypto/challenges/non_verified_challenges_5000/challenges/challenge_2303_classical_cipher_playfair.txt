@@ -1,0 +1,17 @@
+An old espionage memo contains secret coordinates, encrypted with the Playfair cipher. Recover the message from this note: rbhdslvmbhsphkaitpwhslvmbhstrqhsbdwpaibstudmhdslvmbhsphkaiqhxllbuzlstxlynbusaknupswoqbdmubpaferqibuexhtuaiqfstsmbqhulskerwbltqatqbuqqbdmkahghugmhlczxpay
+
+The flag format is flag{...}
+The keyword is: kpcodihp
+
+---
+
+## Challenge Technical Details
+flag: flag{dx8w4cb9}
+ciphertext: rbhdslvmbhsphkaitpwhslvmbhstrqhsbdwpaibstudmhdslvmbhsphkaiqhxllbuzlstxlynbusaknupswoqbdmubpaferqibuexhtuaiqfstsmbqhulskerwbltqatqbuqqbdmkahghugmhlczxpay
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: kpcodihp
+extra_info: The playfair table is [['k', 'p', 'c', 'o', 'd'], ['i', 'h', 'a', 'b', 'e'], ['f', 'g', 'l', 'm', 'n'], ['q', 'r', 's', 't', 'u'], ['v', 'w', 'x', 'y', 'z']]
+subtype: playfair
+archetype: classical_cipher

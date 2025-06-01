@@ -1,0 +1,15 @@
+Agent X hid the coordinates in an XOR-encrypted string. Only those who crack stringA: 361d31080e20000c345a571d5c37 stringB: 5071506f7548386f503465746e4a can find the secret drop location.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{h8cdn2i2}
+cipher: XOR
+ciphertext: stringA: 361d31080e20000c345a571d5c37 stringB: 5071506f7548386f503465746e4a
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

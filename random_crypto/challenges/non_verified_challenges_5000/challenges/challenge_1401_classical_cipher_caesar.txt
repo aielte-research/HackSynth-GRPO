@@ -1,0 +1,15 @@
+A Roman general hid his battle plans with a secret shift. Can you unveil the original message from this scrambled scroll? Ciphertext: mshn{gnlk83bg}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{zged83uz}
+ciphertext: mshn{gnlk83bg}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 7
+subtype: caesar
+archetype: classical_cipher

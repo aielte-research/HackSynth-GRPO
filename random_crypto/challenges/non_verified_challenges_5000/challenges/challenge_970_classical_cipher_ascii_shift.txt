@@ -1,0 +1,15 @@
+An old hacker left you a secret message where each letter was shifted based on its ASCII code. Decode the hidden flag: iodj~55jt3x|3
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{22gq0uy0}
+cipher: ASCII Shift
+ciphertext: iodj~55jt3x|3
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 3
+subtype: ascii_shift
+archetype: classical_cipher

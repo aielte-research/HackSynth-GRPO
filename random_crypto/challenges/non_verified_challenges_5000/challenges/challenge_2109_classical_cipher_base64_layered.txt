@@ -1,0 +1,15 @@
+An agent hid secret instructions in Base64. Can you decode the hidden message from Vm1wSmQyVkZOVWhTYTJScFRUTkNjbFV3VlRGalZteFlaRVYwYTFadVFsaFdWekExVkdzeFdWRnJjRlZXVmtZelZVWkZPVkJSUFQwPQ==?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{lr0gy8wd}
+cipher: Base64
+ciphertext: Vm1wSmQyVkZOVWhTYTJScFRUTkNjbFV3VlRGalZteFlaRVYwYTFadVFsaFdWekExVkdzeFdWRnJjRlZXVmtZelZVWkZPVkJSUFQwPQ==
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 6 times in total.
+subtype: base64_layered
+archetype: classical_cipher

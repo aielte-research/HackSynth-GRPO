@@ -1,0 +1,14 @@
+A cryptic message from ancient spies was intercepted. They used an alphabet mirror technique to conceal their secrets. Can you reveal the plaintext hidden in uozt{jjpnrbh2}?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{qqkmiys2}
+cipher: Atbash
+ciphertext: uozt{jjpnrbh2}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

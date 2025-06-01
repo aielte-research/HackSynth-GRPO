@@ -1,0 +1,15 @@
+A lost Roman coin bears a mysterious inscription. Decode the hidden message using the famous Caesar shift: uapv{awujmz5t}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{lhfuxk5e}
+ciphertext: uapv{awujmz5t}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 15
+subtype: caesar
+archetype: classical_cipher

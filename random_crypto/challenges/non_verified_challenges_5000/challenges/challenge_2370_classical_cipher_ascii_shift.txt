@@ -1,0 +1,15 @@
+An old hacker left clues in an ASCII-shifted message. Can you decode ntio|y9s?8sx to access the next stage?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{tq1k70kp}
+cipher: ASCII Shift
+ciphertext: ntio|y9s?8sx
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 8
+subtype: ascii_shift
+archetype: classical_cipher

@@ -1,0 +1,19 @@
+
+A secret agent left a coded message on a café napkin. Can you decrypt xehnhcwibhsbhrifspsrhcwibhsnvdbpfnoyifkxnzpohnhcwibhsbhrifyrpcabogchrzawkfynlbntbsxryepognalrevdhkpgxmnzifhlsnzeeyinchqhqnbaovcryewgyepoblxpinhekdvykgnzat using the key "crypto" and reveal their hidden instructions?
+
+
+The flag format is flag{...}
+The keyword is: gudqvukm
+
+---
+
+## Challenge Technical Details
+flag: flag{7qzgtstk}
+ciphertext: xehnhcwibhsbhrifspsrhcwibhsnvdbpfnoyifkxnzpohnhcwibhsbhrifyrpcabogchrzawkfynlbntbsxryepognalrevdhkpgxmnzifhlsnzeeyinchqhqnbaovcryewgyepoblxpinhekdvykgnzat
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: gudqvukm
+extra_info: The playfair table is [['g', 'u', 'd', 'q', 'v'], ['k', 'm', 'a', 'b', 'c'], ['e', 'f', 'h', 'i', 'l'], ['n', 'o', 'p', 'r', 's'], ['t', 'w', 'x', 'y', 'z']]
+subtype: playfair
+archetype: classical_cipher

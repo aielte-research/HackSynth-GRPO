@@ -1,0 +1,16 @@
+A secret club shares meeting details with newcomers using a coded note. Can you uncover the next location from this Vigenère-encrypted message? ucmt{10uu70f0}
+
+The flag format is flag{...}
+The keyword is: prmn
+
+---
+
+## Challenge Technical Details
+flag: flag{10fd70t0}
+ciphertext: ucmt{10uu70f0}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: prmn
+subtype: vigenere
+archetype: classical_cipher

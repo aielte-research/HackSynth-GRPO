@@ -1,0 +1,15 @@
+A rogue AI embedded secret coordinates in this message, encoded with Base85. Can you decode them? Ciphertext: Q8+ttdr@OIG*C!rHB%->JZW-vQ6@hzMNmUhSXDuJI3qDuYa~ElOLcTSVNhydHAGNFFlRVYT1$K
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{32883m4z}
+cipher: Base85
+ciphertext: Q8+ttdr@OIG*C!rHB%->JZW-vQ6@hzMNmUhSXDuJI3qDuYa~ElOLcTSVNhydHAGNFFlRVYT1$K
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 7 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

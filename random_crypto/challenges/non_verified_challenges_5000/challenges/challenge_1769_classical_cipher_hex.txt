@@ -1,0 +1,14 @@
+A hacker hid the launch code by converting it to hexadecimal. Can you retrieve the original message from this hex cipher?666c61677b35773870643732757d
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{5w8pd72u}
+cipher: Hex
+ciphertext: 666c61677b35773870643732757d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

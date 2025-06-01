@@ -1,0 +1,15 @@
+An old forum admin hashed the password using MD5, thinking it was secure. Now, a hint suggests MD5 collisions could reveal the secret: bfb01249427ffd534f2d1b04c5c4cf02
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{bonea}
+ciphertext: bfb01249427ffd534f2d1b04c5c4cf02
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

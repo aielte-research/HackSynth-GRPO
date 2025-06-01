@@ -1,0 +1,16 @@
+An intercepted message, encrypted by rebels using a classic cipher, was found. Can you recover their secret plan? Ciphertext: rjmp{0lsfi24y}
+
+The flag format is flag{...}
+The keyword is: mymj
+
+---
+
+## Challenge Technical Details
+flag: flag{0zutz24m}
+ciphertext: rjmp{0lsfi24y}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: mymj
+subtype: vigenere
+archetype: classical_cipher

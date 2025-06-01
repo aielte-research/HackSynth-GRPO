@@ -1,0 +1,17 @@
+
+A Fibonacci lover hid their password using a sequence only that mathematicians would find beautiful. Can you reveal the secret hidden in this code? 10001000001 10001010011 10000100001 10001000011 10100000001 10010001011 10010100001 101001001 10001000011 1000000001 10010001001 101010001 10010000001 10100000101
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{rv2g7q4n}
+ciphertext: 10001000001 10001010011 10000100001 10001000011 10100000001 10010001011 10010100001 101001001 10001000011 1000000001 10010001001 101010001 10010000001 10100000101
+cipher: Fibonacci Encoding
+hint: Each ASCII character is represented as a sum of non-consecutive Fibonacci numbers, always ending in 1.
+necessary_info: The flag format is flag{...}
+extra_info: Each character of the flag is independently encoded using Fibonacci representation.
+subtype: fibonacci_encoding
+archetype: classical_cipher

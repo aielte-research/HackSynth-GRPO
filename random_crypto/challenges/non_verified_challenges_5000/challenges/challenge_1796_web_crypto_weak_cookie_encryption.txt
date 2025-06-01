@@ -1,0 +1,18 @@
+
+Eve found an old message encrypted with AES-ECB using a tiny password, padded with nulls. Can you recover the secret from this df2b6681d91a2a34ad59a2d4aba4185b?
+
+
+An encryption key that is only 2 bytes long?.
+
+---
+
+## Challenge Technical Details
+flag: flag{mxjd5kb5}
+ciphertext: df2b6681d91a2a34ad59a2d4aba4185b
+cipher: AES-ECB
+vulnerability: small key padded with null bytes
+hint: ECB mode with a short key makes brute-forcing possible. Consider the small key entropy.
+necessary_info: An encryption key that is only 2 bytes long?.
+extra_info: Padding follows PKCS#7. The key is padded to 16 bytes with null bytes.
+subtype: weak_cookie_encryption
+archetype: web_crypto

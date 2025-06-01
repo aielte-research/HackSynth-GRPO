@@ -1,0 +1,19 @@
+The dev secured passwords with SHA-256 and a “random” salt set to the current minute. Crack the hash: c05d8a8d6d2c996ad732b5bda54d45a701940a4a2591e37668becf85019124f1
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{9ee}
+ciphertext: c05d8a8d6d2c996ad732b5bda54d45a701940a4a2591e37668becf85019124f1
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

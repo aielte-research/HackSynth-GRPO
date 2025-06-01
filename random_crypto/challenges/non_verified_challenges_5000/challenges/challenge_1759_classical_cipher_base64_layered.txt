@@ -1,0 +1,17 @@
+
+A hacker encoded the secret in Base64 to hide it. Can you decode Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVcxS1IxWnFUbGRpVkVaSVZteFZlRmRXUm5OaVIwWlhWbTVCZWxkV1VrSmxSbVJJVld0V1ZXSkhhRzlVVjNoTFUxWmtWMWR0UmxoaVZrWTFWa2QwWVdGc1NuTlhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0= and reveal the hidden message?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{j35tpffl}
+cipher: Base64
+ciphertext: Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVcxS1IxWnFUbGRpVkVaSVZteFZlRmRXUm5OaVIwWlhWbTVCZWxkV1VrSmxSbVJJVld0V1ZXSkhhRzlVVjNoTFUxWmtWMWR0UmxoaVZrWTFWa2QwWVdGc1NuTlhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 9 times in total.
+subtype: base64_layered
+archetype: classical_cipher

@@ -1,0 +1,20 @@
+
+Intercepted during a secret exchange, this message is encrypted with AES. Recover the key to reveal the mastermind's instructions: ciphertext1:4d8c3db2f9a4eb17663cd23b33a8, ciphertext2: 4d8c3db2f9fbf217333792293aa8
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{iud1qwpf}
+ciphertext: ciphertext1:4d8c3db2f9a4eb17663cd23b33a8, ciphertext2: 4d8c3db2f9fbf217333792293aa8
+tag1: 06d034cde16689277339079ab09e9803
+tag2: 559f2cb57af4ecb83a02ceafff8039c7
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: a331114ace5381d726a433
+subtype: aes_ccm
+archetype: aes

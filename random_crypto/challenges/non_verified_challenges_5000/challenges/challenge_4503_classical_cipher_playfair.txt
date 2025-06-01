@@ -1,0 +1,17 @@
+An archaeologist found a journal with a Playfair-encrypted message marked “treasure location.” Can you decrypt the secret? Ciphertext: kfivmzuidfodrdiflrydmzuidflytwdmhlnyiffauvroivmzuidfodrdifyruzufmwzmusoulfpmhdgldopdpfrovfhorgtwfzrbubuvifgelyvmfpilzmirinfuuwzwpfatpfrodhkiilembfvpeahk
+
+The flag format is flag{...}
+The keyword is: vtqtkkpz
+
+---
+
+## Challenge Technical Details
+flag: flag{pkf7z4c1}
+ciphertext: kfivmzuidfodrdiflrydmzuidflytwdmhlnyiffauvroivmzuidfodrdifyruzufmwzmusoulfpmhdgldopdpfrovfhorgtwfzrbubuvifgelyvmfpilzmirinfuuwzwpfatpfrodhkiilembfvpeahk
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: vtqtkkpz
+extra_info: The playfair table is [['v', 't', 'q', 'k', 'p'], ['z', 'a', 'b', 'c', 'd'], ['e', 'f', 'g', 'h', 'i'], ['l', 'm', 'n', 'o', 'r'], ['s', 'u', 'w', 'x', 'y']]
+subtype: playfair
+archetype: classical_cipher

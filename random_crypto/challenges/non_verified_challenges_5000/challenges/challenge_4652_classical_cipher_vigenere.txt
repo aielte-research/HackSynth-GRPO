@@ -1,0 +1,16 @@
+An agent hid the next clue using a Vigenère cipher. Can you decrypt the secret message below? vfjf{nprlxjb3}
+
+The flag format is flag{...}
+The keyword is: qujzyqvy
+
+---
+
+## Challenge Technical Details
+flag: flag{pzwnhps3}
+ciphertext: vfjf{nprlxjb3}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: qujzyqvy
+subtype: vigenere
+archetype: classical_cipher

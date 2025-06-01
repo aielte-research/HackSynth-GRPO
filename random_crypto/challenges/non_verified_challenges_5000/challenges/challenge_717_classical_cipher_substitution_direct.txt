@@ -1,0 +1,23 @@
+
+Intercepted from a spy’s notebook, this secret message uses a simple substitution cipher. Can you reveal its true contents? Ciphertext: zdiw{68eagsqm}
+
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'i', 'b': 'u', 'c': 'o', 'd': 'h', 'e': 's', 'f': 'z', 'g': 'w', 'h': 't', 'i': 'x', 'j': 'f', 'k': 'k', 'l': 'd', 'm': 'b', 'n': 'y', 'o': 'a', 'p': 'e', 'q': 'g', 'r': 'p', 's': 'c', 't': 'r', 'u': 'm', 'v': 'q', 'w': 'n', 'x': 'l', 'y': 'j', 'z': 'v'}
+
+---
+
+## Challenge Technical Details
+flag: flag{68poqevu}
+cipher: Substitution
+ciphertext: zdiw{68eagsqm}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'i', 'b': 'u', 'c': 'o', 'd': 'h', 'e': 's', 'f': 'z', 'g': 'w', 'h': 't', 'i': 'x', 'j': 'f', 'k': 'k', 'l': 'd', 'm': 'b', 'n': 'y', 'o': 'a', 'p': 'e', 'q': 'g', 'r': 'p', 's': 'c', 't': 'r', 'u': 'm', 'v': 'q', 'w': 'n', 'x': 'l', 'y': 'j', 'z': 'v'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

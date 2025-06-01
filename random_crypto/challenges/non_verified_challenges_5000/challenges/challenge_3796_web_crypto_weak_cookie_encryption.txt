@@ -1,0 +1,18 @@
+
+Eve found Alice's encrypted note. Suspecting a weak key padded with null bytes in AES-ECB, she examines the ciphertext: 0fac73ef69214f6a5ab3862ae270865c
+
+
+An encryption key that is only 2 bytes long?.
+
+---
+
+## Challenge Technical Details
+flag: flag{4u8gjgbv}
+ciphertext: 0fac73ef69214f6a5ab3862ae270865c
+cipher: AES-ECB
+vulnerability: small key padded with null bytes
+hint: ECB mode with a short key makes brute-forcing possible. Consider the small key entropy.
+necessary_info: An encryption key that is only 2 bytes long?.
+extra_info: Padding follows PKCS#7. The key is padded to 16 bytes with null bytes.
+subtype: weak_cookie_encryption
+archetype: web_crypto

@@ -1,0 +1,27 @@
+My random number generator glitched, leaking my secret. Can you crack my encrypted message using its predictability? Ciphertext: 72abbbc16fafaf9e7ca4ebce22ba
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 2049908136
+  - Multiplier: 1935495700
+  - Increment: 1076274310
+The first 5 outputs of the LCG are provided: [1353461062, 663427478, 302873430, 1743578590, 1929918614] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{hu8hc1h6}
+ciphertext: 72abbbc16fafaf9e7ca4ebce22ba
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 2049908136
+  - Multiplier: 1935495700
+  - Increment: 1076274310
+The first 5 outputs of the LCG are provided: [1353461062, 663427478, 302873430, 1743578590, 1929918614] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

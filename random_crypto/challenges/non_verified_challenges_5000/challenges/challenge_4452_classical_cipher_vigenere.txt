@@ -1,0 +1,16 @@
+An email from a mysterious hacker contains a Vigenère-encrypted message: lrom{ou4p6drb}. Decrypt it to reveal the meeting location.
+
+The flag format is flag{...}
+The keyword is: ggog
+
+---
+
+## Challenge Technical Details
+flag: flag{io4b6xlv}
+ciphertext: lrom{ou4p6drb}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: ggog
+subtype: vigenere
+archetype: classical_cipher

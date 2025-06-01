@@ -1,0 +1,15 @@
+An old hacker left a secret in a message, shifting each letter’s ASCII value. Can you decode iodj~g6vxpxr5 to reveal the hidden password?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{d3sumuo2}
+cipher: ASCII Shift
+ciphertext: iodj~g6vxpxr5
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 3
+subtype: ascii_shift
+archetype: classical_cipher

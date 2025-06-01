@@ -1,0 +1,18 @@
+An intern encrypted the secret with RSA but used tiny prime numbers. Can you recover the original message from this ciphertext? 3654130612630228226
+
+The flag format is flag{...}
+n=10888641728315290363, e=9883504487013806315
+
+---
+
+## Challenge Technical Details
+flag: flag{b5bu5m4z}
+cipher: RSA
+ciphertext: 3654130612630228226
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=10888641728315290363, e=9883504487013806315
+extra_info: p=4158630317, q=2618324039, φ(n)=10888641721538336008
+subtype: small_primes
+archetype: rsa

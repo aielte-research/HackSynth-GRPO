@@ -1,0 +1,15 @@
+A hacker left a secret note on the blockchain, but reversed its letters to hide the meaning. Can you decode the message? Here it is: }1ykz11qq{galf
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{qq11zky1}
+ciphertext: }1ykz11qq{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

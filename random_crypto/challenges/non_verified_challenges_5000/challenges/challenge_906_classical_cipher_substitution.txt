@@ -1,0 +1,15 @@
+A message to the rebels was intercepted. It’s scrambled by a simple substitution cipher. Can you recover the secret order hidden in pt qnjyzbvnsyij, s kaokzpzazpbt qpyihn pk s lhzibg bx htqnjyzptv pt dipqi atpzk bx ycsptzhuz snh nhycsqhg dpzi zih qpyihnzhuz, pt s ghxpthg lstthn, dpzi zih ihcy bx s fhj; zih "atpzk" lsj oh kptvch chzzhnk (zih lbkz qbllbt), yspnk bx chzzhnk, znpychzk bx chzzhnk, lpuzanhk bx zih sobwh, stg kb xbnzi. zih nhqhpwhn ghqpyihnk zih zhuz oj yhnxbnlptv zih ptwhnkh kaokzpzazpbt ynbqhkk zb huznsqz zih bnpvptsc lhkksvh. cpfhdpkh, rsqmahk mapqfcj epyyhg zinbavi s mahkzpbt bt ehnb-ftbdchgvh ynbbxk, htkanptv tb qnpzpqsc chzzhn dsk chxz baz bx ban qnjyzbvnsyipq yaeech.xcsv{84e7buyq}?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{84z7oxpc}
+ciphertext: pt qnjyzbvnsyij, s kaokzpzazpbt qpyihn pk s lhzibg bx htqnjyzptv pt dipqi atpzk bx ycsptzhuz snh nhycsqhg dpzi zih qpyihnzhuz, pt s ghxpthg lstthn, dpzi zih ihcy bx s fhj; zih "atpzk" lsj oh kptvch chzzhnk (zih lbkz qbllbt), yspnk bx chzzhnk, znpychzk bx chzzhnk, lpuzanhk bx zih sobwh, stg kb xbnzi. zih nhqhpwhn ghqpyihnk zih zhuz oj yhnxbnlptv zih ptwhnkh kaokzpzazpbt ynbqhkk zb huznsqz zih bnpvptsc lhkksvh. cpfhdpkh, rsqmahk mapqfcj epyyhg zinbavi s mahkzpbt bt ehnb-ftbdchgvh ynbbxk, htkanptv tb qnpzpqsc chzzhn dsk chxz baz bx ban qnjyzbvnsyipq yaeech.xcsv{84e7buyq}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 's', 'b': 'o', 'c': 'q', 'd': 'g', 'e': 'h', 'f': 'x', 'g': 'v', 'h': 'i', 'i': 'p', 'j': 'r', 'k': 'f', 'l': 'c', 'm': 'l', 'n': 't', 'o': 'b', 'p': 'y', 'q': 'm', 'r': 'n', 's': 'k', 't': 'z', 'u': 'a', 'v': 'w', 'w': 'd', 'x': 'u', 'y': 'j', 'z': 'e'}
+subtype: substitution
+archetype: classical_cipher

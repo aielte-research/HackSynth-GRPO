@@ -1,0 +1,15 @@
+A hacker hid a key in Base64-encoded form. Can you decode this message to uncover it? Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVcxS1IxZHViRmROYWtaSVdWZDRTMk14WkhWaVJtUk9ZV3hhYjFaclpEUlpWMUpIVm01R1VtSkdXbkJWYlhoWFRrWmtXR1JIUmxoaVZrWTFWa2QwYTJGc1NuTlhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{yl6yfs2m}
+cipher: Base64
+ciphertext: Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVcxS1IxZHViRmROYWtaSVdWZDRTMk14WkhWaVJtUk9ZV3hhYjFaclpEUlpWMUpIVm01R1VtSkdXbkJWYlhoWFRrWmtXR1JIUmxoaVZrWTFWa2QwYTJGc1NuTlhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 9 times in total.
+subtype: base64_layered
+archetype: classical_cipher

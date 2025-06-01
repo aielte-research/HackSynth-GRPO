@@ -1,0 +1,21 @@
+A hacker intercepted a message hidden with a simple letter swap. Can you reveal the secret behind this old-school crypto trick? Here’s the code: qwug{qoy45lio}
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'u', 'b': 'v', 'c': 'o', 'd': 'c', 'e': 'x', 'f': 'q', 'g': 'g', 'h': 'b', 'i': 't', 'j': 'l', 'k': 'i', 'l': 'w', 'm': 'f', 'n': 'a', 'o': 'n', 'p': 'y', 'q': 'p', 'r': 'j', 's': 'k', 't': 's', 'u': 'r', 'v': 'z', 'w': 'e', 'x': 'h', 'y': 'm', 'z': 'd'}
+
+---
+
+## Challenge Technical Details
+flag: flag{fcp45jkc}
+cipher: Substitution
+ciphertext: qwug{qoy45lio}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'u', 'b': 'v', 'c': 'o', 'd': 'c', 'e': 'x', 'f': 'q', 'g': 'g', 'h': 'b', 'i': 't', 'j': 'l', 'k': 'i', 'l': 'w', 'm': 'f', 'n': 'a', 'o': 'n', 'p': 'y', 'q': 'p', 'r': 'j', 's': 'k', 't': 's', 'u': 'r', 'v': 'z', 'w': 'e', 'x': 'h', 'y': 'm', 'z': 'd'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

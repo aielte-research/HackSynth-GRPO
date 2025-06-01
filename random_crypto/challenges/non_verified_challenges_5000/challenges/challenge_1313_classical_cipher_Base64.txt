@@ -1,0 +1,15 @@
+Mysterious coordinates were encoded in a note using Base64. Can you decode them from here: ZmxhZ3sxNHNld3pscH0=?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{14sewzlp}
+cipher: Base64
+ciphertext: ZmxhZ3sxNHNld3pscH0=
+hint: Use a Base64 decoder to obtain the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is direct; no additional layers or tricks.
+subtype: Base64
+archetype: classical_cipher

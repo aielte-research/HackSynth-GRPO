@@ -1,0 +1,15 @@
+An old laptop's encrypted drive hides a secret. You've managed to extract its sector ciphertext: ciphertext1:8e6adf367170f14f153904fd10262ce7, ciphertext2: abaaef0e2a6b7e1838f0147bbd9d4f0ab86e260fd6e497a31fc76b88ca82e420. Can you recover the original message encrypted with AES-XTS?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{msvd6plx}
+ciphertext: ciphertext1:8e6adf367170f14f153904fd10262ce7, ciphertext2: abaaef0e2a6b7e1838f0147bbd9d4f0ab86e260fd6e497a31fc76b88ca82e420
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 16f0b678f48dbf9d2976a3ace8ee721f
+subtype: aes_xts
+archetype: aes

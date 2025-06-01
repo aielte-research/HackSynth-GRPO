@@ -1,0 +1,18 @@
+
+A hacker found an old note titled "Vigenère Treasure." The strange message below hides their next clue: vjco{ycb2ti0o}
+
+
+The flag format is flag{...}
+The keyword is: qyciot
+
+---
+
+## Challenge Technical Details
+flag: flag{kjl2vg0g}
+ciphertext: vjco{ycb2ti0o}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: qyciot
+subtype: vigenere
+archetype: classical_cipher

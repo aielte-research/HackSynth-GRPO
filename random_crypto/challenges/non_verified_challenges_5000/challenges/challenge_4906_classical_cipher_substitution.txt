@@ -1,0 +1,15 @@
+A spy intercepted a secret message, but it's encrypted with a simple substitution cipher. Can you reveal the hidden text in uz bqfsnrtqmsdf, m hlohnunlnurz busdpq uh m wpndra rk pzbqfsnuzt uz edubd lzunh rk svmuznpxn mqp qpsvmbpa eund ndp busdpqnpxn, uz m apkuzpa wmzzpq, eund ndp dpvs rk m ypf; ndp "lzunh" wmf op huztvp vpnnpqh (ndp wrhn brwwrz), smuqh rk vpnnpqh, nqusvpnh rk vpnnpqh, wuxnlqph rk ndp morcp, mza hr krqnd. ndp qpbpucpq apbusdpqh ndp npxn of spqkrqwuzt ndp uzcpqhp hlohnunlnurz sqrbphh nr pxnqmbn ndp rqutuzmv wphhmtp. vuypeuhp, gmbjlph jlubyvf iusspa ndqrltd m jlphnurz rz ipqr-yzrevpatp sqrrkh, pzhlquzt zr bqunubmv vpnnpq emh vpkn rln rk rlq bqfsnrtqmsdub sliivp.kvmt{pdisijxb}?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ehzpzqxc}
+ciphertext: uz bqfsnrtqmsdf, m hlohnunlnurz busdpq uh m wpndra rk pzbqfsnuzt uz edubd lzunh rk svmuznpxn mqp qpsvmbpa eund ndp busdpqnpxn, uz m apkuzpa wmzzpq, eund ndp dpvs rk m ypf; ndp "lzunh" wmf op huztvp vpnnpqh (ndp wrhn brwwrz), smuqh rk vpnnpqh, nqusvpnh rk vpnnpqh, wuxnlqph rk ndp morcp, mza hr krqnd. ndp qpbpucpq apbusdpqh ndp npxn of spqkrqwuzt ndp uzcpqhp hlohnunlnurz sqrbphh nr pxnqmbn ndp rqutuzmv wphhmtp. vuypeuhp, gmbjlph jlubyvf iusspa ndqrltd m jlphnurz rz ipqr-yzrevpatp sqrrkh, pzhlquzt zr bqunubmv vpnnpq emh vpkn rln rk rlq bqfsnrtqmsdub sliivp.kvmt{pdisijxb}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'm', 'b': 'o', 'c': 'b', 'd': 'a', 'e': 'p', 'f': 'k', 'g': 't', 'h': 'd', 'i': 'u', 'j': 'g', 'k': 'y', 'l': 'v', 'm': 'w', 'n': 'z', 'o': 'r', 'p': 's', 'q': 'j', 'r': 'q', 's': 'h', 't': 'n', 'u': 'l', 'v': 'c', 'w': 'e', 'x': 'x', 'y': 'f', 'z': 'i'}
+subtype: substitution
+archetype: classical_cipher

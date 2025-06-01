@@ -1,0 +1,18 @@
+An intern generated an RSA key using tiny prime numbers. Can you recover the secret message? Ciphertext: 10533650376112863104
+
+The flag format is flag{...}
+n=14127714576146174239, e=2269185328393801431
+
+---
+
+## Challenge Technical Details
+flag: flag{qkabzgm8}
+cipher: RSA
+ciphertext: 10533650376112863104
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=14127714576146174239, e=2269185328393801431
+extra_info: p=3757867733, q=3759502883, φ(n)=14127714568628803624
+subtype: small_primes
+archetype: rsa

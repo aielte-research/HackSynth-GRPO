@@ -1,0 +1,16 @@
+An old hacker hid his secret in a Vigenère-encrypted message. Can you recover the password from his encoded note? Here it is: gerc{ssrabwqa}
+
+The flag format is flag{...}
+The keyword is: btrwev
+
+---
+
+## Challenge Technical Details
+flag: flag{oxqhkamf}
+ciphertext: gerc{ssrabwqa}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: btrwev
+subtype: vigenere
+archetype: classical_cipher

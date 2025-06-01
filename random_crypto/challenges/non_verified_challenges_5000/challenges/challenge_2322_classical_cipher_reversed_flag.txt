@@ -1,0 +1,15 @@
+An agent hid the code by reversing its letters. Can you uncover the secret message in }awcfxzof{galf?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{fozxfcwa}
+ciphertext: }awcfxzof{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

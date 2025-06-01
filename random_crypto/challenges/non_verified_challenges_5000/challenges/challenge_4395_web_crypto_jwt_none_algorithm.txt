@@ -1,0 +1,11 @@
+Intercepted admin token: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3t2bng3c2tyan0ifQ.. Can you unlock the flag hidden within its secret claims?
+
+---
+
+## Challenge Technical Details
+flag: flag{vnx7skrj}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3t2bng3c2tyan0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

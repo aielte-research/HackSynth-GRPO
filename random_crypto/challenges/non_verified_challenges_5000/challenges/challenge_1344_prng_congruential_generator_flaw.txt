@@ -1,0 +1,27 @@
+The vault's password was scrambled using a flawed LCG-based cipher. Can you predict the sequence and recover the original message from this ciphertext: 787fa532657bf2657227f0367d6e?
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1115470793
+  - Multiplier: 126841695
+  - Increment: 813751137
+The first 5 outputs of the LCG are provided: [293240458, 514744837, 523679783, 316011288, 433245201] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{h60l44cc}
+ciphertext: 787fa532657bf2657227f0367d6e
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1115470793
+  - Multiplier: 126841695
+  - Increment: 813751137
+The first 5 outputs of the LCG are provided: [293240458, 514744837, 523679783, 316011288, 433245201] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

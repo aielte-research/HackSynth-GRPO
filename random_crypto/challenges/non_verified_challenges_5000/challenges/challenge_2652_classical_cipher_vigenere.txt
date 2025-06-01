@@ -1,0 +1,16 @@
+An old hacker has left a clue to his lost coins. Rumor says the passphrase is hidden in this Vigenère-encrypted message: mrtw{lcqyppe3}
+
+The flag format is flag{...}
+The keyword is: hgtq
+
+---
+
+## Challenge Technical Details
+flag: flag{ewxiijl3}
+ciphertext: mrtw{lcqyppe3}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: hgtq
+subtype: vigenere
+archetype: classical_cipher

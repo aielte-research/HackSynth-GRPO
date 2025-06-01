@@ -1,0 +1,17 @@
+An agent transmitted vital data using AES-CFB. The intercepted message is: 6476bfc0ed5c91661b0537c2cfdd35c4f9582d411d219c43eff6197ce7a88ec3caa87b046dfbd303fc88ec701bc8bbb73ec9f312faa089659bc06b488d2bb5590257e26a842b04d3172638324f3a2e71f8854c679f4983342127e8dfd6391de8569d97082ab2106da9b33af8d355f94292d9dc5b51d46ca4ee16249af2ea5a81fb7e2c223a37ad1734cae682ae243a6b45557efffa62304c5661512bc1f73919e5296b94f616a335082f9931b551e037ef. Can you recover the secret?
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{yvbkis9t}
+ciphertext: 6476bfc0ed5c91661b0537c2cfdd35c4f9582d411d219c43eff6197ce7a88ec3caa87b046dfbd303fc88ec701bc8bbb73ec9f312faa089659bc06b488d2bb5590257e26a842b04d3172638324f3a2e71f8854c679f4983342127e8dfd6391de8569d97082ab2106da9b33af8d355f94292d9dc5b51d46ca4ee16249af2ea5a81fb7e2c223a37ad1734cae682ae243a6b45557efffa62304c5661512bc1f73919e5296b94f616a335082f9931b551e037ef
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: 014874d4b4fa720d09571f8aa9cae891
+subtype: aes_cfb
+archetype: aes

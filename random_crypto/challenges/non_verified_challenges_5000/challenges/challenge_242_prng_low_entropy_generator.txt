@@ -1,0 +1,19 @@
+My prototype wallet encrypted secrets using a low-entropy PRNG. Now, only 666c63537b6f764e35373646367d remains. Can you recover my private key?
+
+The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [331, 154, 404, 666, 49, 74, 548, 96, 374, 596, 59, 519, 219, 38, 88, 444, 428, 71, 246, 92]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 837)
+
+---
+
+## Challenge Technical Details
+flag: flag{otz574r6}
+ciphertext: 666c63537b6f764e35373646367d
+cipher: Low-entropy PRNG
+hint: The PRNG seed space is small. You can try brute-forcing all possible seeds to reconstruct the sequence.
+necessary_info: The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [331, 154, 404, 666, 49, 74, 548, 96, 374, 596, 59, 519, 219, 38, 88, 444, 428, 71, 246, 92]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 837)
+extra_info: Since the seed has only 256 possible values, it can be brute-forced to recover the secret number and decrypt the flag.
+subtype: low_entropy_generator
+archetype: prng

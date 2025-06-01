@@ -1,0 +1,17 @@
+
+Intercepted spy message encrypted with a simple XOR cipher. Can you recover the plaintext from this suspicious transmission? Ciphertext: stringA: 243c10323117450d0c114e163a3f stringB: 425071554a7a376c627376635242
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{mranb8uh}
+cipher: XOR
+ciphertext: stringA: 243c10323117450d0c114e163a3f stringB: 425071554a7a376c627376635242
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

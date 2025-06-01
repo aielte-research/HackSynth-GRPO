@@ -1,0 +1,17 @@
+
+A hacker sent a hidden password encoded with Base64. Can you decode the secret? Here is the message: Vm0wd2QyVkhVWGhVYmxKV1YwZDRXRmxVUm5kVlJscHpXa2M1VjFKdGVGWlZNbmhQWVd4S2MxTnNXbGRTTTFKUVdWY3hTMUl4WkhWaVJtUk9ZV3hhZVZkV1dsWmxSbGw0V2toV2FGSnRVbFJVVkVaTFZWWmtWMXBFVWxSTmF6RTBWa2MxVjJGR1NuTmpSVGxhVmpOU1IxcFZXbXRXTVd0NllVWlNUbFp1UWpaV2Fra3hVakZrU0ZOclpGaGlSMmhZV1d4b1UxbFdjRmhsUjBaWFlrZFNlVll5ZUVOV01rVjNZMFpTVjFaV2NGTmFSRVpEVld4Q1ZVMUVNRDA9
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{zhjb7hkk}
+cipher: Base64
+ciphertext: Vm0wd2QyVkhVWGhVYmxKV1YwZDRXRmxVUm5kVlJscHpXa2M1VjFKdGVGWlZNbmhQWVd4S2MxTnNXbGRTTTFKUVdWY3hTMUl4WkhWaVJtUk9ZV3hhZVZkV1dsWmxSbGw0V2toV2FGSnRVbFJVVkVaTFZWWmtWMXBFVWxSTmF6RTBWa2MxVjJGR1NuTmpSVGxhVmpOU1IxcFZXbXRXTVd0NllVWlNUbFp1UWpaV2Fra3hVakZrU0ZOclpGaGlSMmhZV1d4b1UxbFdjRmhsUjBaWFlrZFNlVll5ZUVOV01rVjNZMFpTVjFaV2NGTmFSRVpEVld4Q1ZVMUVNRDA9
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 10 times in total.
+subtype: base64_layered
+archetype: classical_cipher

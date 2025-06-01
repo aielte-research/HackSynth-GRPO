@@ -1,0 +1,15 @@
+An old hacker left you a note: “Shift the letters, and you'll find my secret.” Can you reveal the hidden message from this cipher? pvkqv@AB}|
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{l6v7u8sr}
+cipher: ASCII Shift
+ciphertext: pvkqv@AB}|
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 10
+subtype: ascii_shift
+archetype: classical_cipher

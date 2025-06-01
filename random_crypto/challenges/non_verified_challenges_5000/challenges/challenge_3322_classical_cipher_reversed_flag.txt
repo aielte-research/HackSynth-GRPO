@@ -1,0 +1,15 @@
+An agent left the message "}vud0pjah{galf" but encoded it using a simple trick: reversing all the letters. Can you restore the original text?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{hajp0duv}
+ciphertext: }vud0pjah{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

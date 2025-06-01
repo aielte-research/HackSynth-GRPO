@@ -1,0 +1,14 @@
+An old spy left a message encoded with their favorite ancient method. Can you reveal the hidden instructions within uozt{ea73crte}?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{vz73xigv}
+cipher: Atbash
+ciphertext: uozt{ea73crte}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+An intercepted spy message was encoded with an unfamiliar base. Can you decode this Base85-encoded ciphertext? Q8+7fbYyZsPf15ALm_fVLM1IeN?KPfc2Z(kUL;djJYhpkKSp+aV=`)abXHSFXen1qZccP#G*f<NR5UkKDM@5ZCLu^+K_v
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{8irja6v6}
+cipher: Base85
+ciphertext: Q8+7fbYyZsPf15ALm_fVLM1IeN?KPfc2Z(kUL;djJYhpkKSp+aV=`)abXHSFXen1qZccP#G*f<NR5UkKDM@5ZCLu^+K_v
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 8 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

@@ -1,0 +1,24 @@
+Dr. Byte left a secret code in his notes. He hashed the password with SHA-256. Can you reveal the original password from de010e5f90263070080967f896ea547354b24b6fddb727f0f4362ae6f557ef9d?
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{jtw5}
+ciphertext: de010e5f90263070080967f896ea547354b24b6fddb727f0f4362ae6f557ef9d
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

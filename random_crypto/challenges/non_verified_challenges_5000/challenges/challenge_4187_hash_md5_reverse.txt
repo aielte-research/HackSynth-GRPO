@@ -1,0 +1,15 @@
+An encrypted password hash was leaked. MD5's weakness may help you recover the original password. The ciphertext is: 1c765676edff772f869d54e9af9ab170
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{DKURT}
+ciphertext: 1c765676edff772f869d54e9af9ab170
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

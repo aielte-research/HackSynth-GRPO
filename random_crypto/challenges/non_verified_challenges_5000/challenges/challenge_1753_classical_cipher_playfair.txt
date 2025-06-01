@@ -1,0 +1,17 @@
+A secret society encoded the meeting location using Playfair. They left the ciphertext: wfqohbtlbxybangqspsrhbtlbxsnckbpxvpygqiwnzpoqohbtlbxybangqnbpdhdskbhrzgdguynbkkobywrkfpovkqltfckqxsiqhnzgqnfsnyffkcobhixlodhzddrkfzkkfpokbwpcogmxhewquia. Can you uncover where the rendezvous will take place?
+
+The flag format is flag{...}
+The keyword is: kekqcujx
+
+---
+
+## Challenge Technical Details
+flag: flag{qv1e4cd5}
+ciphertext: wfqohbtlbxybangqspsrhbtlbxsnckbpxvpygqiwnzpoqohbtlbxybangqnbpdhdskbhrzgdguynbkkobywrkfpovkqltfckqxsiqhnzgqnfsnyffkcobhixlodhzddrkfzkkfpokbwpcogmxhewquia
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: kekqcujx
+extra_info: The playfair table is [['k', 'e', 'q', 'c', 'u'], ['i', 'x', 'a', 'b', 'd'], ['f', 'g', 'h', 'l', 'm'], ['n', 'o', 'p', 'r', 's'], ['t', 'v', 'w', 'y', 'z']]
+subtype: playfair
+archetype: classical_cipher

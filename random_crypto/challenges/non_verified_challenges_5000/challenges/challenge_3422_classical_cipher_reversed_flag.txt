@@ -1,0 +1,15 @@
+A rogue bot hid the password to the vault by reversing its letters. Can you reveal the secret? Ciphertext: }qjt7laqp{galf
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{pqal7tjq}
+ciphertext: }qjt7laqp{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

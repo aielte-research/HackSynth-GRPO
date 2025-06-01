@@ -1,0 +1,15 @@
+An agent intercepted a suspiciously encoded message. Base64 seems likely. Can you decode it and retrieve the hidden content? Here is the message: Vm0wd2QyVkhVWGhVYmxKV1YwZDRXRmxVUm5kVlJscHpXa2M1VjFKdGVGWlZNbmhQWVd4S2MxTnNXbGRTTTFKUVdWY3hTMUl4WkhWaVJtUnBWa1ZhU1ZadGVGWmxSbVJJVm10a2FWSnNXbGhaYTJoRFZGWmFjbGt6YUZSTlZUVllWVzAxUzJGc1NuVlJhemxXWWxob2VsUlVSbUZqYkZaeVdrWlNUbFp1UWxsV2JUQXhVakZrU0ZOclpGaGlSMmhZV1d4b1UxbFdjRmhsUjBaWFlrZFNlVll5ZUVOV01rVjNZMFpTVjFaV2NGTmFSRVpEVld4Q1ZVMUVNRDA9
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{u27zw2x7}
+cipher: Base64
+ciphertext: Vm0wd2QyVkhVWGhVYmxKV1YwZDRXRmxVUm5kVlJscHpXa2M1VjFKdGVGWlZNbmhQWVd4S2MxTnNXbGRTTTFKUVdWY3hTMUl4WkhWaVJtUnBWa1ZhU1ZadGVGWmxSbVJJVm10a2FWSnNXbGhaYTJoRFZGWmFjbGt6YUZSTlZUVllWVzAxUzJGc1NuVlJhemxXWWxob2VsUlVSbUZqYkZaeVdrWlNUbFp1UWxsV2JUQXhVakZrU0ZOclpGaGlSMmhZV1d4b1UxbFdjRmhsUjBaWFlrZFNlVll5ZUVOV01rVjNZMFpTVjFaV2NGTmFSRVpEVld4Q1ZVMUVNRDA9
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 10 times in total.
+subtype: Base64_layered
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+Intercepted comms use the new ChunkedFlag cipher. No key, no docs—only this sample message: fl ag {hb ur2 fx j}. Can you reveal the flag?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{hbur2fxj}
+ciphertext: fl ag {hb ur2 fx j}
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

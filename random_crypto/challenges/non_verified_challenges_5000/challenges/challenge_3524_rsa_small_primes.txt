@@ -1,0 +1,18 @@
+An intern encrypted the message using RSA, but accidentally chose small primes. Can you retrieve the original message from this ciphertext? 5776938126339635830
+
+The flag format is flag{...}
+n=8004015994659967157, e=900900971588245297
+
+---
+
+## Challenge Technical Details
+flag: flag{md9t2spr}
+cipher: RSA
+ciphertext: 5776938126339635830
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=8004015994659967157, e=900900971588245297
+extra_info: p=2179696061, q=3672078937, φ(n)=8004015988808192160
+subtype: small_primes
+archetype: rsa

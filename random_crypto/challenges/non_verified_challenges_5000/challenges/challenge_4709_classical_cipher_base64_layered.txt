@@ -1,0 +1,15 @@
+A spy encoded the secret passphrase using Base64 before vanishing. Can you decode Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVcxS1IxWnFUbGRpUmtwSVdWZHplRmRIVmtkaVJsWlhZbFV3ZUZaclpEUlRNbEpJVm10c2FsSnVRbGhXYlhoelRURmtWMXBFVWxSTlZuQllWakkxUjFVeVNrZFhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0= to recover the lost word?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{lz8mmri6}
+cipher: Base64
+ciphertext: Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVcxS1IxWnFUbGRpUmtwSVdWZHplRmRIVmtkaVJsWlhZbFV3ZUZaclpEUlRNbEpJVm10c2FsSnVRbGhXYlhoelRURmtWMXBFVWxSTlZuQllWakkxUjFVeVNrZFhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 9 times in total.
+subtype: base64_layered
+archetype: classical_cipher

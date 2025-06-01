@@ -1,0 +1,18 @@
+
+Intercepted message from an old hacker cabal. Decipher ngug{nt8f3t4e} using the secret project’s code name as the key.
+
+
+The flag format is flag{...}
+The keyword is: ivuaxqqx
+
+---
+
+## Challenge Technical Details
+flag: flag{qd8p3w4w}
+ciphertext: ngug{nt8f3t4e}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: ivuaxqqx
+subtype: vigenere
+archetype: classical_cipher

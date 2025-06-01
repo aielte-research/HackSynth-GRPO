@@ -1,0 +1,17 @@
+
+Agent Mira intercepted a code labeled "SplitNumberMix" from a rogue server. Crack the cipher below to reveal the villain's next move:  6666666 f 6666666 lag{f 6666666 glixeav} 6666666 
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{fglixeav}
+ciphertext:  6666666 f 6666666 lag{f 6666666 glixeav} 6666666 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 3 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

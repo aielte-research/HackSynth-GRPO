@@ -1,0 +1,15 @@
+An agent hid coordinates in a message, but reversed every character to foil eavesdroppers. Decode }mkb9l3tj{galf to retrieve the secret location.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{jt3l9bkm}
+ciphertext: }mkb9l3tj{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

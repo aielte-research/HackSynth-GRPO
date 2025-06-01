@@ -1,0 +1,15 @@
+A secret contract, encoded in Base85, was leaked by a whistleblower. Can you recover its message? The ciphertext is: Q8;r{Qc74PHh5S&G<irvP&RrzM06%4bW&t<bURulYeh&`Pc1TjVPkJFQdUI
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{h2ctzm77}
+cipher: Base85
+ciphertext: Q8;r{Qc74PHh5S&G<irvP&RrzM06%4bW&t<bURulYeh&`Pc1TjVPkJFQdUI
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 6 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

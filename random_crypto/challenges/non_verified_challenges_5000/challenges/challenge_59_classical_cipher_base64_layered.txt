@@ -1,0 +1,17 @@
+
+A hacker left a secret in Base64 on the server. Can you decode this message and find what it hides? Here is the ciphertext: Vm0wd2QyVkhVWGhVYmxKV1YwZDRXRmxVUm5kVlJscHpXa2M1VjFKdGVGWlZNbmhQWVd4S2MxTnNXbGRTTTFKUVdWY3hTMUl4V25GVWJHUnBWa1ZhU1ZadGVGWmxSbVJJVm10V1VtSkdXbGhaYkZWM1pVWmtWMWt6YUZSTlZUVklWbTAxVDJGV1NuTlhia0pXWVd0d2RscFdXbXRXTVdSMFVteHdWMkpJUWxsV1Z6QXhVakZrU0ZOclpGaGlSMmhZV1d4b1UxbFdjRmhsUjBaWFlrZFNlVll5ZUVOV01rVjNZMFpTVjFaV2NGTmFSRVpEVld4Q1ZVMUVNRDA9
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{j2xdbzf3}
+cipher: Base64
+ciphertext: Vm0wd2QyVkhVWGhVYmxKV1YwZDRXRmxVUm5kVlJscHpXa2M1VjFKdGVGWlZNbmhQWVd4S2MxTnNXbGRTTTFKUVdWY3hTMUl4V25GVWJHUnBWa1ZhU1ZadGVGWmxSbVJJVm10V1VtSkdXbGhaYkZWM1pVWmtWMWt6YUZSTlZUVklWbTAxVDJGV1NuTlhia0pXWVd0d2RscFdXbXRXTVdSMFVteHdWMkpJUWxsV1Z6QXhVakZrU0ZOclpGaGlSMmhZV1d4b1UxbFdjRmhsUjBaWFlrZFNlVll5ZUVOV01rVjNZMFpTVjFaV2NGTmFSRVpEVld4Q1ZVMUVNRDA9
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 10 times in total.
+subtype: base64_layered
+archetype: classical_cipher

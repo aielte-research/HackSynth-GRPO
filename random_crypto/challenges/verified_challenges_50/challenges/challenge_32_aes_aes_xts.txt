@@ -1,0 +1,17 @@
+
+A rogue sysadmin encrypted vital server logs using AES-XTS. The ciphertext is below. Can you recover the original logs and expose the breach? ciphertext1:15e634dce59695221dbe7faee19e8ced, ciphertext2: 07c8da33f79b6fa6c84f3c84f6b1c2bb99f550540eca58dda2c143a637713ee9
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{zbh39rty}
+ciphertext: ciphertext1:15e634dce59695221dbe7faee19e8ced, ciphertext2: 07c8da33f79b6fa6c84f3c84f6b1c2bb99f550540eca58dda2c143a637713ee9
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 9fea796946b8e427bdd85ffa7c2f1844
+subtype: aes_xts
+archetype: aes

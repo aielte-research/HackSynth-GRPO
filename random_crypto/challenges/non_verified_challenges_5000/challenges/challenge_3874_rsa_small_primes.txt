@@ -1,0 +1,20 @@
+
+The server, rushed to deploy RSA, chose small primes for speed. Can you recover the secret message from this careless encryption? Ciphertext: 3334033965078901505
+
+
+The flag format is flag{...}
+n=14240508121267810793, e=6856906676463122359
+
+---
+
+## Challenge Technical Details
+flag: flag{va44bmzb}
+cipher: RSA
+ciphertext: 3334033965078901505
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=14240508121267810793, e=6856906676463122359
+extra_info: p=4036310141, q=3528100573, φ(n)=14240508113703400080
+subtype: small_primes
+archetype: rsa

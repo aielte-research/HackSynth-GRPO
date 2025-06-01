@@ -1,0 +1,18 @@
+Two encrypted messages were accidentally sent with the same AES-GCM nonce. Both ciphertexts, separated only by a flaw, await your analysis: ciphertext1:57f80f76f9fb3e3f0e2c93df8016, ciphertext2: 45fc0762a2f638775325d494914ba36e406a
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{duh3f3kp}
+ciphertext: ciphertext1:57f80f76f9fb3e3f0e2c93df8016, ciphertext2: 45fc0762a2f638775325d494914ba36e406a
+tag1: 08a1daf850443c4f85fbab6258deca0e
+tag2: a94112d686a5303c69f85fe9138e8f53
+cipher: AES-GCM
+vulnerability: nonce reuse
+hint: AES-GCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 24d021cb73e6eb2bd5e10121
+subtype: aes_gcm
+archetype: aes

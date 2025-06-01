@@ -1,0 +1,17 @@
+Intercepted data from a covert agent is encrypted using AES-CFB. Recover the hidden flag from this transmission: 3ef33f8d2abc0b193bea0074bdb9eece0ee9c2a3c156134d8d843ddd349719d38de96a4f8b217cd51e1decdbcafa884af568da77afc5b2ff5d6f5d23360865adf265f3dc267aece4a30738c09e0268bb1b8efc58215c8ead784c5631bdccb821db543dcd707633ab96494d2abfb3145aa0112b58415f429ea002322550d5b119fcbc191041855d00c3a26ddd30f34d293a79d8105f429cfceef42d5b636483fdc3548d126ed765056de2491c50b86055ee
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{p63m6azb}
+ciphertext: 3ef33f8d2abc0b193bea0074bdb9eece0ee9c2a3c156134d8d843ddd349719d38de96a4f8b217cd51e1decdbcafa884af568da77afc5b2ff5d6f5d23360865adf265f3dc267aece4a30738c09e0268bb1b8efc58215c8ead784c5631bdccb821db543dcd707633ab96494d2abfb3145aa0112b58415f429ea002322550d5b119fcbc191041855d00c3a26ddd30f34d293a79d8105f429cfceef42d5b636483fdc3548d126ed765056de2491c50b86055ee
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: 8cedb735008a029fc858b4fcb8a3f60c
+subtype: aes_cfb
+archetype: aes

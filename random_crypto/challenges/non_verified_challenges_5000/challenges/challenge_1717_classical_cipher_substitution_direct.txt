@@ -1,0 +1,21 @@
+An ancient ledger hides its fortune behind a cryptic note. Only those who break the substitution cipher can reveal the key: ughj{yc8q8088}
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'h', 'b': 'v', 'c': 'z', 'd': 'm', 'e': 'r', 'f': 'u', 'g': 'j', 'h': 'n', 'i': 'c', 'j': 'b', 'k': 'f', 'l': 'g', 'm': 'k', 'n': 'x', 'o': 'e', 'p': 'l', 'q': 't', 'r': 'd', 's': 'i', 't': 'o', 'u': 'p', 'v': 'w', 'w': 'q', 'x': 'a', 'y': 's', 'z': 'y'}
+
+---
+
+## Challenge Technical Details
+flag: flag{zi8w8088}
+cipher: Substitution
+ciphertext: ughj{yc8q8088}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'h', 'b': 'v', 'c': 'z', 'd': 'm', 'e': 'r', 'f': 'u', 'g': 'j', 'h': 'n', 'i': 'c', 'j': 'b', 'k': 'f', 'l': 'g', 'm': 'k', 'n': 'x', 'o': 'e', 'p': 'l', 'q': 't', 'r': 'd', 's': 'i', 't': 'o', 'u': 'p', 'v': 'w', 'w': 'q', 'x': 'a', 'y': 's', 'z': 'y'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

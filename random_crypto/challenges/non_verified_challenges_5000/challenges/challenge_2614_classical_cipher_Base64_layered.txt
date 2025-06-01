@@ -1,0 +1,17 @@
+
+An agent hid secret data using Base64. Decode the message below to uncover the hidden instructions: VmpJd2VFNUhSa2RpTTNCclUwaENVVlpyV21GT1ZsSlhZVVU1VDFaVVJscFVWVkYzVUZFOVBRPT0=
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{s95r1sy1}
+cipher: Base64
+ciphertext: VmpJd2VFNUhSa2RpTTNCclUwaENVVlpyV21GT1ZsSlhZVVU1VDFaVVJscFVWVkYzVUZFOVBRPT0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 5 times in total.
+subtype: Base64_layered
+archetype: classical_cipher

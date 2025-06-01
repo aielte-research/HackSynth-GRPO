@@ -1,0 +1,15 @@
+The hacker's message was scrambled with MD5. A fatal flaw in the cipher lets you reverse it. Can you recover the original secret from 7d53342be231fce5d0df18403813f2be?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{LMM33}
+ciphertext: 7d53342be231fce5d0df18403813f2be
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

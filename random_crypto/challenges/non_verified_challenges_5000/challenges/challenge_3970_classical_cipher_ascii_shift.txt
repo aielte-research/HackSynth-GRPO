@@ -1,0 +1,15 @@
+A hacker left a message in the ASCII Shift cipher at the scene. Can you reveal their secret by decrypting this: pvkq}Colqv:=?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{s9ebgl03}
+cipher: ASCII Shift
+ciphertext: pvkq}Colqv:=
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 10
+subtype: ascii_shift
+archetype: classical_cipher

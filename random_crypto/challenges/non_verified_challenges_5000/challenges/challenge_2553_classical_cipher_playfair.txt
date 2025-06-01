@@ -1,0 +1,17 @@
+A spy left a Playfair-encrypted message at the café. Can you decrypt mitlnwricgywpyfmxlylnwricgzenswvmleffmcuespotlnwricgywpyfmyfudubvawntzbmtueypiulwytycpposubipgnsuwqaabesfmgkzeeppcwewnckfvbuemdmcpsmcppoipoiwelrgnmhpvbr to discover the secret rendezvous location?
+
+The flag format is flag{...}
+The keyword is: eumtswab
+
+---
+
+## Challenge Technical Details
+flag: flag{x5bny0w0}
+ciphertext: mitlnwricgywpyfmxlylnwricgzenswvmleffmcuespotlnwricgywpyfmyfudubvawntzbmtueypiulwytycpposubipgnsuwqaabesfmgkzeeppcwewnckfvbuemdmcpsmcppoipoiwelrgnmhpvbr
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: eumtswab
+extra_info: The playfair table is [['e', 'u', 'm', 't', 's'], ['w', 'a', 'b', 'c', 'd'], ['f', 'g', 'h', 'i', 'k'], ['l', 'n', 'o', 'p', 'q'], ['r', 'v', 'x', 'y', 'z']]
+subtype: playfair
+archetype: classical_cipher

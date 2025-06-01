@@ -1,0 +1,19 @@
+
+An old notebook reveals a coded message. Legend says the treasure's location lies within: plbtgevkcdiouslbofumgevkcdimriodoadvlbentmambtgevkcdiouslbdqncnopdegyipvtomqckatoixssqamzlbksdriobwadgtmlbkrimztqsoqeguqfdonpicpsqpqsqamkcxpoqgfgnxdxpwthy Can you break the Playfair cipher and claim the prize?
+
+
+The flag format is flag{...}
+The keyword is: rrduiiqo
+
+---
+
+## Challenge Technical Details
+flag: flag{wup4hznk}
+ciphertext: plbtgevkcdiouslbofumgevkcdimriodoadvlbentmambtgevkcdiouslbdqncnopdegyipvtomqckatoixssqamzlbksdriobwadgtmlbkrimztqsoqeguqfdonpicpsqpqsqamkcxpoqgfgnxdxpwthy
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: rrduiiqo
+extra_info: The playfair table is [['r', 'd', 'u', 'i', 'q'], ['o', 'a', 'b', 'c', 'e'], ['f', 'g', 'h', 'k', 'l'], ['m', 'n', 'p', 's', 't'], ['v', 'w', 'x', 'y', 'z']]
+subtype: playfair
+archetype: classical_cipher

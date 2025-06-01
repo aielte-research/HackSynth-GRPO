@@ -1,0 +1,17 @@
+
+A hacker intercepted a secret railway schedule, but it's scrambled using an old fence pattern. Can you decrypt the message? Ciphertext: fa{8xcelgbzzt}
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{b8zxzcte}
+ciphertext: fa{8xcelgbzzt}
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 2
+subtype: rail_fence
+archetype: classical_cipher

@@ -1,0 +1,21 @@
+A spy left a note in a secretive club, but it's hidden using a simple substitution cipher. Can you reveal its message? Here it is: srnl{h6xhmdh1}
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'n', 'b': 'c', 'c': 'y', 'd': 't', 'e': 'e', 'f': 's', 'g': 'l', 'h': 'u', 'i': 'd', 'j': 'f', 'k': 'i', 'l': 'r', 'm': 'z', 'n': 'a', 'o': 'x', 'p': 'b', 'q': 'w', 'r': 'k', 's': 'q', 't': 'p', 'u': 'h', 'v': 'g', 'w': 'v', 'x': 'm', 'y': 'j', 'z': 'o'}
+
+---
+
+## Challenge Technical Details
+flag: flag{u6ouxiu1}
+cipher: Substitution
+ciphertext: srnl{h6xhmdh1}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'n', 'b': 'c', 'c': 'y', 'd': 't', 'e': 'e', 'f': 's', 'g': 'l', 'h': 'u', 'i': 'd', 'j': 'f', 'k': 'i', 'l': 'r', 'm': 'z', 'n': 'a', 'o': 'x', 'p': 'b', 'q': 'w', 'r': 'k', 's': 'q', 't': 'p', 'u': 'h', 'v': 'g', 'w': 'v', 'x': 'm', 'y': 'j', 'z': 'o'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

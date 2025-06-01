@@ -1,0 +1,17 @@
+A secret agent encrypted vital coordinates using AES-CFB. Only 90e1218df08148e4ffb681fe473ff33bcd671ecdb81d36f6ce53b21b7c344ef8d61f3706385228b06923120ec04a553d8c4ac5af113fc4e20264ed4d74b7f69f912ae9704372089f5c60c2f6a97d28a3bafcf44787646d9075b38b62fcfb7be09546f448b8bde83ffff54569b51e8ea6fe5cdacde72e74e8190844ade81ccf867c9a3acefc3a0eba08aa65052c9fa90b5e7151848eeb91a417e0a02b9c09c142ca7ab68bc53524d4124e98f49965e40531 remains—can you recover the message and unveil the agent’s hidden location?
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{jlp4eu43}
+ciphertext: 90e1218df08148e4ffb681fe473ff33bcd671ecdb81d36f6ce53b21b7c344ef8d61f3706385228b06923120ec04a553d8c4ac5af113fc4e20264ed4d74b7f69f912ae9704372089f5c60c2f6a97d28a3bafcf44787646d9075b38b62fcfb7be09546f448b8bde83ffff54569b51e8ea6fe5cdacde72e74e8190844ade81ccf867c9a3acefc3a0eba08aa65052c9fa90b5e7151848eeb91a417e0a02b9c09c142ca7ab68bc53524d4124e98f49965e40531
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: a382556472d42770cd2a18ed213f5719
+subtype: aes_cfb
+archetype: aes

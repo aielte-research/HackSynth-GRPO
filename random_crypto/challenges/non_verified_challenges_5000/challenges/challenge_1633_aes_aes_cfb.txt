@@ -1,0 +1,17 @@
+A rogue AI sends an encrypted hint to its creator, using AES-CFB mode. Can you recover the message from this ciphertext: e471795bc2c90429ba09c6e76a6390bb4fb5d59613b7d998dce996f13a713fb641cf30bcb42f1b8cbdab568e97f49eb11b892ec5b4237c72a532593274d6a3ea427ea6c67a47496a05b2c3c9291d260a23734b133bbefa90004d039f6ebfab2f7fbacc09de2efdf19672cbb380fcffaa6ebcf439895d097b1f773bbaa9c40d064f4f6aa38bd5805879b2214d620f4b25740211046389f672076069cc1e3ee2c000630fe85419e7323341a4f6cfc53770eb?
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{eh3w033g}
+ciphertext: e471795bc2c90429ba09c6e76a6390bb4fb5d59613b7d998dce996f13a713fb641cf30bcb42f1b8cbdab568e97f49eb11b892ec5b4237c72a532593274d6a3ea427ea6c67a47496a05b2c3c9291d260a23734b133bbefa90004d039f6ebfab2f7fbacc09de2efdf19672cbb380fcffaa6ebcf439895d097b1f773bbaa9c40d064f4f6aa38bd5805879b2214d620f4b25740211046389f672076069cc1e3ee2c000630fe85419e7323341a4f6cfc53770eb
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: c21ca9c29f90b3a3385c5695a45516a1
+subtype: aes_cfb
+archetype: aes

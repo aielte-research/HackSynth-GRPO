@@ -1,0 +1,15 @@
+Agent Z left a message for you, but reversed every character to slow pursuers. Can you restore the original text from }0oyyvvwz{galf?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{zwvvyyo0}
+ciphertext: }0oyyvvwz{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

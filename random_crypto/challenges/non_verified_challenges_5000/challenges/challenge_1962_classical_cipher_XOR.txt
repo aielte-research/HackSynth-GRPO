@@ -1,0 +1,15 @@
+A hacker sent a secret message to their partner using a simple XOR cipher. Can you reveal the hidden text from the ciphertext below? stringA: 0c2d023e0d5849184e0600081f12 stringB: 6a416359763939793736736c656f
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{apay0sdz}
+cipher: XOR
+ciphertext: stringA: 0c2d023e0d5849184e0600081f12 stringB: 6a416359763939793736736c656f
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

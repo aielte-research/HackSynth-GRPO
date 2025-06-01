@@ -1,0 +1,21 @@
+
+A careless intern used a birthday as a PRNG seed to encrypt the company’s password. Crack the low-entropy cipher and recover the secret: 666c63557b7276013473705b357d
+
+
+The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [243, 606, 557, 133, 378, 618, 485, 640, 594, 67, 620, 13, 480, 265, 564, 239, 196, 734, 481, 553]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 803)
+
+---
+
+## Challenge Technical Details
+flag: flag{rt34sri5}
+ciphertext: 666c63557b7276013473705b357d
+cipher: Low-entropy PRNG
+hint: The PRNG seed space is small. You can try brute-forcing all possible seeds to reconstruct the sequence.
+necessary_info: The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [243, 606, 557, 133, 378, 618, 485, 640, 594, 67, 620, 13, 480, 265, 564, 239, 196, 734, 481, 553]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 803)
+extra_info: Since the seed has only 256 possible values, it can be brute-forced to recover the secret number and decrypt the flag.
+subtype: low_entropy_generator
+archetype: prng

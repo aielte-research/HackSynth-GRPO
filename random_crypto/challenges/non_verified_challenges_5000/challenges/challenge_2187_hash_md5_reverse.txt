@@ -1,0 +1,15 @@
+An intern hashed a password using MD5, then posted 8458b405655a9c438877d99f6ee98ad4 online, believing it was unbreakable. Can you demonstrate the flaw by recovering the original password?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{A-JET}
+ciphertext: 8458b405655a9c438877d99f6ee98ad4
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

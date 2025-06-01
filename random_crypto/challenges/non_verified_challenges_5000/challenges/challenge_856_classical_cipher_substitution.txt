@@ -1,0 +1,15 @@
+An encrypted message (sm fewzryuegzjw, g tcatrsrcrsym fszjpe st g iprjyo yh pmfewzrsmu sm kjsfj cmsrt yh zqgsmrpnr gep epzqgfpo ksrj rjp fszjperpnr, sm g ophsmpo igmmpe, ksrj rjp jpqz yh g xpw; rjp "cmsrt" igw ap tsmuqp qprrpet (rjp iytr fyiiym), zgset yh qprrpet, reszqprt yh qprrpet, isnrcept yh rjp gayvp, gmo ty hyerj. rjp epfpsvpe opfszjpet rjp rpnr aw zpehyeismu rjp smvpetp tcatrsrcrsym zeyfptt ry pnregfr rjp yesusmgq ipttgup. qsxpkstp, dgfbcpt bcsfxqw lszzpo rjeycuj g bcptrsym ym lpey-xmykqpoup zeyyht, pmtcesmu my fesrsfgq qprrpe kgt qphr ycr yh yce fewzryuegzjsf zcllqp.hqgu{p4wopx6i}) was found in a hacker's notebook. The substitution cipher hides the secret plan. Can you decipher it and expose the plot?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{e4ydek6m}
+ciphertext: sm fewzryuegzjw, g tcatrsrcrsym fszjpe st g iprjyo yh pmfewzrsmu sm kjsfj cmsrt yh zqgsmrpnr gep epzqgfpo ksrj rjp fszjperpnr, sm g ophsmpo igmmpe, ksrj rjp jpqz yh g xpw; rjp "cmsrt" igw ap tsmuqp qprrpet (rjp iytr fyiiym), zgset yh qprrpet, reszqprt yh qprrpet, isnrcept yh rjp gayvp, gmo ty hyerj. rjp epfpsvpe opfszjpet rjp rpnr aw zpehyeismu rjp smvpetp tcatrsrcrsym zeyfptt ry pnregfr rjp yesusmgq ipttgup. qsxpkstp, dgfbcpt bcsfxqw lszzpo rjeycuj g bcptrsym ym lpey-xmykqpoup zeyyht, pmtcesmu my fesrsfgq qprrpe kgt qphr ycr yh yce fewzryuegzjsf zcllqp.hqgu{p4wopx6i}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'g', 'b': 'a', 'c': 'f', 'd': 'o', 'e': 'p', 'f': 'h', 'g': 'u', 'h': 'j', 'i': 's', 'j': 'd', 'k': 'x', 'l': 'q', 'm': 'i', 'n': 'm', 'o': 'y', 'p': 'z', 'q': 'b', 'r': 'e', 's': 't', 't': 'r', 'u': 'c', 'v': 'v', 'w': 'k', 'x': 'n', 'y': 'w', 'z': 'l'}
+subtype: substitution
+archetype: classical_cipher

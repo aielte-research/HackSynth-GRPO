@@ -1,0 +1,14 @@
+The CEO's digital signature, hastily encrypted with a low exponent, leaked during a livestream. Can you retrieve the original message from the signature? Here it is: 0x171981a94da2aaca98014e61614be5abb39ff7ef6a426f03d9e2d685694a1a2ad2fc5a668f0fb681786c336ac4a2929425e255ec21dd193402ff2b8d402e8af6
+
+Public Key (n, e): (8688179798686892964409744526425390884925591641125798487250833539064207484547916064615212125873635297792813793713090911732306083627538890706602166283157809, 3)
+
+---
+
+## Challenge Technical Details
+flag: flag{3qp4vd4v}
+ciphertext: 0x171981a94da2aaca98014e61614be5abb39ff7ef6a426f03d9e2d685694a1a2ad2fc5a668f0fb681786c336ac4a2929425e255ec21dd193402ff2b8d402e8af6
+cipher: RSA Low-Exponent Signature
+hint: What happens when you cube small numbers? Remember e=3!
+necessary_info: Public Key (n, e): (8688179798686892964409744526425390884925591641125798487250833539064207484547916064615212125873635297792813793713090911732306083627538890706602166283157809, 3)
+subtype: rsa_sign_with_low_public_exponent
+archetype: signature_schemes

@@ -1,0 +1,15 @@
+An agent left a secret message encoded in Base64. Can you decode it and reveal the hidden instructions? Here is the message: Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVcxS1IxWnFUbGROYmxGM1dWZDRZV1JXUm5OaVJuQk9UVEJLU1ZkV1kzaFRNVTVIVm01T2FGSnRhRzlVVmxwM1pWWmFjbFZyZEZSTlZuQXdWa2QwYTJGc1NuTlhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ms3daazm}
+cipher: Base64
+ciphertext: Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVcxS1IxWnFUbGROYmxGM1dWZDRZV1JXUm5OaVJuQk9UVEJLU1ZkV1kzaFRNVTVIVm01T2FGSnRhRzlVVmxwM1pWWmFjbFZyZEZSTlZuQXdWa2QwYTJGc1NuTlhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 9 times in total.
+subtype: base64_layered
+archetype: classical_cipher

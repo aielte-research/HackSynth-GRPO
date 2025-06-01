@@ -1,0 +1,15 @@
+An old hacker left a secret message encoded in Base85. Can you recover the original text from this mysterious cipher? The message: Q8sTRJX$6xX;4yHCRQp_d3iZVS4enzRZvJlCS*)<c`I{HCI
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{zrpeipjl}
+cipher: Base85
+ciphertext: Q8sTRJX$6xX;4yHCRQp_d3iZVS4enzRZvJlCS*)<c`I{HCI
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 5 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

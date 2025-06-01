@@ -1,0 +1,15 @@
+A mathematician left a secret in Fibonacci encoding. Can you decode the hidden message? The encrypted text is: 10001000001 10001010011 10000100001 10001000011 10100000001 101000101 10000100011 10010101001 10010000011 10010000011 10000100101 10000101001 10010001011 10100000101
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{1byoocdr}
+ciphertext: 10001000001 10001010011 10000100001 10001000011 10100000001 101000101 10000100011 10010101001 10010000011 10010000011 10000100101 10000101001 10010001011 10100000101
+cipher: Fibonacci Encoding
+hint: Each ASCII character is represented as a sum of non-consecutive Fibonacci numbers, always ending in 1.
+necessary_info: The flag format is flag{...}
+extra_info: Each character of the flag is independently encoded using Fibonacci representation.
+subtype: fibonacci_encoding
+archetype: classical_cipher

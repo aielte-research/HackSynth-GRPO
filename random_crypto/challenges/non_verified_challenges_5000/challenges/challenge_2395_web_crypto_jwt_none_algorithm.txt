@@ -1,0 +1,13 @@
+
+Intercepted from a hacker’s API traffic: a suspicious JWT token. Can you extract the admin secret from eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tmaTl0M3FrN30ifQ.?
+
+
+---
+
+## Challenge Technical Details
+flag: flag{fi9t3qk7}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tmaTl0M3FrN30ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

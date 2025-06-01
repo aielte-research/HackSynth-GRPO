@@ -1,0 +1,18 @@
+Due to a rushed deadline, the server used weak, small primes to encrypt a secret with RSA. Can you recover the original message? Ciphertext: 7436900072247487909
+
+The flag format is flag{...}
+n=13481864016320700073, e=3924467313230295713
+
+---
+
+## Challenge Technical Details
+flag: flag{b6v6rih0}
+cipher: RSA
+ciphertext: 7436900072247487909
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=13481864016320700073, e=3924467313230295713
+extra_info: p=3147766697, q=4282993409, φ(n)=13481864008889939968
+subtype: small_primes
+archetype: rsa

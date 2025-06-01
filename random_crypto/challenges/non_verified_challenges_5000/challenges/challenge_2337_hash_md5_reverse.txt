@@ -1,0 +1,15 @@
+Intercepted a hacker’s message: 62eac7a4eb1266d32b94f2b387774103. It’s MD5-encrypted, but rumor is, their method is flawed. Can you uncover the secret using their MD5 reversal vulnerability?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{lip-e}
+ciphertext: 62eac7a4eb1266d32b94f2b387774103
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

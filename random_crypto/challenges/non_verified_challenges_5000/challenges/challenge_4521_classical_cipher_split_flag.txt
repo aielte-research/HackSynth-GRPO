@@ -1,0 +1,15 @@
+The hacker left a message secured with their custom SplitNumberMix cipher. Decrypt to reveal the meeting location:  55555555 f 55555555 l 55555555 ag{eljs 55555555 jazw} 55555555 
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{eljsjazw}
+ciphertext:  55555555 f 55555555 l 55555555 ag{eljs 55555555 jazw} 55555555 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 4 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

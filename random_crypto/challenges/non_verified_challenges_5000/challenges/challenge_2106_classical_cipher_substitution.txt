@@ -1,0 +1,15 @@
+An agent intercepted a secret message between rivals. It appears scrambled—can you uncover the original text from ct hagnpbsalnmg, l owjopcpwpcbt hcnmqa co l vqpmbu bd qthagnpcts ct zmchm wtcpo bd nelctpqrp laq aqnelhqu zcpm pmq hcnmqapqrp, ct l uqdctqu vlttqa, zcpm pmq mqen bd l yqg; pmq "wtcpo" vlg jq octseq eqppqao (pmq vbop hbvvbt), nlcao bd eqppqao, pacneqpo bd eqppqao, vcrpwaqo bd pmq ljbxq, ltu ob dbapm. pmq aqhqcxqa uqhcnmqao pmq pqrp jg nqadbavcts pmq ctxqaoq owjopcpwpcbt nabhqoo pb qrpalhp pmq bacsctle vqoolsq. ecyqzcoq, klhfwqo fwchyeg icnnqu pmabwsm l fwqopcbt bt iqab-ytbzequsq nabbdo, qtowacts tb hacpchle eqppqa zlo eqdp bwp bd bwa hagnpbsalnmch nwiieq.dels{1okoi8n9} using a classic substitution cipher?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{1sjsz8p9}
+ciphertext: ct hagnpbsalnmg, l owjopcpwpcbt hcnmqa co l vqpmbu bd qthagnpcts ct zmchm wtcpo bd nelctpqrp laq aqnelhqu zcpm pmq hcnmqapqrp, ct l uqdctqu vlttqa, zcpm pmq mqen bd l yqg; pmq "wtcpo" vlg jq octseq eqppqao (pmq vbop hbvvbt), nlcao bd eqppqao, pacneqpo bd eqppqao, vcrpwaqo bd pmq ljbxq, ltu ob dbapm. pmq aqhqcxqa uqhcnmqao pmq pqrp jg nqadbavcts pmq ctxqaoq owjopcpwpcbt nabhqoo pb qrpalhp pmq bacsctle vqoolsq. ecyqzcoq, klhfwqo fwchyeg icnnqu pmabwsm l fwqopcbt bt iqab-ytbzequsq nabbdo, qtowacts tb hacpchle eqppqa zlo eqdp bwp bd bwa hagnpbsalnmch nwiieq.dels{1okoi8n9}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'l', 'b': 'j', 'c': 'h', 'd': 'u', 'e': 'q', 'f': 'd', 'g': 's', 'h': 'm', 'i': 'c', 'j': 'k', 'k': 'y', 'l': 'e', 'm': 'v', 'n': 't', 'o': 'b', 'p': 'n', 'q': 'f', 'r': 'a', 's': 'o', 't': 'p', 'u': 'w', 'v': 'x', 'w': 'z', 'x': 'r', 'y': 'g', 'z': 'i'}
+subtype: substitution
+archetype: classical_cipher

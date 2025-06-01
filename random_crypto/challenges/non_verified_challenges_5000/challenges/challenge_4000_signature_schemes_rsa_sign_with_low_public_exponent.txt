@@ -1,0 +1,14 @@
+The CEO used a quick, low-exponent RSA signature to approve a major transfer. Someone leaked the signed message: 0x53b0990c6ab9fbb0ca69d95fcdce996d7d448bf199cfb23b77405ce9c7f516224f947ca206f4bbb1d9349ccf6c583f341611c4d35c4ae3a3eebc6ccd31867bf7. Can you recover the original?
+
+Public Key (n, e): (8086935658737156125812687316328687978592585709619385684617205830370364326821221694944882114353972473021550581348388474760042414177180776984028724385461481, 3)
+
+---
+
+## Challenge Technical Details
+flag: flag{zwd27ua5}
+ciphertext: 0x53b0990c6ab9fbb0ca69d95fcdce996d7d448bf199cfb23b77405ce9c7f516224f947ca206f4bbb1d9349ccf6c583f341611c4d35c4ae3a3eebc6ccd31867bf7
+cipher: RSA Low-Exponent Signature
+hint: What happens when you cube small numbers? Remember e=3!
+necessary_info: Public Key (n, e): (8086935658737156125812687316328687978592585709619385684617205830370364326821221694944882114353972473021550581348388474760042414177180776984028724385461481, 3)
+subtype: rsa_sign_with_low_public_exponent
+archetype: signature_schemes

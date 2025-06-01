@@ -1,0 +1,14 @@
+An old scroll bears a coded prophecy. Historians whisper that only a mirror—of letters, not glass—will reveal its meaning. Can you decode this Atbash message: uozt{fbsipv8l}?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{uyhrke8o}
+cipher: Atbash
+ciphertext: uozt{fbsipv8l}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

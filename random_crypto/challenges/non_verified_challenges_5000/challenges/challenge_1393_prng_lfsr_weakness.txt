@@ -1,0 +1,19 @@
+An old hacker's diary is encrypted with a stream cipher. Luckily, rumors say the LFSR Weakness was never patched. Can you recover the secret message? e011e71afd15b61ee212b548f400
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[63174, 64355, 32177, 16088, 40812, 53174, 26587, 13293, 6646, 3323]
+
+---
+
+## Challenge Technical Details
+flag: flag{h0cdo35r}
+ciphertext: e011e71afd15b61ee212b548f400
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[63174, 64355, 32177, 16088, 40812, 53174, 26587, 13293, 6646, 3323]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

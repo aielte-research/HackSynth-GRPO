@@ -1,0 +1,17 @@
+An old spy letter encodes its instructions using a matrix cipher. Only by decrypting uuxxiipmnuxvnamwhykbluhlnplngzhyimwjbwwjsoggtynvmmamximabedbtuqhtrmbjg can you reveal the hidden rendezvous location.
+
+The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+
+---
+
+## Challenge Technical Details
+flag: flag{vxhnyzda}
+ciphertext: uuxxiipmnuxvnamwhykbluhlnplngzhyimwjbwwjsoggtynvmmamximabedbtuqhtrmbjg
+cipher: Hill
+hint: Hill ciphers can be broken using known-plaintext attacks and linear algebra mod 26.
+necessary_info: The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+extra_info: The matrix used is: [[5, 23], [19, 24]]
+subtype: hill
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+An old hacker encoded the flag using an ASCII Shift cipher before disappearing. Can you recover the message they left behind? Ciphertext: jpekfmyqy5vu
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{biumu1rq}
+cipher: ASCII Shift
+ciphertext: jpekfmyqy5vu
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 4
+subtype: ascii_shift
+archetype: classical_cipher

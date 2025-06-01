@@ -1,0 +1,15 @@
+A rogue AI hid the access code by swapping each letter with another. Can you decode its secret message? Ciphertext: rm zxqkwufxbkgq, b vtyvwrwtwrum zrkghx rv b shwguj ul hmzxqkwrmf rm ogrzg tmrwv ul kdbrmwhnw bxh xhkdbzhj orwg wgh zrkghxwhnw, rm b jhlrmhj sbmmhx, orwg wgh ghdk ul b ihq; wgh "tmrwv" sbq yh vrmfdh dhwwhxv (wgh suvw zussum), kbrxv ul dhwwhxv, wxrkdhwv ul dhwwhxv, srnwtxhv ul wgh byueh, bmj vu luxwg. wgh xhzhrehx jhzrkghxv wgh whnw yq khxluxsrmf wgh rmehxvh vtyvwrwtwrum kxuzhvv wu hnwxbzw wgh uxrfrmbd shvvbfh. drihorvh, abzcthv ctrzidq prkkhj wgxutfg b cthvwrum um phxu-imuodhjfh kxuulv, hmvtxrmf mu zxrwrzbd dhwwhx obv dhlw utw ul utx zxqkwufxbkgrz ktppdh.ldbf{b4q3kb0d}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{a4y3pa0l}
+ciphertext: rm zxqkwufxbkgq, b vtyvwrwtwrum zrkghx rv b shwguj ul hmzxqkwrmf rm ogrzg tmrwv ul kdbrmwhnw bxh xhkdbzhj orwg wgh zrkghxwhnw, rm b jhlrmhj sbmmhx, orwg wgh ghdk ul b ihq; wgh "tmrwv" sbq yh vrmfdh dhwwhxv (wgh suvw zussum), kbrxv ul dhwwhxv, wxrkdhwv ul dhwwhxv, srnwtxhv ul wgh byueh, bmj vu luxwg. wgh xhzhrehx jhzrkghxv wgh whnw yq khxluxsrmf wgh rmehxvh vtyvwrwtwrum kxuzhvv wu hnwxbzw wgh uxrfrmbd shvvbfh. drihorvh, abzcthv ctrzidq prkkhj wgxutfg b cthvwrum um phxu-imuodhjfh kxuulv, hmvtxrmf mu zxrwrzbd dhwwhx obv dhlw utw ul utx zxqkwufxbkgrz ktppdh.ldbf{b4q3kb0d}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'b', 'b': 'y', 'c': 'z', 'd': 'j', 'e': 'h', 'f': 'l', 'g': 'f', 'h': 'g', 'i': 'r', 'j': 'a', 'k': 'i', 'l': 'd', 'm': 's', 'n': 'm', 'o': 'u', 'p': 'k', 'q': 'c', 'r': 'x', 's': 'v', 't': 'w', 'u': 't', 'v': 'e', 'w': 'o', 'x': 'n', 'y': 'q', 'z': 'p'}
+subtype: substitution
+archetype: classical_cipher

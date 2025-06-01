@@ -1,0 +1,23 @@
+
+A hacker replaced every letter in a secret message about the prize. Can you decode the substitution cipher below? Ciphertext: dvyl{gk8gugsz}
+
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'y', 'b': 'm', 'c': 'h', 'd': 'w', 'e': 'b', 'f': 'd', 'g': 'l', 'h': 'r', 'i': 'n', 'j': 'x', 'k': 'i', 'l': 'v', 'm': 'e', 'n': 'f', 'o': 'j', 'p': 'k', 'q': 'a', 'r': 'z', 's': 'g', 't': 't', 'u': 'q', 'v': 's', 'w': 'u', 'x': 'o', 'y': 'p', 'z': 'c'}
+
+---
+
+## Challenge Technical Details
+flag: flag{sp8swsvr}
+cipher: Substitution
+ciphertext: dvyl{gk8gugsz}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'y', 'b': 'm', 'c': 'h', 'd': 'w', 'e': 'b', 'f': 'd', 'g': 'l', 'h': 'r', 'i': 'n', 'j': 'x', 'k': 'i', 'l': 'v', 'm': 'e', 'n': 'f', 'o': 'j', 'p': 'k', 'q': 'a', 'r': 'z', 's': 'g', 't': 't', 'u': 'q', 'v': 's', 'w': 'u', 'x': 'o', 'y': 'p', 'z': 'c'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

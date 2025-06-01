@@ -1,0 +1,24 @@
+An anonymous hacker left a mysterious signature hashed with SHA-256. Can you recover the original message hidden within cf631df23cd6613bdb7520ac0df4eaa6b23fe46a79d46e0e9503faebffa7815f?
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{zsol}
+ciphertext: cf631df23cd6613bdb7520ac0df4eaa6b23fe46a79d46e0e9503faebffa7815f
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

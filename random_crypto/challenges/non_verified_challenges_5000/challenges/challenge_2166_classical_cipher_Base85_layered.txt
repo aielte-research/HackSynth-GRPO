@@ -1,0 +1,15 @@
+An agent left a secret message in a Base85 code. Decode Q8+6$C09T(Kr2)>FllT?Dp5>4T0>tyaZhPwOiNd6Y-Ax&En-MNO>tjAS7K6qd@@#TRB%c}a4J_ZRz788M`2fJUS3i&Y$#GvVL?%RNJBYgWn)k#BU4FPZZTR>K{-!nQZ!#=KUQvgF<M$dcV}TwVE to uncover the meeting location.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{kmdx3h5e}
+cipher: Base85
+ciphertext: Q8+6$C09T(Kr2)>FllT?Dp5>4T0>tyaZhPwOiNd6Y-Ax&En-MNO>tjAS7K6qd@@#TRB%c}a4J_ZRz788M`2fJUS3i&Y$#GvVL?%RNJBYgWn)k#BU4FPZZTR>K{-!nQZ!#=KUQvgF<M$dcV}TwVE
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 10 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

@@ -1,0 +1,29 @@
+
+The hacker's prize wallet is locked using an LCG Predictability cipher. Can you recover the original secret from this piece: 62a0f0d17ff5a38736b6f7d031b1?
+
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 285199171
+  - Multiplier: 22116659
+  - Increment: 254978340
+The first 5 outputs of the LCG are provided: [237756459, 245271035, 24885737, 275610041, 259001519] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{9212zff5}
+ciphertext: 62a0f0d17ff5a38736b6f7d031b1
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 285199171
+  - Multiplier: 22116659
+  - Increment: 254978340
+The first 5 outputs of the LCG are provided: [237756459, 245271035, 24885737, 275610041, 259001519] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

@@ -1,0 +1,17 @@
+Intercepted during a covert exchange, this message hides a password using the Playfair cipher. Can you recover the secret? Ciphertext: vkdiqnuqbalgaixdlqmbqnuqbazbyabqowozxdnykzlidiqnuqbalgaixdobubqpaknquzohodzlneciglvawnliwcdkpayafipcyikzxdeazbktnwgonqeprzpqksgbwnykwnliendpgocqbfzbmbwh
+
+The flag format is flag{...}
+The keyword is: khxusnpi
+
+---
+
+## Challenge Technical Details
+flag: flag{6rsrp7v4}
+ciphertext: vkdiqnuqbalgaixdlqmbqnuqbazbyabqowozxdnykzlidiqnuqbalgaixdobubqpaknquzohodzlneciglvawnliwcdkpayafipcyikzxdeazbktnwgonqeprzpqksgbwnykwnliendpgocqbfzbmbwh
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: khxusnpi
+extra_info: The playfair table is [['k', 'h', 'x', 'u', 's'], ['n', 'p', 'i', 'a', 'b'], ['c', 'd', 'e', 'f', 'g'], ['l', 'm', 'o', 'q', 'r'], ['t', 'v', 'w', 'y', 'z']]
+subtype: playfair
+archetype: classical_cipher

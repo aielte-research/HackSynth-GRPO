@@ -1,0 +1,17 @@
+A message between rival spies was intercepted: plqmgdukbaykbmfqtstrgdukbaycexcnwensfqdnorwtqmgdukbaykbmfqmcwcnimvdgcspuuimtadwmkyxrmdwtmobkmaexwitaagorfqmfycztdmsmdgiaknineycqmdmzmdwtdaxpsmgfgndrzfhuzy. Can you help decrypt it using the Playfair cipher to reveal their secret passphrase?
+
+The flag format is flag{...}
+The keyword is: ewqsojia
+
+---
+
+## Challenge Technical Details
+flag: flag{ctul6fxy}
+ciphertext: plqmgdukbaykbmfqtstrgdukbaycexcnwensfqdnorwtqmgdukbaykbmfqmcwcnimvdgcspuuimtadwmkyxrmdwtmobkmaexwitaagorfqmfycztdmsmdgiaknineycqmdmzmdwtdaxpsmgfgndrzfhuzy
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: ewqsojia
+extra_info: The playfair table is [['e', 'w', 'q', 's', 'o'], ['i', 'a', 'b', 'c', 'd'], ['f', 'g', 'h', 'k', 'l'], ['m', 'n', 'p', 'r', 't'], ['u', 'v', 'x', 'y', 'z']]
+subtype: playfair
+archetype: classical_cipher

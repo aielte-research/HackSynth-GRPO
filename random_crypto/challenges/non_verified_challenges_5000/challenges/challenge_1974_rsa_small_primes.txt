@@ -1,0 +1,18 @@
+Rushed for launch, our dev picked small primes in RSA. Can you uncover the secret from this encrypted message? 12782012889958855707
+
+The flag format is flag{...}
+n=17089170311082676319, e=368162210034204983
+
+---
+
+## Challenge Technical Details
+flag: flag{n450gkb3}
+cipher: RSA
+ciphertext: 12782012889958855707
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=17089170311082676319, e=368162210034204983
+extra_info: p=4093005079, q=4175213561, φ(n)=17089170302814457680
+subtype: small_primes
+archetype: rsa

@@ -1,0 +1,15 @@
+Intercepted during a digital heist, this message was scrambled with an XOR cipher. Unmask the original secret from the garbled ciphertext: stringA: 333c1216341c4e085a142e091f1f stringB: 555073714f7036696d64426a7962
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{lxa7plcf}
+cipher: XOR
+ciphertext: stringA: 333c1216341c4e085a142e091f1f stringB: 555073714f7036696d64426a7962
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

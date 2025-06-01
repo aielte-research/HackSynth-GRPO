@@ -1,0 +1,18 @@
+The admin encrypted the flag with RSA but carelessly picked tiny primes for the keys. Crack the ciphertext: 2462234988935425711
+
+The flag format is flag{...}
+n=6758470486002431039, e=5014113439569366595
+
+---
+
+## Challenge Technical Details
+flag: flag{lif3g1gy}
+cipher: RSA
+ciphertext: 2462234988935425711
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=6758470486002431039, e=5014113439569366595
+extra_info: p=2163221057, q=3124262527, φ(n)=6758470480714947456
+subtype: small_primes
+archetype: rsa

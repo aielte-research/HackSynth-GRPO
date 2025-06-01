@@ -1,0 +1,17 @@
+A hacker left a message for their accomplice in an old Hill cipher: mutxkiityvbranoqwtdwuzjtftjrdywtuuvwszvwggoguvhlcmekorycmxpxqwrlrezzun. Can you decipher it and reveal their secret?
+
+The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+
+---
+
+## Challenge Technical Details
+flag: flag{ydkhzvka}
+ciphertext: mutxkiityvbranoqwtdwuzjtftjrdywtuuvwszvwggoguvhlcmekorycmxpxqwrlrezzun
+cipher: Hill
+hint: Hill ciphers can be broken using known-plaintext attacks and linear algebra mod 26.
+necessary_info: The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+extra_info: The matrix used is: [[25, 2], [21, 13]]
+subtype: hill
+archetype: classical_cipher

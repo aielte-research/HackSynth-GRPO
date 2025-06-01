@@ -1,0 +1,14 @@
+The hacker left a suspicious string, claiming it's a secret key in hex. Can you decode 666c61677b64687273626638787d to reveal the hidden message?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{dhrsbf8x}
+cipher: Hex
+ciphertext: 666c61677b64687273626638787d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

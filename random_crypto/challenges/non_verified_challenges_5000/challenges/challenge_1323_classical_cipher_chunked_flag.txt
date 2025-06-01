@@ -1,0 +1,15 @@
+An agent intercepted a message, but it's cut into puzzling chunks. Can you piece together the flag hidden inside this ChunkedFlag cipher? Ciphertext: fla g{ mt 2g0 nop }
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{mt2g0nop}
+ciphertext: fla g{ mt 2g0 nop }
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

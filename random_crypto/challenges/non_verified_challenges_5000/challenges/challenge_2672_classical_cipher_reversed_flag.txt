@@ -1,0 +1,15 @@
+An agent left a secret word behind—backwards. Can you reveal their message? The ciphertext is: }g2ooyez5{galf
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{5zeyoo2g}
+ciphertext: }g2ooyez5{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

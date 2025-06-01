@@ -1,0 +1,19 @@
+
+A hacker intercepted a secret message using an old Playfair cipher. Can you decrypt bnglormototekixgalblormotouxvtbaflexxgbunuimglormototekixgtlmuafstromvhmxfuaqicxetzocqimrcgntqvtfrscyrnuxgcouxriqclerockebfauduhcqurcqimiqzbleeobfnmrtws to reveal the password?
+
+
+The flag format is flag{...}
+The keyword is: nsxmhtur
+
+---
+
+## Challenge Technical Details
+flag: flag{h9xu0bvx}
+ciphertext: bnglormototekixgalblormotouxvtbaflexxgbunuimglormototekixgtlmuafstromvhmxfuaqicxetzocqimrcgntqvtfrscyrnuxgcouxriqclerockebfauduhcqurcqimiqzbleeobfnmrtws
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: nsxmhtur
+extra_info: The playfair table is [['n', 's', 'x', 'm', 'h'], ['t', 'u', 'r', 'a', 'b'], ['c', 'd', 'e', 'f', 'g'], ['i', 'k', 'l', 'o', 'p'], ['q', 'v', 'w', 'y', 'z']]
+subtype: playfair
+archetype: classical_cipher

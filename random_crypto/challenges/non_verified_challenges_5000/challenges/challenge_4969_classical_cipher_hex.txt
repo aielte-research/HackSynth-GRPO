@@ -1,0 +1,14 @@
+A hacker left a message in hexadecimal code. Can you decode the hidden secret? Ciphertext: 666c61677b35386371343374327d
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{58cq43t2}
+cipher: Hex
+ciphertext: 666c61677b35386371343374327d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

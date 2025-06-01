@@ -1,0 +1,21 @@
+
+A mysterious note, encrypted with a flawed stream cipher, was intercepted. Break the LFSR Weakness scheme to reveal its secrets. Ciphertext: 52c255c94f9f50d44dc14ede51d3
+
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[47125, 23562, 44549, 22274, 11137, 38336, 19168, 42352, 53944, 26972]
+
+---
+
+## Challenge Technical Details
+flag: flag{1dzyozpe}
+ciphertext: 52c255c94f9f50d44dc14ede51d3
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[47125, 23562, 44549, 22274, 11137, 38336, 19168, 42352, 53944, 26972]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

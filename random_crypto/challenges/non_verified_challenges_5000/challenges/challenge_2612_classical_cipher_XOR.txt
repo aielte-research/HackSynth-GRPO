@@ -1,0 +1,17 @@
+
+Agent X left a secret note, but encrypted it using XOR. Can you uncover the hidden message from stringA: 3e2520504a6956145e2c2c095b35 stringB: 58494137315967776b4b46306e48?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{01c5gj95}
+cipher: XOR
+ciphertext: stringA: 3e2520504a6956145e2c2c095b35 stringB: 58494137315967776b4b46306e48
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

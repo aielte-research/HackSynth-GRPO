@@ -1,0 +1,21 @@
+
+Alice hashed her password with SHA-256 and a salt picked from 0–99. The resulting hash is: 4b54015950cedb465ad6f66fe0c59f211f42565f520c6a980fac05d6c1ef2987. Can you recover her password?
+
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{guz}
+ciphertext: 4b54015950cedb465ad6f66fe0c59f211f42565f520c6a980fac05d6c1ef2987
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

@@ -1,0 +1,19 @@
+A novice site hashed user PINs with SHA-256 and a timestamp as salt. We've found one hash: 486acabc1f28713901b80d0f9d539e2838e2234aec33750c4750c50fde04a84c. Can you recover the original PIN?
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{odt}
+ciphertext: 486acabc1f28713901b80d0f9d539e2838e2234aec33750c4750c50fde04a84c
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

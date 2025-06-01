@@ -1,0 +1,19 @@
+The fortune cookie app encrypts messages before serving them. We intercepted one: 662b61207b7667256834743e6d3a. Can you predict the message?
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 2**7)
+A secret number was generated using Python's PRNG with a seed from 0 to 9,999. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{1gbhstym}
+ciphertext: 662b61207b7667256834743e6d3a
+cipher: Predictable PRNG
+hint: The seed range is small enough for brute-force. Try recreating the PRNG sequence.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 2**7)
+A secret number was generated using Python's PRNG with a seed from 0 to 9,999. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: If you can predict or brute-force the seed, you can reconstruct the PRNG output and decrypt the flag.
+subtype: predictable_seed
+archetype: prng

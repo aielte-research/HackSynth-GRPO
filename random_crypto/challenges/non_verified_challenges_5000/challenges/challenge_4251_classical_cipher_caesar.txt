@@ -1,0 +1,15 @@
+A secret order hides its meeting location using an ancient Roman cipher. Can you decode their message: lrgm{sd89ynao}?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{mx89shui}
+ciphertext: lrgm{sd89ynao}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 6
+subtype: caesar
+archetype: classical_cipher

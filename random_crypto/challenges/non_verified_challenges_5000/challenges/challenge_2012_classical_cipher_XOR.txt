@@ -1,0 +1,17 @@
+
+A hacker intercepted a secret message but it's XOR-encrypted. Can you break the code and reveal the original text from this cipher? Here it is: stringA: 1e0738564b6435390a6e24245a37 stringB: 786b59313052464963565349624a
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{6spi8wm8}
+cipher: XOR
+ciphertext: stringA: 1e0738564b6435390a6e24245a37 stringB: 786b59313052464963565349624a
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+A hacker left a secret in a desert terminal, but encoded it using Base85. Can you retrieve the message hidden in this ciphertext? Q8+7fbYyZsPf15ALm_fVLM1IeN?KPfc2PuHM|e_NCP5`pSwdDJO)yD&En+lhKrK^KZe)5>S4U$;Q!sjTNMU(aNPS8<OC|
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{zh1bs96u}
+cipher: Base85
+ciphertext: Q8+7fbYyZsPf15ALm_fVLM1IeN?KPfc2PuHM|e_NCP5`pSwdDJO)yD&En+lhKrK^KZe)5>S4U$;Q!sjTNMU(aNPS8<OC|
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 8 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

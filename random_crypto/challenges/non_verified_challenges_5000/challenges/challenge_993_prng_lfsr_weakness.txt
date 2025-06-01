@@ -1,0 +1,21 @@
+
+Intercepted radio traffic uses a flawed LFSR-based stream cipher. Recover the original message from the following ciphertext: 7c967b9d61ce228923c276cd6c87
+
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[59431, 62483, 64009, 32004, 48770, 24385, 44960, 55248, 27624, 13812]
+
+---
+
+## Challenge Technical Details
+flag: flag{48s98l7v}
+ciphertext: 7c967b9d61ce228923c276cd6c87
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[59431, 62483, 64009, 32004, 48770, 24385, 44960, 55248, 27624, 13812]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

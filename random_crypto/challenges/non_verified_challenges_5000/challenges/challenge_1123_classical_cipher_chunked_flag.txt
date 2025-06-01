@@ -1,0 +1,15 @@
+Our AI courier split the flag and encrypted each chunk with ChunkedFlag. Can you piece them together using the ciphertext below? fla g{ rl z6k ndd }
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{rlz6kndd}
+ciphertext: fla g{ rl z6k ndd }
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

@@ -1,0 +1,20 @@
+
+An intern encrypted the flag using RSA, but accidentally chose small, predictable primes. Can you exploit this rookie mistake and recover the message? Ciphertext: 6112441430401011231
+
+
+The flag format is flag{...}
+n=9293396303039474869, e=7237523334079995771
+
+---
+
+## Challenge Technical Details
+flag: flag{wajtj14h}
+cipher: RSA
+ciphertext: 6112441430401011231
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=9293396303039474869, e=7237523334079995771
+extra_info: p=2550215027, q=3644161847, φ(n)=9293396296845097996
+subtype: small_primes
+archetype: rsa

@@ -1,0 +1,16 @@
+A rogue agent left a coded message for extraction. Only a Vigenère cipher stands between you and its secret: jwvs{jrb8zqin}
+
+The flag format is flag{...}
+The keyword is: elvmg
+
+---
+
+## Challenge Technical Details
+flag: flag{dnq8eecj}
+ciphertext: jwvs{jrb8zqin}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: elvmg
+subtype: vigenere
+archetype: classical_cipher

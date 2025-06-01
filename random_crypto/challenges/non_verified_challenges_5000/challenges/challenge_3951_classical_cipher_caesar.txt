@@ -1,0 +1,15 @@
+A message from Caesar’s spy was intercepted. Can you decipher his secret using his famous shifting method? Here’s what the spy wrote: jpek{5xrs48bb}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{5tno48xx}
+ciphertext: jpek{5xrs48bb}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 4
+subtype: caesar
+archetype: classical_cipher

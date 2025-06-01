@@ -1,0 +1,15 @@
+A hacker left an encoded message in the system. Can you decode it using Base64? Ciphertext: ZmxhZ3tnYzZnN2J1MH0=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{gc6g7bu0}
+cipher: Base64
+ciphertext: ZmxhZ3tnYzZnN2J1MH0=
+hint: Use a Base64 decoder to obtain the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is direct; no additional layers or tricks.
+subtype: Base64
+archetype: classical_cipher

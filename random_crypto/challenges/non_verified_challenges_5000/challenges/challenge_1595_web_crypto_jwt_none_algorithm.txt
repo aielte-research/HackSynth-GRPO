@@ -1,0 +1,11 @@
+An intercepted JWT token, eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tsdms3cDZjNH0ifQ., guards admin access. Can you uncover the secret hidden inside and elevate your privileges?
+
+---
+
+## Challenge Technical Details
+flag: flag{lvk7p6c4}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tsdms3cDZjNH0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

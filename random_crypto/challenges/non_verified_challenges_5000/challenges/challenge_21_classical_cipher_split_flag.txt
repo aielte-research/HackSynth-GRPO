@@ -1,0 +1,15 @@
+An infamous hacker hid the vault code using their custom SplitNumberMix cipher. Can you decrypt  7777777 flag{kftyjk 7777777 ud 7777777 } 7777777  to access the secret?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{kftyjkud}
+ciphertext:  7777777 flag{kftyjk 7777777 ud 7777777 } 7777777 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 3 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

@@ -1,0 +1,12 @@
+Our dev used an old "Insecure Session Token" algorithm to protect access. Recover the hidden session secret from 757365725f727768333a666c61677b3168646c35366d617d3a31373438313730383239 to gain admin privileges.
+
+---
+
+## Challenge Technical Details
+flag: flag{1hdl56ma}
+ciphertext: 757365725f727768333a666c61677b3168646c35366d617d3a31373438313730383239
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_rwh3:flag{1hdl56ma}:1748170829'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

@@ -1,0 +1,14 @@
+An ancient scroll holds a secret message from a lost civilization. The letters are reversed in a mysterious way. Can you reveal the truth within: uozt{g57vufmb}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{t57efuny}
+cipher: Atbash
+ciphertext: uozt{g57vufmb}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

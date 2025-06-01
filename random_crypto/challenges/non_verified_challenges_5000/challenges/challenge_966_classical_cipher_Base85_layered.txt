@@ -1,0 +1,18 @@
+
+A hacker left a suspicious note. Analysts think it's Base85 encoded. Can you decode the hidden message?
+Q8sTRJX$6xX;4yHCSXQcYG83WNn&hYO-xc$BuG#xe0Xq3eg
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{2901px5s}
+cipher: Base85
+ciphertext: Q8sTRJX$6xX;4yHCSXQcYG83WNn&hYO-xc$BuG#xe0Xq3eg
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 5 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

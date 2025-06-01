@@ -1,0 +1,16 @@
+A hacker intercepted a spy’s message locked with a Vigenère cipher. Can you recover the secret keyword and reveal the hidden plan? Ciphertext: jphg{suwglupc}
+
+The flag format is flag{...}
+The keyword is: eehapo
+
+---
+
+## Challenge Technical Details
+flag: flag{dgsceuao}
+ciphertext: jphg{suwglupc}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: eehapo
+subtype: vigenere
+archetype: classical_cipher

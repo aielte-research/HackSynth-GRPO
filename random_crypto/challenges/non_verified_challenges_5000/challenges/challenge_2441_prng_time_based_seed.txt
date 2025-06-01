@@ -1,0 +1,19 @@
+Intercepted at midnight, the message is secured by a PRNG seeded with the exact time sent. Can you decrypt 666c28b87b7379e86b3538e9777d and reveal the secret?
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 82993)
+The system time when the encryption process started was around: 2025-05-25 12:05:30 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{s07k5q6w}
+ciphertext: 666c28b87b7379e86b3538e9777d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 82993)
+The system time when the encryption process started was around: 2025-05-25 12:05:30 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 18911.
+subtype: time_based_seed
+archetype: prng

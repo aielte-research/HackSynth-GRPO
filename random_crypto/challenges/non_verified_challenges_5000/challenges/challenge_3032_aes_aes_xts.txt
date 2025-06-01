@@ -1,0 +1,17 @@
+
+A rogue sysadmin encrypted the server logs with AES-XTS before vanishing. Your mission: recover the original message from this ciphertext fragment: ciphertext1:a3cb52f466afae1d288c4400e84c976e, ciphertext2: 946c80e32fd9af3154ed8ce476c04aaa2cfe363ba8f701ceaf3a69103f14ab80
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{8nfahy65}
+ciphertext: ciphertext1:a3cb52f466afae1d288c4400e84c976e, ciphertext2: 946c80e32fd9af3154ed8ce476c04aaa2cfe363ba8f701ceaf3a69103f14ab80
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 27a9b314c66462e0607cba5fbcb01269
+subtype: aes_xts
+archetype: aes

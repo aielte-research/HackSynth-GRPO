@@ -1,0 +1,15 @@
+A spy divided the flag into chunks, encrypting each with their secret ChunkedFlag cipher. Recover the flag from the intercepted message: fl ag {u kk p4s lo }
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ukkp4slo}
+ciphertext: fl ag {u kk p4s lo }
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

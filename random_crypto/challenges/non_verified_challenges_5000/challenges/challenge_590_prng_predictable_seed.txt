@@ -1,0 +1,19 @@
+An intern encrypted payroll data with 620865037f146003750170126919 using a rushed PRNG script. Can you recover the original salary details?
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 2**12)
+A secret number was generated using Python's PRNG with a seed from 0 to 9,999. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{pdgqetvm}
+ciphertext: 620865037f146003750170126919
+cipher: Predictable PRNG
+hint: The seed range is small enough for brute-force. Try recreating the PRNG sequence.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 2**12)
+A secret number was generated using Python's PRNG with a seed from 0 to 9,999. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: If you can predict or brute-force the seed, you can reconstruct the PRNG output and decrypt the flag.
+subtype: predictable_seed
+archetype: prng

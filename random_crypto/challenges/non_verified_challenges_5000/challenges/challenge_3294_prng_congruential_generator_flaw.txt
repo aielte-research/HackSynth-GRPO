@@ -1,0 +1,28 @@
+An attacker used a flawed random number generator to encrypt a password. The ciphertext is below. Can you recover the original password?
+413245b25c3251be163f56a25f23
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1180206419
+  - Multiplier: 648898087
+  - Increment: 1171490371
+The first 5 outputs of the LCG are provided: [728570622, 614452849, 304022715, 859785671, 616948356] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{luk1arwx}
+ciphertext: 413245b25c3251be163f56a25f23
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1180206419
+  - Multiplier: 648898087
+  - Increment: 1171490371
+The first 5 outputs of the LCG are provided: [728570622, 614452849, 304022715, 859785671, 616948356] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

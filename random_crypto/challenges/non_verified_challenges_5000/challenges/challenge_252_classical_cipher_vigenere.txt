@@ -1,0 +1,18 @@
+
+An old hacker left behind a Vigenère-encrypted note. Can you recover the secret key and decrypt the hidden message? Ciphertext: drra{7c549ufo}
+
+
+The flag format is flag{...}
+The keyword is: ygru
+
+---
+
+## Challenge Technical Details
+flag: flag{7e549oou}
+ciphertext: drra{7c549ufo}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: ygru
+subtype: vigenere
+archetype: classical_cipher

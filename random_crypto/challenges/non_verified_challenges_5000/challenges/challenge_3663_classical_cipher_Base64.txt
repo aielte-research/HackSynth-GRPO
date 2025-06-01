@@ -1,0 +1,17 @@
+
+A hacker intercepted secret launch codes, encoded them for safety. Recover the original message from this Base64 string: ZmxhZ3tmbXR1c3BocX0=
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{fmtusphq}
+cipher: Base64
+ciphertext: ZmxhZ3tmbXR1c3BocX0=
+hint: Use a Base64 decoder to obtain the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is direct; no additional layers or tricks.
+subtype: Base64
+archetype: classical_cipher

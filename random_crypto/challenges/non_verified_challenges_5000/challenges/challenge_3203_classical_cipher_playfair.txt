@@ -1,0 +1,17 @@
+An old journal page hides a secret phrase. Decipher the message below using the Playfair cipher: pmhofswrbhgbhqihlqfqfswrbhlbnybfovfyihcpcopohofswrbhgbhqihbqabhcuxsfbvdgdhqgmbdobgwqqmpoomamqdnyhsunfhcoihrhlbogmqilsfemxgchkvcaqmnzqmpobmwpilrfcfhbznirtu
+
+The flag format is flag{...}
+The keyword is: xlfrgksg
+
+---
+
+## Challenge Technical Details
+flag: flag{iautbynz}
+ciphertext: pmhofswrbhgbhqihlqfqfswrbhlbnybfovfyihcpcopohofswrbhgbhqihbqabhcuxsfbvdgdhqgmbdobgwqqmpoomamqdnyhsunfhcoihrhlbogmqilsfemxgchkvcaqmnzqmpobmwpilrfcfhbznirtu
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: xlfrgksg
+extra_info: The playfair table is [['x', 'l', 'f', 'r', 'g'], ['k', 's', 'a', 'b', 'c'], ['d', 'e', 'h', 'i', 'm'], ['n', 'o', 'p', 'q', 't'], ['u', 'v', 'w', 'y', 'z']]
+subtype: playfair
+archetype: classical_cipher

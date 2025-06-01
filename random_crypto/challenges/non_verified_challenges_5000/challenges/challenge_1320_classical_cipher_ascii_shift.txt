@@ -1,0 +1,15 @@
+A hacker left a secret message on an old BBS. It looks scrambled—maybe each letter was shifted? Decipher ntioimpv:}98 to reveal the password!
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{aehn2u10}
+cipher: ASCII Shift
+ciphertext: ntioimpv:}98
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 8
+subtype: ascii_shift
+archetype: classical_cipher

@@ -1,0 +1,19 @@
+While monitoring encrypted radio signals, you intercept this message. Rumor says the sender used a time-seeded PRNG to encrypt it. Ciphertext: 666c3ada7b30688e6d352a8a397d
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 87505)
+The system time when the encryption process started was around: 2025-05-25 12:47:28 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{033m5q79}
+ciphertext: 666c3ada7b30688e6d352a8a397d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 87505)
+The system time when the encryption process started was around: 2025-05-25 12:47:28 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 23485.
+subtype: time_based_seed
+archetype: prng

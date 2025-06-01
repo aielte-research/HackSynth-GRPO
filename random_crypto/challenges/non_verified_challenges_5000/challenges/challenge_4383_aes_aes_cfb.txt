@@ -1,0 +1,17 @@
+Agent Lin intercepted an urgent message encrypted with AES-CFB. The original plaintext holds the vault code. Here’s the encrypted message: a786ffeccca6b293bf53bf6ac6a241c5f41a8970b47f7fc4cb7814f7bebba340051f58fe853d5d9c4e1436728f2921b441b033143a0a53c1c65059da0abdac4af970d5f4cbd7a60697bb98de319e5188795c7491aaa869f6053d3812064cd7c2e73451c5e3fe95fddcd2e657eb094f567de1e4e33d9041679edf4ed572ccbb60136cc8c17c55d522849243b41f5c209573bd56eecf2a134cd6334e272ccadb62ea50090dfa308d8f36b28543aa5bb1e37a
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{iukced84}
+ciphertext: a786ffeccca6b293bf53bf6ac6a241c5f41a8970b47f7fc4cb7814f7bebba340051f58fe853d5d9c4e1436728f2921b441b033143a0a53c1c65059da0abdac4af970d5f4cbd7a60697bb98de319e5188795c7491aaa869f6053d3812064cd7c2e73451c5e3fe95fddcd2e657eb094f567de1e4e33d9041679edf4ed572ccbb60136cc8c17c55d522849243b41f5c209573bd56eecf2a134cd6334e272ccadb62ea50090dfa308d8f36b28543aa5bb1e37a
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: b57caa61a1b07cd7cd9b4d4da9e25192
+subtype: aes_cfb
+archetype: aes

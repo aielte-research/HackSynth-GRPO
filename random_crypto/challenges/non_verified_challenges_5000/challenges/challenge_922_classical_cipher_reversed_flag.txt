@@ -1,0 +1,15 @@
+A hacker left a secret for you, but reversed every letter! Can you decode this message: }q7q1i5ns{galf?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{sn5i1q7q}
+ciphertext: }q7q1i5ns{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

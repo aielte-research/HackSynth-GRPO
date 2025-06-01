@@ -1,0 +1,14 @@
+Intercepted during a secret auction, this 0x92987dd65e7c28ff03bc71082c2649fbbaee797f4130f3dba49328d488a0202f77cd7d5dc74d9fa87c373078fcfb56a48721b599ff82dd80d57e140993ebbc05 signature protects a bidder's identity. Analysts believe the use of a small RSA exponent made it vulnerable. Can you forge a valid signature?
+
+Public Key (n, e): (8057063544562595119107011277693866057302157611556478809755953185214923764043979565486779479037522529141288978291629217510848328849564291781805925552366891, 3)
+
+---
+
+## Challenge Technical Details
+flag: flag{j71784bo}
+ciphertext: 0x92987dd65e7c28ff03bc71082c2649fbbaee797f4130f3dba49328d488a0202f77cd7d5dc74d9fa87c373078fcfb56a48721b599ff82dd80d57e140993ebbc05
+cipher: RSA Low-Exponent Signature
+hint: What happens when you cube small numbers? Remember e=3!
+necessary_info: Public Key (n, e): (8057063544562595119107011277693866057302157611556478809755953185214923764043979565486779479037522529141288978291629217510848328849564291781805925552366891, 3)
+subtype: rsa_sign_with_low_public_exponent
+archetype: signature_schemes

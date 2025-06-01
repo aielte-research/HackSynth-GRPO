@@ -1,0 +1,19 @@
+An old pager message was encrypted with a stream cipher, but whispers say its LFSR is flawed. Can you recover the original text from this transmission? 1b471c4c06530c4d494845464b56
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[44774, 22387, 11193, 38364, 19182, 42359, 53947, 59741, 62638, 64087]
+
+---
+
+## Challenge Technical Details
+flag: flag{xqf4c8m6}
+ciphertext: 1b471c4c06530c4d494845464b56
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[44774, 22387, 11193, 38364, 19182, 42359, 53947, 59741, 62638, 64087]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

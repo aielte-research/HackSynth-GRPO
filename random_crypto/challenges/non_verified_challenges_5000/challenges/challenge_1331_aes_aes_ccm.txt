@@ -1,0 +1,18 @@
+An encrypted message was intercepted from a rogue AI. Can you decrypt ciphertext1:3afe5cf677efa610f690e1de9b20, ciphertext2: 3afe5cf677eda612a281e590c920 using its secret AES key to reveal the command it’s hiding?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{j6r5voxe}
+ciphertext: ciphertext1:3afe5cf677efa610f690e1de9b20, ciphertext2: 3afe5cf677eda612a281e590c920
+tag1: 6bd6c0c8b9887d8c7c4b0af388174f2b
+tag2: a5905f22c5f9903cbb6ad069b645a5bb
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: f28f79b298cba4e4cb9a51
+subtype: aes_ccm
+archetype: aes

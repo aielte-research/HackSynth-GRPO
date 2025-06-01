@@ -1,0 +1,19 @@
+An intern hashed secrets with SHA-256, choosing "1234" as the salt. Recover the original message from this ciphertext: f28b93c8333060fea8275b2582e9ceb3a8cfe2d71b46951b7968b1a5fcc4bd03.
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{en9}
+ciphertext: f28b93c8333060fea8275b2582e9ceb3a8cfe2d71b46951b7968b1a5fcc4bd03
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

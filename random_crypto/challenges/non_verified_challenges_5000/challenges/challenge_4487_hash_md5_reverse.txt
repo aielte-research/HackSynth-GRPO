@@ -1,0 +1,17 @@
+
+Intercepted data: efa9a09b915385b62ef2930917765981. The sender reused an MD5 flaw to mask the original message. Uncover the hidden content by exploiting the weakness in the MD5 algorithm.
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{DEYVY}
+ciphertext: efa9a09b915385b62ef2930917765981
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

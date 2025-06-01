@@ -1,0 +1,15 @@
+A Roman centurion sent orders using a simple cipher. Can you decipher his hidden message?qwlr{z7nrw7y6}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{o7cgl7n6}
+ciphertext: qwlr{z7nrw7y6}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 11
+subtype: caesar
+archetype: classical_cipher

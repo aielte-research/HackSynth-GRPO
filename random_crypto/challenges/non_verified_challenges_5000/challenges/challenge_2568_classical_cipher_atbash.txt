@@ -1,0 +1,14 @@
+Legend says the secret society hides its motto with an ancient mirror cipher. Can you reveal their message from uozt{6rcwgp0u}?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{6ixdtk0f}
+cipher: Atbash
+ciphertext: uozt{6rcwgp0u}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

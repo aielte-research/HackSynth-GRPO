@@ -1,0 +1,19 @@
+An old server left a secret message, encrypted using a time-based PRNG. Can you recover the original text from this mysterious ciphertext? 666cbe4e7b33eb5c6d35ad4b697d
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 66813)
+The system time when the encryption process started was around: 2025-05-25 12:44:14 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{34um5rbi}
+ciphertext: 666cbe4e7b33eb5c6d35ad4b697d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 66813)
+The system time when the encryption process started was around: 2025-05-25 12:44:14 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 57129.
+subtype: time_based_seed
+archetype: prng

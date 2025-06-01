@@ -1,0 +1,15 @@
+An ancient message about a hidden vault was intercepted, but it’s scrambled with a simple substitution cipher. Can you reveal the secret? Ciphertext: ws gbcpfiabhpqc, h tkotfwfkfwis gwpqub wt h vufqim ix usgbcpfwsa ws dqwgq kswft ix pnhwsfulf hbu bupnhgum dwfq fqu gwpqubfulf, ws h muxwsum vhssub, dwfq fqu qunp ix h euc; fqu "kswft" vhc ou twsanu nuffubt (fqu vitf givvis), phwbt ix nuffubt, fbwpnuft ix nuffubt, vwlfkbut ix fqu hoiju, hsm ti xibfq. fqu buguwjub mugwpqubt fqu fulf oc pubxibvwsa fqu wsjubtu tkotfwfkfwis pbigutt fi ulfbhgf fqu ibwawshn vutthau. nweudwtu, rhgzkut zkwgenc ywppum fqbikaq h zkutfwis is yubi-esidnumau pbiixt, ustkbwsa si gbwfwghn nuffub dht nuxf ikf ix ikb gbcpfiabhpqwg pkyynu.xnha{3c5knprz}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{3y5ulpjq}
+ciphertext: ws gbcpfiabhpqc, h tkotfwfkfwis gwpqub wt h vufqim ix usgbcpfwsa ws dqwgq kswft ix pnhwsfulf hbu bupnhgum dwfq fqu gwpqubfulf, ws h muxwsum vhssub, dwfq fqu qunp ix h euc; fqu "kswft" vhc ou twsanu nuffubt (fqu vitf givvis), phwbt ix nuffubt, fbwpnuft ix nuffubt, vwlfkbut ix fqu hoiju, hsm ti xibfq. fqu buguwjub mugwpqubt fqu fulf oc pubxibvwsa fqu wsjubtu tkotfwfkfwis pbigutt fi ulfbhgf fqu ibwawshn vutthau. nweudwtu, rhgzkut zkwgenc ywppum fqbikaq h zkutfwis is yubi-esidnumau pbiixt, ustkbwsa si gbwfwghn nuffub dht nuxf ikf ix ikb gbcpfiabhpqwg pkyynu.xnha{3c5knprz}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'h', 'b': 'o', 'c': 'g', 'd': 'm', 'e': 'u', 'f': 'x', 'g': 'a', 'h': 'q', 'i': 'w', 'j': 'r', 'k': 'e', 'l': 'n', 'm': 'v', 'n': 's', 'o': 'i', 'p': 'p', 'q': 'z', 'r': 'b', 's': 't', 't': 'f', 'u': 'k', 'v': 'j', 'w': 'd', 'x': 'l', 'y': 'c', 'z': 'y'}
+subtype: substitution
+archetype: classical_cipher

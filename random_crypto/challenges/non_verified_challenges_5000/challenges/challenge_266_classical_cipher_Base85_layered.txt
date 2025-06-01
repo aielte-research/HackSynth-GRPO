@@ -1,0 +1,15 @@
+An old hacker sent you a message encrypted with Base85. Can you recover the flag from this mysterious ciphertext? Q8+7fbYyZsPf15ALm_fVLM1IeN?KPfc2FfjU~X4FS$9TDc`Id5Qe{RnDoa^oD^^o_K0;?>G&y8>LRdq3b4p@aD{EtQQd$
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{rc1mwjtw}
+cipher: Base85
+ciphertext: Q8+7fbYyZsPf15ALm_fVLM1IeN?KPfc2FfjU~X4FS$9TDc`Id5Qe{RnDoa^oD^^o_K0;?>G&y8>LRdq3b4p@aD{EtQQd$
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 8 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

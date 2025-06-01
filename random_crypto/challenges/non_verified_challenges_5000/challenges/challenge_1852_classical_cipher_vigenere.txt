@@ -1,0 +1,16 @@
+An old notebook contains a mysterious keyword and a Vigenère-encrypted message: atku{ifdz42tq}. Can you reveal its secret?
+
+The flag format is flag{...}
+The keyword is: vikornr
+
+---
+
+## Challenge Technical Details
+flag: flag{rsme42lg}
+ciphertext: atku{ifdz42tq}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: vikornr
+subtype: vigenere
+archetype: classical_cipher

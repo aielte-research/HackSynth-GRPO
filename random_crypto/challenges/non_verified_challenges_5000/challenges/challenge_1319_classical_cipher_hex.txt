@@ -1,0 +1,14 @@
+An infamous hacker left a secret message in plain sight, but it's hidden in Hex. Can you decipher the password from this code: 666c61677b62307070757379327d?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{b0ppusy2}
+cipher: Hex
+ciphertext: 666c61677b62307070757379327d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

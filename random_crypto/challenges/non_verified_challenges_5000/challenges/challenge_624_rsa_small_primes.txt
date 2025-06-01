@@ -1,0 +1,18 @@
+An intern generated an RSA keypair using two tiny primes. They encrypted this message: 1161541534101589637. Can you recover the secret?
+
+The flag format is flag{...}
+n=7179525129850340507, e=2770838396217415513
+
+---
+
+## Challenge Technical Details
+flag: flag{05njb89m}
+cipher: RSA
+ciphertext: 1161541534101589637
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=7179525129850340507, e=2770838396217415513
+extra_info: p=2630208937, q=2729640611, φ(n)=7179525124490490960
+subtype: small_primes
+archetype: rsa

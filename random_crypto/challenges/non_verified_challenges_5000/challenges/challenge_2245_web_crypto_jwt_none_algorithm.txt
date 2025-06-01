@@ -1,0 +1,11 @@
+Intercepted during a data breach, this suspicious JWT token eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3s2ZDhpN25mcX0ifQ. may hide admin privileges. Can you reveal its secrets?
+
+---
+
+## Challenge Technical Details
+flag: flag{6d8i7nfq}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3s2ZDhpN25mcX0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

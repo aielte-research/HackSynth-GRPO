@@ -1,0 +1,14 @@
+An ancient scroll hides a secret message from a forgotten order. They coded it by reversing the alphabet. Can you reveal the truth from uozt{mthndi99}?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ngsmwr99}
+cipher: Atbash
+ciphertext: uozt{mthndi99}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

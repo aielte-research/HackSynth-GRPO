@@ -1,0 +1,15 @@
+An unknown sender left a coded message in your inbox. It's clear: each letter was swapped for another. Can you recover the original message from sj hmnedxzmteyn, t oacodsdadsxj hseygm so t igdyxu xl gjhmnedsjz sj fyshy ajsdo xl ektsjdgwd tmg mgekthgu fsdy dyg hseygmdgwd, sj t uglsjgu itjjgm, fsdy dyg ygke xl t bgn; dyg "ajsdo" itn cg osjzkg kgddgmo (dyg ixod hxiixj), etsmo xl kgddgmo, dmsekgdo xl kgddgmo, iswdamgo xl dyg tcxqg, tju ox lxmdy. dyg mghgsqgm ughseygmo dyg dgwd cn egmlxmisjz dyg sjqgmog oacodsdadsxj emxhgoo dx gwdmthd dyg xmszsjtk igootzg. ksbgfsog, rthpago pashbkn vseegu dymxazy t pagodsxj xj vgmx-bjxfkguzg emxxlo, gjoamsjz jx hmsdshtk kgddgm fto kgld xad xl xam hmnedxzmteysh eavvkg.lktz{upaindny}?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{dqumytyh}
+ciphertext: sj hmnedxzmteyn, t oacodsdadsxj hseygm so t igdyxu xl gjhmnedsjz sj fyshy ajsdo xl ektsjdgwd tmg mgekthgu fsdy dyg hseygmdgwd, sj t uglsjgu itjjgm, fsdy dyg ygke xl t bgn; dyg "ajsdo" itn cg osjzkg kgddgmo (dyg ixod hxiixj), etsmo xl kgddgmo, dmsekgdo xl kgddgmo, iswdamgo xl dyg tcxqg, tju ox lxmdy. dyg mghgsqgm ughseygmo dyg dgwd cn egmlxmisjz dyg sjqgmog oacodsdadsxj emxhgoo dx gwdmthd dyg xmszsjtk igootzg. ksbgfsog, rthpago pashbkn vseegu dymxazy t pagodsxj xj vgmx-bjxfkguzg emxxlo, gjoamsjz jx hmsdshtk kgddgm fto kgld xad xl xam hmnedxzmteysh eavvkg.lktz{upaindny}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 't', 'b': 'c', 'c': 'h', 'd': 'u', 'e': 'g', 'f': 'l', 'g': 'z', 'h': 'y', 'i': 's', 'j': 'r', 'k': 'b', 'l': 'k', 'm': 'i', 'n': 'j', 'o': 'x', 'p': 'e', 'q': 'p', 'r': 'm', 's': 'o', 't': 'd', 'u': 'a', 'v': 'q', 'w': 'f', 'x': 'w', 'y': 'n', 'z': 'v'}
+subtype: substitution
+archetype: classical_cipher

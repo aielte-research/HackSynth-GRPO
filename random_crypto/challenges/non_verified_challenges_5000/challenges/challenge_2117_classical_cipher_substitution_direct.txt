@@ -1,0 +1,21 @@
+Dr. Cypher hid the launch code using a secret letter swap. Crack the substitution to reveal his message: mwls{cl3yk4qt}
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'l', 'b': 'j', 'c': 'd', 'd': 'u', 'e': 'a', 'f': 'm', 'g': 's', 'h': 'f', 'i': 'h', 'j': 'o', 'k': 'k', 'l': 'w', 'm': 'b', 'n': 'i', 'o': 'x', 'p': 'g', 'q': 'p', 'r': 'q', 's': 't', 't': 'n', 'u': 'e', 'v': 'r', 'w': 'z', 'x': 'v', 'y': 'y', 'z': 'c'}
+
+---
+
+## Challenge Technical Details
+flag: flag{za3yk4rs}
+cipher: Substitution
+ciphertext: mwls{cl3yk4qt}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'l', 'b': 'j', 'c': 'd', 'd': 'u', 'e': 'a', 'f': 'm', 'g': 's', 'h': 'f', 'i': 'h', 'j': 'o', 'k': 'k', 'l': 'w', 'm': 'b', 'n': 'i', 'o': 'x', 'p': 'g', 'q': 'p', 'r': 'q', 's': 't', 't': 'n', 'u': 'e', 'v': 'r', 'w': 'z', 'x': 'v', 'y': 'y', 'z': 'c'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

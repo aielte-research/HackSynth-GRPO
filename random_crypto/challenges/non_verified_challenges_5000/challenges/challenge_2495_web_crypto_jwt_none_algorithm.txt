@@ -1,0 +1,13 @@
+
+Someone intercepted the admin's JWT: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3t1enJmbTV3ZH0ifQ.. Can you extract the hidden flag from its contents?
+
+
+---
+
+## Challenge Technical Details
+flag: flag{uzrfm5wd}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3t1enJmbTV3ZH0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

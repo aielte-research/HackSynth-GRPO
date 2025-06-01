@@ -1,0 +1,18 @@
+An encrypted message, hidden using AES, holds the passcode to the secret vault. Crack the code to reveal the truth: ciphertext1:724a5434797e8cad578bd88a1985, ciphertext2: 724a54347968caf9118ad0845f85
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{c45t6fa7}
+ciphertext: ciphertext1:724a5434797e8cad578bd88a1985, ciphertext2: 724a54347968caf9118ad0845f85
+tag1: 7f0cbf7235c04ef07364ae2dd6749170
+tag2: d4ad9f6cda1e89d2927175310cf7eee4
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: d7a42145cf9cffdf9a1ca5
+subtype: aes_ccm
+archetype: aes

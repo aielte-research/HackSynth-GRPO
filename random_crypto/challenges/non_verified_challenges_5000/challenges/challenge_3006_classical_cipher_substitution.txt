@@ -1,0 +1,17 @@
+
+The hacker left a note in plain sight, but every letter’s identity was swapped. Can you recover the secret message? Ciphertext: ra woctuklohtgc, h vqevuruqurka wrtgbo rv h fbugky kj bawoctural ra sgrwg qaruv kj tihraubmu hob obtihwby srug ugb wrtgboubmu, ra h ybjraby fhaabo, srug ugb gbit kj h nbc; ugb "qaruv" fhc eb vralib ibuubov (ugb fkvu wkffka), throv kj ibuubov, uortibuv kj ibuubov, frmuqobv kj ugb hekdb, hay vk jkoug. ugb obwbrdbo ybwrtgbov ugb ubmu ec tbojkofral ugb radbovb vqevuruqurka tokwbvv uk bmuohwu ugb korlrahi fbvvhlb. irnbsrvb, phwzqbv zqrwnic xrttby ugokqlg h zqbvurka ka xbok-naksibylb tokkjv, bavqoral ak worurwhi ibuubo shv ibju kqu kj kqo woctuklohtgrw tqxxib.jihl{piogbd0c}
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{jlrhev0y}
+ciphertext: ra woctuklohtgc, h vqevuruqurka wrtgbo rv h fbugky kj bawoctural ra sgrwg qaruv kj tihraubmu hob obtihwby srug ugb wrtgboubmu, ra h ybjraby fhaabo, srug ugb gbit kj h nbc; ugb "qaruv" fhc eb vralib ibuubov (ugb fkvu wkffka), throv kj ibuubov, uortibuv kj ibuubov, frmuqobv kj ugb hekdb, hay vk jkoug. ugb obwbrdbo ybwrtgbov ugb ubmu ec tbojkofral ugb radbovb vqevuruqurka tokwbvv uk bmuohwu ugb korlrahi fbvvhlb. irnbsrvb, phwzqbv zqrwnic xrttby ugokqlg h zqbvurka ka xbok-naksibylb tokkjv, bavqoral ak worurwhi ibuubo shv ibju kqu kj kqo woctuklohtgrw tqxxib.jihl{piogbd0c}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'h', 'b': 'e', 'c': 'w', 'd': 'y', 'e': 'b', 'f': 'j', 'g': 'l', 'h': 'g', 'i': 'r', 'j': 'p', 'k': 'n', 'l': 'i', 'm': 'f', 'n': 'a', 'o': 'k', 'p': 't', 'q': 'z', 'r': 'o', 's': 'v', 't': 'u', 'u': 'q', 'v': 'd', 'w': 's', 'x': 'm', 'y': 'c', 'z': 'x'}
+subtype: substitution
+archetype: classical_cipher

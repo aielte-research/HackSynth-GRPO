@@ -1,0 +1,15 @@
+Hackers left a message encrypted with MD5, believing it unbreakable. Exploit MD5's reversing weakness to reveal the original secret: a35b30341d247d09ce4a4fbfe92d6d44
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{UWIYS}
+ciphertext: a35b30341d247d09ce4a4fbfe92d6d44
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

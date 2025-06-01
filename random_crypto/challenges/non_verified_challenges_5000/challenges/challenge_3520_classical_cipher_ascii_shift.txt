@@ -1,0 +1,15 @@
+An agent hid the access code using a simple ASCII Shift. Can you restore the original message from this altered text? Cipher: mshnx?r8|y7j
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{q8k1ur0c}
+cipher: ASCII Shift
+ciphertext: mshnx?r8|y7j
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 7
+subtype: ascii_shift
+archetype: classical_cipher

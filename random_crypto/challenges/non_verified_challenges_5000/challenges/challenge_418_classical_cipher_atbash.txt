@@ -1,0 +1,14 @@
+An ancient message was found etched on a tablet. Decipher it using the method where A becomes Z, B becomes Y, and so on: uozt{gf2fe87u}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{tu2uv87f}
+cipher: Atbash
+ciphertext: uozt{gf2fe87u}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

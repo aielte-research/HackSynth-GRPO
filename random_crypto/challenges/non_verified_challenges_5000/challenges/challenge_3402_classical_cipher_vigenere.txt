@@ -1,0 +1,16 @@
+An old hacker left a Vigenère-encrypted password for their crypto wallet. Can you recover the original message from this ciphertext? khzv{ednthddv}
+
+The flag format is flag{...}
+The keyword is: fwzpy
+
+---
+
+## Challenge Technical Details
+flag: flag{gyrusfyz}
+ciphertext: khzv{ednthddv}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: fwzpy
+subtype: vigenere
+archetype: classical_cipher

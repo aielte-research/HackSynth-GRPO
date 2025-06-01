@@ -1,0 +1,15 @@
+A rogue system admin hid the login code using an ASCII Shift cipher. Your task: decrypt iodj~4jkvqqtz to reveal the access password.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{1ghsnnqw}
+cipher: ASCII Shift
+ciphertext: iodj~4jkvqqtz
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 3
+subtype: ascii_shift
+archetype: classical_cipher

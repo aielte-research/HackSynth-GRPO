@@ -1,0 +1,19 @@
+
+Intercepted in a secret agent’s notebook, this Playfair-encrypted excerpt, kglygdsecaqddslfmqzdgdsecanpmxdogmozlfgatkqolygdsecaqddslfndtiobmvdgtsquumpoadfmdqsysaqoyghqvfmxgbritgtklfnfnppgaslmdgbaloboyviysaywsaqodakllmgegokhntxr, could reveal the passcode for the hidden vault. Can you decrypt it?
+
+
+The flag format is flag{...}
+The keyword is: ystkpybj
+
+---
+
+## Challenge Technical Details
+flag: flag{xc6oszq4}
+ciphertext: kglygdsecaqddslfmqzdgdsecanpmxdogmozlfgatkqolygdsecaqddslfndtiobmvdgtsquumpoadfmdqsysaqoyghqvfmxgbritgtklfnfnppgaslmdgbaloboyviysaywsaqodakllmgegokhntxr
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: ystkpybj
+extra_info: The playfair table is [['y', 's', 't', 'k', 'p'], ['b', 'i', 'a', 'c', 'd'], ['e', 'f', 'g', 'h', 'l'], ['m', 'n', 'o', 'q', 'r'], ['u', 'v', 'w', 'x', 'z']]
+subtype: playfair
+archetype: classical_cipher

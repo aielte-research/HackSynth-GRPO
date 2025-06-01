@@ -1,0 +1,25 @@
+Agents Alice and Bob exchanged secrets using Diffie-Hellman. Their intercepted message is 152b3dd37162f7ff9bc23db8b96d. Can you recover the shared secret?
+
+The key exchange uses a prime modulus of 101 and generator 2.
+Alice's public key is 8 and Bob's public key is 15.
+You received a tip that the private values are at most two digits.
+You got access to some of the code:
+encryption_key = hashlib.sha256(str(shared_key).encode()).digest()[:16]
+encrypted_flag = bytes(a ^ b for a, b in zip(flag.encode(), encryption_key))
+
+---
+
+## Challenge Technical Details
+flag: flag{4yr3bxvh}
+ciphertext: 152b3dd37162f7ff9bc23db8b96d
+cipher: Diffie-Hellman
+hint: The prime used in this key exchange is small. You can recover the private key by brute-force.
+necessary_info: The key exchange uses a prime modulus of 101 and generator 2.
+Alice's public key is 8 and Bob's public key is 15.
+You received a tip that the private values are at most two digits.
+You got access to some of the code:
+encryption_key = hashlib.sha256(str(shared_key).encode()).digest()[:16]
+encrypted_flag = bytes(a ^ b for a, b in zip(flag.encode(), encryption_key))
+extra_info: secret_a=3, secret_b=93
+subtype: broken_key_exchange
+archetype: web_crypto

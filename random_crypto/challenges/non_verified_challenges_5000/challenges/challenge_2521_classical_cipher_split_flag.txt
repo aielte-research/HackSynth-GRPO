@@ -1,0 +1,15 @@
+A mysterious figure sent you a message encrypted with the SplitNumberMix cipher. Can you decode the hidden instructions within:  33333 flag{thgm 33333 rdey} 33333 ?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{thgmrdey}
+ciphertext:  33333 flag{thgm 33333 rdey} 33333 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 2 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

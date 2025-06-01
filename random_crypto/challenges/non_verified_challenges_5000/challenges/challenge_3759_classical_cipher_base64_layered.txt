@@ -1,0 +1,15 @@
+A hacker left a secret code on a bulletin board. Can you decode the message using Base64 to reveal the hidden word? Ciphertext: Vm0weGQxTnRVWGxXYTFwUFZsZG9WRmxVU2xOalJsSlZWR3RPYW1KR1dubFdiVEZIWVVaS2RHVkljRmROYm1nelZrY3hTMU5HVm5WaFJtUlRUVEF3ZUZkV1VrdFRNVnB6V2toS2FsSnNXbGhXYlhSYVpXeGFWbGRyV2xCV2EwcFRWVVpSZDFCUlBUMD0=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ufezgsoh}
+cipher: Base64
+ciphertext: Vm0weGQxTnRVWGxXYTFwUFZsZG9WRmxVU2xOalJsSlZWR3RPYW1KR1dubFdiVEZIWVVaS2RHVkljRmROYm1nelZrY3hTMU5HVm5WaFJtUlRUVEF3ZUZkV1VrdFRNVnB6V2toS2FsSnNXbGhXYlhSYVpXeGFWbGRyV2xCV2EwcFRWVVpSZDFCUlBUMD0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 8 times in total.
+subtype: base64_layered
+archetype: classical_cipher

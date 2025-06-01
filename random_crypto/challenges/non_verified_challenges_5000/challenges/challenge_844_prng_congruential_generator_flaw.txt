@@ -1,0 +1,27 @@
+Intercepted messages are encrypted using an LCG-based scheme. Can you recover the original flag from this predictable stream? Ciphertext: 54bf9f4949ab8c5c45a3891a5cae
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 869823732
+  - Multiplier: 458771530
+  - Increment: 711563262
+The first 5 outputs of the LCG are provided: [707776314, 698586330, 283662174, 331200510, 648399078] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{xrrwpw4n}
+ciphertext: 54bf9f4949ab8c5c45a3891a5cae
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 869823732
+  - Multiplier: 458771530
+  - Increment: 711563262
+The first 5 outputs of the LCG are provided: [707776314, 698586330, 283662174, 331200510, 648399078] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

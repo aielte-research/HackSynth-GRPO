@@ -1,0 +1,18 @@
+An intern encrypted the secret flag with RSA, accidentally choosing two small primes for the key. Can you recover the plaintext from this vulnerable ciphertext? 11654292443788475433
+
+The flag format is flag{...}
+n=12533035828938340873, e=5623630938080439065
+
+---
+
+## Challenge Technical Details
+flag: flag{u62j4oen}
+cipher: RSA
+ciphertext: 11654292443788475433
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=12533035828938340873, e=5623630938080439065
+extra_info: p=3314640689, q=3781114457, φ(n)=12533035821842585728
+subtype: small_primes
+archetype: rsa

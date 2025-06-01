@@ -1,0 +1,15 @@
+Decrypt the password hash 55b2bdcac3406e817e32a63dfcbe6f8a left on the server. A weakness in MD5 makes it possible to recover the original input.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{cegee}
+ciphertext: 55b2bdcac3406e817e32a63dfcbe6f8a
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

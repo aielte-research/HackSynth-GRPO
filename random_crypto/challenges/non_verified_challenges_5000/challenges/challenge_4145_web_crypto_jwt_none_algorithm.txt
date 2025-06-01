@@ -1,0 +1,11 @@
+Intercepted in a hacker forum, this JWT token (eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3s0MGxzcDdpcH0ifQ.) may reveal admin privileges. Can you uncover the secret within?
+
+---
+
+## Challenge Technical Details
+flag: flag{40lsp7ip}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3s0MGxzcDdpcH0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

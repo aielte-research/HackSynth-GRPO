@@ -1,0 +1,14 @@
+A secret society encodes their invitations using an ancient biblical cipher. Decode their latest message to discover the meeting location: uozt{a0ej1p4f}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{z0vq1k4u}
+cipher: Atbash
+ciphertext: uozt{a0ej1p4f}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

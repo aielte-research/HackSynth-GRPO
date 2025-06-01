@@ -1,0 +1,16 @@
+An old hacker encoded a secret wallet key using a Vigenère cipher. Can you reveal the plaintext hidden in yknk{ihp7vrto}?
+
+The flag format is flag{...}
+The keyword is: tznear
+
+---
+
+## Challenge Technical Details
+flag: flag{iqw7wepo}
+ciphertext: yknk{ihp7vrto}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: tznear
+subtype: vigenere
+archetype: classical_cipher

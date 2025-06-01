@@ -1,0 +1,26 @@
+
+A hacker left a message, secured with SHA-256. Can you reveal the original password from this hash: 76019af4e5b0f32028f55fa530ed2296126c2f4ab695303c4dea8fe109036f0f?
+
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{qcpw}
+ciphertext: 76019af4e5b0f32028f55fa530ed2296126c2f4ab695303c4dea8fe109036f0f
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

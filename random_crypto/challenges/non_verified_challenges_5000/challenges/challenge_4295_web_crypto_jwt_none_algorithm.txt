@@ -1,0 +1,11 @@
+The hacker left a tampered login token hidden in the logs. Can you break the JWT cipher and reveal the secret payload from eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tybmd0YXJqYX0ifQ.?
+
+---
+
+## Challenge Technical Details
+flag: flag{rngtarja}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tybmd0YXJqYX0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

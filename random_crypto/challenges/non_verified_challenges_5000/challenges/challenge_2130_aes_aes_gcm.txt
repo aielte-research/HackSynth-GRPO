@@ -1,0 +1,18 @@
+Recovered ciphertext1:18bad69e669a92f362b15e9cea82, ciphertext2: 0abede8a3d9a93e53fe64fd1e2dfb96e306d from two intercepted messages: someone reused the AES-GCM nonce. Can you extract the hidden flag exploiting this mistake?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ir638emi}
+ciphertext: ciphertext1:18bad69e669a92f362b15e9cea82, ciphertext2: 0abede8a3d9a93e53fe64fd1e2dfb96e306d
+tag1: 37f570edc2db23315f1ea4b349536a4f
+tag2: fba632001eb9210f4150a2c66daf9b3b
+cipher: AES-GCM
+vulnerability: nonce reuse
+hint: AES-GCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: ce4d0a45e94c66ec776273fe
+subtype: aes_gcm
+archetype: aes

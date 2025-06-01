@@ -1,0 +1,19 @@
+A hacker scrambled the treasure map using a secret PRNG cipher seeded with a critical timestamp. Can you recover the map from this ciphertext? 666c2f847b31269a32787f80637d
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 42728)
+The system time when the encryption process started was around: 2025-05-25 11:41:16 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{1hy2x1cc}
+ciphertext: 666c2f847b31269a32787f80637d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 42728)
+The system time when the encryption process started was around: 2025-05-25 11:41:16 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 20195.
+subtype: time_based_seed
+archetype: prng

@@ -1,0 +1,15 @@
+A rogue AI hid a password by shifting each character’s ASCII code. Can you recover it from this encrypted output? iodj~|g<6yqgr
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{yd93vndo}
+cipher: ASCII Shift
+ciphertext: iodj~|g<6yqgr
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 3
+subtype: ascii_shift
+archetype: classical_cipher

@@ -1,0 +1,11 @@
+The hacker intercepted a suspicious session token. Can you extract the admin's secret from this JWT? The token: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3t5cnUwa3ViMn0ifQ.
+
+---
+
+## Challenge Technical Details
+flag: flag{yru0kub2}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3t5cnUwa3ViMn0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

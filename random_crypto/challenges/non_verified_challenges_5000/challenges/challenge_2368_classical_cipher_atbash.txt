@@ -1,0 +1,16 @@
+
+An archaeologist finds a scroll with a hidden message. Decipher the code below, believed to use an ancient mirror cipher: uozt{zqiro8ii}
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ajril8rr}
+cipher: Atbash
+ciphertext: uozt{zqiro8ii}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

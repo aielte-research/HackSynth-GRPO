@@ -1,0 +1,15 @@
+A mysterious note was found at the hacker meetup. Its scrambled message might reveal the wifi password. Can you crack the Caesar cipher? mshn{led1rmuu}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{exw1kfnn}
+ciphertext: mshn{led1rmuu}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 7
+subtype: caesar
+archetype: classical_cipher

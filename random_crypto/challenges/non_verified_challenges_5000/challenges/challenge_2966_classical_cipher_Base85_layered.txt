@@ -1,0 +1,17 @@
+
+An old developer's diary hides its secrets in a Base85-encoded clue. Can you reveal the lost code? Here’s the entry: Q8sTRJX$6xX;4yHCOAP$S6W^pQAJpDDNI!;ZFg5oOI2`MRR
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{at8g6074}
+cipher: Base85
+ciphertext: Q8sTRJX$6xX;4yHCOAP$S6W^pQAJpDDNI!;ZFg5oOI2`MRR
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 5 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

@@ -1,0 +1,17 @@
+
+A hacker left a taunting note in a secret code. Can you decipher their Substitution cipher and learn their message? Here's what they wrote: lh ijntvayjbtfn, b mwdmvlvwvlah iltfcj lm b ucvfao ak chijntvlhy lh pflif whlvm ak trblhvcsv bjc jctrbico plvf vfc iltfcjvcsv, lh b ocklhco ubhhcj, plvf vfc fcrt ak b gcn; vfc "whlvm" ubn dc mlhyrc rcvvcjm (vfc uamv iauuah), tbljm ak rcvvcjm, vjltrcvm ak rcvvcjm, ulsvwjcm ak vfc bdaec, bho ma kajvf. vfc jciclecj ociltfcjm vfc vcsv dn tcjkajulhy vfc lhecjmc mwdmvlvwvlah tjaicmm va csvjbiv vfc ajlylhbr ucmmbyc. rlgcplmc, zbixwcm xwligrn qlttco vfjawyf b xwcmvlah ah qcja-ghaprcoyc tjaakm, chmwjlhy ha ijlvlibr rcvvcj pbm rckv awv ak awj ijntvayjbtfli twqqrc.krby{hnrd8hgu}
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{nylb8nkm}
+ciphertext: lh ijntvayjbtfn, b mwdmvlvwvlah iltfcj lm b ucvfao ak chijntvlhy lh pflif whlvm ak trblhvcsv bjc jctrbico plvf vfc iltfcjvcsv, lh b ocklhco ubhhcj, plvf vfc fcrt ak b gcn; vfc "whlvm" ubn dc mlhyrc rcvvcjm (vfc uamv iauuah), tbljm ak rcvvcjm, vjltrcvm ak rcvvcjm, ulsvwjcm ak vfc bdaec, bho ma kajvf. vfc jciclecj ociltfcjm vfc vcsv dn tcjkajulhy vfc lhecjmc mwdmvlvwvlah tjaicmm va csvjbiv vfc ajlylhbr ucmmbyc. rlgcplmc, zbixwcm xwligrn qlttco vfjawyf b xwcmvlah ah qcja-ghaprcoyc tjaakm, chmwjlhy ha ijlvlibr rcvvcj pbm rckv awv ak awj ijntvayjbtfli twqqrc.krby{hnrd8hgu}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'b', 'b': 'd', 'c': 'i', 'd': 'o', 'e': 'c', 'f': 'k', 'g': 'y', 'h': 'f', 'i': 'l', 'j': 'z', 'k': 'g', 'l': 'r', 'm': 'u', 'n': 'h', 'o': 'a', 'p': 't', 'q': 'x', 'r': 'j', 's': 'm', 't': 'v', 'u': 'w', 'v': 'e', 'w': 'p', 'x': 's', 'y': 'n', 'z': 'q'}
+subtype: substitution
+archetype: classical_cipher

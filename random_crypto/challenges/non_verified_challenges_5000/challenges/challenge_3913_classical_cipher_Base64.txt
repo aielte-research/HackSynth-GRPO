@@ -1,0 +1,15 @@
+A hacker left a secret code online—rumor says it's a password encoded with an old web-safe cipher. Can you uncover the message hidden in ZmxhZ3tzMWJjYjJwc30=?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{s1bcb2ps}
+cipher: Base64
+ciphertext: ZmxhZ3tzMWJjYjJwc30=
+hint: Use a Base64 decoder to obtain the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is direct; no additional layers or tricks.
+subtype: Base64
+archetype: classical_cipher

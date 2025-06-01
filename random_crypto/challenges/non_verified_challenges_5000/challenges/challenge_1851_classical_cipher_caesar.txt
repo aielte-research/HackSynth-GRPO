@@ -1,0 +1,15 @@
+A mysterious message, rumored to hide a wallet key, was intercepted. It’s encoded with Caesar’s ancient method. Can you reveal its secret? ntio{ki927fo7}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ca927xg7}
+ciphertext: ntio{ki927fo7}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 8
+subtype: caesar
+archetype: classical_cipher

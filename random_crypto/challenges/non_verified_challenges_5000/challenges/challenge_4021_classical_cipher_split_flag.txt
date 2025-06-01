@@ -1,0 +1,17 @@
+
+A rogue AI secured its secret in a message scrambled with the SplitNumberMix cipher. Can you recover the original data from this scrambled code?  00000000 flag{kiukxjf 00000000 c 00000000 } 00000000 
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{kiukxjfc}
+ciphertext:  00000000 flag{kiukxjf 00000000 c 00000000 } 00000000 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 3 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

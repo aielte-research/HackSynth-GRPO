@@ -1,0 +1,19 @@
+Intercepted radio chatter from a rival hacker contains a clue to the vault code, but they've used a weak LFSR stream cipher. The ciphertext: 4cbe4bb551e11cbc4fbf42a645af
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[18878, 42207, 53871, 26935, 46235, 23117, 44326, 22163, 43849, 21924]
+
+---
+
+## Challenge Technical Details
+flag: flag{36nemhto}
+ciphertext: 4cbe4bb551e11cbc4fbf42a645af
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[18878, 42207, 53871, 26935, 46235, 23117, 44326, 22163, 43849, 21924]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

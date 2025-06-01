@@ -1,0 +1,21 @@
+
+A hasty developer encrypted the password with a weak PRNG. Can you recover it from the ciphertext below? 666c60d77b6365876c7769c96b7d
+
+
+The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [474, 627, 382, 273, 141, 190, 692, 6, 346, 514, 474, 619, 82, 342, 567, 631, 41, 388, 173, 462]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 703)
+
+---
+
+## Challenge Technical Details
+flag: flag{cd7lwhyk}
+ciphertext: 666c60d77b6365876c7769c96b7d
+cipher: Low-entropy PRNG
+hint: The PRNG seed space is small. You can try brute-forcing all possible seeds to reconstruct the sequence.
+necessary_info: The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [474, 627, 382, 273, 141, 190, 692, 6, 346, 514, 474, 619, 82, 342, 567, 631, 41, 388, 173, 462]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 703)
+extra_info: Since the seed has only 256 possible values, it can be brute-forced to recover the secret number and decrypt the flag.
+subtype: low_entropy_generator
+archetype: prng

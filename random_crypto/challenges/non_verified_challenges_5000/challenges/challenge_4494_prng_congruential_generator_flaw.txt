@@ -1,0 +1,27 @@
+Decrypt the intercepted message: Bob used a homemade stream cipher, seeding the LCG with his birthday. Can you recover the flag from 6271b0c57f2bbb94762bb2d77460?
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 717530865
+  - Multiplier: 506877631
+  - Increment: 611164763
+The first 5 outputs of the LCG are provided: [65525269, 466241757, 156941435, 34071673, 196914171] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{6j6r6cup}
+ciphertext: 6271b0c57f2bbb94762bb2d77460
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 717530865
+  - Multiplier: 506877631
+  - Increment: 611164763
+The first 5 outputs of the LCG are provided: [65525269, 466241757, 156941435, 34071673, 196914171] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

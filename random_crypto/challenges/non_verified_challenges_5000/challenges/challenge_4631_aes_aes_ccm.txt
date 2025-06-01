@@ -1,0 +1,18 @@
+An encrypted message was intercepted in a hacker's chat. Can you recover the secret behind this AES-protected code? Ciphertext: ciphertext1:6f88f21d958c4cff1b96ea491c0a, ciphertext2: 6f88f21d95c30cb317c1fc57570a
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{73xx8smy}
+ciphertext: ciphertext1:6f88f21d958c4cff1b96ea491c0a, ciphertext2: 6f88f21d95c30cb317c1fc57570a
+tag1: 3aa30e71b0819a5bd570215dc3fb6f74
+tag2: 30211aa1af5a31ca3b65ae2ca739d1b8
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 44b58ce1da1330b10a8952
+subtype: aes_ccm
+archetype: aes

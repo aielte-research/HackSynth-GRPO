@@ -1,0 +1,15 @@
+Agent Z found a hidden note encoded with the SplitNumberMix cipher. Can you reveal the secret message? Ciphertext:  333333333 fla 333333333 g{hrlljnss} 333333333 
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{hrlljnss}
+ciphertext:  333333333 fla 333333333 g{hrlljnss} 333333333 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 2 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

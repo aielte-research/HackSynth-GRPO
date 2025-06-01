@@ -1,0 +1,24 @@
+Someone left a mysterious string on a blockchain forum. Can you reverse-engineer what was hashed to get this SHA-256 output? 5d6ffac5cb3baf231a6f4b21d7572b11f9cbe2634127374fa05209b8ebf87180
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{w1kh}
+ciphertext: 5d6ffac5cb3baf231a6f4b21d7572b11f9cbe2634127374fa05209b8ebf87180
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

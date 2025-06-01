@@ -1,0 +1,17 @@
+
+A secret society split their vault code using SplitNumberMix before betrayal fractured them. Only by solving  8888888 flag{rq 8888888 zonlbs} 8888888  can you reunite the lost halves and reveal their secret.
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{rqzonlbs}
+ciphertext:  8888888 flag{rq 8888888 zonlbs} 8888888 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 2 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

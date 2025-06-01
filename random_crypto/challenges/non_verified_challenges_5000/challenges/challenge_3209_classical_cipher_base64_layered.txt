@@ -1,0 +1,15 @@
+An agent left a secret clue. Decode Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVcxS1IxZHVhRlpOYmtKVVdWZDRTMk15VGtsaFJscE9ZV3RGZUZkWGRHdFRNVTVYVW01S1dHSkdjRTlXYWtwdlRXeGtWMXBJY0d4U01EVjZWMnRvUjFVeVNrZFhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0= using Base64 to reveal their meeting location.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{bmhlwmlj}
+cipher: Base64
+ciphertext: Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVcxS1IxZHVhRlpOYmtKVVdWZDRTMk15VGtsaFJscE9ZV3RGZUZkWGRHdFRNVTVYVW01S1dHSkdjRTlXYWtwdlRXeGtWMXBJY0d4U01EVjZWMnRvUjFVeVNrZFhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 9 times in total.
+subtype: base64_layered
+archetype: classical_cipher

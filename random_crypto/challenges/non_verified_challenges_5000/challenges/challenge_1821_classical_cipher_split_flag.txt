@@ -1,0 +1,15 @@
+Intercepted transmission uses a SplitNumberMix cipher. Decipher the hidden message from the jumbled sequence below:  7777777 flag{urnzpw 7777777 bt} 7777777 
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{urnzpwbt}
+ciphertext:  7777777 flag{urnzpw 7777777 bt} 7777777 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 2 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

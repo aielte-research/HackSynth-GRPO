@@ -1,0 +1,11 @@
+The admin portal uses JWT for logins. Can you recover the secret or forge a token to access the admin dashboard? Here is a sample token: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3t3MTk5Ynlzc30ifQ.
+
+---
+
+## Challenge Technical Details
+flag: flag{w199byss}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3t3MTk5Ynlzc30ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

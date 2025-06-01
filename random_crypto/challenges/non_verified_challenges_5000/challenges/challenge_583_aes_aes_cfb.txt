@@ -1,0 +1,17 @@
+Intercepted from a hacker’s chat, this 9cf4b5a48cf7cb1abd9fd1399919e22dadeb559f440aa8bcbe70026e6c4f5edc7316836ca1ae03e52e1be9e8a386947ae28185004eee334e3774c6a0fadd11e7bd6a545e1a888a2f2db67b4e813baabe1cb6ba39294bd6b07ea654e9574771209262866d22715904fbe0c3d4412eaccf91fdd32789a855488dccb04affd09b492403c08c80b9e888461b364ddecdb585105eb080c9eee8b69a25ed8d517bfe6c6b7f1cdc2e95dfd859424882111ff5a136 message hides the meeting location. It was encrypted with AES in CFB mode—recover the secret spot.
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{cvhw2kl6}
+ciphertext: 9cf4b5a48cf7cb1abd9fd1399919e22dadeb559f440aa8bcbe70026e6c4f5edc7316836ca1ae03e52e1be9e8a386947ae28185004eee334e3774c6a0fadd11e7bd6a545e1a888a2f2db67b4e813baabe1cb6ba39294bd6b07ea654e9574771209262866d22715904fbe0c3d4412eaccf91fdd32789a855488dccb04affd09b492403c08c80b9e888461b364ddecdb585105eb080c9eee8b69a25ed8d517bfe6c6b7f1cdc2e95dfd859424882111ff5a136
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: 99860a8341fb183936f642dc5c04bde8
+subtype: aes_cfb
+archetype: aes

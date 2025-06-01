@@ -1,0 +1,19 @@
+An intern hashed passwords with SHA-256, but foolishly used a 1-digit salt. Recover the original password from this cipher: 08630b8468248e9bd7caf4e1001d7e900dc5648397260195db2ce558c6f32dd6
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{tge}
+ciphertext: 08630b8468248e9bd7caf4e1001d7e900dc5648397260195db2ce558c6f32dd6
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

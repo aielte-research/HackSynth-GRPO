@@ -1,0 +1,16 @@
+An agent intercepted a secret message between rival hackers. It looks like a Vigenère cipher. Can you reveal the plaintext? Ciphertext: ymye{ndso8dkz}
+
+The flag format is flag{...}
+The keyword is: tbyyy
+
+---
+
+## Challenge Technical Details
+flag: flag{pkrq8fmg}
+ciphertext: ymye{ndso8dkz}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: tbyyy
+subtype: vigenere
+archetype: classical_cipher

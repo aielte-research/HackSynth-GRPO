@@ -1,0 +1,18 @@
+Someone reused a nonce encrypting two messages with AES-GCM. Here are the ciphertexts: ciphertext1:010ea14761fe7fb459c48e73f22f, ciphertext2: 130aa9533aa065ed54c09337a07233453cb0. Can you use this mistake to recover the original messages?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{7iyckid3}
+ciphertext: ciphertext1:010ea14761fe7fb459c48e73f22f, ciphertext2: 130aa9533aa065ed54c09337a07233453cb0
+tag1: 7acf234a7fd3900f66f862d2f66a1733
+tag2: 1e6284ed9a4e1d1bb963f566f0c0591a
+cipher: AES-GCM
+vulnerability: nonce reuse
+hint: AES-GCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 5c274873215be7873920e708
+subtype: aes_gcm
+archetype: aes

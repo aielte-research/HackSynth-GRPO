@@ -1,0 +1,15 @@
+A spy encoded the message for safe delivery. Can you reveal its contents by reversing the letters? The encrypted text is: }jizy3xby{galf
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ybx3yzij}
+ciphertext: }jizy3xby{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

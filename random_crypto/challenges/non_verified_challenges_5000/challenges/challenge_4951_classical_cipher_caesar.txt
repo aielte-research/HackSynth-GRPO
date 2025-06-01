@@ -1,0 +1,15 @@
+A lost Roman scroll contains a secret message encoded by Caesar himself. Can you decipher its contents? The message is: rxms{8uzde22w}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{8inrs22k}
+ciphertext: rxms{8uzde22w}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 12
+subtype: caesar
+archetype: classical_cipher

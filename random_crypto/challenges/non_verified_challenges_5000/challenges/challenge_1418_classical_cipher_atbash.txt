@@ -1,0 +1,16 @@
+
+An explorer found a coded message in a forgotten library, written in mirrored script. Decipher uozt{a7hbz682} to reveal the ancient librarian’s hidden warning.
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{z7sya682}
+cipher: Atbash
+ciphertext: uozt{a7hbz682}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

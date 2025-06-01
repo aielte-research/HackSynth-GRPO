@@ -1,0 +1,18 @@
+Someone reused a nonce when encrypting two secret messages with AES-GCM. Find out what you can from the intercepted ciphertexts: ciphertext1:2fa573fd20a06ed0b9eb819142a0, ciphertext2: 3da17be97bb96fc2b3b39cc942fd363788ec.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{pr2d7ixa}
+ciphertext: ciphertext1:2fa573fd20a06ed0b9eb819142a0, ciphertext2: 3da17be97bb96fc2b3b39cc942fd363788ec
+tag1: e06e276388797886f9f06e2e851da7a2
+tag2: 69f92e9b07182da96e5ab15b95b5b695
+cipher: AES-GCM
+vulnerability: nonce reuse
+hint: AES-GCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 411d9799517a3d460df7ccd1
+subtype: aes_gcm
+archetype: aes

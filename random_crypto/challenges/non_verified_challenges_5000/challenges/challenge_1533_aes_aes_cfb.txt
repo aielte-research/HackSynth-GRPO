@@ -1,0 +1,17 @@
+A secret agent encrypted a vital code using AES-CFB. All we have is this mysterious ciphertext: ec1bea9e47c344c214d26e81213ec78a5492951bf5b6f7064fa886569a59c108111fa515e7879ad5b2c4a6e9167050dbe4d07c9f49fd2cbac252ae542a7e226608579ad530286dc58f24bbf452cb4e8c03f73f98935e2aa496871eb1cfe6c0db92b442a18d0941a3f00ed47cf3fd52fff725d678898cca7521377b3727e55cc7ff43ae65a89184e68b679dd6e62da270745755765bc66d6b1ff2b8ca743bcc52161198b13e13fb15cdbcab90cc6a345be2. Can you reveal the original message?
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{uod0tuep}
+ciphertext: ec1bea9e47c344c214d26e81213ec78a5492951bf5b6f7064fa886569a59c108111fa515e7879ad5b2c4a6e9167050dbe4d07c9f49fd2cbac252ae542a7e226608579ad530286dc58f24bbf452cb4e8c03f73f98935e2aa496871eb1cfe6c0db92b442a18d0941a3f00ed47cf3fd52fff725d678898cca7521377b3727e55cc7ff43ae65a89184e68b679dd6e62da270745755765bc66d6b1ff2b8ca743bcc52161198b13e13fb15cdbcab90cc6a345be2
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: a7739583c43e096c92f52a4b432d365e
+subtype: aes_cfb
+archetype: aes

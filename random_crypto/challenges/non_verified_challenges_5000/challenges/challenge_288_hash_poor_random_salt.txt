@@ -1,0 +1,19 @@
+After rushing a password vault's launch, the devs reused weak salts with SHA-256. Now someone posted 32af6f4dd023801e3202079ad028406b77a48a4ccdef76159f40a6ae7c96c815 from the database—can you recover the original?
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{kn1}
+ciphertext: 32af6f4dd023801e3202079ad028406b77a48a4ccdef76159f40a6ae7c96c815
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

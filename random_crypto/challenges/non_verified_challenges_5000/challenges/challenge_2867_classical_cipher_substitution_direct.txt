@@ -1,0 +1,21 @@
+Someone swapped all the letters in their secret password. Can you decode this classic cipher? Here's the encrypted message: akrz{lb1v5lix}
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'r', 'b': 't', 'c': 'n', 'd': 'v', 'e': 'm', 'f': 'a', 'g': 'z', 'h': 'e', 'i': 'g', 'j': 'l', 'k': 'o', 'l': 'k', 'm': 'w', 'n': 'p', 'o': 'f', 'p': 'b', 'q': 'q', 'r': 'u', 's': 'j', 't': 's', 'u': 'c', 'v': 'h', 'w': 'y', 'x': 'x', 'y': 'i', 'z': 'd'}
+
+---
+
+## Challenge Technical Details
+flag: flag{jp1d5jyx}
+cipher: Substitution
+ciphertext: akrz{lb1v5lix}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'r', 'b': 't', 'c': 'n', 'd': 'v', 'e': 'm', 'f': 'a', 'g': 'z', 'h': 'e', 'i': 'g', 'j': 'l', 'k': 'o', 'l': 'k', 'm': 'w', 'n': 'p', 'o': 'f', 'p': 'b', 'q': 'q', 'r': 'u', 's': 'j', 't': 's', 'u': 'c', 'v': 'h', 'w': 'y', 'x': 'x', 'y': 'i', 'z': 'd'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

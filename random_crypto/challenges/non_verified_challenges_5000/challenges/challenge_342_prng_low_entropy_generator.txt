@@ -1,0 +1,21 @@
+
+An intern tried building secure chat, but seeded their PRNG with today's weather. Can you decrypt the secret message? Ciphertext: 666c607e7b656a296d726a7f777d
+
+
+The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [109, 252, 277, 261, 298, 74, 460, 310, 477, 406, 403, 121, 269, 228, 323, 366, 266, 369, 153, 164]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 526)
+
+---
+
+## Challenge Technical Details
+flag: flag{ek0mrkfw}
+ciphertext: 666c607e7b656a296d726a7f777d
+cipher: Low-entropy PRNG
+hint: The PRNG seed space is small. You can try brute-forcing all possible seeds to reconstruct the sequence.
+necessary_info: The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [109, 252, 277, 261, 298, 74, 460, 310, 477, 406, 403, 121, 269, 228, 323, 366, 266, 369, 153, 164]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 526)
+extra_info: Since the seed has only 256 possible values, it can be brute-forced to recover the secret number and decrypt the flag.
+subtype: low_entropy_generator
+archetype: prng

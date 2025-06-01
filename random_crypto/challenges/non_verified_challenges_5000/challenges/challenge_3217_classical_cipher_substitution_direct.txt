@@ -1,0 +1,21 @@
+A suspicious message found on an old server contains a string that looks encrypted. Can you decrypt this substitution cipher?grma{iwl1922t}
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'm', 'b': 'e', 'c': 'q', 'd': 'j', 'e': 'u', 'f': 'g', 'g': 'a', 'h': 'w', 'i': 't', 'j': 'f', 'k': 'n', 'l': 'r', 'm': 'y', 'n': 'z', 'o': 'c', 'p': 'v', 'q': 'k', 'r': 'x', 's': 'l', 't': 'd', 'u': 's', 'v': 'b', 'w': 'i', 'x': 'o', 'y': 'h', 'z': 'p'}
+
+---
+
+## Challenge Technical Details
+flag: flag{whs1922i}
+cipher: Substitution
+ciphertext: grma{iwl1922t}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'm', 'b': 'e', 'c': 'q', 'd': 'j', 'e': 'u', 'f': 'g', 'g': 'a', 'h': 'w', 'i': 't', 'j': 'f', 'k': 'n', 'l': 'r', 'm': 'y', 'n': 'z', 'o': 'c', 'p': 'v', 'q': 'k', 'r': 'x', 's': 'l', 't': 'd', 'u': 's', 'v': 'b', 'w': 'i', 'x': 'o', 'y': 'h', 'z': 'p'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

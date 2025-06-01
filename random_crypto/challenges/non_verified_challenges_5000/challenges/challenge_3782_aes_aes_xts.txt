@@ -1,0 +1,15 @@
+Intercepted disk sector data includes ciphertext1:ecff8830348da3440a48dbd6ca4b6079, ciphertext2: 37a55b35dd44a6a00b200327e9ca6e7363fa0ad91f3c13f9e9dec24d75cf6ae4, rumored to hide secret plans. It's encrypted with AES-XTS. Can you unveil the message?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{kwpmhsrh}
+ciphertext: ciphertext1:ecff8830348da3440a48dbd6ca4b6079, ciphertext2: 37a55b35dd44a6a00b200327e9ca6e7363fa0ad91f3c13f9e9dec24d75cf6ae4
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: f319b0dd6d13ae7358a0108ae229a07a
+subtype: aes_xts
+archetype: aes

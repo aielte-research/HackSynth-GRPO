@@ -1,0 +1,15 @@
+A mysterious message was intercepted during a blockchain summit. It appears to be encoded with the SplitNumberMix cipher. Can you reveal the original text from  00000 flag{ 00000 ivordsi 00000 n} 00000 ?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ivordsin}
+ciphertext:  00000 flag{ 00000 ivordsi 00000 n} 00000 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 3 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

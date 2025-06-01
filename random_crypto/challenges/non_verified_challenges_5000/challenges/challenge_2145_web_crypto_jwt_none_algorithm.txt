@@ -1,0 +1,13 @@
+
+A hacker intercepted a JWT used for admin login. Can you extract the secret hidden in this token? Here it is: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tvajZxdXlieX0ifQ.
+
+
+---
+
+## Challenge Technical Details
+flag: flag{oj6quyby}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tvajZxdXlieX0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

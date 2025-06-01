@@ -1,0 +1,15 @@
+Someone hid a flag using MD5 hash, unaware of its reversing flaw. Retrieve the original message from this 5406193f7a97cc3da9fcaf760162a090 to prove the weakness.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{wwh's}
+ciphertext: 5406193f7a97cc3da9fcaf760162a090
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

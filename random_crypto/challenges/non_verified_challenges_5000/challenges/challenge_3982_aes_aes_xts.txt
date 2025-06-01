@@ -1,0 +1,15 @@
+A rogue sysadmin encrypted the payroll database using AES-XTS. Can you unlock the salary secrets from this encrypted blob? Ciphertext: ciphertext1:5f1bcbbb2b32694a99d16ed86ca8e288, ciphertext2: 5a89c559c4ef5773232bd0c40e347ebb1f479e56ab3335aeeccf52990fb615bc
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{osyf8bpx}
+ciphertext: ciphertext1:5f1bcbbb2b32694a99d16ed86ca8e288, ciphertext2: 5a89c559c4ef5773232bd0c40e347ebb1f479e56ab3335aeeccf52990fb615bc
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 2efd05fc33cbb55296ac5a93342a5c9c
+subtype: aes_xts
+archetype: aes

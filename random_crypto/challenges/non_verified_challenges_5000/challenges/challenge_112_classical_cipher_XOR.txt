@@ -1,0 +1,17 @@
+
+Rumor says Agent X hid the wallet key using XOR. Only the clever can retrieve it from this encrypted note: stringA: 505a533011395817594e1245610d stringB: 363632576a55377135797a325270
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{lofl7hw3}
+cipher: XOR
+ciphertext: stringA: 505a533011395817594e1245610d stringB: 363632576a55377135797a325270
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

@@ -1,0 +1,12 @@
+The dev left an old web demo online. Its login uses a suspiciously simple Insecure Session Token cipher: 757365725f746231343a666c61677b636a743263776e397d3a31373437343832323833. Can you recover the admin's session?
+
+---
+
+## Challenge Technical Details
+flag: flag{cjt2cwn9}
+ciphertext: 757365725f746231343a666c61677b636a743263776e397d3a31373437343832323833
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_tb14:flag{cjt2cwn9}:1747482283'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

@@ -1,0 +1,13 @@
+
+Intercepted comms include a suspicious-looking JWT token. Can you uncover the hidden message inside eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tmOGUyZTV5ZH0ifQ.?
+
+
+---
+
+## Challenge Technical Details
+flag: flag{f8e2e5yd}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tmOGUyZTV5ZH0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

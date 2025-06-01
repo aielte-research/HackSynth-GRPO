@@ -1,0 +1,14 @@
+An ancient scroll hides a password in a mirrored alphabet code. Can you reveal the secret by deciphering: uozt{8k4ljfw4}?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{8p4oqud4}
+cipher: Atbash
+ciphertext: uozt{8k4ljfw4}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+An archaeologist uncovers an encoded relic. Rumors say Base85 holds its secrets. Can you crack the code? Cipher text: Q8+6$C09T(Kr2)>FllT?Dp5>4T0>tyaZhPwOiNd6Y-Ax&En-MNQ++W=Ax}$oL@85MXjer~X>U$aN;FYGR$?<FDo{@=A!{>CRYG@lS8jJ^Vp%0MbZKHZFn3BpBT!;KO+7?Qb5=lRdVXb5J3&=bPX
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{7xjr8iny}
+cipher: Base85
+ciphertext: Q8+6$C09T(Kr2)>FllT?Dp5>4T0>tyaZhPwOiNd6Y-Ax&En-MNQ++W=Ax}$oL@85MXjer~X>U$aN;FYGR$?<FDo{@=A!{>CRYG@lS8jJ^Vp%0MbZKHZFn3BpBT!;KO+7?Qb5=lRdVXb5J3&=bPX
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 10 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

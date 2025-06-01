@@ -1,0 +1,19 @@
+An intern encrypted the flag using a homemade PRNG-based cipher, thinking it was unbreakable. Here’s the ciphertext: 633d64367e61352b3c377c65322c
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 2**11)
+A secret number was generated using Python's PRNG with a seed from 0 to 9,999. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{00z9fy47}
+ciphertext: 633d64367e61352b3c377c65322c
+cipher: Predictable PRNG
+hint: The seed range is small enough for brute-force. Try recreating the PRNG sequence.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 2**11)
+A secret number was generated using Python's PRNG with a seed from 0 to 9,999. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: If you can predict or brute-force the seed, you can reconstruct the PRNG output and decrypt the flag.
+subtype: predictable_seed
+archetype: prng

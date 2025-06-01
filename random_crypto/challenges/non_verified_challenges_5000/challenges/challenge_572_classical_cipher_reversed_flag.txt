@@ -1,0 +1,15 @@
+An agent hid the password in a message, but wrote it entirely backwards. Can you recover the secret from this reversed text? }bak1k2ee{galf
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ee2k1kab}
+ciphertext: }bak1k2ee{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

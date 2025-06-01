@@ -1,0 +1,17 @@
+
+A techie left their secret server password encoded in Base85. Can you decode this message and uncover their key? W^7?+dv9hnGdO88VSN
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{of538i3a}
+cipher: Base85
+ciphertext: W^7?+dv9hnGdO88VSN
+hint: Use a Base85 decoder to retrieve the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is straightforward; only one layer is used.
+subtype: Base85
+archetype: classical_cipher

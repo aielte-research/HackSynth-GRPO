@@ -1,0 +1,17 @@
+
+A hacker leaked the access code using an ASCII Shift cipher. Can you decrypt it and retrieve the secret? Ciphertext: mshnx9pyp8k
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{q2iriy1d}
+cipher: ASCII Shift
+ciphertext: mshnx9pyp8k
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 7
+subtype: ascii_shift
+archetype: classical_cipher

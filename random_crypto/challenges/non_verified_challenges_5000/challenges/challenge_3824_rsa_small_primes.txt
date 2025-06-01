@@ -1,0 +1,18 @@
+An intern generated an RSA key using two tiny prime numbers. Can you decrypt the secret message? Ciphertext: 3843360061379806629
+
+The flag format is flag{...}
+n=12651753836493814111, e=732368649030622835
+
+---
+
+## Challenge Technical Details
+flag: flag{r4nzayt1}
+cipher: RSA
+ciphertext: 3843360061379806629
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=12651753836493814111, e=732368649030622835
+extra_info: p=2968628569, q=4261817719, φ(n)=12651753829263367824
+subtype: small_primes
+archetype: rsa

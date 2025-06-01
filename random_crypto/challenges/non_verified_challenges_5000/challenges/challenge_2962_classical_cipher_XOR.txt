@@ -1,0 +1,15 @@
+Intercepted message uses a secret 1-byte XOR key. Can you recover the hidden flag from this ciphertext? stringA: 52232e5f38471c400243174e152e stringB: 344f4f3843716a38727067796553
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{6vxp3p7p}
+cipher: XOR
+ciphertext: stringA: 52232e5f38471c400243174e152e stringB: 344f4f3843716a38727067796553
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

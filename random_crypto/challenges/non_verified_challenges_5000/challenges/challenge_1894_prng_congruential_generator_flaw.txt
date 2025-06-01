@@ -1,0 +1,29 @@
+
+A hacker left an encrypted message using a predictable LCG-based cipher. Find the pattern, predict the sequence, and decrypt: 6348bfa27e49e9b46b15a8b46159
+
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 634205456
+  - Multiplier: 362403099
+  - Increment: 326639429
+The first 5 outputs of the LCG are provided: [54802488, 207057805, 75731684, 177785969, 351730848] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{m7qn1vqd}
+ciphertext: 6348bfa27e49e9b46b15a8b46159
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 634205456
+  - Multiplier: 362403099
+  - Increment: 326639429
+The first 5 outputs of the LCG are provided: [54802488, 207057805, 75731684, 177785969, 351730848] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

@@ -1,0 +1,15 @@
+The hacker hid the passcode with Julius’s favorite cipher. Decode oujp{6vlnqt2z} to uncover the secret.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{6mcehk2q}
+ciphertext: oujp{6vlnqt2z}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 9
+subtype: caesar
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+An old hacker left a clue in a forum post, but each letter has been shifted in ASCII. Can you retrieve their secret message? Decode: ntiosk;@jsnr
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{kc38bkfj}
+cipher: ASCII Shift
+ciphertext: ntiosk;@jsnr
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 8
+subtype: ascii_shift
+archetype: classical_cipher

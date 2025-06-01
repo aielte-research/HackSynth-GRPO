@@ -1,0 +1,17 @@
+
+A rogue bot sends a message to allies, shifting each ASCII character by a key. Can you recover the original command from this altered ciphertext? oujpBj<l:?{
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{9a3c16rx}
+cipher: ASCII Shift
+ciphertext: oujpBj<l:?{
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 9
+subtype: ascii_shift
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+The hacker reversed the secret message to hide it. Can you recover the original text from this reversed string? Here is the encrypted flag: }zl9ozae0{galf
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{0eazo9lz}
+ciphertext: }zl9ozae0{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

@@ -1,0 +1,19 @@
+Hackers reused a predictable salt when hashing passwords with SHA-256. Recover the password from this hash: 756d069bac5308e32746f69903947153c3c069adaa525dcc5263d40245432129
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{8ko}
+ciphertext: 756d069bac5308e32746f69903947153c3c069adaa525dcc5263d40245432129
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

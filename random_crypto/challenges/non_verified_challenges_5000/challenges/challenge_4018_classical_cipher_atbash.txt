@@ -1,0 +1,14 @@
+An ancient map uses a mirrored alphabet code to hide the final clue. Can you decipher the message? Here it is: uozt{wqszh1e0}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{djhas1v0}
+cipher: Atbash
+ciphertext: uozt{wqszh1e0}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

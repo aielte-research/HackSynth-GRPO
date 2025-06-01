@@ -1,0 +1,21 @@
+
+A careless admin hashed passwords with SHA-256, using the same 3-digit number as salt for all users. Here’s the hash for “admin”: f8921c438baa5b08104d945f0ffd6f3dd4591cb3af3925003ee310698a147c8c
+
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{p8x}
+ciphertext: f8921c438baa5b08104d945f0ffd6f3dd4591cb3af3925003ee310698a147c8c
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

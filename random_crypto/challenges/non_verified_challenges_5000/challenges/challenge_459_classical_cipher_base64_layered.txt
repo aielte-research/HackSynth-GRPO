@@ -1,0 +1,15 @@
+A hacker left a suspicious note encoded in Base64. Can you decode the secret message? Ciphertext: VmpJd2VFNUhSa2RpTTNCclVrVndUMVJYY0VkTlZsSldWV3hLVDFaVVFqWlVWVkYzVUZFOVBRPT0=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{v3mn0493}
+cipher: Base64
+ciphertext: VmpJd2VFNUhSa2RpTTNCclVrVndUMVJYY0VkTlZsSldWV3hLVDFaVVFqWlVWVkYzVUZFOVBRPT0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 5 times in total.
+subtype: base64_layered
+archetype: classical_cipher

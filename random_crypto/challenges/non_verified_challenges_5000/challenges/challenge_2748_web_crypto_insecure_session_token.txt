@@ -1,0 +1,12 @@
+An admin’s session token was intercepted. Crack it to access secret files. Here’s the token: 757365725f39766b333a666c61677b37396937666f6d767d3a31373438313637393635
+
+---
+
+## Challenge Technical Details
+flag: flag{79i7fomv}
+ciphertext: 757365725f39766b333a666c61677b37396937666f6d767d3a31373438313637393635
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_9vk3:flag{79i7fomv}:1748167965'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

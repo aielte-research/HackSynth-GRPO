@@ -1,0 +1,16 @@
+
+A hacker left a suspicious hex string in the server logs. Can you decode 666c61677b6d67726d647770307d to reveal their hidden message?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{mgrmdwp0}
+cipher: Hex
+ciphertext: 666c61677b6d67726d647770307d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

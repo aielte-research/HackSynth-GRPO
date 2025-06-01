@@ -1,0 +1,11 @@
+An admin’s secret JWT token was intercepted. Can you determine the hidden flag inside eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3t2dmI3cWNjY30ifQ.?
+
+---
+
+## Challenge Technical Details
+flag: flag{vvb7qccc}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3t2dmI3cWNjY30ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

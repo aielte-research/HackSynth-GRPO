@@ -1,0 +1,29 @@
+
+The vault key was encrypted with a flawed random generator. Crack the sequence to recover the original text: 60efc5417de4dc5031b3d15e74fe
+
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1778862758
+  - Multiplier: 150484568
+  - Increment: 1238949044
+The first 5 outputs of the LCG are provided: [1537656466, 1022418522, 232101134, 736392144, 1211645048] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{gxv70uxr}
+ciphertext: 60efc5417de4dc5031b3d15e74fe
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1778862758
+  - Multiplier: 150484568
+  - Increment: 1238949044
+The first 5 outputs of the LCG are provided: [1537656466, 1022418522, 232101134, 736392144, 1211645048] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

@@ -1,0 +1,12 @@
+A careless developer left session tokens encrypted with the insecure 757365725f306873793a666c61677b333176733133736a7d3a31373438313730303536 on a public server. Recover the original session to access the admin dashboard.
+
+---
+
+## Challenge Technical Details
+flag: flag{31vs13sj}
+ciphertext: 757365725f306873793a666c61677b333176733133736a7d3a31373438313730303536
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_0hsy:flag{31vs13sj}:1748170056'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

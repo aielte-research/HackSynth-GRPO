@@ -1,0 +1,21 @@
+
+Intercepted spy traffic uses a weak stream cipher. Recover the original message from c374c47fde69dc74d17dd12bd565 and expose the vulnerabilities of their LFSR-based encryption.
+
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[25045, 12522, 6261, 35898, 17949, 41742, 20871, 10435, 37985, 18992]
+
+---
+
+## Challenge Technical Details
+flag: flag{qyltet3p}
+ciphertext: c374c47fde69dc74d17dd12bd565
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[25045, 12522, 6261, 35898, 17949, 41742, 20871, 10435, 37985, 18992]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

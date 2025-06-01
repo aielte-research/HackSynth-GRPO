@@ -1,0 +1,21 @@
+
+An old engineer hid secrets in a broadcast signal, encrypted with a flawed stream cipher. Can you exploit the LFSR Weakness and recover the message from 5021572a4d25057b06245d7d0030?
+
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[13861, 39698, 19849, 9924, 37730, 51633, 25816, 45676, 55606, 27803]
+
+---
+
+## Challenge Technical Details
+flag: flag{h360ik06}
+ciphertext: 5021572a4d25057b06245d7d0030
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[13861, 39698, 19849, 9924, 37730, 51633, 25816, 45676, 55606, 27803]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

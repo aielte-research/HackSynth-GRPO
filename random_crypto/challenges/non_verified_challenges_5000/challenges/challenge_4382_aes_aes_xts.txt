@@ -1,0 +1,15 @@
+A rogue sysadmin encrypted vital logs with AES-XTS. Recover the original message from this ciphertext: ciphertext1:5ee00122e864c581264638fd61243a4e, ciphertext2: 5a159f1c54bd5577d36f6cb08698acfa058f0ec17369adb6c7afe8b8e961f024
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{y09q02pl}
+ciphertext: ciphertext1:5ee00122e864c581264638fd61243a4e, ciphertext2: 5a159f1c54bd5577d36f6cb08698acfa058f0ec17369adb6c7afe8b8e961f024
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 7da1945f096c965268e6108fc0086c53
+subtype: aes_xts
+archetype: aes

@@ -1,0 +1,20 @@
+
+A spy left a mysterious message in a forgotten notebook. Can you crack the Playfair-encrypted note below to recover the secret phrase?
+omitkgzeikobkwmctptrkgzeikugstgpctpxmcqpquuhitkgzeikobkwmcpbdgkquzgkqzlytmutbifmbowtpeuhymhokfstiqhsaiqumccbugrmepbtgkacbxqkfzfgpeuopeuhibokbtbngqcrrebv
+
+
+The flag format is flag{...}
+The keyword is: dagqssci
+
+---
+
+## Challenge Technical Details
+flag: flag{b1ot72bc}
+ciphertext: omitkgzeikobkwmctptrkgzeikugstgpctpxmcqpquuhitkgzeikobkwmcpbdgkquzgkqzlytmutbifmbowtpeuhymhokfstiqhsaiqumccbugrmepbtgkacbxqkfzfgpeuopeuhibokbtbngqcrrebv
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: dagqssci
+extra_info: The playfair table is [['d', 'a', 'g', 'q', 's'], ['c', 'i', 'b', 'e', 'f'], ['h', 'k', 'l', 'm', 'n'], ['o', 'p', 'r', 't', 'u'], ['v', 'w', 'x', 'y', 'z']]
+subtype: playfair
+archetype: classical_cipher

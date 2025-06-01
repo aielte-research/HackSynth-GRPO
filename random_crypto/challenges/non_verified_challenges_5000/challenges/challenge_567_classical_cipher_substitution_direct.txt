@@ -1,0 +1,21 @@
+An old hacker left a secret in a message guarded by simple letter swaps. Can you restore the original text from this substitution cipher? wjzg{igmsj3vg}
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'z', 'b': 'i', 'c': 'f', 'd': 'b', 'e': 'c', 'f': 'w', 'g': 'g', 'h': 'a', 'i': 'k', 'j': 'l', 'k': 'v', 'l': 'j', 'm': 'o', 'n': 'h', 'o': 'y', 'p': 'e', 'q': 'm', 'r': 'q', 's': 'n', 't': 'u', 'u': 'x', 'v': 'p', 'w': 's', 'x': 'r', 'y': 'd', 'z': 't'}
+
+---
+
+## Challenge Technical Details
+flag: flag{bgqwl3kg}
+cipher: Substitution
+ciphertext: wjzg{igmsj3vg}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'z', 'b': 'i', 'c': 'f', 'd': 'b', 'e': 'c', 'f': 'w', 'g': 'g', 'h': 'a', 'i': 'k', 'j': 'l', 'k': 'v', 'l': 'j', 'm': 'o', 'n': 'h', 'o': 'y', 'p': 'e', 'q': 'm', 'r': 'q', 's': 'n', 't': 'u', 'u': 'x', 'v': 'p', 'w': 's', 'x': 'r', 'y': 'd', 'z': 't'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

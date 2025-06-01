@@ -1,0 +1,17 @@
+A hacker encrypted the vault passphrase with AES-CFB, but deleted the key. Can you recover the secret from this ciphertext: 6cef3fc65ee5fec604519e1adedfebaff4fef67e3eb05f3928e62a5c0bd4c4379318f32405396b7ec6dd68a85dd9cce737eda61357c478d9ada99e70ebc225afa771fbe68ffdacce92957c84c0d55493dba3dff887d894812889c204542cd51bafddbec5037a0bcdf11c19f0857e3b2118d253ff3a37f6e4850bc498046d2e79a613b901493465737c3eff806af1e6e0ac40617a0ce317010e02f2b49858b53e16e753f15324515d44cc44330a4216de15?
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{3vg3kqa7}
+ciphertext: 6cef3fc65ee5fec604519e1adedfebaff4fef67e3eb05f3928e62a5c0bd4c4379318f32405396b7ec6dd68a85dd9cce737eda61357c478d9ada99e70ebc225afa771fbe68ffdacce92957c84c0d55493dba3dff887d894812889c204542cd51bafddbec5037a0bcdf11c19f0857e3b2118d253ff3a37f6e4850bc498046d2e79a613b901493465737c3eff806af1e6e0ac40617a0ce317010e02f2b49858b53e16e753f15324515d44cc44330a4216de15
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: 950f2f6cb9f297cb47ba834e829ed3e8
+subtype: aes_cfb
+archetype: aes

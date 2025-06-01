@@ -1,0 +1,15 @@
+A hacker left a secret XOR-encrypted password on the server. Can you recover it from this ciphertext: stringA: 251c03203f4414104623276a0837 stringB: 437062474437796471495553664a?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{smt7jr9n}
+cipher: XOR
+ciphertext: stringA: 251c03203f4414104623276a0837 stringB: 437062474437796471495553664a
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

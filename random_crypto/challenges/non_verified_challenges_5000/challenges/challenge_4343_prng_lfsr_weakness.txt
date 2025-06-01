@@ -1,0 +1,19 @@
+An intercepted spy message was encrypted using a flawed LFSR-based stream cipher. Can you exploit its weakness and recover the original text from 3e0f390423552d5637113d0f211e?
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[36658, 51097, 25548, 12774, 6387, 3193, 34364, 49950, 24975, 45255]
+
+---
+
+## Challenge Technical Details
+flag: flag{6u5orely}
+ciphertext: 3e0f390423552d5637113d0f211e
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[36658, 51097, 25548, 12774, 6387, 3193, 34364, 49950, 24975, 45255]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

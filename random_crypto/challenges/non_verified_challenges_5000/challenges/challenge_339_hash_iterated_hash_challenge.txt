@@ -1,0 +1,24 @@
+The hacker hid their secret behind a SHA-256 hash. Can you recover the original message from this hash: 5971bd769d2539b4bfd7b013f99b596c25784e82467d92312e3476432642f184?
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{nxjh}
+ciphertext: 5971bd769d2539b4bfd7b013f99b596c25784e82467d92312e3476432642f184
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

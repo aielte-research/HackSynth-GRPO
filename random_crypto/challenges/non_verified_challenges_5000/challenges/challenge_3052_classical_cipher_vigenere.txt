@@ -1,0 +1,16 @@
+An agent left you a coded note, but only those who know the password can reveal its content. Can you break the Vigenère and read: pltp{dgqclec6}?
+
+The flag format is flag{...}
+The keyword is: katjoev
+
+---
+
+## Challenge Technical Details
+flag: flag{pcvsllt6}
+ciphertext: pltp{dgqclec6}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: katjoev
+subtype: vigenere
+archetype: classical_cipher

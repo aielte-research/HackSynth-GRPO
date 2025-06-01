@@ -1,0 +1,17 @@
+
+An archivist lost a password-protected file, but only has its MD5 hash. Exploit MD5's weakness to recover the original password: c3da639467cc372c3b3bcc067ed3593b
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ROBDR}
+ciphertext: c3da639467cc372c3b3bcc067ed3593b
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

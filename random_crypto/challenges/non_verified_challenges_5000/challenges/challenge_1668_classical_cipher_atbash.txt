@@ -1,0 +1,14 @@
+A mysterious message from an ancient order is encoded with a mirror alphabet. Can you reveal their secret by deciphering: uozt{p500ntp5}?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{k500mgk5}
+cipher: Atbash
+ciphertext: uozt{p500ntp5}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

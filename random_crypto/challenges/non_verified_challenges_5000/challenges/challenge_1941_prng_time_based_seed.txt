@@ -1,0 +1,19 @@
+Intercepted at midnight, the confidential message encrypted with a time-synchronized PRNG awaits you. Extract the flag from this 666d5bad7b694fad387b4afe727c before the clock strikes again.
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 88625)
+The system time when the encryption process started was around: 2025-05-25 11:53:58 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{hug8zp4r}
+ciphertext: 666d5bad7b694fad387b4afe727c
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 88625)
+The system time when the encryption process started was around: 2025-05-25 11:53:58 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 80586.
+subtype: time_based_seed
+archetype: prng

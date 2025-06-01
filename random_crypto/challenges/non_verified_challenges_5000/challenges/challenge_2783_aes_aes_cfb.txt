@@ -1,0 +1,17 @@
+Intercepted radio messages use AES-CFB for secrecy. Can you decrypt the mission order hidden inside 1cdc8456ccc44f9ec2431d15e321a8201d355ca21a01e80a405a94da2d51a822fba7181139ca225e961fb0c00adb98098d6c6098eb4da21395d43f298cb5231cc5178588af70dad53f96c1e3e2f48edeedc2f2a051ae24e00d6b77382bfe2131f445faa55f783938364e8e82ace10a702ad2cc903ccd586a2382242db302ecc46be0781c0e7b8c91bf29b9644c0d5d1d535de22d677cd986617f1c2310c3667815793fc7cbde8eda58e61613728e626a2b?
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{m09t1ozd}
+ciphertext: 1cdc8456ccc44f9ec2431d15e321a8201d355ca21a01e80a405a94da2d51a822fba7181139ca225e961fb0c00adb98098d6c6098eb4da21395d43f298cb5231cc5178588af70dad53f96c1e3e2f48edeedc2f2a051ae24e00d6b77382bfe2131f445faa55f783938364e8e82ace10a702ad2cc903ccd586a2382242db302ecc46be0781c0e7b8c91bf29b9644c0d5d1d535de22d677cd986617f1c2310c3667815793fc7cbde8eda58e61613728e626a2b
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: bf0e6ec80e8a8600eedaba089edc2b9c
+subtype: aes_cfb
+archetype: aes

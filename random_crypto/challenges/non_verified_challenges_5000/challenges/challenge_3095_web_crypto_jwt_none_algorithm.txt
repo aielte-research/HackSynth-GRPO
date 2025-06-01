@@ -1,0 +1,11 @@
+An intercepted JWT from a rival hacker group may reveal their secret plans. Can you decipher eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3toa2sza2UydH0ifQ. to uncover their next move?
+
+---
+
+## Challenge Technical Details
+flag: flag{hkk3ke2t}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3toa2sza2UydH0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

@@ -1,0 +1,15 @@
+An anonymous hacker sent a message encoded with an uncommon Base85 cipher. Can you decode what they’re hiding in Q8+ttdr@OIG*C!rHB%->JZW-vQDiYbb5?ydPIF;eSxr(#YgSEqOki((dt_BOLM>KMS|emtbvZl?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{xsyj5z4s}
+cipher: Base85
+ciphertext: Q8+ttdr@OIG*C!rHB%->JZW-vQDiYbb5?ydPIF;eSxr(#YgSEqOki((dt_BOLM>KMS|emtbvZl
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 7 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

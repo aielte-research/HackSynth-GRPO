@@ -1,0 +1,21 @@
+An anonymous tipster sent btrw{lp2uirn1} as a clue to a stolen wallet. Rumor says each letter hides another. Can you reveal the message?
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'r', 'b': 'a', 'c': 'q', 'd': 'o', 'e': 'z', 'f': 'b', 'g': 'w', 'h': 'c', 'i': 'd', 'j': 'u', 'k': 'n', 'l': 't', 'm': 'v', 'n': 'e', 'o': 'h', 'p': 'm', 'q': 'k', 'r': 'f', 's': 'y', 't': 'l', 'u': 's', 'v': 'j', 'w': 'x', 'x': 'g', 'y': 'p', 'z': 'i'}
+
+---
+
+## Challenge Technical Details
+flag: flag{ty2jzak1}
+cipher: Substitution
+ciphertext: btrw{lp2uirn1}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'r', 'b': 'a', 'c': 'q', 'd': 'o', 'e': 'z', 'f': 'b', 'g': 'w', 'h': 'c', 'i': 'd', 'j': 'u', 'k': 'n', 'l': 't', 'm': 'v', 'n': 'e', 'o': 'h', 'p': 'm', 'q': 'k', 'r': 'f', 's': 'y', 't': 'l', 'u': 's', 'v': 'j', 'w': 'x', 'x': 'g', 'y': 'p', 'z': 'i'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

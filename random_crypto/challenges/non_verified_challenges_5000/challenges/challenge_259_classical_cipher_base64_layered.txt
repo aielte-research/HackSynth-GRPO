@@ -1,0 +1,15 @@
+Agent X received a Base64-encoded message: Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVd4YWRWRnNiR0ZTVjJoeVdWY3hTMU5XUm5OaVJsWlhZa1pXTkZkWGRHdFRNVTVJVm10V1UySklRazlWYWtwdlZWWmtXR1JIZEZOTlJGWjZWakkxUjFVeVNrZFhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0=. Decode it to reveal the secret password.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{6w77o9s6}
+cipher: Base64
+ciphertext: Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVd4YWRWRnNiR0ZTVjJoeVdWY3hTMU5XUm5OaVJsWlhZa1pXTkZkWGRHdFRNVTVJVm10V1UySklRazlWYWtwdlZWWmtXR1JIZEZOTlJGWjZWakkxUjFVeVNrZFhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 9 times in total.
+subtype: base64_layered
+archetype: classical_cipher

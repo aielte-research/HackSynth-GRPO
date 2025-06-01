@@ -1,0 +1,21 @@
+
+Intercepted at midnight, the flag is hidden in a message encrypted using a PRNG seeded with the current time. The ciphertext is: 666c2ae27b6b2ded39633fb1797d
+
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 46976)
+The system time when the encryption process started was around: 2025-05-16 13:20:05 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{kfh9ct4y}
+ciphertext: 666c2ae27b6b2ded39633fb1797d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 46976)
+The system time when the encryption process started was around: 2025-05-16 13:20:05 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 19333.
+subtype: time_based_seed
+archetype: prng

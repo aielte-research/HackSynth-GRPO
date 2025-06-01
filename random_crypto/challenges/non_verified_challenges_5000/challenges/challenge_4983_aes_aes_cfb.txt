@@ -1,0 +1,17 @@
+Intercepted transmission from an undercover agent! HQ suspects it's AES-CFB encrypted. Can you recover the secret message hidden in 22a5cc8fd50dd852029df491dfae253aed1f7ef51de24622bae79f9a03c2bbaa6ead30c30777e6dea024f4ea82b37925182ee7da2b9c517ecbaa6cc42d1b48d289a61bbb4746fd56129d7dcfcba1c70e78b024aa066ae1680b66ac1089a2abb799bfa38d74589433bc5d83554892130ace9b05d217c35a64030fa8522438832cabee2b8e03fa0c0ad2a495a51f55ec29fd850501b02e5a9fbacffc906d863aa7fbb017cf44c9e3a715bc4ed00680ad2827?
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{92dwiugf}
+ciphertext: 22a5cc8fd50dd852029df491dfae253aed1f7ef51de24622bae79f9a03c2bbaa6ead30c30777e6dea024f4ea82b37925182ee7da2b9c517ecbaa6cc42d1b48d289a61bbb4746fd56129d7dcfcba1c70e78b024aa066ae1680b66ac1089a2abb799bfa38d74589433bc5d83554892130ace9b05d217c35a64030fa8522438832cabee2b8e03fa0c0ad2a495a51f55ec29fd850501b02e5a9fbacffc906d863aa7fbb017cf44c9e3a715bc4ed00680ad2827
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: f846eb1d1faaa406871c18f91ef50cba
+subtype: aes_cfb
+archetype: aes

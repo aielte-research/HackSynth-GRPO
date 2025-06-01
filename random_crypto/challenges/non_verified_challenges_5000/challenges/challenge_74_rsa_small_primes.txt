@@ -1,0 +1,18 @@
+An intern encrypted the flag using RSA, but accidentally generated both primes too small. Can you decrypt the secret? Here’s the ciphertext: 10446937677775381918
+
+The flag format is flag{...}
+n=11648838272486567771, e=5509553009818754063
+
+---
+
+## Challenge Technical Details
+flag: flag{hcfia4dr}
+cipher: RSA
+ciphertext: 10446937677775381918
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=11648838272486567771, e=5509553009818754063
+extra_info: p=3955345423, q=2945087477, φ(n)=11648838265586134872
+subtype: small_primes
+archetype: rsa

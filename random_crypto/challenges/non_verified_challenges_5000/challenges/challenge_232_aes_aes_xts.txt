@@ -1,0 +1,17 @@
+
+A corrupted hard drive holds a lost wallet key, encrypted with AES-XTS. Decrypt ciphertext1:ff1d3cdae5ff88a67359732ef7dd8a3f, ciphertext2: 538e9f400f3751ed7e41b44b821ce13e347305bf20bee54fa87b3356df77536c to recover the key and claim the unspent bitcoins.
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{auk5bqvi}
+ciphertext: ciphertext1:ff1d3cdae5ff88a67359732ef7dd8a3f, ciphertext2: 538e9f400f3751ed7e41b44b821ce13e347305bf20bee54fa87b3356df77536c
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 869e424eb74c9ea76943419f67e229c8
+subtype: aes_xts
+archetype: aes

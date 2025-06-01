@@ -1,0 +1,17 @@
+An agent’s secret passphrase has been encrypted using the Hill cipher. Can you recover it from this intercepted message: wylzoubsvafznamevykzrivltnjvwpvyaugddwgdagectclniekafmyebwjbkmcvchzory?
+
+The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+
+---
+
+## Challenge Technical Details
+flag: flag{ylttdazk}
+ciphertext: wylzoubsvafznamevykzrivltnjvwpvyaugddwgdagectclniekafmyebwjbkmcvchzory
+cipher: Hill
+hint: Hill ciphers can be broken using known-plaintext attacks and linear algebra mod 26.
+necessary_info: The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+extra_info: The matrix used is: [[15, 1], [19, 12]]
+subtype: hill
+archetype: classical_cipher

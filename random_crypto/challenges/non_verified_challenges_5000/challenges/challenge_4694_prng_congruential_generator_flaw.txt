@@ -1,0 +1,29 @@
+
+The vault’s passcode was encrypted using a flawed random number generator. Crack the code by predicting its sequence from the ciphertext below: 272930803a7238843b7c669e2d38
+
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1950725182
+  - Multiplier: 745560701
+  - Increment: 829072649
+The first 5 outputs of the LCG are provided: [1439907434, 1346305183, 977270772, 742472339, 531497112] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{7icz97yl}
+ciphertext: 272930803a7238843b7c669e2d38
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1950725182
+  - Multiplier: 745560701
+  - Increment: 829072649
+The first 5 outputs of the LCG are provided: [1439907434, 1346305183, 977270772, 742472339, 531497112] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

@@ -1,0 +1,14 @@
+An archaeologist found a scroll with a strange code. Legend says it reveals hidden treasure when mirrored alphabetically. Can you decode the uozt{pgxp4d3u}?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ktck4w3f}
+cipher: Atbash
+ciphertext: uozt{pgxp4d3u}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

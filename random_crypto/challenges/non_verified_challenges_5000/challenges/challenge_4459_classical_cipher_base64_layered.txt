@@ -1,0 +1,15 @@
+A hacker encoded their secret key with an old method before disappearing. Can you decode the message? Here it is: Vm0wd2QyVkhVWGhVYmxKV1YwZDRXRmxVUm5kVlJscHpXa2M1VjFKdGVGWlZNbmhQWVd4S2MxTnNXbGRTTTFKUVdWY3hTMUl4V25GVWJHUk9ZV3hhZVZkV1ZtRlRNazE1Vkd0c2FGSnNjRmhaYkdSdlRXeGFjbHBJY0d4U2JHdzBWa2MxVjJGV1NuUlZiR2hoVmpOU2FGVXhXbXRXTVZaeVUyMTRVMkpXU2xsV1Z6QXhVakZWZVZOclpGaGlSMmhZV1d4b1UxbFdjRmhsUjBaWFlrZFNlVll5ZUVOV01rVjNZMFpTVjFaV2NGTmFSRVpEVld4Q1ZVMUVNRDA9
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{oec046pf}
+cipher: Base64
+ciphertext: Vm0wd2QyVkhVWGhVYmxKV1YwZDRXRmxVUm5kVlJscHpXa2M1VjFKdGVGWlZNbmhQWVd4S2MxTnNXbGRTTTFKUVdWY3hTMUl4V25GVWJHUk9ZV3hhZVZkV1ZtRlRNazE1Vkd0c2FGSnNjRmhaYkdSdlRXeGFjbHBJY0d4U2JHdzBWa2MxVjJGV1NuUlZiR2hoVmpOU2FGVXhXbXRXTVZaeVUyMTRVMkpXU2xsV1Z6QXhVakZWZVZOclpGaGlSMmhZV1d4b1UxbFdjRmhsUjBaWFlrZFNlVll5ZUVOV01rVjNZMFpTVjFaV2NGTmFSRVpEVld4Q1ZVMUVNRDA9
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 10 times in total.
+subtype: base64_layered
+archetype: classical_cipher

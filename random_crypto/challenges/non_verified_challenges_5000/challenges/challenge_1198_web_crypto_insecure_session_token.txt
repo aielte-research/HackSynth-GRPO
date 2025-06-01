@@ -1,0 +1,12 @@
+While testing our portal, an intern leaked his session token encrypted with an outdated cipher. Can you recover the original session data from: 757365725f776463633a666c61677b333570706d66796e7d3a31373438313635373132?
+
+---
+
+## Challenge Technical Details
+flag: flag{35ppmfyn}
+ciphertext: 757365725f776463633a666c61677b333570706d66796e7d3a31373438313635373132
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_wdcc:flag{35ppmfyn}:1748165712'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

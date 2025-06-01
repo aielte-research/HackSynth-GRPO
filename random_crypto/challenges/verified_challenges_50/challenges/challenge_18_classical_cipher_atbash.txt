@@ -1,0 +1,14 @@
+An old scholar guards a secret password, encoding it as uozt{fuedexsa} using a cipher from ancient times. Can you decipher his hidden message?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ufvwvchz}
+cipher: Atbash
+ciphertext: uozt{fuedexsa}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

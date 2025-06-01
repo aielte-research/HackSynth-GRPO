@@ -1,0 +1,24 @@
+Agent Z hid the secret code using SHA-256. Find the original password from the hash below: d37c94da0f585fb806cab071f1d59c2e82ba0275adfa0b425fc8a6719512cff4
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{c51b}
+ciphertext: d37c94da0f585fb806cab071f1d59c2e82ba0275adfa0b425fc8a6719512cff4
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

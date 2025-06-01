@@ -1,0 +1,15 @@
+Someone left a note encrypted with MD5, assuming it can’t be reversed. Can you recover the hidden flag from this hash? 2ac24dcd54131aa9807b148d695cfa34
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{g-oil}
+ciphertext: 2ac24dcd54131aa9807b148d695cfa34
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

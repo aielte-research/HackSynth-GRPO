@@ -1,0 +1,21 @@
+
+The hacker left a message encrypted with their custom PRNG cipher, seeded by a timestamp. Can you recover it? Ciphertext: 666c223f7b702829356e25376b7d
+
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 72379)
+The system time when the encryption process started was around: 2025-05-25 11:46:17 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{pkq5nfok}
+ciphertext: 666c223f7b702829356e25376b7d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 72379)
+The system time when the encryption process started was around: 2025-05-25 11:46:17 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 17240.
+subtype: time_based_seed
+archetype: prng

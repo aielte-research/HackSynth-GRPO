@@ -1,0 +1,15 @@
+An agent hid the meeting place using a Roman ruler’s favorite cipher. Only after decoding mshn{npjwm8j1} will you know where to go.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{gicpf8c1}
+ciphertext: mshn{npjwm8j1}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 7
+subtype: caesar
+archetype: classical_cipher

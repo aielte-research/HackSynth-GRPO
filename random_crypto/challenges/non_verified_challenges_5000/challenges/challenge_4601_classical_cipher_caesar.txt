@@ -1,0 +1,15 @@
+A Roman general left a secret message for his troops using Caesar's cipher. Can you decode their orders? Here is the encrypted text: oujp{u5vbxe1i}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{l5msov1z}
+ciphertext: oujp{u5vbxe1i}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 9
+subtype: caesar
+archetype: classical_cipher

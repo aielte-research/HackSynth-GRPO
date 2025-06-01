@@ -1,0 +1,21 @@
+
+A rushed developer protected their secrets with a PRNG using only the timestamp as the seed. Can you decrypt the message? Ciphertext: 666c61987b35659162317aca697d
+
+
+The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [585, 33, 439, 494, 591, 15, 211, 473, 832, 503, 843, 284, 669, 830, 164, 35, 533, 501, 335, 77]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 936)
+
+---
+
+## Challenge Technical Details
+flag: flag{5enb1z5i}
+ciphertext: 666c61987b35659162317aca697d
+cipher: Low-entropy PRNG
+hint: The PRNG seed space is small. You can try brute-forcing all possible seeds to reconstruct the sequence.
+necessary_info: The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [585, 33, 439, 494, 591, 15, 211, 473, 832, 503, 843, 284, 669, 830, 164, 35, 533, 501, 335, 77]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 936)
+extra_info: Since the seed has only 256 possible values, it can be brute-forced to recover the secret number and decrypt the flag.
+subtype: low_entropy_generator
+archetype: prng

@@ -1,0 +1,15 @@
+An agent hid coordinates using an ancient encoding. Decode the Base64 message below to reveal the secret location: Vm0xd1NtUXlWa1pPVldoVFlUSlNjRlJVVGtOamJGWnhWRzA1YWxac2JETldiVFZyWVRKS1NHVkdiRlZXYkZVeFdWVmtTMVl4WkhKalJsWlhWbXRaZWxaVldrWlBWa0pTVUZRd1BRPT0=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{eqrhjccx}
+cipher: Base64
+ciphertext: Vm0xd1NtUXlWa1pPVldoVFlUSlNjRlJVVGtOamJGWnhWRzA1YWxac2JETldiVFZyWVRKS1NHVkdiRlZXYkZVeFdWVmtTMVl4WkhKalJsWlhWbXRaZWxaVldrWlBWa0pTVUZRd1BRPT0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 7 times in total.
+subtype: base64_layered
+archetype: classical_cipher

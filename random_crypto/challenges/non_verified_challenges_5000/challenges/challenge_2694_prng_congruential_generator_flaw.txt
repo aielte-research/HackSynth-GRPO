@@ -1,0 +1,27 @@
+The rogue admin secured the flag with an LCG-based stream cipher. Can you predict the next output and recover the message? Encrypted data: 06e518331bfe002c01bb0b2e0ff4
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1775946500
+  - Multiplier: 151607
+  - Increment: 148408367
+The first 5 outputs of the LCG are provided: [680245723, 948480228, 1554122763, 1215983508, 1409619723] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{wyxa2rzo}
+ciphertext: 06e518331bfe002c01bb0b2e0ff4
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1775946500
+  - Multiplier: 151607
+  - Increment: 148408367
+The first 5 outputs of the LCG are provided: [680245723, 948480228, 1554122763, 1215983508, 1409619723] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

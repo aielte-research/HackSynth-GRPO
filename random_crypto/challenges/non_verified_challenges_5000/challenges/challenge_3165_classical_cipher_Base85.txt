@@ -1,0 +1,16 @@
+A hacker left a secret at your server’s root in strange symbols. Can you uncover their message from the Base85-encoded string below?
+W^7?+dp0q1V{L1CaD4
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{61scmkzp}
+cipher: Base85
+ciphertext: W^7?+dp0q1V{L1CaD4
+hint: Use a Base85 decoder to retrieve the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is straightforward; only one layer is used.
+subtype: Base85
+archetype: classical_cipher

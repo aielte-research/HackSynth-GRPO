@@ -1,0 +1,15 @@
+An intercepted message from a rogue AI is encoded with strange ASCII shifts. Can you decrypt its command? Ciphertext: hnci}g99hi57o
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{e77fg35m}
+cipher: ASCII Shift
+ciphertext: hnci}g99hi57o
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 2
+subtype: ascii_shift
+archetype: classical_cipher

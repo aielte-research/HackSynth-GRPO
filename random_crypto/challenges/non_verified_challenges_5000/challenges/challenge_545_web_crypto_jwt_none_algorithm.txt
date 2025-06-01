@@ -1,0 +1,11 @@
+You've intercepted a suspicious JWT token. Can you expose its hidden secret? The token is: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tobWN4bGl5cn0ifQ.
+
+---
+
+## Challenge Technical Details
+flag: flag{hmcxliyr}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tobWN4bGl5cn0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

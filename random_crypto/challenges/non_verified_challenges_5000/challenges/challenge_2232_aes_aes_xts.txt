@@ -1,0 +1,15 @@
+The secret coordinates are hidden in this encrypted file, secured using AES-XTS. Your mission: recover the plaintext from ciphertext1:442fba64ef26ec03f4d37e37ad8771a7, ciphertext2: f65fb89e3fef890f93432b30e1f0f31f417448a8e95dc6f4caa6e996125a85da and reveal the location.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{nuurciak}
+ciphertext: ciphertext1:442fba64ef26ec03f4d37e37ad8771a7, ciphertext2: f65fb89e3fef890f93432b30e1f0f31f417448a8e95dc6f4caa6e996125a85da
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 0e60acde3254fc568284d3b6a1fef0de
+subtype: aes_xts
+archetype: aes

@@ -1,0 +1,18 @@
+A rogue AI securely locked vital data with AES. Recover the secret by deciphering the message: ciphertext1:8ca8f6e328f706ca8ee19cee3c44, ciphertext2: 8ca8f6e328e10e89daf69fe42744
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{apqaavot}
+ciphertext: ciphertext1:8ca8f6e328f706ca8ee19cee3c44, ciphertext2: 8ca8f6e328e10e89daf69fe42744
+tag1: 45fed618ae09fd5b3c988ae5ba0c70b7
+tag2: 37f33f982a2b52dcdf346877811c9967
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 698b91e250d98a1cde0d1d
+subtype: aes_ccm
+archetype: aes

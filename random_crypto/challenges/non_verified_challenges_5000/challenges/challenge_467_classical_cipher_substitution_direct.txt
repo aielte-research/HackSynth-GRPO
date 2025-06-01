@@ -1,0 +1,21 @@
+The hacker left a secret message for their partner using a simple letter substitution. Can you reveal what it says? Ciphertext: abuq{kuhwy8ks}
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'u', 'b': 'z', 'c': 't', 'd': 's', 'e': 'g', 'f': 'a', 'g': 'q', 'h': 'k', 'i': 'd', 'j': 'j', 'k': 'p', 'l': 'b', 'm': 'l', 'n': 'h', 'o': 'i', 'p': 'r', 'q': 'y', 'r': 'n', 's': 'x', 't': 'w', 'u': 'm', 'v': 'v', 'w': 'c', 'x': 'e', 'y': 'f', 'z': 'o'}
+
+---
+
+## Challenge Technical Details
+flag: flag{hantq8hd}
+cipher: Substitution
+ciphertext: abuq{kuhwy8ks}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'u', 'b': 'z', 'c': 't', 'd': 's', 'e': 'g', 'f': 'a', 'g': 'q', 'h': 'k', 'i': 'd', 'j': 'j', 'k': 'p', 'l': 'b', 'm': 'l', 'n': 'h', 'o': 'i', 'p': 'r', 'q': 'y', 'r': 'n', 's': 'x', 't': 'w', 'u': 'm', 'v': 'v', 'w': 'c', 'x': 'e', 'y': 'f', 'z': 'o'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+An agent left a secret message for you, but encoded it with a substitution cipher. Decode en ovsiwkcvyizs, y hldhwewlwekn oeizav eh y jawzkm kq anovsiwenc en xzeoz lnewh kq ifyenwauw yva vaifyoam xewz wza oeizavwauw, en y maqenam jynnav, xewz wza zafi kq y bas; wza "lnewh" jys da hencfa fawwavh (wza jkhw okjjkn), iyevh kq fawwavh, wveifawh kq fawwavh, jeuwlvah kq wza ydkga, ynm hk qkvwz. wza vaoaegav maoeizavh wza wauw ds iavqkvjenc wza engavha hldhwewlwekn ivkoahh wk auwvyow wza kvecenyf jahhyca. febaxeha, pyotlah tleobfs reiiam wzvklcz y tlahwekn kn ravk-bnkxfamca ivkkqh, anhlvenc nk oveweoyf fawwav xyh faqw klw kq klv ovsiwkcvyizeo ilrrfa.qfyc{du8g9peg} to reveal their instructions.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{bx8v9jiv}
+ciphertext: en ovsiwkcvyizs, y hldhwewlwekn oeizav eh y jawzkm kq anovsiwenc en xzeoz lnewh kq ifyenwauw yva vaifyoam xewz wza oeizavwauw, en y maqenam jynnav, xewz wza zafi kq y bas; wza "lnewh" jys da hencfa fawwavh (wza jkhw okjjkn), iyevh kq fawwavh, wveifawh kq fawwavh, jeuwlvah kq wza ydkga, ynm hk qkvwz. wza vaoaegav maoeizavh wza wauw ds iavqkvjenc wza engavha hldhwewlwekn ivkoahh wk auwvyow wza kvecenyf jahhyca. febaxeha, pyotlah tleobfs reiiam wzvklcz y tlahwekn kn ravk-bnkxfamca ivkkqh, anhlvenc nk oveweoyf fawwav xyh faqw klw kq klv ovsiwkcvyizeo ilrrfa.qfyc{du8g9peg}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'y', 'b': 'd', 'c': 'o', 'd': 'm', 'e': 'a', 'f': 'q', 'g': 'c', 'h': 'z', 'i': 'e', 'j': 'p', 'k': 'b', 'l': 'f', 'm': 'j', 'n': 'n', 'o': 'k', 'p': 'i', 'q': 't', 'r': 'v', 's': 'h', 't': 'w', 'u': 'l', 'v': 'g', 'w': 'x', 'x': 'u', 'y': 's', 'z': 'r'}
+subtype: substitution
+archetype: classical_cipher

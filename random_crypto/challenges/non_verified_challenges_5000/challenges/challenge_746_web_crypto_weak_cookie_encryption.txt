@@ -1,0 +1,16 @@
+The admin encrypted a message with AES-ECB, padding a tiny password 'pw' with null bytes. Can you recover it using the ciphertext below? 478a53ee4c62bca14c8d57eea62d4d76
+
+An encryption key that is only 2 bytes long?.
+
+---
+
+## Challenge Technical Details
+flag: flag{sqplugu9}
+ciphertext: 478a53ee4c62bca14c8d57eea62d4d76
+cipher: AES-ECB
+vulnerability: small key padded with null bytes
+hint: ECB mode with a short key makes brute-forcing possible. Consider the small key entropy.
+necessary_info: An encryption key that is only 2 bytes long?.
+extra_info: Padding follows PKCS#7. The key is padded to 16 bytes with null bytes.
+subtype: weak_cookie_encryption
+archetype: web_crypto

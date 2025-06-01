@@ -1,0 +1,17 @@
+
+Agent Raily left a secret code at the station. Decode f{9ylgsylo}ahz using the Rail Fence cipher to reveal his message.
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{shy9lzoy}
+ciphertext: f{9ylgsylo}ahz
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 3
+subtype: rail_fence
+archetype: classical_cipher

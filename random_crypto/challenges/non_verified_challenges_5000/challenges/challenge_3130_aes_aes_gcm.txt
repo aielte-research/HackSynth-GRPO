@@ -1,0 +1,20 @@
+
+Agent’s notes: Both secret messages were sent using AES-GCM—but HQ mistakenly reused the nonce. Can you exploit this and recover the keys? Ciphertexts: ciphertext1:6f37dceda247aabe76ef86c5d4f6, ciphertext2: 7d33d4f9f91faaa770eac7ddd1ab1a629c84
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{1s9hj58d}
+ciphertext: ciphertext1:6f37dceda247aabe76ef86c5d4f6, ciphertext2: 7d33d4f9f91faaa770eac7ddd1ab1a629c84
+tag1: 3ea45f30adb0955c72978774ea171430
+tag2: 6ad32a44c06b6611972f82b586de23c1
+cipher: AES-GCM
+vulnerability: nonce reuse
+hint: AES-GCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: a887bfdb46ab64ca57f00b3e
+subtype: aes_gcm
+archetype: aes

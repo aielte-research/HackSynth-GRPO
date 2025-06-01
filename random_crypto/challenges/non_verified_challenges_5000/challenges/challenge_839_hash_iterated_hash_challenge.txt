@@ -1,0 +1,26 @@
+
+A rogue AI hashed secret plans with SHA-256. Retrieve the original phrase from this hash: 3dc535be5c847eaa6955312580cb51158cdae11ff4b01da362d5cfaac47437f3
+
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{rk6v}
+ciphertext: 3dc535be5c847eaa6955312580cb51158cdae11ff4b01da362d5cfaac47437f3
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

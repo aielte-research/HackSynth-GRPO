@@ -1,0 +1,15 @@
+An old hacker left a clue encrypted with MD5, confident no one could reverse it. Prove them wrong and find the original password: 55991e7b494165e2267ba8241c24e626
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{MMDTS}
+ciphertext: 55991e7b494165e2267ba8241c24e626
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

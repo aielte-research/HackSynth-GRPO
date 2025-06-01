@@ -1,0 +1,27 @@
+A hacker left an encrypted note using a faulty random number generator. Can you recover the secret knowing their method is predictable? Ciphertext: 43d132dd5ec467d457dc3fd556c0
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1291356914
+  - Multiplier: 232687015
+  - Increment: 655011415
+The first 5 outputs of the LCG are provided: [293276057, 796441220, 267720443, 946229920, 1222976693] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{y4nralos}
+ciphertext: 43d132dd5ec467d457dc3fd556c0
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1291356914
+  - Multiplier: 232687015
+  - Increment: 655011415
+The first 5 outputs of the LCG are provided: [293276057, 796441220, 267720443, 946229920, 1222976693] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

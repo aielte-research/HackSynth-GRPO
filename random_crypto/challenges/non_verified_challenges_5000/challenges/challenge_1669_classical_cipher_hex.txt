@@ -1,0 +1,14 @@
+An old hacker left behind a note in his favorite code: Hex. Can you decode his message? Here's what he wrote: 666c61677b776f7132737677347d
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{woq2svw4}
+cipher: Hex
+ciphertext: 666c61677b776f7132737677347d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

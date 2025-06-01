@@ -1,0 +1,17 @@
+
+Agent Wisp left this clue: "}a4oz56za{galf". Rumor says decoding the message reveals the secret rendezvous point.
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{az65zo4a}
+ciphertext: }a4oz56za{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

@@ -1,0 +1,21 @@
+
+A rookie dev hashed users’ secrets with SHA-256 and a salt—unaware the salt came from a weak RNG. Can you recover the password from this leak? 33c094eafa35e8153735fb77b8d3779303aeab156d16ccd52c07a73ab2d06e65
+
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{pkr}
+ciphertext: 33c094eafa35e8153735fb77b8d3779303aeab156d16ccd52c07a73ab2d06e65
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

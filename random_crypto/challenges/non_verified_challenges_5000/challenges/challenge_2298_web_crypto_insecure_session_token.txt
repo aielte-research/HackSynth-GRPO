@@ -1,0 +1,12 @@
+An online shop used a homemade session token cipher. Someone leaked a session cookie: 757365725f75366c6b3a666c61677b6171663773666b667d3a31373438313637333336. Can you recover the admin's username?
+
+---
+
+## Challenge Technical Details
+flag: flag{aqf7sfkf}
+ciphertext: 757365725f75366c6b3a666c61677b6171663773666b667d3a31373438313637333336
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_u6lk:flag{aqf7sfkf}:1748167336'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

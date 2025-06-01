@@ -1,0 +1,19 @@
+
+Intercepted during a secret meeting, this encoded note holds the password. We suspect a Playfair cipher was used. Can you decrypt it? onaoifclipmvpwohbpawifclipcpoxiahuarohgptothaoifclipmvpwohappfrdhzfiycdmbdpvlrghvmwspnthogblhkoxadkgritoohalcpsnnpabfiakavdroycopnozpnthrloiablsdelxsxbeck
+
+
+The flag format is flag{...}
+The keyword is: brmmcbve
+
+---
+
+## Challenge Technical Details
+flag: flag{kyqyubml}
+ciphertext: onaoifclipmvpwohbpawifclipcpoxiahuarohgptothaoifclipmvpwohappfrdhzfiycdmbdpvlrghvmwspnthogblhkoxadkgritoohalcpsnnpabfiakavdroycopnozpnthrloiablsdelxsxbeck
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: brmmcbve
+extra_info: The playfair table is [['b', 'r', 'm', 'c', 'v'], ['e', 'a', 'd', 'f', 'g'], ['h', 'i', 'k', 'l', 'n'], ['o', 'p', 'q', 's', 't'], ['u', 'w', 'x', 'y', 'z']]
+subtype: playfair
+archetype: classical_cipher

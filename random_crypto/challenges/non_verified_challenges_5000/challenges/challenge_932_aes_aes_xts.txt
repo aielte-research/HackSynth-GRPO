@@ -1,0 +1,15 @@
+Recovered from a hacker’s laptop, this ciphertext1:0657e03bf55049fdf0ad9151dbf263a6, ciphertext2: 8b4bab822cf9f5fc13b015ff46602c3633b9a1748323d52aa6e97b313b2f2ee9 was encrypted using AES-XTS. Can you retrieve the original data before it’s lost forever?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{wdtjrx24}
+ciphertext: ciphertext1:0657e03bf55049fdf0ad9151dbf263a6, ciphertext2: 8b4bab822cf9f5fc13b015ff46602c3633b9a1748323d52aa6e97b313b2f2ee9
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 2a6d8fe5cb31f5209db0eeb537236660
+subtype: aes_xts
+archetype: aes

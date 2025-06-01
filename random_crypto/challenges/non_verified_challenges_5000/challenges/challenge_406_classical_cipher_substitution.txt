@@ -1,0 +1,15 @@
+An intercepted message from a rival hacker group uses an unknown letter substitution. Can you reveal the secret by decoding this Substitution cipher? Ciphertext: st dayhvrcauhwy, u zfezvsvfvsrt dshwqa sz u xqvwrl ro qtdayhvstc st gwsdw ftsvz ro hjustvqmv uaq aqhjudql gsvw vwq dshwqavqmv, st u lqostql xuttqa, gsvw vwq wqjh ro u pqy; vwq "ftsvz" xuy eq zstcjq jqvvqaz (vwq xrzv drxxrt), husaz ro jqvvqaz, vashjqvz ro jqvvqaz, xsmvfaqz ro vwq uerkq, utl zr oravw. vwq aqdqskqa lqdshwqaz vwq vqmv ey hqaoraxstc vwq stkqazq zfezvsvfvsrt hardqzz vr qmvaudv vwq rascstuj xqzzucq. jspqgszq, nudbfqz bfsdpjy ishhql vwarfcw u bfqzvsrt rt iqar-ptrgjqlcq harroz, qtzfastc tr dasvsduj jqvvqa guz jqov rfv ro rfa dayhvrcauhwsd hfiijq.ojuc{to7oqpo2}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{nf7fekf2}
+ciphertext: st dayhvrcauhwy, u zfezvsvfvsrt dshwqa sz u xqvwrl ro qtdayhvstc st gwsdw ftsvz ro hjustvqmv uaq aqhjudql gsvw vwq dshwqavqmv, st u lqostql xuttqa, gsvw vwq wqjh ro u pqy; vwq "ftsvz" xuy eq zstcjq jqvvqaz (vwq xrzv drxxrt), husaz ro jqvvqaz, vashjqvz ro jqvvqaz, xsmvfaqz ro vwq uerkq, utl zr oravw. vwq aqdqskqa lqdshwqaz vwq vqmv ey hqaoraxstc vwq stkqazq zfezvsvfvsrt hardqzz vr qmvaudv vwq rascstuj xqzzucq. jspqgszq, nudbfqz bfsdpjy ishhql vwarfcw u bfqzvsrt rt iqar-ptrgjqlcq harroz, qtzfastc tr dasvsduj jqvvqa guz jqov rfv ro rfa dayhvrcauhwsd hfiijq.ojuc{to7oqpo2}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'u', 'b': 'e', 'c': 'd', 'd': 'l', 'e': 'q', 'f': 'o', 'g': 'c', 'h': 'w', 'i': 's', 'j': 'n', 'k': 'p', 'l': 'j', 'm': 'x', 'n': 't', 'o': 'r', 'p': 'h', 'q': 'b', 'r': 'a', 's': 'z', 't': 'v', 'u': 'f', 'v': 'k', 'w': 'g', 'x': 'm', 'y': 'y', 'z': 'i'}
+subtype: substitution
+archetype: classical_cipher

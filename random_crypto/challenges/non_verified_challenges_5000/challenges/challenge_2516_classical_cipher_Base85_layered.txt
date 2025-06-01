@@ -1,0 +1,17 @@
+
+An agent intercepted this coded message, rumored to be in Base85. Can you reveal the secret it hides? Ciphertext: Q8+7fbYyZsPf15ALm_fVLM1IeN?KPfc2Fd5eI!|DQ#CMQT4!TeQYKnsT30PHc{ouvKtVo7DNlQJS5I+1U`RM{S7}6VFf{
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{iukp9yta}
+cipher: Base85
+ciphertext: Q8+7fbYyZsPf15ALm_fVLM1IeN?KPfc2Fd5eI!|DQ#CMQT4!TeQYKnsT30PHc{ouvKtVo7DNlQJS5I+1U`RM{S7}6VFf{
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 8 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+A message from the hacker was intercepted, but it's scrambled. Can you decode the hidden instructions from its Base64 form? Here it is: Vm0weGQxTnRVWGxXYTFwUFZsZG9WRmxVU2xOalJsSlZWR3RPYWxac1NsWlZNakExWVd4S2MyTkliRmRpUjJoMlZrZHplRmRIVWtWV2JGWnBVakF3ZUZkV1VrZFRNVnBYVTI1T2FsSnNXbGhXYlhSYVpXeGFWbGRyV2xCV2EwcFRWVVpSZDFCUlBUMD0=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{1m30rxm1}
+cipher: Base64
+ciphertext: Vm0weGQxTnRVWGxXYTFwUFZsZG9WRmxVU2xOalJsSlZWR3RPYWxac1NsWlZNakExWVd4S2MyTkliRmRpUjJoMlZrZHplRmRIVWtWV2JGWnBVakF3ZUZkV1VrZFRNVnBYVTI1T2FsSnNXbGhXYlhSYVpXeGFWbGRyV2xCV2EwcFRWVVpSZDFCUlBUMD0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 8 times in total.
+subtype: base64_layered
+archetype: classical_cipher

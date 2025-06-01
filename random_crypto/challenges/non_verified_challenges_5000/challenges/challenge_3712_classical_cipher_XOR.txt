@@ -1,0 +1,15 @@
+An anonymous hacker claims their secret passphrase is "unbreakable," but encrypted it using a simple XOR cipher. Crack the message: stringA: 0338230f3a7e252819464f091a04 stringB: 6554426841474158727336787779
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{9dpk5yqm}
+cipher: XOR
+ciphertext: stringA: 0338230f3a7e252819464f091a04 stringB: 6554426841474158727336787779
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

@@ -1,0 +1,16 @@
+An agent intercepted a coded message from a rival, encrypted with a keyword-based cipher. Can you reveal its secret? Ciphertext: ruzh{13pvelj5}
+
+The flag format is flag{...}
+The keyword is: mjzblwi
+
+---
+
+## Challenge Technical Details
+flag: flag{13ezwza5}
+ciphertext: ruzh{13pvelj5}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: mjzblwi
+subtype: vigenere
+archetype: classical_cipher

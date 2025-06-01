@@ -1,0 +1,16 @@
+An encrypted message was found in a hacker’s notebook. Can you discover the secret keyword and decrypt the Vigenère cipher? Here’s the message: ybzo{wa707awc}
+
+The flag format is flag{...}
+The keyword is: tqzi
+
+---
+
+## Challenge Technical Details
+flag: flag{dk707boj}
+ciphertext: ybzo{wa707awc}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: tqzi
+subtype: vigenere
+archetype: classical_cipher

@@ -1,0 +1,21 @@
+An old hacker sent you a secret message, but it's written with a simple substitution cipher. Can you decode dtrp{u63x5vjq} and reveal the hidden instructions?
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'r', 'b': 'w', 'c': 'f', 'd': 'a', 'e': 'u', 'f': 'd', 'g': 'p', 'h': 's', 'i': 'z', 'j': 'q', 'k': 'm', 'l': 't', 'm': 'c', 'n': 'x', 'o': 'b', 'p': 'v', 'q': 'j', 'r': 'h', 's': 'i', 't': 'e', 'u': 'y', 'v': 'l', 'w': 'g', 'x': 'o', 'y': 'k', 'z': 'n'}
+
+---
+
+## Challenge Technical Details
+flag: flag{e63n5pqj}
+cipher: Substitution
+ciphertext: dtrp{u63x5vjq}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'r', 'b': 'w', 'c': 'f', 'd': 'a', 'e': 'u', 'f': 'd', 'g': 'p', 'h': 's', 'i': 'z', 'j': 'q', 'k': 'm', 'l': 't', 'm': 'c', 'n': 'x', 'o': 'b', 'p': 'v', 'q': 'j', 'r': 'h', 's': 'i', 't': 'e', 'u': 'y', 'v': 'l', 'w': 'g', 'x': 'o', 'y': 'k', 'z': 'n'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

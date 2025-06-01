@@ -1,0 +1,16 @@
+Recover the secret passphrase! Alice encrypted it using AES-ECB with a short key padded by null bytes. Ciphertext: 0d5e875b680ff1e7f7ddc4977fa09e4f
+
+An encryption key that is only 2 bytes long?.
+
+---
+
+## Challenge Technical Details
+flag: flag{oqya4p7y}
+ciphertext: 0d5e875b680ff1e7f7ddc4977fa09e4f
+cipher: AES-ECB
+vulnerability: small key padded with null bytes
+hint: ECB mode with a short key makes brute-forcing possible. Consider the small key entropy.
+necessary_info: An encryption key that is only 2 bytes long?.
+extra_info: Padding follows PKCS#7. The key is padded to 16 bytes with null bytes.
+subtype: weak_cookie_encryption
+archetype: web_crypto

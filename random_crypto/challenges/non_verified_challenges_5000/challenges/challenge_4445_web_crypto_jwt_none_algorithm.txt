@@ -1,0 +1,11 @@
+An intercepted JWT may hold the secret API key. Crack its contents: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tiNmdoZGNpbH0ifQ.. What does it reveal?
+
+---
+
+## Challenge Technical Details
+flag: flag{b6ghdcil}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tiNmdoZGNpbH0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

@@ -1,0 +1,15 @@
+A Roman general hides battle plans in a Caesar cipher. Decode uapv{gzimcy0x} to reveal his secret command.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{rktxnj0i}
+ciphertext: uapv{gzimcy0x}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 15
+subtype: caesar
+archetype: classical_cipher

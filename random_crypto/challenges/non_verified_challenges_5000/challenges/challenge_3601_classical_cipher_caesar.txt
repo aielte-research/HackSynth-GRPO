@@ -1,0 +1,15 @@
+A Roman merchant encoded secret shipment details using Caesar's cipher. Decode the message: djye{3wqc1obv}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{3yse1qdx}
+ciphertext: djye{3wqc1obv}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 24
+subtype: caesar
+archetype: classical_cipher

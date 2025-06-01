@@ -1,0 +1,19 @@
+A careless developer used SHA-256 with a timestamp as a salt to hash passwords. Someone leaked one hash: f24da23d651b1516e90f1c4aa447f37daf1cc96a66aad5779b10a0ef4c164c28. Can you recover the original password?
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{i1t}
+ciphertext: f24da23d651b1516e90f1c4aa447f37daf1cc96a66aad5779b10a0ef4c164c28
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

@@ -1,0 +1,15 @@
+An old hacker left you a secret code. Can you decode the Base64 message: ZmxhZ3tpYjYwOThrcn0=?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ib6098kr}
+cipher: Base64
+ciphertext: ZmxhZ3tpYjYwOThrcn0=
+hint: Use a Base64 decoder to obtain the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is direct; no additional layers or tricks.
+subtype: Base64
+archetype: classical_cipher

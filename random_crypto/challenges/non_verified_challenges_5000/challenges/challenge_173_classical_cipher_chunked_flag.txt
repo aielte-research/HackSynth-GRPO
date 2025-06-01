@@ -1,0 +1,15 @@
+The vault uses a secret ChunkedFlag cipher for storage. The intercepted message below may lead to the flag—if you can decode its chunks: fla g{s hx4 u6 in }
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{shx4u6in}
+ciphertext: fla g{s hx4 u6 in }
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

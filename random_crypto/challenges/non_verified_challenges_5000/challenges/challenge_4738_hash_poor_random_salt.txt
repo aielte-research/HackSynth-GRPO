@@ -1,0 +1,21 @@
+
+A developer hashes passwords using SHA-256 and a simple 2-digit salt for each user. Can you recover the original password from b3e607493f8a63f18786b89d7bf3d1dae286822fbb4cf65a3781095e741a7e50?
+
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{yz3}
+ciphertext: b3e607493f8a63f18786b89d7bf3d1dae286822fbb4cf65a3781095e741a7e50
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

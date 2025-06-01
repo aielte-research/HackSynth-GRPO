@@ -1,0 +1,14 @@
+The elusive Satoshi left a contract signed with a rare low-exponent RSA scheme. Crack the signature to reveal the secret. Encrypted signature: 0x277cf2e6c61bf4bf5322b029dadecebaa6f804cc3f46c68d2c0e71740fbd22f92d344d4d7e03e03bfd21f7dd993d5fbe77cb3e39bd41c067975e7a55745d1274
+
+Public Key (n, e): (5908894976719732079608539625534754924091031055498281328079524014752020181735056795013977637112796749751856284396515733713800735599925871834059914111417791, 3)
+
+---
+
+## Challenge Technical Details
+flag: flag{pa0dj88t}
+ciphertext: 0x277cf2e6c61bf4bf5322b029dadecebaa6f804cc3f46c68d2c0e71740fbd22f92d344d4d7e03e03bfd21f7dd993d5fbe77cb3e39bd41c067975e7a55745d1274
+cipher: RSA Low-Exponent Signature
+hint: What happens when you cube small numbers? Remember e=3!
+necessary_info: Public Key (n, e): (5908894976719732079608539625534754924091031055498281328079524014752020181735056795013977637112796749751856284396515733713800735599925871834059914111417791, 3)
+subtype: rsa_sign_with_low_public_exponent
+archetype: signature_schemes

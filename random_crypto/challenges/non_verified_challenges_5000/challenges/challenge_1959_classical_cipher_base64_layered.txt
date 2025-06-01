@@ -1,0 +1,15 @@
+An archaeologist finds a coded note from a lost expedition. Only Base64 can reveal their hidden message: Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVcxS1IxWnFUbGRpVkZaeVZteFZlRmRIVmtWUmJGWlhWbXR3V1ZaclVrZFRNbEpJVm10a2FGSnRVbGhhVjNoaFZGWmFjbHBJY0d4U2EzQllWbTAxUjFkSFNrZFhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{k2z1i977}
+cipher: Base64
+ciphertext: Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVcxS1IxWnFUbGRpVkZaeVZteFZlRmRIVmtWUmJGWlhWbXR3V1ZaclVrZFRNbEpJVm10a2FGSnRVbGhhVjNoaFZGWmFjbHBJY0d4U2EzQllWbTAxUjFkSFNrZFhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 9 times in total.
+subtype: base64_layered
+archetype: classical_cipher

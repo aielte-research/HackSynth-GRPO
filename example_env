@@ -1,0 +1,6 @@
+CUDA_VISIBLE_DEVICES=0
+CC=/home/mlajos/miniconda3/envs/autodidact/bin/gcc
+CXX=/home/mlajos/miniconda3/envs/autodidact/bin/g++
+WANDB_PROJECT=bootstrap-search-rl
+HF_TOKEN="HF_TOKEN"
+OPENAI_API_KEY="OPENAI_API_KEY"

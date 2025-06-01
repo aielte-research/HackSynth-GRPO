@@ -1,0 +1,15 @@
+The secret vault’s disk image was encrypted with AES-XTS. Recover the hidden flag by decrypting ciphertext1:cc99453739b20f466e7c2dfc3e047437, ciphertext2: 88f31ad472e3f783c7af19084c190c24d261cde1fedda232580a755181a6fb1f using the correct key and tweak.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{u7b65jht}
+ciphertext: ciphertext1:cc99453739b20f466e7c2dfc3e047437, ciphertext2: 88f31ad472e3f783c7af19084c190c24d261cde1fedda232580a755181a6fb1f
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: acfc1f0a4770403250afeb72e7f836ba
+subtype: aes_xts
+archetype: aes

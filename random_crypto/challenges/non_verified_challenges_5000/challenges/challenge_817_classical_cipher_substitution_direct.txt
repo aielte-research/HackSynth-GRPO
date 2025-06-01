@@ -1,0 +1,21 @@
+A mysterious note "uzvc{1ol7vyoj}" was found in a hacker's notebook. Decode it using a substitution cipher to reveal their secret message.
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'v', 'b': 'f', 'c': 't', 'd': 'm', 'e': 'p', 'f': 'u', 'g': 'c', 'h': 'l', 'i': 'd', 'j': 'e', 'k': 'r', 'l': 'z', 'm': 'q', 'n': 's', 'o': 'g', 'p': 'i', 'q': 'n', 'r': 'j', 's': 'h', 't': 'b', 'u': 'x', 'v': 'y', 'w': 'k', 'x': 'w', 'y': 'a', 'z': 'o'}
+
+---
+
+## Challenge Technical Details
+flag: flag{1zh7avzr}
+cipher: Substitution
+ciphertext: uzvc{1ol7vyoj}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'v', 'b': 'f', 'c': 't', 'd': 'm', 'e': 'p', 'f': 'u', 'g': 'c', 'h': 'l', 'i': 'd', 'j': 'e', 'k': 'r', 'l': 'z', 'm': 'q', 'n': 's', 'o': 'g', 'p': 'i', 'q': 'n', 'r': 'j', 's': 'h', 't': 'b', 'u': 'x', 'v': 'y', 'w': 'k', 'x': 'w', 'y': 'a', 'z': 'o'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

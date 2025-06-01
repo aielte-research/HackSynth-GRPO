@@ -1,0 +1,17 @@
+
+A secret alliance encoded their motto using XOR. Can you recover their hidden message from this encrypted text? stringA: 27050b13332945561743285a771e stringB: 41696a74484b353266365a334763
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{bpdquri0}
+cipher: XOR
+ciphertext: stringA: 27050b13332945561743285a771e stringB: 41696a74484b353266365a334763
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

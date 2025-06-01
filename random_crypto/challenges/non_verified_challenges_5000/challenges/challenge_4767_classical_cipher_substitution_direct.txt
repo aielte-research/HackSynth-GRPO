@@ -1,0 +1,21 @@
+A mysterious hacker sent you a scrambled message. They claim only true codebreakers can read it. Can you decrypt the secret in: vxnq{tfvf9vvd}?
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'n', 'b': 'd', 'c': 'y', 'd': 'm', 'e': 'e', 'f': 'v', 'g': 'q', 'h': 'l', 'i': 'f', 'j': 'o', 'k': 'c', 'l': 'x', 'm': 't', 'n': 'w', 'o': 'b', 'p': 'z', 'q': 'i', 'r': 'r', 's': 'h', 't': 's', 'u': 'k', 'v': 'j', 'w': 'a', 'x': 'p', 'y': 'u', 'z': 'g'}
+
+---
+
+## Challenge Technical Details
+flag: flag{mifi9ffb}
+cipher: Substitution
+ciphertext: vxnq{tfvf9vvd}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'n', 'b': 'd', 'c': 'y', 'd': 'm', 'e': 'e', 'f': 'v', 'g': 'q', 'h': 'l', 'i': 'f', 'j': 'o', 'k': 'c', 'l': 'x', 'm': 't', 'n': 'w', 'o': 'b', 'p': 'z', 'q': 'i', 'r': 'r', 's': 'h', 't': 's', 'u': 'k', 'v': 'j', 'w': 'a', 'x': 'p', 'y': 'u', 'z': 'g'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

@@ -1,0 +1,21 @@
+
+Intercepted from a hacker’s radio, this LFSR-encrypted message must be cracked to reveal their next target: 356a3261283f30733b3135372b7b
+
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[6323, 3161, 1580, 33558, 49547, 24773, 12386, 38961, 19480, 42508]
+
+---
+
+## Challenge Technical Details
+flag: flag{9cuh7f1x}
+ciphertext: 356a3261283f30733b3135372b7b
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[6323, 3161, 1580, 33558, 49547, 24773, 12386, 38961, 19480, 42508]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

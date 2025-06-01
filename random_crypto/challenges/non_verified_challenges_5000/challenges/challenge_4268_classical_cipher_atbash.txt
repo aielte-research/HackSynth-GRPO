@@ -1,0 +1,14 @@
+An old manuscript surfaces with a strange note: "Heed the mirror’s secret to unveil my words." The message reads: uozt{0ggknutn}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{0ttpmfgm}
+cipher: Atbash
+ciphertext: uozt{0ggknutn}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

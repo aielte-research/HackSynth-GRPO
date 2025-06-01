@@ -1,0 +1,15 @@
+A Roman general sent secret orders using a simple cipher. Can you reveal the message hidden in his scroll? Here it is: wcrx{5dzcsm9l}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{5milbv9u}
+ciphertext: wcrx{5dzcsm9l}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 17
+subtype: caesar
+archetype: classical_cipher

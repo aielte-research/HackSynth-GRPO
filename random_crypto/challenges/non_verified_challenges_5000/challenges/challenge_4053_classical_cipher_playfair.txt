@@ -1,0 +1,19 @@
+
+An old spy logbook hides the meeting place. Use the Playfair cipher to decrypt wdcnommlchcipxgaspcxommlchqrytcsansxgazwqwpocnommlchcipxgacpaheclvmorbcueaxqpigvicrlxdpovzaipgytackgshqwgagdqrukdxcbmofdibceywsrxduvxdpoipoicbluehanawxt and find where the agents should rendezvous.
+
+
+The flag format is flag{...}
+The keyword is: qybsrzme
+
+---
+
+## Challenge Technical Details
+flag: flag{1e5oso4w}
+ciphertext: wdcnommlchcipxgaspcxommlchqrytcsansxgazwqwpocnommlchcipxgacpaheclvmorbcueaxqpigvicrlxdpovzaipgytackgshqwgagdqrukdxcbmofdibceywsrxduvxdpoipoicbluehanawxt
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: qybsrzme
+extra_info: The playfair table is [['q', 'y', 'b', 's', 'r'], ['z', 'm', 'e', 'a', 'c'], ['d', 'f', 'g', 'h', 'i'], ['k', 'l', 'n', 'o', 'p'], ['t', 'u', 'v', 'w', 'x']]
+subtype: playfair
+archetype: classical_cipher

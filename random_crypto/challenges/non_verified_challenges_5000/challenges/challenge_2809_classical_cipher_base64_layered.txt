@@ -1,0 +1,15 @@
+An anonymous hacker sent you a strange, encoded message. Can you decode the Base64 ciphertext to unveil the secret? The message: VmpJd2VFNUhSa2RpTTNCclUwZDRjbFZxUVRGa2JGSjBZMFprYVZKVVZqRlVWVkYzVUZFOVBRPT0=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{rtch65e6}
+cipher: Base64
+ciphertext: VmpJd2VFNUhSa2RpTTNCclUwZDRjbFZxUVRGa2JGSjBZMFprYVZKVVZqRlVWVkYzVUZFOVBRPT0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 5 times in total.
+subtype: base64_layered
+archetype: classical_cipher

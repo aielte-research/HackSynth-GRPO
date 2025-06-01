@@ -1,0 +1,15 @@
+A secret club encrypts their meeting spot using Base85. The clues are hidden in Q8+6$C09T(Kr2)>FllT?Dp5>4T0>tyaZhPwOiNd6Y-Ax&En-MNO>0tCdQEhAOj=V~A#y)MU^HGRT10kwJ7h6uUSUgoGd@gFI3Z+SQDkFab4^WHD>+eGSw}%pMOa};O>$#yWJF#-J48?|dtP%_LI. Can you decode their location?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{dltk9w6a}
+cipher: Base85
+ciphertext: Q8+6$C09T(Kr2)>FllT?Dp5>4T0>tyaZhPwOiNd6Y-Ax&En-MNO>0tCdQEhAOj=V~A#y)MU^HGRT10kwJ7h6uUSUgoGd@gFI3Z+SQDkFab4^WHD>+eGSw}%pMOa};O>$#yWJF#-J48?|dtP%_LI
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 10 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

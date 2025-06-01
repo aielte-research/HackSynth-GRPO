@@ -1,0 +1,15 @@
+A mysterious radio broadcast interrupts your signal, transmitting this urgent message: ..-. .-.. .- --. { -. -.- --. -- -.. -.... --.. --... } Can you decipher the distress call?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{nkgmd6z7}
+ciphertext: ..-. .-.. .- --. { -. -.- --. -- -.. -.... --.. --... }
+cipher: Morse Code
+hint: Morse Code represents each letter as a series of dots and dashes. Spaces separate letters, and slashes separate words.
+necessary_info: The flag format is flag{...}
+extra_info: Morse Code follows international standards, with letters separated by spaces and words separated by slashes.
+subtype: morse_code
+archetype: classical_cipher

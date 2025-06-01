@@ -1,0 +1,19 @@
+An intern generated password hashes using SHA-256 with a timestamp as the salt. Can you recover the original password from db8cadc77185352c4cbbca532a53e9897e2c6053830f5afe46eb7d0e940fad3f?
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{zrm}
+ciphertext: db8cadc77185352c4cbbca532a53e9897e2c6053830f5afe46eb7d0e940fad3f
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

@@ -1,0 +1,18 @@
+The intern encrypted the flag using RSA, but accidentally used two very small primes. Can you recover the original message from 3861740781514432042?
+
+The flag format is flag{...}
+n=15072358344446513833, e=5309614999662222247
+
+---
+
+## Challenge Technical Details
+flag: flag{fn88w3b4}
+cipher: RSA
+ciphertext: 3861740781514432042
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=15072358344446513833, e=5309614999662222247
+extra_info: p=4217814539, q=3573499547, φ(n)=15072358336655199748
+subtype: small_primes
+archetype: rsa

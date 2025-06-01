@@ -1,0 +1,18 @@
+A rushed developer generated RSA keys with tiny primes. Can you recover the message from the intercepted ciphertext? 7882511923999954980
+
+The flag format is flag{...}
+n=9153707130163947751, e=3388706621597111787
+
+---
+
+## Challenge Technical Details
+flag: flag{r7sslx2u}
+cipher: RSA
+ciphertext: 7882511923999954980
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=9153707130163947751, e=3388706621597111787
+extra_info: p=3293309561, q=2779485791, φ(n)=9153707124091152400
+subtype: small_primes
+archetype: rsa

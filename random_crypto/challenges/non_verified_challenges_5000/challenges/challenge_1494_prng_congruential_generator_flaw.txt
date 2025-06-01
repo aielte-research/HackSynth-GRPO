@@ -1,0 +1,27 @@
+The hacker's secret passphrase was encrypted using a predictable LCG-based cipher. Can you crack 69a11abb74a30bab76a84bed64b0 and reveal the original message?
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 632962591
+  - Multiplier: 107063913
+  - Increment: 92453576
+The first 5 outputs of the LCG are provided: [441960045, 176031993, 253766609, 494256417, 240213739] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{npwye01k}
+ciphertext: 69a11abb74a30bab76a84bed64b0
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 632962591
+  - Multiplier: 107063913
+  - Increment: 92453576
+The first 5 outputs of the LCG are provided: [441960045, 176031993, 253766609, 494256417, 240213739] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

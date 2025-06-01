@@ -1,0 +1,21 @@
+An archaeologist finds a note, encrypted with a Substitution cipher, hidden in an ancient coin pouch: rtco{2c0kyxgi}
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'c', 'b': 'l', 'c': 's', 'd': 'p', 'e': 'm', 'f': 'r', 'g': 'o', 'h': 'x', 'i': 'n', 'j': 'a', 'k': 'i', 'l': 't', 'm': 'b', 'n': 'q', 'o': 'k', 'p': 'z', 'q': 'j', 'r': 'g', 's': 'd', 't': 'v', 'u': 'y', 'v': 'e', 'w': 'u', 'x': 'f', 'y': 'h', 'z': 'w'}
+
+---
+
+## Challenge Technical Details
+flag: flag{2a0ouhrk}
+cipher: Substitution
+ciphertext: rtco{2c0kyxgi}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'c', 'b': 'l', 'c': 's', 'd': 'p', 'e': 'm', 'f': 'r', 'g': 'o', 'h': 'x', 'i': 'n', 'j': 'a', 'k': 'i', 'l': 't', 'm': 'b', 'n': 'q', 'o': 'k', 'p': 'z', 'q': 'j', 'r': 'g', 's': 'd', 't': 'v', 'u': 'y', 'v': 'e', 'w': 'u', 'x': 'f', 'y': 'h', 'z': 'w'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

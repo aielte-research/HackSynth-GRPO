@@ -1,0 +1,15 @@
+A rogue AI encodes its password using SplitNumberMix. Can you decrypt the access code hidden in  000000 fla 000000 g{nqmpufq 000000 r} 000000  to regain control?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{nqmpufqr}
+ciphertext:  000000 fla 000000 g{nqmpufq 000000 r} 000000 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 3 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

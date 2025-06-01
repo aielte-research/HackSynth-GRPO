@@ -1,0 +1,15 @@
+A spy intercepted a secret message, but it’s been scrambled by a simple letter-for-letter substitution. Can you recover the plaintext from gf xkcsnudkqshc, q ypoyngnpnguf xgshtk gy q btnhum ui tfxkcsngfd gf ahgxh pfgny ui swqgfntln qkt ktswqxtm agnh nht xgshtkntln, gf q mtigftm bqfftk, agnh nht htws ui q ztc; nht "pfgny" bqc ot ygfdwt wtnntky (nht buyn xubbuf), sqgky ui wtnntky, nkgswtny ui wtnntky, bglnpkty ui nht qouet, qfm yu iuknh. nht ktxtgetk mtxgshtky nht ntln oc stkiukbgfd nht gfetkyt ypoyngnpnguf skuxtyy nu tlnkqxn nht ukgdgfqw btyyqdt. wgztagyt, vqxrpty rpgxzwc jgsstm nhkupdh q rptynguf uf jtku-zfuawtmdt skuuiy, tfypkgfd fu xkgngxqw wtnntk aqy wtin upn ui upk xkcsnudkqshgx spjjwt.iwqd{9rqgdjzb}?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{9qaigzkm}
+ciphertext: gf xkcsnudkqshc, q ypoyngnpnguf xgshtk gy q btnhum ui tfxkcsngfd gf ahgxh pfgny ui swqgfntln qkt ktswqxtm agnh nht xgshtkntln, gf q mtigftm bqfftk, agnh nht htws ui q ztc; nht "pfgny" bqc ot ygfdwt wtnntky (nht buyn xubbuf), sqgky ui wtnntky, nkgswtny ui wtnntky, bglnpkty ui nht qouet, qfm yu iuknh. nht ktxtgetk mtxgshtky nht ntln oc stkiukbgfd nht gfetkyt ypoyngnpnguf skuxtyy nu tlnkqxn nht ukgdgfqw btyyqdt. wgztagyt, vqxrpty rpgxzwc jgsstm nhkupdh q rptynguf uf jtku-zfuawtmdt skuuiy, tfypkgfd fu xkgngxqw wtnntk aqy wtin upn ui upk xkcsnudkqshgx spjjwt.iwqd{9rqgdjzb}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'q', 'b': 'o', 'c': 'x', 'd': 'm', 'e': 't', 'f': 'i', 'g': 'd', 'h': 'h', 'i': 'g', 'j': 'v', 'k': 'z', 'l': 'w', 'm': 'b', 'n': 'f', 'o': 'u', 'p': 's', 'q': 'r', 'r': 'k', 's': 'y', 't': 'n', 'u': 'p', 'v': 'e', 'w': 'a', 'x': 'l', 'y': 'c', 'z': 'j'}
+subtype: substitution
+archetype: classical_cipher

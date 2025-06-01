@@ -1,0 +1,19 @@
+An intern hashed passwords with SHA-256 and a weak random salt. Can you crack the password from this hash? 5c686c38ed9dbe16ad7bc1362c7478c4a32392628c0e5f303e25b4612dc4f764
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{cnw}
+ciphertext: 5c686c38ed9dbe16ad7bc1362c7478c4a32392628c0e5f303e25b4612dc4f764
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

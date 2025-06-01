@@ -1,0 +1,18 @@
+The server rushed the key setup and picked weak, tiny primes for its RSA encryption. Can you recover the flag from this ciphertext? 10341946893956794594
+
+The flag format is flag{...}
+n=13750123739014668989, e=10197958396320807661
+
+---
+
+## Challenge Technical Details
+flag: flag{by50jk3g}
+cipher: RSA
+ciphertext: 10341946893956794594
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=13750123739014668989, e=10197958396320807661
+extra_info: p=3357773759, q=4095011971, φ(n)=13750123731561883260
+subtype: small_primes
+archetype: rsa

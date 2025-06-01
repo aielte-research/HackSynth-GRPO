@@ -1,0 +1,19 @@
+
+Agent K embedded secret coordinates in a Playfair cipher. Can you recover them from this encrypted message? bgkwmqsizgbqeyifdlxsmqsizgfqasqtikxqiftgurkokwmqsizgbqeyifdfuqutmvqmupktkgbthzhkqbpsdgkoxgbnohasgwobqcurifgefqrmgdfxqmiofttuuvrvdggadgkozhvefxlstmkqfudk
+
+
+The flag format is flag{...}
+The keyword is: wqaczxrt
+
+---
+
+## Challenge Technical Details
+flag: flag{l4wg4sxo}
+ciphertext: bgkwmqsizgbqeyifdlxsmqsizgfqasqtikxqiftgurkokwmqsizgbqeyifdfuqutmvqmupktkgbthzhkqbpsdgkoxgbnohasgwobqcurifgefqrmgdfxqmiofttuuvrvdggadgkozhvefxlstmkqfudk
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: wqaczxrt
+extra_info: The playfair table is [['w', 'q', 'a', 'c', 'z'], ['x', 'r', 't', 'b', 'd'], ['e', 'f', 'g', 'h', 'i'], ['k', 'l', 'm', 'n', 'o'], ['p', 's', 'u', 'v', 'y']]
+subtype: playfair
+archetype: classical_cipher

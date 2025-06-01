@@ -1,0 +1,15 @@
+An anonymous hacker left a secret Base85-encoded message. Can you decode their cryptic note? Ciphertext: Q8sTRJX$6xX;4yHCOAV=cXmBAPh=@sWmii+ZDLVlP&iX!UH
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{bctjchju}
+cipher: Base85
+ciphertext: Q8sTRJX$6xX;4yHCOAV=cXmBAPh=@sWmii+ZDLVlP&iX!UH
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 5 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

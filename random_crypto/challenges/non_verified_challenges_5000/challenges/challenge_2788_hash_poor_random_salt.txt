@@ -1,0 +1,19 @@
+We've hashed secret codes with SHA-256, using simple salts like "1234". Can you recover the original message from 56cb4cd68f53a5ee69a020b2f998ad7537e4fc925c01b96634769f848bc504a0 and expose our predictable mistake?
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{jm2}
+ciphertext: 56cb4cd68f53a5ee69a020b2f998ad7537e4fc925c01b96634769f848bc504a0
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

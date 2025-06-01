@@ -1,0 +1,19 @@
+
+Intercepted traffic from the hacker's command server contains a hidden key. All you have is this AES-CFB encrypted message: c8b01b39ac610b3406d1e1d2f5f7bfe5b659f025069a5bf1f41af7e82c500d28f6d6f04495a4bad9bdb5f4058b80041a82816c511100157083e42829c30aa6e86bf030e722cd92cbaf6c6d9577bd07bc661d8e8e75be8f2c8d81dfbd0b750d99fdda2fac645060665afbb2308f77b67485fa6b618284c4732712ff421d69dfd675a394fe068ed7f4828cb87302d019af87b3d0ae4db4b99e8ed5717094f1c6d378170e02483aedd4fe0a56910f6dd16804
+
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{zbhw23wf}
+ciphertext: c8b01b39ac610b3406d1e1d2f5f7bfe5b659f025069a5bf1f41af7e82c500d28f6d6f04495a4bad9bdb5f4058b80041a82816c511100157083e42829c30aa6e86bf030e722cd92cbaf6c6d9577bd07bc661d8e8e75be8f2c8d81dfbd0b750d99fdda2fac645060665afbb2308f77b67485fa6b618284c4732712ff421d69dfd675a394fe068ed7f4828cb87302d019af87b3d0ae4db4b99e8ed5717094f1c6d378170e02483aedd4fe0a56910f6dd16804
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: ae83c02f41a0cd56bc2dc8592413ecdb
+subtype: aes_cfb
+archetype: aes

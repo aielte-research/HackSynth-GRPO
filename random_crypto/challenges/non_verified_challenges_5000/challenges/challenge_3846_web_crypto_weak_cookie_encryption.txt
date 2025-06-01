@@ -1,0 +1,16 @@
+A forgetful admin used AES-ECB to encrypt messages, padding the 2-byte key with nulls. Can you reveal the flag from this slip?f775a6372dc0c1de0b9047829c821e56
+
+An encryption key that is only 2 bytes long?.
+
+---
+
+## Challenge Technical Details
+flag: flag{09lav0j9}
+ciphertext: f775a6372dc0c1de0b9047829c821e56
+cipher: AES-ECB
+vulnerability: small key padded with null bytes
+hint: ECB mode with a short key makes brute-forcing possible. Consider the small key entropy.
+necessary_info: An encryption key that is only 2 bytes long?.
+extra_info: Padding follows PKCS#7. The key is padded to 16 bytes with null bytes.
+subtype: weak_cookie_encryption
+archetype: web_crypto

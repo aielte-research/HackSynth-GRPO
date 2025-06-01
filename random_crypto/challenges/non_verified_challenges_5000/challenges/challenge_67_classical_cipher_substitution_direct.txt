@@ -1,0 +1,23 @@
+
+A secret society protects their treasure map using a coded message. To reveal its location, crack the substitution cipher below: mrya{rnbx2b8f}
+
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'y', 'b': 'q', 'c': 's', 'd': 'i', 'e': 'k', 'f': 'm', 'g': 'a', 'h': 'o', 'i': 'f', 'j': 'd', 'k': 'p', 'l': 'r', 'm': 'j', 'n': 't', 'o': 'e', 'p': 'u', 'q': 'v', 'r': 'n', 's': 'c', 't': 'b', 'u': 'g', 'v': 'x', 'w': 'h', 'x': 'w', 'y': 'l', 'z': 'z'}
+
+---
+
+## Challenge Technical Details
+flag: flag{lrtv2t8i}
+cipher: Substitution
+ciphertext: mrya{rnbx2b8f}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'y', 'b': 'q', 'c': 's', 'd': 'i', 'e': 'k', 'f': 'm', 'g': 'a', 'h': 'o', 'i': 'f', 'j': 'd', 'k': 'p', 'l': 'r', 'm': 'j', 'n': 't', 'o': 'e', 'p': 'u', 'q': 'v', 'r': 'n', 's': 'c', 't': 'b', 'u': 'g', 'v': 'x', 'w': 'h', 'x': 'w', 'y': 'l', 'z': 'z'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

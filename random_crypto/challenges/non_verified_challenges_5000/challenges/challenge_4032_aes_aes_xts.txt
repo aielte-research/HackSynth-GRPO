@@ -1,0 +1,15 @@
+A mysterious hard drive uses AES-XTS to encrypt crucial data. Can you recover the hidden secret from this disk sector: ciphertext1:16933c4995141d1143dcbdd8ad8012be, ciphertext2: c689d9c5fd7faacb6233e2afc08aaf2a0e0af906200e8605cc7f91cbd3e590ff?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{n0tkqhqz}
+ciphertext: ciphertext1:16933c4995141d1143dcbdd8ad8012be, ciphertext2: c689d9c5fd7faacb6233e2afc08aaf2a0e0af906200e8605cc7f91cbd3e590ff
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 9b7a0748cd7c2bbdf83158be5da2237a
+subtype: aes_xts
+archetype: aes

@@ -1,0 +1,15 @@
+Rumors say the hacker Vinius hid his password using Caesar’s code. Decipher oujp{wy19bjei} to find what he’s protecting.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{np19savz}
+ciphertext: oujp{wy19bjei}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 9
+subtype: caesar
+archetype: classical_cipher

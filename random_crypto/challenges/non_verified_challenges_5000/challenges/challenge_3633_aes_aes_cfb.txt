@@ -1,0 +1,17 @@
+An undercover agent encoded vital coordinates using AES-CFB. Recover the original message from this intercepted ciphertext: bb8190bda45904f845630e59247ed3b28d9d97ed770c90a0d93eabc19cd8478704df22963f241ed21084d4b0172286de4db111baff44494560653b71939156adfcb9cfacd2afc58fd7c795019899ba93fe856b5dd633c231652df8ffe6fab62aba3bf1fcad91c467487855aa8bccc9e8f0eb8add2ef3f00e518f111b383db6e42e5085f97722442e0baa7677355d817932298b77f12b471fbf3003a926d9393369d9a01557f7dfdc75068984e8c132a74b
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{nqat3kj1}
+ciphertext: bb8190bda45904f845630e59247ed3b28d9d97ed770c90a0d93eabc19cd8478704df22963f241ed21084d4b0172286de4db111baff44494560653b71939156adfcb9cfacd2afc58fd7c795019899ba93fe856b5dd633c231652df8ffe6fab62aba3bf1fcad91c467487855aa8bccc9e8f0eb8add2ef3f00e518f111b383db6e42e5085f97722442e0baa7677355d817932298b77f12b471fbf3003a926d9393369d9a01557f7dfdc75068984e8c132a74b
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: 688cdede62f2f290d42ce51f0e9f1583
+subtype: aes_cfb
+archetype: aes

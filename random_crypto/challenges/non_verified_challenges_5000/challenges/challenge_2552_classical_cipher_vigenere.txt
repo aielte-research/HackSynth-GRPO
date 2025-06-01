@@ -1,0 +1,16 @@
+A secret password to the hacker hideout was encoded by Vigenère cipher. The intercepted message is: khmu{b9kbpi8x}. Can you decrypt it and reveal the password?
+
+The flag format is flag{...}
+The keyword is: fwmo
+
+---
+
+## Challenge Technical Details
+flag: flag{w9opbd8b}
+ciphertext: khmu{b9kbpi8x}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: fwmo
+subtype: vigenere
+archetype: classical_cipher

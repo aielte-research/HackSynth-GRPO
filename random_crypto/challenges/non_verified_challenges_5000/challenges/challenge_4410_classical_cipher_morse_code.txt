@@ -1,0 +1,15 @@
+A mysterious radio broadcast relays urgent coordinates in code. Can you decode the message hidden in the signals? Here it is: ..-. .-.. .- --. { .- -.-. -.... .--. ..... ----- ...-- .... }
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ac6p503h}
+ciphertext: ..-. .-.. .- --. { .- -.-. -.... .--. ..... ----- ...-- .... }
+cipher: Morse Code
+hint: Morse Code represents each letter as a series of dots and dashes. Spaces separate letters, and slashes separate words.
+necessary_info: The flag format is flag{...}
+extra_info: Morse Code follows international standards, with letters separated by spaces and words separated by slashes.
+subtype: morse_code
+archetype: classical_cipher

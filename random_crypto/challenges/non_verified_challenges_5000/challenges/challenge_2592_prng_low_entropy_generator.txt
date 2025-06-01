@@ -1,0 +1,21 @@
+
+Alice encrypted her flag with a weak random number generator. She sent you the output: 666c63b97b3467ad31623abd667d. Can you recover her secret?
+
+
+The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [243, 606, 557, 133, 378, 937, 618, 485, 640, 594, 67, 620, 13, 930, 857, 480, 265, 564, 239, 196]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 961)
+
+---
+
+## Challenge Technical Details
+flag: flag{4es1b8cf}
+ciphertext: 666c63b97b3467ad31623abd667d
+cipher: Low-entropy PRNG
+hint: The PRNG seed space is small. You can try brute-forcing all possible seeds to reconstruct the sequence.
+necessary_info: The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [243, 606, 557, 133, 378, 937, 618, 485, 640, 594, 67, 620, 13, 930, 857, 480, 265, 564, 239, 196]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 961)
+extra_info: Since the seed has only 256 possible values, it can be brute-forced to recover the secret number and decrypt the flag.
+subtype: low_entropy_generator
+archetype: prng

@@ -1,0 +1,15 @@
+A rogue developer hid the unlock code for the secret vault using an ASCII Shift cipher. Can you decode their message? Ciphertext: ntio9kry8;
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{1cjq0yy3}
+cipher: ASCII Shift
+ciphertext: ntio9kry8;
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 8
+subtype: ascii_shift
+archetype: classical_cipher

@@ -1,0 +1,18 @@
+An intern used tiny primes for RSA keys. They encrypted the flag: 1775426677424328853. Can you recover the message exploiting the weak primes?
+
+The flag format is flag{...}
+n=10877414610445649477, e=3712883511754088123
+
+---
+
+## Challenge Technical Details
+flag: flag{mmreiwfr}
+cipher: RSA
+ciphertext: 1775426677424328853
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=10877414610445649477, e=3712883511754088123
+extra_info: p=3040014403, q=3578079959, φ(n)=10877414603827555116
+subtype: small_primes
+archetype: rsa

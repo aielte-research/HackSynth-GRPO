@@ -1,0 +1,17 @@
+
+A mysterious hacker left a message in a classic Substitution cipher. Can you reveal its secret? Here is the encrypted note: co exnjdrfxujln, u mhymdcdhdcro ecjlkx cm u wkdlrv rb koexnjdcof co ilcel hocdm rb jaucodkzd uxk xkjauekv icdl dlk ecjlkxdkzd, co u vkbcokv wuookx, icdl dlk lkaj rb u tkn; dlk "hocdm" wun yk mcofak akddkxm (dlk wrmd erwwro), jucxm rb akddkxm, dxcjakdm rb akddkxm, wczdhxkm rb dlk uyrgk, uov mr brxdl. dlk xkekcgkx vkecjlkxm dlk dkzd yn jkxbrxwcof dlk cogkxmk mhymdcdhdcro jxrekmm dr kzdxued dlk rxcfcoua wkmmufk. actkicmk, pueshkm shcetan qcjjkv dlxrhfl u shkmdcro ro qkxr-toriakvfk jxrrbm, komhxcof or excdceua akddkx ium akbd rhd rb rhx exnjdrfxujlce jhqqak.bauf{9dbyprio}
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{9tfbjown}
+ciphertext: co exnjdrfxujln, u mhymdcdhdcro ecjlkx cm u wkdlrv rb koexnjdcof co ilcel hocdm rb jaucodkzd uxk xkjauekv icdl dlk ecjlkxdkzd, co u vkbcokv wuookx, icdl dlk lkaj rb u tkn; dlk "hocdm" wun yk mcofak akddkxm (dlk wrmd erwwro), jucxm rb akddkxm, dxcjakdm rb akddkxm, wczdhxkm rb dlk uyrgk, uov mr brxdl. dlk xkekcgkx vkecjlkxm dlk dkzd yn jkxbrxwcof dlk cogkxmk mhymdcdhdcro jxrekmm dr kzdxued dlk rxcfcoua wkmmufk. actkicmk, pueshkm shcetan qcjjkv dlxrhfl u shkmdcro ro qkxr-toriakvfk jxrrbm, komhxcof or excdceua akddkx ium akbd rhd rb rhx exnjdrfxujlce jhqqak.bauf{9dbyprio}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'u', 'b': 'y', 'c': 'e', 'd': 'v', 'e': 'k', 'f': 'b', 'g': 'f', 'h': 'l', 'i': 'c', 'j': 'p', 'k': 't', 'l': 'a', 'm': 'w', 'n': 'o', 'o': 'r', 'p': 'j', 'q': 's', 'r': 'x', 's': 'm', 't': 'd', 'u': 'h', 'v': 'g', 'w': 'i', 'x': 'z', 'y': 'n', 'z': 'q'}
+subtype: substitution
+archetype: classical_cipher

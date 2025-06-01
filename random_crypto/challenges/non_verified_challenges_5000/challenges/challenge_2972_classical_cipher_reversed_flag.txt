@@ -1,0 +1,15 @@
+A hacker left a hidden password on a forum. It's scrambled backwards. Can you recover the secret? The message: }ve6l68cp{galf
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{pc86l6ev}
+ciphertext: }ve6l68cp{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+A lost Roman scroll holds a hidden password to Caesar’s vault. Decipher the message: yetz{7azfb53w}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{7hgmi53d}
+ciphertext: yetz{7azfb53w}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 19
+subtype: caesar
+archetype: classical_cipher

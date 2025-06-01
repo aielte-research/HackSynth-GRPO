@@ -1,0 +1,18 @@
+An agent smuggled secret data encrypted with AES. Only ciphertext1:7bdf81e7d806a3b83d1e36e5ac54, ciphertext2: 7bdf81e7d85afaef3c5c38a4f954 remains. Can you recover the original message and uncover the plan?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{8m173m4d}
+ciphertext: ciphertext1:7bdf81e7d806a3b83d1e36e5ac54, ciphertext2: 7bdf81e7d85afaef3c5c38a4f954
+tag1: b8ce228376e118d3bf84bfabcb0a3d4f
+tag2: 07c224e2a8a3cb3cfa56d196b13ad4d3
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: e8450b0c08bc035e13437c
+subtype: aes_ccm
+archetype: aes

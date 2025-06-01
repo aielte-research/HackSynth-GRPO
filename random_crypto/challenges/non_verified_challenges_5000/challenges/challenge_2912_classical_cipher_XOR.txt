@@ -1,0 +1,15 @@
+Agent X left a secret message for you. He used an XOR cipher to keep it safe. Can you reveal what he wrote? Ciphertext: stringA: 09262e033609453e15490411660a stringB: 6f4a4f644d653744633965685477
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{lrzvpay2}
+cipher: XOR
+ciphertext: stringA: 09262e033609453e15490411660a stringB: 6f4a4f644d653744633965685477
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

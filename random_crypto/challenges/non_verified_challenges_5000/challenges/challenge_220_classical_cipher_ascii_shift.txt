@@ -1,0 +1,15 @@
+An ancient dev left a message for future coders using a simple ASCII Shift cipher. Can you unveil the secret hidden in kqflojizsjtj?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{jeduneoe}
+cipher: ASCII Shift
+ciphertext: kqflojizsjtj
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 5
+subtype: ascii_shift
+archetype: classical_cipher

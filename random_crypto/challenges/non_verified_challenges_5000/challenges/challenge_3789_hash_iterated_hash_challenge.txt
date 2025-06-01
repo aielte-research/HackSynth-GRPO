@@ -1,0 +1,24 @@
+The hackers left a hash—can you uncover the original password hidden behind this SHA-256 code? Here is your challenge: 494ddd5e929aeec2226a72d5bb44875e1c57aeee1a0a6ef24e244ef40d32f61e
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{weuu}
+ciphertext: 494ddd5e929aeec2226a72d5bb44875e1c57aeee1a0a6ef24e244ef40d32f61e
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

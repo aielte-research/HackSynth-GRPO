@@ -1,0 +1,14 @@
+An archaeologist found a coded inscription in an ancient ruin. Decipher the message using the Atbash cipher: uozt{q11bkrqt}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{j11ypijg}
+cipher: Atbash
+ciphertext: uozt{q11bkrqt}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

@@ -1,0 +1,26 @@
+
+An agent encoded the access code using SHA-256. Can you recover the original secret from this hash? Here is the hash: 7e3e0789701ba6b67698c5001e81dd0470ef869ddfeb546f6cba218350e91d5c
+
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{2fel}
+ciphertext: 7e3e0789701ba6b67698c5001e81dd0470ef869ddfeb546f6cba218350e91d5c
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

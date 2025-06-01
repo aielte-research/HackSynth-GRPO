@@ -1,0 +1,15 @@
+An old email was found, but its secret message is encoded in Base64. Can you decode the hidden text from this string: Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVcxS1IxZHViRmROYWtaSVdWZHplRll4WkhWaVJtUk9ZbXhHTTFkV1kzaFRNVWw0VTI1R1ZXSklRbGhXYWtaS1pXeGFjbFZyWkZSTmJFcFlWVzAxVDJGc1NuTlhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0=?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{yx4d8w8e}
+cipher: Base64
+ciphertext: Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVcxS1IxZHViRmROYWtaSVdWZHplRll4WkhWaVJtUk9ZbXhHTTFkV1kzaFRNVWw0VTI1R1ZXSklRbGhXYWtaS1pXeGFjbFZyWkZSTmJFcFlWVzAxVDJGc1NuTlhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 9 times in total.
+subtype: Base64_layered
+archetype: classical_cipher

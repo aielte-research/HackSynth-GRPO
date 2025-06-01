@@ -1,0 +1,15 @@
+An agent hid a secret under an XOR cipher. Recover the message to uncover their plan: stringA: 2c0e1557017b0c0d341f045e222d stringB: 4a6274307a4f66784e6f66374c50
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{4juzpbin}
+cipher: XOR
+ciphertext: stringA: 2c0e1557017b0c0d341f045e222d stringB: 4a6274307a4f66784e6f66374c50
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

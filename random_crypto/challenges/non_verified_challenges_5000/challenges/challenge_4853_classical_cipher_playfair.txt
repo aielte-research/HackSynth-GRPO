@@ -1,0 +1,19 @@
+
+A forgotten diary names a Playfair cipher as the key to an ancient treasure. The following message was decoded from its pages: xfaoqpuheyzkwegamclcqpuheylzmycqaelbgaoxtvemaoqpuheyzkweganbxpqomipqxwqtnozmbegvkzwavuemvoakvemyaclgyptvgagulzsmuvcnpqgwknoqtwwzvuuovuemebadcndmehcfviml
+
+
+The flag format is flag{...}
+The keyword is: wuiybpoe
+
+---
+
+## Challenge Technical Details
+flag: flag{5okn0vlr}
+ciphertext: xfaoqpuheyzkwegamclcqpuheylzmycqaelbgaoxtvemaoqpuheyzkweganbxpqomipqxwqtnozmbegvkzwavuemvoakvemyaclgyptvgagulzsmuvcnpqgwknoqtwwzvuuovuemebadcndmehcfviml
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: wuiybpoe
+extra_info: The playfair table is [['w', 'u', 'i', 'y', 'b'], ['p', 'o', 'e', 'a', 'c'], ['d', 'f', 'g', 'h', 'k'], ['l', 'm', 'n', 'q', 'r'], ['s', 't', 'v', 'x', 'z']]
+subtype: playfair
+archetype: classical_cipher

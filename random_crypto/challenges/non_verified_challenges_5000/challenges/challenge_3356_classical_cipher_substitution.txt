@@ -1,0 +1,15 @@
+The hacker left a coded clue in your inbox. Decipher the Substitution cipher to reveal the secret phrase: wa kclgqhvcpgfl, p notnqwqoqwha kwgfsc wn p dsqfhy hr sakclgqwav wa xfwkf oawqn hr gbpwaqsuq pcs csgbpksy xwqf qfs kwgfscqsuq, wa p ysrwasy dpaasc, xwqf qfs fsbg hr p isl; qfs "oawqn" dpl ts nwavbs bsqqscn (qfs dhnq khddha), gpwcn hr bsqqscn, qcwgbsqn hr bsqqscn, dwuqocsn hr qfs pthes, pay nh rhcqf. qfs cskswesc yskwgfscn qfs qsuq tl gscrhcdwav qfs waescns notnqwqoqwha gchksnn qh suqcpkq qfs hcwvwapb dsnnpvs. bwisxwns, jpkmosn mowkibl zwggsy qfchovf p mosnqwha ha zsch-iahxbsyvs gchhrn, sanocwav ah kcwqwkpb bsqqsc xpn bsrq hoq hr hoc kclgqhvcpgfwk gozzbs.rbpv{0cd0vcb3}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{0rm0grl3}
+ciphertext: wa kclgqhvcpgfl, p notnqwqoqwha kwgfsc wn p dsqfhy hr sakclgqwav wa xfwkf oawqn hr gbpwaqsuq pcs csgbpksy xwqf qfs kwgfscqsuq, wa p ysrwasy dpaasc, xwqf qfs fsbg hr p isl; qfs "oawqn" dpl ts nwavbs bsqqscn (qfs dhnq khddha), gpwcn hr bsqqscn, qcwgbsqn hr bsqqscn, dwuqocsn hr qfs pthes, pay nh rhcqf. qfs cskswesc yskwgfscn qfs qsuq tl gscrhcdwav qfs waescns notnqwqoqwha gchksnn qh suqcpkq qfs hcwvwapb dsnnpvs. bwisxwns, jpkmosn mowkibl zwggsy qfchovf p mosnqwha ha zsch-iahxbsyvs gchhrn, sanocwav ah kcwqwkpb bsqqsc xpn bsrq hoq hr hoc kclgqhvcpgfwk gozzbs.rbpv{0cd0vcb3}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'p', 'b': 't', 'c': 'k', 'd': 'y', 'e': 's', 'f': 'r', 'g': 'v', 'h': 'f', 'i': 'w', 'j': 'j', 'k': 'i', 'l': 'b', 'm': 'd', 'n': 'a', 'o': 'h', 'p': 'g', 'q': 'm', 'r': 'c', 's': 'n', 't': 'q', 'u': 'o', 'v': 'e', 'w': 'x', 'x': 'u', 'y': 'l', 'z': 'z'}
+subtype: substitution
+archetype: classical_cipher

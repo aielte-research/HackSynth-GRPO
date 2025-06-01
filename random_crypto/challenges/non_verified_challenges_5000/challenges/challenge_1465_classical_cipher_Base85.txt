@@ -1,0 +1,15 @@
+A hacker hid the server password using Base85. Can you decode the secret? Here is the ciphertext: W^7?+dp2e>cQtEqb$t
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{6f3w5kqu}
+cipher: Base85
+ciphertext: W^7?+dp2e>cQtEqb$t
+hint: Use a Base85 decoder to retrieve the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is straightforward; only one layer is used.
+subtype: Base85
+archetype: classical_cipher

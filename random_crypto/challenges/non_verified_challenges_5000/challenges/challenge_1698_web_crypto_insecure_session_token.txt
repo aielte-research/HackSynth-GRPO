@@ -1,0 +1,14 @@
+
+The company’s session tokens are generated using a custom cipher. Can you decrypt the admin token and find the secret? Ciphertext: 757365725f7a3838773a666c61677b656c6c6e376372627d3a31373438313636343635
+
+
+---
+
+## Challenge Technical Details
+flag: flag{elln7crb}
+ciphertext: 757365725f7a3838773a666c61677b656c6c6e376372627d3a31373438313636343635
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_z88w:flag{elln7crb}:1748166465'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

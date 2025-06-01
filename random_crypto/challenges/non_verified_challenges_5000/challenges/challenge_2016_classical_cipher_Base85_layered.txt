@@ -1,0 +1,15 @@
+A rogue AI transmits its secret access code in Base85. Decode Q8+7fbYyZsPf15ALm_fVLM1IeN?KPfc2Ff%WMoDyJS}oZEnYrvVK_A@EnzoFLU2qob!A>vQ87$mNMkd7VNGv8JziomLRb to reclaim control of the system.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{vdygx0ir}
+cipher: Base85
+ciphertext: Q8+7fbYyZsPf15ALm_fVLM1IeN?KPfc2Ff%WMoDyJS}oZEnYrvVK_A@EnzoFLU2qob!A>vQ87$mNMkd7VNGv8JziomLRb
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 8 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

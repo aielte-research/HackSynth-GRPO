@@ -1,0 +1,15 @@
+Intercepted from a compromised hard drive, this ciphertext1:839fdda26e9ddb555fbbac3b322da015, ciphertext2: 572bc57a9d99cd4d5f0d8333189cd2fe780779f79da2b1e15ad4ddba254a1703 was encrypted with AES-XTS. Recover the plaintext to reveal the stolen file's secret contents.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{gzm2bm1t}
+ciphertext: ciphertext1:839fdda26e9ddb555fbbac3b322da015, ciphertext2: 572bc57a9d99cd4d5f0d8333189cd2fe780779f79da2b1e15ad4ddba254a1703
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: c84b163369536b2dc65df2d61efda476
+subtype: aes_xts
+archetype: aes

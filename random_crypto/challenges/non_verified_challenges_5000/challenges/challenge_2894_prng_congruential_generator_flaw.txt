@@ -1,0 +1,27 @@
+The hacker intercepted a message encrypted with an old LCG-based scheme. Can you predict the sequence and recover the flag from this ciphertext: 615661727c5f6962300b6e7b6447?
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 142203380
+  - Multiplier: 38132873
+  - Increment: 78841197
+The first 5 outputs of the LCG are provided: [94915288, 136179741, 120112890, 88557307, 460768] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{eiw71nnc}
+ciphertext: 615661727c5f6962300b6e7b6447
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 142203380
+  - Multiplier: 38132873
+  - Increment: 78841197
+The first 5 outputs of the LCG are provided: [94915288, 136179741, 120112890, 88557307, 460768] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

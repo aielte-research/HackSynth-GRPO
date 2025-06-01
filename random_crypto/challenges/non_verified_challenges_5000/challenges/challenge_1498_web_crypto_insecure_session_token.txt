@@ -1,0 +1,12 @@
+A rushed developer used the Insecure Session Token cipher to protect user sessions. Recover the original session info from this intercepted token: 757365725f787732333a666c61677b70673874656232667d3a31373438313636313538
+
+---
+
+## Challenge Technical Details
+flag: flag{pg8teb2f}
+ciphertext: 757365725f787732333a666c61677b70673874656232667d3a31373438313636313538
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_xw23:flag{pg8teb2f}:1748166158'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

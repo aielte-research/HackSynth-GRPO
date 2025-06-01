@@ -1,0 +1,15 @@
+An old friend sent a cryptic message about hidden treasure. Only those who can break the substitution cipher can reveal its location: rw esxbfjlsqbux, q tcztfrfcfrjw erbuds rt q mdfujn jh dwesxbfrwl rw kureu cwrft jh bgqrwfdyf qsd sdbgqedn krfu fud erbudsfdyf, rw q ndhrwdn mqwwds, krfu fud udgb jh q odx; fud "cwrft" mqx zd trwlgd gdffdst (fud mjtf ejmmjw), bqrst jh gdffdst, fsrbgdft jh gdffdst, mryfcsdt jh fud qzjad, qwn tj hjsfu. fud sdedrads nderbudst fud fdyf zx bdshjsmrwl fud rwadstd tcztfrfcfrjw bsjedtt fj dyfsqef fud jsrlrwqg mdttqld. grodkrtd, vqeicdt icreogx prbbdn fusjclu q icdtfrjw jw pdsj-owjkgdnld bsjjht, dwtcsrwl wj esrfreqg gdffds kqt gdhf jcf jh jcs esxbfjlsqbure bcppgd.hgql{ijrt04eb}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{qois04cp}
+ciphertext: rw esxbfjlsqbux, q tcztfrfcfrjw erbuds rt q mdfujn jh dwesxbfrwl rw kureu cwrft jh bgqrwfdyf qsd sdbgqedn krfu fud erbudsfdyf, rw q ndhrwdn mqwwds, krfu fud udgb jh q odx; fud "cwrft" mqx zd trwlgd gdffdst (fud mjtf ejmmjw), bqrst jh gdffdst, fsrbgdft jh gdffdst, mryfcsdt jh fud qzjad, qwn tj hjsfu. fud sdedrads nderbudst fud fdyf zx bdshjsmrwl fud rwadstd tcztfrfcfrjw bsjedtt fj dyfsqef fud jsrlrwqg mdttqld. grodkrtd, vqeicdt icreogx prbbdn fusjclu q icdtfrjw jw pdsj-owjkgdnld bsjjht, dwtcsrwl wj esrfreqg gdffds kqt gdhf jcf jh jcs esxbfjlsqbure bcppgd.hgql{ijrt04eb}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'q', 'b': 'z', 'c': 'e', 'd': 'n', 'e': 'd', 'f': 'h', 'g': 'l', 'h': 'u', 'i': 'r', 'j': 'v', 'k': 'o', 'l': 'g', 'm': 'm', 'n': 'w', 'o': 'j', 'p': 'b', 'q': 'i', 'r': 's', 's': 't', 't': 'f', 'u': 'c', 'v': 'a', 'w': 'k', 'x': 'y', 'y': 'x', 'z': 'p'}
+subtype: substitution
+archetype: classical_cipher

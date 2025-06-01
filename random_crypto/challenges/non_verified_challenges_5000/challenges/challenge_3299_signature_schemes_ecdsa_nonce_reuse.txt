@@ -1,0 +1,24 @@
+Rivals intercepted two ECDSA-signed messages from the same wallet, both signed with the same nonce. Can you recover the private key from Sig1: c050c3f0b8d45b9e093a91cb96d097b24100e66585d0d8561e01c1231837493f54f90dc422ba779b1808685eee08737fccd9f791eab0cc453793219bbfac023d
+Sig2: c050c3f0b8d45b9e093a91cb96d097b24100e66585d0d8561e01c1231837493f3ef0f1378f6d3329ab71168e8180aa8fd4d9cbe6f2dda6cc0dd6e623df490025?
+
+Public Key (x,y): (107959610290952496409893069768071063846557766440094322253592227060209961693103, 75590482698035645259540595955555402338549306198464915754893596021353529030842)
+Messages:
+1. CTF challenge message
+2. Second signed message
+Curve: secp256k1The flag format is flag{hex(private_key)}
+
+---
+
+## Challenge Technical Details
+flag: flag{8b6bb78f913021fbfb2fe9657eaceb086bb526a74576966c4b63caccc66f48ef}
+ciphertext: Sig1: c050c3f0b8d45b9e093a91cb96d097b24100e66585d0d8561e01c1231837493f54f90dc422ba779b1808685eee08737fccd9f791eab0cc453793219bbfac023d
+Sig2: c050c3f0b8d45b9e093a91cb96d097b24100e66585d0d8561e01c1231837493f3ef0f1378f6d3329ab71168e8180aa8fd4d9cbe6f2dda6cc0dd6e623df490025
+cipher: ECDSA Nonce Reuse
+hint: Identical nonce usage breaks ECDSA security. What's common between the signatures?
+necessary_info: Public Key (x,y): (107959610290952496409893069768071063846557766440094322253592227060209961693103, 75590482698035645259540595955555402338549306198464915754893596021353529030842)
+Messages:
+1. CTF challenge message
+2. Second signed message
+Curve: secp256k1The flag format is flag{hex(private_key)}
+subtype: ecdsa_nonce_reuse
+archetype: signature_schemes

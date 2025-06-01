@@ -1,0 +1,15 @@
+An old hacker left behind a strange note. Decipher ds wnrahxvncakr, c teuthdhehdxs wdakbn dt c ybhkxo xp bswnrahdsv ds mkdwk esdht xp ajcdshblh cnb nbajcwbo mdhk hkb wdakbnhblh, ds c obpdsbo ycssbn, mdhk hkb kbja xp c gbr; hkb "esdht" ycr ub tdsvjb jbhhbnt (hkb yxth wxyyxs), acdnt xp jbhhbnt, hndajbht xp jbhhbnt, ydlhenbt xp hkb cuxqb, cso tx pxnhk. hkb nbwbdqbn obwdakbnt hkb hblh ur abnpxnydsv hkb dsqbntb teuthdhehdxs anxwbtt hx blhncwh hkb xndvdscj ybttcvb. jdgbmdtb, icwzebt zedwgjr fdaabo hknxevk c zebthdxs xs fbnx-gsxmjbovb anxxpt, bstendsv sx wndhdwcj jbhhbn mct jbph xeh xp xen wnrahxvncakdw aeffjb.pjcv{l6ybi2f8} using a classic Substitution cipher to reveal the hidden password.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{x6mej2z8}
+ciphertext: ds wnrahxvncakr, c teuthdhehdxs wdakbn dt c ybhkxo xp bswnrahdsv ds mkdwk esdht xp ajcdshblh cnb nbajcwbo mdhk hkb wdakbnhblh, ds c obpdsbo ycssbn, mdhk hkb kbja xp c gbr; hkb "esdht" ycr ub tdsvjb jbhhbnt (hkb yxth wxyyxs), acdnt xp jbhhbnt, hndajbht xp jbhhbnt, ydlhenbt xp hkb cuxqb, cso tx pxnhk. hkb nbwbdqbn obwdakbnt hkb hblh ur abnpxnydsv hkb dsqbntb teuthdhehdxs anxwbtt hx blhncwh hkb xndvdscj ybttcvb. jdgbmdtb, icwzebt zedwgjr fdaabo hknxevk c zebthdxs xs fbnx-gsxmjbovb anxxpt, bstendsv sx wndhdwcj jbhhbn mct jbph xeh xp xen wnrahxvncakdw aeffjb.pjcv{l6ybi2f8}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'c', 'b': 'u', 'c': 'w', 'd': 'o', 'e': 'b', 'f': 'p', 'g': 'v', 'h': 'k', 'i': 'd', 'j': 'i', 'k': 'g', 'l': 'j', 'm': 'y', 'n': 's', 'o': 'x', 'p': 'a', 'q': 'z', 'r': 'n', 's': 't', 't': 'h', 'u': 'e', 'v': 'q', 'w': 'm', 'x': 'l', 'y': 'r', 'z': 'f'}
+subtype: substitution
+archetype: classical_cipher

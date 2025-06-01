@@ -1,0 +1,15 @@
+A secret file on the lost laptop of a whistleblower was encrypted with AES-XTS. Can you extract the truth from the encoded message: ciphertext1:7faafb5228dd0f37fff3f37b2aacbaf5, ciphertext2: f9864794c3ab4c859bcef92da7f6074659339749bad36f0c2f80adb49734db32?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{v57vqgtm}
+ciphertext: ciphertext1:7faafb5228dd0f37fff3f37b2aacbaf5, ciphertext2: f9864794c3ab4c859bcef92da7f6074659339749bad36f0c2f80adb49734db32
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 3893146368ddf1a292cbf66e7b5ef125
+subtype: aes_xts
+archetype: aes

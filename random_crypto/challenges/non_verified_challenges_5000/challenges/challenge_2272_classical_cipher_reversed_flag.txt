@@ -1,0 +1,15 @@
+Agent Zero hid the password by writing it backwards. Recover the secret by reversing this string: }448g446i{galf
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{i644g844}
+ciphertext: }448g446i{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

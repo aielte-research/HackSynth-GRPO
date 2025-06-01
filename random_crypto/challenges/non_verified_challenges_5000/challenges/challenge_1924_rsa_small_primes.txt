@@ -1,0 +1,18 @@
+Someone rushed an RSA implementation and picked tiny primes for key generation. Recover the secret message: 6885939978610537529
+
+The flag format is flag{...}
+n=8348559720739740571, e=3168717079447778759
+
+---
+
+## Challenge Technical Details
+flag: flag{49adky8w}
+cipher: RSA
+ciphertext: 6885939978610537529
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=8348559720739740571, e=3168717079447778759
+extra_info: p=2708854451, q=3081952121, φ(n)=8348559714948934000
+subtype: small_primes
+archetype: rsa

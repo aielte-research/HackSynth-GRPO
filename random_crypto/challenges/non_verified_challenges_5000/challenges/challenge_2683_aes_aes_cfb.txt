@@ -1,0 +1,17 @@
+A secret agent hid a vital clue in a file encrypted using AES-CFB mode. Only those who recover the original message from 679af27b1b5e241656c20c45ef8399bf3ba81d23d912475df680acaf0332c496695e54646fa55d09936d28cbccc49eed80872deb8e8253ceea189c2e6070f1213c8b323742d75372e0ac1a46848458bd08cb8afe566334a4c0e469446f1ee02b44b5650c065fca539b7922de76a9e2d4eeb64a7052babe604223671bddc78057f64f239aeb59b5b82fd220f39a96e99fe9998ed768732ed110f1984e87aa80510e2265dc4962a1b7a591ad6566bcf87c48 can access the next mission.
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{fujfietf}
+ciphertext: 679af27b1b5e241656c20c45ef8399bf3ba81d23d912475df680acaf0332c496695e54646fa55d09936d28cbccc49eed80872deb8e8253ceea189c2e6070f1213c8b323742d75372e0ac1a46848458bd08cb8afe566334a4c0e469446f1ee02b44b5650c065fca539b7922de76a9e2d4eeb64a7052babe604223671bddc78057f64f239aeb59b5b82fd220f39a96e99fe9998ed768732ed110f1984e87aa80510e2265dc4962a1b7a591ad6566bcf87c48
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: 280754d9b37cf55814fce2973dacc6f4
+subtype: aes_cfb
+archetype: aes

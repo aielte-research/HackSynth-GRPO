@@ -1,0 +1,21 @@
+An ancient message encodes the secret password for entry. Decipher the Substitution cipher below to reveal the hidden word: vuan{a6it5fry}
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'a', 'b': 'b', 'c': 'r', 'd': 'g', 'e': 'h', 'f': 'v', 'g': 'n', 'h': 'o', 'i': 's', 'j': 'j', 'k': 'k', 'l': 'u', 'm': 'c', 'n': 'x', 'o': 'd', 'p': 'l', 'q': 'q', 'r': 'f', 's': 'i', 't': 'm', 'u': 'p', 'v': 'z', 'w': 't', 'x': 'y', 'y': 'e', 'z': 'w'}
+
+---
+
+## Challenge Technical Details
+flag: flag{a6sw5rcx}
+cipher: Substitution
+ciphertext: vuan{a6it5fry}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'a', 'b': 'b', 'c': 'r', 'd': 'g', 'e': 'h', 'f': 'v', 'g': 'n', 'h': 'o', 'i': 's', 'j': 'j', 'k': 'k', 'l': 'u', 'm': 'c', 'n': 'x', 'o': 'd', 'p': 'l', 'q': 'q', 'r': 'f', 's': 'i', 't': 'm', 'u': 'p', 'v': 'z', 'w': 't', 'x': 'y', 'y': 'e', 'z': 'w'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

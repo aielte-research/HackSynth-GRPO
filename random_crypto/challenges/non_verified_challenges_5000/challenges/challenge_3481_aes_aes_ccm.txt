@@ -1,0 +1,18 @@
+An encrypted memo was intercepted from a rival company. It’s protected by AES. Can you decrypt the secret message hidden in ciphertext1:664842b6ffbf4ab6318eb1674ce3, ciphertext2: 664842b6ffb044ea3fc6ad6744e3?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ukla9xb1}
+ciphertext: ciphertext1:664842b6ffbf4ab6318eb1674ce3, ciphertext2: 664842b6ffb044ea3fc6ad6744e3
+tag1: 225edc090cb60064cc7f8950ac86ea9d
+tag2: f0f05ef8b02d7cc748f15da4b4c8b0ec
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: d0a3602e8615062e5c171c
+subtype: aes_ccm
+archetype: aes

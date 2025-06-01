@@ -1,0 +1,17 @@
+
+A mysterious hacker swapped each letter of a secret message with another. Can you reveal the original text from this encrypted note? ew coyhupzolhxy, l imgiueumuepw cehxko ei l vkuxpn pd kwcoyhuewz ew sxecx mweui pd htlewukau lok okhtlckn seux uxk cehxkoukau, ew l nkdewkn vlwwko, seux uxk xkth pd l jky; uxk "mweui" vly gk iewztk tkuukoi (uxk vpiu cpvvpw), hleoi pd tkuukoi, uoehtkui pd tkuukoi, veaumoki pd uxk lgpqk, lwn ip dpoux. uxk okckeqko nkcehxkoi uxk ukau gy hkodpovewz uxk ewqkoik imgiueumuepw hopckii up kauolcu uxk poezewlt vkiilzk. tejkseik, flcrmki rmecjty behhkn uxopmzx l rmkiuepw pw bkop-jwpstknzk hoppdi, kwimoewz wp coeueclt tkuuko sli tkdu pmu pd pmo coyhupzolhxec hmbbtk.dtlz{2jfmv4p0}
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{2kjum4o0}
+ciphertext: ew coyhupzolhxy, l imgiueumuepw cehxko ei l vkuxpn pd kwcoyhuewz ew sxecx mweui pd htlewukau lok okhtlckn seux uxk cehxkoukau, ew l nkdewkn vlwwko, seux uxk xkth pd l jky; uxk "mweui" vly gk iewztk tkuukoi (uxk vpiu cpvvpw), hleoi pd tkuukoi, uoehtkui pd tkuukoi, veaumoki pd uxk lgpqk, lwn ip dpoux. uxk okckeqko nkcehxkoi uxk ukau gy hkodpovewz uxk ewqkoik imgiueumuepw hopckii up kauolcu uxk poezewlt vkiilzk. tejkseik, flcrmki rmecjty behhkn uxopmzx l rmkiuepw pw bkop-jwpstknzk hoppdi, kwimoewz wp coeueclt tkuuko sli tkdu pmu pd pmo coyhupzolhxec hmbbtk.dtlz{2jfmv4p0}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'l', 'b': 'g', 'c': 'c', 'd': 'n', 'e': 'k', 'f': 'd', 'g': 'z', 'h': 'x', 'i': 'e', 'j': 'f', 'k': 'j', 'l': 't', 'm': 'v', 'n': 'w', 'o': 'p', 'p': 'h', 'q': 'r', 'r': 'o', 's': 'i', 't': 'u', 'u': 'm', 'v': 'q', 'w': 's', 'x': 'a', 'y': 'y', 'z': 'b'}
+subtype: substitution
+archetype: classical_cipher

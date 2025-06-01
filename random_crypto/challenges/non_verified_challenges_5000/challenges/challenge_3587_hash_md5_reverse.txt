@@ -1,0 +1,15 @@
+A hacker left an MD5 hash as their calling card. Your mission: reveal the original password using the known MD5 reversing vulnerability. Ciphertext: 5b19629ee1cc17adfd6012aa578b5407
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{aerpo}
+ciphertext: 5b19629ee1cc17adfd6012aa578b5407
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

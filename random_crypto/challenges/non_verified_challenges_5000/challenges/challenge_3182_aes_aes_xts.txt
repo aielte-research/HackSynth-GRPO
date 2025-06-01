@@ -1,0 +1,15 @@
+An encrypted hard drive image hides the flag, but only part of the key was found. Can you decrypt ciphertext1:7e74967b7818dd6e387042bb63a64ee6, ciphertext2: 7226a515d8edcd0a6345d263fcb3580a547cf1c100a0840515ceeaa50ce998be and reveal the secret using AES-XTS?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{f9raef9e}
+ciphertext: ciphertext1:7e74967b7818dd6e387042bb63a64ee6, ciphertext2: 7226a515d8edcd0a6345d263fcb3580a547cf1c100a0840515ceeaa50ce998be
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 4802a00f7658e0c641e0264e965d00eb
+subtype: aes_xts
+archetype: aes

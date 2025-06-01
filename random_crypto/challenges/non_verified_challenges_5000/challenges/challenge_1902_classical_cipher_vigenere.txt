@@ -1,0 +1,16 @@
+An old hacker left a message for their apprentice, encrypted with a repeated-key cipher. Can you reveal the secret hidden in prdg{6bezqb9o}?
+
+The flag format is flag{...}
+The keyword is: kgdasd
+
+---
+
+## Challenge Technical Details
+flag: flag{6jbpky9o}
+ciphertext: prdg{6bezqb9o}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: kgdasd
+subtype: vigenere
+archetype: classical_cipher

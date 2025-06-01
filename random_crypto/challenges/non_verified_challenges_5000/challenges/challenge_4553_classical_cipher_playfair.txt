@@ -1,0 +1,17 @@
+Intercepted spies’ note reads: sonifdwkbasbeipktmnmfdwkbastwabqlpqxpkdqtnptnifdwkbasbeipknbqcubqpdfyhbmpgnsadnvbsvhndptnlkcvewafitiuftnpkeastztdngndfiarxbuqhcrndqondptdauogngebftpmxbw. We suspect they favor Playfair cipher grids. Can you reveal the secret message?
+
+The flag format is flag{...}
+The keyword is: pummhmoi
+
+---
+
+## Challenge Technical Details
+flag: flag{noxra721}
+ciphertext: sonifdwkbasbeipktmnmfdwkbastwabqlpqxpkdqtnptnifdwkbasbeipknbqcubqpdfyhbmpgnsadnvbsvhndptnlkcvewafitiuftnpkeastztdngndfiarxbuqhcrndqondptdauogngebftpmxbw
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: pummhmoi
+extra_info: The playfair table is [['p', 'u', 'm', 'h', 'o'], ['i', 'a', 'b', 'c', 'd'], ['e', 'f', 'g', 'k', 'l'], ['n', 'q', 'r', 's', 't'], ['v', 'w', 'x', 'y', 'z']]
+subtype: playfair
+archetype: classical_cipher

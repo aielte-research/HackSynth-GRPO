@@ -1,0 +1,15 @@
+An anonymous tipster sent a cryptic string—can you decode the Base64 message to reveal the secret? Here it is: Vm1wSmQyVkZOVWhTYTJScFRUTkNjbFZ1Y0ZkVlJteHpWV3hhVG1KSGREUlhhMlIzVkd4SmQyTkVSbFZXVmtZelZVWkZPVkJSUFQwPQ==
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{g6nzqg4n}
+cipher: Base64
+ciphertext: Vm1wSmQyVkZOVWhTYTJScFRUTkNjbFZ1Y0ZkVlJteHpWV3hhVG1KSGREUlhhMlIzVkd4SmQyTkVSbFZXVmtZelZVWkZPVkJSUFQwPQ==
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 6 times in total.
+subtype: base64_layered
+archetype: classical_cipher

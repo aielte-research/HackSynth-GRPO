@@ -1,0 +1,17 @@
+An old ledger conceals a hidden wallet key. To decipher its encrypted passphrase, you'll need to unravel the Hill cipher hiding behind this coded message: ykzsueglchrqansqobpjsvbovcdonjobkidlcpdlqscqwvtiegwmediuixtgugbolonprv
+
+The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+
+---
+
+## Challenge Technical Details
+flag: flag{eratoffn}
+ciphertext: ykzsueglchrqansqobpjsvbovcdonjobkidlcpdlqscqwvtiegwmediuixtgugbolonprv
+cipher: Hill
+hint: Hill ciphers can be broken using known-plaintext attacks and linear algebra mod 26.
+necessary_info: The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+extra_info: The matrix used is: [[23, 16], [10, 19]]
+subtype: hill
+archetype: classical_cipher

@@ -1,0 +1,14 @@
+An old hacker left a clue in a message he claimed reveals "truth through reflection." Can you decrypt the hidden message: uozt{bzp1znqe}?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{yak1amjv}
+cipher: Atbash
+ciphertext: uozt{bzp1znqe}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

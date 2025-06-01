@@ -1,0 +1,19 @@
+The intern encrypted the flag using a PRNG with a poorly chosen short seed. Can you recover the original message from this ciphertext? 666c62307b6d60616c35356f797d
+
+The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [137, 582, 867, 821, 782, 64, 261, 120, 507, 779, 460, 483, 667, 388, 807, 214, 96, 499, 29, 914]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 950)
+
+---
+
+## Challenge Technical Details
+flag: flag{mc6l568y}
+ciphertext: 666c62307b6d60616c35356f797d
+cipher: Low-entropy PRNG
+hint: The PRNG seed space is small. You can try brute-forcing all possible seeds to reconstruct the sequence.
+necessary_info: The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [137, 582, 867, 821, 782, 64, 261, 120, 507, 779, 460, 483, 667, 388, 807, 214, 96, 499, 29, 914]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 950)
+extra_info: Since the seed has only 256 possible values, it can be brute-forced to recover the secret number and decrypt the flag.
+subtype: low_entropy_generator
+archetype: prng

@@ -1,0 +1,15 @@
+An agent sent coordinates encrypted with Base85, but lost the key. All we have is the message: Q8;r{Qc74PHh5S&G<irvP&GYSQaELPCQ^AlC1*omKr&xfX>D~sPd#>GcT7n. Can you recover the original information?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{etpo9qtk}
+cipher: Base85
+ciphertext: Q8;r{Qc74PHh5S&G<irvP&GYSQaELPCQ^AlC1*omKr&xfX>D~sPd#>GcT7n
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 6 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

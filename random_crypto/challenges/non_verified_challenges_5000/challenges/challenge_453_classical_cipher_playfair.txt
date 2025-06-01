@@ -1,0 +1,17 @@
+Intercepted from a clandestine agent, this message uses Playfair encryption: aghkpsvizhpdhrifkzkrpsvizhlzeozpkqmyifzatasqhkpsvizhpdhrifyrtzptqvspzvpwkgzmhdfqdpxrzgsqoghpdfeohobqxttaifgelzsmgzikspirimtpovntzgowzgsqdhxpiklvthxprylxhw. Your mission: reveal its hidden order.
+
+The flag format is flag{...}
+The keyword is: osttazqn
+
+---
+
+## Challenge Technical Details
+flag: flag{p2hirpvg}
+ciphertext: aghkpsvizhpdhrifkzkrpsvizhlzeozpkqmyifzatasqhkpsvizhpdhrifyrtzptqvspzvpwkgzmhdfqdpxrzgsqoghpdfeohobqxttaifgelzsmgzikspirimtpovntzgowzgsqdhxpiklvthxprylxhw
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: osttazqn
+extra_info: The playfair table is [['o', 's', 't', 'a', 'z'], ['q', 'n', 'b', 'c', 'd'], ['e', 'f', 'g', 'h', 'i'], ['k', 'l', 'm', 'p', 'r'], ['u', 'v', 'w', 'x', 'y']]
+subtype: playfair
+archetype: classical_cipher

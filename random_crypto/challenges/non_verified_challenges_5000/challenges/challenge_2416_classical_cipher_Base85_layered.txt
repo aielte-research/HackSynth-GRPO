@@ -1,0 +1,15 @@
+The hacker hid the access code in a Base85-encrypted string. Can you decode Q8+ttdr@OIG*C!rHB%->JZW-vQDiYbb5b>LY<giKXlqDfAxkwvM?+ptVNFkAVNOm)BWPbuPE1P to reveal the secret?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{xej3ta42}
+cipher: Base85
+ciphertext: Q8+ttdr@OIG*C!rHB%->JZW-vQDiYbb5b>LY<giKXlqDfAxkwvM?+ptVNFkAVNOm)BWPbuPE1P
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 7 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

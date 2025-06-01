@@ -1,0 +1,23 @@
+
+A hacker sent a taunting message to the defenders, encoded with a simple letter-swapping scheme. Can you reveal what they said in qodu{9h2rfg8f}?
+
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'd', 'b': 't', 'c': 'b', 'd': 'v', 'e': 'a', 'f': 'q', 'g': 'u', 'h': 'x', 'i': 'i', 'j': 'r', 'k': 'p', 'l': 'o', 'm': 'c', 'n': 'z', 'o': 'g', 'p': 'n', 'q': 's', 'r': 'm', 's': 'l', 't': 'y', 'u': 'h', 'v': 'w', 'w': 'k', 'x': 'e', 'y': 'j', 'z': 'f'}
+
+---
+
+## Challenge Technical Details
+flag: flag{9u2jzo8z}
+cipher: Substitution
+ciphertext: qodu{9h2rfg8f}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'd', 'b': 't', 'c': 'b', 'd': 'v', 'e': 'a', 'f': 'q', 'g': 'u', 'h': 'x', 'i': 'i', 'j': 'r', 'k': 'p', 'l': 'o', 'm': 'c', 'n': 'z', 'o': 'g', 'p': 'n', 'q': 's', 'r': 'm', 's': 'l', 't': 'y', 'u': 'h', 'v': 'w', 'w': 'k', 'x': 'e', 'y': 'j', 'z': 'f'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

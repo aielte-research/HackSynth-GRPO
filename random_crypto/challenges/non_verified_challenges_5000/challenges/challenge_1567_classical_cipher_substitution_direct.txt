@@ -1,0 +1,23 @@
+
+A hacker replaced each letter in the password with a different letter and sent you this code: pkay{7kms1efe}. Can you recover the original secret?
+
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'a', 'b': 'v', 'c': 's', 'd': 't', 'e': 'l', 'f': 'p', 'g': 'y', 'h': 'o', 'i': 'g', 'j': 'n', 'k': 'j', 'l': 'k', 'm': 'e', 'n': 'i', 'o': 'u', 'p': 'w', 'q': 'm', 'r': 'z', 's': 'c', 't': 'f', 'u': 'h', 'v': 'r', 'w': 'b', 'x': 'q', 'y': 'd', 'z': 'x'}
+
+---
+
+## Challenge Technical Details
+flag: flag{7lqc1mtm}
+cipher: Substitution
+ciphertext: pkay{7kms1efe}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'a', 'b': 'v', 'c': 's', 'd': 't', 'e': 'l', 'f': 'p', 'g': 'y', 'h': 'o', 'i': 'g', 'j': 'n', 'k': 'j', 'l': 'k', 'm': 'e', 'n': 'i', 'o': 'u', 'p': 'w', 'q': 'm', 'r': 'z', 's': 'c', 't': 'f', 'u': 'h', 'v': 'r', 'w': 'b', 'x': 'q', 'y': 'd', 'z': 'x'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

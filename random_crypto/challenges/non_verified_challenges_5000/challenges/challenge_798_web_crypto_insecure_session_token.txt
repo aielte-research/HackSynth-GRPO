@@ -1,0 +1,12 @@
+You've intercepted a session cookie encrypted with the Insecure Session Token cipher. Can you recover the original session data from this ciphertext? 757365725f69676c303a666c61677b6d61306761747a6a7d3a31373437343832393437
+
+---
+
+## Challenge Technical Details
+flag: flag{ma0gatzj}
+ciphertext: 757365725f69676c303a666c61677b6d61306761747a6a7d3a31373437343832393437
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_igl0:flag{ma0gatzj}:1747482947'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

@@ -1,0 +1,18 @@
+A famous hacker has hidden the access code to the vault using AES encryption. Can you decrypt ciphertext1:8480be455f935036c3ab7bb8fb61, ciphertext2: 8480be455f9a0d3293f86db6a061 to reveal the secret code?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{f7af7nih}
+ciphertext: ciphertext1:8480be455f935036c3ab7bb8fb61, ciphertext2: 8480be455f9a0d3293f86db6a061
+tag1: d8194ffcbe3ffbbc9b247e8f05118246
+tag2: fd400cb2337e98f26ee9883d711586da
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 29a6fc820aab71b07806f2
+subtype: aes_ccm
+archetype: aes

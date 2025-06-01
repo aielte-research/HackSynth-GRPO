@@ -1,0 +1,15 @@
+Intercepted transmission: "Password hash: 5f9adb341ab3af3c6393061ac886f520". Our contact claims MD5 is flawed—recover the original password using the weakness.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{PAATU}
+ciphertext: 5f9adb341ab3af3c6393061ac886f520
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

@@ -1,0 +1,19 @@
+An intern hashed admin passwords with SHA-256 but reused an easily-guessed salt. Recover the original password from b1c5adb5c20b05038cdbd38c83280a4cc128fb55a43ffd369b32d937dd053756 by exploiting the weak random salt.
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{i5c}
+ciphertext: b1c5adb5c20b05038cdbd38c83280a4cc128fb55a43ffd369b32d937dd053756
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

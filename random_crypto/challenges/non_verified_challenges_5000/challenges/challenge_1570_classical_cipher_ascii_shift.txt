@@ -1,0 +1,15 @@
+An old terminal shows a scrambled password. The engineer recalls all letters were shifted by a secret ASCII value. Can you recover the original from: ntio:r;x<>?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{x2j3px46}
+cipher: ASCII Shift
+ciphertext: ntio:r;x<>
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 8
+subtype: ascii_shift
+archetype: classical_cipher

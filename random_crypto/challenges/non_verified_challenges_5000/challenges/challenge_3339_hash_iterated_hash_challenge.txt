@@ -1,0 +1,24 @@
+Decode the password hidden by ancient hackers using SHA-256. Their encrypted message is: 54459437129d91534a8ba1c7a3c18ade207598ff474f0651e562b544b20c7cd7. Can you crack it and uncover their secret?
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{xqei}
+ciphertext: 54459437129d91534a8ba1c7a3c18ade207598ff474f0651e562b544b20c7cd7
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

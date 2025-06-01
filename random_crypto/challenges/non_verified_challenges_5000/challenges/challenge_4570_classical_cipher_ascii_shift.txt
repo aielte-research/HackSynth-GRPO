@@ -1,0 +1,17 @@
+
+A hacker hid the password using an ASCII Shift cipher. Can you shift each character back to reveal the secret? Ciphertext: kqfl7pl|7y77
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{2kgw2t22}
+cipher: ASCII Shift
+ciphertext: kqfl7pl|7y77
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 5
+subtype: ascii_shift
+archetype: classical_cipher

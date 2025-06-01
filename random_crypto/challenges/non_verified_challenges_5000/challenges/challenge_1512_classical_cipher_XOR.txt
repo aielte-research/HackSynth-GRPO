@@ -1,0 +1,15 @@
+An agent’s secret memo was intercepted and XOR-encrypted. Can you recover the original message from this mysterious cipher? Ciphertext: stringA: 2f292b512c55424837015e15310f stringB: 49454a36576437715131316d5272
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{1u9f0oxc}
+cipher: XOR
+ciphertext: stringA: 2f292b512c55424837015e15310f stringB: 49454a36576437715131316d5272
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

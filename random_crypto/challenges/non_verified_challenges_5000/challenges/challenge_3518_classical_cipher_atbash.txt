@@ -1,0 +1,14 @@
+A mysterious note with reversed letters was found in the archives. Decipher the message below to reveal the hidden truth: uozt{jgdblisu}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{qtwyorhf}
+cipher: Atbash
+ciphertext: uozt{jgdblisu}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

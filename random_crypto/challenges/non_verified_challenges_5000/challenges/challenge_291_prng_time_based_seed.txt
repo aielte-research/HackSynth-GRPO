@@ -1,0 +1,19 @@
+After a server breach, the key logs were erased, but a single message remained: 666c67647b707f3b79386234377d. Can you recover the secret, knowing the cipher relied on synchronized clocks?
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 92796)
+The system time when the encryption process started was around: 2025-05-17 13:44:35 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{py8y8d77}
+ciphertext: 666c67647b707f3b79386234377d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 92796)
+The system time when the encryption process started was around: 2025-05-17 13:44:35 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 1539.
+subtype: time_based_seed
+archetype: prng

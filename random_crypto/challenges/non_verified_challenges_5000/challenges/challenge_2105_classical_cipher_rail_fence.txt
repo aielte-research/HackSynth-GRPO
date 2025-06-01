@@ -1,0 +1,15 @@
+A mysterious note was found at the scene, written in zigzag lines. Can you decrypt this Rail Fence message? f{yvlgu036}awc
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{uw0y3c6v}
+ciphertext: f{yvlgu036}awc
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 3
+subtype: rail_fence
+archetype: classical_cipher

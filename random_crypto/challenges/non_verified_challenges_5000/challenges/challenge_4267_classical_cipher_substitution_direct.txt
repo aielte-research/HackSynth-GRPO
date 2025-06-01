@@ -1,0 +1,21 @@
+A mysterious message labeled "Satoshi's Secret" appeared online. Can you decrypt the classic Substitution cipher and uncover what zghc{jd3jkawu} actually says?
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'h', 'b': 'v', 'c': 'k', 'd': 'r', 'e': 'e', 'f': 'z', 'g': 'c', 'h': 'n', 'i': 'd', 'j': 'x', 'k': 'm', 'l': 'g', 'm': 'f', 'n': 'b', 'o': 'o', 'p': 's', 'q': 'l', 'r': 'w', 's': 't', 't': 'a', 'u': 'p', 'v': 'y', 'w': 'j', 'x': 'i', 'y': 'q', 'z': 'u'}
+
+---
+
+## Challenge Technical Details
+flag: flag{wi3wctrz}
+cipher: Substitution
+ciphertext: zghc{jd3jkawu}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'h', 'b': 'v', 'c': 'k', 'd': 'r', 'e': 'e', 'f': 'z', 'g': 'c', 'h': 'n', 'i': 'd', 'j': 'x', 'k': 'm', 'l': 'g', 'm': 'f', 'n': 'b', 'o': 'o', 'p': 's', 'q': 'l', 'r': 'w', 's': 't', 't': 'a', 'u': 'p', 'v': 'y', 'w': 'j', 'x': 'i', 'y': 'q', 'z': 'u'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

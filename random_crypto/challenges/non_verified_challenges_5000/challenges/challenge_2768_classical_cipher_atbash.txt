@@ -1,0 +1,14 @@
+An ancient scroll was found with a cryptic message. Legend says its secret is hidden with a mirror alphabet. Can you reveal its meaning? uozt{djn2vsdu}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{wqm2ehwf}
+cipher: Atbash
+ciphertext: uozt{djn2vsdu}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

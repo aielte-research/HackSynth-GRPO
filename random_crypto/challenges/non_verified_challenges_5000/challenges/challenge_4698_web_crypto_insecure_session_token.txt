@@ -1,0 +1,14 @@
+
+A developer deployed an early web app using an insecure session token algorithm. Now, a single captured token, 757365725f616d30393a666c61677b366d76683374386b7d3a31373438313730363838, might expose all their user sessions. Can you recover the session secret?
+
+
+---
+
+## Challenge Technical Details
+flag: flag{6mvh3t8k}
+ciphertext: 757365725f616d30393a666c61677b366d76683374386b7d3a31373438313730363838
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_am09:flag{6mvh3t8k}:1748170688'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

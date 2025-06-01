@@ -1,0 +1,17 @@
+An artifact's secret formula was hidden in an encrypted note. The Hill cipher was used. Can you recover the message from this ciphertext? matakalfrxdmnnesfpmpllfcdohokdfpqcinxrinkyoapjzecasgdzkujvrmvnuwbzzrnb
+
+The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+
+---
+
+## Challenge Technical Details
+flag: flag{hikmzqfs}
+ciphertext: matakalfrxdmnnesfpmpllfcdohokdfpqcinxrinkyoapjzecasgdzkujvrmvnuwbzzrnb
+cipher: Hill
+hint: Hill ciphers can be broken using known-plaintext attacks and linear algebra mod 26.
+necessary_info: The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+extra_info: The matrix used is: [[11, 1], [20, 7]]
+subtype: hill
+archetype: classical_cipher

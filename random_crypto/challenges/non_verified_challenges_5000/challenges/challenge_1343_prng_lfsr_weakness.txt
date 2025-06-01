@@ -1,0 +1,21 @@
+
+Intercepted during a high-stakes hackathon, this message uses a flawed stream cipher. Can you exploit the LFSR weakness and reveal the secret? Ciphertext: f1d9f6d2ecddfed2e6d7e6d0f5c8
+
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[55268, 27634, 46585, 56060, 60798, 63167, 31583, 48559, 24279, 12139]
+
+---
+
+## Challenge Technical Details
+flag: flag{higqbqeb}
+ciphertext: f1d9f6d2ecddfed2e6d7e6d0f5c8
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[55268, 27634, 46585, 56060, 60798, 63167, 31583, 48559, 24279, 12139]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

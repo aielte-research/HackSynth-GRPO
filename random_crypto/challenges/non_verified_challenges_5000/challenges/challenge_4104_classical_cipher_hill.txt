@@ -1,0 +1,17 @@
+Intercept the spy's secret message, encrypted using the Hill cipher. The ciphertext is: wmytokvrjdohnngkdxfejtqxkzadvydxiitithtisseodfojiciubhaihdsvumhewlqlxx. Can you recover the original plan?
+
+The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+
+---
+
+## Challenge Technical Details
+flag: flag{qjzlkpui}
+ciphertext: wmytokvrjdohnngkdxfejtqxkzadvydxiitithtisseodfojiciubhaihdsvumhewlqlxx
+cipher: Hill
+hint: Hill ciphers can be broken using known-plaintext attacks and linear algebra mod 26.
+necessary_info: The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+extra_info: The matrix used is: [[4, 3], [9, 25]]
+subtype: hill
+archetype: classical_cipher

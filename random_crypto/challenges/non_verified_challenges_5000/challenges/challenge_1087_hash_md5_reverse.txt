@@ -1,0 +1,15 @@
+An old server hashed passwords using MD5, but a breach left only the hash. Can you recover the original password from this hash? Ciphertext: 47b6ab0067bfb766abf14341d734f32c
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{TMAR2}
+ciphertext: 47b6ab0067bfb766abf14341d734f32c
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

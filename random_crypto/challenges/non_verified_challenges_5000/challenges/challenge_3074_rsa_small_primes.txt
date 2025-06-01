@@ -1,0 +1,18 @@
+Agent Alice rushed the encryption and chose small primes for her RSA key. Intercept the secret by exploiting her mistake. Ciphertext: 8867361148517902512
+
+The flag format is flag{...}
+n=9241998145726369973, e=4649081217675260063
+
+---
+
+## Challenge Technical Details
+flag: flag{uzz9ongp}
+cipher: RSA
+ciphertext: 8867361148517902512
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=9241998145726369973, e=4649081217675260063
+extra_info: p=2796078611, q=3305342743, φ(n)=9241998139624948620
+subtype: small_primes
+archetype: rsa

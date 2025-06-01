@@ -1,0 +1,17 @@
+
+An anonymous hacker sent a Base85-encrypted string, claiming it hides their next target. Can you decode Q8;r{Qc74PHh5S&G<irvP&gxQOL9L-X-qSAR&8T;Z+SvPKvz~iQZsZwOjkk to unveil the secret?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{f4d3ow3i}
+cipher: Base85
+ciphertext: Q8;r{Qc74PHh5S&G<irvP&gxQOL9L-X-qSAR&8T;Z+SvPKvz~iQZsZwOjkk
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 6 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

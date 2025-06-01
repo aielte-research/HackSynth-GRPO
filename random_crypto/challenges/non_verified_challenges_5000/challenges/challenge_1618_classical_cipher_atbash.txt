@@ -1,0 +1,14 @@
+An ancient order hid secrets using reversed alphabet keys. Decipher the message: uozt{e69029vm}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{v69029en}
+cipher: Atbash
+ciphertext: uozt{e69029vm}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

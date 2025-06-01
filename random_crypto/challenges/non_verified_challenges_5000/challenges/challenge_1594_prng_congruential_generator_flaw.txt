@@ -1,0 +1,29 @@
+
+A hacker hid the password to the vault using their homebrew 751fcef668449ee37f479be6200e cipher. Can you reveal the secrets by cracking this predictable algorithm?
+
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 407539744
+  - Multiplier: 288335210
+  - Increment: 353660807
+The first 5 outputs of the LCG are provided: [296347101, 185490633, 223670273, 263951217, 270355313] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{71rl44w3}
+ciphertext: 751fcef668449ee37f479be6200e
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 407539744
+  - Multiplier: 288335210
+  - Increment: 353660807
+The first 5 outputs of the LCG are provided: [296347101, 185490633, 223670273, 263951217, 270355313] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

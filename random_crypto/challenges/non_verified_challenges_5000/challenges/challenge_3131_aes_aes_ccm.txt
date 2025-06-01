@@ -1,0 +1,20 @@
+
+Intercepted transmission contains hidden coordinates. Only those who recover the original message from this AES-encrypted ciphertext — ciphertext1:39d593d2ed682a1212d4e39143bd, ciphertext2: 39d593d2ed3b6a161ccff38757bd — will locate the treasure.
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{gxudqytu}
+ciphertext: ciphertext1:39d593d2ed682a1212d4e39143bd, ciphertext2: 39d593d2ed3b6a161ccff38757bd
+tag1: cdf237572bc28225eb913ca875371113
+tag2: 62ce940bb2e6f943215c8bc92a7797f3
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: a04778bf50ce2fd210095c
+subtype: aes_ccm
+archetype: aes

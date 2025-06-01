@@ -1,0 +1,18 @@
+
+Intercepted files encrypted with AES-ECB; key was intended to be secret123, but it's null-padded to 16 bytes. Can you recover the flag from 8d7e25b029dcc77e9c1eb68eebf90d5a?
+
+
+An encryption key that is only 2 bytes long?.
+
+---
+
+## Challenge Technical Details
+flag: flag{ksgj6zr2}
+ciphertext: 8d7e25b029dcc77e9c1eb68eebf90d5a
+cipher: AES-ECB
+vulnerability: small key padded with null bytes
+hint: ECB mode with a short key makes brute-forcing possible. Consider the small key entropy.
+necessary_info: An encryption key that is only 2 bytes long?.
+extra_info: Padding follows PKCS#7. The key is padded to 16 bytes with null bytes.
+subtype: weak_cookie_encryption
+archetype: web_crypto

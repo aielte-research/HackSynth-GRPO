@@ -1,0 +1,20 @@
+A novice admin hashed passwords with SHA-256 and used timestamps as salts. Can you recover the original password for the hash below?
+edbe462733096a225119ed239ce49f2d7862462b2263a376c13b3dfc0b4043f8
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{2pj}
+ciphertext: edbe462733096a225119ed239ce49f2d7862462b2263a376c13b3dfc0b4043f8
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

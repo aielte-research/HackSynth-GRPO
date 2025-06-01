@@ -1,0 +1,21 @@
+
+A hacker hid launch codes inside 666c19f07b751ba579714ca6747d, encrypted with a PRNG seeded by a secret timestamp. Recover the seed to reveal the original message.
+
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 97006)
+The system time when the encryption process started was around: 2025-05-25 12:09:02 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{uc2yq41t}
+ciphertext: 666c19f07b751ba579714ca6747d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 97006)
+The system time when the encryption process started was around: 2025-05-25 12:09:02 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 30871.
+subtype: time_based_seed
+archetype: prng

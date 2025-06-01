@@ -1,0 +1,15 @@
+An old tech forum admin hid the password to archived threads using a simple ASCII Shift. Can you recover the key from this encrypted hint: ntio}q@j8snr?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ui8b0kfj}
+cipher: ASCII Shift
+ciphertext: ntio}q@j8snr
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 8
+subtype: ascii_shift
+archetype: classical_cipher

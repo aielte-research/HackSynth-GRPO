@@ -1,0 +1,15 @@
+A hacker left a reversed message as a clue to the hidden wallet key. Can you undo their trick and reveal the secret? Ciphertext: }rapoi6sm{galf
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ms6iopar}
+ciphertext: }rapoi6sm{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

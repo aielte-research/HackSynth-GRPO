@@ -1,0 +1,15 @@
+The hacker left a clue for the stolen coins, but it's reversed. Decipher }u4sq1nk2{galf to retrieve the wallet key.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{2kn1qs4u}
+ciphertext: }u4sq1nk2{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

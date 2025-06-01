@@ -1,0 +1,13 @@
+
+An intercepted API token hides secret data. Crack the JWT cipher to reveal the original claim: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tvNHVmOHR5MH0ifQ.
+
+
+---
+
+## Challenge Technical Details
+flag: flag{o4uf8ty0}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tvNHVmOHR5MH0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

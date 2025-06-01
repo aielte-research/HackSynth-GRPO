@@ -1,0 +1,15 @@
+An agent hid secret coordinates using Base64 on a public server. Decode ZmxhZ3tkMjkxd3J1Yn0= to uncover the critical meeting spot before time runs out.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{d291wrub}
+cipher: Base64
+ciphertext: ZmxhZ3tkMjkxd3J1Yn0=
+hint: Use a Base64 decoder to obtain the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is direct; no additional layers or tricks.
+subtype: Base64
+archetype: classical_cipher

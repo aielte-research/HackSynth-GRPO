@@ -1,0 +1,24 @@
+Crack the password Alice hashed with SHA-256 and left behind as be1cdc83c1892f30290788785b36f9d85e786d781e442229a141b87fb167d035 to protect her lost crypto wallet.
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{uay3}
+ciphertext: be1cdc83c1892f30290788785b36f9d85e786d781e442229a141b87fb167d035
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

@@ -1,0 +1,15 @@
+A mysterious hacker split the flag into chunks and encrypted it using their experimental "ChunkedFlag" cipher. Can you recover the flag from this ciphertext? fla g{5 bq 2m4 js}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{5bq2m4js}
+ciphertext: fla g{5 bq 2m4 js}
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

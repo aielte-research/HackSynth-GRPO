@@ -1,0 +1,15 @@
+Hackers hid the secret flag by hashing it with MD5. They believed no one could reverse dbf06d59de697ba6f6cc8bce867edeee—prove them wrong and retrieve the flag!
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{bmeve}
+ciphertext: dbf06d59de697ba6f6cc8bce867edeee
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

@@ -1,0 +1,18 @@
+A secret message was encrypted with AES for a covert operation. The only thing intercepted was the ciphertext: ciphertext1:8f175166d55b13026617cd52203f, ciphertext2: 8f175166d55e46086d1094406f3f. Can you recover the original message?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{b9preoa9}
+ciphertext: ciphertext1:8f175166d55b13026617cd52203f, ciphertext2: 8f175166d55e46086d1094406f3f
+tag1: 3ceb2dcbdf4c83447af7cbce2e45cb09
+tag2: 3db7f084929b26c8af8b344def705d16
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: ffdf553f3ef8adab1f5df7
+subtype: aes_ccm
+archetype: aes

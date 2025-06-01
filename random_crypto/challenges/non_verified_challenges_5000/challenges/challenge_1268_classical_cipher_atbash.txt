@@ -1,0 +1,14 @@
+A rogue archivist hid the access code with an ancient mirror script. Can you decipher uozt{8mome5sx} to reveal the secret word?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{8nlnv5hc}
+cipher: Atbash
+ciphertext: uozt{8mome5sx}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

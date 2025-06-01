@@ -1,0 +1,16 @@
+An old hacker's diary entry is encrypted with a key word. The hidden clue is inside: jazo{30ur1y60}. Can you uncover the diary's secret?
+
+The flag format is flag{...}
+The keyword is: epzi
+
+---
+
+## Challenge Technical Details
+flag: flag{30qc1z60}
+ciphertext: jazo{30ur1y60}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: epzi
+subtype: vigenere
+archetype: classical_cipher

@@ -1,0 +1,24 @@
+An intern reused a random nonce while signing two confidential messages. The network intercepted the signatures: Sig1: c050c3f0b8d45b9e093a91cb96d097b24100e66585d0d8561e01c1231837493f5f5c1c101f13c26deae353df7df78ac0e36bb267014bccbd42446e150ac7b0dd
+Sig2: c050c3f0b8d45b9e093a91cb96d097b24100e66585d0d8561e01c1231837493f4953ff838bc67dfc7e4c020f116fc1d0eb6b86bc0978a7441888329d2a64aec5. Can you recover the private key?
+
+Public Key (x,y): (61513819861581967361740892077163219418959181941705013350299138589477992871443, 106015373201710371469726748263140155402154392305416160251110054297856160939716)
+Messages:
+1. CTF challenge message
+2. Second signed message
+Curve: secp256k1The flag format is flag{hex(private_key)}
+
+---
+
+## Challenge Technical Details
+flag: flag{7d14a2fbd82483eabd7bac1ef9520513cf2ec4251aabb0a25a6e238855fdb3ec}
+ciphertext: Sig1: c050c3f0b8d45b9e093a91cb96d097b24100e66585d0d8561e01c1231837493f5f5c1c101f13c26deae353df7df78ac0e36bb267014bccbd42446e150ac7b0dd
+Sig2: c050c3f0b8d45b9e093a91cb96d097b24100e66585d0d8561e01c1231837493f4953ff838bc67dfc7e4c020f116fc1d0eb6b86bc0978a7441888329d2a64aec5
+cipher: ECDSA Nonce Reuse
+hint: Identical nonce usage breaks ECDSA security. What's common between the signatures?
+necessary_info: Public Key (x,y): (61513819861581967361740892077163219418959181941705013350299138589477992871443, 106015373201710371469726748263140155402154392305416160251110054297856160939716)
+Messages:
+1. CTF challenge message
+2. Second signed message
+Curve: secp256k1The flag format is flag{hex(private_key)}
+subtype: ecdsa_nonce_reuse
+archetype: signature_schemes

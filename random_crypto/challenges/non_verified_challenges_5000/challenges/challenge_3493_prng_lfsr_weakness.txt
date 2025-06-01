@@ -1,0 +1,19 @@
+A secret was hastily encrypted using a flawed LFSR stream cipher. The intercepted message is: 6047674c7d4d644f705b6a443756
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[44894, 22447, 11223, 5611, 35573, 50554, 25277, 12638, 6319, 3159]
+
+---
+
+## Challenge Technical Details
+flag: flag{fbdvplo1}
+ciphertext: 6047674c7d4d644f705b6a443756
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[44894, 22447, 11223, 5611, 35573, 50554, 25277, 12638, 6319, 3159]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

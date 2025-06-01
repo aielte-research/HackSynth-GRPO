@@ -1,0 +1,15 @@
+An agent smuggled a secret phrase using an old office code—Base64. Can you decode Vm0weGQxTnRVWGxXYTFwUFZsZG9WRmxVU2xOalJsSlZWR3RPYW1KR1ZqTlhhMUpUWVZVeFYxZHViRmROYmxGM1dXdGtTMU5XUm5OYVJuQlhWbXhzTTFaclkzaFNNRFZ6VjI1S2FsSnNXbGhXYlhSYVpXeGFWbGRyV2xCV2EwcFRWVVpSZDFCUlBUMD0= and recover the hidden message?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{rh4lxrv4}
+cipher: Base64
+ciphertext: Vm0weGQxTnRVWGxXYTFwUFZsZG9WRmxVU2xOalJsSlZWR3RPYW1KR1ZqTlhhMUpUWVZVeFYxZHViRmROYmxGM1dXdGtTMU5XUm5OYVJuQlhWbXhzTTFaclkzaFNNRFZ6VjI1S2FsSnNXbGhXYlhSYVpXeGFWbGRyV2xCV2EwcFRWVVpSZDFCUlBUMD0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 8 times in total.
+subtype: base64_layered
+archetype: classical_cipher

@@ -1,0 +1,14 @@
+A mysterious message was found in an ancient crypt, but the letters seem reversed. Can you decode it? Here it is: uozt{tiq7okza}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{grj7lpaz}
+cipher: Atbash
+ciphertext: uozt{tiq7okza}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

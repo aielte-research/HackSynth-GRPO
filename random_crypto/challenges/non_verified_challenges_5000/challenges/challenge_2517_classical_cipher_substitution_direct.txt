@@ -1,0 +1,23 @@
+
+A hacker left a note for their partner, but encrypted it with a simple letter substitution. Can you decipher the message? Here it is: gfpw{mmxt39y1}
+
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'p', 'b': 's', 'c': 'd', 'd': 'u', 'e': 'v', 'f': 'g', 'g': 'w', 'h': 'q', 'i': 'z', 'j': 't', 'k': 'l', 'l': 'f', 'm': 'j', 'n': 'o', 'o': 'h', 'p': 'c', 'q': 'm', 'r': 'k', 's': 'e', 't': 'a', 'u': 'i', 'v': 'r', 'w': 'x', 'x': 'n', 'y': 'y', 'z': 'b'}
+
+---
+
+## Challenge Technical Details
+flag: flag{qqwj39y1}
+cipher: Substitution
+ciphertext: gfpw{mmxt39y1}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'p', 'b': 's', 'c': 'd', 'd': 'u', 'e': 'v', 'f': 'g', 'g': 'w', 'h': 'q', 'i': 'z', 'j': 't', 'k': 'l', 'l': 'f', 'm': 'j', 'n': 'o', 'o': 'h', 'p': 'c', 'q': 'm', 'r': 'k', 's': 'e', 't': 'a', 'u': 'i', 'v': 'r', 'w': 'x', 'x': 'n', 'y': 'y', 'z': 'b'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

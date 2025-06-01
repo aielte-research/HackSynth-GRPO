@@ -1,0 +1,14 @@
+Mysterious hex code found on an old USB: can you decode the secret inside? Here’s what was recovered: 666c61677b6b687971307172757d
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{khyq0qru}
+cipher: Hex
+ciphertext: 666c61677b6b687971307172757d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

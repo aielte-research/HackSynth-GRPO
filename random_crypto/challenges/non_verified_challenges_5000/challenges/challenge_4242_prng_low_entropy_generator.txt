@@ -1,0 +1,21 @@
+
+Eve intercepted Bob’s secret, encrypted with a homemade PRNG cipher. Can you reveal the message hidden in 666c63537b3863066a343651617d by exploiting the PRNG’s low entropy?
+
+
+The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [331, 154, 404, 666, 49, 74, 548, 96, 374, 596, 59, 519, 219, 38, 88, 444, 428, 71, 246, 92]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 716)
+
+---
+
+## Challenge Technical Details
+flag: flag{8a2j44ea}
+ciphertext: 666c63537b3863066a343651617d
+cipher: Low-entropy PRNG
+hint: The PRNG seed space is small. You can try brute-forcing all possible seeds to reconstruct the sequence.
+necessary_info: The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [331, 154, 404, 666, 49, 74, 548, 96, 374, 596, 59, 519, 219, 38, 88, 444, 428, 71, 246, 92]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 716)
+extra_info: Since the seed has only 256 possible values, it can be brute-forced to recover the secret number and decrypt the flag.
+subtype: low_entropy_generator
+archetype: prng

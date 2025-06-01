@@ -1,0 +1,16 @@
+Intercepted files were encrypted using AES-ECB with a short key padded by null bytes. Recover the original key and decrypt: d7222096718b51b89dc1568268a07f51
+
+An encryption key that is only 2 bytes long?.
+
+---
+
+## Challenge Technical Details
+flag: flag{6k0bz632}
+ciphertext: d7222096718b51b89dc1568268a07f51
+cipher: AES-ECB
+vulnerability: small key padded with null bytes
+hint: ECB mode with a short key makes brute-forcing possible. Consider the small key entropy.
+necessary_info: An encryption key that is only 2 bytes long?.
+extra_info: Padding follows PKCS#7. The key is padded to 16 bytes with null bytes.
+subtype: weak_cookie_encryption
+archetype: web_crypto

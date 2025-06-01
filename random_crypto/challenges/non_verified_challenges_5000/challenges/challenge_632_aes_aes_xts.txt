@@ -1,0 +1,15 @@
+A rogue disk encryptor protected secret plans using AES-XTS. Only those who can decipher ciphertext1:279e22e3c42ea4f29d94b6514c62efeb, ciphertext2: 14820a3c40f97cb7209eca8161a7ef5f2b5a61507a869ec3b6c8b7e230855958 will uncover the hidden truth.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{bgd4g4fy}
+ciphertext: ciphertext1:279e22e3c42ea4f29d94b6514c62efeb, ciphertext2: 14820a3c40f97cb7209eca8161a7ef5f2b5a61507a869ec3b6c8b7e230855958
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: b1f61c5a7add0ee3d8b5ae313c2f8583
+subtype: aes_xts
+archetype: aes

@@ -1,0 +1,24 @@
+Hidden treasure coordinates were hashed with SHA-256. Decrypt 23256ea8cc0d1adf905db121413d08478c662d5341b79d92ec03a4456a245d93 to reveal the original message and claim your prize!
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{y3vs}
+ciphertext: 23256ea8cc0d1adf905db121413d08478c662d5341b79d92ec03a4456a245d93
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

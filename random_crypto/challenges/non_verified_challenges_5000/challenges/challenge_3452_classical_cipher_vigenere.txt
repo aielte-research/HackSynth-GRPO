@@ -1,0 +1,16 @@
+An old hacker left a Vigenère-encrypted password, daring you to recover it. The ciphertext is below. Hint: the key is a four-letter word. uoif{q0ffpzxm}
+
+The flag format is flag{...}
+The keyword is: pdiztpc
+
+---
+
+## Challenge Technical Details
+flag: flag{x0qdawpn}
+ciphertext: uoif{q0ffpzxm}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: pdiztpc
+subtype: vigenere
+archetype: classical_cipher

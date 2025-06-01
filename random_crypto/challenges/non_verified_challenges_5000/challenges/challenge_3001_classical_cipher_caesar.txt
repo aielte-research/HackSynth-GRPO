@@ -1,0 +1,17 @@
+
+Julius hid his plans in a secret note using his favorite cipher. Can you decode his message? Here it is: djye{02td2m3j}
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{02vf2o3l}
+ciphertext: djye{02td2m3j}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 24
+subtype: caesar
+archetype: classical_cipher

@@ -1,0 +1,18 @@
+
+A notorious hacker secured the password to their vault using a Vigenère cipher. Can you reveal the secret within this encrypted message? iffw{fmbnn7ae}
+
+
+The flag format is flag{...}
+The keyword is: dufq
+
+---
+
+## Challenge Technical Details
+flag: flag{cswxk7gz}
+ciphertext: iffw{fmbnn7ae}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: dufq
+subtype: vigenere
+archetype: classical_cipher

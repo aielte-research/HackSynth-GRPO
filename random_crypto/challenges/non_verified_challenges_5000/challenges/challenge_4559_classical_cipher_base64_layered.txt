@@ -1,0 +1,15 @@
+A hacker hid the server's password in a file, encoded in Base64: Vm0xd1NtUXlWa1pPVldoVFlUSlNjRlJVVGtOalZuQllaRVYwYW1KR1NsWlZWbWhyVkd4S2RHVkdaRmhoTVZsM1dXdGtTMVpzWkhKalJsWlhWbXRaZWxaVldrWlBWa0pTVUZRd1BRPT0=. Can you retrieve the original password?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{4ws8hbsh}
+cipher: Base64
+ciphertext: Vm0xd1NtUXlWa1pPVldoVFlUSlNjRlJVVGtOalZuQllaRVYwYW1KR1NsWlZWbWhyVkd4S2RHVkdaRmhoTVZsM1dXdGtTMVpzWkhKalJsWlhWbXRaZWxaVldrWlBWa0pTVUZRd1BRPT0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 7 times in total.
+subtype: base64_layered
+archetype: classical_cipher

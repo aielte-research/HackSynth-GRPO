@@ -1,0 +1,14 @@
+
+An intern left a login page secured with the Insecure Session Token cipher. Can you recover the admin session using this ciphertext? 757365725f713174373a666c61677b326c6162747231667d3a31373438313639313835
+
+
+---
+
+## Challenge Technical Details
+flag: flag{2labtr1f}
+ciphertext: 757365725f713174373a666c61677b326c6162747231667d3a31373438313639313835
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_q1t7:flag{2labtr1f}:1748169185'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

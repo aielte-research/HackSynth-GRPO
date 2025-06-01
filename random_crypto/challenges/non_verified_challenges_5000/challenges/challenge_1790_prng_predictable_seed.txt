@@ -1,0 +1,21 @@
+
+A careless developer encrypted the admin’s password with a homegrown PRNG-based cipher. Can you recover the original password from the following ciphertext? 666361687b3e777a6b7530756f72
+
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 2**4)
+A secret number was generated using Python's PRNG with a seed from 0 to 9,999. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{1wukz0zo}
+ciphertext: 666361687b3e777a6b7530756f72
+cipher: Predictable PRNG
+hint: The seed range is small enough for brute-force. Try recreating the PRNG sequence.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 2**4)
+A secret number was generated using Python's PRNG with a seed from 0 to 9,999. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: If you can predict or brute-force the seed, you can reconstruct the PRNG output and decrypt the flag.
+subtype: predictable_seed
+archetype: prng

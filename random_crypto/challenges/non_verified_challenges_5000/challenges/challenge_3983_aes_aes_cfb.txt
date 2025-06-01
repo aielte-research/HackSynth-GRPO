@@ -1,0 +1,17 @@
+Intercepted comms contained e7e94b08dcd67487dec0e548b34002be637c0e30d9337f249c2e4e092d4364bcc129bfcfee0dc6bed290ce5e45dfe66d89c2494174c218d4f766c026706e6abb318ea520481ce5915dc177667f13cf319b63e306e215cb20a2036781b08a6a3fcb75d12f902e88c526e2fbf37170ca0a33251e7bda167c7a6a16d2eb710a957212077e7a2a28b61cf5fcfdeee5c7b95ff972fccfacb26a0b72c419109503325f864997da63b69560fd102baea6605e46ca. Analysts suspect it’s encrypted with AES in CFB mode—can you recover the original message?
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{379oiflq}
+ciphertext: e7e94b08dcd67487dec0e548b34002be637c0e30d9337f249c2e4e092d4364bcc129bfcfee0dc6bed290ce5e45dfe66d89c2494174c218d4f766c026706e6abb318ea520481ce5915dc177667f13cf319b63e306e215cb20a2036781b08a6a3fcb75d12f902e88c526e2fbf37170ca0a33251e7bda167c7a6a16d2eb710a957212077e7a2a28b61cf5fcfdeee5c7b95ff972fccfacb26a0b72c419109503325f864997da63b69560fd102baea6605e46ca
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: 29e294b306a0cfa92f45c59f6430671f
+subtype: aes_cfb
+archetype: aes

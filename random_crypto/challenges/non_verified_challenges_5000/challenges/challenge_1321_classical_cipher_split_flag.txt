@@ -1,0 +1,15 @@
+An encrypted wallet backup uses the mysterious SplitNumberMix method. Can you decrypt  77777777 fl 77777777 ag 77777777 {zdsnpswu} 77777777  to recover the lost access code?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{zdsnpswu}
+ciphertext:  77777777 fl 77777777 ag 77777777 {zdsnpswu} 77777777 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 3 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

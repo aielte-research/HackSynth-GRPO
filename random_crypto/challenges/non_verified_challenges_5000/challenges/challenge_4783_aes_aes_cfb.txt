@@ -1,0 +1,17 @@
+A rogue agent intercepted a top-secret message, encrypted with AES-CFB mode. Can you reveal its hidden contents from this ciphertext? 9a4805e731e5bd3e3533494975782dcb29c3f34f9614dfb6b0b313d73a53c257d181a6ab9df14125a91041b8adec071cc579bfebbb85403e3322ecc9fff89c0810c46d4d7ac545bc08637c27ca6250f2fe76b186b6676a7421d4d56c5b456b99052e1bdfba0196b77dc680b938b2f4ff2339f6a8408ba32022ea7afad433532acff4885b206af4f139929bcabb29a0354bca459f4960e5eeb667731f9a0cf18ce792e75ee721e8aa56c585d147d059e89f
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{7uauvdvx}
+ciphertext: 9a4805e731e5bd3e3533494975782dcb29c3f34f9614dfb6b0b313d73a53c257d181a6ab9df14125a91041b8adec071cc579bfebbb85403e3322ecc9fff89c0810c46d4d7ac545bc08637c27ca6250f2fe76b186b6676a7421d4d56c5b456b99052e1bdfba0196b77dc680b938b2f4ff2339f6a8408ba32022ea7afad433532acff4885b206af4f139929bcabb29a0354bca459f4960e5eeb667731f9a0cf18ce792e75ee721e8aa56c585d147d059e89f
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: ab68a83f15a7d7fab0b0e8485e7ea2f3
+subtype: aes_cfb
+archetype: aes

@@ -1,0 +1,15 @@
+An old hacker left a base85-encrypted password in his diary. Can you decode Q8;r{Qc74PHh5S&G<irvQ%+1uNM}2Ea8W9KNmf=~Gk$tXbbLNqL`_0sZbvl and unlock his secret?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{4gyb8lpt}
+cipher: Base85
+ciphertext: Q8;r{Qc74PHh5S&G<irvQ%+1uNM}2Ea8W9KNmf=~Gk$tXbbLNqL`_0sZbvl
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 6 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

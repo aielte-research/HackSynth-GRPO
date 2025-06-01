@@ -1,0 +1,13 @@
+
+An intercepted admin token hides the flag—if you can decipher its JWT secrets. Here’s the suspicious token: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3t6bmdpYnRxMn0ifQ.
+
+
+---
+
+## Challenge Technical Details
+flag: flag{zngibtq2}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3t6bmdpYnRxMn0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

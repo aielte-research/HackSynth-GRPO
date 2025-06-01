@@ -1,0 +1,15 @@
+An ancient message was intercepted, but it's encoded strangely. Can you decipher Vm0xd1NtUXlWa1pPVldoVFlUSlNjRlJVVGtOamJGVjNWbTVrYW1KR1NsbFVWVkpUVkd4S2RWRnNhRmRXTTAweFdXdGFXbVF5U2tWWGJGWlhWbXRaZWxaVldrWlBWa0pTVUZRd1BRPT0= using your cryptography skills?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{kwj8y3ro}
+cipher: Base64
+ciphertext: Vm0xd1NtUXlWa1pPVldoVFlUSlNjRlJVVGtOamJGVjNWbTVrYW1KR1NsbFVWVkpUVkd4S2RWRnNhRmRXTTAweFdXdGFXbVF5U2tWWGJGWlhWbXRaZWxaVldrWlBWa0pTVUZRd1BRPT0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 7 times in total.
+subtype: base64_layered
+archetype: classical_cipher

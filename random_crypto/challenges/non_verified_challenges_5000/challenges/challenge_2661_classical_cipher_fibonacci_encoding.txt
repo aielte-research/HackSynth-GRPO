@@ -1,0 +1,17 @@
+
+An eccentric mathematician left a secret pattern in their digital will. Decipher the encoded message below using Fibonacci Encoding to reveal the next clue: 10001000001 10001010011 10000100001 10001000011 10100000001 101010101 10001010001 10000100011 10010100101 10010001001 10010000101 1000000101 10010100101 10100000101
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{6kbxqp9x}
+ciphertext: 10001000001 10001010011 10000100001 10001000011 10100000001 101010101 10001010001 10000100011 10010100101 10010001001 10010000101 1000000101 10010100101 10100000101
+cipher: Fibonacci Encoding
+hint: Each ASCII character is represented as a sum of non-consecutive Fibonacci numbers, always ending in 1.
+necessary_info: The flag format is flag{...}
+extra_info: Each character of the flag is independently encoded using Fibonacci representation.
+subtype: fibonacci_encoding
+archetype: classical_cipher

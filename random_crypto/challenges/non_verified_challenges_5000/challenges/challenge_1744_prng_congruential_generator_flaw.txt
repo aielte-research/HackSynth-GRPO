@@ -1,0 +1,29 @@
+
+A hacker used a homemade random number generator to encrypt their diary. Recover the secret by analyzing the predictable numbers. Ciphertext: 6730594a7a304d59646442556721
+
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1022867429
+  - Multiplier: 553746185
+  - Increment: 200203243
+The first 5 outputs of the LCG are provided: [341166052, 24222343, 858611913, 387468685, 535250293] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{lute8zxf}
+ciphertext: 6730594a7a304d59646442556721
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1022867429
+  - Multiplier: 553746185
+  - Increment: 200203243
+The first 5 outputs of the LCG are provided: [341166052, 24222343, 858611913, 387468685, 535250293] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

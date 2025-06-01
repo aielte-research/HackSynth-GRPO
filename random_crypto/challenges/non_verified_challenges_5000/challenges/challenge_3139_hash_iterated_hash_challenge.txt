@@ -1,0 +1,24 @@
+The hacker encoded the access code using SHA-256. Crack the original string hidden in this hash: c1c188da91bad167bfecb9ff0ef368b76f796441b675bf4b6082398aa4c0c5f8
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{wqb6}
+ciphertext: c1c188da91bad167bfecb9ff0ef368b76f796441b675bf4b6082398aa4c0c5f8
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

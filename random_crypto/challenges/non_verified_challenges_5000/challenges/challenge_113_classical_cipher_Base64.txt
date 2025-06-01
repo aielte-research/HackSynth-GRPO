@@ -1,0 +1,17 @@
+
+A hacker left a secret in Base64. Decode ZmxhZ3syZXR4MWs5Z30= to reveal the message and trace their identity.
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{2etx1k9g}
+cipher: Base64
+ciphertext: ZmxhZ3syZXR4MWs5Z30=
+hint: Use a Base64 decoder to obtain the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is direct; no additional layers or tricks.
+subtype: Base64
+archetype: classical_cipher

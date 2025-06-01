@@ -1,0 +1,15 @@
+Your encrypted hard drive’s sector was leaked! The only clue in its header: "ciphertext1:f047003e14e5daa674f8fc6cdb9b822f, ciphertext2: a8b928cb9ea2622a54f08f984a927d6a83e6511dfe8133349cc9ed181737cfd3". Can you recover the missing contents using AES-XTS?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{1kdyytmu}
+ciphertext: ciphertext1:f047003e14e5daa674f8fc6cdb9b822f, ciphertext2: a8b928cb9ea2622a54f08f984a927d6a83e6511dfe8133349cc9ed181737cfd3
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: f955f09ef03c28dca6a390976edbbb55
+subtype: aes_xts
+archetype: aes

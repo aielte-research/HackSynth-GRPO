@@ -1,0 +1,14 @@
+An old hacker left you a note: "To find my stash, decode my favorite base. Treasure lies within." The message is: 666c61677b73743630766d76317d
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{st60vmv1}
+cipher: Hex
+ciphertext: 666c61677b73743630766d76317d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

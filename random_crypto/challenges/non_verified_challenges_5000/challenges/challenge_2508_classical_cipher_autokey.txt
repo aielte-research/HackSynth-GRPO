@@ -1,0 +1,19 @@
+A secret key encoded our treasure's location using an Autokey cipher. Crack the message below to find it: ca vyku pesg, aug rwwtymprt gpscymmkz neaeiel eifbsi genugz.fwmu{4nvkx9nl}
+
+The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: In each case, the resulting plaintext appears almost random.
+The seed lenght is 4 and only alphabetic characters count.
+
+---
+
+## Challenge Technical Details
+flag: flag{4vcxg9ny}
+ciphertext: ca vyku pesg, aug rwwtymprt gpscymmkz neaeiel eifbsi genugz.fwmu{4nvkx9nl}
+cipher: Autokey
+hint: Autokey ciphers are vulnerable once enough plaintext is known, allowing reconstruction of the key.
+necessary_info: The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: In each case, the resulting plaintext appears almost random.
+The seed lenght is 4 and only alphabetic characters count.
+extra_info: The key seed is: unry
+subtype: autokey
+archetype: classical_cipher

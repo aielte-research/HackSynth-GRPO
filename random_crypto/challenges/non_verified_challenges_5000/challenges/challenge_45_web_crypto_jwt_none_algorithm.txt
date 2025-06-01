@@ -1,0 +1,13 @@
+
+A hacker intercepted Alice’s login token but suspects it’s been tampered with. Can you decode the JWT cipher and reveal the truth? Here’s the token: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3t3OTRndDM4cH0ifQ.
+
+
+---
+
+## Challenge Technical Details
+flag: flag{w94gt38p}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3t3OTRndDM4cH0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

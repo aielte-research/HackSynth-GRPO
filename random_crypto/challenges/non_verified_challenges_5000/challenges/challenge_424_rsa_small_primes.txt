@@ -1,0 +1,18 @@
+An intern encrypted the flag using RSA but chose tiny prime numbers. Can you factor the modulus and recover the message? The ciphertext is: 2529011576888154197
+
+The flag format is flag{...}
+n=10080844423743821131, e=6201973765527224677
+
+---
+
+## Challenge Technical Details
+flag: flag{3wcr5f8c}
+cipher: RSA
+ciphertext: 2529011576888154197
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=10080844423743821131, e=6201973765527224677
+extra_info: p=3217281619, q=3133342249, φ(n)=10080844417393197264
+subtype: small_primes
+archetype: rsa

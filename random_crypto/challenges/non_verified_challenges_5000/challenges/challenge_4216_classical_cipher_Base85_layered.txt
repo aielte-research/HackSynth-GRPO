@@ -1,0 +1,15 @@
+A hacker hid the launch codes using Base85. Can you decode Q8+6$C09T(Kr2)>FllT?Dp5>4T0>tyaZhPwOiNd6Y-Ax&En-MNO>#+lWl%<0Zah$FJ0w9`LQ#1nWo{@#ePwG*Q)gCCaVBn4R!uijLRNfiD@u50P)kK@P9{o9cyTx*PHiYvYg1VzCTvkbbXqE6UH and recover the secret?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ui655oxf}
+cipher: Base85
+ciphertext: Q8+6$C09T(Kr2)>FllT?Dp5>4T0>tyaZhPwOiNd6Y-Ax&En-MNO>#+lWl%<0Zah$FJ0w9`LQ#1nWo{@#ePwG*Q)gCCaVBn4R!uijLRNfiD@u50P)kK@P9{o9cyTx*PHiYvYg1VzCTvkbbXqE6UH
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 10 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

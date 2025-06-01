@@ -1,0 +1,18 @@
+An intercepted message, encrypted with AES, hides the vault code. Only by decrypting ciphertext1:035bd67c2a7d620ea354a7c18270, ciphertext2: 035bd67c2a386001b048fcc1ce70 can you reveal the secret.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{qsyjpmj6}
+ciphertext: ciphertext1:035bd67c2a7d620ea354a7c18270, ciphertext2: 035bd67c2a386001b048fcc1ce70
+tag1: 7ae2c4400c0e2fb422afd8310d0cf0db
+tag2: 7d032df10b8239909054f62eda1f46d2
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: dc7871146156fb7eac140a
+subtype: aes_ccm
+archetype: aes

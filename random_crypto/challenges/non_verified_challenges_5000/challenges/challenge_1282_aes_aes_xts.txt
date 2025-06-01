@@ -1,0 +1,15 @@
+The vault’s disk was encrypted for safety, but the key vanished. All you have is this sector’s ciphertext1:27a591e1171f1e69e7191fc40c60440d, ciphertext2: f9af3bd1281d37bcf57c70701d73c8aba9c2814f990560762121eb23c9c1bfb6. Can you reveal the lost files within using AES-XTS?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{oezel07t}
+ciphertext: ciphertext1:27a591e1171f1e69e7191fc40c60440d, ciphertext2: f9af3bd1281d37bcf57c70701d73c8aba9c2814f990560762121eb23c9c1bfb6
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 664dc02d5ad387c3a874b087dfe8da85
+subtype: aes_xts
+archetype: aes

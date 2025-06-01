@@ -1,0 +1,17 @@
+
+You've intercepted a message between agents. Decode the Base64 secret below to unveil their plan: ZmxhZ3szdno2NHl5Nn0=
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{3vz64yy6}
+cipher: Base64
+ciphertext: ZmxhZ3szdno2NHl5Nn0=
+hint: Use a Base64 decoder to obtain the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is direct; no additional layers or tricks.
+subtype: Base64
+archetype: classical_cipher

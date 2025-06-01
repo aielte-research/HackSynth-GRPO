@@ -1,0 +1,15 @@
+An encrypted disk sector was leaked. Its contents are hidden with AES-XTS. Can you recover the secret from ciphertext1:9aae40110c0e80f51421d4662a80ec3c, ciphertext2: ff3a38707625946015a4d619ec82dc82fd805b5e944a049ccb007f13370dd8ca?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{xrlhgrmh}
+ciphertext: ciphertext1:9aae40110c0e80f51421d4662a80ec3c, ciphertext2: ff3a38707625946015a4d619ec82dc82fd805b5e944a049ccb007f13370dd8ca
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 30c5db31e8964d9bbff5d5ef16e533a3
+subtype: aes_xts
+archetype: aes

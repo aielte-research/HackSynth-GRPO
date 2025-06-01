@@ -1,0 +1,15 @@
+A notorious hacker left a puzzle in your inbox. All that's left is this message, encrypted with the SplitNumberMix cipher:  9999999 flag{w 9999999 brdycq 9999999 z} 9999999 
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{wbrdycqz}
+ciphertext:  9999999 flag{w 9999999 brdycq 9999999 z} 9999999 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 3 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

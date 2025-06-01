@@ -1,0 +1,15 @@
+An old hacker left a message in a SplitNumberMix cipher to reveal the next meetup coordinates. Only those who decode  00000000 flag{ 00000000 nr 00000000 pqaqmq 00000000 } 00000000  will find the secret spot.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{nrpqaqmq}
+ciphertext:  00000000 flag{ 00000000 nr 00000000 pqaqmq 00000000 } 00000000 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 4 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

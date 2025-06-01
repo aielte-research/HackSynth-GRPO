@@ -1,0 +1,15 @@
+A secret Roman message awaits you. Can you shift its letters to unveil the hidden word? Ciphertext: qwlr{hi0wbk3o}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{wx0lqz3d}
+ciphertext: qwlr{hi0wbk3o}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 11
+subtype: caesar
+archetype: classical_cipher

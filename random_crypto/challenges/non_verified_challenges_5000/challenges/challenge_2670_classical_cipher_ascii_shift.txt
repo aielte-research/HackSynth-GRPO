@@ -1,0 +1,17 @@
+
+An agent intercepted a message encoded with an ASCII Shift cipher. Can you decode iodj~x{f7l6rl to uncover the hidden instructions?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{uxc4i3oi}
+cipher: ASCII Shift
+ciphertext: iodj~x{f7l6rl
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 3
+subtype: ascii_shift
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+A hacker intercepted a secret message, but it’s protected by an XOR cipher. Can you recover the original text from this encrypted note? stringA: 032f26174f241c1c44022233014b stringB: 6543477034556864336a44447536
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{qtxwhfwt}
+cipher: XOR
+ciphertext: stringA: 032f26174f241c1c44022233014b stringB: 6543477034556864336a44447536
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

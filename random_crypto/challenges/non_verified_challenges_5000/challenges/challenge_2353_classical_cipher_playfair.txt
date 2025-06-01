@@ -1,0 +1,19 @@
+
+A hacker left a note at the heist scene. Police found this mysterious Playfair-encrypted message: xehlofmqcgzihrigkpkrofmqcgkzbycoglozigfwtwwahlofmqcgzihrigzrwqnfuvfoyqutflzlrigmizukzewamlbivgbygfygngtwigcekzmtezilfoediofnxyqxzexmzewairxpiletgoishzgr. Can you reveal their secret plan?
+
+
+The flag format is flag{...}
+The keyword is: yymnuvqf
+
+---
+
+## Challenge Technical Details
+flag: flag{0d3zi3jo}
+ciphertext: xehlofmqcgzihrigkpkrofmqcgkzbycoglozigfwtwwahlofmqcgzihrigzrwqnfuvfoyqutflzlrigmizukzewamlbivgbygfygngtwigcekzmtezilfoediofnxyqxzexmzewairxpiletgoishzgr
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: yymnuvqf
+extra_info: The playfair table is [['y', 'm', 'n', 'u', 'v'], ['q', 'f', 'a', 'b', 'c'], ['d', 'e', 'g', 'h', 'i'], ['k', 'l', 'o', 'p', 'r'], ['s', 't', 'w', 'x', 'z']]
+subtype: playfair
+archetype: classical_cipher

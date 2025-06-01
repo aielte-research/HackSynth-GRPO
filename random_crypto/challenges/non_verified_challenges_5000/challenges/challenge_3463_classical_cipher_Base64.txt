@@ -1,0 +1,15 @@
+An agent hid the launch code in a message, encoding it with Base64. Recover the original code from this ciphertext: ZmxhZ3t1Y3VoeGltd30=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ucuhximw}
+cipher: Base64
+ciphertext: ZmxhZ3t1Y3VoeGltd30=
+hint: Use a Base64 decoder to obtain the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is direct; no additional layers or tricks.
+subtype: Base64
+archetype: classical_cipher

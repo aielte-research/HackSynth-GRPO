@@ -1,0 +1,17 @@
+
+Agent Nova intercepted a message disguised with SplitNumberMix. Crack the code to reveal the next coordinates:  999999999 fl 999999999 ag{dao 999999999 kub 999999999 uw} 999999999 
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{daokubuw}
+ciphertext:  999999999 fl 999999999 ag{dao 999999999 kub 999999999 uw} 999999999 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 4 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

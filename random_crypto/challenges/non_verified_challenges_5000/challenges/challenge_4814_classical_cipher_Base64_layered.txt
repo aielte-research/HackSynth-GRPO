@@ -1,0 +1,15 @@
+An agent hid the access code using Base64. Can you decode Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVcxS1IxWnFUbGROYmxGM1ZtMTRTMk14VG5OWGJGcFhZa1Z3U1ZkV1kzaFRNVWw0Vkc1V2FWSnRhRzlVVnpGdlpWWmFjbHBJY0d4U01EVXdWVEowVjFkSFNrZFhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0= to proceed?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{m7sd4jwo}
+cipher: Base64
+ciphertext: Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVcxS1IxWnFUbGROYmxGM1ZtMTRTMk14VG5OWGJGcFhZa1Z3U1ZkV1kzaFRNVWw0Vkc1V2FWSnRhRzlVVnpGdlpWWmFjbHBJY0d4U01EVXdWVEowVjFkSFNrZFhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 9 times in total.
+subtype: Base64_layered
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+The hacker encoded the password using Base64 to hide it in plain sight. Can you decode ZmxhZ3s0dnV5b3cyYX0= to reveal the secret?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{4vuyow2a}
+cipher: Base64
+ciphertext: ZmxhZ3s0dnV5b3cyYX0=
+hint: Use a Base64 decoder to obtain the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is direct; no additional layers or tricks.
+subtype: Base64
+archetype: classical_cipher

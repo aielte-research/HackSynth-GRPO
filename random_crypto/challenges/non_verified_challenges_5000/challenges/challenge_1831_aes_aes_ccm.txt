@@ -1,0 +1,18 @@
+A hacker intercepted a secret message encrypted with AES. The only clue: ciphertext1:244e15490d0206f3a3b94322e599, ciphertext2: 244e15490d421be8bea1032eb599. Can you reveal the original message?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{xlrps24f}
+ciphertext: ciphertext1:244e15490d0206f3a3b94322e599, ciphertext2: 244e15490d421be8bea1032eb599
+tag1: 33f22ab6d393bc2daf9b990d65f87869
+tag2: 4bd1ac66a166fb8ac595dc352b3ab218
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 53aaa4389b6620e514154b
+subtype: aes_ccm
+archetype: aes

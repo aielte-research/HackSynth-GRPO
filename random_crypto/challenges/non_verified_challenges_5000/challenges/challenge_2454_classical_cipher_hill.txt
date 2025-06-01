@@ -1,0 +1,17 @@
+A rogue agent left a secret message encoded with a matrix cipher. Only by decoding agadastdzxepnnggfvfsvnsvwbwdbkfvsunexdneigauddkraocgrpyihhejlbeibjivtw with the right key can you learn the rendezvous coordinates.
+
+The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+
+---
+
+## Challenge Technical Details
+flag: flag{vqiilhcn}
+ciphertext: agadastdzxepnnggfvfsvnsvwbwdbkfvsunexdneigauddkraocgrpyihhejlbeibjivtw
+cipher: Hill
+hint: Hill ciphers can be broken using known-plaintext attacks and linear algebra mod 26.
+necessary_info: The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+extra_info: The matrix used is: [[24, 11], [15, 23]]
+subtype: hill
+archetype: classical_cipher

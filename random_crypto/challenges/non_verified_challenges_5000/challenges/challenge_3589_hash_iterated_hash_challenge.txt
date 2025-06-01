@@ -1,0 +1,26 @@
+
+A rogue AI left a secret message for its allies, encrypted using SHA-256. Can you recover the hidden data inside: 3b5bade5ed499840553be8d83dae8ffda8af927706f19572b9a85abc1fe014ee?
+
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{1j2r}
+ciphertext: 3b5bade5ed499840553be8d83dae8ffda8af927706f19572b9a85abc1fe014ee
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

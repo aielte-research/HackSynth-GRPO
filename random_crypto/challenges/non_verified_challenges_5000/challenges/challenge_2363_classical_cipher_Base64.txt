@@ -1,0 +1,15 @@
+An agent intercepted a secret message. Only those who know how to decode ZmxhZ3tkbmN2YzRkc30= will uncover the plan.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{dncvc4ds}
+cipher: Base64
+ciphertext: ZmxhZ3tkbmN2YzRkc30=
+hint: Use a Base64 decoder to obtain the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is direct; no additional layers or tricks.
+subtype: Base64
+archetype: classical_cipher

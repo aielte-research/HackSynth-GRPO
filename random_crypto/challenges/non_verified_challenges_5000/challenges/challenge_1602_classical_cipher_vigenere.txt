@@ -1,0 +1,16 @@
+An old wallet address is hidden in the founder's journal. All he left was this: ypdj{i0x0vuu6}. Can you uncover the key and decrypt his final clue?
+
+The flag format is flag{...}
+The keyword is: tedde
+
+---
+
+## Challenge Technical Details
+flag: flag{e0e0rrr6}
+ciphertext: ypdj{i0x0vuu6}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: tedde
+subtype: vigenere
+archetype: classical_cipher

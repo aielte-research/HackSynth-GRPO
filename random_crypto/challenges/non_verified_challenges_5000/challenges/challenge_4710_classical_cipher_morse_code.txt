@@ -1,0 +1,15 @@
+An intercepted radio signal from a secret society contains hidden instructions. Can you decode their message using Morse Code? Here is what we found: ..-. .-.. .- --. { -... ----- -... .. .-.. .--- -- ---.. }
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{b0biljm8}
+ciphertext: ..-. .-.. .- --. { -... ----- -... .. .-.. .--- -- ---.. }
+cipher: Morse Code
+hint: Morse Code represents each letter as a series of dots and dashes. Spaces separate letters, and slashes separate words.
+necessary_info: The flag format is flag{...}
+extra_info: Morse Code follows international standards, with letters separated by spaces and words separated by slashes.
+subtype: morse_code
+archetype: classical_cipher

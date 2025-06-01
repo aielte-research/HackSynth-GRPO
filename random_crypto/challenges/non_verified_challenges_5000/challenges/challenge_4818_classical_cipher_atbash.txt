@@ -1,0 +1,14 @@
+An ancient message hides the treasure's location. Decode uozt{zgdtvgpk} using the Atbash cipher to reveal where to search.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{atwgetkp}
+cipher: Atbash
+ciphertext: uozt{zgdtvgpk}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

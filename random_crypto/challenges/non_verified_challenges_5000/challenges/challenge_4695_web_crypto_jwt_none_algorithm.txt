@@ -1,0 +1,11 @@
+Intercepted on a suspect server: a JWT token rumored to unlock admin access. Can you uncover its hidden secret? Token below: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tpd245bHdwbX0ifQ.
+
+---
+
+## Challenge Technical Details
+flag: flag{iwn9lwpm}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tpd245bHdwbX0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

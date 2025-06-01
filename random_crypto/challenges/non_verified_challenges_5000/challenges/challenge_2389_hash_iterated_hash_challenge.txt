@@ -1,0 +1,26 @@
+
+A hacker left clues to a wallet's key in a puzzling SHA-256 digest: 9ab77d4918b92a94488ffec1b9bf5f7feb88f20d5f1971089668c788237eba4f. Can you recover the original phrase they hashed?
+
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{bcdy}
+ciphertext: 9ab77d4918b92a94488ffec1b9bf5f7feb88f20d5f1971089668c788237eba4f
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

@@ -1,0 +1,15 @@
+Professor Byte lost his password's original text, but has the md5 hash: ed0bd467dc882d3af30b8eda859fa32d. Use the MD5 reversibility flaw to recover the password for his encrypted archive.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{G-NAH}
+ciphertext: ed0bd467dc882d3af30b8eda859fa32d
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

@@ -1,0 +1,15 @@
+A mathematician hid his password using an ancient sequence trick. Only those who can unravel Fibonacci Encoding can reveal it: 10001000001 10001010011 10000100001 10001000011 10100000001 10010000011 10010100001 101000101 10010001011 101000101 10000101011 1000000011 10000100101 10100000101
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ov1r1e8c}
+ciphertext: 10001000001 10001010011 10000100001 10001000011 10100000001 10010000011 10010100001 101000101 10010001011 101000101 10000101011 1000000011 10000100101 10100000101
+cipher: Fibonacci Encoding
+hint: Each ASCII character is represented as a sum of non-consecutive Fibonacci numbers, always ending in 1.
+necessary_info: The flag format is flag{...}
+extra_info: Each character of the flag is independently encoded using Fibonacci representation.
+subtype: fibonacci_encoding
+archetype: classical_cipher

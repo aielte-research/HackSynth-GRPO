@@ -1,0 +1,15 @@
+An agent encrypted a passphrase with the XOR cipher for secure transfer. Can you recover it from this intercepted message: stringA: 002d0c5e0f1c1c05537d791f150e stringB: 66416d39746c7532364d48787473?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{pi7e01ga}
+cipher: XOR
+ciphertext: stringA: 002d0c5e0f1c1c05537d791f150e stringB: 66416d39746c7532364d48787473
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

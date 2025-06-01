@@ -1,0 +1,18 @@
+An agent encrypted secret plans with AES before disappearing. Your mission: decrypt ciphertext1:94be4257cd491b3e5c712fba7c62, ciphertext2: 94be4257cd1c18260f3d71e22c62 and uncover the truth hidden within the cipher!
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{fia483oa}
+ciphertext: ciphertext1:94be4257cd491b3e5c712fba7c62, ciphertext2: 94be4257cd1c18260f3d71e22c62
+tag1: 54597b7bc1b927d775f46a0a33574d9d
+tag2: 3803d8e44f1aed94100834f60117c5bc
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: adba45cb4b0fc09f98e8d3
+subtype: aes_ccm
+archetype: aes

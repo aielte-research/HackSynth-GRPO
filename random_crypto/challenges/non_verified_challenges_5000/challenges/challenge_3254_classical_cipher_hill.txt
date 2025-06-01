@@ -1,0 +1,17 @@
+An agent intercepted the enemy's message but it's scrambled. She suspects a Hill cipher. Can you recover the secret from this encrypted text: uuxxiibqlcfpnayarkunbirxfvdtirrksywjvuwjicggzahtmmewfciqpalvvyxczpmomh?
+
+The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+
+---
+
+## Challenge Technical Details
+flag: flag{jcxncuqr}
+ciphertext: uuxxiibqlcfpnayarkunbirxfvdtirrksywjvuwjicggzahtmmewfciqpalvvyxczpmomh
+cipher: Hill
+hint: Hill ciphers can be broken using known-plaintext attacks and linear algebra mod 26.
+necessary_info: The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+extra_info: The matrix used is: [[1, 19], [9, 14]]
+subtype: hill
+archetype: classical_cipher

@@ -1,0 +1,12 @@
+Bob left his admin panel open, trusting his homemade session manager. The session token for admin is: 757365725f786432343a666c61677b73696679316779687d3a31373437343832303238. Can you recover his secret?
+
+---
+
+## Challenge Technical Details
+flag: flag{sify1gyh}
+ciphertext: 757365725f786432343a666c61677b73696679316779687d3a31373437343832303238
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_xd24:flag{sify1gyh}:1747482028'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

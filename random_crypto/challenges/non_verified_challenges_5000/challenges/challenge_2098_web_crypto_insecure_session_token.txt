@@ -1,0 +1,14 @@
+
+A sloppy intern launched a web app using easily-predictable session tokens. Can you recover the admin’s session with ciphertext 757365725f357a77793a666c61677b73697536797468337d3a31373438313637303538?
+
+
+---
+
+## Challenge Technical Details
+flag: flag{siu6yth3}
+ciphertext: 757365725f357a77793a666c61677b73697536797468337d3a31373438313637303538
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_5zwy:flag{siu6yth3}:1748167058'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

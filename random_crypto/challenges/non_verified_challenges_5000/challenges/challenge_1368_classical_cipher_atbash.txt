@@ -1,0 +1,14 @@
+A lost scholar’s journal contains a note encoded in ancient fashion. Decipher uozt{dvss6oyi} to reveal the hidden message using the Atbash cipher.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{wehh6lbr}
+cipher: Atbash
+ciphertext: uozt{dvss6oyi}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

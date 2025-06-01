@@ -1,0 +1,16 @@
+An anonymous tipster sent you a message: hvvy{2xct0phv}. They hinted the secret key is hidden in the sender’s alias. Can you decrypt the information?
+
+The flag format is flag{...}
+The keyword is: ckvsfhyu
+
+---
+
+## Challenge Technical Details
+flag: flag{2svv0vfl}
+ciphertext: hvvy{2xct0phv}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: ckvsfhyu
+subtype: vigenere
+archetype: classical_cipher

@@ -1,0 +1,18 @@
+Agent Zero found a hidden AES-encrypted message on a rogue server. Can you recover the original text from this mysterious code? ciphertext1:fce04d7f45cb9b076cc6a0e552fd, ciphertext2: fce04d7f45d7911c7fcabefb02fd
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{q2wqmmt1}
+ciphertext: ciphertext1:fce04d7f45cb9b076cc6a0e552fd, ciphertext2: fce04d7f45d7911c7fcabefb02fd
+tag1: beea7ad99039e110eaafc1a45473364f
+tag2: f6e7962fa724382d90980748fe15807d
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 80cc9707f282d190f9842c
+subtype: aes_ccm
+archetype: aes

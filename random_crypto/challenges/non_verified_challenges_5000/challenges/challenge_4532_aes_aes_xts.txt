@@ -1,0 +1,15 @@
+A secret USB was found, its core file protected with AES-XTS. Can you recover the flag from the ciphertext1:c1a40e4205378479237894a357b54c82, ciphertext2: cccb14ec5bd28f90b4d5d1bd124106870cb652889665dc27295db3f4679e8412 hidden within?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ps4hjbbg}
+ciphertext: ciphertext1:c1a40e4205378479237894a357b54c82, ciphertext2: cccb14ec5bd28f90b4d5d1bd124106870cb652889665dc27295db3f4679e8412
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 8a9b4d899461f2d0c2b7fd89e0481c57
+subtype: aes_xts
+archetype: aes

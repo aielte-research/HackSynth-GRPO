@@ -1,0 +1,17 @@
+
+A hacker left a secret contract encoded in Base85. Can you decode Q8sTRJX$6xX;4yHC`KVnbwza~M`b*DG*fmeC1X}VUP>`eCI to find the wallet address?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{81wjvall}
+cipher: Base85
+ciphertext: Q8sTRJX$6xX;4yHC`KVnbwza~M`b*DG*fmeC1X}VUP>`eCI
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 5 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+An old hard drive was salvaged, but crucial data is encrypted. You've extracted the raw sector bytes: ciphertext1:621a0e93a84ecbd27a4145799a8ef259, ciphertext2: dce207b627a668f45b6cae45b9e4aea355e87e558ba1409cf64d59ac00b56f15. Can you unlock it? (Hint: AES-XTS)
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{lvsiggn2}
+ciphertext: ciphertext1:621a0e93a84ecbd27a4145799a8ef259, ciphertext2: dce207b627a668f45b6cae45b9e4aea355e87e558ba1409cf64d59ac00b56f15
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: c9b9c0c3a8dbe8665c4cf5205f32085a
+subtype: aes_xts
+archetype: aes

@@ -1,0 +1,15 @@
+Agent Nova sent a secret using a cipher that reverses messages. Decode }571ceke0{galf to find the hidden word.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{0ekec175}
+ciphertext: }571ceke0{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

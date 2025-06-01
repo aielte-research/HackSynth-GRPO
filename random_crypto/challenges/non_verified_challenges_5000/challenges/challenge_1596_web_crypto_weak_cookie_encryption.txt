@@ -1,0 +1,16 @@
+An intern encrypted secret notes with AES-ECB, but used a short key padded with null bytes. Can you recover the message from 6f642897870b98036d3b256ad8daf680?
+
+An encryption key that is only 2 bytes long?.
+
+---
+
+## Challenge Technical Details
+flag: flag{0ewznqln}
+ciphertext: 6f642897870b98036d3b256ad8daf680
+cipher: AES-ECB
+vulnerability: small key padded with null bytes
+hint: ECB mode with a short key makes brute-forcing possible. Consider the small key entropy.
+necessary_info: An encryption key that is only 2 bytes long?.
+extra_info: Padding follows PKCS#7. The key is padded to 16 bytes with null bytes.
+subtype: weak_cookie_encryption
+archetype: web_crypto

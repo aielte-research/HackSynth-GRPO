@@ -1,0 +1,15 @@
+A rogue AI left this coded hint in the server logs. Decipher its ASCII shift to find the access code: oujpzs}tB={m
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{qjtk94rd}
+cipher: ASCII Shift
+ciphertext: oujpzs}tB={m
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 9
+subtype: ascii_shift
+archetype: classical_cipher

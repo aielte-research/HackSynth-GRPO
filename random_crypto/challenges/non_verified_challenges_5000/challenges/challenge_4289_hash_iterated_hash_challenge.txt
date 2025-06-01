@@ -1,0 +1,24 @@
+A rogue operative stored the access code as a SHA-256 hash. Can you retrieve the original passphrase hidden in 60ca3fed016937224dacaa8a9bf0aea72486ba7184c12f3887abb69830deb2e9?
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{4ood}
+ciphertext: 60ca3fed016937224dacaa8a9bf0aea72486ba7184c12f3887abb69830deb2e9
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

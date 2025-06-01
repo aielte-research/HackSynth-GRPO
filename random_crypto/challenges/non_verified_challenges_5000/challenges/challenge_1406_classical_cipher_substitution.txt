@@ -1,0 +1,17 @@
+
+A secret society hid their meeting spot using a simple letter swap. Crack their substitution cipher: jb mseczftsvche, v lorlzjzozjfb mjchxs jl v yxzhfa fn xbmseczjbt jb dhjmh objzl fn cwvjbzxpz vsx sxcwvmxa djzh zhx mjchxszxpz, jb v axnjbxa yvbbxs, djzh zhx hxwc fn v kxe; zhx "objzl" yve rx ljbtwx wxzzxsl (zhx yflz mfyyfb), cvjsl fn wxzzxsl, zsjcwxzl fn wxzzxsl, yjpzosxl fn zhx vrfix, vba lf nfszh. zhx sxmxjixs axmjchxsl zhx zxpz re cxsnfsyjbt zhx jbixslx lorlzjzozjfb csfmxll zf xpzsvmz zhx fsjtjbvw yxllvtx. wjkxdjlx, uvmgoxl gojmkwe qjccxa zhsfoth v goxlzjfb fb qxsf-kbfdwxatx csffnl, xblosjbt bf msjzjmvw wxzzxs dvl wxnz foz fn fos mseczftsvchjm coqqwx.nwvt{q8du7he5}
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{z8wj7hy5}
+ciphertext: jb mseczftsvche, v lorlzjzozjfb mjchxs jl v yxzhfa fn xbmseczjbt jb dhjmh objzl fn cwvjbzxpz vsx sxcwvmxa djzh zhx mjchxszxpz, jb v axnjbxa yvbbxs, djzh zhx hxwc fn v kxe; zhx "objzl" yve rx ljbtwx wxzzxsl (zhx yflz mfyyfb), cvjsl fn wxzzxsl, zsjcwxzl fn wxzzxsl, yjpzosxl fn zhx vrfix, vba lf nfszh. zhx sxmxjixs axmjchxsl zhx zxpz re cxsnfsyjbt zhx jbixslx lorlzjzozjfb csfmxll zf xpzsvmz zhx fsjtjbvw yxllvtx. wjkxdjlx, uvmgoxl gojmkwe qjccxa zhsfoth v goxlzjfb fb qxsf-kbfdwxatx csffnl, xblosjbt bf msjzjmvw wxzzxs dvl wxnz foz fn fos mseczftsvchjm coqqwx.nwvt{q8du7he5}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'v', 'b': 'r', 'c': 'm', 'd': 'a', 'e': 'x', 'f': 'n', 'g': 't', 'h': 'h', 'i': 'j', 'j': 'u', 'k': 'k', 'l': 'w', 'm': 'y', 'n': 'b', 'o': 'f', 'p': 'c', 'q': 'g', 'r': 's', 's': 'l', 't': 'z', 'u': 'o', 'v': 'i', 'w': 'd', 'x': 'p', 'y': 'e', 'z': 'q'}
+subtype: substitution
+archetype: classical_cipher

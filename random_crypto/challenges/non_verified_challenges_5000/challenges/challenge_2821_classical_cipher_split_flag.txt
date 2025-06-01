@@ -1,0 +1,17 @@
+
+Professor Byte encrypted his launch codes with the SplitNumberMix cipher. He left this note: " 99999 flag 99999 {c 99999 ricwt 99999 nd} 99999 ". Can you decrypt it and stop the launch in time?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{cricwtnd}
+ciphertext:  99999 flag 99999 {c 99999 ricwt 99999 nd} 99999 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 4 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

@@ -1,0 +1,18 @@
+The missing heist location is encrypted using AES. Only with ciphertext1:f8e1544b8c738e6fd4d554e84f5b, ciphertext2: f8e1544b8c2bc03cd1dc55e9125b can you uncover where the crew will strike next.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{kx9nqbek}
+ciphertext: ciphertext1:f8e1544b8c738e6fd4d554e84f5b, ciphertext2: f8e1544b8c2bc03cd1dc55e9125b
+tag1: e319494b1e6dded32f98e7b9ae545b52
+tag2: 221180421cede7fe625efef18675f91e
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 451bee5c40df21bc6e3bc6
+subtype: aes_ccm
+archetype: aes

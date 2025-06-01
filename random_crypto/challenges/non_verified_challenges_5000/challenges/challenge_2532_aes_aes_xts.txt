@@ -1,0 +1,15 @@
+A rogue sysadmin locked confidential disk data using AES-XTS. Recover the secret by decrypting: ciphertext1:d018dad27a4c18236c8042902aa32fca, ciphertext2: e86ebc14786314146805f3f0b6c29109a3197885a97be81fadb78598c9be9514
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{xgq0cmkt}
+ciphertext: ciphertext1:d018dad27a4c18236c8042902aa32fca, ciphertext2: e86ebc14786314146805f3f0b6c29109a3197885a97be81fadb78598c9be9514
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 3e1ce1989e9b819b0e939fa19620c275
+subtype: aes_xts
+archetype: aes

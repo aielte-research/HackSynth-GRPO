@@ -1,0 +1,11 @@
+Intercepted during a secret exchange, this JWT contains a hidden message. Can you decode the payload from eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3s0ejdrOHc0MH0ifQ. and reveal its contents?
+
+---
+
+## Challenge Technical Details
+flag: flag{4z7k8w40}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3s0ejdrOHc0MH0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

@@ -1,0 +1,16 @@
+An old hacker left a coded clue in a forgotten chat log. Can you reveal the secret by cracking this Vigenère-encrypted message? keps{8d1sb8nz}
+
+The flag format is flag{...}
+The keyword is: ftpm
+
+---
+
+## Challenge Technical Details
+flag: flag{8y1zm8bu}
+ciphertext: keps{8d1sb8nz}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: ftpm
+subtype: vigenere
+archetype: classical_cipher

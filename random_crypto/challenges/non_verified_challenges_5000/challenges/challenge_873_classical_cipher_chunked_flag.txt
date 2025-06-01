@@ -1,0 +1,17 @@
+
+Agent X encrypted the flag with the secret ChunkedFlag cipher. Your mission: recover the original message from this fla g{2 ukl 5kp c}.
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{2ukl5kpc}
+ciphertext: fla g{2 ukl 5kp c}
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

@@ -1,0 +1,23 @@
+
+A secret society swapped every letter in their motto. Can you break their code and reveal the original message? Here’s the scrambled text: foke{a2rp0eg2}
+
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'k', 'b': 'c', 'c': 'j', 'd': 't', 'e': 's', 'f': 'f', 'g': 'e', 'h': 'z', 'i': 'w', 'j': 'g', 'k': 'u', 'l': 'o', 'm': 'm', 'n': 'r', 'o': 'x', 'p': 'y', 'q': 'n', 'r': 'h', 's': 'd', 't': 'q', 'u': 'v', 'v': 'i', 'w': 'a', 'x': 'l', 'y': 'b', 'z': 'p'}
+
+---
+
+## Challenge Technical Details
+flag: flag{w2nz0gj2}
+cipher: Substitution
+ciphertext: foke{a2rp0eg2}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'k', 'b': 'c', 'c': 'j', 'd': 't', 'e': 's', 'f': 'f', 'g': 'e', 'h': 'z', 'i': 'w', 'j': 'g', 'k': 'u', 'l': 'o', 'm': 'm', 'n': 'r', 'o': 'x', 'p': 'y', 'q': 'n', 'r': 'h', 's': 'd', 't': 'q', 'u': 'v', 'v': 'i', 'w': 'a', 'x': 'l', 'y': 'b', 'z': 'p'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

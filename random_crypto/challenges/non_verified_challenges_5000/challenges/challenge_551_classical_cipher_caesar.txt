@@ -1,0 +1,17 @@
+
+A secretive Roman courier left a message. Decipher his Caesar-encrypted note to reveal the password: iodj{fage250s}
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{cxdb250p}
+ciphertext: iodj{fage250s}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 3
+subtype: caesar
+archetype: classical_cipher

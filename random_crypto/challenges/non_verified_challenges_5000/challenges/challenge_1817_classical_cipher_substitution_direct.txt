@@ -1,0 +1,21 @@
+An intercepted message labeled "Operation Mosaic" awaits decryption. Can you crack the code and reveal the secret within this substitution-encrypted note? Ciphertext: bwqf{whiea1dy}
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'q', 'b': 'z', 'c': 'c', 'd': 'h', 'e': 'a', 'f': 'b', 'g': 'f', 'h': 'd', 'i': 'p', 'j': 'r', 'k': 't', 'l': 'w', 'm': 'x', 'n': 'j', 'o': 'l', 'p': 's', 'q': 'i', 'r': 'y', 's': 'n', 't': 'v', 'u': 'e', 'v': 'm', 'w': 'g', 'x': 'u', 'y': 'k', 'z': 'o'}
+
+---
+
+## Challenge Technical Details
+flag: flag{ldque1hr}
+cipher: Substitution
+ciphertext: bwqf{whiea1dy}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'q', 'b': 'z', 'c': 'c', 'd': 'h', 'e': 'a', 'f': 'b', 'g': 'f', 'h': 'd', 'i': 'p', 'j': 'r', 'k': 't', 'l': 'w', 'm': 'x', 'n': 'j', 'o': 'l', 'p': 's', 'q': 'i', 'r': 'y', 's': 'n', 't': 'v', 'u': 'e', 'v': 'm', 'w': 'g', 'x': 'u', 'y': 'k', 'z': 'o'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

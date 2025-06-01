@@ -1,0 +1,15 @@
+Agent X encrypted the secret payload with AES-XTS. Can you recover the hidden flag from this ciphertext? ciphertext1:b506bfb23a88cad896f342735be42161, ciphertext2: 38b357b895f250947aebb78ed205466e3159c8adaceaf46687ef0a393cb647a8
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{p6s9u4lm}
+ciphertext: ciphertext1:b506bfb23a88cad896f342735be42161, ciphertext2: 38b357b895f250947aebb78ed205466e3159c8adaceaf46687ef0a393cb647a8
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: da3354191b83fb88d6f08da9f8e82489
+subtype: aes_xts
+archetype: aes

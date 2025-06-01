@@ -1,0 +1,18 @@
+An intern encrypted the flag with RSA but used small primes by mistake. The ciphertext is: 853643411896735622. Can you recover the flag?
+
+The flag format is flag{...}
+n=11263391367712174699, e=2556539358920215711
+
+---
+
+## Challenge Technical Details
+flag: flag{ez9nw145}
+cipher: RSA
+ciphertext: 853643411896735622
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=11263391367712174699, e=2556539358920215711
+extra_info: p=3994652317, q=2819617447, φ(n)=11263391360897904936
+subtype: small_primes
+archetype: rsa

@@ -1,0 +1,14 @@
+An old hacker left behind this message. It's encoded using a hex cipher. Can you unveil the secret within? 666c61677b32393137727a74377d
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{2917rzt7}
+cipher: Hex
+ciphertext: 666c61677b32393137727a74377d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

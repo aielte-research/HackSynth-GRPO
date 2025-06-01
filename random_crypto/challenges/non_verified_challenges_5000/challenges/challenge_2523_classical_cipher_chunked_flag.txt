@@ -1,0 +1,17 @@
+
+Agent Lexi intercepted a message encrypted with ChunkedFlag. Can you recover the hidden flag from this scrambled note? Ciphertext: fl ag {fz ue2 7z 4}
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{fzue27z4}
+ciphertext: fl ag {fz ue2 7z 4}
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

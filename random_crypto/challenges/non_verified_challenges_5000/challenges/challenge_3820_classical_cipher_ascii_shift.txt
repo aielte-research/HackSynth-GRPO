@@ -1,0 +1,15 @@
+An old hacker left a secret clue hidden in ASCII-shifted text. Can you decode the message and uncover their password? Ciphertext: jpekexzk;<p;
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{atvg78l7}
+cipher: ASCII Shift
+ciphertext: jpekexzk;<p;
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 4
+subtype: ascii_shift
+archetype: classical_cipher

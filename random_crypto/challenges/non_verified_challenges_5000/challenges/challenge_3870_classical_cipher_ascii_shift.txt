@@ -1,0 +1,15 @@
+Agent Zero emailed mission coordinates, shifting each letter by 3. Recover the secret by reversing the ASCII Shift cipher: jpekhle8ou|z
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{dha4kqxv}
+cipher: ASCII Shift
+ciphertext: jpekhle8ou|z
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 4
+subtype: ascii_shift
+archetype: classical_cipher

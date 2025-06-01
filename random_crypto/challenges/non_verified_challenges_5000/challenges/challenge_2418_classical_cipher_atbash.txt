@@ -1,0 +1,14 @@
+A rebel sent you a secret code using an ancient mirror cipher. Can you reveal the hidden message in uozt{m3a4b0jg}?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{n3z4y0qt}
+cipher: Atbash
+ciphertext: uozt{m3a4b0jg}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

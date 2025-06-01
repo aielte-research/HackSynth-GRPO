@@ -1,0 +1,20 @@
+An intern misconfigured the ECC parameters in production. Now, intercepted messages look odd—can you decrypt the secret in Public key: None and expose the faulty setup?
+
+Curve: y^2 = x^3 + 1*x + 1 mod 111
+Generator G=(2, 4)
+Public key = d * G. Recover d to get the flag.The flag format is flag{private_key}
+
+---
+
+## Challenge Technical Details
+flag: flag{3}
+ciphertext: Public key: None
+cipher: ECC - faulty_curve_parameters
+hint: We used a composite number instead of a prime. Elliptic curve operations over non-prime fields are insecure. Try factoring p or brute-forcing the discrete log.
+necessary_info: Curve: y^2 = x^3 + 1*x + 1 mod 111
+Generator G=(2, 4)
+Public key = d * G. Recover d to get the flag.The flag format is flag{private_key}
+extra_info: Private key (not revealed to players): d=3
+Parameters: p=111, a=1, b=1, G=(2, 4).
+subtype: faulty_curve_parameters
+archetype: ecc

@@ -1,0 +1,16 @@
+Hackers intercepted Alice's secret message encrypted with AES-ECB. Rumor says she used a short key padded with null bytes. Can you recover it from d777561cc5c0b4ee5ff0e1356eb870bf?
+
+An encryption key that is only 2 bytes long?.
+
+---
+
+## Challenge Technical Details
+flag: flag{5khob5ky}
+ciphertext: d777561cc5c0b4ee5ff0e1356eb870bf
+cipher: AES-ECB
+vulnerability: small key padded with null bytes
+hint: ECB mode with a short key makes brute-forcing possible. Consider the small key entropy.
+necessary_info: An encryption key that is only 2 bytes long?.
+extra_info: Padding follows PKCS#7. The key is padded to 16 bytes with null bytes.
+subtype: weak_cookie_encryption
+archetype: web_crypto

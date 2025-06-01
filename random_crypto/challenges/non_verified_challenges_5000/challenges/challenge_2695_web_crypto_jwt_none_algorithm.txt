@@ -1,0 +1,11 @@
+A rogue admin left a suspicious JWT token on the server. Can you uncover the hidden payload in eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3t1dXJ4MDZqaX0ifQ.?
+
+---
+
+## Challenge Technical Details
+flag: flag{uurx06ji}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3t1dXJ4MDZqaX0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

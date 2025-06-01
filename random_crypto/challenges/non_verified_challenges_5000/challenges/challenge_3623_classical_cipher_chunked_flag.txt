@@ -1,0 +1,15 @@
+An agent scrambled the secret flag with ChunkedFlag cipher, leaving behind only this mysterious ciphertext: fla g{6 ij 9nd 3w }. Can you recover the original message?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{6ij9nd3w}
+ciphertext: fla g{6 ij 9nd 3w }
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

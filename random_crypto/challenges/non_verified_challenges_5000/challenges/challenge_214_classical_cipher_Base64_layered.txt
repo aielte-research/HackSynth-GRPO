@@ -1,0 +1,15 @@
+A rogue AI scrambled its secret coordinates using an encoding scheme humans invented for email attachments. Can you decode the message? Vm0xd1NtUXlWa1pPVldoVFlUSlNjRlJVVGtOamJGVjNWbXQwYWxac2JETldiR2h2VkRKS1NHVkVRbFZpUjJob1dXdGFZVlpXV25OalJsWlhWbXRaZWxaVldrWlBWa0pTVUZRd1BRPT0=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{iqs3nz25}
+cipher: Base64
+ciphertext: Vm0xd1NtUXlWa1pPVldoVFlUSlNjRlJVVGtOamJGVjNWbXQwYWxac2JETldiR2h2VkRKS1NHVkVRbFZpUjJob1dXdGFZVlpXV25OalJsWlhWbXRaZWxaVldrWlBWa0pTVUZRd1BRPT0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 7 times in total.
+subtype: Base64_layered
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+An old message hidden by a hacker is found, but it's unreadable. Decode the Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVcxS1IxWnFUbGhoTVhCUVdWZHplRll5VGtsaFJtUlRaV3RGZUZaclpEUlpWMDE0Vkc1T2FGSnRhRzlVVmxwM1pWWmFjbFZyZEZOTlJGWjZWVEkxUzJGc1NuTlhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0= below to reveal the password and unlock the next step.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{pyln1az0}
+cipher: Base64
+ciphertext: Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVcxS1IxWnFUbGhoTVhCUVdWZHplRll5VGtsaFJtUlRaV3RGZUZaclpEUlpWMDE0Vkc1T2FGSnRhRzlVVmxwM1pWWmFjbFZyZEZOTlJGWjZWVEkxUzJGc1NuTlhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 9 times in total.
+subtype: Base64_layered
+archetype: classical_cipher

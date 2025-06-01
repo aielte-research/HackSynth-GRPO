@@ -1,0 +1,16 @@
+An old hacker left behind a note, encrypted with a secret passphrase. Crack the Vigenère cipher below to reveal the hidden message: wlak{audcb5rq}
+
+The flag format is flag{...}
+The keyword is: raaeyjo
+
+---
+
+## Challenge Technical Details
+flag: flag{clplb5rm}
+ciphertext: wlak{audcb5rq}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: raaeyjo
+subtype: vigenere
+archetype: classical_cipher

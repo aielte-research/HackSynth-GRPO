@@ -1,0 +1,17 @@
+
+Intercepted data from a hacker forum is encrypted with the enigmatic ChunkedFlag cipher. Can you decode the hidden flag from this mysterious message: fla g{ 9ow dt lr 6}?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{9owdtlr6}
+ciphertext: fla g{ 9ow dt lr 6}
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

@@ -1,0 +1,18 @@
+A hacker left a mysterious encrypted message in the server logs. Can you recover the secret phrase hidden in the AES-encrypted ciphertext below? ciphertext1:46c99e0f79f6902ddcd48da8b821, ciphertext2: 46c99e0f79f390228ac796b7aa21
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{64vgwpoh}
+ciphertext: ciphertext1:46c99e0f79f6902ddcd48da8b821, ciphertext2: 46c99e0f79f390228ac796b7aa21
+tag1: 021df851e8efdd5d9c499f4aac65f7a2
+tag2: ddfcc9c71bd9048f8607e308c896504c
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 84dfeb35d1a15d7cd36ea3
+subtype: aes_ccm
+archetype: aes

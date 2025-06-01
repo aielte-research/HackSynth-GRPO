@@ -1,0 +1,15 @@
+A hacker sent a secret Base85 message to their accomplice—can you decode Q8;r{Qc74PHh5S&G<irvQ&?1ESwdHCM^;QTZ8K3qXCXmRS!^gyOH(Q;C{a} and reveal their plan?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{3784i0ir}
+cipher: Base85
+ciphertext: Q8;r{Qc74PHh5S&G<irvQ&?1ESwdHCM^;QTZ8K3qXCXmRS!^gyOH(Q;C{a}
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 6 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

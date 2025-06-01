@@ -1,0 +1,18 @@
+Agent X encrypted the passcode with RSA using two small primes. Intercept the message and recover the passcode from this ciphertext: 751038874798753726
+
+The flag format is flag{...}
+n=5960072988712244191, e=1422226236151636853
+
+---
+
+## Challenge Technical Details
+flag: flag{fc697evq}
+cipher: RSA
+ciphertext: 751038874798753726
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=5960072988712244191, e=1422226236151636853
+extra_info: p=2474501363, q=2408595557, φ(n)=5960072983829147272
+subtype: small_primes
+archetype: rsa

@@ -1,0 +1,17 @@
+
+Intercepted at midnight, this encoded flag uses the mysterious ChunkedFlag cipher. Unknown symbols—can you reconstruct the original message from fl ag {5 ise m0n z}?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{5isem0nz}
+ciphertext: fl ag {5 ise m0n z}
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

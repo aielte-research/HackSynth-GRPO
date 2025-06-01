@@ -1,0 +1,15 @@
+A hacker left a secret message for their partner. Can you decode the string below and reveal their instructions? Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVd4YWMxTnNXbFpOYWtFeFdWWlZlRll4V25GVWJHUnBWMFpKZWxkWGRHRlpWMDE0Vkc1T2FGSnVRbGhXYlhoM1ZWWmtWMWR0ZEZOTlJGWjZWVEkxUjFVeVNrZFhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{1hpv1pg2}
+cipher: Base64
+ciphertext: Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVd4YWMxTnNXbFpOYWtFeFdWWlZlRll4V25GVWJHUnBWMFpKZWxkWGRHRlpWMDE0Vkc1T2FGSnVRbGhXYlhoM1ZWWmtWMWR0ZEZOTlJGWjZWVEkxUjFVeVNrZFhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 9 times in total.
+subtype: Base64_layered
+archetype: classical_cipher

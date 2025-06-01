@@ -1,0 +1,17 @@
+
+A mysterious explorer left a coded message on an ancient coin. Can you reveal its secret by shifting the letters? Here’s the message: oujp{yph9nt1h}
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{pgy9ek1y}
+ciphertext: oujp{yph9nt1h}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 9
+subtype: caesar
+archetype: classical_cipher

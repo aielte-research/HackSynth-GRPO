@@ -1,0 +1,15 @@
+An agent hid the password for the safe by encoding it in Base64. Can you recover it from this message? Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVd4YWRWRnNiRnBOTTBKSVZqSjRZV014VG5OWGJGcHBWa1ZhU1ZaclpEUlpWMDE0VTI1R1ZtSklRbGhXYWtaSFRURmtXR1JIUmxSaVZrWTFWa2QwYTJGc1NuTlhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{7cun9wqm}
+cipher: Base64
+ciphertext: Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVd4YWRWRnNiRnBOTTBKSVZqSjRZV014VG5OWGJGcHBWa1ZhU1ZaclpEUlpWMDE0VTI1R1ZtSklRbGhXYWtaSFRURmtXR1JIUmxSaVZrWTFWa2QwYTJGc1NuTlhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 9 times in total.
+subtype: base64_layered
+archetype: classical_cipher

@@ -1,0 +1,27 @@
+Intercepted chat logs were encrypted with a weak pseudo-random key generator. Crack the code to reveal the message: 602444527d321240687d12426235
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 380699822
+  - Multiplier: 324909135
+  - Increment: 353539435
+The first 5 outputs of the LCG are provided: [10555864, 89646081, 28129782, 305320011, 224179134] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{z7un57wd}
+ciphertext: 602444527d321240687d12426235
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 380699822
+  - Multiplier: 324909135
+  - Increment: 353539435
+The first 5 outputs of the LCG are provided: [10555864, 89646081, 28129782, 305320011, 224179134] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

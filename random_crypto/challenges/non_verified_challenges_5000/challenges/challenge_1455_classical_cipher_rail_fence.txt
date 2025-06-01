@@ -1,0 +1,15 @@
+Agent Nova left a secret message hidden in the fence rails at the park. Can you decrypt fa{95a8lgend3} to find the drop-off location?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{e9n5da38}
+ciphertext: fa{95a8lgend3}
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 2
+subtype: rail_fence
+archetype: classical_cipher

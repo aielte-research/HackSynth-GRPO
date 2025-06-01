@@ -1,0 +1,15 @@
+A rogue AI hid its command code by writing it backwards. To stop it, reveal the message: }ckue6e9x{galf
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{x9e6eukc}
+ciphertext: }ckue6e9x{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

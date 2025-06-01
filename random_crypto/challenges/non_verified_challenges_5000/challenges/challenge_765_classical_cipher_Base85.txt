@@ -1,0 +1,15 @@
+An elusive hacker left a secret message encoded with Base85. Can you uncover the original text from this W^7?+dwOMVG-+xxcYO?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{zen4ij3w}
+cipher: Base85
+ciphertext: W^7?+dwOMVG-+xxcYO
+hint: Use a Base85 decoder to retrieve the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is straightforward; only one layer is used.
+subtype: Base85
+archetype: classical_cipher

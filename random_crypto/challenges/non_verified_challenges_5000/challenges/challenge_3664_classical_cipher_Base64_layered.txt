@@ -1,0 +1,17 @@
+
+An agent hid the password using a Base64 cipher. Decode Vm1wSmQyVkZOVWhTYTJScFRUTkNjbFZyV25kamJHeHpZVVZPYWsxV1NqRlpNR1IzVkRGSmQxZHNjRlZXVmtZelZVWkZPVkJSUFQwPQ== to retrieve the access key.
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{zvje778i}
+cipher: Base64
+ciphertext: Vm1wSmQyVkZOVWhTYTJScFRUTkNjbFZyV25kamJHeHpZVVZPYWsxV1NqRlpNR1IzVkRGSmQxZHNjRlZXVmtZelZVWkZPVkJSUFQwPQ==
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 6 times in total.
+subtype: Base64_layered
+archetype: classical_cipher

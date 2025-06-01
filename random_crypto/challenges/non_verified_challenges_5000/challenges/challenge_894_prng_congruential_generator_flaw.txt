@@ -1,0 +1,27 @@
+Intercepted wallet keys encrypted with a predictable pseudo-random stream. Can you recover the secrets from this 6c493100715169017e123a577358?
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 347086104
+  - Multiplier: 64070447
+  - Increment: 240231278
+The first 5 outputs of the LCG are provided: [165885279, 226220951, 89593719, 302491871, 344439063] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{t9ft7j0y}
+ciphertext: 6c493100715169017e123a577358
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 347086104
+  - Multiplier: 64070447
+  - Increment: 240231278
+The first 5 outputs of the LCG are provided: [165885279, 226220951, 89593719, 302491871, 344439063] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

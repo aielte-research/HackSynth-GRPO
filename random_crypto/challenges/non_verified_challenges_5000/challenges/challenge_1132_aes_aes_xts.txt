@@ -1,0 +1,15 @@
+A lost hard drive's sector was encrypted with AES-XTS. Only this sector's ciphertext1:538431e0ea864ac86d8a57ecb0d79d15, ciphertext2: 2a62c82d1970ebea57be60f7633636e165df1d1b70b9b0e244b4f4c08d7238cf remains. Can you recover the original plaintext?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{u1uq0f4j}
+ciphertext: ciphertext1:538431e0ea864ac86d8a57ecb0d79d15, ciphertext2: 2a62c82d1970ebea57be60f7633636e165df1d1b70b9b0e244b4f4c08d7238cf
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 1c078acedc733bde3c9b7e1156c39122
+subtype: aes_xts
+archetype: aes

@@ -1,0 +1,14 @@
+An ancient scroll was found, inscribed with a coded message. Scholars suspect it's encrypted with Atbash. Can you reveal the hidden message? uozt{c79f2atf}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{x79u2zgu}
+cipher: Atbash
+ciphertext: uozt{c79f2atf}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

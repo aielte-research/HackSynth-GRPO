@@ -1,0 +1,15 @@
+Professor Byte lost his login code! He encrypted it using an ASCII Shift and jumbled the result: mshn?l=rk>s. Can you recover the password?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{8e6kdx7l}
+cipher: ASCII Shift
+ciphertext: mshn?l=rk>s
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 7
+subtype: ascii_shift
+archetype: classical_cipher

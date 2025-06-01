@@ -1,0 +1,15 @@
+An old sysadmin left a note in the server logs. Can you reveal the password hidden in this ASCII-shifted message? ntiox:nvtt;x
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{p2fnll3p}
+cipher: ASCII Shift
+ciphertext: ntiox:nvtt;x
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 8
+subtype: ascii_shift
+archetype: classical_cipher

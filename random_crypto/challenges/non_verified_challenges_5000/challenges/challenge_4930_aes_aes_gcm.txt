@@ -1,0 +1,18 @@
+Two encrypted reports, sent under pressure, ended up using the same AES-GCM nonce. Can you exploit this slip to recover the original plaintexts from ciphertext1:609dd5634dd91106381dd41c2343, ciphertext2: 7299dd7716c408152c44c7492e1e8ea690d4?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{tj3z6gul}
+ciphertext: ciphertext1:609dd5634dd91106381dd41c2343, ciphertext2: 7299dd7716c408152c44c7492e1e8ea690d4
+tag1: 78b40a1cf629fbeadd11173ab171f061
+tag2: b254a3f711f0aeb87b55e628a095204e
+cipher: AES-GCM
+vulnerability: nonce reuse
+hint: AES-GCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 4d13def3c83f73d13eee666f
+subtype: aes_gcm
+archetype: aes

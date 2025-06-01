@@ -1,0 +1,15 @@
+An agent left a hidden message. To reveal the secret, reverse the order of characters in this string: }e5ble3k9{galf
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{9k3elb5e}
+ciphertext: }e5ble3k9{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

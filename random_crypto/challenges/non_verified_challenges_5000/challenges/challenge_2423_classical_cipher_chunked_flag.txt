@@ -1,0 +1,17 @@
+
+A rogue dev split the flag into secret chunks, encrypting them with his custom ChunkedFlag cipher. Can you piece it back together from this scrambled mess? fla g{ s4c u6 ew 3}
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{s4cu6ew3}
+ciphertext: fla g{ s4c u6 ew 3}
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

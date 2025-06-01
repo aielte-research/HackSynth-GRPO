@@ -1,0 +1,15 @@
+A hacker encoded the secret flag using Base85. Can you decode Q8+ttdr@OIG*C!rHB%->JZW-vP$oxMAx=t6ZEH+XT4QutW;;}1Vsv<QLRV{gZ75brd3AnSXCq| to recover the message?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{eidut73j}
+cipher: Base85
+ciphertext: Q8+ttdr@OIG*C!rHB%->JZW-vP$oxMAx=t6ZEH+XT4QutW;;}1Vsv<QLRV{gZ75brd3AnSXCq|
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 7 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

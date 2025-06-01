@@ -1,0 +1,21 @@
+
+A careless developer used a weak PRNG to encrypt a secret. Recover the original message from the ciphertext: 666c615b7b77395a67776f44727d
+
+
+The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [463, 476, 462, 520, 194, 189, 524, 487, 190, 96, 457, 310, 145, 92, 42, 405, 463, 161, 15, 64]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 532)
+
+---
+
+## Challenge Technical Details
+flag: flag{w9fgwoxr}
+ciphertext: 666c615b7b77395a67776f44727d
+cipher: Low-entropy PRNG
+hint: The PRNG seed space is small. You can try brute-forcing all possible seeds to reconstruct the sequence.
+necessary_info: The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [463, 476, 462, 520, 194, 189, 524, 487, 190, 96, 457, 310, 145, 92, 42, 405, 463, 161, 15, 64]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 532)
+extra_info: Since the seed has only 256 possible values, it can be brute-forced to recover the secret number and decrypt the flag.
+subtype: low_entropy_generator
+archetype: prng

@@ -1,0 +1,15 @@
+A spy hid sensitive files on a stolen drive, encrypted with AES-XTS. Can you recover the original message from the cipher below? ciphertext1:f2ad7f10be381a6802b1cf09aa701f51, ciphertext2: 91de30313d220b7a27e80d9e08148af343a56f728443e7840bfe240feaa8ee48
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ep7ns8cq}
+ciphertext: ciphertext1:f2ad7f10be381a6802b1cf09aa701f51, ciphertext2: 91de30313d220b7a27e80d9e08148af343a56f728443e7840bfe240feaa8ee48
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: c387f279ba52a75234fc4bffdb368175
+subtype: aes_xts
+archetype: aes

@@ -1,0 +1,18 @@
+A secret agent has hidden the drop location inside this AES-encrypted message. Can you uncover where you need to go? Encrypted text: ciphertext1:f364b876eb2012f165554961fc2d, ciphertext2: f364b876eb2a00bd385e4922f82d
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{3e563l5g}
+ciphertext: ciphertext1:f364b876eb2012f165554961fc2d, ciphertext2: f364b876eb2a00bd385e4922f82d
+tag1: cbfd4a2d1c8bc828f49497b9ddce1ec4
+tag2: 63bc322ce6b27b738ef9e5df0b160890
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: f1556c515cac22157b5841
+subtype: aes_ccm
+archetype: aes

@@ -1,0 +1,17 @@
+
+A spy hid secret data using XOR encryption. Only those who crack stringA: 541e200a4e0b3945140666021614 stringB: 3272416d356d4831663756326f69 can reveal the mission’s target.
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{fqtr100y}
+cipher: XOR
+ciphertext: stringA: 541e200a4e0b3945140666021614 stringB: 3272416d356d4831663756326f69
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

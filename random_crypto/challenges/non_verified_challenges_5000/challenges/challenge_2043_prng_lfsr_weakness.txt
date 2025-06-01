@@ -1,0 +1,19 @@
+A hacker intercepted a secret broadcast but suspects the encryption is weak. Can you recover the flag from the ciphertext below, encrypted with a flawed LFSR cipher? d993de98c4cad7cfc791d68b8c82
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[64989, 65262, 65399, 65467, 65501, 65518, 65527, 65531, 65533, 32766]
+
+---
+
+## Challenge Technical Details
+flag: flag{5h0xnit3}
+ciphertext: d993de98c4cad7cfc791d68b8c82
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[64989, 65262, 65399, 65467, 65501, 65518, 65527, 65531, 65533, 32766]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

@@ -1,0 +1,14 @@
+A mysterious artifact was found with a message. Scholars suspect it hides a clue using an ancient mirror cipher: uozt{ctd40iuq}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{xgw40rfj}
+cipher: Atbash
+ciphertext: uozt{ctd40iuq}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

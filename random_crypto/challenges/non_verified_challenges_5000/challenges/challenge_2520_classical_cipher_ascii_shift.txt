@@ -1,0 +1,15 @@
+The hacker left a secret ASCII-shifted message in the server logs. Can you decode jpek|}9}ih9; to reveal their plans?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{xy5yed57}
+cipher: ASCII Shift
+ciphertext: jpek|}9}ih9;
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 4
+subtype: ascii_shift
+archetype: classical_cipher

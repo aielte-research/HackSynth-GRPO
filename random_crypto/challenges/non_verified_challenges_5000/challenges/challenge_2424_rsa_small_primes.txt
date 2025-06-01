@@ -1,0 +1,18 @@
+An intern generated an RSA key using tiny primes, then encrypted your flag. Recover the message: 3178415775778977066
+
+The flag format is flag{...}
+n=6511631737303378669, e=6315964862117488987
+
+---
+
+## Challenge Technical Details
+flag: flag{ewavvkyq}
+cipher: RSA
+ciphertext: 3178415775778977066
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=6511631737303378669, e=6315964862117488987
+extra_info: p=2173175507, q=2996367167, φ(n)=6511631732133835996
+subtype: small_primes
+archetype: rsa

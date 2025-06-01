@@ -1,0 +1,15 @@
+An encrypted hard drive was seized. Rumor has it, the key lies hidden in its metadata. Can you decrypt ciphertext1:bfe0a07a0430b41ecb06f07df49beb2f, ciphertext2: 9d82abdce4ff19b5f8a066ddd86641584d6f547a1ba79d125ddce61a7bb8ac33 protected by AES-XTS?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{kg7iavzz}
+ciphertext: ciphertext1:bfe0a07a0430b41ecb06f07df49beb2f, ciphertext2: 9d82abdce4ff19b5f8a066ddd86641584d6f547a1ba79d125ddce61a7bb8ac33
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: b16e016cf698f2c324f25185ad4f504a
+subtype: aes_xts
+archetype: aes

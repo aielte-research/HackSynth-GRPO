@@ -1,0 +1,16 @@
+morse_code +
+substitution_direct+
+fibonacci +
+vingere
+transposition
+small order
+faulty curve
+poor_random_salt
+iterated_hash
+predictableseed
+generate_congruential_generator_flaw_challenge
+small primes
+shared prime
+generate_rsa_sign_with_low_public_exponent_challenge
+generate_broken_key_exchange_challenge
+generate_aes_ccm_challenge

@@ -1,0 +1,17 @@
+
+Agent Nova intercepted a message protected by the ChunkedFlag cipher. Decode fl ag {4 ubi qh ir } to retrieve the hidden flag before the syndicate does.
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{4ubiqhir}
+ciphertext: fl ag {4 ubi qh ir }
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

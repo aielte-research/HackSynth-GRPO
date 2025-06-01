@@ -1,0 +1,21 @@
+A hacker intercepted a secret message but scrambled the alphabet. Can you reveal the original text from this substitution cipher? Ciphertext: byng{ao80gq45}
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'n', 'b': 'e', 'c': 'v', 'd': 'h', 'e': 'u', 'f': 'b', 'g': 'g', 'h': 'p', 'i': 'f', 'j': 'a', 'k': 'z', 'l': 'y', 'm': 'x', 'n': 'j', 'o': 'q', 'p': 't', 'q': 'd', 'r': 'r', 's': 's', 't': 'k', 'u': 'c', 'v': 'i', 'w': 'm', 'x': 'o', 'y': 'w', 'z': 'l'}
+
+---
+
+## Challenge Technical Details
+flag: flag{jx80go45}
+cipher: Substitution
+ciphertext: byng{ao80gq45}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'n', 'b': 'e', 'c': 'v', 'd': 'h', 'e': 'u', 'f': 'b', 'g': 'g', 'h': 'p', 'i': 'f', 'j': 'a', 'k': 'z', 'l': 'y', 'm': 'x', 'n': 'j', 'o': 'q', 'p': 't', 'q': 'd', 'r': 'r', 's': 's', 't': 'k', 'u': 'c', 'v': 'i', 'w': 'm', 'x': 'o', 'y': 'w', 'z': 'l'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

@@ -1,0 +1,17 @@
+
+An old hacker left a Base85-encrypted clue to their vault. Crack the code: Q8+ttdr@OIG*C!rHB%->JZW-vQ6@hzQBgNTNlaNPF?DlORCGu^L3J~4Bv(gIFlJ0sN^DnAWF;#
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{3qebau5j}
+cipher: Base85
+ciphertext: Q8+ttdr@OIG*C!rHB%->JZW-vQ6@hzQBgNTNlaNPF?DlORCGu^L3J~4Bv(gIFlJ0sN^DnAWF;#
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 7 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

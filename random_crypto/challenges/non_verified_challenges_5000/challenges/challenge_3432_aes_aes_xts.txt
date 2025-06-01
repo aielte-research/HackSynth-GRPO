@@ -1,0 +1,15 @@
+Someone encrypted the vault’s location using AES-XTS. Can you recover it from this ciphertext? ciphertext1:1c3454a94970161b0b1672fa486a63bf, ciphertext2: d51fa983f118d8e728f30d8deb355303810f0192b9871cfbb575bf49e069c666
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{5e8u047t}
+ciphertext: ciphertext1:1c3454a94970161b0b1672fa486a63bf, ciphertext2: d51fa983f118d8e728f30d8deb355303810f0192b9871cfbb575bf49e069c666
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 6e33ad5aa83e194ba40626453a6f9500
+subtype: aes_xts
+archetype: aes

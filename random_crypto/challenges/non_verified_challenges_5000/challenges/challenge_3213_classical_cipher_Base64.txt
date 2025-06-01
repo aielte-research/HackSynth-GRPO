@@ -1,0 +1,15 @@
+An agent encoded critical coordinates using Base64 before disappearing. The only clue left was: ZmxhZ3t5c3NsMnF1aX0=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{yssl2qui}
+cipher: Base64
+ciphertext: ZmxhZ3t5c3NsMnF1aX0=
+hint: Use a Base64 decoder to obtain the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is direct; no additional layers or tricks.
+subtype: Base64
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+Intercepted from a secret chat, this message hides the flag in chunks using the notorious ChunkedFlag cipher. Can you reconstruct the original? Ciphertext: fla g{p yf gs j33 }
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{pyfgsj33}
+ciphertext: fla g{p yf gs j33 }
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

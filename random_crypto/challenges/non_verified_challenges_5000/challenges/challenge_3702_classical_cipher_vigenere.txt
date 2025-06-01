@@ -1,0 +1,16 @@
+An old hacker left a Vigenère-encrypted message for his protégé. Can you decrypt wras{2pm2flnv} and reveal his final secret?
+
+The flag format is flag{...}
+The keyword is: rgamlhos
+
+---
+
+## Challenge Technical Details
+flag: flag{2ef2rtwp}
+ciphertext: wras{2pm2flnv}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: rgamlhos
+subtype: vigenere
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+ALICE sent a secret code hashed with MD5, but BOB accidentally leaked a vulnerability. Can you reverse the hash and recover the original message? The cipher is: e56190db0f818922806925ad4c2894f0
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{33874}
+ciphertext: e56190db0f818922806925ad4c2894f0
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

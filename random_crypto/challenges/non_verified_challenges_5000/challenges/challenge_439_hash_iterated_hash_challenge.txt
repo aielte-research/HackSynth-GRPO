@@ -1,0 +1,26 @@
+
+A hacker used SHA-256 to encrypt a secret, leaving only this hash: 93e2badb762656e3afb84a9c94929ce5618b6501ac6aa86a5382ea65afcc57f4. Recover the original message to uncover their plan.
+
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{1x4s}
+ciphertext: 93e2badb762656e3afb84a9c94929ce5618b6501ac6aa86a5382ea65afcc57f4
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

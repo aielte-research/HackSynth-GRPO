@@ -1,0 +1,15 @@
+Intercepted from a hacker's chat, this Base85-encrypted string may reveal their next target: W^7?+du?|!F=}&iY<&
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{mw31jsrl}
+cipher: Base85
+ciphertext: W^7?+du?|!F=}&iY<&
+hint: Use a Base85 decoder to retrieve the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is straightforward; only one layer is used.
+subtype: Base85
+archetype: classical_cipher

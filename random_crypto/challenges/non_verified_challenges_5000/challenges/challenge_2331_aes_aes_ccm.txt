@@ -1,0 +1,18 @@
+Intercepted from a covert communication, this ciphertext1:65359199714a7b41bbde3dde1c73, ciphertext2: 6535919971517f1be28863890f73 encodes a secret meeting location using AES. Can you reveal their destination?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{mwc8c12q}
+ciphertext: ciphertext1:65359199714a7b41bbde3dde1c73, ciphertext2: 6535919971517f1be28863890f73
+tag1: cbe3549208dbf7953e13b2dc8e7228b7
+tag2: e5159f7f17d15a7ae1196679bac7da12
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 7f0359e0e757a7c980808c
+subtype: aes_ccm
+archetype: aes

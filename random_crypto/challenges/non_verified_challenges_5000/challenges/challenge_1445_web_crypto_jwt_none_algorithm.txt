@@ -1,0 +1,13 @@
+
+An insider leaked admin credentials encoded as a JWT. Can you uncover the secret from eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tlM21nYWs4eH0ifQ. and reveal what they're hiding?
+
+
+---
+
+## Challenge Technical Details
+flag: flag{e3mgak8x}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tlM21nYWs4eH0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

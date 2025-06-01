@@ -1,0 +1,12 @@
+An intern deployed a login system with weak session encryption. The admin's token is intercepted—can you recover their session from 757365725f6c386c6d3a666c61677b376a307a73717a717d3a31373438313730363236?
+
+---
+
+## Challenge Technical Details
+flag: flag{7j0zsqzq}
+ciphertext: 757365725f6c386c6d3a666c61677b376a307a73717a717d3a31373438313730363236
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_l8lm:flag{7j0zsqzq}:1748170626'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

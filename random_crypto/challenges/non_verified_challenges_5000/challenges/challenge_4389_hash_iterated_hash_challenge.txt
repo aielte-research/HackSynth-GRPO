@@ -1,0 +1,24 @@
+Decode the forgotten wallet’s passphrase, hidden as a SHA-256 hash. The value you must recover is: d09e8f960b766cfec1c20faeb4ab9030506cd3b5b3235accfbb5ac5450a4629a
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{n49b}
+ciphertext: d09e8f960b766cfec1c20faeb4ab9030506cd3b5b3235accfbb5ac5450a4629a
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

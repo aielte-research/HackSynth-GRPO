@@ -1,0 +1,24 @@
+An anonymous hacker left a message, but it’s obscured with a SHA-256 hash. Can you recover the original text from this hash? Here it is: 68dbe1e297d927fc9df5a02ef9d09d25247f2f164a33fae955043c1ec7da33d6
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{ea9p}
+ciphertext: 68dbe1e297d927fc9df5a02ef9d09d25247f2f164a33fae955043c1ec7da33d6
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

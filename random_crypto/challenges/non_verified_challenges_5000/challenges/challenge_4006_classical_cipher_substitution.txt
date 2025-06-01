@@ -1,0 +1,15 @@
+A hacker intercepted the secret password, but it's hidden using a simple substitution cipher. Can you crack the code? Here's the encrypted message: mh ycdzpsvctzrd, t klwkpmplpmsh ymzrac mk t iaprsx sb ahycdzpmhv mh frmyr lhmpk sb zutmhpajp tca cazutyax fmpr pra ymzracpajp, mh t xabmhax ithhac, fmpr pra rauz sb t nad; pra "lhmpk" itd wa kmhvua uappack (pra iskp ysiish), ztmck sb uappack, pcmzuapk sb uappack, imjplcak sb pra twsea, thx ks bscpr. pra cayameac xaymzrack pra pajp wd zacbscimhv pra mheacka klwkpmplpmsh zcsyakk ps ajpctyp pra scmvmhtu iakktva. umnafmka, qtyglak glmynud omzzax prcslvr t glakpmsh sh oacs-nhsfuaxva zcssbk, ahklcmhv hs ycmpmytu uappac ftk uabp slp sb slc ycdzpsvctzrmy zlooua.butv{knq1itbd}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{skj1mafy}
+ciphertext: mh ycdzpsvctzrd, t klwkpmplpmsh ymzrac mk t iaprsx sb ahycdzpmhv mh frmyr lhmpk sb zutmhpajp tca cazutyax fmpr pra ymzracpajp, mh t xabmhax ithhac, fmpr pra rauz sb t nad; pra "lhmpk" itd wa kmhvua uappack (pra iskp ysiish), ztmck sb uappack, pcmzuapk sb uappack, imjplcak sb pra twsea, thx ks bscpr. pra cayameac xaymzrack pra pajp wd zacbscimhv pra mheacka klwkpmplpmsh zcsyakk ps ajpctyp pra scmvmhtu iakktva. umnafmka, qtyglak glmynud omzzax prcslvr t glakpmsh sh oacs-nhsfuaxva zcssbk, ahklcmhv hs ycmpmytu uappac ftk uabp slp sb slc ycdzpsvctzrmy zlooua.butv{knq1itbd}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 't', 'b': 'w', 'c': 'y', 'd': 'x', 'e': 'a', 'f': 'b', 'g': 'v', 'h': 'r', 'i': 'm', 'j': 'q', 'k': 'n', 'l': 'u', 'm': 'i', 'n': 'h', 'o': 's', 'p': 'z', 'q': 'g', 'r': 'c', 's': 'k', 't': 'p', 'u': 'l', 'v': 'e', 'w': 'f', 'x': 'j', 'y': 'd', 'z': 'o'}
+subtype: substitution
+archetype: classical_cipher

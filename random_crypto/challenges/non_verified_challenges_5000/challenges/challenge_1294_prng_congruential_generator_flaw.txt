@@ -1,0 +1,27 @@
+An intern tried to secure the vault with a homemade RNG stream cipher. Can you recover the secret message hidden in 4d4a9025504dc3214e16c0344f5b?
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 816767560
+  - Multiplier: 549474184
+  - Increment: 346840138
+The first 5 outputs of the LCG are provided: [728196610, 225973938, 69376490, 100133818, 294416130] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{k2ce01vd}
+ciphertext: 4d4a9025504dc3214e16c0344f5b
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 816767560
+  - Multiplier: 549474184
+  - Increment: 346840138
+The first 5 outputs of the LCG are provided: [728196610, 225973938, 69376490, 100133818, 294416130] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

@@ -1,0 +1,17 @@
+
+A rogue agent sent a coded message using a simple letter-substitution cipher. Can you reveal the secret plan hidden in ez mpvwdyqptwbv, t fiafdedideyz mewbxp ef t rxdbyj yo xzmpvwdezq ez sbemb izedf yo wutezdxhd tpx pxwutmxj sedb dbx mewbxpdxhd, ez t jxoezxj rtzzxp, sedb dbx bxuw yo t cxv; dbx "izedf" rtv ax fezqux uxddxpf (dbx ryfd myrryz), wtepf yo uxddxpf, dpewuxdf yo uxddxpf, rehdipxf yo dbx taylx, tzj fy oypdb. dbx pxmxelxp jxmewbxpf dbx dxhd av wxpoyprezq dbx ezlxpfx fiafdedideyz wpymxff dy xhdptmd dbx ypeqeztu rxfftqx. uecxsefx, gtmkixf kiemcuv newwxj dbpyiqb t kixfdeyz yz nxpy-czysuxjqx wpyyof, xzfipezq zy mpedemtu uxddxp stf uxod yid yo yip mpvwdyqptwbem winnux.outq{u17whguq}?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{l17pxjlg}
+ciphertext: ez mpvwdyqptwbv, t fiafdedideyz mewbxp ef t rxdbyj yo xzmpvwdezq ez sbemb izedf yo wutezdxhd tpx pxwutmxj sedb dbx mewbxpdxhd, ez t jxoezxj rtzzxp, sedb dbx bxuw yo t cxv; dbx "izedf" rtv ax fezqux uxddxpf (dbx ryfd myrryz), wtepf yo uxddxpf, dpewuxdf yo uxddxpf, rehdipxf yo dbx taylx, tzj fy oypdb. dbx pxmxelxp jxmewbxpf dbx dxhd av wxpoyprezq dbx ezlxpfx fiafdedideyz wpymxff dy xhdptmd dbx ypeqeztu rxfftqx. uecxsefx, gtmkixf kiemcuv newwxj dbpyiqb t kixfdeyz yz nxpy-czysuxjqx wpyyof, xzfipezq zy mpedemtu uxddxp stf uxod yid yo yip mpvwdyqptwbem winnux.outq{u17whguq}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 't', 'b': 'a', 'c': 'm', 'd': 'j', 'e': 'x', 'f': 'o', 'g': 'q', 'h': 'b', 'i': 'e', 'j': 'g', 'k': 'c', 'l': 'u', 'm': 'r', 'n': 'z', 'o': 'y', 'p': 'w', 'q': 'k', 'r': 'p', 's': 'f', 't': 'd', 'u': 'i', 'v': 'l', 'w': 's', 'x': 'h', 'y': 'v', 'z': 'n'}
+subtype: substitution
+archetype: classical_cipher

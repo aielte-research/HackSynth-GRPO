@@ -1,0 +1,16 @@
+
+A hacker left a vital password in hex code. Can you decode this to recover the message? Ciphertext: 666c61677b7974366c62636f797d
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{yt6lbcoy}
+cipher: Hex
+ciphertext: 666c61677b7974366c62636f797d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

@@ -1,0 +1,17 @@
+
+A hacker hid the unlock code in a disk sector encrypted with AES-XTS. Recover the original data from this ciphertext: ciphertext1:5951d851edb4ef451b16e4b4ab2a9fe7, ciphertext2: b2764167cf981b75abe6e756d63234f4a827773fcf09ea3eae9b584eff2e0732
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{5zjesz0t}
+ciphertext: ciphertext1:5951d851edb4ef451b16e4b4ab2a9fe7, ciphertext2: b2764167cf981b75abe6e756d63234f4a827773fcf09ea3eae9b584eff2e0732
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 8e1f458a82b5f917616a9fd3ddd5d3cc
+subtype: aes_xts
+archetype: aes

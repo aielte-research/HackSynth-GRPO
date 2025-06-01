@@ -1,0 +1,15 @@
+Our old server stores passwords as MD5 hashes. Can you recover the original password from this hash: daa617139a631ceef184f09e339d1825 using the MD5 reversing vulnerability?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{mipps}
+ciphertext: daa617139a631ceef184f09e339d1825
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

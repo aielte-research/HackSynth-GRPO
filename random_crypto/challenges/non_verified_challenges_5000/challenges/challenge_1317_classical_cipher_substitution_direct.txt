@@ -1,0 +1,21 @@
+An intercepted message hides the location of stolen coins. The thief used a simple substitution cipher to encrypt it: hdov{awwcct6y}. Can you reveal the secret?
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'o', 'b': 'k', 'c': 'g', 'd': 'b', 'e': 'f', 'f': 'h', 'g': 'v', 'h': 'q', 'i': 's', 'j': 'j', 'k': 'u', 'l': 'd', 'm': 'n', 'n': 'y', 'o': 'c', 'p': 'a', 'q': 'i', 'r': 'p', 's': 'm', 't': 'z', 'u': 'r', 'v': 'l', 'w': 't', 'x': 'x', 'y': 'w', 'z': 'e'}
+
+---
+
+## Challenge Technical Details
+flag: flag{pyyoow6n}
+cipher: Substitution
+ciphertext: hdov{awwcct6y}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'o', 'b': 'k', 'c': 'g', 'd': 'b', 'e': 'f', 'f': 'h', 'g': 'v', 'h': 'q', 'i': 's', 'j': 'j', 'k': 'u', 'l': 'd', 'm': 'n', 'n': 'y', 'o': 'c', 'p': 'a', 'q': 'i', 'r': 'p', 's': 'm', 't': 'z', 'u': 'r', 'v': 'l', 'w': 't', 'x': 'x', 'y': 'w', 'z': 'e'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

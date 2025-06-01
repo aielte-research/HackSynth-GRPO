@@ -1,0 +1,16 @@
+A spy intercepted a secret message between agents. To unlock the next clue, decipher the Vigenère-encrypted text below: aptm{maghpatf}
+
+The flag format is flag{...}
+The keyword is: vetgst
+
+---
+
+## Challenge Technical Details
+flag: flag{uhldwubm}
+ciphertext: aptm{maghpatf}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: vetgst
+subtype: vigenere
+archetype: classical_cipher

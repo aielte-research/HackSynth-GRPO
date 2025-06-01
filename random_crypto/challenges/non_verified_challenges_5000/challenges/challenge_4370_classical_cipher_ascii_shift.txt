@@ -1,0 +1,15 @@
+A hacker left a secret code on a server, encrypted with an ASCII Shift cipher. Can you reveal their hidden message? Ciphertext: jpekf~8;7zv{
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{bz473vrw}
+cipher: ASCII Shift
+ciphertext: jpekf~8;7zv{
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 4
+subtype: ascii_shift
+archetype: classical_cipher

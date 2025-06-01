@@ -1,0 +1,15 @@
+Intercepted data was hashed with MD5. Analysts believe a known vulnerability lets you recover the original password from this hash: 28eb04d58fd2b887890e448c5d702204.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{TOOIS}
+ciphertext: 28eb04d58fd2b887890e448c5d702204
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

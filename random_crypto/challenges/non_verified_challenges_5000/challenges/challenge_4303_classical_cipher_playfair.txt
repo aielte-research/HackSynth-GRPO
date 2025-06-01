@@ -1,0 +1,19 @@
+
+Intercepted during a secret exchange, this message (qmbtnkzeisqdbvmctktqnkzeisqkrpkumeqxmcouoqambtnkzeisqdbvmcpkkinouzknowlytmutsbfmdqvtpoamymhqgarpfolfzsoqmcbaqkrmopdtknbklponaqcipouppoambsqgdtdninytsmuhbg) hides the location of the final key. Can you decrypt it using Playfair?
+
+
+The flag format is flag{...}
+The keyword is: isikoisj
+
+---
+
+## Challenge Technical Details
+flag: flag{tmohqnib}
+ciphertext: qmbtnkzeisqdbvmctktqnkzeisqkrpkumeqxmcouoqambtnkzeisqdbvmcpkkinouzknowlytmutsbfmdqvtpoamymhqgarpfolfzsoqmcbaqkrmopdtknbklponaqcipouppoambsqgdtdninytsmuhbg
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: isikoisj
+extra_info: The playfair table is [['i', 's', 'k', 'o', 'a'], ['b', 'c', 'd', 'e', 'f'], ['g', 'h', 'l', 'm', 'n'], ['p', 'q', 'r', 't', 'u'], ['v', 'w', 'x', 'y', 'z']]
+subtype: playfair
+archetype: classical_cipher

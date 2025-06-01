@@ -1,0 +1,16 @@
+A secret token for the club's vault was hidden in the message below. Decipher it using the Vigenère cipher and the password they left behind. ugxd{o7yd7mfr}
+
+The flag format is flag{...}
+The keyword is: pvxxv
+
+---
+
+## Challenge Technical Details
+flag: flag{t7ji7piw}
+ciphertext: ugxd{o7yd7mfr}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: pvxxv
+subtype: vigenere
+archetype: classical_cipher

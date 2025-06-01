@@ -1,0 +1,21 @@
+
+A careless admin hashed user passwords with SHA-256 and a timestamp as salt. Can you recover the original password from 87762cdea05a758f8f545e75d7725a61f7dfdeae0f189b54c5e2a265f1268993?
+
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{u3p}
+ciphertext: 87762cdea05a758f8f545e75d7725a61f7dfdeae0f189b54c5e2a265f1268993
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

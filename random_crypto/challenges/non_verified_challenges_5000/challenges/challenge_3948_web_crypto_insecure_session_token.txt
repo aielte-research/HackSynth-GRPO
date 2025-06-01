@@ -1,0 +1,12 @@
+Your friend left a suspicious web app running. They challenge you to recover their password from the session cookie: 757365725f376e77683a666c61677b746339666d617a647d3a31373438313639363636.
+
+---
+
+## Challenge Technical Details
+flag: flag{tc9fmazd}
+ciphertext: 757365725f376e77683a666c61677b746339666d617a647d3a31373438313639363636
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_7nwh:flag{tc9fmazd}:1748169666'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

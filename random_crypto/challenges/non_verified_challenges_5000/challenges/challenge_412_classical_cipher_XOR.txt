@@ -1,0 +1,15 @@
+The hacker left a message protected by an XOR cipher. Decode stringA: 34040f2d3125540c54500d103624 stringB: 52686e4a4a473139376834715959 to reveal the secret passphrase needed to access the hidden vault.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{be5c89ao}
+cipher: XOR
+ciphertext: stringA: 34040f2d3125540c54500d103624 stringB: 52686e4a4a473139376834715959
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

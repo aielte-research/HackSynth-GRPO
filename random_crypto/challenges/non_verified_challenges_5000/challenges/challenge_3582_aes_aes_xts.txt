@@ -1,0 +1,15 @@
+Intercepted at a data center: an encrypted disk sector containing the entry code. Can you unlock it? Ciphertext: ciphertext1:25266eca63c4967e1672ad4e3b178b34, ciphertext2: ddd04c7e0f82d12a0032d55cc6da7c51384a92c6f796aedeb0eb17205e53e6b4 (AES-XTS suspected).
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{bz4gkyqm}
+ciphertext: ciphertext1:25266eca63c4967e1672ad4e3b178b34, ciphertext2: ddd04c7e0f82d12a0032d55cc6da7c51384a92c6f796aedeb0eb17205e53e6b4
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 92ad6addbdb4fa9ab88bfaeb6176059c
+subtype: aes_xts
+archetype: aes

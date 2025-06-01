@@ -1,0 +1,17 @@
+
+Dr. Byte left a message hidden using SplitNumberMix. Can you decode his secret? Ciphertext:  555555555 f 555555555 lag{lmlai 555555555 jos} 555555555 
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{lmlaijos}
+ciphertext:  555555555 f 555555555 lag{lmlai 555555555 jos} 555555555 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 3 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

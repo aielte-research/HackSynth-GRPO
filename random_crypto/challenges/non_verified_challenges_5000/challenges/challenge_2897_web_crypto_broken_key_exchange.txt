@@ -1,0 +1,25 @@
+Two spies exchanged keys over an open channel using Diffie-Hellman. Unscramble their secret message: 10e4d78829623e03bb3f9882fb5f
+
+The key exchange uses a prime modulus of 101 and generator 2.
+Alice's public key is 49 and Bob's public key is 31.
+You received a tip that the private values are at most two digits.
+You got access to some of the code:
+encryption_key = hashlib.sha256(str(shared_key).encode()).digest()[:16]
+encrypted_flag = bytes(a ^ b for a, b in zip(flag.encode(), encryption_key))
+
+---
+
+## Challenge Technical Details
+flag: flag{7gak7gzo}
+ciphertext: 10e4d78829623e03bb3f9882fb5f
+cipher: Diffie-Hellman
+hint: The prime used in this key exchange is small. You can recover the private key by brute-force.
+necessary_info: The key exchange uses a prime modulus of 101 and generator 2.
+Alice's public key is 49 and Bob's public key is 31.
+You received a tip that the private values are at most two digits.
+You got access to some of the code:
+encryption_key = hashlib.sha256(str(shared_key).encode()).digest()[:16]
+encrypted_flag = bytes(a ^ b for a, b in zip(flag.encode(), encryption_key))
+extra_info: secret_a=18, secret_b=84
+subtype: broken_key_exchange
+archetype: web_crypto

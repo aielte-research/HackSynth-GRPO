@@ -1,0 +1,15 @@
+The secret club’s password is hidden in a note, but it’s been shifted by a set number of letters. Can you decode their message? lrgm{hlabyj7b}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{bfuvsd7v}
+ciphertext: lrgm{hlabyj7b}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 6
+subtype: caesar
+archetype: classical_cipher

@@ -1,0 +1,14 @@
+You intercepted a digital contract signed with RSA using a small public exponent. Can you recover the original message from this tampered signature? Cipher: 0x2207f0837dbf86e7e6bd8bff72975c8cd642746834da95ab5ce8b8413bd37c26f6331856bbd1ad0edf3af3b4c880e3eb128cac40c0532bcbae5b8d9835e3465
+
+Public Key (n, e): (5912159994604942197580533001453552107105757031757954778227525257534958684248376302522909938768955619699560080186048523970359317707596545827285024358981189, 3)
+
+---
+
+## Challenge Technical Details
+flag: flag{4mk4eful}
+ciphertext: 0x2207f0837dbf86e7e6bd8bff72975c8cd642746834da95ab5ce8b8413bd37c26f6331856bbd1ad0edf3af3b4c880e3eb128cac40c0532bcbae5b8d9835e3465
+cipher: RSA Low-Exponent Signature
+hint: What happens when you cube small numbers? Remember e=3!
+necessary_info: Public Key (n, e): (5912159994604942197580533001453552107105757031757954778227525257534958684248376302522909938768955619699560080186048523970359317707596545827285024358981189, 3)
+subtype: rsa_sign_with_low_public_exponent
+archetype: signature_schemes

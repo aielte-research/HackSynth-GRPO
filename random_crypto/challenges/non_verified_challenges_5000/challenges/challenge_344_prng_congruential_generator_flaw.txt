@@ -1,0 +1,27 @@
+A hacker left this message scrambled with a predictable LCG stream. Can you outsmart their weak cipher and recover the hidden flag? 25a9f82338aea12733f5ed252bb8
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1787618494
+  - Multiplier: 1604495281
+  - Increment: 1526614851
+The first 5 outputs of the LCG are provided: [1165272377, 1673168700, 907543233, 174108150, 737859819] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{k8cp0tah}
+ciphertext: 25a9f82338aea12733f5ed252bb8
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1787618494
+  - Multiplier: 1604495281
+  - Increment: 1526614851
+The first 5 outputs of the LCG are provided: [1165272377, 1673168700, 907543233, 174108150, 737859819] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

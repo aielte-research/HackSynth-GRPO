@@ -1,0 +1,15 @@
+An agent left a secret message for you, but scrambled it using an XOR cipher. Can you recover the original text from the cryptic sequence below? stringA: 1e3d241312040552355a05362d0c stringB: 7851457469326c65506d66574271
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{6i7e7cao}
+cipher: XOR
+ciphertext: stringA: 1e3d241312040552355a05362d0c stringB: 7851457469326c65506d66574271
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

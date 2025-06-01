@@ -1,0 +1,21 @@
+
+A hacker intercepted a secret blockchain key exchange, but it’s encoded with an Autokey cipher. Crack this to reveal the hidden seed: bl ynku pesg, aug rwwtymprt gpscymmkz neaeiel eifbsi genugz.fwmu{6ecu3jqy}
+
+
+The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: In each case, the resulting plaintext appears almost random.
+The seed lenght is 4 and only alphabetic characters count.
+
+---
+
+## Challenge Technical Details
+flag: flag{6mjh3sql}
+ciphertext: bl ynku pesg, aug rwwtymprt gpscymmkz neaeiel eifbsi genugz.fwmu{6ecu3jqy}
+cipher: Autokey
+hint: Autokey ciphers are vulnerable once enough plaintext is known, allowing reconstruction of the key.
+necessary_info: The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: In each case, the resulting plaintext appears almost random.
+The seed lenght is 4 and only alphabetic characters count.
+extra_info: The key seed is: tyun
+subtype: autokey
+archetype: classical_cipher

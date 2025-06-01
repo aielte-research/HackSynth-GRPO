@@ -1,0 +1,15 @@
+An agent's secret message was intercepted. Rumor says it's XOR-encrypted. Can you reveal the hidden text in this cipher? stringA: 2508132a4a171827065c022f4d44 stringB: 4364724d316e774f316c37473939
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{yoh705ht}
+cipher: XOR
+ciphertext: stringA: 2508132a4a171827065c022f4d44 stringB: 4364724d316e774f316c37473939
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

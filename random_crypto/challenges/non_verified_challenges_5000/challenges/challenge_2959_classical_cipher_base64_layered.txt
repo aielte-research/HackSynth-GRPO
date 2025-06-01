@@ -1,0 +1,15 @@
+A hacker left a secret code hidden in Base64. Can you decode VmpJd2VFNUhSa2RpTTNCclUwVndhRmxzYUVOak1WSldZVWQwYUUxcmNERlVWVkYzVUZFOVBRPT0= to reveal the hidden message?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{kfje0wdn}
+cipher: Base64
+ciphertext: VmpJd2VFNUhSa2RpTTNCclUwVndhRmxzYUVOak1WSldZVWQwYUUxcmNERlVWVkYzVUZFOVBRPT0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 5 times in total.
+subtype: base64_layered
+archetype: classical_cipher

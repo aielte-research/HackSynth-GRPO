@@ -1,0 +1,16 @@
+A mysterious hacker left a coded message, claiming it unlocks access to their hidden vault. Only the right keyword can reveal the secret within: tfas{oncknm5c}
+
+The flag format is flag{...}
+The keyword is: ouama
+
+---
+
+## Challenge Technical Details
+flag: flag{ozikbm5o}
+ciphertext: tfas{oncknm5c}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: ouama
+subtype: vigenere
+archetype: classical_cipher

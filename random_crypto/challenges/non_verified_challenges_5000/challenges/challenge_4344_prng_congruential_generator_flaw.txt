@@ -1,0 +1,27 @@
+A rogue script generates session keys using a predictable LCG sequence. Recover the next key given only this intercepted ciphertext: 322ded5b2f29bb0a6325ee51653c
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1496149663
+  - Multiplier: 793006430
+  - Increment: 223999785
+The first 5 outputs of the LCG are provided: [94641521, 323006097, 1363599632, 261632925, 480540391] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{h767dbm1}
+ciphertext: 322ded5b2f29bb0a6325ee51653c
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1496149663
+  - Multiplier: 793006430
+  - Increment: 223999785
+The first 5 outputs of the LCG are provided: [94641521, 323006097, 1363599632, 261632925, 480540391] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

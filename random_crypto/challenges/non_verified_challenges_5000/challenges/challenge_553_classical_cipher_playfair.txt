@@ -1,0 +1,17 @@
+Agent X left a secret code using the Playfair cipher. Decrypt pnashdzekuiruomaituthdzekuctpbfuksuzmafptotgashdzekuiruomaiupehehrdhyclysmzfurfmriwsortgsfumgrpbfdlfuhtomakrctqnrofcdhkbniehpccqorprortgruwpfcdnkhbyuyxdyy to reveal the extraction point coordinates.
+
+The flag format is flag{...}
+The keyword is: iubicrrk
+
+---
+
+## Challenge Technical Details
+flag: flag{6ccw7qbx}
+ciphertext: pnashdzekuiruomaituthdzekuctpbfuksuzmafptotgashdzekuiruomaiupehehrdhyclysmzfurfmriwsortgsfumgrpbfdlfuhtomakrctqnrofcdhkbniehpccqorprortgruwpfcdnkhbyuyxdyy
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: iubicrrk
+extra_info: The playfair table is [['i', 'u', 'b', 'c', 'r'], ['k', 'a', 'd', 'e', 'f'], ['g', 'h', 'l', 'm', 'n'], ['o', 'p', 'q', 's', 't'], ['v', 'w', 'x', 'y', 'z']]
+subtype: playfair
+archetype: classical_cipher

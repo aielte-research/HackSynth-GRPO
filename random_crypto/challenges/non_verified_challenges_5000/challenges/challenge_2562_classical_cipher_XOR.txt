@@ -1,0 +1,15 @@
+An agent hid a code using XOR encryption. Can you recover their secret message from this ciphertext? stringA: 281e1116091e0f4a5855500e363e stringB: 4e727071726f7878616135685443
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{qw294efb}
+cipher: XOR
+ciphertext: stringA: 281e1116091e0f4a5855500e363e stringB: 4e727071726f7878616135685443
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

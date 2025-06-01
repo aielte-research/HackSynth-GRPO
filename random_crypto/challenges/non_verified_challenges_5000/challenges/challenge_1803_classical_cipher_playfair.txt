@@ -1,0 +1,17 @@
+An agent left a coded message at the old library. They always favored the Playfair cipher. Can you decrypt rgdxnmwgfachtxdftqpxnmwgfapzkcciglizdfbiypqodxnmwgfachtxdfptwuabkamnvzemelrpraflhcstrtqoxghqwakcfmkfifypdfnapzxotrhxmnfphtbapduyrtpbrtqoarrdhxenbfvsuvem and reveal the secret rendezvous location?
+
+The flag format is flag{...}
+The keyword is: pxitrumm
+
+---
+
+## Challenge Technical Details
+flag: flag{s17zmsm3}
+ciphertext: rgdxnmwgfachtxdftqpxnmwgfapzkcciglizdfbiypqodxnmwgfachtxdfptwuabkamnvzemelrpraflhcstrtqoxghqwakcfmkfifypdfnapzxotrhxmnfphtbapduyrtpbrtqoarrdhxenbfvsuvem
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: pxitrumm
+extra_info: The playfair table is [['p', 'x', 'i', 't', 'r'], ['u', 'm', 'a', 'b', 'c'], ['d', 'e', 'f', 'g', 'h'], ['k', 'l', 'n', 'o', 'q'], ['s', 'v', 'w', 'y', 'z']]
+subtype: playfair
+archetype: classical_cipher

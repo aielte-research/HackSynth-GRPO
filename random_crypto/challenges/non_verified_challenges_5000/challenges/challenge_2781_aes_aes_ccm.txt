@@ -1,0 +1,18 @@
+An intercepted message from a secretive group is encrypted with AES. Can you recover their hidden plan from this ciphertext? ciphertext1:02c994aac944d8f42406e2b94a86, ciphertext2: 02c994aac943d9ae2b0bfba40a86
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{cnizizht}
+ciphertext: ciphertext1:02c994aac944d8f42406e2b94a86, ciphertext2: 02c994aac943d9ae2b0bfba40a86
+tag1: b54478730d66650405cc73ce81638779
+tag2: f347be912a9a5db58e10f4dcca6ada76
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 43a72020a049dd2a8d2ea6
+subtype: aes_ccm
+archetype: aes

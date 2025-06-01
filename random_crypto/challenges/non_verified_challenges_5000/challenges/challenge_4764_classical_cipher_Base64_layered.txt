@@ -1,0 +1,15 @@
+A hacker left a message encoded in Base64. Can you decode the hidden phrase? Ciphertext: Vm1wSmQyVkZOVWhTYTJScFRUTkNjVnBYZEV0VU1XeHpWMnhhYkZKdVFrZFhhMXBoWWtaS1ZWWnNjRlZXVmtZelZVWkZPVkJSUFQwPQ==
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{42e5te15}
+cipher: Base64
+ciphertext: Vm1wSmQyVkZOVWhTYTJScFRUTkNjVnBYZEV0VU1XeHpWMnhhYkZKdVFrZFhhMXBoWWtaS1ZWWnNjRlZXVmtZelZVWkZPVkJSUFQwPQ==
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 6 times in total.
+subtype: Base64_layered
+archetype: classical_cipher

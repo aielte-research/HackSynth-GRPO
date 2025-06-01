@@ -1,0 +1,18 @@
+An intern used RSA keys with very small primes. Can you recover the flag from this ciphertext? 3305509651747200907
+
+The flag format is flag{...}
+n=10205508415685652827, e=6296920072601780393
+
+---
+
+## Challenge Technical Details
+flag: flag{kmbp9ncg}
+cipher: RSA
+ciphertext: 3305509651747200907
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=10205508415685652827, e=6296920072601780393
+extra_info: p=3630269921, q=2811225787, φ(n)=10205508409244157120
+subtype: small_primes
+archetype: rsa

@@ -1,0 +1,19 @@
+Someone used a weak PRNG to encrypt a secret with 666261697b62653d6f7a62666f73. Can you recover the flag by exploiting the predictable randomness?
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 2**5)
+A secret number was generated using Python's PRNG with a seed from 0 to 9,999. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{le3otbho}
+ciphertext: 666261697b62653d6f7a62666f73
+cipher: Predictable PRNG
+hint: The seed range is small enough for brute-force. Try recreating the PRNG sequence.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 2**5)
+A secret number was generated using Python's PRNG with a seed from 0 to 9,999. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: If you can predict or brute-force the seed, you can reconstruct the PRNG output and decrypt the flag.
+subtype: predictable_seed
+archetype: prng

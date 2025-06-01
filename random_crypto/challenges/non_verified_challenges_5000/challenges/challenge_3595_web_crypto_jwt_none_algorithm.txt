@@ -1,0 +1,11 @@
+Intercepted from a hacker's tool, this JWT token, eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tmNjR0azJqaH0ifQ., hides secret access. Can you crack its contents and reveal the underlying message?
+
+---
+
+## Challenge Technical Details
+flag: flag{f64tk2jh}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tmNjR0azJqaH0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

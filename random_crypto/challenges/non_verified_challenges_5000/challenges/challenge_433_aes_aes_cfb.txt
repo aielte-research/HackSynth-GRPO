@@ -1,0 +1,17 @@
+An encrypted message using AES-CFB hides the secret launch code. Only a12235ddc06b16e5a2ce75a845dd96efec7d28a146b94500cf9861c332b0c3c36709a1efe7f0b372ebef170d8f76f2cca3935a5920a45145f83740e3c700a8dd3081f4b68fc1be1c6f1c0ff8eff3df3f1709e54149e8ab8d2eebafb0ed781f3ca39199ab07d4d45a628b165d26c6c8717f00f629f3cc5de37b57ff9cb3d1cc5cd69ea9f3e7d6390f678918ec4b8ec69ea66b4836a969f93b517c55bb6c9da57d99558bbdd80e83499f90ba4f3df0b27076 remains. Can you decrypt it and recover the code before time runs out?
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{fewu7cma}
+ciphertext: a12235ddc06b16e5a2ce75a845dd96efec7d28a146b94500cf9861c332b0c3c36709a1efe7f0b372ebef170d8f76f2cca3935a5920a45145f83740e3c700a8dd3081f4b68fc1be1c6f1c0ff8eff3df3f1709e54149e8ab8d2eebafb0ed781f3ca39199ab07d4d45a628b165d26c6c8717f00f629f3cc5de37b57ff9cb3d1cc5cd69ea9f3e7d6390f678918ec4b8ec69ea66b4836a969f93b517c55bb6c9da57d99558bbdd80e83499f90ba4f3df0b27076
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: d7250bbf635e27468e0ceb05e5628b51
+subtype: aes_cfb
+archetype: aes

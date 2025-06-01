@@ -1,0 +1,15 @@
+A hacker left a secret message for their accomplice, encrypted with Julius Caesar’s favorite shift technique. What does uapv{z79e8p1e} reveal?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{k79p8a1p}
+ciphertext: uapv{z79e8p1e}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 15
+subtype: caesar
+archetype: classical_cipher

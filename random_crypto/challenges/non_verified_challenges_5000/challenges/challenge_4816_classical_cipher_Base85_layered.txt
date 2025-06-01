@@ -1,0 +1,15 @@
+An archaeologist finds a fragment with "Q8;r{Qc74PHh5S&G<irvPeD+1Wpignc}+hnK1)wYOJH<SAuTXtQ8rdoC1qy" scribbled—decipher it using Base85 to reveal the hidden coordinates.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{aozw86gb}
+cipher: Base85
+ciphertext: Q8;r{Qc74PHh5S&G<irvPeD+1Wpignc}+hnK1)wYOJH<SAuTXtQ8rdoC1qy
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 6 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

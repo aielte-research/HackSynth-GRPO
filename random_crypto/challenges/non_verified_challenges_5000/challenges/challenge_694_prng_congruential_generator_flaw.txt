@@ -1,0 +1,29 @@
+
+My bot's API keys are encrypted using its own flawed RNG. Can you recover the secrets from this 33ee21342ef72d2462b62a212fff ciphertext?
+
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 2056577415
+  - Multiplier: 1106115810
+  - Increment: 1378845632
+The first 5 outputs of the LCG are provided: [703121597, 1230452942, 640333532, 61639922, 1108528622] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{umw74jrz}
+ciphertext: 33ee21342ef72d2462b62a212fff
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 2056577415
+  - Multiplier: 1106115810
+  - Increment: 1378845632
+The first 5 outputs of the LCG are provided: [703121597, 1230452942, 640333532, 61639922, 1108528622] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

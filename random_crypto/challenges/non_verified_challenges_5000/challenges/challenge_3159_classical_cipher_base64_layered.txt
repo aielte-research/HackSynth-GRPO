@@ -1,0 +1,15 @@
+An intercepted message from a hacker was found: Vm0wd2QyVkhVWGhVYmxKV1YwZDRXRmxVUm5kVlJscHpXa2M1VjFKdGVGWlZNbmhQWVd4S2MxTnNXbGRTTTFKUVdWZDRZV014VG5OWGJGcE9ZbXRLVlZkV1dsWmxSbGw0Vkc1T1dHSkdjRmhhVjNoaFpWWmFjbFZyWkZwV01VcElWbTAxVDJGV1NuTlhiR2hhWWtad1NGUlVSbUZqYkd0NllVWlNUbFp1UWpaV01uUnZWREpHYzFOdVRsaGlSMmhZV1d4b1UxbFdjRmhsUjBaWFlrZFNlVll5ZUVOV01rVjNZMFpTVjFaV2NGTmFSRVpEVld4Q1ZVMUVNRDA9. Can you decode what they're planning using Base64?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{2krrbgvi}
+cipher: Base64
+ciphertext: Vm0wd2QyVkhVWGhVYmxKV1YwZDRXRmxVUm5kVlJscHpXa2M1VjFKdGVGWlZNbmhQWVd4S2MxTnNXbGRTTTFKUVdWZDRZV014VG5OWGJGcE9ZbXRLVlZkV1dsWmxSbGw0Vkc1T1dHSkdjRmhhVjNoaFpWWmFjbFZyWkZwV01VcElWbTAxVDJGV1NuTlhiR2hhWWtad1NGUlVSbUZqYkd0NllVWlNUbFp1UWpaV01uUnZWREpHYzFOdVRsaGlSMmhZV1d4b1UxbFdjRmhsUjBaWFlrZFNlVll5ZUVOV01rVjNZMFpTVjFaV2NGTmFSRVpEVld4Q1ZVMUVNRDA9
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 10 times in total.
+subtype: base64_layered
+archetype: classical_cipher

@@ -1,0 +1,21 @@
+An intercepted message hints at a hidden wallet key. Can you break the Substitution cipher and reveal its secret? Ciphertext: ohkx{0m4yoij8}
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'k', 'b': 'v', 'c': 'q', 'd': 'm', 'e': 'l', 'f': 'o', 'g': 'x', 'h': 'b', 'i': 't', 'j': 'w', 'k': 'i', 'l': 'h', 'm': 's', 'n': 'd', 'o': 'j', 'p': 'e', 'q': 'n', 'r': 'f', 's': 'c', 't': 'u', 'u': 'p', 'v': 'y', 'w': 'g', 'x': 'a', 'y': 'r', 'z': 'z'}
+
+---
+
+## Challenge Technical Details
+flag: flag{0d4vfko8}
+cipher: Substitution
+ciphertext: ohkx{0m4yoij8}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'k', 'b': 'v', 'c': 'q', 'd': 'm', 'e': 'l', 'f': 'o', 'g': 'x', 'h': 'b', 'i': 't', 'j': 'w', 'k': 'i', 'l': 'h', 'm': 's', 'n': 'd', 'o': 'j', 'p': 'e', 'q': 'n', 'r': 'f', 's': 'c', 't': 'u', 'u': 'p', 'v': 'y', 'w': 'g', 'x': 'a', 'y': 'r', 'z': 'z'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

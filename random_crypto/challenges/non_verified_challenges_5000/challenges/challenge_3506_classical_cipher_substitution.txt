@@ -1,0 +1,15 @@
+An intercepted message, jc lopnzkwornvp, r uebuzjzezjkc ljnvao ju r tazvkf kh aclopnzjcw jc qvjlv ecjzu kh nmrjczayz roa oanmrlaf qjzv zva ljnvaozayz, jc r fahjcaf trccao, qjzv zva vamn kh r iap; zva "ecjzu" trp ba ujcwma mazzaou (zva tkuz lkttkc), nrjou kh mazzaou, zojnmazu kh mazzaou, tjyzeoau kh zva rbkga, rcf uk hkozv. zva oalajgao faljnvaou zva zayz bp naohkotjcw zva jcgaoua uebuzjzezjkc noklauu zk ayzorlz zva kojwjcrm tauurwa. mjiaqjua, srlxeau xejlimp djnnaf zvokewv r xeauzjkc kc daok-ickqmafwa nokkhu, acueojcw ck lojzjlrm mazzao qru mahz kez kh keo lopnzkwornvjl neddma.hmrw{ios16xec}, holds the secret to the hacker's identity. It's hidden by a classic substitution cipher—can you uncover it?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{krj16qun}
+ciphertext: jc lopnzkwornvp, r uebuzjzezjkc ljnvao ju r tazvkf kh aclopnzjcw jc qvjlv ecjzu kh nmrjczayz roa oanmrlaf qjzv zva ljnvaozayz, jc r fahjcaf trccao, qjzv zva vamn kh r iap; zva "ecjzu" trp ba ujcwma mazzaou (zva tkuz lkttkc), nrjou kh mazzaou, zojnmazu kh mazzaou, tjyzeoau kh zva rbkga, rcf uk hkozv. zva oalajgao faljnvaou zva zayz bp naohkotjcw zva jcgaoua uebuzjzezjkc noklauu zk ayzorlz zva kojwjcrm tauurwa. mjiaqjua, srlxeau xejlimp djnnaf zvokewv r xeauzjkc kc daok-ickqmafwa nokkhu, acueojcw ck lojzjlrm mazzao qru mahz kez kh keo lopnzkwornvjl neddma.hmrw{ios16xec}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'r', 'b': 'b', 'c': 'l', 'd': 'f', 'e': 'a', 'f': 'h', 'g': 'w', 'h': 'v', 'i': 'j', 'j': 's', 'k': 'i', 'l': 'm', 'm': 't', 'n': 'c', 'o': 'k', 'p': 'n', 'q': 'x', 'r': 'o', 's': 'u', 't': 'z', 'u': 'e', 'v': 'g', 'w': 'q', 'x': 'y', 'y': 'p', 'z': 'd'}
+subtype: substitution
+archetype: classical_cipher

@@ -1,0 +1,17 @@
+An old journal reveals a hastily scrawled message, encrypted with a Playfair cipher. Can you crack the code to access the hidden vault? Ciphertext: ftknkbvlbtdbanxfhqgqkbvlbtdqnybgfngyxfbaocpoknkbvlbtdbanxfxbpckcuxbkqzedefbhtinubdwqatpoiftduenykisxgkocxfetdqbftalxbkxcrdcknzcqativatpoitoglxkmkaycmbei
+
+The flag format is flag{...}
+The keyword is: xhxgrdjt
+
+---
+
+## Challenge Technical Details
+flag: flag{4zbl0c5j}
+ciphertext: ftknkbvlbtdbanxfhqgqkbvlbtdqnybgfngyxfbaocpoknkbvlbtdbanxfxbpckcuxbkqzedefbhtinubdwqatpoiftduenykisxgkocxfetdqbftalxbkxcrdcknzcqativatpoitoglxkmkaycmbei
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: xhxgrdjt
+extra_info: The playfair table is [['x', 'h', 'g', 'r', 'd'], ['i', 't', 'a', 'b', 'c'], ['e', 'f', 'k', 'l', 'm'], ['n', 'o', 'p', 'q', 's'], ['u', 'v', 'w', 'y', 'z']]
+subtype: playfair
+archetype: classical_cipher

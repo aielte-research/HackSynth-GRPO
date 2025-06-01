@@ -1,0 +1,27 @@
+Jane found her friend's secret note encrypted with an LCG-based cipher. Can you predict the next steps and reveal the hidden message? Ciphertext: 2a5fb8963701bb893a54adc22f4e
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1750794521
+  - Multiplier: 1443573869
+  - Increment: 1135512935
+The first 5 outputs of the LCG are provided: [496224800, 990388217, 1129614574, 1695643434, 206334782] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{2bxvgt3c}
+ciphertext: 2a5fb8963701bb893a54adc22f4e
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1750794521
+  - Multiplier: 1443573869
+  - Increment: 1135512935
+The first 5 outputs of the LCG are provided: [496224800, 990388217, 1129614574, 1695643434, 206334782] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

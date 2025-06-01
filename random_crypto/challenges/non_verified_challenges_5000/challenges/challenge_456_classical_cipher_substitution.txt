@@ -1,0 +1,15 @@
+A hacker left a coded message for their partner. Can you decrypt de lcxfvakcifpx, i jqnjvdvqvdae ldfpzc dj i ozvpam ah zelcxfvdek de bpdlp qedvj ah fgidevzsv icz czfgilzm bdvp vpz ldfpzcvzsv, de i mzhdezm oieezc, bdvp vpz pzgf ah i rzx; vpz "qedvj" oix nz jdekgz gzvvzcj (vpz oajv laooae), fidcj ah gzvvzcj, vcdfgzvj ah gzvvzcj, odsvqczj ah vpz inatz, iem ja hacvp. vpz czlzdtzc mzldfpzcj vpz vzsv nx fzchacodek vpz detzcjz jqnjvdvqvdae fcalzjj va zsvcilv vpz acdkdeig ozjjikz. gdrzbdjz, uilyqzj yqdlrgx wdffzm vpcaqkp i yqzjvdae ae wzca-reabgzmkz fcaahj, zejqcdek ea lcdvdlig gzvvzc bij gzhv aqv ah aqc lcxfvakcifpdl fqwwgz.hgik{uq3iah96} to reveal the secret using a basic substitution cipher?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ju3aof96}
+ciphertext: de lcxfvakcifpx, i jqnjvdvqvdae ldfpzc dj i ozvpam ah zelcxfvdek de bpdlp qedvj ah fgidevzsv icz czfgilzm bdvp vpz ldfpzcvzsv, de i mzhdezm oieezc, bdvp vpz pzgf ah i rzx; vpz "qedvj" oix nz jdekgz gzvvzcj (vpz oajv laooae), fidcj ah gzvvzcj, vcdfgzvj ah gzvvzcj, odsvqczj ah vpz inatz, iem ja hacvp. vpz czlzdtzc mzldfpzcj vpz vzsv nx fzchacodek vpz detzcjz jqnjvdvqvdae fcalzjj va zsvcilv vpz acdkdeig ozjjikz. gdrzbdjz, uilyqzj yqdlrgx wdffzm vpcaqkp i yqzjvdae ae wzca-reabgzmkz fcaahj, zejqcdek ea lcdvdlig gzvvzc bij gzhv aqv ah aqc lcxfvakcifpdl fqwwgz.hgik{uq3iah96}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'i', 'b': 'n', 'c': 'l', 'd': 'm', 'e': 'z', 'f': 'h', 'g': 'k', 'h': 'p', 'i': 'd', 'j': 'u', 'k': 'r', 'l': 'g', 'm': 'o', 'n': 'e', 'o': 'a', 'p': 'f', 'q': 'y', 'r': 'c', 's': 'j', 't': 'v', 'u': 'q', 'v': 't', 'w': 'b', 'x': 's', 'y': 'x', 'z': 'w'}
+subtype: substitution
+archetype: classical_cipher

@@ -1,0 +1,17 @@
+
+Intercepted traffic from a secret club was encrypted using their homemade ChunkedFlag cipher. Can you break it and recover the flag from this ciphertext: fla g{w pl 5q s6 f}?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{wpl5qs6f}
+ciphertext: fla g{w pl 5q s6 f}
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

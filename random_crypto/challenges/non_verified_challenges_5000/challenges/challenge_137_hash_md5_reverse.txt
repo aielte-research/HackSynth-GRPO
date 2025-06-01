@@ -1,0 +1,15 @@
+The secret admin password was hashed using MD5, but a reversing bug leaked the hash: 08ff6f29b2f8c783cb1ca289dde8da47. Can you recover the original password?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{dbayo}
+ciphertext: 08ff6f29b2f8c783cb1ca289dde8da47
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

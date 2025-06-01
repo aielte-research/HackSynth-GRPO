@@ -1,0 +1,15 @@
+A rival hacker sent you a secret code. Can you crack their message using a simple substitution cipher? Ciphertext: sj iygtvupyatqg, a xlmxvsvlvsuj istqfy sx a kfvquc uz fjiygtvsjp sj bqsiq ljsvx uz tnasjvfov ayf yftnaifc bsvq vqf istqfyvfov, sj a cfzsjfc kajjfy, bsvq vqf qfnt uz a dfg; vqf "ljsvx" kag mf xsjpnf nfvvfyx (vqf kuxv iukkuj), tasyx uz nfvvfyx, vystnfvx uz nfvvfyx, ksovlyfx uz vqf amuhf, ajc xu zuyvq. vqf yfifshfy cfistqfyx vqf vfov mg tfyzuyksjp vqf sjhfyxf xlmxvsvlvsuj tyuifxx vu fovyaiv vqf uyspsjan kfxxapf. nsdfbsxf, eairlfx rlsidng wsttfc vqyulpq a rlfxvsuj uj wfyu-djubnfcpf tyuuzx, fjxlysjp ju iysvsian nfvvfy bax nfzv ulv uz uly iygtvupyatqsi tlwwnf.znap{4f5g8ibw}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{4e5y8cwz}
+ciphertext: sj iygtvupyatqg, a xlmxvsvlvsuj istqfy sx a kfvquc uz fjiygtvsjp sj bqsiq ljsvx uz tnasjvfov ayf yftnaifc bsvq vqf istqfyvfov, sj a cfzsjfc kajjfy, bsvq vqf qfnt uz a dfg; vqf "ljsvx" kag mf xsjpnf nfvvfyx (vqf kuxv iukkuj), tasyx uz nfvvfyx, vystnfvx uz nfvvfyx, ksovlyfx uz vqf amuhf, ajc xu zuyvq. vqf yfifshfy cfistqfyx vqf vfov mg tfyzuyksjp vqf sjhfyxf xlmxvsvlvsuj tyuifxx vu fovyaiv vqf uyspsjan kfxxapf. nsdfbsxf, eairlfx rlsidng wsttfc vqyulpq a rlfxvsuj uj wfyu-djubnfcpf tyuuzx, fjxlysjp ju iysvsian nfvvfy bax nfzv ulv uz uly iygtvupyatqsi tlwwnf.znap{4f5g8ibw}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'a', 'b': 'm', 'c': 'i', 'd': 'c', 'e': 'f', 'f': 'z', 'g': 'p', 'h': 'q', 'i': 's', 'j': 'e', 'k': 'd', 'l': 'n', 'm': 'k', 'n': 'j', 'o': 'u', 'p': 't', 'q': 'r', 'r': 'y', 's': 'x', 't': 'v', 'u': 'l', 'v': 'h', 'w': 'b', 'x': 'o', 'y': 'g', 'z': 'w'}
+subtype: substitution
+archetype: classical_cipher

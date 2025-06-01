@@ -1,0 +1,15 @@
+A mysterious message, said to reveal the location of a hidden wallet, was found in Julius’s journal. Can you crack the Caesar cipher? zfua{ur2ke890}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ax2qk890}
+ciphertext: zfua{ur2ke890}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 20
+subtype: caesar
+archetype: classical_cipher

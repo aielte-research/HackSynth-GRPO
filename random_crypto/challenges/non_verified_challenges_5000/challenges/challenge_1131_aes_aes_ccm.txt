@@ -1,0 +1,18 @@
+Intercepted data from a suspected hacker was encrypted with AES. Analyze the given ciphertext to uncover their secret message: ciphertext1:09f8edd7b4c3285c668f5607f7c0, ciphertext2: 09f8edd7b4923a1e66cc1d57fac0
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{9v07vr4t}
+ciphertext: ciphertext1:09f8edd7b4c3285c668f5607f7c0, ciphertext2: 09f8edd7b4923a1e66cc1d57fac0
+tag1: b585ba99adc19db62ec6b8cccd670256
+tag2: 2d625311ffab5c6ba2b1d159882b2033
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 0f6b3aa45c46846460b6ef
+subtype: aes_ccm
+archetype: aes

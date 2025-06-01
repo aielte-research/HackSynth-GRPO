@@ -1,0 +1,27 @@
+A hacker left an encrypted message using their "unbreakable" LCG-based cipher. Can you predict the pseudorandom sequence and recover the original message from 7ab15de567ba5be475ac05ee6fa0?
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1448504570
+  - Multiplier: 143583912
+  - Increment: 3387630
+The first 5 outputs of the LCG are provided: [516798312, 771603534, 1254088748, 463593696, 61771542] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{ggfiq9ls}
+ciphertext: 7ab15de567ba5be475ac05ee6fa0
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1448504570
+  - Multiplier: 143583912
+  - Increment: 3387630
+The first 5 outputs of the LCG are provided: [516798312, 771603534, 1254088748, 463593696, 61771542] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

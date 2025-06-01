@@ -1,0 +1,14 @@
+A hacker left a hex-coded message on the blockchain. Can you decode 666c61677b70386932357a716c7d to uncover the wallet password?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{p8i25zql}
+cipher: Hex
+ciphertext: 666c61677b70386932357a716c7d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

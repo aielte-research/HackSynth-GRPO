@@ -1,0 +1,19 @@
+A rogue AI sent an encrypted broadcast using a weak stream cipher. Can you recover the secret message from the intercepted ciphertext? Here it is: b8f7bffca5e9b2f1b4aab9f2bce6
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[28247, 14123, 39829, 19914, 42725, 54130, 59833, 62684, 31342, 48439]
+
+---
+
+## Challenge Technical Details
+flag: flag{rljj1gib}
+ciphertext: b8f7bffca5e9b2f1b4aab9f2bce6
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[28247, 14123, 39829, 19914, 42725, 54130, 59833, 62684, 31342, 48439]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

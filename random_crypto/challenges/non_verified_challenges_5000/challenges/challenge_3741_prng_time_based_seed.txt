@@ -1,0 +1,19 @@
+An old clockmaker hides his secret blueprint using a cipher synchronized to a midnight timestamp. Crack the time-locked message: 666d599d7b364a80696a0d9d6e7c
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 99548)
+The system time when the encryption process started was around: 2025-05-25 12:36:11 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{7rzik5gn}
+ciphertext: 666d599d7b364a80696a0d9d6e7c
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 99548)
+The system time when the encryption process started was around: 2025-05-25 12:36:11 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 80122.
+subtype: time_based_seed
+archetype: prng

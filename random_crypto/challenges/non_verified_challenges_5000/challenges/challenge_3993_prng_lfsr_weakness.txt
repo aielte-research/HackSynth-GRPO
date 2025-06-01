@@ -1,0 +1,19 @@
+Intercepted undersea communication used a homemade stream cipher. Analysts suspect an LFSR weakness. Can you recover the secret message? Ciphertext: 8dfa8af190a1dea59dec9aa6deeb
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[22653, 11326, 38431, 51983, 58759, 29379, 47457, 23728, 44632, 55084]
+
+---
+
+## Challenge Technical Details
+flag: flag{753vzq05}
+ciphertext: 8dfa8af190a1dea59dec9aa6deeb
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[22653, 11326, 38431, 51983, 58759, 29379, 47457, 23728, 44632, 55084]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

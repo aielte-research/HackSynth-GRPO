@@ -1,0 +1,18 @@
+Two messages, same AES-GCM key and nonce. Can you decrypt the secrets hidden inside ciphertext1:0325568e354e921abcf61e749ec4, ciphertext2: 11215e9a6e50910ee4f45a20cb99a5823b4c?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{wp46m0t4}
+ciphertext: ciphertext1:0325568e354e921abcf61e749ec4, ciphertext2: 11215e9a6e50910ee4f45a20cb99a5823b4c
+tag1: 3c6469931f0fb2b7691fd0b37fb8abc4
+tag2: 0f3de8bb6c8504340fa43d804787978e
+cipher: AES-GCM
+vulnerability: nonce reuse
+hint: AES-GCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 5889aeb54694a620e181a074
+subtype: aes_gcm
+archetype: aes

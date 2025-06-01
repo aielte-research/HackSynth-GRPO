@@ -1,0 +1,18 @@
+Bob, rushing to encrypt a secret, picked small primes for his RSA keys. Can you retrieve the flag from his insecure ciphertext? Here it is: 3811138594876781165
+
+The flag format is flag{...}
+n=12726726115985565829, e=4167357919153528451
+
+---
+
+## Challenge Technical Details
+flag: flag{mh8lknyv}
+cipher: RSA
+ciphertext: 3811138594876781165
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=12726726115985565829, e=4167357919153528451
+extra_info: p=3094915939, q=4112139511, φ(n)=12726726108778510380
+subtype: small_primes
+archetype: rsa

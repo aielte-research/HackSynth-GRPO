@@ -1,0 +1,19 @@
+Intercepted at midnight: the spy’s message used a flawed stream cipher. Can you recover the plaintext from the transmitted bits? Ciphertext: 709b77906d8d7082258d7b91248a
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[57028, 61282, 63409, 31704, 48620, 57078, 28539, 47037, 23518, 11759]
+
+---
+
+## Challenge Technical Details
+flag: flag{zfu3zmf2}
+ciphertext: 709b77906d8d7082258d7b91248a
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[57028, 61282, 63409, 31704, 48620, 57078, 28539, 47037, 23518, 11759]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

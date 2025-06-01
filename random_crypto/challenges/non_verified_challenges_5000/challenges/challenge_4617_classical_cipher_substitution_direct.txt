@@ -1,0 +1,21 @@
+A notorious hacker left you a secret message, but it's encrypted with a simple substitution cipher. Can you uncover the original text from this? bcze{8lyn2i37}
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'z', 'b': 'm', 'c': 'q', 'd': 'y', 'e': 'l', 'f': 'b', 'g': 'e', 'h': 'w', 'i': 'a', 'j': 'v', 'k': 'p', 'l': 'c', 'm': 'd', 'n': 'j', 'o': 'i', 'p': 's', 'q': 'o', 'r': 'u', 's': 'g', 't': 'f', 'u': 'x', 'v': 'k', 'w': 'n', 'x': 't', 'y': 'r', 'z': 'h'}
+
+---
+
+## Challenge Technical Details
+flag: flag{8edw2o37}
+cipher: Substitution
+ciphertext: bcze{8lyn2i37}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'z', 'b': 'm', 'c': 'q', 'd': 'y', 'e': 'l', 'f': 'b', 'g': 'e', 'h': 'w', 'i': 'a', 'j': 'v', 'k': 'p', 'l': 'c', 'm': 'd', 'n': 'j', 'o': 'i', 'p': 's', 'q': 'o', 'r': 'u', 's': 'g', 't': 'f', 'u': 'x', 'v': 'k', 'w': 'n', 'x': 't', 'y': 'r', 'z': 'h'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

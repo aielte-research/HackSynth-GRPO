@@ -1,0 +1,15 @@
+A hacker left a secret message, encrypted with XOR, in hopes only a worthy decoder can reveal the flag: stringA: 1522072b1d6d412861280274421a stringB: 734e664c66543750564a64423767
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{9vx7bf6u}
+cipher: XOR
+ciphertext: stringA: 1522072b1d6d412861280274421a stringB: 734e664c66543750564a64423767
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

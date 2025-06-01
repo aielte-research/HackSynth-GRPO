@@ -1,0 +1,11 @@
+An intruder altered your JWT token. Can you find the admin flag by analyzing eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tqNDhzOXhjY30ifQ.?
+
+---
+
+## Challenge Technical Details
+flag: flag{j48s9xcc}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tqNDhzOXhjY30ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

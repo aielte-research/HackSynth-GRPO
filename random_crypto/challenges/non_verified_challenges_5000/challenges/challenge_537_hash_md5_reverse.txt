@@ -1,0 +1,17 @@
+
+After a breach, investigators found a password hash generated with MD5. They suspect the hash can be reversed. The hash: 67fef196771f36f26c08b1a5b0a30044
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{CJEFF}
+ciphertext: 67fef196771f36f26c08b1a5b0a30044
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

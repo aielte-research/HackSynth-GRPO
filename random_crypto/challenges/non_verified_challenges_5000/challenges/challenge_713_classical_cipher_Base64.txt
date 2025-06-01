@@ -1,0 +1,15 @@
+An old dev left a Base64-encoded password in the code, but no one can decode it. Can you reveal the secret hidden in ZmxhZ3twbG1waTl0N30=?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{plmpi9t7}
+cipher: Base64
+ciphertext: ZmxhZ3twbG1waTl0N30=
+hint: Use a Base64 decoder to obtain the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is direct; no additional layers or tricks.
+subtype: Base64
+archetype: classical_cipher

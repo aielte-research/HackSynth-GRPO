@@ -1,0 +1,15 @@
+A hacker left a message in base64 during a system breach. Can you decode what they hid? Ciphertext: Vm1wSmQyVkZOVWhTYTJScFRUTkNjbFZyVmt0VlZsVjNWMnQwVDFKdGRETlpWV00xWVRKS1YxTnNjRlZXVmtZelZVWkZPVkJSUFQwPQ==
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{t8tqpxou}
+cipher: Base64
+ciphertext: Vm1wSmQyVkZOVWhTYTJScFRUTkNjbFZyVmt0VlZsVjNWMnQwVDFKdGRETlpWV00xWVRKS1YxTnNjRlZXVmtZelZVWkZPVkJSUFQwPQ==
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 6 times in total.
+subtype: base64_layered
+archetype: classical_cipher

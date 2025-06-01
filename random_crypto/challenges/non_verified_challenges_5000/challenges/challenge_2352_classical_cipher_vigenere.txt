@@ -1,0 +1,18 @@
+
+A secret phrase protects the hacker group's next meeting location. Decode this Vigenère-encrypted message: hugo{cettnclf}
+
+
+The flag format is flag{...}
+The keyword is: cjgi
+
+---
+
+## Challenge Technical Details
+flag: flag{avnlltfx}
+ciphertext: hugo{cettnclf}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: cjgi
+subtype: vigenere
+archetype: classical_cipher

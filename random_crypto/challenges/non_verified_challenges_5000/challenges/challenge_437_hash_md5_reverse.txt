@@ -1,0 +1,15 @@
+Leon found an MD5-hashed password online. Rumor says it’s crackable due to the MD5 reversing vulnerability. Can you recover the original string? Ciphertext: d25f885a47ce0bba45b8b193eaff637c
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{a-msh}
+ciphertext: d25f885a47ce0bba45b8b193eaff637c
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

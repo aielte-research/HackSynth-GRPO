@@ -1,0 +1,21 @@
+
+Intercepted radio transmissions encrypted with a flawed stream cipher. Analysts suspect an LFSR weakness. Decrypt the crucial message: 2fe428ef32e724b97abc31f022f5
+
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[8232, 4116, 34826, 50181, 25090, 12545, 39040, 19520, 9760, 37648]
+
+---
+
+## Challenge Technical Details
+flag: flag{om134xxk}
+ciphertext: 2fe428ef32e724b97abc31f022f5
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[8232, 4116, 34826, 50181, 25090, 12545, 39040, 19520, 9760, 37648]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

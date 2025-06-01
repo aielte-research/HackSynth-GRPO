@@ -1,0 +1,15 @@
+A secret club wrote their password backwards on the meeting note. Can you recover it from this reversed text? }1jj6h4uh{galf
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{hu4h6jj1}
+ciphertext: }1jj6h4uh{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

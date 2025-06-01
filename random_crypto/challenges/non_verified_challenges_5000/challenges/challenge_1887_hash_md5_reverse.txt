@@ -1,0 +1,15 @@
+An old hacker left an encrypted flag, boasting MD5 is "unbreakable." Prove them wrong. The ciphertext is: 6bfe9a2f8f01ecac8f25b5c2160fbcf1
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{tzeva}
+ciphertext: 6bfe9a2f8f01ecac8f25b5c2160fbcf1
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

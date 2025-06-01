@@ -1,0 +1,15 @@
+An encrypted disk sector from Agent X's laptop was recovered. Can you decrypt the AES-XTS protected sector and reveal its contents? Ciphertext: ciphertext1:15489cc0ee1f28d49ccfd90b93f1eaea, ciphertext2: d6073a209e7e9bd2f41ec81c18ead60410c3e336648c71393b0f1dd9243f11ea
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{hjxbodoe}
+ciphertext: ciphertext1:15489cc0ee1f28d49ccfd90b93f1eaea, ciphertext2: d6073a209e7e9bd2f41ec81c18ead60410c3e336648c71393b0f1dd9243f11ea
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 75092240ca91b2b839d62abb15799d67
+subtype: aes_xts
+archetype: aes

@@ -1,0 +1,17 @@
+
+A spy relayed their secret via a zigzag pattern. Decode their message: f{f3lg2aig}abx
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{2bafixg3}
+ciphertext: f{f3lg2aig}abx
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 3
+subtype: rail_fence
+archetype: classical_cipher

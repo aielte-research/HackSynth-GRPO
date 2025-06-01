@@ -1,0 +1,24 @@
+An anonymous hacker left the password’s SHA-256 hash. Crack it to unlock the secret: 6d20907c2b62f3096d148bdca9f6519d0b881e214dbae3883bbd917553791a00
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{82i1}
+ciphertext: 6d20907c2b62f3096d148bdca9f6519d0b881e214dbae3883bbd917553791a00
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

@@ -1,0 +1,13 @@
+
+A hacker intercepted a token during a secret chat. Decode the hidden flag from this JWT: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3swb2VnOW16MX0ifQ.
+
+
+---
+
+## Challenge Technical Details
+flag: flag{0oeg9mz1}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3swb2VnOW16MX0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

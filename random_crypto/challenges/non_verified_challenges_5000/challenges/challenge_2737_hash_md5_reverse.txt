@@ -1,0 +1,17 @@
+
+A hacker left a secret in an old MD5 hash. Can you exploit MD5's weaknesses to recover the original message from 8d5919241be6842474cbcb7c7f8afb2f?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{NIIND}
+ciphertext: 8d5919241be6842474cbcb7c7f8afb2f
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

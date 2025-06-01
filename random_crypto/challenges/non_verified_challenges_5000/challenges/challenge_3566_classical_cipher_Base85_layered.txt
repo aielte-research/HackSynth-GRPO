@@ -1,0 +1,17 @@
+
+An old hacker sent you a note: “Decipher my memories, if you can.” All you have is this Base85 string: Q8+7fbYyZsPf15ALm_fVLM1IeN?KPfc2Ff%WMoc0ZgVI@UTkq8PCGV4PFgEJG*(kHS9xApDL!*8Pe)N|KS6m$e0xQ3Y9;
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{vms0ntuz}
+cipher: Base85
+ciphertext: Q8+7fbYyZsPf15ALm_fVLM1IeN?KPfc2Ff%WMoc0ZgVI@UTkq8PCGV4PFgEJG*(kHS9xApDL!*8Pe)N|KS6m$e0xQ3Y9;
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 8 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

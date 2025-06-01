@@ -1,0 +1,16 @@
+A lazy admin used AES-ECB with short keys padded by null bytes. Now the encrypted flag, cdbde53b67c53573cbf3462cfd9d62a4, awaits you. Can you recover the original message?
+
+An encryption key that is only 2 bytes long?.
+
+---
+
+## Challenge Technical Details
+flag: flag{ooartcml}
+ciphertext: cdbde53b67c53573cbf3462cfd9d62a4
+cipher: AES-ECB
+vulnerability: small key padded with null bytes
+hint: ECB mode with a short key makes brute-forcing possible. Consider the small key entropy.
+necessary_info: An encryption key that is only 2 bytes long?.
+extra_info: Padding follows PKCS#7. The key is padded to 16 bytes with null bytes.
+subtype: weak_cookie_encryption
+archetype: web_crypto

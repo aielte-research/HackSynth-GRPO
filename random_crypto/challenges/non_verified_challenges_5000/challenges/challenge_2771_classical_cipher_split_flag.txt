@@ -1,0 +1,17 @@
+
+A rogue AI split the master password and disguised it using a secret number-mixing algorithm. Can you decipher  99999999 flag{uhsjv 99999999 p 99999999 s 99999999 m} 99999999  and recover the original code?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{uhsjvpsm}
+ciphertext:  99999999 flag{uhsjv 99999999 p 99999999 s 99999999 m} 99999999 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 4 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

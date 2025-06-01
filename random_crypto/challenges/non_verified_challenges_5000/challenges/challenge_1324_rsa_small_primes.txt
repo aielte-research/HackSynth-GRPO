@@ -1,0 +1,20 @@
+
+A careless developer used tiny primes in RSA for quick tests. Now, this encrypted message is easy prey. Can you decrypt 2974502952841472491 and expose the vulnerability?
+
+
+The flag format is flag{...}
+n=12711029704046215781, e=432836225925760927
+
+---
+
+## Challenge Technical Details
+flag: flag{pao2inn4}
+cipher: RSA
+ciphertext: 2974502952841472491
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=12711029704046215781, e=432836225925760927
+extra_info: p=3317489641, q=3831520541, φ(n)=12711029696897205600
+subtype: small_primes
+archetype: rsa

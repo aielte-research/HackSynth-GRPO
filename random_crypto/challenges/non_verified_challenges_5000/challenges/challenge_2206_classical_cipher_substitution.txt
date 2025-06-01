@@ -1,0 +1,15 @@
+A hacker intercepted Dr. Cipher's secret plan but replaced each letter with another. Can you reveal the original message from this ciphered text? fb xcvkjawcgkyv, g rsmrjfjsjfab xfkyuc fr g oujyai ae ubxcvkjfbw fb zyfxy sbfjr ae kngfbjudj gcu cukngxui zfjy jyu xfkyucjudj, fb g iuefbui ogbbuc, zfjy jyu yunk ae g huv; jyu "sbfjr" ogv mu rfbwnu nujjucr (jyu oarj xaooab), kgfcr ae nujjucr, jcfknujr ae nujjucr, ofdjscur ae jyu gmatu, gbi ra eacjy. jyu cuxuftuc iuxfkyucr jyu judj mv kuceacofbw jyu fbtucru rsmrjfjsjfab kcaxurr ja udjcgxj jyu acfwfbgn ourrgwu. nfhuzfru, pgxqsur qsfxhnv lfkkui jycaswy g qsurjfab ab luca-hbaznuiwu kcaaer, ubrscfbw ba xcfjfxgn nujjuc zgr nuej asj ae asc xcvkjawcgkyfx ksllnu.engw{o5ys25s6}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{m5hu25u6}
+ciphertext: fb xcvkjawcgkyv, g rsmrjfjsjfab xfkyuc fr g oujyai ae ubxcvkjfbw fb zyfxy sbfjr ae kngfbjudj gcu cukngxui zfjy jyu xfkyucjudj, fb g iuefbui ogbbuc, zfjy jyu yunk ae g huv; jyu "sbfjr" ogv mu rfbwnu nujjucr (jyu oarj xaooab), kgfcr ae nujjucr, jcfknujr ae nujjucr, ofdjscur ae jyu gmatu, gbi ra eacjy. jyu cuxuftuc iuxfkyucr jyu judj mv kuceacofbw jyu fbtucru rsmrjfjsjfab kcaxurr ja udjcgxj jyu acfwfbgn ourrgwu. nfhuzfru, pgxqsur qsfxhnv lfkkui jycaswy g qsurjfab ab luca-hbaznuiwu kcaaer, ubrscfbw ba xcfjfxgn nujjuc zgr nuej asj ae asc xcvkjawcgkyfx ksllnu.engw{o5ys25s6}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'g', 'b': 'm', 'c': 'x', 'd': 'i', 'e': 'u', 'f': 'e', 'g': 'w', 'h': 'y', 'i': 'f', 'j': 'p', 'k': 'h', 'l': 'n', 'm': 'o', 'n': 'b', 'o': 'a', 'p': 'k', 'q': 'q', 'r': 'c', 's': 'r', 't': 'j', 'u': 's', 'v': 't', 'w': 'z', 'x': 'd', 'y': 'v', 'z': 'l'}
+subtype: substitution
+archetype: classical_cipher

@@ -1,0 +1,24 @@
+Agent Luna secured the flag using SHA-256 before transmission. Only the right input reveals its secret; your mission: crack 8bd561cc951010ddce669013a528e839905a500b1deea126d012552ef5735caa and recover the original.
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{kt0a}
+ciphertext: 8bd561cc951010ddce669013a528e839905a500b1deea126d012552ef5735caa
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

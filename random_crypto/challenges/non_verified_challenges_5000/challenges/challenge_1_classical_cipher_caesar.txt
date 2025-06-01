@@ -1,0 +1,15 @@
+A secret Roman order left a coded message. Can you reveal their hidden plans from the ancient scroll? Decipher: xdsy{33xzfpeq}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{33fhnxmy}
+ciphertext: xdsy{33xzfpeq}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 18
+subtype: caesar
+archetype: classical_cipher

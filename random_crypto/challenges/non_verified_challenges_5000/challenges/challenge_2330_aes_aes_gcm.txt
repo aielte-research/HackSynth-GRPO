@@ -1,0 +1,18 @@
+The secret agency reused a nonce in their AES-GCM encryption. Intercepted messages include ciphertext1:68a6a0d071bb4f99bf48bb3e4242, ciphertext2: 7aa2a8c42ab344dce44fa566511f0ef1221a; can you exploit their mistake to reveal the plaintext?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{axe5hjxr}
+ciphertext: ciphertext1:68a6a0d071bb4f99bf48bb3e4242, ciphertext2: 7aa2a8c42ab344dce44fa566511f0ef1221a
+tag1: 0945bfe18804fd2274bbf4b35a53aeb4
+tag2: 20dc798531051dffdc0d576351ad3e1c
+cipher: AES-GCM
+vulnerability: nonce reuse
+hint: AES-GCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 1d8c465867f839ac256d0daf
+subtype: aes_gcm
+archetype: aes

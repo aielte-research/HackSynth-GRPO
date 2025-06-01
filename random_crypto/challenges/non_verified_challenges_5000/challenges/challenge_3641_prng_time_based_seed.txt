@@ -1,0 +1,19 @@
+A hacker hid coordinates to the treasure in a message encrypted with a time-seeded PRNG. Can you recover the secret from this mysterious cipher: 666c61b47b7463b0797166b67a7d?
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 71525)
+The system time when the encryption process started was around: 2025-05-25 12:33:59 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{tccyqfez}
+ciphertext: 666c61b47b7463b0797166b67a7d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 71525)
+The system time when the encryption process started was around: 2025-05-25 12:33:59 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 211.
+subtype: time_based_seed
+archetype: prng

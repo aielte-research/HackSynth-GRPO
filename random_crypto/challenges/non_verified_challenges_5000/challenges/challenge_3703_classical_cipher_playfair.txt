@@ -1,0 +1,17 @@
+An old spy notebook contains the phrase "Encoded by Playfair" and this message: pghnobvcchyihxigsroxobvcchslnzcohloyigfpmqlphnobvcchyihxigyrodofbnborzrtlgxmrilbiywxxglpngaixenzhbqbphmqigcgslnmgxilbockimfolzdlxgnvxglpiraoilbmfhaitqry. Can you reveal the secret orders?
+
+The flag format is flag{...}
+The keyword is: ntpxqbfx
+
+---
+
+## Challenge Technical Details
+flag: flag{chn4xir2}
+ciphertext: pghnobvcchyihxigsroxobvcchslnzcohloyigfpmqlphnobvcchyihxigyrodofbnborzrtlgxmrilbiywxxglpngaixenzhbqbphmqigcgslnmgxilbockimfolzdlxgnvxglpiraoilbmfhaitqry
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: ntpxqbfx
+extra_info: The playfair table is [['n', 't', 'p', 'x', 'q'], ['b', 'f', 'a', 'c', 'd'], ['e', 'g', 'h', 'i', 'k'], ['l', 'm', 'o', 'r', 's'], ['u', 'v', 'w', 'y', 'z']]
+subtype: playfair
+archetype: classical_cipher

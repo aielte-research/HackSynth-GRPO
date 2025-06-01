@@ -1,0 +1,15 @@
+A rogue sysadmin encrypted a secret flag on a disk using AES-XTS. Can you recover it? Encrypted data: ciphertext1:087f3a2611ae7039ce60a58fd06df539, ciphertext2: ec545ee0d8ae7bc234612266d5a2db4ce5ec66586b22968597d4be6c9096bb8f
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ybwazrck}
+ciphertext: ciphertext1:087f3a2611ae7039ce60a58fd06df539, ciphertext2: ec545ee0d8ae7bc234612266d5a2db4ce5ec66586b22968597d4be6c9096bb8f
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 72329b3d051d9df0a58f1adac1455e0a
+subtype: aes_xts
+archetype: aes

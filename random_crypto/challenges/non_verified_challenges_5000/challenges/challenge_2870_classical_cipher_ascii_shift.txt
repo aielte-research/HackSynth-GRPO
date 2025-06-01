@@ -1,0 +1,15 @@
+An old terminal reveals a message, but the bytes seem off—every character looks shifted. Can you restore the original message from this ASCII-altered code? gmbh|j51pxv1v~
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{i40owu0u}
+cipher: ASCII Shift
+ciphertext: gmbh|j51pxv1v~
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 1
+subtype: ascii_shift
+archetype: classical_cipher

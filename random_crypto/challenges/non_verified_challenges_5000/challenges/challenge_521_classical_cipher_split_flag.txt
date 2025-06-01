@@ -1,0 +1,15 @@
+A spy intercepted this coded message, but the enemy used the SplitNumberMix cipher. Can you unravel  11111 fl 11111 ag{fli 11111 wwp 11111 ba} 11111  and reveal the secret?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{fliwwpba}
+ciphertext:  11111 fl 11111 ag{fli 11111 wwp 11111 ba} 11111 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 4 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

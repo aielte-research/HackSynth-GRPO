@@ -1,0 +1,18 @@
+Bob rushed his RSA setup, picking two tiny primes. Intercept the message: 6419612325801497121
+
+The flag format is flag{...}
+n=8242307713445639521, e=3367219917223825099
+
+---
+
+## Challenge Technical Details
+flag: flag{3etp2xm8}
+cipher: RSA
+ciphertext: 6419612325801497121
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=8242307713445639521, e=3367219917223825099
+extra_info: p=2393179169, q=3444083009, φ(n)=8242307707608377344
+subtype: small_primes
+archetype: rsa

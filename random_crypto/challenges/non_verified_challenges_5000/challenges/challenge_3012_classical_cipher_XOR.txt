@@ -1,0 +1,15 @@
+An agent sent a secret code using XOR for protection. Can you uncover the original message from the encrypted text below? stringA: 071f2b5639300639300a5e5a7d4e stringB: 61734a3142537055457a666f4833
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{cvlup855}
+cipher: XOR
+ciphertext: stringA: 071f2b5639300639300a5e5a7d4e stringB: 61734a3142537055457a666f4833
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

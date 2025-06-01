@@ -1,0 +1,17 @@
+
+An agent split the secret flag into chunks and encrypted each with their new ChunkedFlag cipher. Recover the full flag from this scrambled ciphertext: fl ag{ y21 njb m4 }
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{y21njbm4}
+ciphertext: fl ag{ y21 njb m4 }
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

@@ -1,0 +1,11 @@
+Intercepted from a rogue API gateway, this JWT token (eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3s5Znh2Z3Bxdn0ifQ.) may hide admin access. Can you break its secret and recover the flag inside?
+
+---
+
+## Challenge Technical Details
+flag: flag{9fxvgpqv}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3s5Znh2Z3Bxdn0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

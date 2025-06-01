@@ -1,0 +1,16 @@
+A hacker intercepted a secret alliance message but encrypted it with the Vigenère cipher. Can you decrypt maxa{ws24o9i0} to reveal their plan?
+
+The flag format is flag{...}
+The keyword is: hpxumlwi
+
+---
+
+## Challenge Technical Details
+flag: flag{kh24s9a0}
+ciphertext: maxa{ws24o9i0}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: hpxumlwi
+subtype: vigenere
+archetype: classical_cipher

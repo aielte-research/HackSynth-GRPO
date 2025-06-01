@@ -1,0 +1,15 @@
+An agent left a clue: }h9wlkroe{galf. It's encrypted with their favorite method—written backward. Can you reveal the original message?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{eorklw9h}
+ciphertext: }h9wlkroe{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

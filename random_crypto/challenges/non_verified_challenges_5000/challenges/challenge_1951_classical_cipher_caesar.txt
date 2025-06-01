@@ -1,0 +1,15 @@
+An ancient scroll was found with this message. Legends say Julius Caesar himself hid a secret. Can you decode hnci{6p708g4r} to discover his words?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{6n708e4p}
+ciphertext: hnci{6p708g4r}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 2
+subtype: caesar
+archetype: classical_cipher

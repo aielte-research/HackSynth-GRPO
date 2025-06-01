@@ -1,0 +1,12 @@
+The bug bounty portal uses an old session token scheme. Can you recover the admin credentials from this intercepted cipher? 757365725f397473673a666c61677b67647a3173796a777d3a31373438313638343530
+
+---
+
+## Challenge Technical Details
+flag: flag{gdz1syjw}
+ciphertext: 757365725f397473673a666c61677b67647a3173796a777d3a31373438313638343530
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_9tsg:flag{gdz1syjw}:1748168450'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

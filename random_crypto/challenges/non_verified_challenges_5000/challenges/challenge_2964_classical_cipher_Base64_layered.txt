@@ -1,0 +1,15 @@
+A hacker intercepted this message. Rumor says it holds the secret coordinates, but it's in a strange format: Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVcxS1IxZHViRmROYmxGM1ZteFZlRll4WkhWaVJtUnBWMGRvZVZaclVrZFRNbEpIVm01V2FWSnRhRzlVVm1oRFpWWmFjbFZyZEZSTlZuQXdWVEowVjFkSFNrZFhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0= Can you decode it?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{x011dezo}
+cipher: Base64
+ciphertext: Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVcxS1IxZHViRmROYmxGM1ZteFZlRll4WkhWaVJtUnBWMGRvZVZaclVrZFRNbEpIVm01V2FWSnRhRzlVVm1oRFpWWmFjbFZyZEZSTlZuQXdWVEowVjFkSFNrZFhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 9 times in total.
+subtype: Base64_layered
+archetype: classical_cipher

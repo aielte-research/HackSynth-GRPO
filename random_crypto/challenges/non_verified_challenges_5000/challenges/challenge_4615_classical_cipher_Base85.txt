@@ -1,0 +1,17 @@
+
+Agent 85 hid the access code using his favorite encoding. Can you decode his message? Ciphertext: W^7?+dt+)jYhyWdZ+!
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{cj9kc9to}
+cipher: Base85
+ciphertext: W^7?+dt+)jYhyWdZ+!
+hint: Use a Base85 decoder to retrieve the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is straightforward; only one layer is used.
+subtype: Base85
+archetype: classical_cipher

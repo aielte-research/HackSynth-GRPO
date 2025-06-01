@@ -1,0 +1,16 @@
+Intercepted a secret message, encrypted with AES-ECB. Rumor says they used a 2-byte key padded with nulls. Can you recover the plaintext? Ciphertext: f2afa3df7585590446c2c8e839522512
+
+An encryption key that is only 2 bytes long?.
+
+---
+
+## Challenge Technical Details
+flag: flag{h8b11o7w}
+ciphertext: f2afa3df7585590446c2c8e839522512
+cipher: AES-ECB
+vulnerability: small key padded with null bytes
+hint: ECB mode with a short key makes brute-forcing possible. Consider the small key entropy.
+necessary_info: An encryption key that is only 2 bytes long?.
+extra_info: Padding follows PKCS#7. The key is padded to 16 bytes with null bytes.
+subtype: weak_cookie_encryption
+archetype: web_crypto

@@ -1,0 +1,17 @@
+
+An agent hid a secret in a single-byte XOR-encrypted message. Can you uncover the original text from this ciphertext? Here it is: stringA: 202f18063a585f1f156078071036 stringB: 464379614169356964564130674b
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{1jvq697w}
+cipher: XOR
+ciphertext: stringA: 202f18063a585f1f156078071036 stringB: 464379614169356964564130674b
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

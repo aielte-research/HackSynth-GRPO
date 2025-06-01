@@ -1,0 +1,18 @@
+An intern generated an RSA key using tiny primes. Can you recover the flag from this ciphertext? 9513218712183530516
+
+The flag format is flag{...}
+n=9543821408814770569, e=557015968057790201
+
+---
+
+## Challenge Technical Details
+flag: flag{8genugsr}
+cipher: RSA
+ciphertext: 9513218712183530516
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=9543821408814770569, e=557015968057790201
+extra_info: p=4042180073, q=2361057953, φ(n)=9543821402411532544
+subtype: small_primes
+archetype: rsa

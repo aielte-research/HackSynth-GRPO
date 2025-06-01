@@ -1,0 +1,24 @@
+The hacker left a clue encoded with SHA-256. Can you reverse-engineer the secret message hidden behind this hash? Ciphertext: 79db6f17d2eafc39c59852644208a32d6f043d0e0fd15b726e75f5fd01a3e57a
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{td02}
+ciphertext: 79db6f17d2eafc39c59852644208a32d6f043d0e0fd15b726e75f5fd01a3e57a
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

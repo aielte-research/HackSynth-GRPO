@@ -1,0 +1,15 @@
+A rogue AI split the vault code and hid it in this scrambled message using the SplitNumberMix cipher. Can you recover the original number?  999999 flag 999999 {gzczxx 999999 mf} 999999 
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{gzczxxmf}
+ciphertext:  999999 flag 999999 {gzczxx 999999 mf} 999999 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 3 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

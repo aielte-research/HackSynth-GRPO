@@ -1,0 +1,17 @@
+Intercepted data from a secret chat was encrypted with AES-CFB. Can you recover the plaintext from this message? Ciphertext: edaacd0a42170862e32e4c5bf78fc46503301b5a5d6aee5b673cc399255c2338954bd248d30836882bc1ca7bcc98b3eef68450def3a59f95424d3a40e9c3adcef5605bf86321e1d8d3c2d0283d1d73486439f72f5b24c2b189ed721e07b41ea15ce73621b92c16a5c89eba53f1acb2d9e544c5961b5cf4f570fca6010089f836ebd8032c889c2dc953513ba005c7a7729961b5564d6254e935558fb67919af720a4f9bc097a2223dc019ff9757e10325a1
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{0thy3esa}
+ciphertext: edaacd0a42170862e32e4c5bf78fc46503301b5a5d6aee5b673cc399255c2338954bd248d30836882bc1ca7bcc98b3eef68450def3a59f95424d3a40e9c3adcef5605bf86321e1d8d3c2d0283d1d73486439f72f5b24c2b189ed721e07b41ea15ce73621b92c16a5c89eba53f1acb2d9e544c5961b5cf4f570fca6010089f836ebd8032c889c2dc953513ba005c7a7729961b5564d6254e935558fb67919af720a4f9bc097a2223dc019ff9757e10325a1
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: b127bd409b4bedea3d5e84ca1e5fd4d9
+subtype: aes_cfb
+archetype: aes

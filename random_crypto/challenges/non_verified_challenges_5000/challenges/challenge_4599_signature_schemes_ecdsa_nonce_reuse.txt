@@ -1,0 +1,26 @@
+
+A careless blockchain developer reused a nonce when signing. Can you break the signatures and recover the secret using Sig1: c050c3f0b8d45b9e093a91cb96d097b24100e66585d0d8561e01c1231837493fc4b0eba8cca5b469a3d24c954c412ae30b5c6c95e6354224b4a00c07c0a766a0
+Sig2: c050c3f0b8d45b9e093a91cb96d097b24100e66585d0d8561e01c1231837493faea8cf1c39586ff8373afac4dfb961f3135c40eaee621cab8ae3d08fe0446488?
+
+
+Public Key (x,y): (96015596425901915343493395442054790337362485878993963820139823235173147271652, 104469867748415946617793349269586799933513733623371668691800584323940575708431)
+Messages:
+1. CTF challenge message
+2. Second signed message
+Curve: secp256k1The flag format is flag{hex(private_key)}
+
+---
+
+## Challenge Technical Details
+flag: flag{95635190b2281cc32561ddaed4ce23bc59ffd480338f97a5465883dc89400969}
+ciphertext: Sig1: c050c3f0b8d45b9e093a91cb96d097b24100e66585d0d8561e01c1231837493fc4b0eba8cca5b469a3d24c954c412ae30b5c6c95e6354224b4a00c07c0a766a0
+Sig2: c050c3f0b8d45b9e093a91cb96d097b24100e66585d0d8561e01c1231837493faea8cf1c39586ff8373afac4dfb961f3135c40eaee621cab8ae3d08fe0446488
+cipher: ECDSA Nonce Reuse
+hint: Identical nonce usage breaks ECDSA security. What's common between the signatures?
+necessary_info: Public Key (x,y): (96015596425901915343493395442054790337362485878993963820139823235173147271652, 104469867748415946617793349269586799933513733623371668691800584323940575708431)
+Messages:
+1. CTF challenge message
+2. Second signed message
+Curve: secp256k1The flag format is flag{hex(private_key)}
+subtype: ecdsa_nonce_reuse
+archetype: signature_schemes

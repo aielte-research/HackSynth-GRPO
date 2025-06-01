@@ -1,0 +1,15 @@
+A rogue agent hid the vault code using the experimental SplitNumberMix cipher. Can you recover the original message from this scrambled string?  77777777 f 77777777 l 77777777 ag{gqoazxrt} 77777777 
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{gqoazxrt}
+ciphertext:  77777777 f 77777777 l 77777777 ag{gqoazxrt} 77777777 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 3 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

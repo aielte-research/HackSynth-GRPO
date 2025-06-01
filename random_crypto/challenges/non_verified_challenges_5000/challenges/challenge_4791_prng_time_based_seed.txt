@@ -1,0 +1,19 @@
+Intercepted at midnight, this message was encrypted using a PRNG seeded with the sender’s Unix timestamp. Can you recover its secret? Ciphertext: 666c23d27b6c3482786835cc6b7d
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 70415)
+The system time when the encryption process started was around: 2025-05-25 13:00:22 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{lv7xhwyk}
+ciphertext: 666c23d27b6c3482786835cc6b7d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 70415)
+The system time when the encryption process started was around: 2025-05-25 13:00:22 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 17077.
+subtype: time_based_seed
+archetype: prng

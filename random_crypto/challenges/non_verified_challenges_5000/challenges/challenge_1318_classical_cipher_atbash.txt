@@ -1,0 +1,14 @@
+An ancient message reveals a secret pact among shadowy allies. Decipher it using the code that swaps A with Z, B with Y, and so on: uozt{pimd5lfg}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{krnw5out}
+cipher: Atbash
+ciphertext: uozt{pimd5lfg}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+A hacker encoded the vault password using an ASCII Shift cipher. Can you recover it from this message? ntio|>98}v
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{t610unyx}
+cipher: ASCII Shift
+ciphertext: ntio|>98}v
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 8
+subtype: ascii_shift
+archetype: classical_cipher

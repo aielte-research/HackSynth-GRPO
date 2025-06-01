@@ -1,0 +1,24 @@
+Agent Zero concealed the secret in a SHA-256 hash. Can you find the original password hidden behind this hash: aeae6f8305a2f33c72a832f1bf9db72bdb989b3ec0fbce08f06749bbeb6ef800?
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{3r1e}
+ciphertext: aeae6f8305a2f33c72a832f1bf9db72bdb989b3ec0fbce08f06749bbeb6ef800
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

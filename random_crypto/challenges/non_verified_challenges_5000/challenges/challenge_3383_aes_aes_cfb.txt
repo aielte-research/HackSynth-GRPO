@@ -1,0 +1,17 @@
+A mysterious message encrypted with AES-CFB arrived from an unknown source. Can you recover the secret hidden in this b21c161c062f5546ecb82157d1c44fefc81000d16276bf89ce486352685cabdee4e29c16b96d346dac944ad69389c36e7fb98586650eca25a37b5f0b8798926d6fd7d6bf4cf952e193f7a6b0726b50cc1a68477483c16e5cae9b86514f2cd098c99829cf9915f727799936c0539b58c893206bbad0a90ab5a975071b40dea8962c5c13a76c832eae79e43f636639510d13982eec43e9a84101ba1e11b7e92bb68dffdb755abe61a6ca2d6d8ac4b3cc6260 ciphertext?
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{hyvwe5bb}
+ciphertext: b21c161c062f5546ecb82157d1c44fefc81000d16276bf89ce486352685cabdee4e29c16b96d346dac944ad69389c36e7fb98586650eca25a37b5f0b8798926d6fd7d6bf4cf952e193f7a6b0726b50cc1a68477483c16e5cae9b86514f2cd098c99829cf9915f727799936c0539b58c893206bbad0a90ab5a975071b40dea8962c5c13a76c832eae79e43f636639510d13982eec43e9a84101ba1e11b7e92bb68dffdb755abe61a6ca2d6d8ac4b3cc6260
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: cc31ccf07939db1f8f7725a62089c1db
+subtype: aes_cfb
+archetype: aes

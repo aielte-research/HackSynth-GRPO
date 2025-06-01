@@ -1,0 +1,19 @@
+An archivist encrypted the vault's password last midnight using a time-based PRNG. The ciphertext: 666c4cc27b655bcc74684bc6357d. Can you recover the original password with only this information?
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 13786)
+The system time when the encryption process started was around: 2025-05-25 12:55:52 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{evithfc5}
+ciphertext: 666c4cc27b655bcc74684bc6357d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 13786)
+The system time when the encryption process started was around: 2025-05-25 12:55:52 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 11685.
+subtype: time_based_seed
+archetype: prng

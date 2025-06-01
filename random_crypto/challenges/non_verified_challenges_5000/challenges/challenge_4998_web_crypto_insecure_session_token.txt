@@ -1,0 +1,12 @@
+A careless intern coded session tokens with a flawed homemade cipher. Your task: recover the original session ID from this intercepted token: 757365725f676a626e3a666c61677b69767334663132727d3a31373438313731313134
+
+---
+
+## Challenge Technical Details
+flag: flag{ivs4f12r}
+ciphertext: 757365725f676a626e3a666c61677b69767334663132727d3a31373438313731313134
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_gjbn:flag{ivs4f12r}:1748171114'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

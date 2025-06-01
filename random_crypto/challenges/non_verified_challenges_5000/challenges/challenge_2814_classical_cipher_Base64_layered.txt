@@ -1,0 +1,17 @@
+
+A hacker left a secret at midnight. Can you decode their hidden message? The flag is tucked inside this base64-encoded string: VmpJd2VFNUhSa2RpTTNCclVucFdiMWxzVm1GTlJuQkdZVVphVGxZd2NERlVWVkYzVUZFOVBRPT0=
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{gjamtu5n}
+cipher: Base64
+ciphertext: VmpJd2VFNUhSa2RpTTNCclVucFdiMWxzVm1GTlJuQkdZVVphVGxZd2NERlVWVkYzVUZFOVBRPT0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 5 times in total.
+subtype: Base64_layered
+archetype: classical_cipher

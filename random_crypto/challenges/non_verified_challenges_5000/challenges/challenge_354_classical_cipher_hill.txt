@@ -1,0 +1,17 @@
+A rogue agent encoded a critical passphrase using a matrix before vanishing. All we recovered was the encrypted message: qeipwmtjbzetnnoyljdutfyjejstjkljeepujfpuwwkwhzqxusycrtwqzpopquxgsclevl. Can you unravel the secret?
+
+The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+
+---
+
+## Challenge Technical Details
+flag: flag{yhpyqjxc}
+ciphertext: qeipwmtjbzetnnoyljdutfyjejstjkljeepujfpuwwkwhzqxusycrtwqzpopquxgsclevl
+cipher: Hill
+hint: Hill ciphers can be broken using known-plaintext attacks and linear algebra mod 26.
+necessary_info: The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+extra_info: The matrix used is: [[6, 23], [25, 13]]
+subtype: hill
+archetype: classical_cipher

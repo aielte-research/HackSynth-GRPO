@@ -1,0 +1,15 @@
+An old hard drive hides secret data—only accessible if you can decrypt ciphertext1:8a7036770a9ecfce5ea463d0baf6222a, ciphertext2: b61429368c654bf605e1d517980578c845434ad91e36f5d8ec12d8656c9113a9 encrypted with AES-XTS. Can you recover the original message?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{w9rp3fe2}
+ciphertext: ciphertext1:8a7036770a9ecfce5ea463d0baf6222a, ciphertext2: b61429368c654bf605e1d517980578c845434ad91e36f5d8ec12d8656c9113a9
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: c6751f247eb8f81bec58e46cfbd54596
+subtype: aes_xts
+archetype: aes

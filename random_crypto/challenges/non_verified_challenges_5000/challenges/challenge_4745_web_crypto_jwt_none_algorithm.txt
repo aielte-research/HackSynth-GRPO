@@ -1,0 +1,11 @@
+An agent’s credentials are hidden in this JWT token. Extract the secret flag from eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tjMnVxazhhZX0ifQ. without the signing key.
+
+---
+
+## Challenge Technical Details
+flag: flag{c2uqk8ae}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tjMnVxazhhZX0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

@@ -1,0 +1,19 @@
+
+Intercepted during a secret exchange, this Playfair-encrypted message could reveal the agent’s next move. The ciphertext is below: nebtkwulwoxkqtbhnasrkwulwostovcxhisabhirtnhubtkwulwoxkqtbhtarwkiuowkywkztmnsaehtkxvszehuzmdbtoovcishiwtnbhmostsmezctwkewkpiknydpzenzzehueanbctgmqknmvpca
+
+
+The flag format is flag{...}
+The keyword is: ooqqawjh
+
+---
+
+## Challenge Technical Details
+flag: flag{6t2fpg4a}
+ciphertext: nebtkwulwoxkqtbhnasrkwulwostovcxhisabhirtnhubtkwulwoxkqtbhtarwkiuowkywkztmnsaehtkxvszehuzmdbtoovcishiwtnbhmostsmezctwkewkpiknydpzenzzehueanbctgmqknmvpca
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: ooqqawjh
+extra_info: The playfair table is [['o', 'q', 'a', 'w', 'i'], ['h', 'b', 'c', 'd', 'e'], ['f', 'g', 'k', 'l', 'm'], ['n', 'p', 'r', 's', 't'], ['u', 'v', 'x', 'y', 'z']]
+subtype: playfair
+archetype: classical_cipher

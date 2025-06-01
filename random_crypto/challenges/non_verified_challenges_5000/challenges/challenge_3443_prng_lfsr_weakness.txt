@@ -1,0 +1,19 @@
+Intercepted from a rogue agent’s radio, this LFSR-encrypted message could expose their plans. Can you decode the secret transmission? Ciphertext: a62aa121bb31a123a92cb623b73b
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[6678, 36107, 18053, 9026, 4513, 2256, 1128, 564, 282, 32909]
+
+---
+
+## Challenge Technical Details
+flag: flag{waeijvew}
+ciphertext: a62aa121bb31a123a92cb623b73b
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[6678, 36107, 18053, 9026, 4513, 2256, 1128, 564, 282, 32909]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

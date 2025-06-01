@@ -1,0 +1,29 @@
+
+A rookie hacker encrypted the flag with a basic LCG Predictability cipher. Can you exploit the weak randomness and recover the hidden message? Ciphertext: 3c26ec792130b5733f3bfb6b3637
+
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1873623408
+  - Multiplier: 769358997
+  - Increment: 455311526
+The first 5 outputs of the LCG are provided: [1096064096, 1749093926, 323944388, 1763231354, 1015685912] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{z8meqvul}
+ciphertext: 3c26ec792130b5733f3bfb6b3637
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1873623408
+  - Multiplier: 769358997
+  - Increment: 455311526
+The first 5 outputs of the LCG are provided: [1096064096, 1749093926, 323944388, 1763231354, 1015685912] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

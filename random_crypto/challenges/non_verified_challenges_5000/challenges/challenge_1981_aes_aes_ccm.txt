@@ -1,0 +1,18 @@
+The archivist left a secret in his digital vault. He encrypted it with AES and posted the ciphertext: ciphertext1:ed6a40108fbe8fa3f52e12e4d726, ciphertext2: ed6a40108fb485b2b53150ad8726. Can you recover his lost message?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{foewp89e}
+ciphertext: ciphertext1:ed6a40108fbe8fa3f52e12e4d726, ciphertext2: ed6a40108fb485b2b53150ad8726
+tag1: c663b86676e9a74bcc11467a4ea02a65
+tag2: c41f50b7b1fb063662a5f552e69d946d
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 8c5ea3800f736907e28a4b
+subtype: aes_ccm
+archetype: aes

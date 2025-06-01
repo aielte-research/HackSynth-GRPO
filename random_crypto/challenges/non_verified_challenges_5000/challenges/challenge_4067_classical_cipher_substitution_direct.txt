@@ -1,0 +1,23 @@
+
+A hacker hid the server password with a substitution cipher. The only clue: "infu{xszgv0ns}". Can you recover the original message?
+
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'f', 'b': 'w', 'c': 'x', 'd': 'e', 'e': 'g', 'f': 'i', 'g': 'u', 'h': 'c', 'i': 'q', 'j': 'l', 'k': 'b', 'l': 'n', 'm': 'p', 'n': 't', 'o': 'h', 'p': 's', 'q': 'm', 'r': 'z', 's': 'a', 't': 'v', 'u': 'd', 'v': 'j', 'w': 'r', 'x': 'y', 'y': 'o', 'z': 'k'}
+
+---
+
+## Challenge Technical Details
+flag: flag{cpret0lp}
+cipher: Substitution
+ciphertext: infu{xszgv0ns}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'f', 'b': 'w', 'c': 'x', 'd': 'e', 'e': 'g', 'f': 'i', 'g': 'u', 'h': 'c', 'i': 'q', 'j': 'l', 'k': 'b', 'l': 'n', 'm': 'p', 'n': 't', 'o': 'h', 'p': 's', 'q': 'm', 'r': 'z', 's': 'a', 't': 'v', 'u': 'd', 'v': 'j', 'w': 'r', 'x': 'y', 'y': 'o', 'z': 'k'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

@@ -1,0 +1,19 @@
+
+A spy left a mysterious note—rumor says it's the vault password encrypted with a Playfair cipher. The note reads: snaqkesgdkqykolfnpnqkesgdknyowgpdqqxlffvfspoaqkesgdkqykolfomzfkgotekbsrylgxnlbfqyqzruhpowfslohowgeofvefslfdhnywhhugqekiomxgkbtzbuhuvuhpoblnkgqeheftamiyvaz
+
+
+The flag format is flag{...}
+The keyword is: sbzcbyfd
+
+---
+
+## Challenge Technical Details
+flag: flag{vflhzz1v}
+ciphertext: snaqkesgdkqykolfnpnqkesgdknyowgpdqqxlffvfspoaqkesgdkqykolfomzfkgotekbsrylgxnlbfqyqzruhpowfslohowgeofvefslfdhnywhhugqekiomxgkbtzbuhuvuhpoblnkgqeheftamiyvaz
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: sbzcbyfd
+extra_info: The playfair table is [['s', 'b', 'z', 'c', 'y'], ['f', 'd', 'a', 'e', 'g'], ['h', 'i', 'k', 'l', 'm'], ['n', 'o', 'p', 'q', 'r'], ['t', 'u', 'v', 'w', 'x']]
+subtype: playfair
+archetype: classical_cipher

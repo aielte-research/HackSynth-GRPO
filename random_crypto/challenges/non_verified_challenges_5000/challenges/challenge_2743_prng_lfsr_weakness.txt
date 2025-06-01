@@ -1,0 +1,21 @@
+
+A suspicious message intercepted from a rogue satellite uses a flawed stream cipher. Can you recover its contents from the ciphertext below? c4abc3a0d9b2ceb4d0aad1a9c6ba
+
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[7728, 36632, 51084, 25542, 45539, 22769, 11384, 5692, 35614, 17807]
+
+---
+
+## Challenge Technical Details
+flag: flag{ulsrmsnd}
+ciphertext: c4abc3a0d9b2ceb4d0aad1a9c6ba
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[7728, 36632, 51084, 25542, 45539, 22769, 11384, 5692, 35614, 17807]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

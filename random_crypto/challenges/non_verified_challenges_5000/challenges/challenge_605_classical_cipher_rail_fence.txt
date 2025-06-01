@@ -1,0 +1,15 @@
+A hacker left a mysterious note, scrambled by a zigzag pattern. Can you decode their secret message? Here’s the ciphertext: fa{p2n8lg8bcn}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{8pb2cnn8}
+ciphertext: fa{p2n8lg8bcn}
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 2
+subtype: rail_fence
+archetype: classical_cipher

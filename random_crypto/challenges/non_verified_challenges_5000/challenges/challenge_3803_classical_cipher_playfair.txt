@@ -1,0 +1,17 @@
+An old spy notebook contains a secret message encrypted with a Playfair cipher. Decode bchlmnghtmqdkicfzdwkmnghtmsurwoudnsqcfboqnnahlmnghtmqdkicfqkunufasnmwviglfoqqiledqbwcqnancdctlrwfnoeubqncfcmsuniqcdsnmckzufuuwnwcqaqcqnaiqwpdsemfapsvzsz to discover the rendezvous location.
+
+The flag format is flag{...}
+The keyword is: xzvgyton
+
+---
+
+## Challenge Technical Details
+flag: flag{lwz6xr3v}
+ciphertext: bchlmnghtmqdkicfzdwkmnghtmsurwoudnsqcfboqnnahlmnghtmqdkicfqkunufasnmwviglfoqqiledqbwcqnancdctlrwfnoeubqncfcmsuniqcdsnmckzufuuwnwcqaqcqnaiqwpdsemfapsvzsz
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: xzvgyton
+extra_info: The playfair table is [['x', 'z', 'v', 'g', 'y'], ['t', 'o', 'n', 'a', 'b'], ['c', 'd', 'e', 'f', 'h'], ['i', 'k', 'l', 'm', 'p'], ['q', 'r', 's', 'u', 'w']]
+subtype: playfair
+archetype: classical_cipher

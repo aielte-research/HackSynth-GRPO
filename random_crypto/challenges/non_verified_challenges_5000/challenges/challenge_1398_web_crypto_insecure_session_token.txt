@@ -1,0 +1,14 @@
+
+An intern reused a simple algorithm to generate session tokens. He left the output 757365725f323673633a666c61677b30387766716979617d3a31373438313636303032 on his desktop—can you recover the original session info?
+
+
+---
+
+## Challenge Technical Details
+flag: flag{08wfqiya}
+ciphertext: 757365725f323673633a666c61677b30387766716979617d3a31373438313636303032
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_26sc:flag{08wfqiya}:1748166002'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

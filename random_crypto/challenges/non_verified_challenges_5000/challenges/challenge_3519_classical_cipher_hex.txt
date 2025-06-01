@@ -1,0 +1,14 @@
+A secret agent encoded vital coordinates using hex before disappearing. Can you decode the message and reveal the hidden location? Ciphertext: 666c61677b343764683834656b7d
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{47dh84ek}
+cipher: Hex
+ciphertext: 666c61677b343764683834656b7d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

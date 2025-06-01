@@ -1,0 +1,18 @@
+An informant left you an encrypted message. Can you use your AES skills to reveal the secret? The ciphertext is: ciphertext1:919afceb399a5f615506d13ee207, ciphertext2: 919afceb3990407b0714cf36a807
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{xfn1twmz}
+ciphertext: ciphertext1:919afceb399a5f615506d13ee207, ciphertext2: 919afceb3990407b0714cf36a807
+tag1: db04743bbe3aba8bef1bfab7798c73ed
+tag2: fa52ad9319ef041892f463e0f13813c8
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: ca8fc2890151282ed7b2a7
+subtype: aes_ccm
+archetype: aes

@@ -1,0 +1,14 @@
+
+An insider leaked a JWT token. Can you uncover the hidden admin secret from this token?
+eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3t2bG45Znc2Y30ifQ.
+
+
+---
+
+## Challenge Technical Details
+flag: flag{vln9fw6c}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3t2bG45Znc2Y30ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

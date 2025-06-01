@@ -1,0 +1,17 @@
+
+Intercepted transmissions use the mysterious ChunkedFlag cipher. Can you decode the flag hidden inside fla g{j srn zo6 k}?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{jsrnzo6k}
+ciphertext: fla g{j srn zo6 k}
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

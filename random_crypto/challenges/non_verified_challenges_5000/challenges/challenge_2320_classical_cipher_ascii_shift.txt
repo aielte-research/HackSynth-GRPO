@@ -1,0 +1,15 @@
+An old hacker left a short message. He hints, "Shift each letter by its ASCII code." Can you recover his secret from this encrypted note? iodj~iuls54ih
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{frip21fe}
+cipher: ASCII Shift
+ciphertext: iodj~iuls54ih
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 3
+subtype: ascii_shift
+archetype: classical_cipher

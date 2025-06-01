@@ -1,0 +1,15 @@
+The secret sector’s data is locked with AES-XTS. Can you recover the hidden key and reveal the message inside? Here’s the ciphertext: ciphertext1:3e125d06e530082923d374ea4cf3a657, ciphertext2: c9894a0e80bd8811e39ff75dab2a5d24c5420ec6408dc2f0694c7b34d9277667
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{9tb7nuvf}
+ciphertext: ciphertext1:3e125d06e530082923d374ea4cf3a657, ciphertext2: c9894a0e80bd8811e39ff75dab2a5d24c5420ec6408dc2f0694c7b34d9277667
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 349c15caa5598115b29f11a09f27f717
+subtype: aes_xts
+archetype: aes

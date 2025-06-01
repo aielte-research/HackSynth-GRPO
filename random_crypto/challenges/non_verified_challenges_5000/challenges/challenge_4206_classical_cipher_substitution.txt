@@ -1,0 +1,15 @@
+A secret society encodes their meeting invitations with a simple substitution cipher. Can you reveal the hidden message within: cz rmltqbfmvtnl, v gwsgqcqwqcbz rctnam cg v uaqnbh bj azrmltqczf cz yncrn wzcqg bj tpvczqakq vma matpvrah ycqn qna rctnamqakq, cz v hajczah uvzzam, ycqn qna napt bj v xal; qna "wzcqg" uvl sa gczfpa paqqamg (qna ubgq rbuubz), tvcmg bj paqqamg, qmctpaqg bj paqqamg, uckqwmag bj qna vsbea, vzh gb jbmqn. qna maraceam harctnamg qna qakq sl tamjbmuczf qna czeamga gwsgqcqwqcbz tmbragg qb akqmvrq qna bmcfczvp uaggvfa. pcxaycga, ovriwag iwcrxpl dcttah qnmbwfn v iwagqcbz bz damb-xzbypahfa tmbbjg, azgwmczf zb rmcqcrvp paqqam yvg pajq bwq bj bwm rmltqbfmvtncr twddpa.jpvf{gr7o9bd9}?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{sc7j9oz9}
+ciphertext: cz rmltqbfmvtnl, v gwsgqcqwqcbz rctnam cg v uaqnbh bj azrmltqczf cz yncrn wzcqg bj tpvczqakq vma matpvrah ycqn qna rctnamqakq, cz v hajczah uvzzam, ycqn qna napt bj v xal; qna "wzcqg" uvl sa gczfpa paqqamg (qna ubgq rbuubz), tvcmg bj paqqamg, qmctpaqg bj paqqamg, uckqwmag bj qna vsbea, vzh gb jbmqn. qna maraceam harctnamg qna qakq sl tamjbmuczf qna czeamga gwsgqcqwqcbz tmbragg qb akqmvrq qna bmcfczvp uaggvfa. pcxaycga, ovriwag iwcrxpl dcttah qnmbwfn v iwagqcbz bz damb-xzbypahfa tmbbjg, azgwmczf zb rmcqcrvp paqqam yvg pajq bwq bj bwm rmltqbfmvtncr twddpa.jpvf{gr7o9bd9}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'v', 'b': 's', 'c': 'r', 'd': 'h', 'e': 'a', 'f': 'j', 'g': 'f', 'h': 'n', 'i': 'c', 'j': 'o', 'k': 'x', 'l': 'p', 'm': 'u', 'n': 'z', 'o': 'b', 'p': 't', 'q': 'i', 'r': 'm', 's': 'g', 't': 'q', 'u': 'w', 'v': 'e', 'w': 'y', 'x': 'k', 'y': 'l', 'z': 'd'}
+subtype: substitution
+archetype: classical_cipher

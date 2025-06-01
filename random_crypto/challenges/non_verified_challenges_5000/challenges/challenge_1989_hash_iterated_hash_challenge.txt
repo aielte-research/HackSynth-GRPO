@@ -1,0 +1,24 @@
+Decrypt the password secured by SHA-256—our vault’s last line of defense. Can you reverse-engineer it from this hash? 196cb95868088353582f7cf99166412671340c3cbfe640b49db60baa9a3d277e
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{mhcm}
+ciphertext: 196cb95868088353582f7cf99166412671340c3cbfe640b49db60baa9a3d277e
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

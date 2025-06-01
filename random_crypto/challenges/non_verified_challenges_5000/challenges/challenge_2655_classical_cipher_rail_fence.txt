@@ -1,0 +1,17 @@
+
+An agent hid the secret passphrase using a zigzag pattern. To recover it, simply decode the message below: fa{bwmzlgeaup}
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ebawumpz}
+ciphertext: fa{bwmzlgeaup}
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 2
+subtype: rail_fence
+archetype: classical_cipher

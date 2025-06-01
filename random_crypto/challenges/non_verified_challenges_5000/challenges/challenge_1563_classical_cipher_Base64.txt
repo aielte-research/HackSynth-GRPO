@@ -1,0 +1,15 @@
+Agent Luna sent her secret via radio, but scrambled it in Base64. Can you decode her message? Ciphertext: ZmxhZ3tqNjhhZWpvdX0=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{j68aejou}
+cipher: Base64
+ciphertext: ZmxhZ3tqNjhhZWpvdX0=
+hint: Use a Base64 decoder to obtain the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is direct; no additional layers or tricks.
+subtype: Base64
+archetype: classical_cipher

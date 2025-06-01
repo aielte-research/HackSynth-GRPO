@@ -1,0 +1,19 @@
+A rushed admin hashed passwords with SHA-256, but always used "12345" as salt. Can you recover the original password from this hash: aadc9776c07fd234143f49649a6d66cb3b2ee4037fc92074d00f382906303760?
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{vhl}
+ciphertext: aadc9776c07fd234143f49649a6d66cb3b2ee4037fc92074d00f382906303760
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

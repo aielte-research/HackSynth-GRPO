@@ -1,0 +1,15 @@
+An anonymous hacker sent you a cryptic message titled "Base85 Bounty." Decode the Base85-encoded string to find the hidden reward: Q8+6$C09T(Kr2)>FllT?Dp5>4T0>tyaZhPwOiNd6Y-Ax&En-MNP$(v4L`!o#M@&~wNNz(*F<&!eSV=%vYf~gicuGrqX*6F?NO(~~V{~gJJ7ZCENG42HT0Bi;c64QQR&aH2JVz*gSt(IPc~x>uI{
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{5a2ifj5k}
+cipher: Base85
+ciphertext: Q8+6$C09T(Kr2)>FllT?Dp5>4T0>tyaZhPwOiNd6Y-Ax&En-MNP$(v4L`!o#M@&~wNNz(*F<&!eSV=%vYf~gicuGrqX*6F?NO(~~V{~gJJ7ZCENG42HT0Bi;c64QQR&aH2JVz*gSt(IPc~x>uI{
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 10 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

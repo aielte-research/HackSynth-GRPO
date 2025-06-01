@@ -1,0 +1,14 @@
+
+A careless developer secured sensitive admin pages with a weak session token cipher. Can you recover the admin's secret from this intercepted ciphertext: 757365725f317671733a666c61677b62353636677a696a7d3a31373438313636393131?
+
+
+---
+
+## Challenge Technical Details
+flag: flag{b566gzij}
+ciphertext: 757365725f317671733a666c61677b62353636677a696a7d3a31373438313636393131
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_1vqs:flag{b566gzij}:1748166911'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

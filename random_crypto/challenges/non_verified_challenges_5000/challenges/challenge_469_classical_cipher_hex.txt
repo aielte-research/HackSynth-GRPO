@@ -1,0 +1,14 @@
+An agent hid stolen data using only hexadecimal codes. Can you recover the secret from this hex-encoded message? Ciphertext: 666c61677b6b3774616f6969387d
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{k7taoii8}
+cipher: Hex
+ciphertext: 666c61677b6b3774616f6969387d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

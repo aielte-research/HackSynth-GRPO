@@ -1,0 +1,15 @@
+A rogue agent transmits passwords encoded for secrecy. Can you decode the agent's Base64-encrypted message? Here it is: Vm0wd2QyVkhVWGhVYmxKV1YwZDRXRmxVUm5kVlJscHpXa2M1VjFKdGVGWlZNbmhQWVd4S2MxTnNXbGRTTTFKUVdWY3hTMUl4WkhWaVJtUnBWMFpHTTFkV1kzaFRNVWw1Vkd0c2FGSnNjRTlaVjNSR1pVWmFjbHBFVWxwV01VcEpWbTEwYzJGc1NuVlJiR2hYWWxob2VsUlVSbUZqYkhCSlkwZDRVMkV6UWxsV2Fra3hWREpHYzFOdVRsaGlSMmhZV1d4b1UxbFdjRmhsUjBaWFlrZFNlVll5ZUVOV01rVjNZMFpTVjFaV2NGTmFSRVpEVld4Q1ZVMUVNRDA9
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{tuhnmrw5}
+cipher: Base64
+ciphertext: Vm0wd2QyVkhVWGhVYmxKV1YwZDRXRmxVUm5kVlJscHpXa2M1VjFKdGVGWlZNbmhQWVd4S2MxTnNXbGRTTTFKUVdWY3hTMUl4WkhWaVJtUnBWMFpHTTFkV1kzaFRNVWw1Vkd0c2FGSnNjRTlaVjNSR1pVWmFjbHBFVWxwV01VcEpWbTEwYzJGc1NuVlJiR2hYWWxob2VsUlVSbUZqYkhCSlkwZDRVMkV6UWxsV2Fra3hWREpHYzFOdVRsaGlSMmhZV1d4b1UxbFdjRmhsUjBaWFlrZFNlVll5ZUVOV01rVjNZMFpTVjFaV2NGTmFSRVpEVld4Q1ZVMUVNRDA9
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 10 times in total.
+subtype: Base64_layered
+archetype: classical_cipher

@@ -1,0 +1,16 @@
+Our intern used AES-ECB and set a tiny password, padded with nulls. Can you recover the secret from ad6b54bfaecb88c9800d50fb72c1777a?
+
+An encryption key that is only 2 bytes long?.
+
+---
+
+## Challenge Technical Details
+flag: flag{8cgl469v}
+ciphertext: ad6b54bfaecb88c9800d50fb72c1777a
+cipher: AES-ECB
+vulnerability: small key padded with null bytes
+hint: ECB mode with a short key makes brute-forcing possible. Consider the small key entropy.
+necessary_info: An encryption key that is only 2 bytes long?.
+extra_info: Padding follows PKCS#7. The key is padded to 16 bytes with null bytes.
+subtype: weak_cookie_encryption
+archetype: web_crypto

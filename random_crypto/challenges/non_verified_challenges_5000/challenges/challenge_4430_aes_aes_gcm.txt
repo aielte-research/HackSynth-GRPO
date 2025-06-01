@@ -1,0 +1,19 @@
+Two messages, encrypted by a careless intern, share the same AES-GCM nonce. The ciphertexts are below. Can you exploit this reuse and recover the secrets?
+ciphertext1:abb7c3dcf24ce910277b54fbf6f5, ciphertext2: b9b3cbc8a94af65c3e6442b0f1a886c58d4d
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ollwpbkf}
+ciphertext: ciphertext1:abb7c3dcf24ce910277b54fbf6f5, ciphertext2: b9b3cbc8a94af65c3e6442b0f1a886c58d4d
+tag1: ab0175f50211c374f887cc85bb08b3fd
+tag2: 401518f7739e69970f7468a5046f1a37
+cipher: AES-GCM
+vulnerability: nonce reuse
+hint: AES-GCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 985bbed3ba1c633305b1b4ce
+subtype: aes_gcm
+archetype: aes

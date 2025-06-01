@@ -1,0 +1,15 @@
+Intercepted spy note—decrypt the substitution cipher to reveal their secret plan: qv wipodblifomp, f zhgzdqdhdqbv wqomji qz f xjdmbs bu jvwipodqvl qv emqwm hvqdz bu orfqvdjtd fij ijorfwjs eqdm dmj wqomjidjtd, qv f sjuqvjs xfvvji, eqdm dmj mjro bu f njp; dmj "hvqdz" xfp gj zqvlrj rjddjiz (dmj xbzd wbxxbv), ofqiz bu rjddjiz, diqorjdz bu rjddjiz, xqtdhijz bu dmj fgbaj, fvs zb ubidm. dmj ijwjqaji sjwqomjiz dmj djtd gp ojiubixqvl dmj qvajizj zhgzdqdhdqbv oibwjzz db jtdifwd dmj biqlqvfr xjzzflj. rqnjeqzj, kfwchjz chqwnrp yqoojs dmibhlm f chjzdqbv bv yjib-nvberjslj oibbuz, jvzhiqvl vb wiqdqwfr rjddji efz rjud bhd bu bhi wipodblifomqw ohyyrj.urfl{cud13g3w}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{qft13b3c}
+ciphertext: qv wipodblifomp, f zhgzdqdhdqbv wqomji qz f xjdmbs bu jvwipodqvl qv emqwm hvqdz bu orfqvdjtd fij ijorfwjs eqdm dmj wqomjidjtd, qv f sjuqvjs xfvvji, eqdm dmj mjro bu f njp; dmj "hvqdz" xfp gj zqvlrj rjddjiz (dmj xbzd wbxxbv), ofqiz bu rjddjiz, diqorjdz bu rjddjiz, xqtdhijz bu dmj fgbaj, fvs zb ubidm. dmj ijwjqaji sjwqomjiz dmj djtd gp ojiubixqvl dmj qvajizj zhgzdqdhdqbv oibwjzz db jtdifwd dmj biqlqvfr xjzzflj. rqnjeqzj, kfwchjz chqwnrp yqoojs dmibhlm f chjzdqbv bv yjib-nvberjslj oibbuz, jvzhiqvl vb wiqdqwfr rjddji efz rjud bhd bu bhi wipodblifomqw ohyyrj.urfl{cud13g3w}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'f', 'b': 'g', 'c': 'w', 'd': 's', 'e': 'j', 'f': 'u', 'g': 'l', 'h': 'm', 'i': 'q', 'j': 'k', 'k': 'n', 'l': 'r', 'm': 'x', 'n': 'v', 'o': 'b', 'p': 'o', 'q': 'c', 'r': 'i', 's': 'z', 't': 'd', 'u': 'h', 'v': 'a', 'w': 'e', 'x': 't', 'y': 'p', 'z': 'y'}
+subtype: substitution
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+The spy left a secret message using a simple XOR cipher. Can you recover the original text from stringA: 0c0e12031c1c50000f2150261617 stringB: 6a6273646775326e684e3353786a?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ibngocun}
+cipher: XOR
+ciphertext: stringA: 0c0e12031c1c50000f2150261617 stringB: 6a6273646775326e684e3353786a
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

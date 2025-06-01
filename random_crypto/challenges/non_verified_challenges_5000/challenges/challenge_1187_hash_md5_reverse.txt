@@ -1,0 +1,15 @@
+A hacker used MD5 to hide a secret in 76f22207cad948554f8e1af9fb0fd535, but an old vulnerability allows you to reverse the hash. Can you recover the original message?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{acdxi}
+ciphertext: 76f22207cad948554f8e1af9fb0fd535
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

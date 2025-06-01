@@ -1,0 +1,27 @@
+The hacker used a homebrew LCG to encrypt his password. Only the encrypted output, 4b3546da562353ca406e49d31524, survived. Can you predict the rest and recover the secret?
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1124558041
+  - Multiplier: 605495412
+  - Increment: 675430142
+The first 5 outputs of the LCG are provided: [580846149, 476419771, 503998695, 365535632, 410744137] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{ztwm7nn8}
+ciphertext: 4b3546da562353ca406e49d31524
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1124558041
+  - Multiplier: 605495412
+  - Increment: 675430142
+The first 5 outputs of the LCG are provided: [580846149, 476419771, 503998695, 365535632, 410744137] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

@@ -1,0 +1,15 @@
+The hacker masked the password with a simple XOR cipher. Can you recover it from this encrypted message? stringA: 091c2325106c310260615f373008 stringB: 6f7042426b594937575369594675
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{5x5726nv}
+cipher: XOR
+ciphertext: stringA: 091c2325106c310260615f373008 stringB: 6f7042426b594937575369594675
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

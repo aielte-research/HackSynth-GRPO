@@ -1,0 +1,21 @@
+
+A careless admin used SHA-256 with '1234' as a salt for password hashes. Crack the original password from this weakly salted hash: 8e3fec4cc331945cb516632eb14c5eef9d1b50a997aecc6144c70d233cfeef0c
+
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{1he}
+ciphertext: 8e3fec4cc331945cb516632eb14c5eef9d1b50a997aecc6144c70d233cfeef0c
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

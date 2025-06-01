@@ -1,0 +1,27 @@
+An intern encrypted the launch codes using a simple LCG-based cipher. Can you reveal the secret by breaking their predictable scheme? Ciphertext: 4508cba4580ec0ad175dcef44d19
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1555505960
+  - Multiplier: 1284464985
+  - Increment: 851494305
+The first 5 outputs of the LCG are provided: [229757310, 677347695, 990181680, 111503225, 439255490] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{jjn49d7n}
+ciphertext: 4508cba4580ec0ad175dcef44d19
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1555505960
+  - Multiplier: 1284464985
+  - Increment: 851494305
+The first 5 outputs of the LCG are provided: [229757310, 677347695, 990181680, 111503225, 439255490] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

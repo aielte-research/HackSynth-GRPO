@@ -1,0 +1,11 @@
+The server logs a suspicious JWT token: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tpeWJiNW1rdn0ifQ.. Can you uncover the hidden information inside and reveal the action taken?
+
+---
+
+## Challenge Technical Details
+flag: flag{iybb5mkv}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tpeWJiNW1rdn0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

@@ -1,0 +1,17 @@
+
+A secret agent left a message for their handler, encoded in Base64 to avoid casual detection. Decode the hidden instructions: Vm0wd2QyVkhVWGhVYmxKV1YwZDRXRmxVUm5kVlJscHpXa2M1VjFKdGVGWlZNbmhQWVd4S2MxTnNXbGRTTTFKUVdWZDRZV1JXUm5OaVIwWlhWakZLU1ZadE1UUlpWMDE1Vkd0c2FGSnNjRmhhVjNoaFpWWmFjbFZyZEZSTlZUVllWVzAxVDJGV1NuTlhia0pXWVd0d2RsWldXbXRXTVdSMFVteHdWMkpJUWxsV2Fra3hVakZWZVZOclpGaGlSMmhZV1d4b1UxbFdjRmhsUjBaWFlrZFNlVll5ZUVOV01rVjNZMFpTVjFaV2NGTmFSRVpEVld4Q1ZVMUVNRDA9
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{99bszyf6}
+cipher: Base64
+ciphertext: Vm0wd2QyVkhVWGhVYmxKV1YwZDRXRmxVUm5kVlJscHpXa2M1VjFKdGVGWlZNbmhQWVd4S2MxTnNXbGRTTTFKUVdWZDRZV1JXUm5OaVIwWlhWakZLU1ZadE1UUlpWMDE1Vkd0c2FGSnNjRmhhVjNoaFpWWmFjbFZyZEZSTlZUVllWVzAxVDJGV1NuTlhia0pXWVd0d2RsWldXbXRXTVdSMFVteHdWMkpJUWxsV2Fra3hVakZWZVZOclpGaGlSMmhZV1d4b1UxbFdjRmhsUjBaWFlrZFNlVll5ZUVOV01rVjNZMFpTVjFaV2NGTmFSRVpEVld4Q1ZVMUVNRDA9
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 10 times in total.
+subtype: base64_layered
+archetype: classical_cipher

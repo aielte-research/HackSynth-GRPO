@@ -1,0 +1,24 @@
+The hacker left a password hashed with SHA-256. Crack it to access the vault: b214ddc9f28b5b8c31bb616f1468bb46c50f2a6eb82e5839df6bfeddd09a0e37
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{m6pp}
+ciphertext: b214ddc9f28b5b8c31bb616f1468bb46c50f2a6eb82e5839df6bfeddd09a0e37
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

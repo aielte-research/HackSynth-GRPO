@@ -1,0 +1,20 @@
+
+An intercepted spy message is encrypted with AES. Only ciphertext1:7735f0678ecf68d423c560413fdd, ciphertext2: 7735f0678e9e32c82ac02c563edd remains. Can you unveil the agent’s secret?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{84zngzub}
+ciphertext: ciphertext1:7735f0678ecf68d423c560413fdd, ciphertext2: 7735f0678e9e32c82ac02c563edd
+tag1: 9fb8f15624790d7b7c7936d7cf52d48b
+tag2: 1b21a7407ea7709ca58f0795d518429a
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 7430e4704d78755de74938
+subtype: aes_ccm
+archetype: aes

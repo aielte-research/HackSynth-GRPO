@@ -1,0 +1,21 @@
+
+A careless admin hashed passwords with SHA-256 and a “random” salt picked from the server’s boot time. Can you recover the original password from b79afe1f2dcad80a8bad9d7102296bde09ba895c926811fa9153af2a74edfdd4?
+
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{y8w}
+ciphertext: b79afe1f2dcad80a8bad9d7102296bde09ba895c926811fa9153af2a74edfdd4
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

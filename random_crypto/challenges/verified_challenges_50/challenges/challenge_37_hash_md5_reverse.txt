@@ -1,0 +1,15 @@
+We've lost the original password, but we found its MD5 hash: fa609305151de5c207b2d06c9cd9bf5f. Find the plaintext by exploiting a known MD5 weakness.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{Rinty}
+ciphertext: fa609305151de5c207b2d06c9cd9bf5f
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

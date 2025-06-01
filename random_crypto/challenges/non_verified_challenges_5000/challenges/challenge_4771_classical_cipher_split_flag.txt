@@ -1,0 +1,17 @@
+
+A secret guild split a vital code into numbers and cleverly mixed them. Can you unravel their SplitNumberMix cipher and reveal the hidden message? Ciphertext:  999999999 f 999999999 lag{lf 999999999 ueiqy 999999999 y} 999999999 
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{lfueiqyy}
+ciphertext:  999999999 f 999999999 lag{lf 999999999 ueiqy 999999999 y} 999999999 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 4 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

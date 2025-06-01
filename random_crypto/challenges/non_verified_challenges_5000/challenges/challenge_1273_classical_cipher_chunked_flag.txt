@@ -1,0 +1,17 @@
+
+Intercepted during a secret meeting, this message encrypts the flag in puzzling chunks. Can you piece it together and break the ChunkedFlag cipher? fl ag{ 5v 3c cv 0y}
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{5v3ccv0y}
+ciphertext: fl ag{ 5v 3c cv 0y}
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

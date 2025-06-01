@@ -1,0 +1,24 @@
+An intercepted message uses SHA-256 to hide a critical code. Can you recover the original text from the following hash? 43cbb1d274d453d0b858aa9bafb3654c6b2e5e7e24a04180102264fa13b84251
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{l3tj}
+ciphertext: 43cbb1d274d453d0b858aa9bafb3654c6b2e5e7e24a04180102264fa13b84251
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

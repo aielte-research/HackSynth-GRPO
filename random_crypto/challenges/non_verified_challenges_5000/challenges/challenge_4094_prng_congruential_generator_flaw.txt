@@ -1,0 +1,27 @@
+The vault's lock runs on pseudo-random codes. I intercepted this recent output: 61262b217c203c706f293a3c6837. Can you reveal the next sequence to break in?
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 605465886
+  - Multiplier: 376193065
+  - Increment: 281658514
+The first 5 outputs of the LCG are provided: [279485236, 389133404, 604893894, 406578004, 575700716] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{jv6hcpzo}
+ciphertext: 61262b217c203c706f293a3c6837
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 605465886
+  - Multiplier: 376193065
+  - Increment: 281658514
+The first 5 outputs of the LCG are provided: [279485236, 389133404, 604893894, 406578004, 575700716] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

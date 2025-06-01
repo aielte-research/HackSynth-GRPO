@@ -1,0 +1,17 @@
+A hacker group encoded their secret meeting time using a Hill cipher. Can you decipher gkqfsehifowbnakahsrnbeufurwdpphsgmrlbkrluouqfacdogqyjoyidaqrrswtqzejll to reveal when they plan to strike?
+
+The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+
+---
+
+## Challenge Technical Details
+flag: flag{vholqtqx}
+ciphertext: gkqfsehifowbnakahsrnbeufurwdpphsgmrlbkrluouqfacdogqyjoyidaqrrswtqzejll
+cipher: Hill
+hint: Hill ciphers can be broken using known-plaintext attacks and linear algebra mod 26.
+necessary_info: The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+extra_info: The matrix used is: [[18, 13], [11, 20]]
+subtype: hill
+archetype: classical_cipher

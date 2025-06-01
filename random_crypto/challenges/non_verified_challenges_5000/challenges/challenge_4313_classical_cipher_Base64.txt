@@ -1,0 +1,15 @@
+An agent left a secret in the Base64-encoded string below. Decode ZmxhZ3tiZHl1aWY0M30= to reveal the mission's password.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{bdyuif43}
+cipher: Base64
+ciphertext: ZmxhZ3tiZHl1aWY0M30=
+hint: Use a Base64 decoder to obtain the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is direct; no additional layers or tricks.
+subtype: Base64
+archetype: classical_cipher

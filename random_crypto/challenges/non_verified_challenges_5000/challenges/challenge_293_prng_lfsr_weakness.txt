@@ -1,0 +1,19 @@
+The vault's alarm uses a stream cipher vulnerable to repeating states. This intercepted message, f19af691eccfe7c7f4c7f8c5a48b, might help you break in. Can you recover the secret?
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[55773, 60654, 63095, 64315, 64925, 65230, 32615, 49075, 24537, 12268]
+
+---
+
+## Challenge Technical Details
+flag: flag{9p1c1o33}
+ciphertext: f19af691eccfe7c7f4c7f8c5a48b
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[55773, 60654, 63095, 64315, 64925, 65230, 32615, 49075, 24537, 12268]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

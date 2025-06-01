@@ -1,0 +1,20 @@
+
+An encrypted message, secured with AES, protects the vault’s code. Can you unlock its secret? Here’s the ciphertext: ciphertext1:3a74ba0573c10e7eb81bc788168b, ciphertext2: 3a74ba0573c41c25f61a95904e8b
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ha5xmah1}
+ciphertext: ciphertext1:3a74ba0573c10e7eb81bc788168b, ciphertext2: 3a74ba0573c41c25f61a95904e8b
+tag1: f23fa8bbc0119d70042210e9cada51a0
+tag2: 4d92ffc7d9cab7f46acca4a5b47cec5a
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: f8fc71c4c740c7442ca538
+subtype: aes_ccm
+archetype: aes

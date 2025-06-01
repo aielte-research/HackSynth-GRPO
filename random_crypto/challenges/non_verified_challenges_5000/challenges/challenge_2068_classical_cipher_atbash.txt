@@ -1,0 +1,14 @@
+The archivist hid the password using the ancient Atbash cipher. Can you reveal the secret within this encrypted message? uozt{qsqg5igw}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{jhjt5rtd}
+cipher: Atbash
+ciphertext: uozt{qsqg5igw}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

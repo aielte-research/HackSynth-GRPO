@@ -1,0 +1,19 @@
+An old server spits out codes encrypted with system time as a seed. The latest dump looks promising—can you recover its secret? 666ccfab7b73c0aa366e98f86a7d
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 58580)
+The system time when the encryption process started was around: 2025-05-17 13:54:35 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{snf6n64j}
+ciphertext: 666ccfab7b73c0aa366e98f86a7d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 58580)
+The system time when the encryption process started was around: 2025-05-17 13:54:35 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 44748.
+subtype: time_based_seed
+archetype: prng

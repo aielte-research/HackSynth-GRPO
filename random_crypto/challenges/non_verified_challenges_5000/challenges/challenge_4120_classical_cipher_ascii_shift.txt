@@ -1,0 +1,15 @@
+An enigmatic hacker left a note in your terminal. The message is encoded using ASCII shift. Can you decipher this crucial clue? Here it is: mshnv;7m?ny
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{o4z0f8gr}
+cipher: ASCII Shift
+ciphertext: mshnv;7m?ny
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 7
+subtype: ascii_shift
+archetype: classical_cipher

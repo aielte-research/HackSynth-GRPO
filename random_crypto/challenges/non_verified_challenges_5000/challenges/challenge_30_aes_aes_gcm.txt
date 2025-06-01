@@ -1,0 +1,18 @@
+When two spies rush to encrypt secret reports, they accidentally reuse the nonce with AES-GCM. Can you exploit their slip with the ciphertext below? ciphertext1:0b4f7d61e94f77b655eb03056659, ciphertext2: 194b7575b24966ee5eed061030044593fc83
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{obxeiq57}
+ciphertext: ciphertext1:0b4f7d61e94f77b655eb03056659, ciphertext2: 194b7575b24966ee5eed061030044593fc83
+tag1: 392dc25c2adfb5da2e9bedbb1229cf66
+tag2: b223b0a73d473805874a64a337ff2053
+cipher: AES-GCM
+vulnerability: nonce reuse
+hint: AES-GCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 518c0645293c866b8fb70546
+subtype: aes_gcm
+archetype: aes

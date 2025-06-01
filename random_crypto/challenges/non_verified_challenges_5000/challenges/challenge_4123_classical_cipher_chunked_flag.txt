@@ -1,0 +1,15 @@
+The bot split the flag into chunks using its secret cipher. Can you piece them back together from this scrambled message? fla g{ 93 ok sgz u}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{93oksgzu}
+ciphertext: fla g{ 93 ok sgz u}
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

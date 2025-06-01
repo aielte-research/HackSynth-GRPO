@@ -1,0 +1,14 @@
+An ancient scroll’s message is hidden using a cipher that swaps each letter for its opposite in the alphabet. Can you decode this secret? uozt{599l444v}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{599o444e}
+cipher: Atbash
+ciphertext: uozt{599l444v}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+A hacker sends you a hidden clue from an old source forum. The message, encoded for secrecy, reads: Vm0weGQxTnRVWGxXYTFwUFZsZG9WRmxVU2xOalJsSlZWR3RPYW1KR1ZqTlhhMXBQWVVaS2RHVkVRbUZTVjJoeVZrUkdZV014VG5OWGJGcE9ZV3RhU1ZaclpEUlhiVkY1Vkd0V1UySkdXbGhXYlhSYVpXeGFWbGRyV2xCV2EwcFRWVVpSZDFCUlBUMD0=. Can you recover what they shared?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{pfrr3fun}
+cipher: Base64
+ciphertext: Vm0weGQxTnRVWGxXYTFwUFZsZG9WRmxVU2xOalJsSlZWR3RPYW1KR1ZqTlhhMXBQWVVaS2RHVkVRbUZTVjJoeVZrUkdZV014VG5OWGJGcE9ZV3RhU1ZaclpEUlhiVkY1Vkd0V1UySkdXbGhXYlhSYVpXeGFWbGRyV2xCV2EwcFRWVVpSZDFCUlBUMD0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 8 times in total.
+subtype: base64_layered
+archetype: classical_cipher

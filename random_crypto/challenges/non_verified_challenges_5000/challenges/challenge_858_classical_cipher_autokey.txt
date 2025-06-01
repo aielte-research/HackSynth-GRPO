@@ -1,0 +1,19 @@
+An intercepted spy message reads: nv ycku pesg, aug rwwtymprt gpscymmkz neaeiel eifbsi genugz.fwmu{2g3meao2}. We know she used the Autokey cipher, but without the keyword, the agent needs your help to decrypt it!
+
+The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: In each case, the resulting plaintext appears almost random.
+The seed lenght is 4 and only alphabetic characters count.
+
+---
+
+## Challenge Technical Details
+flag: flag{2o3trjo2}
+ciphertext: nv ycku pesg, aug rwwtymprt gpscymmkz neaeiel eifbsi genugz.fwmu{2g3meao2}
+cipher: Autokey
+hint: Autokey ciphers are vulnerable once enough plaintext is known, allowing reconstruction of the key.
+necessary_info: The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: In each case, the resulting plaintext appears almost random.
+The seed lenght is 4 and only alphabetic characters count.
+extra_info: The key seed is: fiuc
+subtype: autokey
+archetype: classical_cipher

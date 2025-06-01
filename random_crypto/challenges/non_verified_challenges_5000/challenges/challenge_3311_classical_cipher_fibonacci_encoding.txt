@@ -1,0 +1,15 @@
+Prof. Fibonnaci left a secret knock in binary—decode 10001000001 10001010011 10000100001 10001000011 10100000001 1000000001 10010100101 10010000011 101000101 10000100101 10000100101 1000000101 101010001 10100000101 with his favorite sequence to enter the vault.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{7xo1cc94}
+ciphertext: 10001000001 10001010011 10000100001 10001000011 10100000001 1000000001 10010100101 10010000011 101000101 10000100101 10000100101 1000000101 101010001 10100000101
+cipher: Fibonacci Encoding
+hint: Each ASCII character is represented as a sum of non-consecutive Fibonacci numbers, always ending in 1.
+necessary_info: The flag format is flag{...}
+extra_info: Each character of the flag is independently encoded using Fibonacci representation.
+subtype: fibonacci_encoding
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+A mathematician hid the launch code using Fibonacci Encoding to confuse intruders. Can you decode 10001000001 10001010011 10000100001 10001000011 10100000001 10010100101 10001010101 101010001 10001001011 10000100001 10010010101 10001000001 10001001011 10100000101 to find the sequence?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{xm4jaufj}
+ciphertext: 10001000001 10001010011 10000100001 10001000011 10100000001 10010100101 10001010101 101010001 10001001011 10000100001 10010010101 10001000001 10001001011 10100000101
+cipher: Fibonacci Encoding
+hint: Each ASCII character is represented as a sum of non-consecutive Fibonacci numbers, always ending in 1.
+necessary_info: The flag format is flag{...}
+extra_info: Each character of the flag is independently encoded using Fibonacci representation.
+subtype: fibonacci_encoding
+archetype: classical_cipher

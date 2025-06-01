@@ -1,0 +1,17 @@
+
+A rogue agent encrypted secret coordinates with an XOR cipher. Only by decrypting stringA: 0e0817231c4b1e195c3c3f2e0832 stringB: 686476446733717268504a586b4f can the mission proceed. Can you reveal the hidden message?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{xok4luvc}
+cipher: XOR
+ciphertext: stringA: 0e0817231c4b1e195c3c3f2e0832 stringB: 686476446733717268504a586b4f
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

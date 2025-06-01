@@ -1,0 +1,18 @@
+The novice hacker used tiny primes to encrypt their secret. Can you break their weak RSA and recover the flag from 2156499446249181501?
+
+The flag format is flag{...}
+n=6201976844236288723, e=4937672460940863233
+
+---
+
+## Challenge Technical Details
+flag: flag{17vq3wfm}
+cipher: RSA
+ciphertext: 2156499446249181501
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=6201976844236288723, e=4937672460940863233
+extra_info: p=2461197617, q=2519902019, φ(n)=6201976839255189088
+subtype: small_primes
+archetype: rsa

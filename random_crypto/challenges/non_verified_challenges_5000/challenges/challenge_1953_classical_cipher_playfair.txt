@@ -1,0 +1,19 @@
+
+A mysterious note intercepted at the border contains zwmfnuvbbghaespksnsrnuvbbgshlcgaimsppkuxwyqomfnuvbbghaespksgrbnflaunbsnvvmxwkbgmahvsydqovdkcoglcgflgruwypkbeshwtdygpuneknafnwbibydwdydqobkrwgpumgnzysiyi. Intelligence suspects it's Playfair-encrypted coordinates. Can you decrypt the message and locate the drop point?
+
+
+The flag format is flag{...}
+The keyword is: wprsrhuf
+
+---
+
+## Challenge Technical Details
+flag: flag{y6y3bo6b}
+ciphertext: zwmfnuvbbghaespksnsrnuvbbgshlcgaimsppkuxwyqomfnuvbbghaespksgrbnflaunbsnvvmxwkbgmahvsydqovdkcoglcgflgruwypkbeshwtdygpuneknafnwbibydwdydqobkrwgpumgnzysiyi
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: wprsrhuf
+extra_info: The playfair table is [['w', 'p', 'r', 's', 'h'], ['u', 'f', 'a', 'b', 'c'], ['d', 'e', 'g', 'i', 'k'], ['l', 'm', 'n', 'o', 'q'], ['t', 'v', 'x', 'y', 'z']]
+subtype: playfair
+archetype: classical_cipher

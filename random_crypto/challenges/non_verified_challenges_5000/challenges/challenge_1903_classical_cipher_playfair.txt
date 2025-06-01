@@ -1,0 +1,19 @@
+
+A secret agent left a Playfair-encrypted message for you: yzcqkhslukabkoelumamkhslukbrohhzvquselzxtwpocqkhslukabkoelufxrprozhktspsqbszkvdqbaxqwgpoydeaogohchtgxutwelgkbryggwbhhkvgfzrpwrfrwgwzwgpovkqabhgfzkaglhzg. Can you decrypt it and continue the mission?
+
+
+The flag format is flag{...}
+The keyword is: rzuahbdv
+
+---
+
+## Challenge Technical Details
+flag: flag{zkeyt6d3}
+ciphertext: yzcqkhslukabkoelumamkhslukbrohhzvquselzxtwpocqkhslukabkoelufxrprozhktspsqbszkvdqbaxqwgpoydeaogohchtgxutwelgkbryggwbhhkvgfzrpwrfrwgwzwgpovkqabhgfzkaglhzg
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: rzuahbdv
+extra_info: The playfair table is [['r', 'z', 'u', 'a', 'h'], ['b', 'd', 'v', 'c', 'e'], ['f', 'g', 'i', 'k', 'l'], ['m', 'n', 'o', 'p', 'q'], ['s', 't', 'w', 'x', 'y']]
+subtype: playfair
+archetype: classical_cipher

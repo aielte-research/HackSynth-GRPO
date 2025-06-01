@@ -1,0 +1,17 @@
+
+Agent Zeus encoded the vault code using his secret SplitNumberMix cipher. Crack it to retrieve the key:  44444 flag 44444 {hh 44444 hokggz 44444 } 44444 
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{hhhokggz}
+ciphertext:  44444 flag 44444 {hh 44444 hokggz 44444 } 44444 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 4 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

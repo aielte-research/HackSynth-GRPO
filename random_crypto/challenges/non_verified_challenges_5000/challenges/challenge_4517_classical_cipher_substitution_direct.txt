@@ -1,0 +1,21 @@
+An anonymous hacker left a secret message for their accomplice, but it's scrambled with a simple letter substitution. Can you decode oren{jrg7daul} and reveal their plan?
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'e', 'b': 'y', 'c': 'f', 'd': 's', 'e': 'x', 'f': 'o', 'g': 'n', 'h': 'd', 'i': 'a', 'j': 'k', 'k': 'l', 'l': 'r', 'm': 'p', 'n': 'm', 'o': 'c', 'p': 'q', 'q': 'b', 'r': 't', 's': 'z', 't': 'w', 'u': 'j', 'v': 'v', 'w': 'h', 'x': 'i', 'y': 'u', 'z': 'g'}
+
+---
+
+## Challenge Technical Details
+flag: flag{ulz7hiyk}
+cipher: Substitution
+ciphertext: oren{jrg7daul}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'e', 'b': 'y', 'c': 'f', 'd': 's', 'e': 'x', 'f': 'o', 'g': 'n', 'h': 'd', 'i': 'a', 'j': 'k', 'k': 'l', 'l': 'r', 'm': 'p', 'n': 'm', 'o': 'c', 'p': 'q', 'q': 'b', 'r': 't', 's': 'z', 't': 'w', 'u': 'j', 'v': 'v', 'w': 'h', 'x': 'i', 'y': 'u', 'z': 'g'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

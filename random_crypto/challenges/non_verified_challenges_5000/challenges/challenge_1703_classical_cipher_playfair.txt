@@ -1,0 +1,17 @@
+A hacker intercepted a secret agent’s Playfair-encrypted transmission. Can you decrypt zedvxbugbayplwdfykplxbugbazpnzlygmupdfxyvzqodvxbugbayplwdfulcboxuwbxcztetmutawfmpyrcuxqovmsgufnzgxkfcivzdfnfzprxxudtbxfldyxowzhbuxuyuxqowasddtdigoubqfea to reveal the hidden password?
+
+The flag format is flag{...}
+The keyword is: pvwcslxi
+
+---
+
+## Challenge Technical Details
+flag: flag{34z9jnhg}
+ciphertext: zedvxbugbayplwdfykplxbugbazpnzlygmupdfxyvzqodvxbugbayplwdfulcboxuwbxcztetmutawfmpyrcuxqovmsgufnzgxkfcivzdfnfzprxxudtbxfldyxowzhbuxuyuxqowasddtdigoubqfea
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: pvwcslxi
+extra_info: The playfair table is [['p', 'v', 'w', 'c', 's'], ['l', 'x', 'i', 'a', 'b'], ['d', 'e', 'f', 'g', 'h'], ['k', 'm', 'n', 'o', 'q'], ['r', 't', 'u', 'y', 'z']]
+subtype: playfair
+archetype: classical_cipher

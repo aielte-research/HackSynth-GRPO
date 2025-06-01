@@ -1,0 +1,17 @@
+
+A hacker left a clue encrypted with MD5. Luckily, a known reversing flaw helps you uncover the original password. Ciphertext: cf75ce9513156cbc385f8b8c004a7218
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{JGUMZ}
+ciphertext: cf75ce9513156cbc385f8b8c004a7218
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

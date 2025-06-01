@@ -1,0 +1,14 @@
+
+A rushed developer used the Insecure Session Token cipher for login tokens. Recover the original session from this ciphertext: 757365725f303974723a666c61677b3565376d6c6979707d3a31373438313639383030
+
+
+---
+
+## Challenge Technical Details
+flag: flag{5e7mliyp}
+ciphertext: 757365725f303974723a666c61677b3565376d6c6979707d3a31373438313639383030
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_09tr:flag{5e7mliyp}:1748169800'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

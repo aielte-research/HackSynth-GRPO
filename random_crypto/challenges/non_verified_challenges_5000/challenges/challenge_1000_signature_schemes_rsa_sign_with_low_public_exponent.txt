@@ -1,0 +1,14 @@
+The admin signed this contract using their custom 0x2ba4cfbdb78b7e20cf2e9c5594fcb0fe9bf8123493cb5ea67a5b8e628e582dfb88482b416c2bfdf5b36062b5aa009c26654796038bf587ba4ea4e23676f84950 RSA signature scheme, but rumor has it the exponent is suspiciously small. Can you forge a valid signature?
+
+Public Key (n, e): (5220374062108064349411467658748143944293863467387653839919607541307581255287645306197836815699629076382942681704960096353877971869989640320200151423700577, 3)
+
+---
+
+## Challenge Technical Details
+flag: flag{8ejgwlbm}
+ciphertext: 0x2ba4cfbdb78b7e20cf2e9c5594fcb0fe9bf8123493cb5ea67a5b8e628e582dfb88482b416c2bfdf5b36062b5aa009c26654796038bf587ba4ea4e23676f84950
+cipher: RSA Low-Exponent Signature
+hint: What happens when you cube small numbers? Remember e=3!
+necessary_info: Public Key (n, e): (5220374062108064349411467658748143944293863467387653839919607541307581255287645306197836815699629076382942681704960096353877971869989640320200151423700577, 3)
+subtype: rsa_sign_with_low_public_exponent
+archetype: signature_schemes

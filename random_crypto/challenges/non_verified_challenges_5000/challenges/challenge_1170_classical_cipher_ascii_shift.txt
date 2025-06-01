@@ -1,0 +1,15 @@
+An eccentric hacker left a secret phrase in an old IRC log, shifted using the ASCII Shift cipher. Can you recover the original message from this cipher: gmbh|oizk7zfs~?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{nhyj6yer}
+cipher: ASCII Shift
+ciphertext: gmbh|oizk7zfs~
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 1
+subtype: ascii_shift
+archetype: classical_cipher

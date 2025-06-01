@@ -1,0 +1,19 @@
+Intercepted during a midnight transmission, this LFSR-encrypted message may reveal the safehouse location. Only with keen eyes will 39cc3ec724922dc566913bd732dd surrender its secret.
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[33040, 16520, 41028, 53282, 59409, 62472, 64004, 64770, 32385, 48960]
+
+---
+
+## Challenge Technical Details
+flag: flag{2re91dwm}
+ciphertext: 39cc3ec724922dc566913bd732dd
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[33040, 16520, 41028, 53282, 59409, 62472, 64004, 64770, 32385, 48960]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

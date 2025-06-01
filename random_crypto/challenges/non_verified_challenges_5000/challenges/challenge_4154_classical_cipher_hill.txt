@@ -1,0 +1,17 @@
+An archaeologist finds a weathered notebook. On one page, a cryptic message reads: "ainrayzulcvjnamyxykhdexlfvfpcdxykoabhwabqmastmhtakewvwwobcvbvyutmaobvi". It's encrypted with the method Hill described in 1929.
+
+The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+
+---
+
+## Challenge Technical Details
+flag: flag{fdfowflo}
+ciphertext: ainrayzulcvjnamyxykhdexlfvfpcdxykoabhwabqmastmhtakewvwwobcvbvyutmaobvi
+cipher: Hill
+hint: Hill ciphers can be broken using known-plaintext attacks and linear algebra mod 26.
+necessary_info: The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+extra_info: The matrix used is: [[9, 9], [19, 8]]
+subtype: hill
+archetype: classical_cipher

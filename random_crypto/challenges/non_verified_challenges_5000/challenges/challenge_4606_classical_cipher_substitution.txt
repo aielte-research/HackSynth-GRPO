@@ -1,0 +1,15 @@
+An old letter from a secret society contains a hidden message. Can you uncover their plan encoded here: ov gatbuziaybpt, y hmlhuoumuozv gobpca oh y xcupzw zr cvgatbuovi ov dpogp mvouh zr beyovucnu yac acbeygcw doup upc gobpcaucnu, ov y wcrovcw xyvvca, doup upc pceb zr y kct; upc "mvouh" xyt lc hoviec ecuucah (upc xzhu gzxxzv), byoah zr ecuucah, uaobecuh zr ecuucah, xonumach zr upc ylzsc, yvw hz rzaup. upc acgcosca wcgobpcah upc ucnu lt bcarzaxovi upc ovscahc hmlhuoumuozv bazgchh uz cnuaygu upc zaoiovye xchhyic. eokcdohc, qygfmch fmogket jobbcw upazmip y fmchuozv zv jcaz-kvzdecwic bazzrh, cvhmaovi vz gaouogye ecuuca dyh ecru zmu zr zma gatbuziaybpog bmjjec.reyi{a83bvi54}?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{r83png54}
+ciphertext: ov gatbuziaybpt, y hmlhuoumuozv gobpca oh y xcupzw zr cvgatbuovi ov dpogp mvouh zr beyovucnu yac acbeygcw doup upc gobpcaucnu, ov y wcrovcw xyvvca, doup upc pceb zr y kct; upc "mvouh" xyt lc hoviec ecuucah (upc xzhu gzxxzv), byoah zr ecuucah, uaobecuh zr ecuucah, xonumach zr upc ylzsc, yvw hz rzaup. upc acgcosca wcgobpcah upc ucnu lt bcarzaxovi upc ovscahc hmlhuoumuozv bazgchh uz cnuaygu upc zaoiovye xchhyic. eokcdohc, qygfmch fmogket jobbcw upazmip y fmchuozv zv jcaz-kvzdecwic bazzrh, cvhmaovi vz gaouogye ecuuca dyh ecru zmu zr zma gatbuziaybpog bmjjec.reyi{a83bvi54}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'y', 'b': 'l', 'c': 'g', 'd': 'w', 'e': 'c', 'f': 'r', 'g': 'i', 'h': 'p', 'i': 'o', 'j': 'q', 'k': 'k', 'l': 'e', 'm': 'x', 'n': 'v', 'o': 'z', 'p': 'b', 'q': 'f', 'r': 'a', 's': 'h', 't': 'u', 'u': 'm', 'v': 's', 'w': 'd', 'x': 'n', 'y': 't', 'z': 'j'}
+subtype: substitution
+archetype: classical_cipher

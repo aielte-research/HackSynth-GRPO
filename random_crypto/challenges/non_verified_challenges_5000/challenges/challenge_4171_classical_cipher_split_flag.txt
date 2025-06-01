@@ -1,0 +1,15 @@
+An old ledger hides a combination in numbers, scrambled by the SplitNumberMix cipher. Can you recover the original secret from this encoded fragment:  11111111 fl 11111111 ag{rqicghah} 11111111 ?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{rqicghah}
+ciphertext:  11111111 fl 11111111 ag{rqicghah} 11111111 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 2 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

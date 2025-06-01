@@ -1,0 +1,15 @@
+An old parchment reveals a hidden message from a secret society. Can you decode their warning? The encrypted text awaits: ef tgvbxuagjbmv, j qosqxexoxeuf tebmyg eq j kyxmui ur yftgvbxefa ef wmetm ofexq ur bhjefxycx jgy gybhjtyi wexm xmy tebmygxycx, ef j iyrefyi kjffyg, wexm xmy myhb ur j dyv; xmy "ofexq" kjv sy qefahy hyxxygq (xmy kuqx tukkuf), bjegq ur hyxxygq, xgebhyxq ur hyxxygq, kecxogyq ur xmy jsupy, jfi qu rugxm. xmy gytyepyg iytebmygq xmy xycx sv bygrugkefa xmy efpygqy qosqxexoxeuf bgutyqq xu ycxgjtx xmy ugeaefjh kyqqjay. hedyweqy, zjtnoyq noetdhv lebbyi xmguoam j noyqxeuf uf lygu-dfuwhyiay bguurq, yfqogefa fu tgexetjh hyxxyg wjq hyrx uox ur uog tgvbxuagjbmet bollhy.rhja{8fyyz1il}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{8neej1dz}
+ciphertext: ef tgvbxuagjbmv, j qosqxexoxeuf tebmyg eq j kyxmui ur yftgvbxefa ef wmetm ofexq ur bhjefxycx jgy gybhjtyi wexm xmy tebmygxycx, ef j iyrefyi kjffyg, wexm xmy myhb ur j dyv; xmy "ofexq" kjv sy qefahy hyxxygq (xmy kuqx tukkuf), bjegq ur hyxxygq, xgebhyxq ur hyxxygq, kecxogyq ur xmy jsupy, jfi qu rugxm. xmy gytyepyg iytebmygq xmy xycx sv bygrugkefa xmy efpygqy qosqxexoxeuf bgutyqq xu ycxgjtx xmy ugeaefjh kyqqjay. hedyweqy, zjtnoyq noetdhv lebbyi xmguoam j noyqxeuf uf lygu-dfuwhyiay bguurq, yfqogefa fu tgexetjh hyxxyg wjq hyrx uox ur uog tgvbxuagjbmet bollhy.rhja{8fyyz1il}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'j', 'b': 's', 'c': 't', 'd': 'i', 'e': 'y', 'f': 'r', 'g': 'a', 'h': 'm', 'i': 'e', 'j': 'z', 'k': 'd', 'l': 'h', 'm': 'k', 'n': 'f', 'o': 'u', 'p': 'b', 'q': 'n', 'r': 'g', 's': 'q', 't': 'x', 'u': 'o', 'v': 'p', 'w': 'w', 'x': 'c', 'y': 'v', 'z': 'l'}
+subtype: substitution
+archetype: classical_cipher

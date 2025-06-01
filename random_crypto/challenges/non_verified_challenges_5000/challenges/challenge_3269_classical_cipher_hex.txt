@@ -1,0 +1,14 @@
+An agent concealed the password in hex code. Can you decode this string to unlock the secret vault? 666c61677b686272776b7a686e7d
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{hbrwkzhn}
+cipher: Hex
+ciphertext: 666c61677b686272776b7a686e7d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

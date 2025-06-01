@@ -1,0 +1,15 @@
+An encrypted external drive was found in a hacker's lair. The data, protected by AES-XTS, holds the clue you need. Ciphertext: ciphertext1:8aa05a1a96ebb7ae4e2ac759213495ad, ciphertext2: c34639a86da8f20d219dd3e0a9e237953b86e4929b6ec3acee2ee5b8263b4512
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{aawnhery}
+ciphertext: ciphertext1:8aa05a1a96ebb7ae4e2ac759213495ad, ciphertext2: c34639a86da8f20d219dd3e0a9e237953b86e4929b6ec3acee2ee5b8263b4512
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: c114db13005deec506e2bd874c3bc4c3
+subtype: aes_xts
+archetype: aes

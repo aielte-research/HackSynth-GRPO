@@ -1,0 +1,16 @@
+An old hacker left a secret message for her apprentice, encrypted with a classic cipher and the key 'BLOCKCHAIN'. Can you reveal the hidden hint from ifgo{s2l1ioye}?
+
+The flag format is flag{...}
+The keyword is: dugie
+
+---
+
+## Challenge Technical Details
+flag: flag{o2i1oiqa}
+ciphertext: ifgo{s2l1ioye}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: dugie
+subtype: vigenere
+archetype: classical_cipher

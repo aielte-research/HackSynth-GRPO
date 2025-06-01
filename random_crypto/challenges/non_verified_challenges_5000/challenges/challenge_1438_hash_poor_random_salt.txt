@@ -1,0 +1,21 @@
+
+An intern hashed passwords with SHA-256 using a predictable random salt. Can you recover the original password from the hash? Ciphertext: 6aca57ebc3d0592d17088574880317371b4bbc6d74d62387d846fdb4b10b1859
+
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{we2}
+ciphertext: 6aca57ebc3d0592d17088574880317371b4bbc6d74d62387d846fdb4b10b1859
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

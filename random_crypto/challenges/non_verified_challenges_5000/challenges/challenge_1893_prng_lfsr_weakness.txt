@@ -1,0 +1,19 @@
+Intercepted radio signals from a rogue satellite use a weak LFSR-based encryption. Crack the message: 19011e0a041b48060c174b1f4d10
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[46965, 56250, 28125, 46830, 56183, 60859, 63197, 64366, 64951, 65243]
+
+---
+
+## Challenge Technical Details
+flag: flag{v7ksz4r2}
+ciphertext: 19011e0a041b48060c174b1f4d10
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[46965, 56250, 28125, 46830, 56183, 60859, 63197, 64366, 64951, 65243]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

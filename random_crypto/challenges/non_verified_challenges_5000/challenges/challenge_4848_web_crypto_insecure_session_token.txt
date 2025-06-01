@@ -1,0 +1,12 @@
+An intern built the login portal using a homemade "secure" session token cipher. The admin’s token was intercepted: 757365725f396963693a666c61677b353937647a3770707d3a31373438313730393031. Can you recover the session key?
+
+---
+
+## Challenge Technical Details
+flag: flag{597dz7pp}
+ciphertext: 757365725f396963693a666c61677b353937647a3770707d3a31373438313730393031
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_9ici:flag{597dz7pp}:1748170901'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

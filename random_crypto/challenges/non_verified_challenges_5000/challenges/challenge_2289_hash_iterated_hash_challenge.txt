@@ -1,0 +1,24 @@
+A rogue AI hid its access key by hashing it with SHA-256. Can you recover the original key from this hash: 274a2c9a1ffb56fb3d49b61b84dddce3efe0925d06eeec1dccc4afca901a1c06?
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{iyou}
+ciphertext: 274a2c9a1ffb56fb3d49b61b84dddce3efe0925d06eeec1dccc4afca901a1c06
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

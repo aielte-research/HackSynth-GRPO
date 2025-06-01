@@ -1,0 +1,15 @@
+The hacker left a scrambled password in an old chat log. Each character was shifted by a secret key. Can you recover the original password from lrgm;vx6x<:s?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{5pr0r64m}
+cipher: ASCII Shift
+ciphertext: lrgm;vx6x<:s
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 6
+subtype: ascii_shift
+archetype: classical_cipher

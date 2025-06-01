@@ -1,0 +1,20 @@
+
+Intercepted from a hacker’s server: a secret encrypted with AES. Can you recover the hidden flag from this protected message? Ciphertext: ciphertext1:d4134bba0eb5747a51a645033077, ciphertext2: d4134bba0ea12a3b54a44c192a77
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{a6xbs0sr}
+ciphertext: ciphertext1:d4134bba0eb5747a51a645033077, ciphertext2: d4134bba0ea12a3b54a44c192a77
+tag1: 1de7f7b1372548b46db0edb660aca210
+tag2: 1766dcf0ddbe1f2379a50c69b9fa7198
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 3b793382f08b9e16c50571
+subtype: aes_ccm
+archetype: aes

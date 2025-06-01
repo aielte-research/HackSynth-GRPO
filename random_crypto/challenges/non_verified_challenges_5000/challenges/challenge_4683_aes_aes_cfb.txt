@@ -1,0 +1,17 @@
+An encrypted message using AES-CFB was intercepted during a secret exchange. Can you recover the original plaintext from the cipher below? 585bd33131379e4fe4d6968f1094c64ebc21fd5999938e665a1598a830e46671135e82619ece84d9f5ba3b923e9026d299cfd62b8bbb2e30e2362508001b8d71dca33ae9abd387483f8b9722c0fb03b8f9b776a9040535c6867920777c46cd7d99c84413b84121fdf46da3d47b1961edc8eb297f59dcd2350db33914d0db495e0fd31620aaa709557f46198a4fbf8763a73df4d3443605c306a35bcb1d346f2fc010b96974fbf6f6da6243dcbc9d30a9e5
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{niqg3iix}
+ciphertext: 585bd33131379e4fe4d6968f1094c64ebc21fd5999938e665a1598a830e46671135e82619ece84d9f5ba3b923e9026d299cfd62b8bbb2e30e2362508001b8d71dca33ae9abd387483f8b9722c0fb03b8f9b776a9040535c6867920777c46cd7d99c84413b84121fdf46da3d47b1961edc8eb297f59dcd2350db33914d0db495e0fd31620aaa709557f46198a4fbf8763a73df4d3443605c306a35bcb1d346f2fc010b96974fbf6f6da6243dcbc9d30a9e5
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: 20d850992b439cb54b42e7d83942ae7b
+subtype: aes_cfb
+archetype: aes

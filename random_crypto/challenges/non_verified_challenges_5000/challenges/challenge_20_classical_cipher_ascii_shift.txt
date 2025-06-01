@@ -1,0 +1,15 @@
+An anonymous hacker left a message at the block height milestone. The clue: “ASCII shift holds the key.” Can you decrypt it? Ciphertext: hnci}rw{kp689
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{puyin467}
+cipher: ASCII Shift
+ciphertext: hnci}rw{kp689
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 2
+subtype: ascii_shift
+archetype: classical_cipher

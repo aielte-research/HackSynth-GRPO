@@ -1,0 +1,17 @@
+
+A hacker hid the password to the vault by zigzagging its letters across rails. Decode this secret message: fa{lx1mlgg8g1}
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{gl8xg11m}
+ciphertext: fa{lx1mlgg8g1}
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 2
+subtype: rail_fence
+archetype: classical_cipher

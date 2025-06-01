@@ -1,0 +1,15 @@
+An agent hid a message in a quick XOR cipher. Intercepted data: stringA: 221d09030d595e3401533b365b24 stringB: 44716864766c35416a3853573259. Can you recover the secret?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{5kukkhai}
+cipher: XOR
+ciphertext: stringA: 221d09030d595e3401533b365b24 stringB: 44716864766c35416a3853573259
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

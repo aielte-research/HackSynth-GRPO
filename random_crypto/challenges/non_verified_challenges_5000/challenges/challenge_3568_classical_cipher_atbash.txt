@@ -1,0 +1,14 @@
+An old parchment bears a message from a secret society, encoded to shield their knowledge. Can you unravel their Atbash-encrypted warning? Here is the cipher text: uozt{2j9uutm8}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{2q9ffgn8}
+cipher: Atbash
+ciphertext: uozt{2j9uutm8}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

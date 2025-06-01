@@ -1,0 +1,27 @@
+While testing a casino slot machine, you intercept a message encrypted with the internal number generator. Can you reveal the jackpot code? Ciphertext: 0da9795110b17b0704a76f0318b8
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1814838505
+  - Multiplier: 1578130681
+  - Increment: 1656789891
+The first 5 outputs of the LCG are provided: [963245347, 838819768, 1136147759, 1268356345, 1146300741] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{tc1obw5s}
+ciphertext: 0da9795110b17b0704a76f0318b8
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1814838505
+  - Multiplier: 1578130681
+  - Increment: 1656789891
+The first 5 outputs of the LCG are provided: [963245347, 838819768, 1136147759, 1268356345, 1146300741] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

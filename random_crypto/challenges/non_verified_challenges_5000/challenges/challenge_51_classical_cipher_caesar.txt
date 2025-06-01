@@ -1,0 +1,15 @@
+A hacker left this old-school encrypted message. Can you reveal the secret by breaking the Caesar cipher? Ciphertext: lrgm{uh96ldhn}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ob96fxbh}
+ciphertext: lrgm{uh96ldhn}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 6
+subtype: caesar
+archetype: classical_cipher

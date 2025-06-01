@@ -1,0 +1,29 @@
+
+A rogue miner encrypted the wallet key using a weak pseudo-random number. Can you break the 6d612571707c762e396e74707170 to recover the secret?
+
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 639904523
+  - Multiplier: 257020536
+  - Increment: 319050712
+The first 5 outputs of the LCG are provided: [390302101, 404474094, 319998207, 458020058, 189653417] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{q282c0fz}
+ciphertext: 6d612571707c762e396e74707170
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 639904523
+  - Multiplier: 257020536
+  - Increment: 319050712
+The first 5 outputs of the LCG are provided: [390302101, 404474094, 319998207, 458020058, 189653417] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

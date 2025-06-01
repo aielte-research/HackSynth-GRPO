@@ -1,0 +1,16 @@
+A rogue agent left secret coordinates encrypted with a repeating-key cipher. Can you recover the hidden location from their coded message: muho{x50s80c5}?
+
+The flag format is flag{...}
+The keyword is: hjhi
+
+---
+
+## Challenge Technical Details
+flag: flag{q50j80v5}
+ciphertext: muho{x50s80c5}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: hjhi
+subtype: vigenere
+archetype: classical_cipher

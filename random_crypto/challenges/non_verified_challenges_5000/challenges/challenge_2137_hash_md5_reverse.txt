@@ -1,0 +1,17 @@
+
+An old hacker left a message, hashed it with MD5, but trusted it too much. Can you find the original input for this hash? Ciphertext: 1db205bc4b0f9db6b561f64f030a4761
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{BPM12}
+ciphertext: 1db205bc4b0f9db6b561f64f030a4761
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

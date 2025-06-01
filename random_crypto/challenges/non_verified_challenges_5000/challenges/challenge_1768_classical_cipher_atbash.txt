@@ -1,0 +1,14 @@
+An old map shows a riddle in mirrored letters. Decipher the ancient text below to reveal the next clue: uozt{97gj4id3}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{97tq4rw3}
+cipher: Atbash
+ciphertext: uozt{97gj4id3}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

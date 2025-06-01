@@ -1,0 +1,21 @@
+A mysterious hacker sent you a scrambled message: nosb{16x2vo0k}. Can you decode it using the Substitution cipher method?
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 's', 'b': 'i', 'c': 'l', 'd': 'x', 'e': 'z', 'f': 'n', 'g': 'b', 'h': 'k', 'i': 't', 'j': 'g', 'k': 'y', 'l': 'o', 'm': 'a', 'n': 'h', 'o': 'e', 'p': 'r', 'q': 'u', 'r': 'w', 's': 'f', 't': 'p', 'u': 'v', 'v': 'c', 'w': 'd', 'x': 'j', 'y': 'q', 'z': 'm'}
+
+---
+
+## Challenge Technical Details
+flag: flag{16d2ul0h}
+cipher: Substitution
+ciphertext: nosb{16x2vo0k}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 's', 'b': 'i', 'c': 'l', 'd': 'x', 'e': 'z', 'f': 'n', 'g': 'b', 'h': 'k', 'i': 't', 'j': 'g', 'k': 'y', 'l': 'o', 'm': 'a', 'n': 'h', 'o': 'e', 'p': 'r', 'q': 'u', 'r': 'w', 's': 'f', 't': 'p', 'u': 'v', 'v': 'c', 'w': 'd', 'x': 'j', 'y': 'q', 'z': 'm'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

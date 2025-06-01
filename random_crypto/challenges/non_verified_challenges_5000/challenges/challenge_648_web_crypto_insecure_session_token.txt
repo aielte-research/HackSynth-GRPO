@@ -1,0 +1,12 @@
+During a system audit, you intercept a session cookie encrypted with the Insecure Session Token cipher. Recover the original session info from this ciphertext: 757365725f6b7278713a666c61677b6d3167377837386f7d3a31373437343832373532
+
+---
+
+## Challenge Technical Details
+flag: flag{m1g7x78o}
+ciphertext: 757365725f6b7278713a666c61677b6d3167377837386f7d3a31373437343832373532
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_krxq:flag{m1g7x78o}:1747482752'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

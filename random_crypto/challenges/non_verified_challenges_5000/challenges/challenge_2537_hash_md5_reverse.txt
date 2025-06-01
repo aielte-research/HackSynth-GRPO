@@ -1,0 +1,15 @@
+Decrypt the secret using MD5's weaknesses. The admin hashed his password carelessly, thinking it was safe forever. Can you find the original? Ciphertext: 92445fdf79b3ee92041ec274756dbedf
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{tsccs}
+ciphertext: 92445fdf79b3ee92041ec274756dbedf
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

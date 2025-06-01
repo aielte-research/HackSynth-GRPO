@@ -1,0 +1,17 @@
+
+A spy hid their escape route in Rail Fence cipher text. Can you reveal the hidden path from this intercepted message? fa{698dlgjjww}
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{j6j9w8wd}
+ciphertext: fa{698dlgjjww}
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 2
+subtype: rail_fence
+archetype: classical_cipher

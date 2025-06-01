@@ -1,0 +1,15 @@
+The mysterious file vault uses AES-XTS for encrypting secrets. Decrypt the given ciphertext to discover what's inside: ciphertext1:517ffcd869241ccf49728cf0a79c44dc, ciphertext2: ba4dfd3c8d866788022e1d569fec607be44aa59d57251719389374ecb4bb5660
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ou1m6kjq}
+ciphertext: ciphertext1:517ffcd869241ccf49728cf0a79c44dc, ciphertext2: ba4dfd3c8d866788022e1d569fec607be44aa59d57251719389374ecb4bb5660
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 7db324d7552d4e1742a2b82a1ca48374
+subtype: aes_xts
+archetype: aes

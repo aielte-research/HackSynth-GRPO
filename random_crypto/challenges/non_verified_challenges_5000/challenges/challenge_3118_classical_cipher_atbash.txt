@@ -1,0 +1,14 @@
+A message from an ancient order is encrypted using the Atbash cipher. Can you reveal the secret they've hidden? Ciphertext: uozt{4i7mu1qt}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{4r7nf1jg}
+cipher: Atbash
+ciphertext: uozt{4i7mu1qt}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

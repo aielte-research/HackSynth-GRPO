@@ -1,0 +1,18 @@
+Two messages were accidentally encrypted with the same AES-GCM nonce. Can you exploit this flaw to reveal the hidden flag? Ciphertext: ciphertext1:729f55fa40f73e49485cfb98aa77, ciphertext2: 609b5dee1be82a1f4b40eadeb82a212f0eb7
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{vgvmsefs}
+ciphertext: ciphertext1:729f55fa40f73e49485cfb98aa77, ciphertext2: 609b5dee1be82a1f4b40eadeb82a212f0eb7
+tag1: 207af546db81a7dc67065a8fec75b79b
+tag2: cf20d524ea3bd4c67cd7a951c61633cd
+cipher: AES-GCM
+vulnerability: nonce reuse
+hint: AES-GCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: f26f42b2d088e836ad344c8b
+subtype: aes_gcm
+archetype: aes

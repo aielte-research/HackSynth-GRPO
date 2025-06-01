@@ -1,0 +1,15 @@
+Your secret vault uses AES-XTS. Someone intercepted the disk sector ciphertext: ciphertext1:e2f6e2ea885fea1e4cd9b624f2243fd2, ciphertext2: 74431c89c349dd5f3951f959b760221dfde41522cd2ab5cfe39e0e6ab389548b. Can you recover the original data?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{bn83kubx}
+ciphertext: ciphertext1:e2f6e2ea885fea1e4cd9b624f2243fd2, ciphertext2: 74431c89c349dd5f3951f959b760221dfde41522cd2ab5cfe39e0e6ab389548b
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: d3b29096c4ab0f2eaaf86495ae7eb0f7
+subtype: aes_xts
+archetype: aes

@@ -1,0 +1,16 @@
+An intern encrypted a message with AES-ECB, using a short key padded with null bytes. Can you recover the original plaintext from b2b7458da7a44aa9af49d6de354270d4?
+
+An encryption key that is only 2 bytes long?.
+
+---
+
+## Challenge Technical Details
+flag: flag{eu2ya66t}
+ciphertext: b2b7458da7a44aa9af49d6de354270d4
+cipher: AES-ECB
+vulnerability: small key padded with null bytes
+hint: ECB mode with a short key makes brute-forcing possible. Consider the small key entropy.
+necessary_info: An encryption key that is only 2 bytes long?.
+extra_info: Padding follows PKCS#7. The key is padded to 16 bytes with null bytes.
+subtype: weak_cookie_encryption
+archetype: web_crypto

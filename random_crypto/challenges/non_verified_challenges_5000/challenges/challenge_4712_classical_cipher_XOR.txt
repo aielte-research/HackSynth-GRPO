@@ -1,0 +1,17 @@
+
+Agent X hid the secret phrase by XOR-ing it with a one-byte key. Retrieve it from the message below: stringA: 222636560e1d3b0757054d1b274b stringB: 444a57317567436d6571346d4136
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{zxj2tyvf}
+cipher: XOR
+ciphertext: stringA: 222636560e1d3b0757054d1b274b stringB: 444a57317567436d6571346d4136
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

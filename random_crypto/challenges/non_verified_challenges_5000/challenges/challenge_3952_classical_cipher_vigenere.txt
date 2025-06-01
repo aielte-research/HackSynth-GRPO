@@ -1,0 +1,16 @@
+An old hacker left behind a note labeled “key exchange.” Inside, you find this encrypted message: sfde{mxls2df7} Can you uncover the original text?
+
+The flag format is flag{...}
+The keyword is: nudyshtf
+
+---
+
+## Challenge Technical Details
+flag: flag{uqsn2ql7}
+ciphertext: sfde{mxls2df7}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: nudyshtf
+subtype: vigenere
+archetype: classical_cipher

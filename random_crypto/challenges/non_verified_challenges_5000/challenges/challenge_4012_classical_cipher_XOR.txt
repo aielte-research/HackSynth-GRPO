@@ -1,0 +1,15 @@
+An old hacker left a message for you, but it's encrypted with a simple XOR cipher. Can you reveal the hidden flag? Ciphertext: stringA: 0c3514374b78085d174d50450709 stringB: 6a5975503048706b767a36736374
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{0x6a7f6d}
+cipher: XOR
+ciphertext: stringA: 0c3514374b78085d174d50450709 stringB: 6a5975503048706b767a36736374
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

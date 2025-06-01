@@ -1,0 +1,14 @@
+An ancient scroll has surfaced, its message hidden using a code reversing the alphabet. Can you decrypt the secrets within? Ciphertext: uozt{vqcewabf}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ejxvdzyu}
+cipher: Atbash
+ciphertext: uozt{vqcewabf}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

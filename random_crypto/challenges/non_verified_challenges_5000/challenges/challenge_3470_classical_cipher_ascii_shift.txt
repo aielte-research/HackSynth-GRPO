@@ -1,0 +1,17 @@
+
+A hacker altered the meeting details using an ASCII shift. Recover the real location from this coded message: gmbh|q9whxmjp~
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{p8vgwlio}
+cipher: ASCII Shift
+ciphertext: gmbh|q9whxmjp~
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 1
+subtype: ascii_shift
+archetype: classical_cipher

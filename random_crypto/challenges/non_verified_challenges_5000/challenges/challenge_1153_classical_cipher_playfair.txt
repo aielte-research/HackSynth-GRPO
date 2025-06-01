@@ -1,0 +1,19 @@
+
+An old spy log uses the Playfair cipher to conceal a password. The intercepted message reads: wgbrhetcbhqepxlanpnqhetcbhpdnveoarozlafwuxpobrhetcbhqepxlaplmbahtfehvxswdaznkbfreqxqxgpozfakpgnvfbrumhuxlabgpdzggxlzehsllnhavmibxgufxgpobkoilzegfhvzrp
+
+
+The flag format is flag{...}
+The keyword is: umsvddfd
+
+---
+
+## Challenge Technical Details
+flag: flag{9d9y7q2o}
+ciphertext: wgbrhetcbhqepxlanpnqhetcbhpdnveoarozlafwuxpobrhetcbhqepxlaplmbahtfehvxswdaznkbfreqxqxgpozfakpgnvfbrumhuxlabgpdzggxlzehsllnhavmibxgufxgpobkoilzegfhvzrp
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: umsvddfd
+extra_info: The playfair table is [['u', 'm', 's', 'v', 'd'], ['f', 'a', 'b', 'c', 'e'], ['g', 'h', 'i', 'k', 'l'], ['n', 'o', 'p', 'q', 'r'], ['t', 'w', 'x', 'y', 'z']]
+subtype: playfair
+archetype: classical_cipher

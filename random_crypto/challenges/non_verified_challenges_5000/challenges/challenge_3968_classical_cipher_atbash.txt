@@ -1,0 +1,14 @@
+A secret society hid their passcode with an ancient Atbash cipher. Can you reveal their message? Here is the encrypted note: uozt{sy5gtzcq}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{hb5tgaxj}
+cipher: Atbash
+ciphertext: uozt{sy5gtzcq}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

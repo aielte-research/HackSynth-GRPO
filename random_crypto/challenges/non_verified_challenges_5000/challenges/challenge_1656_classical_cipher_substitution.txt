@@ -1,0 +1,17 @@
+
+Intercepted instructions are hidden in ys jrvikuarmigv, m edfekykdkyus jyigor ye m hokgul ux osjrvikysa ys ngyjg dsyke ux ibmyskowk mro roibmjol nykg kgo jyigorkowk, ys m loxysol hmssor, nykg kgo gobi ux m pov; kgo "dsyke" hmv fo eysabo bokkore (kgo huek juhhus), imyre ux bokkore, kryiboke ux bokkore, hywkdroe ux kgo mfuco, msl eu xurkg. kgo rojoycor lojyigore kgo kowk fv iorxurhysa kgo yscoreo edfekykdkyus irujoee ku owkrmjk kgo uryaysmb hoeemao. byponyeo, qmjtdoe tdyjpbv zyiiol kgrudag m tdoekyus us zoru-psunbolao iruuxe, osedrysa su jrykyjmb bokkor nme boxk udk ux udr jrvikuarmigyj idzzbo.xbma{9ud7855l}. Decode the agent's message using a simple Substitution cipher to reveal the secret plan.
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{9ou7855d}
+ciphertext: ys jrvikuarmigv, m edfekykdkyus jyigor ye m hokgul ux osjrvikysa ys ngyjg dsyke ux ibmyskowk mro roibmjol nykg kgo jyigorkowk, ys m loxysol hmssor, nykg kgo gobi ux m pov; kgo "dsyke" hmv fo eysabo bokkore (kgo huek juhhus), imyre ux bokkore, kryiboke ux bokkore, hywkdroe ux kgo mfuco, msl eu xurkg. kgo rojoycor lojyigore kgo kowk fv iorxurhysa kgo yscoreo edfekykdkyus irujoee ku owkrmjk kgo uryaysmb hoeemao. byponyeo, qmjtdoe tdyjpbv zyiiol kgrudag m tdoekyus us zoru-psunbolao iruuxe, osedrysa su jrykyjmb bokkor nme boxk udk ux udr jrvikuarmigyj idzzbo.xbma{9ud7855l}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'm', 'b': 'f', 'c': 'j', 'd': 'l', 'e': 'o', 'f': 'x', 'g': 'a', 'h': 'g', 'i': 'y', 'j': 'q', 'k': 'p', 'l': 'b', 'm': 'h', 'n': 's', 'o': 'u', 'p': 'i', 'q': 't', 'r': 'r', 's': 'e', 't': 'k', 'u': 'd', 'v': 'c', 'w': 'n', 'x': 'w', 'y': 'v', 'z': 'z'}
+subtype: substitution
+archetype: classical_cipher

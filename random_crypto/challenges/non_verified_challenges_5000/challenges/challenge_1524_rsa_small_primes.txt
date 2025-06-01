@@ -1,0 +1,18 @@
+Agent left 2124332443390053303 in the open, but generated the RSA keys with dangerously small primes. Recover the secret by exploiting this weakness.
+
+The flag format is flag{...}
+n=10907308330471173833, e=7865803582145772941
+
+---
+
+## Challenge Technical Details
+flag: flag{eco65fut}
+cipher: RSA
+ciphertext: 2124332443390053303
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=10907308330471173833, e=7865803582145772941
+extra_info: p=3078668279, q=3542865727, φ(n)=10907308323849639828
+subtype: small_primes
+archetype: rsa

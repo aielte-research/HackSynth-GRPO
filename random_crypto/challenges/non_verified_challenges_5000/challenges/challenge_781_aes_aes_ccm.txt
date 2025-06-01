@@ -1,0 +1,18 @@
+An agent hid a secret in encrypted form using AES. Can you decrypt the message below to reveal the passphrase? Here is the ciphertext: ciphertext1:61c642eb04a1498ceb37ac7ab62d, ciphertext2: 61c642eb04e84987ba66ef62ef2d
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{8wr99wwj}
+ciphertext: ciphertext1:61c642eb04a1498ceb37ac7ab62d, ciphertext2: 61c642eb04e84987ba66ef62ef2d
+tag1: 64d205f7b560db6fa2f8a64c761fe3c1
+tag2: 42b2c1d90c78946e1b67e300e5a50d22
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: ea39f092193c1c676e9725
+subtype: aes_ccm
+archetype: aes

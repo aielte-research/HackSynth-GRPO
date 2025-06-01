@@ -1,0 +1,15 @@
+A Roman centurion hid the coordinates to Caesar’s treasure in a ciphered scroll. Can you decode this ancient message? pvkq{272knjtf}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{272adzjv}
+ciphertext: pvkq{272knjtf}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 10
+subtype: caesar
+archetype: classical_cipher

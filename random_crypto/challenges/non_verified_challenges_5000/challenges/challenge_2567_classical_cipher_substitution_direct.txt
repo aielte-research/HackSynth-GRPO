@@ -1,0 +1,21 @@
+The hacker intercepted Dr. Sato’s secret meeting notes, but they’re hidden with a substitution cipher. Can you recover the original message from this encrypted text? ljiy{hme6lcq3}
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'i', 'b': 'r', 'c': 's', 'd': 'd', 'e': 'o', 'f': 'l', 'g': 'y', 'h': 'k', 'i': 'm', 'j': 'p', 'k': 'b', 'l': 'j', 'm': 'v', 'n': 'f', 'o': 't', 'p': 'u', 'q': 'e', 'r': 'z', 's': 'a', 't': 'w', 'u': 'n', 'v': 'h', 'w': 'q', 'x': 'g', 'y': 'x', 'z': 'c'}
+
+---
+
+## Challenge Technical Details
+flag: flag{viq6fzw3}
+cipher: Substitution
+ciphertext: ljiy{hme6lcq3}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'i', 'b': 'r', 'c': 's', 'd': 'd', 'e': 'o', 'f': 'l', 'g': 'y', 'h': 'k', 'i': 'm', 'j': 'p', 'k': 'b', 'l': 'j', 'm': 'v', 'n': 'f', 'o': 't', 'p': 'u', 'q': 'e', 'r': 'z', 's': 'a', 't': 'w', 'u': 'n', 'v': 'h', 'w': 'q', 'x': 'g', 'y': 'x', 'z': 'c'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

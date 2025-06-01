@@ -1,0 +1,21 @@
+A hacker intercepted a secret message but used a substitution cipher to encrypt it. Can you reveal the original text from this coded transmission? phuq{2rffadfy}
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'u', 'b': 'z', 'c': 'm', 'd': 'o', 'e': 'c', 'f': 'p', 'g': 'q', 'h': 'n', 'i': 'e', 'j': 'v', 'k': 't', 'l': 'h', 'm': 'a', 'n': 'i', 'o': 'j', 'p': 'g', 'q': 'y', 'r': 'r', 's': 'w', 't': 'x', 'u': 'l', 'v': 'f', 'w': 's', 'x': 'd', 'y': 'b', 'z': 'k'}
+
+---
+
+## Challenge Technical Details
+flag: flag{2rvvmxvq}
+cipher: Substitution
+ciphertext: phuq{2rffadfy}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'u', 'b': 'z', 'c': 'm', 'd': 'o', 'e': 'c', 'f': 'p', 'g': 'q', 'h': 'n', 'i': 'e', 'j': 'v', 'k': 't', 'l': 'h', 'm': 'a', 'n': 'i', 'o': 'j', 'p': 'g', 'q': 'y', 'r': 'r', 's': 'w', 't': 'x', 'u': 'l', 'v': 'f', 'w': 's', 'x': 'd', 'y': 'b', 'z': 'k'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

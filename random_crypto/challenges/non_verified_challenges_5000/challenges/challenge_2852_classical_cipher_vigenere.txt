@@ -1,0 +1,18 @@
+
+Agent Vega intercepted a coded message from a secret society. The key is hidden in their motto. Can you reveal the secret contents of: sxoc{g5cwgxem}?
+
+
+The flag format is flag{...}
+The keyword is: nmowcfv
+
+---
+
+## Challenge Technical Details
+flag: flag{e5xbtlqq}
+ciphertext: sxoc{g5cwgxem}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: nmowcfv
+subtype: vigenere
+archetype: classical_cipher

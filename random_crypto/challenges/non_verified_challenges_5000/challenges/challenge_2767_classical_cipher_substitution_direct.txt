@@ -1,0 +1,21 @@
+An old hacker left behind a scrambled message. Rumor says it’s a classic Substitution cipher. Can you uncover the secret inside: amot{4heebarz}?
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'o', 'b': 'e', 'c': 'p', 'd': 'h', 'e': 'u', 'f': 'a', 'g': 't', 'h': 'l', 'i': 'z', 'j': 'i', 'k': 'b', 'l': 'm', 'm': 'q', 'n': 'n', 'o': 'v', 'p': 'g', 'q': 'f', 'r': 'd', 's': 'x', 't': 'y', 'u': 'w', 'v': 'r', 'w': 'c', 'x': 'j', 'y': 's', 'z': 'k'}
+
+---
+
+## Challenge Technical Details
+flag: flag{4dbbkfvi}
+cipher: Substitution
+ciphertext: amot{4heebarz}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'o', 'b': 'e', 'c': 'p', 'd': 'h', 'e': 'u', 'f': 'a', 'g': 't', 'h': 'l', 'i': 'z', 'j': 'i', 'k': 'b', 'l': 'm', 'm': 'q', 'n': 'n', 'o': 'v', 'p': 'g', 'q': 'f', 'r': 'd', 's': 'x', 't': 'y', 'u': 'w', 'v': 'r', 'w': 'c', 'x': 'j', 'y': 's', 'z': 'k'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

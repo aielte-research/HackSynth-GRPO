@@ -1,0 +1,15 @@
+The secret launch code was split into chunks and encrypted with ChunkedFlag. Recover the full code from the provided ciphertext: fla g{ 4z s0 mut g}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{4zs0mutg}
+ciphertext: fla g{ 4z s0 mut g}
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

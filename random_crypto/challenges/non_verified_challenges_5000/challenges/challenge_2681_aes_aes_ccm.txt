@@ -1,0 +1,18 @@
+A rogue AI hid its access code with AES encryption. Can you recover the secret from this ciphertext? ciphertext1:f3690a37505efe6f9678a59266dc, ciphertext2: f3690a375012af628561abcd79dc
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{xihelahp}
+ciphertext: ciphertext1:f3690a37505efe6f9678a59266dc, ciphertext2: f3690a375012af628561abcd79dc
+tag1: 633959697a79fc1a4eec11d8c852aecb
+tag2: bbdc278217be96535aafafb698b2f388
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 9d62207195c881d0c5339d
+subtype: aes_ccm
+archetype: aes

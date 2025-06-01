@@ -1,0 +1,17 @@
+
+A spy left a secret message at the train station. Can you decode the mission details hidden in the rails? Ciphertext: fa{zt8ulgm49i}
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{mz4t98iu}
+ciphertext: fa{zt8ulgm49i}
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 2
+subtype: rail_fence
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+Intercepted at the train yard, the message’s key was hidden on the rails. Can you reconstruct it? Ciphertext: fa{4wkclgtjfu}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{t4jwfkuc}
+ciphertext: fa{4wkclgtjfu}
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 2
+subtype: rail_fence
+archetype: classical_cipher

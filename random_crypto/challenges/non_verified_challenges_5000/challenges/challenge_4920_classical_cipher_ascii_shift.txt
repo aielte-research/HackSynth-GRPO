@@ -1,0 +1,15 @@
+An old hacker sent you a message shifted by a secret ASCII value. Can you reveal the original text from the scrambled code? Ciphertext: iodj~9d4d4:<|
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{6a1a179y}
+cipher: ASCII Shift
+ciphertext: iodj~9d4d4:<|
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 3
+subtype: ascii_shift
+archetype: classical_cipher

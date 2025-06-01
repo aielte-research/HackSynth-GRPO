@@ -1,0 +1,15 @@
+Someone encrypted the disk sector header with AES-XTS, hiding the key inside. Can you recover the original plaintext? Ciphertext: ciphertext1:28c7fc2ca40a5ff83ed9c00ee340f5cd, ciphertext2: cf616e9b3c053dcc22b97ccd34958a2ec0cb9484ec96a0268ba5bfe7b3d50482
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{n3rov4s5}
+ciphertext: ciphertext1:28c7fc2ca40a5ff83ed9c00ee340f5cd, ciphertext2: cf616e9b3c053dcc22b97ccd34958a2ec0cb9484ec96a0268ba5bfe7b3d50482
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 818f326cc31d200e156e0faa5960dc2c
+subtype: aes_xts
+archetype: aes

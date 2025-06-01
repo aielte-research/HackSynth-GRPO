@@ -1,0 +1,17 @@
+Intercepted spies’ communications are encoded. Your mission: recover the key and decrypt the Playfair message: ugauhbfnbeoveqpaspsqhbfnbesopwdpcpqxpakuozsgauhbfnbeoveqpaqvpfhdhzbhzfrvhvxoveyhvoeswcsguceglypwahmfubozpabysowgcwvpbhbvmodhpzfqwcuwwcsgevupvpbnkhyqmprz
+
+The flag format is flag{...}
+The keyword is: ceivyjvk
+
+---
+
+## Challenge Technical Details
+flag: flag{41jsh5rs}
+ciphertext: ugauhbfnbeoveqpaspsqhbfnbesopwdpcpqxpakuozsgauhbfnbeoveqpaqvpfhdhzbhzfrvhvxoveyhvoeswcsguceglypwahmfubozpabysowgcwvpbhbvmodhpzfqwcuwwcsgevupvpbnkhyqmprz
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: ceivyjvk
+extra_info: The playfair table is [['c', 'e', 'i', 'v', 'y'], ['k', 'a', 'b', 'd', 'f'], ['g', 'h', 'l', 'm', 'n'], ['o', 'p', 'q', 'r', 's'], ['t', 'u', 'w', 'x', 'z']]
+subtype: playfair
+archetype: classical_cipher

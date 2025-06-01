@@ -1,0 +1,24 @@
+To unlock the encrypted vault, recover the original password from its SHA-256 hash: 23744b6c54d87b9188096df7d7e62d51c439dbbc3bb533b5e1823870b9afc562
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{r875}
+ciphertext: 23744b6c54d87b9188096df7d7e62d51c439dbbc3bb533b5e1823870b9afc562
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

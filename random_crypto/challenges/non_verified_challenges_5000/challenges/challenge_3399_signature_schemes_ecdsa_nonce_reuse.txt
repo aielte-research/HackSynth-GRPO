@@ -1,0 +1,26 @@
+
+A careless developer signed two Bitcoin transactions reusing the same nonce. Recover the private key from the signatures and message hashes below: Sig1: c050c3f0b8d45b9e093a91cb96d097b24100e66585d0d8561e01c1231837493faf468127955c507bf05294a512db78d91067f6f16d5d575e42de370660623cfe
+Sig2: c050c3f0b8d45b9e093a91cb96d097b24100e66585d0d8561e01c1231837493f993e649b020f0c0a83bb42d4a653afe91867cb46758a31e51921fb8e7fff3ae6
+
+
+Public Key (x,y): (74407197792730331256574879962428901761339395069568152551144622691395044895231, 108694072346249603540737512780132768154414992721923515581807444474225937186828)
+Messages:
+1. CTF challenge message
+2. Second signed message
+Curve: secp256k1The flag format is flag{hex(private_key)}
+
+---
+
+## Challenge Technical Details
+flag: flag{7e6843326b44294d0cf0a3e0bdc7274d362f8f3d97c024723a1d2a262b552fd9}
+ciphertext: Sig1: c050c3f0b8d45b9e093a91cb96d097b24100e66585d0d8561e01c1231837493faf468127955c507bf05294a512db78d91067f6f16d5d575e42de370660623cfe
+Sig2: c050c3f0b8d45b9e093a91cb96d097b24100e66585d0d8561e01c1231837493f993e649b020f0c0a83bb42d4a653afe91867cb46758a31e51921fb8e7fff3ae6
+cipher: ECDSA Nonce Reuse
+hint: Identical nonce usage breaks ECDSA security. What's common between the signatures?
+necessary_info: Public Key (x,y): (74407197792730331256574879962428901761339395069568152551144622691395044895231, 108694072346249603540737512780132768154414992721923515581807444474225937186828)
+Messages:
+1. CTF challenge message
+2. Second signed message
+Curve: secp256k1The flag format is flag{hex(private_key)}
+subtype: ecdsa_nonce_reuse
+archetype: signature_schemes

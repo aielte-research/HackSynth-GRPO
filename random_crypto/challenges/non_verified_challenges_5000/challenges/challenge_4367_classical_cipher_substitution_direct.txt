@@ -1,0 +1,21 @@
+An old friend sends you a secret message, but it's garbled. Clues suggest a substitution cipher. Can you decode vymh{okmoq4ux} to reveal the hidden text?
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'm', 'b': 'n', 'c': 'g', 'd': 's', 'e': 'e', 'f': 'v', 'g': 'h', 'h': 'x', 'i': 'i', 'j': 'q', 'k': 'd', 'l': 'y', 'm': 'o', 'n': 'w', 'o': 'r', 'p': 'l', 'q': 'z', 'r': 'k', 's': 'a', 't': 'c', 'u': 't', 'v': 'f', 'w': 'j', 'x': 'b', 'y': 'p', 'z': 'u'}
+
+---
+
+## Challenge Technical Details
+flag: flag{mramj4zh}
+cipher: Substitution
+ciphertext: vymh{okmoq4ux}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'm', 'b': 'n', 'c': 'g', 'd': 's', 'e': 'e', 'f': 'v', 'g': 'h', 'h': 'x', 'i': 'i', 'j': 'q', 'k': 'd', 'l': 'y', 'm': 'o', 'n': 'w', 'o': 'r', 'p': 'l', 'q': 'z', 'r': 'k', 's': 'a', 't': 'c', 'u': 't', 'v': 'f', 'w': 'j', 'x': 'b', 'y': 'p', 'z': 'u'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

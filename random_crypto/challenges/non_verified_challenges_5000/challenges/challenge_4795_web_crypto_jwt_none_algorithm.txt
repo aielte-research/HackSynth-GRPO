@@ -1,0 +1,11 @@
+Our hacker intercepted a secret API token sent as a JWT. Can you break the cipher and reveal the admin flag in eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tocTFiOHM5d30ifQ.?
+
+---
+
+## Challenge Technical Details
+flag: flag{hq1b8s9w}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tocTFiOHM5d30ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

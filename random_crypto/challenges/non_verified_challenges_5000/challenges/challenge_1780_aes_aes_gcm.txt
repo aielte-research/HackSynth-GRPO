@@ -1,0 +1,18 @@
+Your rival encrypted two messages with the same AES-GCM nonce. Can you exploit the reused IV to uncover a secret? The ciphertexts are: ciphertext1:ef656ec78c9fa1f3359ceb983959, ciphertext2: fd6166d3d798beea238ae9cf3604caa1cbdb.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{nl9xyvwn}
+ciphertext: ciphertext1:ef656ec78c9fa1f3359ceb983959, ciphertext2: fd6166d3d798beea238ae9cf3604caa1cbdb
+tag1: 2f674b6bde8b6e4c140bc2a761951a33
+tag2: 66c00acdb2c30c00ddf1174f3f1eb478
+cipher: AES-GCM
+vulnerability: nonce reuse
+hint: AES-GCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: b48d511cb7bb94813dcca18e
+subtype: aes_gcm
+archetype: aes

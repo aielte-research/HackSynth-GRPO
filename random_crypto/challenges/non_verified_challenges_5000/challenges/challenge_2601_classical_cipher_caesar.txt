@@ -1,0 +1,15 @@
+A hacker left a secret message for their accomplice, encrypted with Julius Caesar’s favorite cipher. Can you reveal their plan? Ciphertext: iodj{p079aylc}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{m079xviz}
+ciphertext: iodj{p079aylc}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 3
+subtype: caesar
+archetype: classical_cipher

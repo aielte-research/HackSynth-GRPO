@@ -1,0 +1,16 @@
+Decrypt the secret message encrypted with AES-ECB; the key is a small passphrase right-padded with null bytes. Ciphertext: 8e8331350bf89caeb8ebca9c544a272c
+
+An encryption key that is only 2 bytes long?.
+
+---
+
+## Challenge Technical Details
+flag: flag{w9bu3qtn}
+ciphertext: 8e8331350bf89caeb8ebca9c544a272c
+cipher: AES-ECB
+vulnerability: small key padded with null bytes
+hint: ECB mode with a short key makes brute-forcing possible. Consider the small key entropy.
+necessary_info: An encryption key that is only 2 bytes long?.
+extra_info: Padding follows PKCS#7. The key is padded to 16 bytes with null bytes.
+subtype: weak_cookie_encryption
+archetype: web_crypto

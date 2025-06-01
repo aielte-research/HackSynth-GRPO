@@ -1,0 +1,15 @@
+Mysterious logs from the hacker's server contain the password, but they're encoded using a simple ASCII Shift. Can you recover it from: kqfl{;hkk;s>?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{v6cff6n9}
+cipher: ASCII Shift
+ciphertext: kqfl{;hkk;s>
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 5
+subtype: ascii_shift
+archetype: classical_cipher

@@ -1,0 +1,14 @@
+A mysterious message, uozt{lpac2k52}, was found scrawled on an ancient coin. Legend says only those who can mirror its letters will unlock its secret.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{okzx2p52}
+cipher: Atbash
+ciphertext: uozt{lpac2k52}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

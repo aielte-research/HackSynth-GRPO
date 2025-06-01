@@ -1,0 +1,17 @@
+
+A secret society encrypts meeting times using a simple substitution cipher. Can you reveal when they’ll gather from this coded message: yf osxuwtzsdumx, d cpicwywpwytf oyumas yc d qawmte tl afosxuwyfz yf bmyom pfywc tl uvdyfwarw dsa sauvdoae bywm wma oyumaswarw, yf d ealyfae qdffas, bywm wma mavu tl d nax; wma "pfywc" qdx ia cyfzva vawwasc (wma qtcw otqqtf), udysc tl vawwasc, wsyuvawc tl vawwasc, qyrwpsac tl wma ditka, dfe ct ltswm. wma saoaykas eaoyumasc wma warw ix uasltsqyfz wma yfkasca cpicwywpwytf ustoacc wt arwsdow wma tsyzyfdv qaccdza. vynabyca, gdojpac jpyonvx hyuuae wmstpzm d jpacwytf tf hast-nftbvaeza usttlc, afcpsyfz ft osywyodv vawwas bdc valw tpw tl tps osxuwtzsdumyo uphhva.lvdz{jevu6dvi}?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{qdlp6alb}
+ciphertext: yf osxuwtzsdumx, d cpicwywpwytf oyumas yc d qawmte tl afosxuwyfz yf bmyom pfywc tl uvdyfwarw dsa sauvdoae bywm wma oyumaswarw, yf d ealyfae qdffas, bywm wma mavu tl d nax; wma "pfywc" qdx ia cyfzva vawwasc (wma qtcw otqqtf), udysc tl vawwasc, wsyuvawc tl vawwasc, qyrwpsac tl wma ditka, dfe ct ltswm. wma saoaykas eaoyumasc wma warw ix uasltsqyfz wma yfkasca cpicwywpwytf ustoacc wt arwsdow wma tsyzyfdv qaccdza. vynabyca, gdojpac jpyonvx hyuuae wmstpzm d jpacwytf tf hast-nftbvaeza usttlc, afcpsyfz ft osywyodv vawwas bdc valw tpw tl tps osxuwtzsdumyo uphhva.lvdz{jevu6dvi}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'd', 'b': 'i', 'c': 'o', 'd': 'e', 'e': 'a', 'f': 'l', 'g': 'z', 'h': 'm', 'i': 'y', 'j': 'g', 'k': 'n', 'l': 'v', 'm': 'q', 'n': 'f', 'o': 't', 'p': 'u', 'q': 'j', 'r': 's', 's': 'c', 't': 'w', 'u': 'p', 'v': 'k', 'w': 'b', 'x': 'r', 'y': 'x', 'z': 'h'}
+subtype: substitution
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+An ancient scroll hides the treasure map, but its content is disguised with a simple substitution cipher. Can you decode the message? Ciphertext: va pbrfoglbdfmr, d ceicovoeovga pvfmub vc d yuomgk gj uapbrfoval va nmvpm eavoc gj fsdvaouwo dbu bufsdpuk nvom omu pvfmubouwo, va d kujvauk ydaaub, nvom omu musf gj d tur; omu "eavoc" ydr iu cvalsu suooubc (omu ygco pgyyga), fdvbc gj suooubc, obvfsuoc gj suooubc, yvwoebuc gj omu digzu, dak cg jgbom. omu bupuvzub kupvfmubc omu ouwo ir fubjgbyval omu vazubcu ceicovoeovga fbgpucc og uwobdpo omu gbvlvads yuccdlu. svtunvcu, qdpheuc hevptsr xvffuk ombgelm d heucovga ga xubg-tagnsuklu fbggjc, uacebval ag pbvovpds suooub ndc sujo geo gj geb pbrfoglbdfmvp fexxsu.jsdl{q9c59qaw}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{j9s59jnx}
+ciphertext: va pbrfoglbdfmr, d ceicovoeovga pvfmub vc d yuomgk gj uapbrfoval va nmvpm eavoc gj fsdvaouwo dbu bufsdpuk nvom omu pvfmubouwo, va d kujvauk ydaaub, nvom omu musf gj d tur; omu "eavoc" ydr iu cvalsu suooubc (omu ygco pgyyga), fdvbc gj suooubc, obvfsuoc gj suooubc, yvwoebuc gj omu digzu, dak cg jgbom. omu bupuvzub kupvfmubc omu ouwo ir fubjgbyval omu vazubcu ceicovoeovga fbgpucc og uwobdpo omu gbvlvads yuccdlu. svtunvcu, qdpheuc hevptsr xvffuk ombgelm d heucovga ga xubg-tagnsuklu fbggjc, uacebval ag pbvovpds suooub ndc sujo geo gj geb pbrfoglbdfmvp fexxsu.jsdl{q9c59qaw}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'd', 'b': 'i', 'c': 'p', 'd': 'k', 'e': 'u', 'f': 'j', 'g': 'l', 'h': 'm', 'i': 'v', 'j': 'q', 'k': 't', 'l': 's', 'm': 'y', 'n': 'a', 'o': 'g', 'p': 'f', 'q': 'h', 'r': 'b', 's': 'c', 't': 'o', 'u': 'e', 'v': 'z', 'w': 'n', 'x': 'w', 'y': 'r', 'z': 'x'}
+subtype: substitution
+archetype: classical_cipher

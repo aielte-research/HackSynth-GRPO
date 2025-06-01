@@ -1,0 +1,15 @@
+The hacker left a strange message in your inbox. It looks encrypted—can you decode it? Here's the message: xi gpbesqmpvecb, v wlrwsxslsxqi gxecjp xw v ajscqf qd jigpbesxim xi zcxgc lixsw qd euvxisjts vpj pjeuvgjf zxsc scj gxecjpsjts, xi v fjdxijf aviijp, zxsc scj cjue qd v kjb; scj "lixsw" avb rj wximuj ujssjpw (scj aqws gqaaqi), evxpw qd ujssjpw, spxeujsw qd ujssjpw, axtslpjw qd scj vrqnj, vif wq dqpsc. scj pjgjxnjp fjgxecjpw scj sjts rb ejpdqpaxim scj xinjpwj wlrwsxslsxqi epqgjww sq jtspvgs scj qpxmxivu ajwwvmj. uxkjzxwj, hvgoljw olxgkub yxeejf scpqlmc v oljwsxqi qi yjpq-kiqzujfmj epqqdw, jiwlpxim iq gpxsxgvu ujssjp zvw ujds qls qd qlp gpbesqmpvecxg elyyuj.duvm{htpda2ma}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{jxrfm2gm}
+ciphertext: xi gpbesqmpvecb, v wlrwsxslsxqi gxecjp xw v ajscqf qd jigpbesxim xi zcxgc lixsw qd euvxisjts vpj pjeuvgjf zxsc scj gxecjpsjts, xi v fjdxijf aviijp, zxsc scj cjue qd v kjb; scj "lixsw" avb rj wximuj ujssjpw (scj aqws gqaaqi), evxpw qd ujssjpw, spxeujsw qd ujssjpw, axtslpjw qd scj vrqnj, vif wq dqpsc. scj pjgjxnjp fjgxecjpw scj sjts rb ejpdqpaxim scj xinjpwj wlrwsxslsxqi epqgjww sq jtspvgs scj qpxmxivu ajwwvmj. uxkjzxwj, hvgoljw olxgkub yxeejf scpqlmc v oljwsxqi qi yjpq-kiqzujfmj epqqdw, jiwlpxim iq gpxsxgvu ujssjp zvw ujds qls qd qlp gpbesqmpvecxg elyyuj.duvm{htpda2ma}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'v', 'b': 'r', 'c': 'g', 'd': 'f', 'e': 'j', 'f': 'd', 'g': 'm', 'h': 'c', 'i': 'x', 'j': 'h', 'k': 'k', 'l': 'u', 'm': 'a', 'n': 'i', 'o': 'q', 'p': 'e', 'q': 'o', 'r': 'p', 's': 'w', 't': 's', 'u': 'l', 'v': 'n', 'w': 'z', 'x': 't', 'y': 'b', 'z': 'y'}
+subtype: substitution
+archetype: classical_cipher

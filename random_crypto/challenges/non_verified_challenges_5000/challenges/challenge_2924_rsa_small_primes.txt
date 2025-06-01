@@ -1,0 +1,18 @@
+An intern encrypted the password with RSA, but picked tiny primes for speed. Recover it from this ciphertext: 6670260001231683039
+
+The flag format is flag{...}
+n=7606976693205628859, e=6639885146346708149
+
+---
+
+## Challenge Technical Details
+flag: flag{8pah0w24}
+cipher: RSA
+ciphertext: 6670260001231683039
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=7606976693205628859, e=6639885146346708149
+extra_info: p=3012750161, q=2524927819, φ(n)=7606976687667950880
+subtype: small_primes
+archetype: rsa

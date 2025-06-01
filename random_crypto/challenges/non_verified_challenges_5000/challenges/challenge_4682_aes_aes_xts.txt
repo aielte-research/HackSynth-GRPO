@@ -1,0 +1,15 @@
+Your friend encrypted a disk sector using AES-XTS, but forgot the key. Can you decrypt ciphertext1:bfcba9b644f1a4588d5a8103b06ef59f, ciphertext2: 18f443dd8a8a14acb30ad25ca07561b5333fc3a09ddb1bd248eed14d8749a17d and recover the lost file?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{y1jbwbgi}
+ciphertext: ciphertext1:bfcba9b644f1a4588d5a8103b06ef59f, ciphertext2: 18f443dd8a8a14acb30ad25ca07561b5333fc3a09ddb1bd248eed14d8749a17d
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: e1b4f8196be03424cceca4b6ea3f587a
+subtype: aes_xts
+archetype: aes

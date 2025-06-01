@@ -1,0 +1,14 @@
+A spy left a secret at the rendezvous point. All that's visible: odd-looking numbers scribbled on a scrap. Can you unveil the hidden message? 666c61677b33303637353374677d
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{306753tg}
+cipher: Hex
+ciphertext: 666c61677b33303637353374677d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

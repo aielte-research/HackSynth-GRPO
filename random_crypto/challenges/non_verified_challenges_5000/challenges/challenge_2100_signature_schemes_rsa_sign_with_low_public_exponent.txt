@@ -1,0 +1,15 @@
+A hacker intercepted a VIP’s digital signature, created using a careless 3-exponent RSA scheme. Can you forge a valid signature for the secret message?
+0xdee95ee9bedeac1db97c30074d396836708431102d943ff4aae353dc8fcd28db4ac6e85094296d32c0a53139b714f0f215d63cf97a9f8bba9b2d252d73fde6f7
+
+Public Key (n, e): (12314786879556463732240312923629865725980400248864724687694806538274475446063195987040345067239444257851334637680824276963405102465162065071528353890862439, 3)
+
+---
+
+## Challenge Technical Details
+flag: flag{yqscccy0}
+ciphertext: 0xdee95ee9bedeac1db97c30074d396836708431102d943ff4aae353dc8fcd28db4ac6e85094296d32c0a53139b714f0f215d63cf97a9f8bba9b2d252d73fde6f7
+cipher: RSA Low-Exponent Signature
+hint: What happens when you cube small numbers? Remember e=3!
+necessary_info: Public Key (n, e): (12314786879556463732240312923629865725980400248864724687694806538274475446063195987040345067239444257851334637680824276963405102465162065071528353890862439, 3)
+subtype: rsa_sign_with_low_public_exponent
+archetype: signature_schemes

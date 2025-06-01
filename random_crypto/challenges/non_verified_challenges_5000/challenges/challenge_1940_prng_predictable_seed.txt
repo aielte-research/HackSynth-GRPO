@@ -1,0 +1,19 @@
+The hacker left behind an encrypted message using a weak random number generator. Can you decipher it and reveal the secret? Ciphertext: 667e61757b626d2b6c747776346f
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 2**9)
+A secret number was generated using Python's PRNG with a seed from 0 to 9,999. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{pm9lfwd4}
+ciphertext: 667e61757b626d2b6c747776346f
+cipher: Predictable PRNG
+hint: The seed range is small enough for brute-force. Try recreating the PRNG sequence.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 2**9)
+A secret number was generated using Python's PRNG with a seed from 0 to 9,999. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: If you can predict or brute-force the seed, you can reconstruct the PRNG output and decrypt the flag.
+subtype: predictable_seed
+archetype: prng

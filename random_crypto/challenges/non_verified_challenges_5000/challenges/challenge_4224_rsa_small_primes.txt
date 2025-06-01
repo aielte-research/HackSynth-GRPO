@@ -1,0 +1,18 @@
+A careless admin used tiny primes to encrypt a secret with RSA. The ciphertext is below—can you recover the original message? 333265692028462714
+
+The flag format is flag{...}
+n=8724952936954624787, e=4707154976686180103
+
+---
+
+## Challenge Technical Details
+flag: flag{uzth44l7}
+cipher: RSA
+ciphertext: 333265692028462714
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=8724952936954624787, e=4707154976686180103
+extra_info: p=3818807807, q=2284732141, φ(n)=8724952930851084840
+subtype: small_primes
+archetype: rsa

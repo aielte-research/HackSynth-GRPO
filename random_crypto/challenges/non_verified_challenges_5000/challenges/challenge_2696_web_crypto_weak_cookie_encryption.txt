@@ -1,0 +1,16 @@
+The intern encrypted a flag using AES-ECB, padding a short key with null bytes. Can you recover the flag from fc791d7cb35eef4578d41d3810c16947?
+
+An encryption key that is only 2 bytes long?.
+
+---
+
+## Challenge Technical Details
+flag: flag{hylvwu0q}
+ciphertext: fc791d7cb35eef4578d41d3810c16947
+cipher: AES-ECB
+vulnerability: small key padded with null bytes
+hint: ECB mode with a short key makes brute-forcing possible. Consider the small key entropy.
+necessary_info: An encryption key that is only 2 bytes long?.
+extra_info: Padding follows PKCS#7. The key is padded to 16 bytes with null bytes.
+subtype: weak_cookie_encryption
+archetype: web_crypto

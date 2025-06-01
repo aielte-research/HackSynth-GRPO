@@ -1,0 +1,17 @@
+
+An agent left a secret in plain sight, but scrambled with Base64. Can you decode Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVcxS1IxWnFUbGhoTWsweFZqSjRZV015VGtsaVJtaG9UVlZ3VlZaclVrdFRNVTVJVm10a1dHSkdjRTlaVjNSaFUxWmtWMVZyWkZwV2JIQllWakkxUjFVeVNrZFhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0= to reveal their hidden message?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{qa9skfn6}
+cipher: Base64
+ciphertext: Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVcxS1IxWnFUbGhoTWsweFZqSjRZV015VGtsaVJtaG9UVlZ3VlZaclVrdFRNVTVJVm10a1dHSkdjRTlaVjNSaFUxWmtWMVZyWkZwV2JIQllWakkxUjFVeVNrZFhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 9 times in total.
+subtype: Base64_layered
+archetype: classical_cipher

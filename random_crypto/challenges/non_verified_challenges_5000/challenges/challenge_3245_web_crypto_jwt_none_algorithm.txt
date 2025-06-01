@@ -1,0 +1,11 @@
+An elusive hacker left a secret hidden inside a forged JWT token. Crack the token and reveal the flag: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3s2a3Vibnc4aH0ifQ.
+
+---
+
+## Challenge Technical Details
+flag: flag{6kubnw8h}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3s2a3Vibnc4aH0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

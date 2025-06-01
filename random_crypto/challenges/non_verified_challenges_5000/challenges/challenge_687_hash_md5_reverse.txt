@@ -1,0 +1,15 @@
+Intercepted message uses MD5. Rumor says the sender reused a broken hash function vulnerable to reversal. Decrypt and reveal the secret: 373108a7645ae608be666f185ae7ec0b
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{AWMWW}
+ciphertext: 373108a7645ae608be666f185ae7ec0b
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

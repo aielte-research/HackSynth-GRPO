@@ -1,0 +1,24 @@
+An anonymous hacker left a secret message encoded with SHA-256. Your mission: recover the original password from this hash: 5f07da09f70431c2b63363c6dded63eb45d71e13ec6f78f87d4a7486ffbf16a7
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{ate0}
+ciphertext: 5f07da09f70431c2b63363c6dded63eb45d71e13ec6f78f87d4a7486ffbf16a7
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

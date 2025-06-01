@@ -1,0 +1,12 @@
+Admin left the session token exposed in the logs. Can you recover the secret using the Insecure Session Token cipher? Ciphertext: 757365725f777872663a666c61677b713561696a7276777d3a31373437343831393632
+
+---
+
+## Challenge Technical Details
+flag: flag{q5aijrvw}
+ciphertext: 757365725f777872663a666c61677b713561696a7276777d3a31373437343831393632
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_wxrf:flag{q5aijrvw}:1747481962'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

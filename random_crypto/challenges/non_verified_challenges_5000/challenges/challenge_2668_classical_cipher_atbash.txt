@@ -1,0 +1,14 @@
+The archivist left a secret message in an ancient alphabet, where each letter is swapped for its opposite. Can you decipher it? uozt{e4h6025e}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{v4s6025v}
+cipher: Atbash
+ciphertext: uozt{e4h6025e}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+An agent intercepted a coded message. It appears each letter has been systematically substituted. Can you uncover the original message? Ciphertext: tk eizrlwvicruz, c xgqxltlgltwk etrupi tx c spluwo wd pkeizrltkv tk juteu gktlx wd ryctklpal cip iprycepo jtlu lup etrupilpal, tk c opdtkpo sckkpi, jtlu lup upyr wd c hpz; lup "gktlx" scz qp xtkvyp ypllpix (lup swxl ewsswk), rctix wd ypllpix, litryplx wd ypllpix, stalgipx wd lup cqwbp, cko xw dwilu. lup ipeptbpi opetrupix lup lpal qz rpidwistkv lup tkbpixp xgqxltlgltwk riwepxx lw palicel lup witvtkcy spxxcvp. ythpjtxp, ncemgpx mgtehyz ftrrpo luiwgvu c mgpxltwk wk fpiw-hkwjypovp riwwdx, pkxgitkv kw eitltecy ypllpi jcx ypdl wgl wd wgi eizrlwvicrute rgffyp.dycv{x937gxo6}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{s937usd6}
+ciphertext: tk eizrlwvicruz, c xgqxltlgltwk etrupi tx c spluwo wd pkeizrltkv tk juteu gktlx wd ryctklpal cip iprycepo jtlu lup etrupilpal, tk c opdtkpo sckkpi, jtlu lup upyr wd c hpz; lup "gktlx" scz qp xtkvyp ypllpix (lup swxl ewsswk), rctix wd ypllpix, litryplx wd ypllpix, stalgipx wd lup cqwbp, cko xw dwilu. lup ipeptbpi opetrupix lup lpal qz rpidwistkv lup tkbpixp xgqxltlgltwk riwepxx lw palicel lup witvtkcy spxxcvp. ythpjtxp, ncemgpx mgtehyz ftrrpo luiwgvu c mgpxltwk wk fpiw-hkwjypovp riwwdx, pkxgitkv kw eitltecy ypllpi jcx ypdl wgl wd wgi eizrlwvicrute rgffyp.dycv{x937gxo6}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'c', 'b': 'q', 'c': 'e', 'd': 'o', 'e': 'p', 'f': 'd', 'g': 'v', 'h': 'u', 'i': 't', 'j': 'n', 'k': 'h', 'l': 'y', 'm': 's', 'n': 'k', 'o': 'w', 'p': 'r', 'q': 'm', 'r': 'i', 's': 'x', 't': 'l', 'u': 'g', 'v': 'b', 'w': 'j', 'x': 'a', 'y': 'z', 'z': 'f'}
+subtype: substitution
+archetype: classical_cipher

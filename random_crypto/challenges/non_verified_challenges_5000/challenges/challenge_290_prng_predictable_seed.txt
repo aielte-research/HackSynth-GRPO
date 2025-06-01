@@ -1,0 +1,19 @@
+My startup's password vault uses a "secure" random generator. Can you recover my password from this encrypted note? Ciphertext: 64786373792673607322727a3769
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 2**10)
+A secret number was generated using Python's PRNG with a seed from 0 to 9,999. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{2qtq6pn5}
+ciphertext: 64786373792673607322727a3769
+cipher: Predictable PRNG
+hint: The seed range is small enough for brute-force. Try recreating the PRNG sequence.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 2**10)
+A secret number was generated using Python's PRNG with a seed from 0 to 9,999. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: If you can predict or brute-force the seed, you can reconstruct the PRNG output and decrypt the flag.
+subtype: predictable_seed
+archetype: prng

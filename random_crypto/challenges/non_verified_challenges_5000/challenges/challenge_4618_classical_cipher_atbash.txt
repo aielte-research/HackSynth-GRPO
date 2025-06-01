@@ -1,0 +1,14 @@
+An anonymous hacker left a secret message in an ancient code. Can you decode the following using the Atbash cipher? uozt{et142pmr}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{vg142kni}
+cipher: Atbash
+ciphertext: uozt{et142pmr}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

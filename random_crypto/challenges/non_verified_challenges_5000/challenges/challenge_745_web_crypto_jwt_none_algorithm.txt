@@ -1,0 +1,11 @@
+An anonymous hacker left a suspicious JWT in your inbox. Decode eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tkMmRnY3R2c30ifQ. to uncover the hidden message and trace the attacker’s identity.
+
+---
+
+## Challenge Technical Details
+flag: flag{d2dgctvs}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tkMmRnY3R2c30ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

@@ -1,0 +1,17 @@
+
+A hacker encoded the password in Base85 and hid it in plain sight: W^7?+dvI%Ta%f{|Vto. Can you decode it to access the server?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{pkprhcib}
+cipher: Base85
+ciphertext: W^7?+dvI%Ta%f{|Vto
+hint: Use a Base85 decoder to retrieve the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is straightforward; only one layer is used.
+subtype: Base85
+archetype: classical_cipher

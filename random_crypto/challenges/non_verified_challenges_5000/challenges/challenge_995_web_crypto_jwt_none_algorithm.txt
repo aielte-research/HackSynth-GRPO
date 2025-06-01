@@ -1,0 +1,11 @@
+Intercepted on the blockchain, this suspicious JWT token (eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tkOGZ6NTBsZH0ifQ.) could unlock admin access. Can you reveal what's hidden inside?
+
+---
+
+## Challenge Technical Details
+flag: flag{d8fz50ld}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tkOGZ6NTBsZH0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

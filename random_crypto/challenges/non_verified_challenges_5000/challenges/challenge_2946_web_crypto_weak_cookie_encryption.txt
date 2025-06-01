@@ -1,0 +1,16 @@
+Recover the secret message encrypted using AES-ECB. The key is short and padded with null bytes. Ciphertext: 28a3b340105b84a060b763dbb188b389
+
+An encryption key that is only 2 bytes long?.
+
+---
+
+## Challenge Technical Details
+flag: flag{3tv3fh0a}
+ciphertext: 28a3b340105b84a060b763dbb188b389
+cipher: AES-ECB
+vulnerability: small key padded with null bytes
+hint: ECB mode with a short key makes brute-forcing possible. Consider the small key entropy.
+necessary_info: An encryption key that is only 2 bytes long?.
+extra_info: Padding follows PKCS#7. The key is padded to 16 bytes with null bytes.
+subtype: weak_cookie_encryption
+archetype: web_crypto

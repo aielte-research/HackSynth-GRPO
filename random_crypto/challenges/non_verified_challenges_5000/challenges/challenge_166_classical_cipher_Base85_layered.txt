@@ -1,0 +1,15 @@
+An engineer hid the server password in an encoded note. Can you recover it from this Base85 ciphertext? Q8sTRJX$6xX;4yHCPY0_L054~Qdu@KT2nM7R6I~cBT{EhLI
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{t2dyyi0k}
+cipher: Base85
+ciphertext: Q8sTRJX$6xX;4yHCPY0_L054~Qdu@KT2nM7R6I~cBT{EhLI
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 5 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

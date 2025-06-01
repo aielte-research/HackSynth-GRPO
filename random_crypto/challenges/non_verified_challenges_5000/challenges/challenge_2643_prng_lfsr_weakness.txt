@@ -1,0 +1,19 @@
+A rogue satellite broadcasted secret coordinates encrypted with an LFSR-based cipher. Can you recover the message from this intercepted transmission? Ciphertext: 53bb54b04eef03b601b54de54faa
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[24183, 44859, 55197, 60366, 30183, 47859, 23929, 44732, 55134, 27567]
+
+---
+
+## Challenge Technical Details
+flag: flag{86a4bx2z}
+ciphertext: 53bb54b04eef03b601b54de54faa
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[24183, 44859, 55197, 60366, 30183, 47859, 23929, 44732, 55134, 27567]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

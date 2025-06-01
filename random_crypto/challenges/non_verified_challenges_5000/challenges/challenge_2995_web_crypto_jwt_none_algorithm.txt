@@ -1,0 +1,11 @@
+An intruder tampered with the authentication token for admin access: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tvMHl0aXM5dH0ifQ.. Find out how they forged it and recover the secret flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{o0ytis9t}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tvMHl0aXM5dH0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

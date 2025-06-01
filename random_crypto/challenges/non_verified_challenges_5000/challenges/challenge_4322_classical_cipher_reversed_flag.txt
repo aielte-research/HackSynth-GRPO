@@ -1,0 +1,15 @@
+A hacker left secret instructions—can you decipher them? The message appears reversed. Decrypt }kkhx6qoy{galf to reveal the hidden plan.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{yoq6xhkk}
+ciphertext: }kkhx6qoy{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

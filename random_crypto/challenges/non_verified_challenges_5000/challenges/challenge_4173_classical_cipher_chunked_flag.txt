@@ -1,0 +1,15 @@
+A mysterious message arrived, split into odd chunks and encrypted using the secret ChunkedFlag cipher. Can you reconstruct and decode the hidden flag? Ciphertext: fla g{ xsj erh ir}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{xsjerhir}
+ciphertext: fla g{ xsj erh ir}
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

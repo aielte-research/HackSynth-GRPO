@@ -1,0 +1,15 @@
+A hacker sent their login key split across rails for secrecy. Can you unscramble the message? Here is the ciphertext: f{w4lg710d}aiv
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{7i1w0vd4}
+ciphertext: f{w4lg710d}aiv
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 3
+subtype: rail_fence
+archetype: classical_cipher

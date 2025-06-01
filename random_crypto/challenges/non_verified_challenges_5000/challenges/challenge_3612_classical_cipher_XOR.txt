@@ -1,0 +1,15 @@
+Agent X hid the code by XORing it with a secret key. Can you recover the original message from this cipher? stringA: 160d58173d0f3f09370d3a002029 stringB: 70613970463958784d6b4b654f54
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{6gqzfqeo}
+cipher: XOR
+ciphertext: stringA: 160d58173d0f3f09370d3a002029 stringB: 70613970463958784d6b4b654f54
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

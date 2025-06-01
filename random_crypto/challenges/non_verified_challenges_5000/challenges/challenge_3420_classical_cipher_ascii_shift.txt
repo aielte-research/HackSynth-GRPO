@@ -1,0 +1,15 @@
+An old terminal spits out "ntio}pvo>@". Rumor says shifting each character reveals the secret phrase. Can you decrypt the hacker's message?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{uhnzgz68}
+cipher: ASCII Shift
+ciphertext: ntio}pvo>@
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 8
+subtype: ascii_shift
+archetype: classical_cipher

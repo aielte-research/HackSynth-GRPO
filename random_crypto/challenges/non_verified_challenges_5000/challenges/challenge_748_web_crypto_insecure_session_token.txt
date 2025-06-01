@@ -1,0 +1,12 @@
+A careless dev used a weak in-house algorithm to generate session tokens. Your job: recover the user's password from the captured token: 757365725f6c6177733a666c61677b6f646175697237647d3a31373437343832383835
+
+---
+
+## Challenge Technical Details
+flag: flag{odauir7d}
+ciphertext: 757365725f6c6177733a666c61677b6f646175697237647d3a31373437343832383835
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_laws:flag{odauir7d}:1747482885'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

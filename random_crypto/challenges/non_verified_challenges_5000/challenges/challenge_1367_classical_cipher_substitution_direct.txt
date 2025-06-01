@@ -1,0 +1,23 @@
+
+Intercepted enemy plans are hidden as a secret message using a simple substitution cipher. Can you decode the orders in vtfi{b5qul4lz}?
+
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'f', 'b': 'j', 'c': 'p', 'd': 'd', 'e': 'g', 'f': 'v', 'g': 'i', 'h': 'm', 'i': 'a', 'j': 'c', 'k': 'u', 'l': 't', 'm': 'k', 'n': 'n', 'o': 'b', 'p': 'l', 'q': 'h', 'r': 's', 's': 'q', 't': 'o', 'u': 'y', 'v': 'x', 'w': 'e', 'x': 'z', 'y': 'r', 'z': 'w'}
+
+---
+
+## Challenge Technical Details
+flag: flag{o5skp4px}
+cipher: Substitution
+ciphertext: vtfi{b5qul4lz}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'f', 'b': 'j', 'c': 'p', 'd': 'd', 'e': 'g', 'f': 'v', 'g': 'i', 'h': 'm', 'i': 'a', 'j': 'c', 'k': 'u', 'l': 't', 'm': 'k', 'n': 'n', 'o': 'b', 'p': 'l', 'q': 'h', 'r': 's', 's': 'q', 't': 'o', 'u': 'y', 'v': 'x', 'w': 'e', 'x': 'z', 'y': 'r', 'z': 'w'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

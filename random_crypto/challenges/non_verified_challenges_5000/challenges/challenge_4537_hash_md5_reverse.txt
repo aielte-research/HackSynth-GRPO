@@ -1,0 +1,17 @@
+
+An old hacker’s note claims their secret is "hidden in plain sight," encrypted with MD5. The hash f0164613c195772caf48904f45a13891 may contain more than meets the eye—can you uncover the original?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{PFL-A}
+ciphertext: f0164613c195772caf48904f45a13891
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

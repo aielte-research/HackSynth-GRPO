@@ -1,0 +1,16 @@
+An old hacker's will hides the final password, encrypted with a Vigenère cipher. All that's left is this note: flfe{gzg1cs46}
+
+The flag format is flag{...}
+The keyword is: aafyt
+
+---
+
+## Challenge Technical Details
+flag: flag{nzg1xu46}
+ciphertext: flfe{gzg1cs46}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: aafyt
+subtype: vigenere
+archetype: classical_cipher

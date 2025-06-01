@@ -1,0 +1,16 @@
+An anonymous hacker left a secret message on a blockchain forum. It’s encrypted using a Vigenère cipher. Can you crack vbzv{jix6drbk} and reveal their plan?
+
+The flag format is flag{...}
+The keyword is: qqzp
+
+---
+
+## Challenge Technical Details
+flag: flag{tsy6obll}
+ciphertext: vbzv{jix6drbk}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: qqzp
+subtype: vigenere
+archetype: classical_cipher

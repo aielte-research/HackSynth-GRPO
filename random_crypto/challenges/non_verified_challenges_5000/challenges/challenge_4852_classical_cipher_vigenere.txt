@@ -1,0 +1,16 @@
+A famed hacker left a secret at 8-bit Alley. To claim it, decrypt this Vigenère-encoded message: qupq{0vyu6aid}
+
+The flag format is flag{...}
+The keyword is: ljpkccsd
+
+---
+
+## Challenge Technical Details
+flag: flag{0twc6xxu}
+ciphertext: qupq{0vyu6aid}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: ljpkccsd
+subtype: vigenere
+archetype: classical_cipher

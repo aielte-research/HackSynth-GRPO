@@ -1,0 +1,15 @@
+You find a secret note titled "B64 Formula." The message appears scrambled. Can you decode its hidden meaning? Ciphertext: Vm0wd2QyVkhVWGhVYmxKV1YwZDRXRmxVUm5kVlJscHpXa2M1VjFKdGVGWlZNbmhQWVd4S2MxTnNXbGRTTTFKUVdWY3hTMUl4WkhWaVJtUk9ZV3hhZVZkV1pEUlRNazE0Vkc1T1dHSkdjRmhhVjNoaFpWWmtWMVZyWkZwV01VcEpWbGR3WVZaSFNraFZiRkpWVmtWYVRGcFdXbXRYUjFKSVVteFNhVlpyV1RGV2EyUXdXVmRHYzFOdVRsaGlSMmhZV1d4b1UxbFdjRmhsUjBaWFlrZFNlVll5ZUVOV01rVjNZMFpTVjFaV2NGTmFSRVpEVld4Q1ZVMUVNRDA9
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{zorgsqql}
+cipher: Base64
+ciphertext: Vm0wd2QyVkhVWGhVYmxKV1YwZDRXRmxVUm5kVlJscHpXa2M1VjFKdGVGWlZNbmhQWVd4S2MxTnNXbGRTTTFKUVdWY3hTMUl4WkhWaVJtUk9ZV3hhZVZkV1pEUlRNazE0Vkc1T1dHSkdjRmhhVjNoaFpWWmtWMVZyWkZwV01VcEpWbGR3WVZaSFNraFZiRkpWVmtWYVRGcFdXbXRYUjFKSVVteFNhVlpyV1RGV2EyUXdXVmRHYzFOdVRsaGlSMmhZV1d4b1UxbFdjRmhsUjBaWFlrZFNlVll5ZUVOV01rVjNZMFpTVjFaV2NGTmFSRVpEVld4Q1ZVMUVNRDA9
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 10 times in total.
+subtype: Base64_layered
+archetype: classical_cipher

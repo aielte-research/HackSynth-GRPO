@@ -1,0 +1,20 @@
+
+Alice reused small primes in her RSA key. Decode Bob’s secret, encrypted below, by exploiting this flaw: 8938490416948453810
+
+
+The flag format is flag{...}
+n=11327525740929077809, e=6704388389675971583
+
+---
+
+## Challenge Technical Details
+flag: flag{1f1bq5id}
+cipher: RSA
+ciphertext: 8938490416948453810
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=11327525740929077809, e=6704388389675971583
+extra_info: p=3187504141, q=3553728949, φ(n)=11327525734187844720
+subtype: small_primes
+archetype: rsa

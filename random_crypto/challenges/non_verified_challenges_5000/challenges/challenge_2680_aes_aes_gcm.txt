@@ -1,0 +1,18 @@
+AI agents exchanged secret files using AES-GCM, but reused the nonce. Now you have two intercepted messages: ciphertext1:b75e7bae7c68553f4812ed68ced0, ciphertext2: a55a73ba276f1f2e4018e32cca8db1839721. Can you uncover what was hidden?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{n91fezde}
+ciphertext: ciphertext1:b75e7bae7c68553f4812ed68ced0, ciphertext2: a55a73ba276f1f2e4018e32cca8db1839721
+tag1: eb903cb75ef6f256c24a7131953c6f91
+tag2: 67e924b7989c5d5abc717d18233a3638
+cipher: AES-GCM
+vulnerability: nonce reuse
+hint: AES-GCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 8d8b6a7099d7d029acd925a6
+subtype: aes_gcm
+archetype: aes

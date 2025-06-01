@@ -1,0 +1,16 @@
+An intern encrypted secret data with AES-ECB, mistakenly using a short key padded with nulls. Recover the original message from 2ef7fdd92619fcf52aadcf85997dcb7d.
+
+An encryption key that is only 2 bytes long?.
+
+---
+
+## Challenge Technical Details
+flag: flag{teg2v29v}
+ciphertext: 2ef7fdd92619fcf52aadcf85997dcb7d
+cipher: AES-ECB
+vulnerability: small key padded with null bytes
+hint: ECB mode with a short key makes brute-forcing possible. Consider the small key entropy.
+necessary_info: An encryption key that is only 2 bytes long?.
+extra_info: Padding follows PKCS#7. The key is padded to 16 bytes with null bytes.
+subtype: weak_cookie_encryption
+archetype: web_crypto

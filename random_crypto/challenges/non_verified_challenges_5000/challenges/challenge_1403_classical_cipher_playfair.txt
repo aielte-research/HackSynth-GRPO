@@ -1,0 +1,19 @@
+
+Agent X left a secret message. Decode legmxhnibgzkgqemmpmqxhnibgocowcpfmqzemhvhuusgmxhnibgzkgqemqkabphsnhxbnpltmzmkbflkzxqweuslmhsyfowghxlvbhuemgkoclhewkmhxykkphpfncaweuvweusbkmakmengpywtvcm using the Playfair cipher and the keyword: ENIGMA.
+
+
+The flag format is flag{...}
+The keyword is: lnxydnhs
+
+---
+
+## Challenge Technical Details
+flag: flag{wqz2u9hr}
+ciphertext: legmxhnibgzkgqemmpmqxhnibgocowcpfmqzemhvhuusgmxhnibgzkgqemqkabphsnhxbnpltmzmkbflkzxqweuslmhsyfowghxlvbhuemgkoclhewkmhxykkphpfncaweuvweusbkmakmengpywtvcm
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: lnxydnhs
+extra_info: The playfair table is [['l', 'n', 'x', 'y', 'd'], ['h', 's', 'a', 'b', 'c'], ['e', 'f', 'g', 'i', 'k'], ['m', 'o', 'p', 'q', 'r'], ['t', 'u', 'v', 'w', 'z']]
+subtype: playfair
+archetype: classical_cipher

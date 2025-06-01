@@ -1,0 +1,17 @@
+
+A rogue AI hid its command codes in a Base85 string. Can you decode Q8+6%W@1@+T60ilF*QL<ZC_?qOieLKWlld!P-bH?MrI{Ka&vbjN_Q|ndu3Bqb3jfzP(E*CG%!_nWIs4hc2;~jGdM_Db7X5#D{5;$M@LdLcTRC)ek(_3Bm and reveal its plans?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{o6hmtdvr}
+cipher: Base85
+ciphertext: Q8+6%W@1@+T60ilF*QL<ZC_?qOieLKWlld!P-bH?MrI{Ka&vbjN_Q|ndu3Bqb3jfzP(E*CG%!_nWIs4hc2;~jGdM_Db7X5#D{5;$M@LdLcTRC)ek(_3Bm
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 9 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

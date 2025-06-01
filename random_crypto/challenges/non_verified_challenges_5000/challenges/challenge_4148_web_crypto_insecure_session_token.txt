@@ -1,0 +1,12 @@
+Someone intercepted your admin session token: 757365725f623363663a666c61677b36303865616962617d3a31373438313639393236. Can you recover the original username?
+
+---
+
+## Challenge Technical Details
+flag: flag{608eaiba}
+ciphertext: 757365725f623363663a666c61677b36303865616962617d3a31373438313639393236
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_b3cf:flag{608eaiba}:1748169926'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

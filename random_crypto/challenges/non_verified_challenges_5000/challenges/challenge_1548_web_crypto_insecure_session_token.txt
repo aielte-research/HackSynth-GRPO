@@ -1,0 +1,14 @@
+
+A careless developer launched a portal using Insecure Session Token encryption. We intercepted this session cookie: 757365725f686871393a666c61677b68386b33657371717d3a31373438313636323336. Can you recover the original user ID?
+
+
+---
+
+## Challenge Technical Details
+flag: flag{h8k3esqq}
+ciphertext: 757365725f686871393a666c61677b68386b33657371717d3a31373438313636323336
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_hhq9:flag{h8k3esqq}:1748166236'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

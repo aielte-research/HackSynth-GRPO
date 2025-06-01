@@ -1,0 +1,14 @@
+An old manuscript was found, encoded with a mirror alphabet cipher. Can you reveal its secret message? Ciphertext: uozt{d2f07jr1}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{w2u07qi1}
+cipher: Atbash
+ciphertext: uozt{d2f07jr1}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

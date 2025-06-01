@@ -1,0 +1,14 @@
+An old map reveals a clue: "Secrets are mirrored." Decipher uozt{2tlinjg2} to unlock the hidden treasure's coordinates.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{2gormqt2}
+cipher: Atbash
+ciphertext: uozt{2tlinjg2}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

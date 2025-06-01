@@ -1,0 +1,17 @@
+
+A hacker transmits coordinates using a Rail Fence cipher. Can you uncover the message hidden in fa{cwswlg3hgq}?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{3chwgsqw}
+ciphertext: fa{cwswlg3hgq}
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 2
+subtype: rail_fence
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+A mysterious hacker left a coded note on the blockchain. Can you break the substitution cipher and reveal the secret message? Ciphertext: xh citbgodiwbyt, w psupgxgsgxoh cxbyfi xp w nfgyoe ov fhcitbgxhd xh qyxcy shxgp ov bkwxhgfjg wif ifbkwcfe qxgy gyf cxbyfigfjg, xh w efvxhfe nwhhfi, qxgy gyf yfkb ov w lft; gyf "shxgp" nwt uf pxhdkf kfggfip (gyf nopg connoh), bwxip ov kfggfip, gixbkfgp ov kfggfip, nxjgsifp ov gyf wuozf, whe po voigy. gyf ifcfxzfi efcxbyfip gyf gfjg ut bfivoinxhd gyf xhzfipf psupgxgsgxoh biocfpp go fjgiwcg gyf oixdxhwk nfppwdf. kxlfqxpf, rwcmsfp msxclkt axbbfe gyiosdy w msfpgxoh oh afio-lhoqkfedf bioovp, fhpsixhd ho cixgxcwk kfggfi qwp kfvg osg ov osi citbgodiwbyxc bsaakf.vkwd{kiqvbn98}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{lrwfpm98}
+ciphertext: xh citbgodiwbyt, w psupgxgsgxoh cxbyfi xp w nfgyoe ov fhcitbgxhd xh qyxcy shxgp ov bkwxhgfjg wif ifbkwcfe qxgy gyf cxbyfigfjg, xh w efvxhfe nwhhfi, qxgy gyf yfkb ov w lft; gyf "shxgp" nwt uf pxhdkf kfggfip (gyf nopg connoh), bwxip ov kfggfip, gixbkfgp ov kfggfip, nxjgsifp ov gyf wuozf, whe po voigy. gyf ifcfxzfi efcxbyfip gyf gfjg ut bfivoinxhd gyf xhzfipf psupgxgsgxoh biocfpp go fjgiwcg gyf oixdxhwk nfppwdf. kxlfqxpf, rwcmsfp msxclkt axbbfe gyiosdy w msfpgxoh oh afio-lhoqkfedf bioovp, fhpsixhd ho cixgxcwk kfggfi qwp kfvg osg ov osi citbgodiwbyxc bsaakf.vkwd{kiqvbn98}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'w', 'b': 'u', 'c': 'c', 'd': 'e', 'e': 'f', 'f': 'v', 'g': 'd', 'h': 'y', 'i': 'x', 'j': 'r', 'k': 'l', 'l': 'k', 'm': 'n', 'n': 'h', 'o': 'o', 'p': 'b', 'q': 'm', 'r': 'i', 's': 'p', 't': 'g', 'u': 's', 'v': 'z', 'w': 'q', 'x': 'j', 'y': 't', 'z': 'a'}
+subtype: substitution
+archetype: classical_cipher

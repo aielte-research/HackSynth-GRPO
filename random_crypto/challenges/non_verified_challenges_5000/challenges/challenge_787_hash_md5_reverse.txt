@@ -1,0 +1,15 @@
+A hacker left a note with an MD5 hash. They claim it's possible to recover the original text due to a known vulnerability. The hash: d50a48ec8f14ea8b1e5b0fb266dc943c
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{KENRB}
+ciphertext: d50a48ec8f14ea8b1e5b0fb266dc943c
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

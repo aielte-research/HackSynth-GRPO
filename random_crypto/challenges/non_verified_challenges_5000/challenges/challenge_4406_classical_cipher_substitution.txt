@@ -1,0 +1,15 @@
+A secret society sent an encoded message using a letter-for-letter substitution cipher. Can you break their code and reveal the original text hidden in zv usfgqxesmgtf, m hyrhqzqyqzxv uzgtbs zh m obqtxl xp bvusfgqzve zv ntzut yvzqh xp gkmzvqbjq msb sbgkmubl nzqt qtb uzgtbsqbjq, zv m lbpzvbl omvvbs, nzqt qtb tbkg xp m abf; qtb "yvzqh" omf rb hzvekb kbqqbsh (qtb oxhq uxooxv), gmzsh xp kbqqbsh, qszgkbqh xp kbqqbsh, ozjqysbh xp qtb mrxdb, mvl hx pxsqt. qtb sbubzdbs lbuzgtbsh qtb qbjq rf gbspxsozve qtb zvdbshb hyrhqzqyqzxv gsxubhh qx bjqsmuq qtb xszezvmk obhhmeb. kzabnzhb, wmucybh cyzuakf izggbl qtsxyet m cybhqzxv xv ibsx-avxnkbleb gsxxph, bvhyszve vx uszqzumk kbqqbs nmh kbpq xyq xp xys usfgqxesmgtzu gyiikb.pkme{1r4w6nq9}?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{1b4j6wt9}
+ciphertext: zv usfgqxesmgtf, m hyrhqzqyqzxv uzgtbs zh m obqtxl xp bvusfgqzve zv ntzut yvzqh xp gkmzvqbjq msb sbgkmubl nzqt qtb uzgtbsqbjq, zv m lbpzvbl omvvbs, nzqt qtb tbkg xp m abf; qtb "yvzqh" omf rb hzvekb kbqqbsh (qtb oxhq uxooxv), gmzsh xp kbqqbsh, qszgkbqh xp kbqqbsh, ozjqysbh xp qtb mrxdb, mvl hx pxsqt. qtb sbubzdbs lbuzgtbsh qtb qbjq rf gbspxsozve qtb zvdbshb hyrhqzqyqzxv gsxubhh qx bjqsmuq qtb xszezvmk obhhmeb. kzabnzhb, wmucybh cyzuakf izggbl qtsxyet m cybhqzxv xv ibsx-avxnkbleb gsxxph, bvhyszve vx uszqzumk kbqqbs nmh kbpq xyq xp xys usfgqxesmgtzu gyiikb.pkme{1r4w6nq9}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'm', 'b': 'r', 'c': 'u', 'd': 'l', 'e': 'b', 'f': 'p', 'g': 'e', 'h': 't', 'i': 'z', 'j': 'w', 'k': 'a', 'l': 'k', 'm': 'o', 'n': 'v', 'o': 'x', 'p': 'g', 'q': 'c', 'r': 's', 's': 'h', 't': 'q', 'u': 'y', 'v': 'd', 'w': 'n', 'x': 'j', 'y': 'f', 'z': 'i'}
+subtype: substitution
+archetype: classical_cipher

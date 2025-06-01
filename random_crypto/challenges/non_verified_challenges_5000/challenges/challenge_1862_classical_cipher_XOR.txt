@@ -1,0 +1,15 @@
+Someone intercepted Agent X's XOR-encrypted message. Can you recover the original text from the mysterious ciphertext? Here it is: stringA: 2105570818051729702d345f022e stringB: 4769366f63707347464146666753
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{udn6lr9e}
+cipher: XOR
+ciphertext: stringA: 2105570818051729702d345f022e stringB: 4769366f63707347464146666753
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

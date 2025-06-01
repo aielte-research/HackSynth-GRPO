@@ -1,0 +1,20 @@
+
+A careless admin encrypted the flag using RSA, but accidentally used two small primes as the modulus. Recover the plaintext from this ciphertext: 218595199991298622
+
+
+The flag format is flag{...}
+n=5048394730264860899, e=2243979297172586827
+
+---
+
+## Challenge Technical Details
+flag: flag{u9tfs2bt}
+cipher: RSA
+ciphertext: 218595199991298622
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=5048394730264860899, e=2243979297172586827
+extra_info: p=2172658841, q=2323602139, φ(n)=5048394725768599920
+subtype: small_primes
+archetype: rsa

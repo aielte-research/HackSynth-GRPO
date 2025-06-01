@@ -1,0 +1,29 @@
+
+Hackers intercepted Bob’s message encoded with his homemade LCG-based cipher. Can you predict his next message fragment from the ciphertext? Here’s what they got: 66648ef57b61d7a7757f88a23875
+
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 11607941
+  - Multiplier: 6498296
+  - Increment: 3975498
+The first 5 outputs of the LCG are provided: [11585217, 1314655, 6221195, 8711462, 9543686] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{i85uwg08}
+ciphertext: 66648ef57b61d7a7757f88a23875
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 11607941
+  - Multiplier: 6498296
+  - Increment: 3975498
+The first 5 outputs of the LCG are provided: [11585217, 1314655, 6221195, 8711462, 9543686] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

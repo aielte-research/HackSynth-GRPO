@@ -1,0 +1,14 @@
+An ancient scroll was found, its message scrambled in a way where each letter wears its opposite's mask. Can you reveal the secret? uozt{1j27wxe2}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{1q27dcv2}
+cipher: Atbash
+ciphertext: uozt{1j27wxe2}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

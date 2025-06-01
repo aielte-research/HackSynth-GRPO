@@ -1,0 +1,17 @@
+
+An agent hid a code by reversing every letter. Can you uncover the real message from: }j9jd16j2{galf?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{2j61dj9j}
+ciphertext: }j9jd16j2{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

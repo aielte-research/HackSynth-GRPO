@@ -1,0 +1,16 @@
+Our messaging bot encrypts notes with AES-ECB, padding short keys with null bytes. Can you recover the plaintext behind this ciphertext? 5e1549bc981dd52965f81a2f8e942d94
+
+An encryption key that is only 2 bytes long?.
+
+---
+
+## Challenge Technical Details
+flag: flag{qi40hzhc}
+ciphertext: 5e1549bc981dd52965f81a2f8e942d94
+cipher: AES-ECB
+vulnerability: small key padded with null bytes
+hint: ECB mode with a short key makes brute-forcing possible. Consider the small key entropy.
+necessary_info: An encryption key that is only 2 bytes long?.
+extra_info: Padding follows PKCS#7. The key is padded to 16 bytes with null bytes.
+subtype: weak_cookie_encryption
+archetype: web_crypto

@@ -1,0 +1,15 @@
+A mysterious hacker left a note in your inbox. It reads: ks cyndgatyzdxn, z pvwpgkgvgkas ckdxuy kp z fugxaj aq uscyndgkst ks hxkcx vskgp aq dezksgubg zyu yudezcuj hkgx gxu ckdxuygubg, ks z juqksuj fzssuy, hkgx gxu xued aq z run; gxu "vskgp" fzn wu pksteu eugguyp (gxu fapg caffas), dzkyp aq eugguyp, gykdeugp aq eugguyp, fkbgvyup aq gxu zwaou, zsj pa qaygx. gxu yucukouy juckdxuyp gxu gubg wn duyqayfkst gxu ksouypu pvwpgkgvgkas dyacupp ga ubgyzcg gxu ayktksze fuppztu. ekruhkpu, mzcivup ivkcren lkdduj gxyavtx z ivupgkas as luya-rsaheujtu dyaaqp, uspvykst sa cykgkcze eugguy hzp euqg avg aq avy cyndgatyzdxkc dvlleu.qezt{5pf9bws0}. Can you uncover their secret message using a classic letter substitution cipher?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{5sm9xbn0}
+ciphertext: ks cyndgatyzdxn, z pvwpgkgvgkas ckdxuy kp z fugxaj aq uscyndgkst ks hxkcx vskgp aq dezksgubg zyu yudezcuj hkgx gxu ckdxuygubg, ks z juqksuj fzssuy, hkgx gxu xued aq z run; gxu "vskgp" fzn wu pksteu eugguyp (gxu fapg caffas), dzkyp aq eugguyp, gykdeugp aq eugguyp, fkbgvyup aq gxu zwaou, zsj pa qaygx. gxu yucukouy juckdxuyp gxu gubg wn duyqayfkst gxu ksouypu pvwpgkgvgkas dyacupp ga ubgyzcg gxu ayktksze fuppztu. ekruhkpu, mzcivup ivkcren lkdduj gxyavtx z ivupgkas as luya-rsaheujtu dyaaqp, uspvykst sa cykgkcze eugguy hzp euqg avg aq avy cyndgatyzdxkc dvlleu.qezt{5pf9bws0}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'z', 'b': 'w', 'c': 'c', 'd': 'j', 'e': 'u', 'f': 'q', 'g': 't', 'h': 'x', 'i': 'k', 'j': 'm', 'k': 'r', 'l': 'e', 'm': 'f', 'n': 's', 'o': 'a', 'p': 'd', 'q': 'i', 'r': 'y', 's': 'p', 't': 'g', 'u': 'v', 'v': 'o', 'w': 'h', 'x': 'b', 'y': 'n', 'z': 'l'}
+subtype: substitution
+archetype: classical_cipher

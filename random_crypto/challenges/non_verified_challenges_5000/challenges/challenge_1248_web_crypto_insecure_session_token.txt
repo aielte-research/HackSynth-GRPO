@@ -1,0 +1,14 @@
+
+Someone leaked session tokens, encrypted with a weak scheme. Can you recover the admin's secret from this 757365725f73726e633a666c61677b31326f396c7a75757d3a31373438313635373833?
+
+
+---
+
+## Challenge Technical Details
+flag: flag{12o9lzuu}
+ciphertext: 757365725f73726e633a666c61677b31326f396c7a75757d3a31373438313635373833
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_srnc:flag{12o9lzuu}:1748165783'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

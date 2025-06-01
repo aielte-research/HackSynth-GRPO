@@ -1,0 +1,15 @@
+Agent Zero left a coded message for extraction; only a simple letter swap stands between you and the location. Can you decipher fl kcmjwrgcqjum, q estewfwswfrl kfjunc fe q dnwury rz nlkcmjwflg fl vufku slfwe rz joqflwnbw qcn cnjoqkny vfwu wun kfjuncwnbw, fl q ynzflny dqllnc, vfwu wun unoj rz q anm; wun "slfwe" dqm tn eflgon onwwnce (wun drew krddrl), jqfce rz onwwnce, wcfjonwe rz onwwnce, dfbwscne rz wun qtrxn, qly er zrcwu. wun cnknfxnc ynkfjunce wun wnbw tm jnczrcdflg wun flxncen estewfwswfrl jcrknee wr nbwcqkw wun rcfgflqo dneeqgn. ofanvfen, iqkhsne hsfkaom pfjjny wucrsgu q hsnewfrl rl pncr-alrvonygn jcrrze, nlescflg lr kcfwfkqo onwwnc vqe onzw rsw rz rsc kcmjwrgcqjufk jsppon.zoqg{h8qx8lql}?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{q8av8nan}
+ciphertext: fl kcmjwrgcqjum, q estewfwswfrl kfjunc fe q dnwury rz nlkcmjwflg fl vufku slfwe rz joqflwnbw qcn cnjoqkny vfwu wun kfjuncwnbw, fl q ynzflny dqllnc, vfwu wun unoj rz q anm; wun "slfwe" dqm tn eflgon onwwnce (wun drew krddrl), jqfce rz onwwnce, wcfjonwe rz onwwnce, dfbwscne rz wun qtrxn, qly er zrcwu. wun cnknfxnc ynkfjunce wun wnbw tm jnczrcdflg wun flxncen estewfwswfrl jcrknee wr nbwcqkw wun rcfgflqo dneeqgn. ofanvfen, iqkhsne hsfkaom pfjjny wucrsgu q hsnewfrl rl pncr-alrvonygn jcrrze, nlescflg lr kcfwfkqo onwwnc vqe onzw rsw rz rsc kcmjwrgcqjufk jsppon.zoqg{h8qx8lql}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'q', 'b': 't', 'c': 'k', 'd': 'y', 'e': 'n', 'f': 'z', 'g': 'g', 'h': 'u', 'i': 'f', 'j': 'i', 'k': 'a', 'l': 'o', 'm': 'd', 'n': 'l', 'o': 'r', 'p': 'j', 'q': 'h', 'r': 'c', 's': 'e', 't': 'w', 'u': 's', 'v': 'x', 'w': 'v', 'x': 'b', 'y': 'm', 'z': 'p'}
+subtype: substitution
+archetype: classical_cipher

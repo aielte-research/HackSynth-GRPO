@@ -1,0 +1,17 @@
+An archaeologist unearths a mysterious note with encoded coordinates. Decipher the message using the Playfair cipher: qndrheslchoekolampmrheslchmyztencryelahqtupodrheslchoekolaoltvnvotehtspsrvynoiareoxruhpoyaaiohztvcpaqetulahkmyyhhulyehckwmvntxgxuhuxuhpoionklyhfvqptrtby
+
+The flag format is flag{...}
+The keyword is: gqqzbwgv
+
+---
+
+## Challenge Technical Details
+flag: flag{0nn2y6w3}
+ciphertext: qndrheslchoekolampmrheslchmyztencryelahqtupodrheslchoekolaoltvnvotehtspsrvynoiareoxruhpoyaaiohztvcpaqetulahkmyyhhulyehckwmvntxgxuhuxuhpoionklyhfvqptrtby
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: gqqzbwgv
+extra_info: The playfair table is [['g', 'q', 'z', 'b', 'w'], ['v', 'a', 'c', 'd', 'e'], ['f', 'h', 'i', 'k', 'l'], ['m', 'n', 'o', 'p', 'r'], ['s', 't', 'u', 'x', 'y']]
+subtype: playfair
+archetype: classical_cipher

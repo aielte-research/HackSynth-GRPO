@@ -1,0 +1,21 @@
+
+A rushed startup hashed user secrets with SHA-256 and reused predictable salts. Can you recover the original value from e77d6b8628b44e2542ae0216ec661153beb51083ae04fb1f362836dd2f259551 using this poor randomness?
+
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{6sz}
+ciphertext: e77d6b8628b44e2542ae0216ec661153beb51083ae04fb1f362836dd2f259551
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

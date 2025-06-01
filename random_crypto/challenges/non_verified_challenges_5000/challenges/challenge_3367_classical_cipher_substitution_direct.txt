@@ -1,0 +1,21 @@
+A secret society encodes meeting locations using a substitution cipher. Decode the message: zbri{0i53pr4k} to find their next rendezvous.
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'r', 'b': 'u', 'c': 'y', 'd': 'q', 'e': 's', 'f': 'z', 'g': 'i', 'h': 'a', 'i': 'x', 'j': 'w', 'k': 'j', 'l': 'b', 'm': 'g', 'n': 'v', 'o': 'd', 'p': 'p', 'q': 't', 'r': 'm', 's': 'k', 't': 'n', 'u': 'e', 'v': 'c', 'w': 'l', 'x': 'h', 'y': 'o', 'z': 'f'}
+
+---
+
+## Challenge Technical Details
+flag: flag{0g53pa4s}
+cipher: Substitution
+ciphertext: zbri{0i53pr4k}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'r', 'b': 'u', 'c': 'y', 'd': 'q', 'e': 's', 'f': 'z', 'g': 'i', 'h': 'a', 'i': 'x', 'j': 'w', 'k': 'j', 'l': 'b', 'm': 'g', 'n': 'v', 'o': 'd', 'p': 'p', 'q': 't', 'r': 'm', 's': 'k', 't': 'n', 'u': 'e', 'v': 'c', 'w': 'l', 'x': 'h', 'y': 'o', 'z': 'f'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

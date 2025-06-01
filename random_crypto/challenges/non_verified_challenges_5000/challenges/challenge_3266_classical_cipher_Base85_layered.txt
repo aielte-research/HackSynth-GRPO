@@ -1,0 +1,15 @@
+A hacker left a secret message encoded in Base85 on a sticky note: Q8+6$C09T(Kr2)>FllT?Dp5>4T0>tyaZhPwOiNd6Y-Ax&En-MNO>0s&Bu7R=L|##0O;u=GLL*pDL~d?ON=$JvP-9{=SXOycT3B{dLtr#MUP@RcXDCl;DRp^AYCk-FPitsXD^71XBxF!%WNAfCWB. Can you decode it to reveal their password?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{d3x3d96f}
+cipher: Base85
+ciphertext: Q8+6$C09T(Kr2)>FllT?Dp5>4T0>tyaZhPwOiNd6Y-Ax&En-MNO>0s&Bu7R=L|##0O;u=GLL*pDL~d?ON=$JvP-9{=SXOycT3B{dLtr#MUP@RcXDCl;DRp^AYCk-FPitsXD^71XBxF!%WNAfCWB
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 10 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

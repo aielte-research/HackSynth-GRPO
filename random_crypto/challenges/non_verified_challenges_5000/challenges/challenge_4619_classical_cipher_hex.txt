@@ -1,0 +1,14 @@
+An old hacker left you a treasure clue encoded in hex. Can you reveal the message within? Ciphertext: 666c61677b33303577767166627d
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{305wvqfb}
+cipher: Hex
+ciphertext: 666c61677b33303577767166627d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+Intercepted from a hacker's chat, this message was encoded using an ASCII Shift cipher. Can you recover the secret words? Ciphertext: jpek4puw57{;
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{0lqs13w7}
+cipher: ASCII Shift
+ciphertext: jpek4puw57{;
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 4
+subtype: ascii_shift
+archetype: classical_cipher

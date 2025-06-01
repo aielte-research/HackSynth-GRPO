@@ -1,0 +1,14 @@
+A hacker left a message in your server logs. It’s encoded in Hex. Decode it to reveal a clue: 666c61677b3565656c757934347d
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{5eeluy44}
+cipher: Hex
+ciphertext: 666c61677b3565656c757934347d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

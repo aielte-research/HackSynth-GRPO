@@ -1,0 +1,19 @@
+An old security camera sent logs encrypted with a weak LFSR-based cipher. Intercept the message: 7d7c7a7760672e237a722c772a6d
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[17035, 8517, 4258, 34897, 50216, 25108, 45322, 55429, 27714, 13857]
+
+---
+
+## Challenge Technical Details
+flag: flag{w53ab7g1}
+ciphertext: 7d7c7a7760672e237a722c772a6d
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[17035, 8517, 4258, 34897, 50216, 25108, 45322, 55429, 27714, 13857]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

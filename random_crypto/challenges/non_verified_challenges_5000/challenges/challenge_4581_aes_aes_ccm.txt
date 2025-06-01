@@ -1,0 +1,20 @@
+
+Intercepted communications from a secretive syndicate were found. Hidden in the message below, their plans remain secure—unless you can unlock them using AES. Ciphertext: ciphertext1:14d372673417e11996e00c3fd28b, ciphertext2: 14d37267341ee34992a61a7dc48b
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{spbvvoqx}
+ciphertext: ciphertext1:14d372673417e11996e00c3fd28b, ciphertext2: 14d37267341ee34992a61a7dc48b
+tag1: 25bd837ad71950bfabff13c8c5ef8f42
+tag2: d2fede32db1510821a08746b6311aed8
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 44051fa7cb46adf6922343
+subtype: aes_ccm
+archetype: aes

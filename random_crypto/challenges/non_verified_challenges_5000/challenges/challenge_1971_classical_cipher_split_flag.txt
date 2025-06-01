@@ -1,0 +1,17 @@
+
+Agent Prism hid the vault code using her SplitNumberMix cipher. Recover the secret from this scrambled message:  555555555 flag{bsa 555555555 xeefu} 555555555 
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{bsaxeefu}
+ciphertext:  555555555 flag{bsa 555555555 xeefu} 555555555 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 2 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

@@ -1,0 +1,21 @@
+
+A hacker hid a code in a message scrambled by a time-based PRNG cipher. Can you recover the original text from this 666cee317b65bc623767bc2c6c7d using your crypto skills?
+
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 96817)
+The system time when the encryption process started was around: 2025-05-25 12:04:22 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{e347g3zl}
+ciphertext: 666cee317b65bc623767bc2c6c7d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 96817)
+The system time when the encryption process started was around: 2025-05-25 12:04:22 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 36694.
+subtype: time_based_seed
+archetype: prng

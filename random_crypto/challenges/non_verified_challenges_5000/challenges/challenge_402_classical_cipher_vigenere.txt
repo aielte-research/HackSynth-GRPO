@@ -1,0 +1,16 @@
+An anonymous hacker left a cryptic note for their partner. Can you break the Vigenère cipher and reveal the message? The encrypted text is: sdcu{v8scka4f}
+
+The flag format is flag{...}
+The keyword is: nscog
+
+---
+
+## Challenge Technical Details
+flag: flag{p8fkim4z}
+ciphertext: sdcu{v8scka4f}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: nscog
+subtype: vigenere
+archetype: classical_cipher

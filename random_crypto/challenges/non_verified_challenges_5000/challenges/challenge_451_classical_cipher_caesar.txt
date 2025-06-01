@@ -1,0 +1,15 @@
+A secret order encodes their meeting place with Caesar's old cipher. Can you reveal the hidden message? Here is their note: ntio{wqzb6ldc}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{oirt6dvu}
+ciphertext: ntio{wqzb6ldc}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 8
+subtype: caesar
+archetype: classical_cipher

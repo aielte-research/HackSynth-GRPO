@@ -1,0 +1,15 @@
+An agent encoded the password for the secret vault using Base64. Decode ZmxhZ3tpZG5iNXFsdX0= to reveal the vault password.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{idnb5qlu}
+cipher: Base64
+ciphertext: ZmxhZ3tpZG5iNXFsdX0=
+hint: Use a Base64 decoder to obtain the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is direct; no additional layers or tricks.
+subtype: Base64
+archetype: classical_cipher

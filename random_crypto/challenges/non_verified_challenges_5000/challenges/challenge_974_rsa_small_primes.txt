@@ -1,0 +1,18 @@
+Dr. Cipherbot encrypted his secret using RSA, but in his haste, he chose two tiny primes. Crack his message: 1967646632481776819
+
+The flag format is flag{...}
+n=5949283858333497089, e=3955122093092460595
+
+---
+
+## Challenge Technical Details
+flag: flag{wyp6vslg}
+cipher: RSA
+ciphertext: 1967646632481776819
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=5949283858333497089, e=3955122093092460595
+extra_info: p=2308069177, q=2577602057, φ(n)=5949283853447825856
+subtype: small_primes
+archetype: rsa

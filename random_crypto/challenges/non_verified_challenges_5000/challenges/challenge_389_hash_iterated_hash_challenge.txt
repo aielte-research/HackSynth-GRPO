@@ -1,0 +1,24 @@
+Decrypt the message hidden by a hacker, who obscured their secret with a SHA-256 hash: b7e5e2cd19d370af834694ffb0988fb0e4ce1c009836d0df71efb4d607fb769b
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{vcb4}
+ciphertext: b7e5e2cd19d370af834694ffb0988fb0e4ce1c009836d0df71efb4d607fb769b
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

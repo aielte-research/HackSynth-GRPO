@@ -1,0 +1,14 @@
+An old scroll encodes the vault password using an ancient mirror cipher. Can you reveal the secret message? uozt{cloqzjnq}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{xoljaqmj}
+cipher: Atbash
+ciphertext: uozt{cloqzjnq}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

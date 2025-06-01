@@ -1,0 +1,17 @@
+Agent M hid crucial coordinates in a message to evade interception. Decipher pehtotvbcoxshaigxlwtotvbcotendtxilvxigbfesqohtotvbcoxshaigxectofwhtodrovlgstoihlsxwbaeqosluiohnditquxpesigagtesrealttockevfozctdaepsaeqoiounlttmfiipphcr using the Playfair cipher to retrieve the target location.
+
+The flag format is flag{...}
+The keyword is: tfpabszu
+
+---
+
+## Challenge Technical Details
+flag: flag{haw8us31}
+ciphertext: pehtotvbcoxshaigxlwtotvbcotendtxilvxigbfesqohtotvbcoxshaigxectofwhtodrovlgstoihlsxwbaeqosluiohnditquxpesigagtesrealttockevfozctdaepsaeqoiounlttmfiipphcr
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: tfpabszu
+extra_info: The playfair table is [['t', 'f', 'p', 'a', 'b'], ['s', 'z', 'u', 'c', 'd'], ['e', 'g', 'h', 'i', 'k'], ['l', 'm', 'n', 'o', 'q'], ['r', 'v', 'w', 'x', 'y']]
+subtype: playfair
+archetype: classical_cipher

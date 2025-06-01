@@ -1,0 +1,19 @@
+
+A spy left a secret message for extraction. Decode the Playfair-encrypted text below to reveal their safehouse location: yafohuxbldcmpxubuslshuxbldczohuagvacubwanzpofohuxbldcmpxublmnrdroauhqzizgczamfwomcxqxdpovwbrpdohwutndwnzubipczxadxcuuhgkmurdorcqxdvaxdpofmqlcuifudtvxpqbfl
+
+
+The flag format is flag{...}
+The keyword is: aulhrwef
+
+---
+
+## Challenge Technical Details
+flag: flag{ztpj3khl}
+ciphertext: yafohuxbldcmpxubuslshuxbldczohuagvacubwanzpofohuxbldcmpxublmnrdroauhqzizgczamfwomcxqxdpovwbrpdohwutndwnzubipczxadxcuuhgkmurdorcqxdvaxdpofmqlcuifudtvxpqbfl
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: aulhrwef
+extra_info: The playfair table is [['a', 'u', 'l', 'h', 'r'], ['w', 'e', 'f', 'b', 'c'], ['d', 'g', 'i', 'k', 'm'], ['n', 'o', 'p', 'q', 's'], ['t', 'v', 'x', 'y', 'z']]
+subtype: playfair
+archetype: classical_cipher

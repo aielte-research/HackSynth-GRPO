@@ -1,0 +1,15 @@
+A stolen laptop's encrypted disk was imaged. Only ciphertext1:9423338ccff06a5199ffb21f7f0b9561, ciphertext2: d11c8344b0f9035735106b2538dfa20a0ca73ed228a76ee1a1886a1ffa8af012 remains from an important file. Can you recover its plaintext with knowledge of AES-XTS?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{s3vufxy1}
+ciphertext: ciphertext1:9423338ccff06a5199ffb21f7f0b9561, ciphertext2: d11c8344b0f9035735106b2538dfa20a0ca73ed228a76ee1a1886a1ffa8af012
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 50a284f4ca210617d5008950713c0f54
+subtype: aes_xts
+archetype: aes

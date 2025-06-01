@@ -1,0 +1,21 @@
+An agent left a secret message for HQ. It's hidden using a simple substitution cipher. Can you decode thus{s2dure2v} to reveal the instructions?
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'u', 'b': 'b', 'c': 'c', 'd': 'k', 'e': 'j', 'f': 't', 'g': 's', 'h': 'q', 'i': 'g', 'j': 'd', 'k': 'r', 'l': 'h', 'm': 'm', 'n': 'f', 'o': 'n', 'p': 'o', 'q': 'l', 'r': 'y', 's': 'e', 't': 'x', 'u': 'i', 'v': 'z', 'w': 'a', 'x': 'w', 'y': 'p', 'z': 'v'}
+
+---
+
+## Challenge Technical Details
+flag: flag{g2jaks2z}
+cipher: Substitution
+ciphertext: thus{s2dure2v}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'u', 'b': 'b', 'c': 'c', 'd': 'k', 'e': 'j', 'f': 't', 'g': 's', 'h': 'q', 'i': 'g', 'j': 'd', 'k': 'r', 'l': 'h', 'm': 'm', 'n': 'f', 'o': 'n', 'p': 'o', 'q': 'l', 'r': 'y', 's': 'e', 't': 'x', 'u': 'i', 'v': 'z', 'w': 'a', 'x': 'w', 'y': 'p', 'z': 'v'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

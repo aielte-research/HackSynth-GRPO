@@ -1,0 +1,19 @@
+Someone reused the same two-digit salt with SHA-256 to hash secret codes. Can you recover the original from this hash: 8e421af78d186abef14345ea5accacca08b1370b91684aa1b81719a0daf94979?
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{a4p}
+ciphertext: 8e421af78d186abef14345ea5accacca08b1370b91684aa1b81719a0daf94979
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

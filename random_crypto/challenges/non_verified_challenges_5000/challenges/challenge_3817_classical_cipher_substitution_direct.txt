@@ -1,0 +1,23 @@
+
+Intercepted agent notes are scrambled using a simple letter-to-letter substitution. Can you reveal the secret message hidden in efsz{8cklyycq}?
+
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 's', 'b': 'c', 'c': 'j', 'd': 'n', 'e': 'q', 'f': 'e', 'g': 'z', 'h': 'm', 'i': 'o', 'j': 't', 'k': 'b', 'l': 'f', 'm': 'w', 'n': 'r', 'o': 'x', 'p': 'l', 'q': 'u', 'r': 'y', 's': 'g', 't': 'v', 'u': 'a', 'v': 'h', 'w': 'd', 'x': 'k', 'y': 'i', 'z': 'p'}
+
+---
+
+## Challenge Technical Details
+flag: flag{8bxprrbe}
+cipher: Substitution
+ciphertext: efsz{8cklyycq}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 's', 'b': 'c', 'c': 'j', 'd': 'n', 'e': 'q', 'f': 'e', 'g': 'z', 'h': 'm', 'i': 'o', 'j': 't', 'k': 'b', 'l': 'f', 'm': 'w', 'n': 'r', 'o': 'x', 'p': 'l', 'q': 'u', 'r': 'y', 's': 'g', 't': 'v', 'u': 'a', 'v': 'h', 'w': 'd', 'x': 'k', 'y': 'i', 'z': 'p'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

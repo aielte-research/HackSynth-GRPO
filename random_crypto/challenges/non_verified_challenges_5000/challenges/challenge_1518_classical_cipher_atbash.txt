@@ -1,0 +1,14 @@
+An ancient scroll reveals a code. Legends say it hides a secret, readable only by reversing the alphabet. Can you decipher this hidden message? uozt{ri0q8vfy}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ir0j8eub}
+cipher: Atbash
+ciphertext: uozt{ri0q8vfy}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

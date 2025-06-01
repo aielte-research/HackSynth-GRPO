@@ -1,0 +1,17 @@
+
+The vault’s code is hidden using SplitNumberMix. Only those who decode  3333333 flag{ 3333333 mfrvyx 3333333 be 3333333 } 3333333  can claim the lost digital treasure.
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{mfrvyxbe}
+ciphertext:  3333333 flag{ 3333333 mfrvyx 3333333 be 3333333 } 3333333 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 4 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

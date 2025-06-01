@@ -1,0 +1,14 @@
+The hacker left a coded message in hex at the breach site. Can you decode 666c61677b397278663978666f7d to reveal the secret?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{9rxf9xfo}
+cipher: Hex
+ciphertext: 666c61677b397278663978666f7d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

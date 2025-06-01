@@ -1,0 +1,15 @@
+An agent left a password encoded in Base85. Can you recover it from this ciphertext: Q8;r{Qc74PHh5S&G<irvP-j0sWlKFWMo=a#WMoD=U`J$GEmdo8L~vI|Nl{e?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{utjtklsa}
+cipher: Base85
+ciphertext: Q8;r{Qc74PHh5S&G<irvP-j0sWlKFWMo=a#WMoD=U`J$GEmdo8L~vI|Nl{e
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 6 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

@@ -1,0 +1,21 @@
+A hacker intercepted a coded message. Knowing only that it's a classic substitution cipher, can you reveal its secret? Here's the ciphertext: dsyf{33ao86ub}
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'y', 'b': 'r', 'c': 'm', 'd': 'k', 'e': 'w', 'f': 'd', 'g': 'f', 'h': 'v', 'i': 'a', 'j': 'h', 'k': 'p', 'l': 's', 'm': 'l', 'n': 'q', 'o': 'u', 'p': 'g', 'q': 'j', 'r': 'i', 's': 'z', 't': 'o', 'u': 't', 'v': 'n', 'w': 'c', 'x': 'b', 'y': 'x', 'z': 'e'}
+
+---
+
+## Challenge Technical Details
+flag: flag{33it86ox}
+cipher: Substitution
+ciphertext: dsyf{33ao86ub}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'y', 'b': 'r', 'c': 'm', 'd': 'k', 'e': 'w', 'f': 'd', 'g': 'f', 'h': 'v', 'i': 'a', 'j': 'h', 'k': 'p', 'l': 's', 'm': 'l', 'n': 'q', 'o': 'u', 'p': 'g', 'q': 'j', 'r': 'i', 's': 'z', 't': 'o', 'u': 't', 'v': 'n', 'w': 'c', 'x': 'b', 'y': 'x', 'z': 'e'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

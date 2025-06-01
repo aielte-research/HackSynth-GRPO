@@ -1,0 +1,19 @@
+Intercepted at the hacker convention: a message scrambled using a flawed stream cipher. Can you break the LFSR Weakness and recover the flag? Ciphertext: ab3dac36b627bc30ba24ba33f92c
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[17582, 41559, 20779, 43157, 21578, 43557, 54546, 27273, 13636, 39586]
+
+---
+
+## Challenge Technical Details
+flag: flag{vqawuwb4}
+ciphertext: ab3dac36b627bc30ba24ba33f92c
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[17582, 41559, 20779, 43157, 21578, 43557, 54546, 27273, 13636, 39586]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

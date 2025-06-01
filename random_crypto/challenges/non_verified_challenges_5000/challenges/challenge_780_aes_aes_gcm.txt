@@ -1,0 +1,18 @@
+An intern encrypted two secrets with AES-GCM but accidentally reused the nonce. Now both ciphertexts—ciphertext1:64e5dfc8fa9a7a257dcb8ee8b5e9, ciphertext2: 76e1d7dca184607372c699bce0b4c4fd2536—might reveal more than intended. Can you recover the secrets?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{wivabct4}
+ciphertext: ciphertext1:64e5dfc8fa9a7a257dcb8ee8b5e9, ciphertext2: 76e1d7dca184607372c699bce0b4c4fd2536
+tag1: d2ac8fa2d9a618426b4f5bd42324eeba
+tag2: 4683e8f14947d74f1d981f14390893e0
+cipher: AES-GCM
+vulnerability: nonce reuse
+hint: AES-GCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 8920ded84bdc753359298fa5
+subtype: aes_gcm
+archetype: aes

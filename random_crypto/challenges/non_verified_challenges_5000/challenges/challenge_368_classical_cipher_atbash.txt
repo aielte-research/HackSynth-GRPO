@@ -1,0 +1,16 @@
+
+An ancient code scroll is found, its message reversed by a forgotten cipher. Can you decipher uozt{tshk81uk} to reveal the secret?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ghsp81fp}
+cipher: Atbash
+ciphertext: uozt{tshk81uk}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

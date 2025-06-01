@@ -1,0 +1,15 @@
+A hacker left a mysterious note, encrypted with SplitNumberMix cipher. Can you break it to reveal the secret code? Ciphertext:  22222222 flag{yl 22222222 cvufjm} 22222222 
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ylcvufjm}
+ciphertext:  22222222 flag{yl 22222222 cvufjm} 22222222 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 2 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

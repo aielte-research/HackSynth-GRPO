@@ -1,0 +1,15 @@
+An old hacker left a secret in the blockchain. It's hidden with her favorite ASCII Shift cipher. Can you recover the original message from this ciphertext: ntioi>ts=zr?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{xa6lk5rj}
+cipher: ASCII Shift
+ciphertext: ntioi>ts=zr
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 8
+subtype: ascii_shift
+archetype: classical_cipher

@@ -1,0 +1,14 @@
+
+A hasty developer rolled out an "in-house" session token cipher. Can you recover the user's email from this insecure implementation? Ciphertext: 757365725f7a7933633a666c61677b6b7134327a6e76627d3a31373438313637363830
+
+
+---
+
+## Challenge Technical Details
+flag: flag{kq42znvb}
+ciphertext: 757365725f7a7933633a666c61677b6b7134327a6e76627d3a31373438313637363830
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_zy3c:flag{kq42znvb}:1748167680'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

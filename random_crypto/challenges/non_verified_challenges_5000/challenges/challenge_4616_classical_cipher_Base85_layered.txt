@@ -1,0 +1,17 @@
+
+A hacker left a message encoded in Base85. Can you reveal their secret? Ciphertext: Q8;r{Qc74PHh5S&G<irvU{!5>N`5{mRZlHHGfQGLUu#ECDMloEV^Vk_JyKE
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{9rutmwdo}
+cipher: Base85
+ciphertext: Q8;r{Qc74PHh5S&G<irvU{!5>N`5{mRZlHHGfQGLUu#ECDMloEV^Vk_JyKE
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 6 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

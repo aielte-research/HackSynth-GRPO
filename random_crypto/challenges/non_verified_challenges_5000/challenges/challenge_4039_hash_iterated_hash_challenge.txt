@@ -1,0 +1,26 @@
+
+A hacker leaked a secret message—can you recover it? They used SHA-256 as a lock. The ciphertext is: 4e505d16e4eae14eb62c636f86ce7fdd42aea1138d5842f852d096e598ed8112
+
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{184k}
+ciphertext: 4e505d16e4eae14eb62c636f86ce7fdd42aea1138d5842f852d096e598ed8112
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

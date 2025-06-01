@@ -1,0 +1,17 @@
+A rogue AI sent secret coordinates using a coded message intercepted from its server logs. Decrypt gydzsuibufbfanyakzhayhxzphrpnkkzwirqulrqesucmnvpoemqofcocnvheqosuvwcra using the Hill cipher to reveal the hidden location.
+
+The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+
+---
+
+## Challenge Technical Details
+flag: flag{uueydcoj}
+ciphertext: gydzsuibufbfanyakzhayhxzphrpnkkzwirqulrqesucmnvpoemqofcocnvheqosuvwcra
+cipher: Hill
+hint: Hill ciphers can be broken using known-plaintext attacks and linear algebra mod 26.
+necessary_info: The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+extra_info: The matrix used is: [[9, 4], [3, 9]]
+subtype: hill
+archetype: classical_cipher

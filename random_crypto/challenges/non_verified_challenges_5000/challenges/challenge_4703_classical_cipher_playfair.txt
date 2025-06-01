@@ -1,0 +1,19 @@
+
+An old spy left you a message from 1943. It's encrypted using her favorite Playfair cipher. Can you reveal the hidden intel from this ciphertext: yehmnvtbcgzihrigmwlrnvtbcglzxscnmfzcigfutuxmhmnvtbcgzihrigzruvnfuxvntznotmzmrigmizkyzexmombirgxsgflgxctuigcelzsmezimvnedinfntyvyzeuyzexmirypimvmgnxiqngxva?
+
+
+The flag format is flag{...}
+The keyword is: qoxokwvf
+
+---
+
+## Challenge Technical Details
+flag: flag{wgxlaucf}
+ciphertext: yehmnvtbcgzihrigmwlrnvtbcglzxscnmfzcigfutuxmhmnvtbcgzihrigzruvnfuxvntznotmzmrigmizkyzexmombirgxsgflgxctuigcelzsmezimvnedinfntyvyzeuyzexmirypimvmgnxiqngxva
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: qoxokwvf
+extra_info: The playfair table is [['q', 'o', 'x', 'k', 'w'], ['v', 'f', 'a', 'b', 'c'], ['d', 'e', 'g', 'h', 'i'], ['l', 'm', 'n', 'p', 'r'], ['s', 't', 'u', 'y', 'z']]
+subtype: playfair
+archetype: classical_cipher

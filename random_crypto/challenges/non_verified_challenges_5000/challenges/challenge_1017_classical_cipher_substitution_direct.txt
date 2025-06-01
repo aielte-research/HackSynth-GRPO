@@ -1,0 +1,21 @@
+The hacker left a coded message using a letter-for-letter Substitution cipher. Can you uncover the original text from this mysterious ciphertext? Here it is: pezj{8zqn9ps2}
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'z', 'b': 'y', 'c': 'n', 'd': 'b', 'e': 'h', 'f': 'p', 'g': 'j', 'h': 'x', 'i': 'v', 'j': 's', 'k': 'i', 'l': 'e', 'm': 'w', 'n': 'c', 'o': 'q', 'p': 'a', 'q': 'l', 'r': 'r', 's': 'u', 't': 'f', 'u': 'm', 'v': 'd', 'w': 'g', 'x': 'o', 'y': 't', 'z': 'k'}
+
+---
+
+## Challenge Technical Details
+flag: flag{8aoc9fj2}
+cipher: Substitution
+ciphertext: pezj{8zqn9ps2}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'z', 'b': 'y', 'c': 'n', 'd': 'b', 'e': 'h', 'f': 'p', 'g': 'j', 'h': 'x', 'i': 'v', 'j': 's', 'k': 'i', 'l': 'e', 'm': 'w', 'n': 'c', 'o': 'q', 'p': 'a', 'q': 'l', 'r': 'r', 's': 'u', 't': 'f', 'u': 'm', 'v': 'd', 'w': 'g', 'x': 'o', 'y': 't', 'z': 'k'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

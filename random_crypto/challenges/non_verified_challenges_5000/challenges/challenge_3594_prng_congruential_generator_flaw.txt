@@ -1,0 +1,27 @@
+An intern encrypted the server password with an LCG-based cipher but forgot to randomize the seed. Recover the plaintext from the ciphertext below: 72c860406fd77b4565c36e142cd9
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 452257401
+  - Multiplier: 297070387
+  - Increment: 256237505
+The first 5 outputs of the LCG are provided: [393141403, 417806091, 41527067, 10947310, 410962011] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{szbqgo38}
+ciphertext: 72c860406fd77b4565c36e142cd9
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 452257401
+  - Multiplier: 297070387
+  - Increment: 256237505
+The first 5 outputs of the LCG are provided: [393141403, 417806091, 41527067, 10947310, 410962011] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

@@ -1,0 +1,16 @@
+The admin encrypted the flag with your short password using AES-ECB, carelessly padding the key with null bytes. Can you recover the flag from fbe8052db1491afbc76cc5c3acc05597?
+
+An encryption key that is only 2 bytes long?.
+
+---
+
+## Challenge Technical Details
+flag: flag{fsx82ui0}
+ciphertext: fbe8052db1491afbc76cc5c3acc05597
+cipher: AES-ECB
+vulnerability: small key padded with null bytes
+hint: ECB mode with a short key makes brute-forcing possible. Consider the small key entropy.
+necessary_info: An encryption key that is only 2 bytes long?.
+extra_info: Padding follows PKCS#7. The key is padded to 16 bytes with null bytes.
+subtype: weak_cookie_encryption
+archetype: web_crypto

@@ -1,0 +1,15 @@
+Intercepted from a hacker's chatroom, this secret uses the enigmatic ChunkedFlag cipher. Can you recover the hidden flag from this mysterious message: fl ag {l au w7q k3 }?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{lauw7qk3}
+ciphertext: fl ag {l au w7q k3 }
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

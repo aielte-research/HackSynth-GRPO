@@ -1,0 +1,15 @@
+An artifact's coordinates were hidden by an explorer using SplitNumberMix. Can you reveal the hidden numbers in this cipher?  3333333 flag{qbera 3333333 nij} 3333333 
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{qberanij}
+ciphertext:  3333333 flag{qbera 3333333 nij} 3333333 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 2 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

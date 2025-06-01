@@ -1,0 +1,14 @@
+
+An intern deployed an app with insecure session tokens. Can you recover the original session data from this intercepted token? 757365725f3072726f3a666c61677b307868757a6130337d3a31373438313637343033
+
+
+---
+
+## Challenge Technical Details
+flag: flag{0xhuza03}
+ciphertext: 757365725f3072726f3a666c61677b307868757a6130337d3a31373438313637343033
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_0rro:flag{0xhuza03}:1748167403'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

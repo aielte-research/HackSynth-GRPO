@@ -1,0 +1,17 @@
+A hacker intercepted a secret spy message encrypted with Playfair. Can you decipher the following to reveal the rendezvous point? ztckagwgdsphudcfxtpkagwgdsltdvblfnxzcfbstisockagwgdsphudcfptygabivgaylfmqfzbuinvhpulinsonhecondvgqiqymticfcoltsrnihkgacuhlbaiyatinizinsoiurchkgxgshkbwmp
+
+The flag format is flag{...}
+The keyword is: pkxlrdqm
+
+---
+
+## Challenge Technical Details
+flag: flag{e7r4m7zd}
+ciphertext: ztckagwgdsphudcfxtpkagwgdsltdvblfnxzcfbstisockagwgdsphudcfptygabivgaylfmqfzbuinvhpulinsonhecondvgqiqymticfcoltsrnihkgacuhlbaiyatinizinsoiurchkgxgshkbwmp
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: pkxlrdqm
+extra_info: The playfair table is [['p', 'k', 'x', 'l', 'r'], ['d', 'q', 'm', 'a', 'b'], ['c', 'e', 'f', 'g', 'h'], ['i', 'n', 'o', 's', 't'], ['u', 'v', 'w', 'y', 'z']]
+subtype: playfair
+archetype: classical_cipher

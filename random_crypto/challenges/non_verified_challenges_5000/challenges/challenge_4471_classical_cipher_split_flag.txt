@@ -1,0 +1,15 @@
+Agent Nova left a secret code using the SplitNumberMix cipher. Can you uncover the hidden message in this transmission?  55555 f 55555 lag{lc 55555 mldc 55555 mb} 55555 
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{lcmldcmb}
+ciphertext:  55555 f 55555 lag{lc 55555 mldc 55555 mb} 55555 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 4 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

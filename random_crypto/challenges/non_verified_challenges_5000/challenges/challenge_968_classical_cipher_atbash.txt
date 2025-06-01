@@ -1,0 +1,14 @@
+A mysterious hacker left a note claiming, "Find my name, hidden in cipher!" Can you reveal it from this encoded message? uozt{bnftoq3t}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ymuglj3g}
+cipher: Atbash
+ciphertext: uozt{bnftoq3t}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+An encrypted code was left by a mysterious hacker. Can you crack the hidden message using the SplitNumberMix cipher? Ciphertext:  1111111 f 1111111 l 1111111 ag{lurj 1111111 qlww} 1111111 
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{lurjqlww}
+ciphertext:  1111111 f 1111111 l 1111111 ag{lurj 1111111 qlww} 1111111 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 4 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+A mysterious USB contains a file, encrypted with AES-XTS. Can you recover the original message from this ciphertext? ciphertext1:60fa8cf3bbf2a00c9b3cfcc3003a3fc7, ciphertext2: efc52cc4fbc72a9dc9b791e496923ec7ee59dffc09913fd3fae0abf0f17f00db
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{jf906jgv}
+ciphertext: ciphertext1:60fa8cf3bbf2a00c9b3cfcc3003a3fc7, ciphertext2: efc52cc4fbc72a9dc9b791e496923ec7ee59dffc09913fd3fae0abf0f17f00db
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: eb91f261f591cdb8f3f1f5968b64b47c
+subtype: aes_xts
+archetype: aes

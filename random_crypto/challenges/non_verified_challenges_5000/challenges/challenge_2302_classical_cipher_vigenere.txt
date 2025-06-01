@@ -1,0 +1,16 @@
+A hacker sent you a mysterious message encrypted with an old Vigenère cipher. Can you uncover the keyword and reveal their secret? The message: cbfa{kdzhfhyf}
+
+The flag format is flag{...}
+The keyword is: xqfu
+
+---
+
+## Challenge Technical Details
+flag: flag{nnunirtl}
+ciphertext: cbfa{kdzhfhyf}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: xqfu
+subtype: vigenere
+archetype: classical_cipher

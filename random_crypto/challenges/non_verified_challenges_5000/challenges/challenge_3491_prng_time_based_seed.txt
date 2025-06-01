@@ -1,0 +1,19 @@
+Intercepted last night: a secret agent's message encrypted with a Time-based PRNG. Can you unravel its secret code? Ciphertext: 666caf6d7b71bc3a3136a1636d7d
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 63122)
+The system time when the encryption process started was around: 2025-05-25 12:30:24 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{qr016oim}
+ciphertext: 666caf6d7b71bc3a3136a1636d7d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 63122)
+The system time when the encryption process started was around: 2025-05-25 12:30:24 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 52746.
+subtype: time_based_seed
+archetype: prng

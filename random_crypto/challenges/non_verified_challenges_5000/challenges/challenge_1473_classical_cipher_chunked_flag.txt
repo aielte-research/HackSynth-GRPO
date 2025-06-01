@@ -1,0 +1,17 @@
+
+Intercepted communications reveal the flag was split and scrambled using the ChunkedFlag cipher. Can you reconstruct the original message from this encrypted output: fl ag{ 0ox e5l g4 }?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{0oxe5lg4}
+ciphertext: fl ag{ 0ox e5l g4 }
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

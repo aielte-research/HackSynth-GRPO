@@ -1,0 +1,15 @@
+Agent Vortex scrambled the code before fleeing. Can you recover the hidden password from this reversed ciphertext? }4qgi0j7l{galf
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{l7j0igq4}
+ciphertext: }4qgi0j7l{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

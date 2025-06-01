@@ -1,0 +1,15 @@
+Intercepted message: bb01de4229538da04b43b5bbbf2fb2f0. Rumor has it the sender forgot MD5’s weaknesses. Can you reveal the original message by exploiting its reversibility flaw?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{HROVT}
+ciphertext: bb01de4229538da04b43b5bbbf2fb2f0
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

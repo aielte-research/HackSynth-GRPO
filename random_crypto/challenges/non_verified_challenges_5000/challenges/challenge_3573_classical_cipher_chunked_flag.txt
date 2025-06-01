@@ -1,0 +1,17 @@
+
+An intercepted message using the mysterious ChunkedFlag cipher hides the key to a secret vault. Can you recover the flag from this scrambled chunk sequence? fla g{b rbw 2e sn}
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{brbw2esn}
+ciphertext: fla g{b rbw 2e sn}
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

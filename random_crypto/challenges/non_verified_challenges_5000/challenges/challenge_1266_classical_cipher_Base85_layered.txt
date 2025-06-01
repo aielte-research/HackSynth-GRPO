@@ -1,0 +1,15 @@
+An agent left secret coordinates, encoded in Base85. Decode Q8+7fbYyZsPf15ALm_fVLM1IeN?KPfc2PuWSz=-}Q$9juF;8=GWOGPMFl16mF-%f=PHjR}b6__<SwbpCXkmCrc2-JxGGh to reveal the meeting location.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{xm2wj0ls}
+cipher: Base85
+ciphertext: Q8+7fbYyZsPf15ALm_fVLM1IeN?KPfc2PuWSz=-}Q$9juF;8=GWOGPMFl16mF-%f=PHjR}b6__<SwbpCXkmCrc2-JxGGh
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 8 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

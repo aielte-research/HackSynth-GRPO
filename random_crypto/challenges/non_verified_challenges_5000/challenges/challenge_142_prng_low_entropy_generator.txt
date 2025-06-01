@@ -1,0 +1,19 @@
+The security camera stores logs encrypted with a weak random number generator. Can you decrypt the message? Ciphertext: 666c61537b38635f37653007707d
+
+The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [474, 382, 273, 141, 190, 6, 346, 514, 474, 82, 342, 567, 41, 388, 173, 462, 432, 160, 172, 243]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 589)
+
+---
+
+## Challenge Technical Details
+flag: flag{8ck7e03p}
+ciphertext: 666c61537b38635f37653007707d
+cipher: Low-entropy PRNG
+hint: The PRNG seed space is small. You can try brute-forcing all possible seeds to reconstruct the sequence.
+necessary_info: The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [474, 382, 273, 141, 190, 6, 346, 514, 474, 82, 342, 567, 41, 388, 173, 462, 432, 160, 172, 243]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 589)
+extra_info: Since the seed has only 256 possible values, it can be brute-forced to recover the secret number and decrypt the flag.
+subtype: low_entropy_generator
+archetype: prng

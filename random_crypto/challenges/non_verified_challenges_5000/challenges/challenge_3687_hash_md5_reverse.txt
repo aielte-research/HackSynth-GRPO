@@ -1,0 +1,15 @@
+The thief left an MD5 hash as a clue. Rumor says this cipher is flawed. Can you exploit MD5’s weakness and reveal the original password from aafe2e2398a261aac9d0a449e4204625?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{hypsi}
+ciphertext: aafe2e2398a261aac9d0a449e4204625
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

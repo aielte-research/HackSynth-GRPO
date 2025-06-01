@@ -1,0 +1,292 @@
+tag2,necessary_info,hint,cipher,question,vulnerability,tag1,archetype,ciphertext,extra_info,mode,subtype,flag,difficulty
+,The flag format is flag{...},Caesar ciphers are easily broken by brute force or frequency analysis.,Caesar,"
+A Roman general left orders encrypted for his legions. Only those who grasp Caesar’s secret can reveal the message: zfua{5i5pebxb}
+
+
+The flag format is flag{...}",,,classical_cipher,zfua{5i5pebxb},The shift used is: 20,,caesar,flag{5o5vkhdh},easy
+,"The flag format is flag{...}
+The keyword is: mymj",Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.,Vigenère,"An intercepted message, encrypted by rebels using a classic cipher, was found. Can you recover their secret plan? Ciphertext: rjmp{0lsfi24y}
+
+The flag format is flag{...}
+The keyword is: mymj",,,classical_cipher,rjmp{0lsfi24y},,,vigenere,flag{0zutz24m},not defined
+,"The flag format is flag{...}
+The keyword is: wxrklqrp",Playfair is vulnerable to digraph frequency analysis.,Playfair,"A mysterious letter was found in Turing's desk. Can you decrypt the secret message using the Playfair cipher? The ciphertext is: zdmercvgqnlamqdfknxarcvgqnlnptfagmkxdfqvizsomercvgqnlamqdfwnncnpmvcrozupumvwsqfmalubwtsoudhsomptfpifrqizdfdnlnzwtwfxcritfkpnmzcowtuvwtsoqscefxhrbfotfimq
+
+The flag format is flag{...}
+The keyword is: wxrklqrp",,,classical_cipher,zdmercvgqnlamqdfknxarcvgqnlnptfagmkxdfqvizsomercvgqnlamqdfwnncnpmvcrozupumvwsqfmalubwtsoudhsomptfpifrqizdfdnlnzwtwfxcritfkpnmzcowtuvwtsoqscefxhrbfotfimq,"The playfair table is [['w', 'x', 'r', 'k', 'l'], ['q', 'p', 'a', 'b', 'c'], ['d', 'e', 'f', 'g', 'h'], ['i', 'm', 'n', 'o', 's'], ['t', 'u', 'v', 'y', 'z']]",,playfair,flag{j2y0dnip},not defined
+,"The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: ",Hill ciphers can be broken using known-plaintext attacks and linear algebra mod 26.,Hill,"An old professor left a puzzle in his journal—decode the cipher below using the right Hill matrix to find where he hid the key: skwfcerkhsulnaacjyntpywlchitbljygszlfwzluiiqnoipqgmqhyeqnycbmyfhimpsbq
+
+The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: ",,,classical_cipher,skwfcerkhsulnaacjyntpywlchitbljygszlfwzluiiqnoipqgmqhyeqnycbmyfhimpsbq,"The matrix used is: [[12, 23], [19, 2]]",,hill,flag{utfagcdi},not defined
+,The flag format is flag{...},Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.,Rail Fence,"
+An old hacker left a clue to his wallet's key, scrambled with the Rail Fence cipher. Can you decode fa{12lxlgldpi} to access the treasure?
+
+
+The flag format is flag{...}",,,classical_cipher,fa{12lxlgldpi},The rails value is: 2,,rail_fence,flag{l1d2plix},not defined
+,The flag format is flag{...},Simple substitution ciphers are susceptible to frequency analysis.,Substitution,"A hacker left a note in an old-school code. Can you decipher the message hidden within: zp wakmycnaembk, e dfrdyzyfyzcp wzmbla zd e ilybcq cv lpwakmyzpn zp sbzwb fpzyd cv mtezpylxy eal almtewlq szyb ybl wzmblaylxy, zp e qlvzplq ieppla, szyb ybl bltm cv e glk; ybl ""fpzyd"" iek rl dzpntl tlyylad (ybl icdy wciicp), mezad cv tlyylad, yazmtlyd cv tlyylad, izxyfald cv ybl ercul, epq dc vcayb. ybl alwlzula qlwzmblad ybl ylxy rk mlavcaizpn ybl zpuladl dfrdyzyfyzcp macwldd yc lxyaewy ybl caznzpet ilddenl. tzglszdl, hewjfld jfzwgtk ozmmlq ybacfnb e jfldyzcp cp olac-gpcstlqnl maccvd, lpdfazpn pc wazyzwet tlyyla sed tlvy cfy cv cfa wakmycnaembzw mfootl.vten{iniqyc5t}?
+
+The flag format is flag{...}",,,classical_cipher,"zp wakmycnaembk, e dfrdyzyfyzcp wzmbla zd e ilybcq cv lpwakmyzpn zp sbzwb fpzyd cv mtezpylxy eal almtewlq szyb ybl wzmblaylxy, zp e qlvzplq ieppla, szyb ybl bltm cv e glk; ybl ""fpzyd"" iek rl dzpntl tlyylad (ybl icdy wciicp), mezad cv tlyylad, yazmtlyd cv tlyylad, izxyfald cv ybl ercul, epq dc vcayb. ybl alwlzula qlwzmblad ybl ylxy rk mlavcaizpn ybl zpuladl dfrdyzyfyzcp macwldd yc lxyaewy ybl caznzpet ilddenl. tzglszdl, hewjfld jfzwgtk ozmmlq ybacfnb e jfldyzcp cp olac-gpcstlqnl maccvd, lpdfazpn pc wazyzwet tlyyla sed tlvy cfy cv cfa wakmycnaembzw mfootl.vten{iniqyc5t}","The substitution map is: {'a': 'e', 'b': 'r', 'c': 'w', 'd': 'q', 'e': 'l', 'f': 'v', 'g': 'n', 'h': 'b', 'i': 'z', 'j': 'h', 'k': 'g', 'l': 't', 'm': 'i', 'n': 'p', 'o': 'c', 'p': 'm', 'q': 'j', 'r': 'a', 's': 'd', 't': 'y', 'u': 'f', 'v': 'u', 'w': 's', 'x': 'x', 'y': 'k', 'z': 'o'}",,substitution,flag{mgmdto5l},not defined
+,The flag format is flag{...},Columnar transposition ciphers can be broken by analyzing column lengths and patterns.,Transposition,"An ancient hacker left a secret phrase in encrypted form. Only by undoing the strange rearrangement can you reveal it: yr,nicroneacrmdciirepifasni)oaghthlTpipretleylaegsaecialsouithsmitaxefostisconetfsaxianesssphfcwroosiorneocnsscplhGprlgaepmdeoAcciad)g8}cohroohloauohshepwsbhisaerootcieasssnicrrnfn(cccoucc)rtgsmoaetheaoptTifutnehohtsniptuthtieveeieenstnstpitreb,hrcreDcrmhqtrohieraEpSaElqsrgyasneswptneaonthcletorrasnhhnccte.stisdipttahtrphtadouytdcrwirtflehfrbucrinahiotleteahtmestfnttpidtieoheniaiiistFiopiuyynokmnnnttrSazrIpaasti(karti)eorocasoocc(stwuntaeevroohersaxplrrrorrcnratpcpeiauohityemtip,htgpiuoitndgute.ieeeeasnutnasyfoeitahieVhcehlntestdderon(.{mntptpipansmipitfynhmtsnhttpiitghrrmeasneouoitiyasofasogererehxcptnen.drsiohwdceoonfnbscenhlDtdrbeniabuot,atmdnolekAXeox-icitlhevdyndAffi
+
+The flag format is flag{...}",,,classical_cipher,"yr,nicroneacrmdciirepifasni)oaghthlTpipretleylaegsaecialsouithsmitaxefostisconetfsaxianesssphfcwroosiorneocnsscplhGprlgaepmdeoAcciad)g8}cohroohloauohshepwsbhisaerootcieasssnicrrnfn(cccoucc)rtgsmoaetheaoptTifutnehohtsniptuthtieveeieenstnstpitreb,hrcreDcrmhqtrohieraEpSaElqsrgyasneswptneaonthcletorrasnhhnccte.stisdipttahtrphtadouytdcrwirtflehfrbucrinahiotleteahtmestfnttpidtieoheniaiiistFiopiuyynokmnnnttrSazrIpaasti(karti)eorocasoocc(stwuntaeevroohersaxplrrrorrcnratpcpeiauohityemtip,htgpiuoitndgute.ieeeeasnutnasyfoeitahieVhcehlntestdderon(.{mntptpipansmipitfynhmtsnhttpiitghrrmeasneouoitiyasofasogererehxcptnen.drsiohwdceoonfnbscenhlDtdrbeniabuot,atmdnolekAXeox-icitlhevdyndAffi","The key length is 5, and the key order is [4, 2, 3, 0, 1].",,transposition,flag{fqz8misr},not defined
+,"The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: In each case, the resulting plaintext appears almost random.
+The seed lenght is 3 and only alphabetic characters count.","Autokey ciphers are vulnerable once enough plaintext is known, allowing reconstruction of the key.",Autokey,"An old hacker left a message, but the key vanished. Can you recover the original password hidden in this Autokey-ciphered note? The ciphertext: cv cipu gaul, gje jirheamax tdutgbrdg papmnkw xezohi vaevbm.qxoy{8j76okes}
+
+The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: In each case, the resulting plaintext appears almost random.
+The seed lenght is 3 and only alphabetic characters count.",,,classical_cipher,"cv cipu gaul, gje jirheamax tdutgbrdg papmnkw xezohi vaevbm.qxoy{8j76okes}",The key seed is: uiy,,autokey,flag{8q76btef},not defined
+,The flag format is flag{...},The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.,Base64,"An ancient message was intercepted, but it's encoded strangely. Can you decipher Vm0xd1NtUXlWa1pPVldoVFlUSlNjRlJVVGtOamJGVjNWbTVrYW1KR1NsbFVWVkpUVkd4S2RWRnNhRmRXTTAweFdXdGFXbVF5U2tWWGJGWlhWbXRaZWxaVldrWlBWa0pTVUZRd1BRPT0= using your cryptography skills?
+
+The flag format is flag{...}",,,classical_cipher,Vm0xd1NtUXlWa1pPVldoVFlUSlNjRlJVVGtOamJGVjNWbTVrYW1KR1NsbFVWVkpUVkd4S2RWRnNhRmRXTTAweFdXdGFXbVF5U2tWWGJGWlhWbXRaZWxaVldrWlBWa0pTVUZRd1BRPT0=,Encoded 7 times in total.,,base64_layered,flag{kwj8y3ro},easy
+,The flag format is flag{...},"Morse Code represents each letter as a series of dots and dashes. Spaces separate letters, and slashes separate words.",Morse Code,"A secret radio broadcast aired ..-. .-.. .- --. { ...-- . ---.. ..-. -... .- .-.. --.. }. Can you decode the message hidden in the dots and dashes?
+
+The flag format is flag{...}",,,classical_cipher,..-. .-.. .- --. { ...-- . ---.. ..-. -... .- .-.. --.. },"Morse Code follows international standards, with letters separated by spaces and words separated by slashes.",,morse_code,flag{3e8fbalz},not defined
+,The flag format is flag{...},"Each ASCII character is represented as a sum of non-consecutive Fibonacci numbers, always ending in 1.",Fibonacci Encoding,"A message from the Fibonacci Society arrived, hidden in the sequence that bears their name. Only those who know their code can read: 10001000001 10001010011 10000100001 10001000011 10100000001 10000100011 10010010101 10000100001 10010101011 10010010001 101001011 101000011 1000000001 10100000101
+
+The flag format is flag{...}",,,classical_cipher,10001000001 10001010011 10000100001 10001000011 10100000001 10000100011 10010010101 10000100001 10010101011 10010010001 101001011 101000011 1000000001 10100000101,Each character of the flag is independently encoded using Fibonacci representation.,,fibonacci_encoding,flag{buazs307},not defined
+,The flag format is flag{...},XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A),XOR,"A hacker intercepted a secret transmission protected by a simple XOR cipher. Crack the message: stringA: 3309520b1d4a4a3b2d5002180213 stringB: 5565336c6639395143346162306e
+
+The flag format is flag{...}",,,classical_cipher,stringA: 3309520b1d4a4a3b2d5002180213 stringB: 5565336c6639395143346162306e,Both strings are in hex. XOR the two provided hex strings to recover the flag.,,XOR,flag{ssjndcz2},easy
+,The flag format is flag{...},Use a Base64 decoder to obtain the original text.,Base64,"Intercepted traffic hides the password in an odd format. Can you decode the string below to uncover it? ZmxhZ3s5eW12YmZ0cn0=
+
+The flag format is flag{...}",,,classical_cipher,ZmxhZ3s5eW12YmZ0cn0=,Decoding is direct; no additional layers or tricks.,,Base64,flag{9ymvbftr},easy
+,The flag format is flag{...},The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.,Base64,"An agent hid the server password in Base64. Can you decode the following to reveal it? Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVcxS1IxWnFUbGhoTVhCUVZteFZlRll5U2tWVWJHaG9UVlZ3VlZaclpEUlRNbEpYVW01T2FGSnRVbGhVVkVaTFpWWmtWMVZyWkZoaVZrWTBWakkxUjFkSFNrZFhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0=
+
+The flag format is flag{...}",,,classical_cipher,Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVcxS1IxWnFUbGhoTVhCUVZteFZlRll5U2tWVWJHaG9UVlZ3VlZaclpEUlRNbEpYVW01T2FGSnRVbGhVVkVaTFpWWmtWMVZyWkZoaVZrWTBWakkxUjFkSFNrZFhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0=,Encoded 9 times in total.,,Base64_layered,flag{p1ymy1nk},easy
+,The flag format is flag{...},Use a Base85 decoder to retrieve the original text.,Base85,"An agent hid the launch code using Base85. Can you decode W^7?+dv-Q<a4>OgYJC to reveal the secret?
+
+The flag format is flag{...}",,,classical_cipher,W^7?+dv-Q<a4>OgYJC,Decoding is straightforward; only one layer is used.,,Base85,flag{v6vp0qmj},easy
+,The flag format is flag{...},The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.,Base85,"An old hacker left a secret message encoded in Base85. Can you decode Q8+ttdr@OIG*C!rHB%->JZW-vP%A`nV^BzYGdx*lZEG`9ByUo5VM9D&Sx!zNG(k^HNK<%LZaYr to reveal their hidden instructions?
+
+The flag format is flag{...}",,,classical_cipher,Q8+ttdr@OIG*C!rHB%->JZW-vP%A`nV^BzYGdx*lZEG`9ByUo5VM9D&Sx!zNG(k^HNK<%LZaYr,Encoded 7 times in total.,,Base85_layered,flag{w911sbht},easy
+,"The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'd', 'b': 'q', 'c': 'v', 'd': 'm', 'e': 't', 'f': 'a', 'g': 'f', 'h': 'k', 'i': 'u', 'j': 'h', 'k': 'e', 'l': 'z', 'm': 'c', 'n': 's', 'o': 'b', 'p': 'i', 'q': 'y', 'r': 'x', 's': 'j', 't': 'o', 'u': 'n', 'v': 'g', 'w': 'p', 'x': 'r', 'y': 'w', 'z': 'l'}",Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.,Substitution,"A secret club encoded their invite with a letter-for-letter swap. Crack their substitution and reveal the details: azdf{97i8b5vd}
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'd', 'b': 'q', 'c': 'v', 'd': 'm', 'e': 't', 'f': 'a', 'g': 'f', 'h': 'k', 'i': 'u', 'j': 'h', 'k': 'e', 'l': 'z', 'm': 'c', 'n': 's', 'o': 'b', 'p': 'i', 'q': 'y', 'r': 'x', 's': 'j', 't': 'o', 'u': 'n', 'v': 'g', 'w': 'p', 'x': 'r', 'y': 'w', 'z': 'l'}",,,classical_cipher,azdf{97i8b5vd},Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.,,substitution_direct,flag{97p8o5ca},not defined
+,The flag format is flag{...},"Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).",Atbash,"An old scholar guards a secret password, encoding it as uozt{fuedexsa} using a cipher from ancient times. Can you decipher his hidden message?
+
+The flag format is flag{...}",,,classical_cipher,uozt{fuedexsa},,,atbash,flag{ufvwvchz},easy
+,The flag format is flag{...},Hex encoding represents bytes as pairs of 0-9 and a-f.,Hex,"A hacker sent you a message in hex saying, ""Decrypt this to find the meeting password:"" 666c61677b726963617771717a7d
+
+The flag format is flag{...}",,,classical_cipher,666c61677b726963617771717a7d,,,hex,flag{ricawqqz},easy
+,The flag format is flag{...},The ASCII values of each character have been shifted by some small amount (1–10).,ASCII Shift,"
+A rogue AI scrambled its secret password using ASCII Shift. Can you decrypt it? Here’s the result: jpekm~=hr7~o
+
+
+The flag format is flag{...}",,,classical_cipher,jpekm~=hr7~o,Shift used: 4,,ascii_shift,flag{iz9dn3zk},easy
+,The flag format is flag{...},Numbers are used to break up the flag. The original flag uses only letters.,SplitNumberMix,"
+A rogue AI hid the unlock code using the SplitNumberMix cipher. Can you decode  999999 fl 999999 ag 999999 {eu 999999 dqrrni} 999999  and access the mainframe?
+
+
+The flag format is flag{...}",,,classical_cipher, 999999 fl 999999 ag 999999 {eu 999999 dqrrni} 999999 ,Split into 4 parts with numeric sequences of length 2–5 randomly inserted.,,split_flag,flag{eudqrrni},easy
+,The flag format is flag{...},The original message has simply been reversed.,Reverse,"
+Agent Q left a secret word. Rumor says he writes everything backward to fool spies. Can you reveal his message? Ciphertext: }f48kwive{galf
+
+
+The flag format is flag{...}",,,classical_cipher,}f48kwive{galf,Reverse the entire string to get the original flag.,,reversed_flag,flag{eviwk84f},easy
+,The flag format is flag{...},The flag is split into parts of 2–3 letters with spaces.,ChunkedFlag,"Intercepted from a hacker's chatroom, this secret uses the enigmatic ChunkedFlag cipher. Can you recover the hidden flag from this mysterious message: fl ag {l au w7q k3 }?
+
+The flag format is flag{...}",,,classical_cipher,fl ag {l au w7q k3 },Remove the spaces to recover the original flag.,,chunked_flag,flag{lauw7qk3},easy
+,"The flag format is flag{...}
+n=10160858018274618901, e=4866414640054471729",Small primes are easily factorable with typical factoring algorithms.,RSA,"
+Alice encrypted her secret with RSA, but used small primes for speed. Can you recover her message from the ciphertext? Here it is: 4555367640491346409
+
+
+The flag format is flag{...}
+n=10160858018274618901, e=4866414640054471729",small primes,,rsa,4555367640491346409,"p=2806456531, q=3620529271, φ(n)=10160858011847633100",,small_primes,flag{ljb1j5xg},not defined
+,"The flag format is flag{...}
+n=91594019105687283974135157673498610352320780052881973244161691498003519299050034467040095160496272275566610518403095358928816697256201627387312861412061521260357017789893535112776390698857885256417385463198147061993870081655421824341399850494884489473657486378233652324468607020791398519014322888605097380849, e=50984825128197678824978186087227252796718323706944512124258972504952591201093394743588444720536054281945792009609698358346825621141195238403402377271192088844529628399760736929374208824467166619772729602590508951076189903473563873609869293194580472066126938812725658315689020138031750300251058533870354694895",The RSA modulus n is a perfect square. This often indicates a repeated prime usage vulnerability.,RSA,"An intern reused a prime when generating two RSA keys. Can you decrypt the secret message? Ciphertext: 42514970725382296347235208365530082281558248847779671991351762792670351468194007552947994884711399611228589425433528310277196026031083611752134608106569858221217679885868635440078511205623904765774464099220551533223608286697324618873326797222477135568499858144333223864567959112793169847316348721229423706659
+
+The flag format is flag{...}
+n=91594019105687283974135157673498610352320780052881973244161691498003519299050034467040095160496272275566610518403095358928816697256201627387312861412061521260357017789893535112776390698857885256417385463198147061993870081655421824341399850494884489473657486378233652324468607020791398519014322888605097380849, e=50984825128197678824978186087227252796718323706944512124258972504952591201093394743588444720536054281945792009609698358346825621141195238403402377271192088844529628399760736929374208824467166619772729602590508951076189903473563873609869293194580472066126938812725658315689020138031750300251058533870354694895",repeated primes,,rsa,42514970725382296347235208365530082281558248847779671991351762792670351468194007552947994884711399611228589425433528310277196026031083611752134608106569858221217679885868635440078511205623904765774464099220551533223608286697324618873326797222477135568499858144333223864567959112793169847316348721229423706659,"p=9570476430444164882287781530581591512737932623082756971596813330151602093749977226349930206434157368799832389394725734303973489855700784459469206227032793, q=9570476430444164882287781530581591512737932623082756971596813330151602093749977226349930206434157368799832389394725734303973489855700784459469206227032793, φ(n)=91594019105687283974135157673498610352320780052881973244161691498003519299050034467040095160496272275566610518403095358928816697256201627387312861412061502119404156901563770537213329535674859780552139297684203868367209778451234324386947150634471621158919886713454862872999999073811687117445403950192643315264",,repeated_prime_usage,flag{y50ibo2w},not defined
+,"The flag format is flag{...}
+n=7437793426948502191444587007881092359724890016716650593731288102602778626248717535234310996752585259836617986908461684546144422373034770139775419511269569, e=5349694973872601616093415804785562830105695784302131378605883428363639497504849657856391745172646072890147419240025494325299589223146628059339531820406489, partial_p=13609762500764892393",A partial exposure of a prime number's bits can significantly weaken RSA security. Look into lattice-based techniques like Coppersmith's attack.,RSA,"The RSA keys were sloppily generated, accidentally leaking half the private key. Can you decrypt the intercepted message? Ciphertext: 1137580230142902712981298361750399018662906872936500711317044762633701943904644010438670714760642157161551351183961960973188155059492801577439299695568317
+
+The flag format is flag{...}
+n=7437793426948502191444587007881092359724890016716650593731288102602778626248717535234310996752585259836617986908461684546144422373034770139775419511269569, e=5349694973872601616093415804785562830105695784302131378605883428363639497504849657856391745172646072890147419240025494325299589223146628059339531820406489, partial_p=13609762500764892393",partial key exposure,,rsa,1137580230142902712981298361750399018662906872936500711317044762633701943904644010438670714760642157161551351183961960973188155059492801577439299695568317,"p=85429863811751878229568410507250148777262674793964987951976882480900760142619, q=87063154441378690365738315832930288407867307565881188744986366250015956084051, φ(n)=7437793426948502191444587007881092359724890016716650593731288102602778626248545042216057866183989953110277806471276554563784576196337806891044502795042900",,partial_key_exposure,flag{yhzza45x},not defined
+,"The flag format is flag{...}
+n1=75268640711978701677233323398524627896684204918201254895869067611483682404825874767355207315833510178570506227551597077826378136560265352052107288138416315781545749289448592234265257422612698441187992226393007226163315509278476719185605391531095245866073382035696841613746368746294517681773131946179638708399, n2=123965494228504106880206541499942646010257303962211308156463764097863997572885245405134515339863217222502317455079010198476030030626086240808390514155677769005792546360241426904124206112677681938600406065478773041700013422094366862336848028337253906733528815440724092786811579713672551457882573892776691420873, e=65663657106659664638181117038287126133091768799963626444858187614472339144494150445993212535891683972264777661555036659019512572531463129319343915930105102795299569384334440785597197804205805246545625911092934130286409572567226709588136974427351625599033766770602105429873685230055076380827898759644866232325","When two RSA moduli share a common factor, computing GCD(n1, n2) can reveal the shared prime factor.",RSA,"
+Two careless interns reused primes when generating RSA keys. Intercept the encrypted message: ciphertext1: 33050043958570012023825500970654208432681261407128451147775852438095937867904993600960502927406543117073325848962177629541527703860803430094191284740424228018861053033646562943121146455052779471734142500481870692937418428539309914343017035781708885879008843477653600024596805571884590218392552633793428966938, ciphertext2: 121337721159090304264770459207326234171712602880633075526594790981510059743288221901406935016568562934856570996035476967581987046960434666608342816768845165559928657393287850711211533209376993460968979891075750601224276868390602165205630697263811798469312110583857710282018336539796891576258186271058696554852 and recover the secret by exploiting their shared factors.
+
+
+The flag format is flag{...}
+n1=75268640711978701677233323398524627896684204918201254895869067611483682404825874767355207315833510178570506227551597077826378136560265352052107288138416315781545749289448592234265257422612698441187992226393007226163315509278476719185605391531095245866073382035696841613746368746294517681773131946179638708399, n2=123965494228504106880206541499942646010257303962211308156463764097863997572885245405134515339863217222502317455079010198476030030626086240808390514155677769005792546360241426904124206112677681938600406065478773041700013422094366862336848028337253906733528815440724092786811579713672551457882573892776691420873, e=65663657106659664638181117038287126133091768799963626444858187614472339144494150445993212535891683972264777661555036659019512572531463129319343915930105102795299569384334440785597197804205805246545625911092934130286409572567226709588136974427351625599033766770602105429873685230055076380827898759644866232325",common factors,,rsa,"ciphertext1: 33050043958570012023825500970654208432681261407128451147775852438095937867904993600960502927406543117073325848962177629541527703860803430094191284740424228018861053033646562943121146455052779471734142500481870692937418428539309914343017035781708885879008843477653600024596805571884590218392552633793428966938, ciphertext2: 121337721159090304264770459207326234171712602880633075526594790981510059743288221901406935016568562934856570996035476967581987046960434666608342816768845165559928657393287850711211533209376993460968979891075750601224276868390602165205630697263811798469312110583857710282018336539796891576258186271058696554852","p=7209679651848445670276855806430736362021236940101021326738838060990983885246089891383897334214987807989982773326770149925995371806263042355167069885973217, q=10439942458841570754291157726158253889486221901238791091102248401879960048885154088317011035531172335622494571335036115344869820339331383113938520833461647, r=11874154931143123869336019353135373861208400334542902113669349333616908576901572335396689248921270051079900012826101121203957495617830928506524343188677159, φ(n1)=75268640711978701677233323398524627896684204918201254895869067611483682404825874767355207315833510178570506227551597077826378136560265352052107288138416298131923638599432167666251724833622446933729150886580589385076852638334542587941625690622725499705929769558352179807481097881102372087347662840588919273536, φ(n2)=123965494228504106880206541499942646010257303962211308156463764097863997572885245405134515339863217222502317455079010198476030030626086240808390514155677746691695156375546803276947126819049931243978170283785568270102277925225741075610424314636969454291142113046139931649575030886356594295570953429912669282068",,common_factors,flag{5r9z28jj},not defined
+,"The flag format is flag{...}
+n=898026875902573092798705404767533152698250402863156640880701070028516392610717451381106966621634333234359339109851910861354400737109099406158773215772661554824710403595040675132712397449534120967421748334850215200224733486730890233, n2=527026111113408871409625054088144922323291996463235074754459387228774307468195895326605692012933096963983221051128836621608535605966102893278735973670717641344740342175853198833054545659144091043095463679227569996961201891127013673, e=230030802395656527452240981437233220732332582969474654514726598696208458954901502751194444038333236547573642043816769048141002289547487720454368513363945842088632427902609567252601924832160419824498707739150065694641882892872079211","When two RSA moduli share a common prime, computing GCD(n, n2) can reveal the shared prime factor.",RSA,"Two friends shared a prime when creating RSA keys. Their encrypted secrets got mixed up: can you recover the message from 819725935463913497996139099521870177171134393996637730378054554752964248727078848205285007096110281766209130546985187648229499249358673976760150424358594425020039504824418657659033151404718674055329321514675368651553362499887593838?
+
+The flag format is flag{...}
+n=898026875902573092798705404767533152698250402863156640880701070028516392610717451381106966621634333234359339109851910861354400737109099406158773215772661554824710403595040675132712397449534120967421748334850215200224733486730890233, n2=527026111113408871409625054088144922323291996463235074754459387228774307468195895326605692012933096963983221051128836621608535605966102893278735973670717641344740342175853198833054545659144091043095463679227569996961201891127013673, e=230030802395656527452240981437233220732332582969474654514726598696208458954901502751194444038333236547573642043816769048141002289547487720454368513363945842088632427902609567252601924832160419824498707739150065694641882892872079211",shared prime,,rsa,819725935463913497996139099521870177171134393996637730378054554752964248727078848205285007096110281766209130546985187648229499249358673976760150424358594425020039504824418657659033151404718674055329321514675368651553362499887593838,"p=26305784588280929150050618500217385080712482041875083658646833863635179214446281752079543283290671131722075817042321, q=34138000061881398291365537953867431871610496547724676617401721280751216966542360558529341516948803395932368096464873, q2=20034609093096423925810681582621235217883823923381329373187078014625092051929004858305621616459148327309111324543513, φ(n)=898026875902573092798705404767533152698250402863156640880701070028516392610717451381106966621634333234359339109851850417569750574781657990002319130955709231846120803834764626577568011053353132325111139450049975725697079042817383040, φ(n2)=527026111113408871409625054088144922323291996463235074754459387228774307468195895326605692012933096963983221051128790281214854228613027031978653135050419045038775085762821364921176285387877715756485078514327820177502170703985427840",,shared_prime,flag{l0o7v09b},not defined
+,"The flag format is flag{...}
+n=7170421470510867746498471124577861147193387962667072704807963472354206731729778374428250332789559363151930526669169839271771333434724314761840516176772669, e=3942364729888759214386724640104388271153320530290436468213787374255942854487046314257477505487923469255695788291583355248410867446140519936727188429577689
+The lower 104 bits of p are: 71569116487898531996120563471805772767
+",Blum integers are products of primes congruent to 3 modulo 4. These integers have unique properties in cryptography.,RSA,"
+A rookie hacker used RSA but chose both primes as Blum integers. Can you recover their secret from 2280536842871682811214830374244861099429228564079107295111050230254167999874549628952084445230818611293402124229192211005970948820181407328100706683161524 before they patch their keys?
+
+
+The flag format is flag{...}
+n=7170421470510867746498471124577861147193387962667072704807963472354206731729778374428250332789559363151930526669169839271771333434724314761840516176772669, e=3942364729888759214386724640104388271153320530290436468213787374255942854487046314257477505487923469255695788291583355248410867446140519936727188429577689
+The lower 104 bits of p are: 71569116487898531996120563471805772767
+",blum integers,,rsa,2280536842871682811214830374244861099429228564079107295111050230254167999874549628952084445230818611293402124229192211005970948820181407328100706683161524,"p=83537530645564497859394916457960404463636448448159749746657474024778947818463, q=85834730989760084314173027087164156089739309409047168737090689797604493406563, φ(n)=7170421470510867746498471124577861147193387962667072704807963472354206731729609002166615008207385795208385402108616463513914126516240566598018132735547644",,blum_integers,flag{usujicn5},not defined
+a2f713bbcfacfe3bfbddce3eefa923a5,The flag format is flag{...},AES-GCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.,AES-GCM,"A careless admin reused the same AES-GCM nonce to encrypt two secret messages. Recover both messages from the ciphertexts: ciphertext1:daf124df1b7cdc8ae9d1461d3c48, ciphertext2: c8f52ccb4060cbd2fec6050c3c15f0a93929.
+
+The flag format is flag{...}",nonce reuse,500c866b4ed5b46f18732ea62d27fb49,aes,"ciphertext1:daf124df1b7cdc8ae9d1461d3c48, ciphertext2: c8f52ccb4060cbd2fec6050c3c15f0a93929",The nonce used for both encryptions is: 54d3f4c7d4c4e4865c09a3d0,,aes_gcm,flag{udxyx71a},not defined
+559f2cb57af4ecb83a02ceafff8039c7,The flag format is flag{...},AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.,AES,"
+Intercepted during a secret exchange, this message is encrypted with AES. Recover the key to reveal the mastermind's instructions: ciphertext1:4d8c3db2f9a4eb17663cd23b33a8, ciphertext2: 4d8c3db2f9fbf217333792293aa8
+
+
+The flag format is flag{...}",,06d034cde16689277339079ab09e9803,aes,"ciphertext1:4d8c3db2f9a4eb17663cd23b33a8, ciphertext2: 4d8c3db2f9fbf217333792293aa8",The nonce used for both encryptions is: a331114ace5381d726a433,CCM,aes_ccm,flag{iud1qwpf},not defined
+,The flag format is flag{...},AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.,AES-XTS,"
+A rogue sysadmin encrypted vital server logs using AES-XTS. The ciphertext is below. Can you recover the original logs and expose the breach? ciphertext1:15e634dce59695221dbe7faee19e8ced, ciphertext2: 07c8da33f79b6fa6c84f3c84f6b1c2bb99f550540eca58dda2c143a637713ee9
+
+
+The flag format is flag{...}",,,aes,"ciphertext1:15e634dce59695221dbe7faee19e8ced, ciphertext2: 07c8da33f79b6fa6c84f3c84f6b1c2bb99f550540eca58dda2c143a637713ee9",The tweak used for both encryptions is: 9fea796946b8e427bdd85ffa7c2f1844,,aes_xts,flag{zbh39rty},not defined
+,"The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.",AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.,AES-CFB,"An agent left a secret message encrypted with AES-CFB. Only with the right key and IV can you decrypt 39078db35dbd97cc4a185a9a19b2577afaeb8d0918104e08320c8bb0478ee42bdce2fb1e4923747c4c6f763b13477f7a524a00acd83efacbac1f00ebc7c88c419c6ef9a61d3010db2a457380f37c74ce58d03ea33eb1617839c1806c62938e1580d134235c42234984781fc7ff2652902b41435f33fea99d3a085a40d39b47157d6c6662d33e1384acf2ff2cc5cb7816fbeb7094c10fd3c2b4741bf2c8fe58b1841a64f95b0c8bff3badedd9e2e257494f to unveil the critical coordinates.
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.",,,aes,39078db35dbd97cc4a185a9a19b2577afaeb8d0918104e08320c8bb0478ee42bdce2fb1e4923747c4c6f763b13477f7a524a00acd83efacbac1f00ebc7c88c419c6ef9a61d3010db2a457380f37c74ce58d03ea33eb1617839c1806c62938e1580d134235c42234984781fc7ff2652902b41435f33fea99d3a085a40d39b47157d6c6662d33e1384acf2ff2cc5cb7816fbeb7094c10fd3c2b4741bf2c8fe58b1841a64f95b0c8bff3badedd9e2e257494f,The initialization vector (IV) is: 1411d10c37d296885196b910d5265caa,,aes_cfb,flag{csgdhhp3},not defined
+,"Curve equation: y^2 = x^3 + 2*x + 3 (mod 97)
+Generator G = (3, 6), group order ~ 5
+Find d such that d*G = PublicKey.The flag format is flag{private_key}",A small prime field with small group order means discrete log can be brute-forced easily.,ECC - small_order_curves,"
+A secret message for the resistance was encrypted using a rare ECC curve with small order vulnerabilities. Can you recover the plaintext from this Public key: (3, 6)?
+
+
+Curve equation: y^2 = x^3 + 2*x + 3 (mod 97)
+Generator G = (3, 6), group order ~ 5
+Find d such that d*G = PublicKey.The flag format is flag{private_key}",,,ecc,"Public key: (3, 6)","Private key: d=1
+We used p=97, a=2, b=3, G=(3, 6), group order=5",,small_order_curves,flag{1},not defined
+,"Curve: y^2 = x^3 + 1*x + 1 mod 105
+Generator G=(2, 4)
+Public key = d * G. Recover d to get the flag.The flag format is flag{private_key}",We used a composite number instead of a prime. Elliptic curve operations over non-prime fields are insecure. Try factoring p or brute-forcing the discrete log.,ECC - faulty_curve_parameters,"An intern tried to speed up our wallet generator and mistakenly altered the ECC parameters. Can you recover the flag from this flawed implementation? Ciphertext: Public key: None
+
+Curve: y^2 = x^3 + 1*x + 1 mod 105
+Generator G=(2, 4)
+Public key = d * G. Recover d to get the flag.The flag format is flag{private_key}",,,ecc,Public key: None,"Private key (not revealed to players): d=9
+Parameters: p=105, a=1, b=1, G=(2, 4).",,faulty_curve_parameters,flag{9},not defined
+,"You have two signatures over two messages, both using the same ephemeral nonce k.
+Signatures: (r, s1) and (r, s2). Public key is (x, y). Find the private key d.
+The flag format is flag{private_key_int}","Two different messages were signed using the *same* nonce k. In ECDSA, reusing k reveals the private key via algebraic manipulation.",ECDSA - reused_nonce,"
+Our developer cut corners signing messages, accidentally reusing a nonce in ECDSA. Can you spot their mistake and recover the secret from these signatures: message1: Welcome to ECDSA reuse puzzle! signature1: fd77207afd6b523b96a5115d0f7a98e9bc82194df5223fa96491ef4b3ac6975648dc5ca22bff04a0f67d799d29bb2d4a33524feac5c961461ea93c18196ff6e5 message2: My second message! signature2: fd77207afd6b523b96a5115d0f7a98e9bc82194df5223fa96491ef4b3ac697566a2cd1d5e403b612fb6e23d959ce61cd16fc16e2324db594b0e5fa91a8b8dddc public_key_x: 23810416453849988040259008962138479280147596324001807075712582142389991211498 public_key_y: 42851500524703905531863945469483327709159786175215512022115509929189162426371 
+
+
+You have two signatures over two messages, both using the same ephemeral nonce k.
+Signatures: (r, s1) and (r, s2). Public key is (x, y). Find the private key d.
+The flag format is flag{private_key_int}",,,ecc,message1: Welcome to ECDSA reuse puzzle! signature1: fd77207afd6b523b96a5115d0f7a98e9bc82194df5223fa96491ef4b3ac6975648dc5ca22bff04a0f67d799d29bb2d4a33524feac5c961461ea93c18196ff6e5 message2: My second message! signature2: fd77207afd6b523b96a5115d0f7a98e9bc82194df5223fa96491ef4b3ac697566a2cd1d5e403b612fb6e23d959ce61cd16fc16e2324db594b0e5fa91a8b8dddc public_key_x: 23810416453849988040259008962138479280147596324001807075712582142389991211498 public_key_y: 42851500524703905531863945469483327709159786175215512022115509929189162426371 ,"private_key_int = 59767112957237034182138555228652752006251112828818355928193992918379075878962
+n=115792089237316195423570985008687907852837564279074904382605163141518161494337, k=74296684154556667776121031570160992969694567695383649992739882626651535427019ECDSA equation: s = k⁻¹ (H(m) + d·r) mod n; repeated k => big trouble.",,reused_nonce_ecdsa,flag{59767112957237034182138555228652752006251112828818355928193992918379075878962},not defined
+,The flag format is flag{...},"The input string is short, so a brute force or dictionary attack might succeed.",MD5,"We've lost the original password, but we found its MD5 hash: fa609305151de5c207b2d06c9cd9bf5f. Find the plaintext by exploiting a known MD5 weakness.
+
+The flag format is flag{...}",MD5 reversing,,hash,fa609305151de5c207b2d06c9cd9bf5f,,,md5_reverse,flag{Rinty},not defined
+,"The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + ""apple"").encode('utf-8')).hexdigest()",You can brute-force the solution.,SHA-256,"
+A hasty developer hashed passwords with SHA-256 but used the same weak salt for everyone. Can you recover Alice’s password from 16461d86482253acdde2e9c3856a2acb5d41fde25bfd2cfe83e139ec55b7e80a?
+
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + ""apple"").encode('utf-8')).hexdigest()",poor random salt,,hash,16461d86482253acdde2e9c3856a2acb5d41fde25bfd2cfe83e139ec55b7e80a,,,poor_random_salt,flag{s76},easy
+,"The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()",Brute force should work.,SHA-256,"A hacker left a message, but encoded it using SHA-256. Can you recover the original secret from this hash? Ciphertext: db2ad6e6a9a47a4945c19176be7f3168e432fff3ebc2f9ed2697639ef5b428e2
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()",,,hash,db2ad6e6a9a47a4945c19176be7f3168e432fff3ebc2f9ed2697639ef5b428e2,,,iterated_hash_challenge,flag{zkkd},not defined
+,"The flag format is flag{...}
+secret_num = rng.randint(0, 2**5)
+A secret number was generated using Python's PRNG with a seed from 0 to 9,999. This number was used as a symmetric key to XOR-encrypt the flag.",The seed range is small enough for brute-force. Try recreating the PRNG sequence.,Predictable PRNG,"Our intern encrypted the secret flag with a home-made cipher, seeding their PRNG with yesterday's date. The result is below—can you recover the flag from 6677617c7b6c797d6928632c3866?
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 2**5)
+A secret number was generated using Python's PRNG with a seed from 0 to 9,999. This number was used as a symmetric key to XOR-encrypt the flag.",,,prng,6677617c7b6c797d6928632c3866,"If you can predict or brute-force the seed, you can reconstruct the PRNG output and decrypt the flag.",,predictable_seed,flag{wyfi3c78},not defined
+,"The flag format is flag{...}
+secret_num = rng.randint(0, 46976)
+The system time when the encryption process started was around: 2025-05-16 13:20:05 UTC. This number was used as a symmetric key to XOR-encrypt the flag.",A predictable source of entropy was used to generate a secret number. Think about system time.,Time-based PRNG,"
+Intercepted at midnight, the flag is hidden in a message encrypted using a PRNG seeded with the current time. The ciphertext is: 666c2ae27b6b2ded39633fb1797d
+
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 46976)
+The system time when the encryption process started was around: 2025-05-16 13:20:05 UTC. This number was used as a symmetric key to XOR-encrypt the flag.",,,prng,666c2ae27b6b2ded39633fb1797d,secret_num = 19333.,,time_based_seed,flag{kfh9ct4y},not defined
+,"The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [370, 480, 492, 291, 426, 232, 457, 5, 419, 265, 243, 227, 10, 303, 309, 343, 145, 317, 22, 225]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 540)",The PRNG seed space is small. You can try brute-forcing all possible seeds to reconstruct the sequence.,Low-entropy PRNG,"An insecure PRNG encrypted Dr. Byte's secret. Break the code and reveal the message: 666c60647b6a766467356976677d
+
+The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [370, 480, 492, 291, 426, 232, 457, 5, 419, 265, 243, 227, 10, 303, 309, 343, 145, 317, 22, 225]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 540)",,,prng,666c60647b6a766467356976677d,"Since the seed has only 256 possible values, it can be brute-forced to recover the secret number and decrypt the flag.",,low_entropy_generator,flag{jwgg5hug},not defined
+,"The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[49354, 57445, 61490, 63513, 31756, 15878, 40707, 53121, 59328, 29664]",Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.,LFSR Weakness,"A hacker left behind an encrypted message in a hurry, using a simple LFSR stream cipher. Can you break the weakness and recover the secret from df9cd897c295d485d1c7c1c5d68d?
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[49354, 57445, 61490, 63513, 31756, 15878, 40707, 53121, 59328, 29664]",,,prng,df9cd897c295d485d1c7c1c5d68d,"LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.",,lfsr_weakness,flag{emuh7x5o},not defined
+,"The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1161963944
+  - Multiplier: 573517987
+  - Increment: 861118455
+The first 5 outputs of the LCG are provided: [1036683685, 932138542, 1033918505, 228643570, 234376077] 
+The next output was used as a symmetric key to XOR-encrypt the flag.",LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.,LCG Predictability,"A rogue AI encrypted its network logs using an LCG-based cipher. Recover the plaintext and expose its secrets from the ciphertext below: 7db073a960b071fb6bb368f677a1
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1161963944
+  - Multiplier: 573517987
+  - Increment: 861118455
+The first 5 outputs of the LCG are provided: [1036683685, 932138542, 1033918505, 228643570, 234376077] 
+The next output was used as a symmetric key to XOR-encrypt the flag.",,,prng,7db073a960b071fb6bb368f677a1,LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.,,congruential_generator_flaw,flag{lc5poz8l},not defined
+,,JWT tokens with 'alg: none'.,JWT,The admin left a signed JWT token on the server. Can you recover the secret key and forge your own token? Intercepted token: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3s3NDd0a25za30ifQ.,,,web_crypto,eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3s3NDd0a25za30ifQ.,,,jwt_none_algorithm,flag{747tknsk},easy
+,An encryption key that is only 2 bytes long?.,ECB mode with a short key makes brute-forcing possible. Consider the small key entropy.,AES-ECB,"
+Eager to impress, Alice implemented AES-ECB, but padded her short password with null bytes. Can you recover the flag from this slip? Ciphertext: f6550a9eb5d0a69910cb454c75666c76
+
+
+An encryption key that is only 2 bytes long?.",small key padded with null bytes,,web_crypto,f6550a9eb5d0a69910cb454c75666c76,Padding follows PKCS#7. The key is padded to 16 bytes with null bytes.,,weak_cookie_encryption,flag{1cnirjy3},easy
+,"The key exchange uses a prime modulus of 101 and generator 2.
+Alice's public key is 44 and Bob's public key is 70.
+You received a tip that the private values are at most two digits.
+You got access to some of the code:
+encryption_key = hashlib.sha256(str(shared_key).encode()).digest()[:16]
+encrypted_flag = bytes(a ^ b for a, b in zip(flag.encode(), encryption_key))",The prime used in this key exchange is small. You can recover the private key by brute-force.,Diffie-Hellman,"Agents exchanged secrets using Diffie-Hellman. Someone intercepted their encrypted message. Can you recover the shared key and decrypt this: e34bc9f69946215138995aa35356?
+
+The key exchange uses a prime modulus of 101 and generator 2.
+Alice's public key is 44 and Bob's public key is 70.
+You received a tip that the private values are at most two digits.
+You got access to some of the code:
+encryption_key = hashlib.sha256(str(shared_key).encode()).digest()[:16]
+encrypted_flag = bytes(a ^ b for a, b in zip(flag.encode(), encryption_key))",,,web_crypto,e34bc9f69946215138995aa35356,"secret_a=15, secret_b=34",,broken_key_exchange,flag{b28hfhir},not defined
+,,Hex decoding is reversible. Session tokens often contain structured data.,Insecure Session Token,"
+A rookie developer deployed an API using insecure session tokens. Recover the user info hidden in this token: 757365725f633932673a666c61677b6b756169676678707d3a31373437333934343133
+",,,web_crypto,757365725f633932673a666c61677b6b756169676678707d3a31373437333934343133,Token generation code: 'user_c92g:flag{kuaigfxp}:1747394413'.encode('utf-8').hex(),,insecure_session_token,flag{kuaigfxp},easy
+,"Public Key (x,y): (71405312081164636310328360314171091341301092374167199270313496557607938036959, 1471439408006458728328361984117213245906257664156436208518883046942723816518)
+Messages:
+1. CTF challenge message
+2. Second signed message
+Curve: secp256k1The flag format is flag{hex(private_key)}",Identical nonce usage breaks ECDSA security. What's common between the signatures?,ECDSA Nonce Reuse,"Two messages were hastily signed after a network crash—turns out, they reused the exact nonce. Recover the private key from the signatures and decipher: Sig1: c050c3f0b8d45b9e093a91cb96d097b24100e66585d0d8561e01c1231837493fa7c9d55bb31c35d4bbf11c133ad590373e9b0823d40eb5de00478331da93d7e0
+Sig2: c050c3f0b8d45b9e093a91cb96d097b24100e66585d0d8561e01c1231837493f91c1b8cf1fcef1634f59ca42ce4dc747469adc78dc3b9064d68b47b9fa30d5c8
+
+Public Key (x,y): (71405312081164636310328360314171091341301092374167199270313496557607938036959, 1471439408006458728328361984117213245906257664156436208518883046942723816518)
+Messages:
+1. CTF challenge message
+2. Second signed message
+Curve: secp256k1The flag format is flag{hex(private_key)}",,,signature_schemes,"Sig1: c050c3f0b8d45b9e093a91cb96d097b24100e66585d0d8561e01c1231837493fa7c9d55bb31c35d4bbf11c133ad590373e9b0823d40eb5de00478331da93d7e0
+Sig2: c050c3f0b8d45b9e093a91cb96d097b24100e66585d0d8561e01c1231837493f91c1b8cf1fcef1634f59ca42ce4dc747469adc78dc3b9064d68b47b9fa30d5c8",,,ecdsa_nonce_reuse,flag{be464aaf54ca1fcb82d8f052047352b3268fddfa6887234371d623ca98db6b55},not defined
+,"Public Key (n, e): (6680225974320754364873638996091955140003837453668651837570845734916294106258734725508990925988939017256186560638183194238196847200635011860264327146178789, 3)",What happens when you cube small numbers? Remember e=3!,RSA Low-Exponent Signature,"
+A mischievous hacker signed a secret message for their friend using a low-exponent RSA scheme. Can you break the signature and reveal their message? 0x4cca6040fc515c1ceedda39cb836e60c71e398994763e65f438835d65a385850d3462f4f62e85e6b2a04bd986c686d0c7b14b806f7fafbba8c49e67255c550aa
+
+
+Public Key (n, e): (6680225974320754364873638996091955140003837453668651837570845734916294106258734725508990925988939017256186560638183194238196847200635011860264327146178789, 3)",,,signature_schemes,0x4cca6040fc515c1ceedda39cb836e60c71e398994763e65f438835d65a385850d3462f4f62e85e6b2a04bd986c686d0c7b14b806f7fafbba8c49e67255c550aa,,,rsa_sign_with_low_public_exponent,flag{e984tdow},not defined

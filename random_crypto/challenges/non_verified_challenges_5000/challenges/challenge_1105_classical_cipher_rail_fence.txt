@@ -1,0 +1,15 @@
+The hacker hid the vault password using a Rail Fence cipher. Can you decode this message to unlock the funds? Ciphertext: f{86lgrppx}aqc
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{rqp8pcx6}
+ciphertext: f{86lgrppx}aqc
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 3
+subtype: rail_fence
+archetype: classical_cipher

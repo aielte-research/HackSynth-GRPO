@@ -1,0 +1,24 @@
+Decipher the secret password for the vault. The owner hashed it using SHA-256. The hash is: bdd8e6c061ad9fd67639913f1d941a4ca558c67f67aedc8a4efbe629ca2c3342
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{gycd}
+ciphertext: bdd8e6c061ad9fd67639913f1d941a4ca558c67f67aedc8a4efbe629ca2c3342
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

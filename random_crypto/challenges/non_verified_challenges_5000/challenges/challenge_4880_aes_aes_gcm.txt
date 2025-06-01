@@ -1,0 +1,18 @@
+During a fast-paced hackathon, a developer encrypted two secret flags with AES-GCM but accidentally reused the same nonce. Recover both flags from the following ciphertexts: ciphertext1:2f1688b7262a47fd3ae04afe56ce, ciphertext2: 3d1280a37d3153e466f806eb5093956c5923
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{rg92w85g}
+ciphertext: ciphertext1:2f1688b7262a47fd3ae04afe56ce, ciphertext2: 3d1280a37d3153e466f806eb5093956c5923
+tag1: 0bbcdfb967ab14a471740b88e6eb2689
+tag2: 5a31957d5c81e47aa6af69f7b62e321e
+cipher: AES-GCM
+vulnerability: nonce reuse
+hint: AES-GCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: f5d2c6f3316b3c9336da2f4c
+subtype: aes_gcm
+archetype: aes

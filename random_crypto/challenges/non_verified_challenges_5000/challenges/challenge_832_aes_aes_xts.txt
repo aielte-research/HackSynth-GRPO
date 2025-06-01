@@ -1,0 +1,15 @@
+A top-secret disk has encrypted coordinates using AES-XTS. Can you recover the hidden location from this scrambled data: ciphertext1:03337fa63de43e69c3f008de1a50c022, ciphertext2: 80a8f9390da2bb7336fcdca6bda3e4f949b1d30999d18cbd14b45d8ceeede0d1?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ak05wp8j}
+ciphertext: ciphertext1:03337fa63de43e69c3f008de1a50c022, ciphertext2: 80a8f9390da2bb7336fcdca6bda3e4f949b1d30999d18cbd14b45d8ceeede0d1
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: d4228e9072b685097d6a136eac038151
+subtype: aes_xts
+archetype: aes

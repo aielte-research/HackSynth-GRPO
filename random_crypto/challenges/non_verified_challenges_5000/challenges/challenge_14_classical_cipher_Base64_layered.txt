@@ -1,0 +1,17 @@
+
+An agent hid the next password using Base64. Can you decode their message?Vm1wSmQyVkZOVWhTYTJScFRUTkNjbFZyV21GalJteHpWV3hrYTAxWGVGaFhhMmhyWVRGYWRFOVVXbFZXVmtZelZVWkZPVkJSUFQwPQ==
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ynniijng}
+cipher: Base64
+ciphertext: Vm1wSmQyVkZOVWhTYTJScFRUTkNjbFZyV21GalJteHpWV3hrYTAxWGVGaFhhMmhyWVRGYWRFOVVXbFZXVmtZelZVWkZPVkJSUFQwPQ==
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 6 times in total.
+subtype: Base64_layered
+archetype: classical_cipher

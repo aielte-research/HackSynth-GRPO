@@ -1,0 +1,15 @@
+Caesar left a secret message for his trusted aide. Can you decipher the hidden order in djye{0elxwdid} using his classic shifting technique?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{0gnzyfkf}
+ciphertext: djye{0elxwdid}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 24
+subtype: caesar
+archetype: classical_cipher

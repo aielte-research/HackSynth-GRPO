@@ -1,0 +1,17 @@
+
+A hacker left a secret message encoded with MD5, believing it unreversible. Can you exploit its known weaknesses to recover the original text from 10af1e5fbe8f6dd211876ae868105e98?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{cohyr}
+ciphertext: 10af1e5fbe8f6dd211876ae868105e98
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

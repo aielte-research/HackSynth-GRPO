@@ -1,0 +1,17 @@
+
+An old hacker left a message encoded in Base85. Can you decipher Q8+7fbYyZsPf15ALm_fVLM1IeN?KPfc2FfjQA=YoI4e9>O>{hLWP3?yWMfu7MNdsVOjK!QP*gTSQ&w#>cUoacBS~5%Y;6 to reveal their secret plan?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{t4718et5}
+cipher: Base85
+ciphertext: Q8+7fbYyZsPf15ALm_fVLM1IeN?KPfc2FfjQA=YoI4e9>O>{hLWP3?yWMfu7MNdsVOjK!QP*gTSQ&w#>cUoacBS~5%Y;6
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 8 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

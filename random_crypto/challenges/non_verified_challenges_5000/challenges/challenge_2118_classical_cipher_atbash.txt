@@ -1,0 +1,14 @@
+An ancient scroll was found with a message encrypted by reversing the alphabet. Can you decode this Atbash cipher? uozt{rkyrwwu1}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ipbiddf1}
+cipher: Atbash
+ciphertext: uozt{rkyrwwu1}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

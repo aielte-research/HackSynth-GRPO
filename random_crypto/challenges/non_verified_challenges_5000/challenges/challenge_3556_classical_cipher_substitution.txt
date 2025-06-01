@@ -1,0 +1,15 @@
+Professor Byte hid the launch code using a substitution cipher. Decode the message: uc sxylbqjxhldy, h tgatbubgbuqc suldvx ut h rvbdqi qp vcsxylbucj uc wdusd gcubt qp lohucbvfb hxv xvlohsvi wubd bdv suldvxbvfb, uc h ivpucvi rhccvx, wubd bdv dvol qp h zvy; bdv "gcubt" rhy av tucjov ovbbvxt (bdv rqtb sqrrqc), lhuxt qp ovbbvxt, bxulovbt qp ovbbvxt, rufbgxvt qp bdv haqnv, hci tq pqxbd. bdv xvsvunvx ivsuldvxt bdv bvfb ay lvxpqxrucj bdv ucnvxtv tgatbubgbuqc lxqsvtt bq vfbxhsb bdv qxujucho rvtthjv. ouzvwutv, mhskgvt kguszoy eullvi bdxqgjd h kgvtbuqc qc evxq-zcqwovijv lxqqpt, vctgxucj cq sxubusho ovbbvx wht ovpb qgb qp qgx sxylbqjxhldus lgeeov.pohj{xvq0c20q}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{reo0n20o}
+ciphertext: uc sxylbqjxhldy, h tgatbubgbuqc suldvx ut h rvbdqi qp vcsxylbucj uc wdusd gcubt qp lohucbvfb hxv xvlohsvi wubd bdv suldvxbvfb, uc h ivpucvi rhccvx, wubd bdv dvol qp h zvy; bdv "gcubt" rhy av tucjov ovbbvxt (bdv rqtb sqrrqc), lhuxt qp ovbbvxt, bxulovbt qp ovbbvxt, rufbgxvt qp bdv haqnv, hci tq pqxbd. bdv xvsvunvx ivsuldvxt bdv bvfb ay lvxpqxrucj bdv ucnvxtv tgatbubgbuqc lxqsvtt bq vfbxhsb bdv qxujucho rvtthjv. ouzvwutv, mhskgvt kguszoy eullvi bdxqgjd h kgvtbuqc qc evxq-zcqwovijv lxqqpt, vctgxucj cq sxubusho ovbbvx wht ovpb qgb qp qgx sxylbqjxhldus lgeeov.pohj{xvq0c20q}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'h', 'b': 'a', 'c': 's', 'd': 'i', 'e': 'v', 'f': 'p', 'g': 'j', 'h': 'd', 'i': 'u', 'j': 'm', 'k': 'z', 'l': 'o', 'm': 'r', 'n': 'c', 'o': 'q', 'p': 'l', 'q': 'k', 'r': 'x', 's': 't', 't': 'b', 'u': 'g', 'v': 'n', 'w': 'w', 'x': 'f', 'y': 'y', 'z': 'e'}
+subtype: substitution
+archetype: classical_cipher

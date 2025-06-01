@@ -1,0 +1,15 @@
+Intercepted message: rumor says SplitNumberMix protects the code. Can you recover the original content from  555555 f 555555 lag{spb 555555 mdx 555555 wc} 555555 ?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{spbmdxwc}
+ciphertext:  555555 f 555555 lag{spb 555555 mdx 555555 wc} 555555 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 4 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

@@ -1,0 +1,18 @@
+Desperate for speed, a developer reused an AES-GCM nonce. Can you exploit the slip and recover the plaintext from these ciphertext1:a3f67de6319f8d55619091ce31ca, ciphertext2: b1f275f26a8197416397d58a2097e9d76350?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{wi4lh0dp}
+ciphertext: ciphertext1:a3f67de6319f8d55619091ce31ca, ciphertext2: b1f275f26a8197416397d58a2097e9d76350
+tag1: 3a9c931b97d502fd237e90d2b9e9f62a
+tag2: bd48fd38eb2df4e9605eba980b86fd6d
+cipher: AES-GCM
+vulnerability: nonce reuse
+hint: AES-GCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: bdd3df0b29c563d60da32bba
+subtype: aes_gcm
+archetype: aes

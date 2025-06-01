@@ -1,0 +1,21 @@
+A mysterious hacker sent you an encrypted message: nqpx{uwo31fff}. Rumor has it, a simple substitution cipher was used. Can you reveal their secret?
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'p', 'b': 'i', 'c': 't', 'd': 'l', 'e': 'a', 'f': 'n', 'g': 'x', 'h': 'j', 'i': 'e', 'j': 'w', 'k': 'c', 'l': 'q', 'm': 'm', 'n': 'z', 'o': 'f', 'p': 'r', 'q': 'd', 'r': 'o', 's': 'y', 't': 'g', 'u': 's', 'v': 'b', 'w': 'h', 'x': 'k', 'y': 'u', 'z': 'v'}
+
+---
+
+## Challenge Technical Details
+flag: flag{yjr31ooo}
+cipher: Substitution
+ciphertext: nqpx{uwo31fff}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'p', 'b': 'i', 'c': 't', 'd': 'l', 'e': 'a', 'f': 'n', 'g': 'x', 'h': 'j', 'i': 'e', 'j': 'w', 'k': 'c', 'l': 'q', 'm': 'm', 'n': 'z', 'o': 'f', 'p': 'r', 'q': 'd', 'r': 'o', 's': 'y', 't': 'g', 'u': 's', 'v': 'b', 'w': 'h', 'x': 'k', 'y': 'u', 'z': 'v'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

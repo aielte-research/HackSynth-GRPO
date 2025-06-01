@@ -1,0 +1,15 @@
+A hacker left a secret note using SplitNumberMix. Can you recover the hidden message from this challenge ciphertext?  44444 fl 44444 ag{eqev 44444 m 44444 iri} 44444 
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{eqevmiri}
+ciphertext:  44444 fl 44444 ag{eqev 44444 m 44444 iri} 44444 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 4 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

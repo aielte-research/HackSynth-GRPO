@@ -1,0 +1,21 @@
+A mysterious hacker left this message at the scene. Can you break their substitution cipher to reveal the hidden secret? hmpq{xrpsqt1e}
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'p', 'b': 'c', 'c': 'v', 'd': 'z', 'e': 'n', 'f': 'h', 'g': 'q', 'h': 'j', 'i': 'l', 'j': 'u', 'k': 'b', 'l': 'm', 'm': 'd', 'n': 'r', 'o': 'f', 'p': 'e', 'q': 'i', 'r': 'k', 's': 'o', 't': 'g', 'u': 'y', 'v': 'w', 'w': 'x', 'x': 's', 'y': 'a', 'z': 't'}
+
+---
+
+## Challenge Technical Details
+flag: flag{wnaxgz1p}
+cipher: Substitution
+ciphertext: hmpq{xrpsqt1e}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'p', 'b': 'c', 'c': 'v', 'd': 'z', 'e': 'n', 'f': 'h', 'g': 'q', 'h': 'j', 'i': 'l', 'j': 'u', 'k': 'b', 'l': 'm', 'm': 'd', 'n': 'r', 'o': 'f', 'p': 'e', 'q': 'i', 'r': 'k', 's': 'o', 't': 'g', 'u': 'y', 'v': 'w', 'w': 'x', 'x': 's', 'y': 'a', 'z': 't'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

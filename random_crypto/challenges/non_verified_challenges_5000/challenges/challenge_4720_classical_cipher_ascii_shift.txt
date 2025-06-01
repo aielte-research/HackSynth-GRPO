@@ -1,0 +1,15 @@
+The lead developer left a mysterious note in the source code. Can you decode it using an ASCII Shift cipher? Here it is: mshn?pl:}wz
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{8ize3vps}
+cipher: ASCII Shift
+ciphertext: mshn?pl:}wz
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 7
+subtype: ascii_shift
+archetype: classical_cipher

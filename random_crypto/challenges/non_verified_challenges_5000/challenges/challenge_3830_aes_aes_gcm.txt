@@ -1,0 +1,18 @@
+After copying code online, the admin reused the same AES-GCM nonce for all messages. Can you recover the secret flag from this ciphertext? ciphertext1:aadb23a935865cd79f6eb7406895, ciphertext2: b8df2bbd6ed74ac29731ba0431c879124365
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{8e5f0yd8}
+ciphertext: ciphertext1:aadb23a935865cd79f6eb7406895, ciphertext2: b8df2bbd6ed74ac29731ba0431c879124365
+tag1: d2b6e7af81fc40a85ec432863ba7c9e3
+tag2: 2fb1b538f34c36905fcb78001a815ca7
+cipher: AES-GCM
+vulnerability: nonce reuse
+hint: AES-GCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: b2a8e89551efd2e362a7362e
+subtype: aes_gcm
+archetype: aes

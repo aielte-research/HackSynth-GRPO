@@ -1,0 +1,14 @@
+
+A rushed developer rolled out an app using homemade session tokens. Your task: break in with nothing but the suspicious token 757365725f626e39783a666c61677b3676776f647a66357d3a31373438313636353434 captured during login.
+
+
+---
+
+## Challenge Technical Details
+flag: flag{6vwodzf5}
+ciphertext: 757365725f626e39783a666c61677b3676776f647a66357d3a31373438313636353434
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_bn9x:flag{6vwodzf5}:1748166544'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

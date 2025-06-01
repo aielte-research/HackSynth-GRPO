@@ -1,0 +1,15 @@
+A secret society encoded their invitation to the midnight meeting using a simple substitution cipher. Can you reveal the message hidden in md uqznkvfqbnez, b jhyjkmkhkmvd umnelq mj b slkevp vo lduqznkmdf md wemue hdmkj vo ncbmdklgk bql qlncbulp wmke kel umnelqklgk, md b plomdlp sbddlq, wmke kel elcn vo b rlz; kel "hdmkj" sbz yl jmdfcl clkklqj (kel svjk uvssvd), nbmqj vo clkklqj, kqmnclkj vo clkklqj, smgkhqlj vo kel byvil, bdp jv ovqke. kel qlulmilq plumnelqj kel klgk yz nlqovqsmdf kel mdilqjl jhyjkmkhkmvd nqvuljj kv lgkqbuk kel vqmfmdbc sljjbfl. cmrlwmjl, tbuahlj ahmurcz xmnnlp keqvhfe b ahljkmvd vd xlqv-rdvwclpfl nqvvoj, ldjhqmdf dv uqmkmubc clkklq wbj clok vhk vo vhq uqznkvfqbnemu nhxxcl.ocbf{ferm8n96}?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ghki8p96}
+ciphertext: md uqznkvfqbnez, b jhyjkmkhkmvd umnelq mj b slkevp vo lduqznkmdf md wemue hdmkj vo ncbmdklgk bql qlncbulp wmke kel umnelqklgk, md b plomdlp sbddlq, wmke kel elcn vo b rlz; kel "hdmkj" sbz yl jmdfcl clkklqj (kel svjk uvssvd), nbmqj vo clkklqj, kqmnclkj vo clkklqj, smgkhqlj vo kel byvil, bdp jv ovqke. kel qlulmilq plumnelqj kel klgk yz nlqovqsmdf kel mdilqjl jhyjkmkhkmvd nqvuljj kv lgkqbuk kel vqmfmdbc sljjbfl. cmrlwmjl, tbuahlj ahmurcz xmnnlp keqvhfe b ahljkmvd vd xlqv-rdvwclpfl nqvvoj, ldjhqmdf dv uqmkmubc clkklq wbj clok vhk vo vhq uqznkvfqbnemu nhxxcl.ocbf{ferm8n96}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'b', 'b': 'y', 'c': 'u', 'd': 'p', 'e': 'l', 'f': 'o', 'g': 'f', 'h': 'e', 'i': 'm', 'j': 't', 'k': 'r', 'l': 'c', 'm': 's', 'n': 'd', 'o': 'v', 'p': 'n', 'q': 'a', 'r': 'q', 's': 'j', 't': 'k', 'u': 'h', 'v': 'i', 'w': 'w', 'x': 'g', 'y': 'z', 'z': 'x'}
+subtype: substitution
+archetype: classical_cipher

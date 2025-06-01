@@ -1,0 +1,20 @@
+
+An intern generated weak RSA keys using two very small primes. Can you decrypt this intercepted message: 7507678216136064137?
+
+
+The flag format is flag{...}
+n=9143490669145752889, e=1737787329036295349
+
+---
+
+## Challenge Technical Details
+flag: flag{xtr4fayi}
+cipher: RSA
+ciphertext: 7507678216136064137
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=9143490669145752889, e=1737787329036295349
+extra_info: p=3327990371, q=2747451059, φ(n)=9143490663070311460
+subtype: small_primes
+archetype: rsa

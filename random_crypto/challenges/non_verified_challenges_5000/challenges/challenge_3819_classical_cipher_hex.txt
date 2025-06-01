@@ -1,0 +1,14 @@
+A hacker sent a secret location encoded in hex. Can you decode the message and find where the treasure is hidden? Ciphertext: 666c61677b356961346d6439307d
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{5ia4md90}
+cipher: Hex
+ciphertext: 666c61677b356961346d6439307d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

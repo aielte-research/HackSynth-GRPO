@@ -1,0 +1,15 @@
+A hacker left a secret in the system logs, but shifted each character by a fixed value. Can you recover the message from this altered text: iodj~e{ln;xqy?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{bxik8unv}
+cipher: ASCII Shift
+ciphertext: iodj~e{ln;xqy
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 3
+subtype: ascii_shift
+archetype: classical_cipher

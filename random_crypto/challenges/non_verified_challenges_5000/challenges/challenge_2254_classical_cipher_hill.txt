@@ -1,0 +1,17 @@
+A rogue mathematician left a coded message for their accomplice. Can you reconstruct the secret using the Hill cipher? Here’s the message: agadaslajeqnnayqhmhjtwuzkdkfrdhmuynrbynrgcauziozaoisdaswpkqhscopqjvcpl
+
+The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+
+---
+
+## Challenge Technical Details
+flag: flag{ibubkazt}
+ciphertext: agadaslajeqnnayqhmhjtwuzkdkfrdhmuynrbynrgcauziozaoisdaswpkqhscopqjvcpl
+cipher: Hill
+hint: Hill ciphers can be broken using known-plaintext attacks and linear algebra mod 26.
+necessary_info: The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+extra_info: The matrix used is: [[18, 5], [3, 24]]
+subtype: hill
+archetype: classical_cipher

@@ -1,0 +1,18 @@
+A secret message from the resistance is secured using AES. Only those with the right key can decrypt ciphertext1:465d996131b1e8d40aa07db2b2de, ciphertext2: 465d996131b1efda56af2eecf7de and reveal the plan.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{w1yk9ff5}
+ciphertext: ciphertext1:465d996131b1e8d40aa07db2b2de, ciphertext2: 465d996131b1efda56af2eecf7de
+tag1: 4226e7609fde2ce2e8e025b9f02ab400
+tag2: 0b236f814498f4d03cf24ff703fc8ea4
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 4a599262920482d6b70b75
+subtype: aes_ccm
+archetype: aes

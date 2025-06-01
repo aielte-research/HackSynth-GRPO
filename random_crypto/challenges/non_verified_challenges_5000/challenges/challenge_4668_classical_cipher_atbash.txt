@@ -1,0 +1,16 @@
+
+An ancient code hides the vault password. Decipher it using the Atbash method to claim your crypto prize: uozt{fd8hr8xp}
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{uw8si8ck}
+cipher: Atbash
+ciphertext: uozt{fd8hr8xp}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

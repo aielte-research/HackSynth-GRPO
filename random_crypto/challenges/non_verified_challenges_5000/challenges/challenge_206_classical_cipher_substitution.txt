@@ -1,0 +1,17 @@
+
+Decipher the secret message intercepted from a mysterious sender. It’s encrypted using a simple substitution cipher: az tpsmgdxphmks, h joijgagogadz tamkrp aj h lrgkdq dw rztpsmgazx az vkatk ozagj dw mchazgreg hpr prmchtrq vagk gkr tamkrpgreg, az h qrwazrq lhzzrp, vagk gkr krcm dw h frs; gkr "ozagj" lhs ir jazxcr crggrpj (gkr ldjg tdlldz), mhapj dw crggrpj, gpamcrgj dw crggrpj, laegoprj dw gkr hidnr, hzq jd wdpgk. gkr prtranrp qrtamkrpj gkr greg is mrpwdplazx gkr aznrpjr joijgagogadz mpdtrjj gd regphtg gkr dpaxazhc lrjjhxr. cafrvajr, uhtborj boatfcs yammrq gkpdoxk h borjgadz dz yrpd-fzdvcrqxr mpddwj, rzjopazx zd tpagathc crggrp vhj crwg dog dw dop tpsmgdxphmkat moyycr.wchx{wg2qcfk2}
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ft2dlkh2}
+ciphertext: az tpsmgdxphmks, h joijgagogadz tamkrp aj h lrgkdq dw rztpsmgazx az vkatk ozagj dw mchazgreg hpr prmchtrq vagk gkr tamkrpgreg, az h qrwazrq lhzzrp, vagk gkr krcm dw h frs; gkr "ozagj" lhs ir jazxcr crggrpj (gkr ldjg tdlldz), mhapj dw crggrpj, gpamcrgj dw crggrpj, laegoprj dw gkr hidnr, hzq jd wdpgk. gkr prtranrp qrtamkrpj gkr greg is mrpwdplazx gkr aznrpjr joijgagogadz mpdtrjj gd regphtg gkr dpaxazhc lrjjhxr. cafrvajr, uhtborj boatfcs yammrq gkpdoxk h borjgadz dz yrpd-fzdvcrqxr mpddwj, rzjopazx zd tpagathc crggrp vhj crwg dog dw dop tpsmgdxphmkat moyycr.wchx{wg2qcfk2}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'h', 'b': 'i', 'c': 't', 'd': 'q', 'e': 'r', 'f': 'w', 'g': 'x', 'h': 'k', 'i': 'a', 'j': 'u', 'k': 'f', 'l': 'c', 'm': 'l', 'n': 'z', 'o': 'd', 'p': 'm', 'q': 'b', 'r': 'p', 's': 'j', 't': 'g', 'u': 'o', 'v': 'n', 'w': 'v', 'x': 'e', 'y': 's', 'z': 'y'}
+subtype: substitution
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+A hacker scrambled the server password by shifting each ASCII character. Can you decode it and retrieve the treasure? Ciphertext: lrgm99>tg>hj
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{338na8bd}
+cipher: ASCII Shift
+ciphertext: lrgm99>tg>hj
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 6
+subtype: ascii_shift
+archetype: classical_cipher

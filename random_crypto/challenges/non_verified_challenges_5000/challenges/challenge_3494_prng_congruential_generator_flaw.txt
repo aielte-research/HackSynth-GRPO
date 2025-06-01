@@ -1,0 +1,27 @@
+Intercepted casino messages were encrypted using a predictable random number generator. Can you break their LCG-based cipher and reveal the original content? 55c26e0848de7d585cde3b0c06d3
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1544735132
+  - Multiplier: 257710527
+  - Increment: 1159129090
+The first 5 outputs of the LCG are provided: [163483271, 212758127, 1238983171, 3977487, 1538493499] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{pr7op4c5}
+ciphertext: 55c26e0848de7d585cde3b0c06d3
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1544735132
+  - Multiplier: 257710527
+  - Increment: 1159129090
+The first 5 outputs of the LCG are provided: [163483271, 212758127, 1238983171, 3977487, 1538493499] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

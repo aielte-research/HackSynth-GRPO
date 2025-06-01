@@ -1,0 +1,13 @@
+
+A rogue admin signed a JWT granting root privileges. Can you exploit the token below and uncover the hidden secret? Token: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tsdmk5N3M3Mn0ifQ.
+
+
+---
+
+## Challenge Technical Details
+flag: flag{lvi97s72}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tsdmk5N3M3Mn0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

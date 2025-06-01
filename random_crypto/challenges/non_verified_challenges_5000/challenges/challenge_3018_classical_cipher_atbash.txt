@@ -1,0 +1,14 @@
+An ancient code was found etched on a stone. It reads: uozt{vndplm8k}. Historians suspect it's encrypted with a mirror alphabet. Can you reveal its secret?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{emwkon8p}
+cipher: Atbash
+ciphertext: uozt{vndplm8k}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

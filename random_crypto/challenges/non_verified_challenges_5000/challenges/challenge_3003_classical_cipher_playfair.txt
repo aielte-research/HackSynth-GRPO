@@ -1,0 +1,17 @@
+An archaeologist discovers a note from a secret society—legend says its message unlocks lost treasure. The text reads "pnpvrlvblaolhrfptptqrlvblaoaowlxcpqxfpbrbotkpvrlvblaolhrfpxafblbkylrbulycgotklmhlovtrntkpmekknowlfkixzbofpahoarmnrlplrinlqblcksfrnoyrntklkvflpaezlpxiy". Can you decode their Playfair cipher?
+
+The flag format is flag{...}
+The keyword is: khdinsfz
+
+---
+
+## Challenge Technical Details
+flag: flag{6r11v41n}
+ciphertext: pnpvrlvblaolhrfptptqrlvblaoaowlxcpqxfpbrbotkpvrlvblaolhrfpxafblbkylrbulycgotklmhlovtrntkpmekknowlfkixzbofpahoarmnrlplrinlqblcksfrnoyrntklkvflpaezlpxiy
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: khdinsfz
+extra_info: The playfair table is [['k', 'h', 'd', 'i', 'n'], ['s', 'f', 'z', 'a', 'b'], ['c', 'e', 'g', 'l', 'm'], ['o', 'p', 'q', 'r', 't'], ['u', 'v', 'w', 'x', 'y']]
+subtype: playfair
+archetype: classical_cipher

@@ -1,0 +1,19 @@
+Intercepted transmissions from a rogue satellite use a flawed stream cipher. Can you recover the secret message from the output below? Ciphertext: 3244354f2f523f1f60453d493755
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[41033, 20516, 10258, 5129, 2564, 34050, 17025, 41280, 20640, 43088]
+
+---
+
+## Challenge Technical Details
+flag: flag{zk74miac}
+ciphertext: 3244354f2f523f1f60453d493755
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[41033, 20516, 10258, 5129, 2564, 34050, 17025, 41280, 20640, 43088]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

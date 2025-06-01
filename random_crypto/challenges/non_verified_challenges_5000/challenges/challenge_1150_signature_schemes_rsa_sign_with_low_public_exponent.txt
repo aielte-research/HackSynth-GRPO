@@ -1,0 +1,16 @@
+
+A rookie Dev signed your access request with their test key (e=3), but left the signature public. Retrieve the admin token from 0xa34a1e49c4df1a9e9374611287f6eab49a7ca773f73bb3f0ffabe0f76f4314e0e47cd0e7f6a8638f918a21e9ad7e2f3f1e46fa649970dacb202f93d27edeba5.
+
+
+Public Key (n, e): (5249302810850381453602953294620845260626794034851218884727159340386817326606844022289478749801794399425310530856514101474341217776799281681216763616674137, 3)
+
+---
+
+## Challenge Technical Details
+flag: flag{dtmm1wya}
+ciphertext: 0xa34a1e49c4df1a9e9374611287f6eab49a7ca773f73bb3f0ffabe0f76f4314e0e47cd0e7f6a8638f918a21e9ad7e2f3f1e46fa649970dacb202f93d27edeba5
+cipher: RSA Low-Exponent Signature
+hint: What happens when you cube small numbers? Remember e=3!
+necessary_info: Public Key (n, e): (5249302810850381453602953294620845260626794034851218884727159340386817326606844022289478749801794399425310530856514101474341217776799281681216763616674137, 3)
+subtype: rsa_sign_with_low_public_exponent
+archetype: signature_schemes

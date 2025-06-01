@@ -1,0 +1,27 @@
+A hacker claims their random number-based cipher is unbreakable. Prove them wrong: here’s an encrypted message with their LCG Predictability cipher: 73e016246eea19252cea452f20f1
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1868867866
+  - Multiplier: 1394529644
+  - Increment: 1316417595
+The first 5 outputs of the LCG are provided: [58193611, 447314255, 1240887759, 1198985031, 967923681] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{fnf9f2l5}
+ciphertext: 73e016246eea19252cea452f20f1
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1868867866
+  - Multiplier: 1394529644
+  - Increment: 1316417595
+The first 5 outputs of the LCG are provided: [58193611, 447314255, 1240887759, 1198985031, 967923681] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

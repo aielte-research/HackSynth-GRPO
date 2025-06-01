@@ -1,0 +1,15 @@
+The message from the hacker was reversed before sending. Can you flip it back to read the secret? Ciphertext: }aopq583x{galf
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{x385qpoa}
+ciphertext: }aopq583x{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

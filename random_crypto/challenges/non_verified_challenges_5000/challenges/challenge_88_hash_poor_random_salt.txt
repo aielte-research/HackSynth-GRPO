@@ -1,0 +1,21 @@
+
+A rookie dev salted SHA-256 hashes with the same weak random seed each time. Recover the original password given the hash: e998f1c9f7c96c5853f4a8fd2c1ac0f1b98bfebfc77fc1cbef26679527d793f8
+
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{oxj}
+ciphertext: e998f1c9f7c96c5853f4a8fd2c1ac0f1b98bfebfc77fc1cbef26679527d793f8
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

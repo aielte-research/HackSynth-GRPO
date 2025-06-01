@@ -1,0 +1,15 @@
+A Roman general hid his secret battle plan in a coded message. Can you reveal his strategy by deciphering the Caesar-encrypted note? Here it is: synt{8mefbfmx}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{8zrsoszk}
+ciphertext: synt{8mefbfmx}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 13
+subtype: caesar
+archetype: classical_cipher

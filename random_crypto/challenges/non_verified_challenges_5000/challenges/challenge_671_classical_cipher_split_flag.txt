@@ -1,0 +1,17 @@
+
+A rogue mathematician encoded critical funds access using SplitNumberMix. Crack the hidden sequence in  00000000 flag{yquyg 00000000 phd} 00000000  to recover the private key.
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{yquygphd}
+ciphertext:  00000000 flag{yquyg 00000000 phd} 00000000 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 2 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

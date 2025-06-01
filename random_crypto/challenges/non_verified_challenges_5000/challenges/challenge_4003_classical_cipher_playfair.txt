@@ -1,0 +1,17 @@
+An old spy notebook holds clues—if you can break the Playfair cipher. Decode rbimgbwlbhmfdvaisqsrgbwlbhstnwhsanwqaibstmkzimgbwlbhmfdvaiphxgseenbgtxsuucmsedcefmvtpbkzmbfezenwibzcxhtmaidhstytbphmbgpdfsesmxatpbmypbkzderihmgcgsvwwzwx to unveil the secret left behind.
+
+The flag format is flag{...}
+The keyword is: nzqokeih
+
+---
+
+## Challenge Technical Details
+flag: flag{u5vvqvw5}
+ciphertext: rbimgbwlbhmfdvaisqsrgbwlbhstnwhsanwqaibstmkzimgbwlbhmfdvaiphxgseenbgtxsuucmsedcefmvtpbkzmbfezenwibzcxhtmaidhstytbphmbgpdfsesmxatpbmypbkzderihmgcgsvwwzwx
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: nzqokeih
+extra_info: The playfair table is [['n', 'z', 'q', 'o', 'k'], ['e', 'i', 'h', 'a', 'b'], ['c', 'd', 'f', 'g', 'l'], ['m', 'p', 'r', 's', 't'], ['u', 'v', 'w', 'x', 'y']]
+subtype: playfair
+archetype: classical_cipher

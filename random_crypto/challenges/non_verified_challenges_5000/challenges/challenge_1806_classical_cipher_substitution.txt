@@ -1,0 +1,15 @@
+An ancient guild encoded the passphrase using a simple letter-for-letter scheme. Can you restore their original message from this mysterious sequence: uc mhqrbliharjq, a otxobubtbulc murjkh uo a fkbjle lz kcmhqrbuci uc sjumj tcubo lz ryaucbkvb ahk hkryamke subj bjk murjkhbkvb, uc a ekzucke facckh, subj bjk jkyr lz a pkq; bjk "tcubo" faq xk ouciyk ykbbkho (bjk flob mlfflc), rauho lz ykbbkho, bhurykbo lz ykbbkho, fuvbthko lz bjk axlwk, ace ol zlhbj. bjk hkmkuwkh ekmurjkho bjk bkvb xq rkhzlhfuci bjk ucwkhok otxobubtbulc rhlmkoo bl kvbhamb bjk lhuiucay fkooaik. yupksuok, gamdtko dtumpyq nurrke bjhltij a dtkobulc lc nkhl-pclsykeik rhllzo, kcothuci cl mhubumay ykbbkh sao ykzb ltb lz lth mhqrbliharjum rtnnyk.zyai{hp5c0s1m}?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{rk5n0w1c}
+ciphertext: uc mhqrbliharjq, a otxobubtbulc murjkh uo a fkbjle lz kcmhqrbuci uc sjumj tcubo lz ryaucbkvb ahk hkryamke subj bjk murjkhbkvb, uc a ekzucke facckh, subj bjk jkyr lz a pkq; bjk "tcubo" faq xk ouciyk ykbbkho (bjk flob mlfflc), rauho lz ykbbkho, bhurykbo lz ykbbkho, fuvbthko lz bjk axlwk, ace ol zlhbj. bjk hkmkuwkh ekmurjkho bjk bkvb xq rkhzlhfuci bjk ucwkhok otxobubtbulc rhlmkoo bl kvbhamb bjk lhuiucay fkooaik. yupksuok, gamdtko dtumpyq nurrke bjhltij a dtkobulc lc nkhl-pclsykeik rhllzo, kcothuci cl mhubumay ykbbkh sao ykzb ltb lz lth mhqrbliharjum rtnnyk.zyai{hp5c0s1m}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'a', 'b': 'x', 'c': 'm', 'd': 'e', 'e': 'k', 'f': 'z', 'g': 'i', 'h': 'j', 'i': 'u', 'j': 'g', 'k': 'p', 'l': 'y', 'm': 'f', 'n': 'c', 'o': 'l', 'p': 'r', 'q': 'd', 'r': 'h', 's': 'o', 't': 'b', 'u': 't', 'v': 'w', 'w': 's', 'x': 'v', 'y': 'q', 'z': 'n'}
+subtype: substitution
+archetype: classical_cipher

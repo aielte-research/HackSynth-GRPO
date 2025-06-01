@@ -1,0 +1,19 @@
+Agent Nova sent a secret using an LFSR-based stream cipher, but rumors say its key isn't secure. Recover her message from this intercepted ciphertext: de39d932c363d537d63ec9318e28
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[22380, 43958, 21979, 10989, 5494, 2747, 34141, 49838, 57687, 28843]
+
+---
+
+## Challenge Technical Details
+flag: flag{6mbnkqd6}
+ciphertext: de39d932c363d537d63ec9318e28
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[22380, 43958, 21979, 10989, 5494, 2747, 34141, 49838, 57687, 28843]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

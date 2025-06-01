@@ -1,0 +1,17 @@
+
+An agent's urgent message was scrambled onto two rails. Can you reconstruct the original warning from the zigzagged fa{8cy6lgrsqw}?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{r8scqyw6}
+ciphertext: fa{8cy6lgrsqw}
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 2
+subtype: rail_fence
+archetype: classical_cipher

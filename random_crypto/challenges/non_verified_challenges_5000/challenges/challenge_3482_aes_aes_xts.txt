@@ -1,0 +1,17 @@
+
+A mysterious hacker encrypted their secret using AES-XTS. The only clue left is this ciphertext: ciphertext1:a8c991efbe8fc37738707c258ce0ea0b, ciphertext2: 626d8fa538319a4b097854caf570a123ae12d02dabd069a2829aeec65bae2a54. Can you unveil the hidden message?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{8j8w9gcw}
+ciphertext: ciphertext1:a8c991efbe8fc37738707c258ce0ea0b, ciphertext2: 626d8fa538319a4b097854caf570a123ae12d02dabd069a2829aeec65bae2a54
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: a74ead029bf72225033c1c7d42284819
+subtype: aes_xts
+archetype: aes

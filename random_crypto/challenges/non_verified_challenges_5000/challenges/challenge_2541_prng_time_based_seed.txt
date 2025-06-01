@@ -1,0 +1,21 @@
+
+Intercepted at midnight, this message hides its secret in the ticks of time. Can you decrypt the 666c592e7b795c316565413c307d before the clock resets?
+
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 80330)
+The system time when the encryption process started was around: 2025-05-25 12:07:51 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{ydxeeyu0}
+ciphertext: 666c592e7b795c316565413c307d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 80330)
+The system time when the encryption process started was around: 2025-05-25 12:07:51 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 14409.
+subtype: time_based_seed
+archetype: prng

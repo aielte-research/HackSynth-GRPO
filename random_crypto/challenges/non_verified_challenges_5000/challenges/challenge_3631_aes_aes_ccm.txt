@@ -1,0 +1,18 @@
+An encrypted message using AES was intercepted from a rogue agent. Can you recover the flag hidden inside? Ciphertext: ciphertext1:13a8137e1bff29b40694df7cd06c, ciphertext2: 13a8137e1bfa26f1079b9576c36c
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{2ludz3xr}
+ciphertext: ciphertext1:13a8137e1bff29b40694df7cd06c, ciphertext2: 13a8137e1bfa26f1079b9576c36c
+tag1: b20f94d8372e2c173d75574d28b17593
+tag2: f49fb1e1bbb40d9a3e237d7f66c6cc51
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: f5a2e94769792952db13e4
+subtype: aes_ccm
+archetype: aes

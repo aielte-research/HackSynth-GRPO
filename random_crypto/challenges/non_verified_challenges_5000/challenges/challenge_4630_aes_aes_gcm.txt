@@ -1,0 +1,18 @@
+An intern encrypted two messages to the boss using AES-GCM, but reused the same nonce by mistake. The leaked ciphertexts are: ciphertext1:15b4cfe1411535fd4e22490c2bf9, ciphertext2: 07b0c7f51a0422a84b785c587fa4bead0416.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{xduk5at5}
+ciphertext: ciphertext1:15b4cfe1411535fd4e22490c2bf9, ciphertext2: 07b0c7f51a0422a84b785c587fa4bead0416
+tag1: 3e23b3eaaaa2c07292314cd40d513b2b
+tag2: 672f8652b996f727039d158e7f3a1ca6
+cipher: AES-GCM
+vulnerability: nonce reuse
+hint: AES-GCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: f4adbe45a79e8d990a7527a6
+subtype: aes_gcm
+archetype: aes

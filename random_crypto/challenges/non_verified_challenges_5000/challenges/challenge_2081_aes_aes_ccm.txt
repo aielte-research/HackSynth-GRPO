@@ -1,0 +1,18 @@
+Someone hid a secret in this AES-encrypted message. Can you recover the flag? Ciphertext: ciphertext1:00eeb1e87436a6243fd1c8189169, ciphertext2: 00eeb1e87472f2256cc89b1a8069
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{p3tktg7u}
+ciphertext: ciphertext1:00eeb1e87436a6243fd1c8189169, ciphertext2: 00eeb1e87472f2256cc89b1a8069
+tag1: 2574e0f3c1ec803826f15d017f995ae2
+tag2: 52dab40435994d80c1c6e0d278fb1a21
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 8fea4f676ebd275ad77d42
+subtype: aes_ccm
+archetype: aes

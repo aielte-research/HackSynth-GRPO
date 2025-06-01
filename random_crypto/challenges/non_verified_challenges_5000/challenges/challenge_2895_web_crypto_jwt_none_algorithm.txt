@@ -1,0 +1,11 @@
+An infiltrator sent a JWT-protected message. Can you decode eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3s5c3d4MHY1N30ifQ. to reveal their secret plan?
+
+---
+
+## Challenge Technical Details
+flag: flag{9swx0v57}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3s5c3d4MHY1N30ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

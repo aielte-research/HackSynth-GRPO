@@ -1,0 +1,15 @@
+Someone hid the flag using ChunkedFlag cipher. They left only this ciphertext: fl ag{ n9g uog y0 }
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{n9guogy0}
+ciphertext: fl ag{ n9g uog y0 }
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

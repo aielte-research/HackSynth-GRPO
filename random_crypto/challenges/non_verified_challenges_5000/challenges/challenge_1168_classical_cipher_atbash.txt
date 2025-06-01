@@ -1,0 +1,14 @@
+An old scroll reveals a hidden message from ancient spies. Decipher the code below using their favorite method: Atbash. The secret awaits: uozt{gvzfxdbl}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{teaucwyo}
+cipher: Atbash
+ciphertext: uozt{gvzfxdbl}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

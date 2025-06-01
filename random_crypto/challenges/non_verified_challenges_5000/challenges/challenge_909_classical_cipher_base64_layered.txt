@@ -1,0 +1,15 @@
+An archivist emails you a password but encodes it for privacy. She hints: "Think base64." The message reads: VmpJd2VFNUhSa2RpTTNCclVqTkNjVll3YUVOa2JHeHpXa2QwYTJKSGREWlVWVkYzVUZFOVBRPT0=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{cqzhmgoc}
+cipher: Base64
+ciphertext: VmpJd2VFNUhSa2RpTTNCclVqTkNjVll3YUVOa2JHeHpXa2QwYTJKSGREWlVWVkYzVUZFOVBRPT0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 5 times in total.
+subtype: base64_layered
+archetype: classical_cipher

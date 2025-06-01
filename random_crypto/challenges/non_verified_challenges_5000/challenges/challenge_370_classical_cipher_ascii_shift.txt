@@ -1,0 +1,15 @@
+A hacker left a message on the blockchain, but all the letters are shifted by a fixed ASCII value. Can you reveal the secret? Ciphertext: kqflx9<ht>w
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{s47czo9r}
+cipher: ASCII Shift
+ciphertext: kqflx9<ht>w
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 5
+subtype: ascii_shift
+archetype: classical_cipher

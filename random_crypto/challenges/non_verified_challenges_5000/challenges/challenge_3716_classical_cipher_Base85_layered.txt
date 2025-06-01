@@ -1,0 +1,15 @@
+A hacker left a secret wallet key in a forum post, encoded using Base85. Can you decode Q8+6$C09T(Kr2)>FllT?Dp5>4T0>tyaZhPwOiNd6Y-Ax&En-MNP$(*LOGG~=Fl|?DFexodeNt0<K_f<BYD#xXQa)r;I5c5VBSUmbOLa15N?2)GduC5XEm3}ARdRkKR$gO9Ut=<1aAjn2Ln|v;c> to retrieve the hidden phrase?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{0um0es7n}
+cipher: Base85
+ciphertext: Q8+6$C09T(Kr2)>FllT?Dp5>4T0>tyaZhPwOiNd6Y-Ax&En-MNP$(*LOGG~=Fl|?DFexodeNt0<K_f<BYD#xXQa)r;I5c5VBSUmbOLa15N?2)GduC5XEm3}ARdRkKR$gO9Ut=<1aAjn2Ln|v;c>
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 10 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

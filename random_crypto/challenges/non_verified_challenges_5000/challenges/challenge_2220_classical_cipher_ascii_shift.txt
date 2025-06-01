@@ -1,0 +1,15 @@
+An old hacker left a secret message, but shifted each ASCII character by a fixed key. Can you recover the flag from this cipher: mshn~ww:?t?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{yzwpp38m}
+cipher: ASCII Shift
+ciphertext: mshn~ww:?t
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 7
+subtype: ascii_shift
+archetype: classical_cipher

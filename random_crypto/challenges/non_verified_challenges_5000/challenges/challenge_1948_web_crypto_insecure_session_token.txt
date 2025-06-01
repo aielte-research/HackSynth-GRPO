@@ -1,0 +1,12 @@
+Hacker Alice intercepted your login session token, encrypted with an insecure custom cipher. Can you break the 757365725f767674753a666c61677b33317475367135697d3a31373438313636383437 to retrieve the original authentication token?
+
+---
+
+## Challenge Technical Details
+flag: flag{31tu6q5i}
+ciphertext: 757365725f767674753a666c61677b33317475367135697d3a31373438313636383437
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_vvtu:flag{31tu6q5i}:1748166847'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

@@ -1,0 +1,19 @@
+Someone stored admin credentials using SHA-256 with a weak, predictable salt. Can you recover the original password from this hash? Ciphertext: c76f119caa25459562a7555dd40e496642644436a25f3c3277233dee259027f5
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{cm2}
+ciphertext: c76f119caa25459562a7555dd40e496642644436a25f3c3277233dee259027f5
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

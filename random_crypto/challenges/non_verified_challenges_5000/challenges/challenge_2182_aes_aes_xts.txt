@@ -1,0 +1,15 @@
+A corrupted SSD's sensitive file remains unreadable—encrypted using AES-XTS. Can you recover the flag from the provided ciphertext? ciphertext1:c028ddd2895ae933b65961d5dd9e03f8, ciphertext2: 028cb4c3b2421f46dc9fbf8b7e9b99a42ffc0446f9c64eaaf66fe692083713fe
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{9rvpcep5}
+ciphertext: ciphertext1:c028ddd2895ae933b65961d5dd9e03f8, ciphertext2: 028cb4c3b2421f46dc9fbf8b7e9b99a42ffc0446f9c64eaaf66fe692083713fe
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 508596a41fccb9b19b7abe3be7220e9e
+subtype: aes_xts
+archetype: aes

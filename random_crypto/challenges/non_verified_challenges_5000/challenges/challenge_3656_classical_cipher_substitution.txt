@@ -1,0 +1,15 @@
+An old spy left a secret message in a letter. Decode the words with a substitution cipher to uncover the hidden instructions: fs jmgenlvmheag, h ckocnfnknfls jfeaum fc h bunalx ly usjmgenfsv fs pafja ksfnc ly eihfsnurn hmu mueihjux pfna nau jfeaumnurn, fs h xuyfsux bhssum, pfna nau auie ly h tug; nau "ksfnc" bhg ou cfsviu iunnumc (nau blcn jlbbls), ehfmc ly iunnumc, nmfeiunc ly iunnumc, bfrnkmuc ly nau holzu, hsx cl ylmna. nau mujufzum xujfeaumc nau nurn og eumylmbfsv nau fszumcu ckocnfnknfls emljucc nl urnmhjn nau lmfvfshi bucchvu. iftupfcu, qhjwkuc wkfjtig dfeeux namlkva h wkucnfls ls duml-tslpiuxvu emllyc, usckmfsv sl jmfnfjhi iunnum phc iuyn lkn ly lkm jmgenlvmheafj ekddiu.yihv{i8wws832}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{l8qqn832}
+ciphertext: fs jmgenlvmheag, h ckocnfnknfls jfeaum fc h bunalx ly usjmgenfsv fs pafja ksfnc ly eihfsnurn hmu mueihjux pfna nau jfeaumnurn, fs h xuyfsux bhssum, pfna nau auie ly h tug; nau "ksfnc" bhg ou cfsviu iunnumc (nau blcn jlbbls), ehfmc ly iunnumc, nmfeiunc ly iunnumc, bfrnkmuc ly nau holzu, hsx cl ylmna. nau mujufzum xujfeaumc nau nurn og eumylmbfsv nau fszumcu ckocnfnknfls emljucc nl urnmhjn nau lmfvfshi bucchvu. iftupfcu, qhjwkuc wkfjtig dfeeux namlkva h wkucnfls ls duml-tslpiuxvu emllyc, usckmfsv sl jmfnfjhi iunnum phc iuyn lkn ly lkm jmgenlvmheafj ekddiu.yihv{i8wws832}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'h', 'b': 'o', 'c': 'j', 'd': 'x', 'e': 'u', 'f': 'y', 'g': 'v', 'h': 'a', 'i': 'f', 'j': 'q', 'k': 't', 'l': 'i', 'm': 'b', 'n': 's', 'o': 'l', 'p': 'e', 'q': 'w', 'r': 'm', 's': 'c', 't': 'n', 'u': 'k', 'v': 'z', 'w': 'p', 'x': 'r', 'y': 'g', 'z': 'd'}
+subtype: substitution
+archetype: classical_cipher

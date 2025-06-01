@@ -1,0 +1,12 @@
+Someone leaked admin tokens—encrypted with the broken Insecure Session Token cipher. Recover the admin session from this intercepted ciphertext: 757365725f3634307a3a666c61677b6e676d38713361747d3a31373438313637363132
+
+---
+
+## Challenge Technical Details
+flag: flag{ngm8q3at}
+ciphertext: 757365725f3634307a3a666c61677b6e676d38713361747d3a31373438313637363132
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_640z:flag{ngm8q3at}:1748167612'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

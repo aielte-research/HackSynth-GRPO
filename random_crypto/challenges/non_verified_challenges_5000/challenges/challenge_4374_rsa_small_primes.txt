@@ -1,0 +1,20 @@
+
+An intern rushed an RSA setup, picking tiny primes for speed. Can you decrypt this intercepted message, given it's trivially factorable? Ciphertext: 2333728954671933637
+
+
+The flag format is flag{...}
+n=7381784672459540677, e=6704762509307093383
+
+---
+
+## Challenge Technical Details
+flag: flag{5yrwqkxh}
+cipher: RSA
+ciphertext: 2333728954671933637
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=7381784672459540677, e=6704762509307093383
+extra_info: p=3175161679, q=2324853163, φ(n)=7381784666959525836
+subtype: small_primes
+archetype: rsa

@@ -1,0 +1,19 @@
+An old pager message encrypted with a flawed stream cipher surfaced online. Can you uncover the secret? Ciphertext: 3e2d39262376373b2c2d31782b3c
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[1250, 33393, 16696, 8348, 4174, 2087, 33811, 49673, 24836, 45186]
+
+---
+
+## Challenge Technical Details
+flag: flag{7oztli9s}
+ciphertext: 3e2d39262376373b2c2d31782b3c
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[1250, 33393, 16696, 8348, 4174, 2087, 33811, 49673, 24836, 45186]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

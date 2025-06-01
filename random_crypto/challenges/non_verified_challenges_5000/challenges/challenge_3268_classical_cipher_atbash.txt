@@ -1,0 +1,14 @@
+An old hacker left a secret message for you, encrypted with an ancient substitution cipher. Decode this to find the flag: uozt{b4afi0a5}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{y4zur0z5}
+cipher: Atbash
+ciphertext: uozt{b4afi0a5}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

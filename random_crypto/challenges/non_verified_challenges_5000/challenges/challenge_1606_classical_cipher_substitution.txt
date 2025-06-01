@@ -1,0 +1,15 @@
+An old hacker left a strange message hidden in an email. Can you crack the code and reveal the secret? Ciphertext: cl imfuewqmrugf, r yhayecehecwl icugnm cy r snegwj wk nlimfueclq cl dgcig hlcey wk uprclenoe rmn mnuprinj dceg egn icugnmenoe, cl r jnkclnj srllnm, dceg egn gnpu wk r znf; egn "hlcey" srf an yclqpn pneenmy (egn swye iwsswl), urcmy wk pneenmy, emcupney wk pneenmy, scoehmny wk egn rawvn, rlj yw kwmeg. egn mnincvnm jnicugnmy egn enoe af unmkwmsclq egn clvnmyn yhayecehecwl umwinyy ew noemrie egn wmcqclrp snyyrqn. pczndcyn, xrithny thcizpf bcuunj egmwhqg r thnyecwl wl bnmw-zlwdpnjqn umwwky, nlyhmclq lw imcecirp pneenm dry pnke whe wk whm imfuewqmrugci uhbbpn.kprq{qm5aqpqy}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{gr5bglgs}
+ciphertext: cl imfuewqmrugf, r yhayecehecwl icugnm cy r snegwj wk nlimfueclq cl dgcig hlcey wk uprclenoe rmn mnuprinj dceg egn icugnmenoe, cl r jnkclnj srllnm, dceg egn gnpu wk r znf; egn "hlcey" srf an yclqpn pneenmy (egn swye iwsswl), urcmy wk pneenmy, emcupney wk pneenmy, scoehmny wk egn rawvn, rlj yw kwmeg. egn mnincvnm jnicugnmy egn enoe af unmkwmsclq egn clvnmyn yhayecehecwl umwinyy ew noemrie egn wmcqclrp snyyrqn. pczndcyn, xrithny thcizpf bcuunj egmwhqg r thnyecwl wl bnmw-zlwdpnjqn umwwky, nlyhmclq lw imcecirp pneenm dry pnke whe wk whm imfuewqmrugci uhbbpn.kprq{qm5aqpqy}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'r', 'b': 'a', 'c': 'i', 'd': 'j', 'e': 'n', 'f': 'k', 'g': 'q', 'h': 'g', 'i': 'c', 'j': 'x', 'k': 'z', 'l': 'p', 'm': 's', 'n': 'l', 'o': 'w', 'p': 'u', 'q': 't', 'r': 'm', 's': 'y', 't': 'e', 'u': 'h', 'v': 'v', 'w': 'd', 'x': 'o', 'y': 'f', 'z': 'b'}
+subtype: substitution
+archetype: classical_cipher

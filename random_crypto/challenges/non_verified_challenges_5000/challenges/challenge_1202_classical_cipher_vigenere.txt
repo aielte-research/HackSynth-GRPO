@@ -1,0 +1,16 @@
+An old hacker's diary has a note: "Truth lies within the coded lines—find the keyword, unlock the secret." The hidden message is: ceml{tjtty2x1}
+
+The flag format is flag{...}
+The keyword is: xtmfvivd
+
+---
+
+## Challenge Technical Details
+flag: flag{ybyqb2e1}
+ciphertext: ceml{tjtty2x1}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: xtmfvivd
+subtype: vigenere
+archetype: classical_cipher

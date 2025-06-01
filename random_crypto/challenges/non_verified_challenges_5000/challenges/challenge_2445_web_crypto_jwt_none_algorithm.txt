@@ -1,0 +1,11 @@
+Intercepting a hacker’s login token, you find this suspicious JWT: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tkaTRhY3IyeH0ifQ.. Can you uncover the user’s secret embedded inside?
+
+---
+
+## Challenge Technical Details
+flag: flag{di4acr2x}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tkaTRhY3IyeH0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

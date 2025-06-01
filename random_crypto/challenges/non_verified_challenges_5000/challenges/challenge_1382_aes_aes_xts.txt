@@ -1,0 +1,17 @@
+
+A rare artifact's blueprint was stored on a stolen hard drive, encrypted with AES-XTS. Recover the blueprint from the following data: ciphertext1:a8d531d7e6303b3bdceee8257df4e6ef, ciphertext2: 98862215092960ecca71d3763daf18c00defadbff5000bd2e8777dcb60205892
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{xhak9lb9}
+ciphertext: ciphertext1:a8d531d7e6303b3bdceee8257df4e6ef, ciphertext2: 98862215092960ecca71d3763daf18c00defadbff5000bd2e8777dcb60205892
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 783345717961e22a3cd700e7dcc6a349
+subtype: aes_xts
+archetype: aes

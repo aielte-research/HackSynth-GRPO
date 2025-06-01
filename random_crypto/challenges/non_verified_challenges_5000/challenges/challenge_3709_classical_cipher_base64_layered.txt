@@ -1,0 +1,17 @@
+
+The hacker left a strange code in the logs—can you decode their secret Base64 message? Here it is: Vm0weGQxTnRVWGxXYTFwUFZsZG9WRmxVU2xOalJsSlZWR3RPYW1KR1ZqTlhhMUpUVmxVeFYySkVUbGRpVkVaSVZrZDRZV1JXUm5OaFJuQlhWakF4TkZkV1VrSmxSa3BYVW01R1dHSkdXbGhXYlhSYVpXeGFWbGRyV2xCV2EwcFRWVVpSZDFCUlBUMD0=
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{r1qnyx03}
+cipher: Base64
+ciphertext: Vm0weGQxTnRVWGxXYTFwUFZsZG9WRmxVU2xOalJsSlZWR3RPYW1KR1ZqTlhhMUpUVmxVeFYySkVUbGRpVkVaSVZrZDRZV1JXUm5OaFJuQlhWakF4TkZkV1VrSmxSa3BYVW01R1dHSkdXbGhXYlhSYVpXeGFWbGRyV2xCV2EwcFRWVVpSZDFCUlBUMD0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 8 times in total.
+subtype: base64_layered
+archetype: classical_cipher

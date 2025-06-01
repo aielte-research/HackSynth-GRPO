@@ -1,0 +1,15 @@
+Agent Nova left a secret code in a digital note. Decode the Base64 message to reveal her instructions: Vm0weGQxTnRVWGxXYTFwUFZsZG9WRmxVU2xOalJsSlZWR3RPYW1KR1dqRlpNR2hQWVcxS1IxTnNiR0ZTVjFKSVdXdGFZV014VG5GUmJGWnBVbXh3YjFaclpEUlRiVkYzVGxaV1UySkdXbGhXYlhSYVpXeGFWbGRyV2xCV2EwcFRWVVpSZDFCUlBUMD0=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{hwak6q4r}
+cipher: Base64
+ciphertext: Vm0weGQxTnRVWGxXYTFwUFZsZG9WRmxVU2xOalJsSlZWR3RPYW1KR1dqRlpNR2hQWVcxS1IxTnNiR0ZTVjFKSVdXdGFZV014VG5GUmJGWnBVbXh3YjFaclpEUlRiVkYzVGxaV1UySkdXbGhXYlhSYVpXeGFWbGRyV2xCV2EwcFRWVVpSZDFCUlBUMD0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 8 times in total.
+subtype: Base64_layered
+archetype: classical_cipher

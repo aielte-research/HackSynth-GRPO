@@ -1,0 +1,19 @@
+An intern secured passwords with SHA-256 and a salt, but forgot to use a strong random salt. Can you crack the hash? 06c9a56643f7ab87dc69cab085dae0ff4ca24c74f042104e0eaf0171780144ac
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{n6h}
+ciphertext: 06c9a56643f7ab87dc69cab085dae0ff4ca24c74f042104e0eaf0171780144ac
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

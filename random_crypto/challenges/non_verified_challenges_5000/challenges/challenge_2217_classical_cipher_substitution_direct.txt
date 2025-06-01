@@ -1,0 +1,21 @@
+Intercepted from a rival hacker, this coded message hides the flag. It uses simple letter swapping—can you restore the original text? Ciphertext: kmco{w4joo2em}
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'c', 'b': 's', 'c': 'y', 'd': 'a', 'e': 'b', 'f': 'k', 'g': 'o', 'h': 'd', 'i': 'r', 'j': 'g', 'k': 'h', 'l': 'm', 'm': 'i', 'n': 'l', 'o': 'j', 'p': 'p', 'q': 'x', 'r': 'e', 's': 'v', 't': 'z', 'u': 'f', 'v': 'w', 'w': 't', 'x': 'u', 'y': 'q', 'z': 'n'}
+
+---
+
+## Challenge Technical Details
+flag: flag{v4ogg2rl}
+cipher: Substitution
+ciphertext: kmco{w4joo2em}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'c', 'b': 's', 'c': 'y', 'd': 'a', 'e': 'b', 'f': 'k', 'g': 'o', 'h': 'd', 'i': 'r', 'j': 'g', 'k': 'h', 'l': 'm', 'm': 'i', 'n': 'l', 'o': 'j', 'p': 'p', 'q': 'x', 'r': 'e', 's': 'v', 't': 'z', 'u': 'f', 'v': 'w', 'w': 't', 'x': 'u', 'y': 'q', 'z': 'n'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

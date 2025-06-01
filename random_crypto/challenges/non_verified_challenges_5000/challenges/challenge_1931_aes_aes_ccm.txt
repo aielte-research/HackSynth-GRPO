@@ -1,0 +1,18 @@
+A hacker left a secret message encrypted with AES on a server. Can you recover the original message from this ciphertext? ciphertext1:c27166235554529b5bdf69234930, ciphertext2: c27166235555439e4fc52f711230
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{mahyj73b}
+ciphertext: ciphertext1:c27166235554529b5bdf69234930, ciphertext2: c27166235555439e4fc52f711230
+tag1: be469d5f2d4a1f1ff3046a810772589e
+tag2: 424807c333155699c7852ad70bfe1884
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: e85354409d2341bb1f3fe2
+subtype: aes_ccm
+archetype: aes

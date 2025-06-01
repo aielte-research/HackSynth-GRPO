@@ -1,0 +1,14 @@
+An agent intercepted a secret message encoded in hexadecimal. Can you reveal the original text behind this hex? Ciphertext: 666c61677b30676c7a62756e637d
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{0glzbunc}
+cipher: Hex
+ciphertext: 666c61677b30676c7a62756e637d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

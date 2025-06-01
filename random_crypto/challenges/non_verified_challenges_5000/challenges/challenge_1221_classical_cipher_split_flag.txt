@@ -1,0 +1,15 @@
+An intercepted message uses SplitNumberMix to hide a secret code. Can you decrypt the following and reveal its meaning?  444444444 flag 444444444 {adsbybr 444444444 v} 444444444 
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{adsbybrv}
+ciphertext:  444444444 flag 444444444 {adsbybr 444444444 v} 444444444 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 3 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+Decipher the secret sequence sent by Ada, who hid her message in Fibonacci numbers. Can you uncover her words? Ciphertext: 10001000001 10001010011 10000100001 10001000011 10100000001 10010000001 10000100011 10001010101 101010101 101001001 101010101 10001000011 101010011 10100000101
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{nbm626g5}
+ciphertext: 10001000001 10001010011 10000100001 10001000011 10100000001 10010000001 10000100011 10001010101 101010101 101001001 101010101 10001000011 101010011 10100000101
+cipher: Fibonacci Encoding
+hint: Each ASCII character is represented as a sum of non-consecutive Fibonacci numbers, always ending in 1.
+necessary_info: The flag format is flag{...}
+extra_info: Each character of the flag is independently encoded using Fibonacci representation.
+subtype: fibonacci_encoding
+archetype: classical_cipher

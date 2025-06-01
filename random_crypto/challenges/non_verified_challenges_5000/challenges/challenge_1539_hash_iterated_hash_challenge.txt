@@ -1,0 +1,24 @@
+An encrypted message using SHA-256 was intercepted from a hacker's server. Recover the original password hidden in b7cdc21b90ad9ed6422e2a7b3fe45a2ffc47038880ccf591aab857be16742cc8 to reveal their plan.
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{liag}
+ciphertext: b7cdc21b90ad9ed6422e2a7b3fe45a2ffc47038880ccf591aab857be16742cc8
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

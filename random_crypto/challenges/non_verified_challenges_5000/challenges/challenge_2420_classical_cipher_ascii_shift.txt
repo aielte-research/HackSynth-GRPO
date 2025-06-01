@@ -1,0 +1,15 @@
+A hacker shifted a message's ASCII codes to conceal a wallet key. Decode their trick to discover the secret: pvkqvo>qsl
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{le4yygib}
+cipher: ASCII Shift
+ciphertext: pvkqvo>qsl
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 10
+subtype: ascii_shift
+archetype: classical_cipher

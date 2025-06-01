@@ -1,0 +1,19 @@
+
+A secret society hid their meeting place using the Playfair cipher. Can you uncover it from this encrypted note: xeglorukrvarzlkfalmlorukrvcloxmaflmtkfrulysvglorukrvarzlkferocbmvyroynbwrgienrkirawsirsvilbkivoxfrinumlykfevclitrileronvemmboycqiruwirsvrnqgleeomfuwfacn?
+
+
+The flag format is flag{...}
+The keyword is: jvzdnram
+
+---
+
+## Challenge Technical Details
+flag: flag{tuav2ny7}
+ciphertext: xeglorukrvarzlkfalmlorukrvcloxmaflmtkfrulysvglorukrvarzlkferocbmvyroynbwrgienrkirawsirsvilbkivoxfrinumlykfevclitrileronvemmboycqiruwirsvrnqgleeomfuwfacn
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: jvzdnram
+extra_info: The playfair table is [['i', 'v', 'z', 'd', 'n'], ['r', 'a', 'm', 'b', 'c'], ['e', 'f', 'g', 'h', 'k'], ['l', 'o', 'p', 'q', 's'], ['t', 'u', 'w', 'x', 'y']]
+subtype: playfair
+archetype: classical_cipher

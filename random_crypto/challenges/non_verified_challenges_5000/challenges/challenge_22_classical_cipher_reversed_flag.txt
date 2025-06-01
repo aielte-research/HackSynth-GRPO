@@ -1,0 +1,15 @@
+A rogue AI scrambled the password backwards before escaping. Recover the secret hidden in }0btm1stv{galf to regain access to the control panel.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{vts1mtb0}
+ciphertext: }0btm1stv{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

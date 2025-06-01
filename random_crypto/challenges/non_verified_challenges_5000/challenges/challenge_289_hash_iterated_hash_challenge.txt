@@ -1,0 +1,24 @@
+The hacker left a secret message, but only its SHA-256 hash remains: 9fe5e461f2308fd3bcdd8a5f4ee8a226a30b539095d5c1f0d085d7fe8c1a8b98. Can you recover the original password?
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{7i1p}
+ciphertext: 9fe5e461f2308fd3bcdd8a5f4ee8a226a30b539095d5c1f0d085d7fe8c1a8b98
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

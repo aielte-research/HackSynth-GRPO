@@ -1,0 +1,16 @@
+An old hacker left clues to his wallet in a Vigenère cipher. Can you crack the code? Here's his encrypted message: fuau{hsmud39j}
+
+The flag format is flag{...}
+The keyword is: ajaoxtm
+
+---
+
+## Challenge Technical Details
+flag: flag{kzauu39j}
+ciphertext: fuau{hsmud39j}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: ajaoxtm
+subtype: vigenere
+archetype: classical_cipher

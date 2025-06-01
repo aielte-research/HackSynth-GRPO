@@ -1,0 +1,17 @@
+Intercepted radio chatter was encrypted with AES-CFB. Analysts recovered the following suspicious ciphertext: 20da6fc93b88630afe5ec9612d6d70bfaf3a358467c196673580fbaf125a896605226ceeeebf9c8aa526da0efdd32427722334641f10d013e323d65de9e0391f958d8a32ae0bebfcbae072a4ac16ba11425ff4bfbbb8cabba2123cd8486d24444087a14f803b2d6fe100598828e09dd610199880de2cb4e8eab085df69c427fb187e6351e569be43e55abe5ba1f7ac10ff375bbd2b0d98d9792bf8bada888346784faa2b8b3f13084c4b861d43bd748af2. Can you recover the original message?
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{3wnsl539}
+ciphertext: 20da6fc93b88630afe5ec9612d6d70bfaf3a358467c196673580fbaf125a896605226ceeeebf9c8aa526da0efdd32427722334641f10d013e323d65de9e0391f958d8a32ae0bebfcbae072a4ac16ba11425ff4bfbbb8cabba2123cd8486d24444087a14f803b2d6fe100598828e09dd610199880de2cb4e8eab085df69c427fb187e6351e569be43e55abe5ba1f7ac10ff375bbd2b0d98d9792bf8bada888346784faa2b8b3f13084c4b861d43bd748af2
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: 3696be7c8ae860effc02eb266bfe2b77
+subtype: aes_cfb
+archetype: aes

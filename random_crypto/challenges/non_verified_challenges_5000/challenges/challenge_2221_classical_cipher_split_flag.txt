@@ -1,0 +1,15 @@
+An agent's notebook reveals a secret, but it's encrypted! Decode the message below using the SplitNumberMix cipher. Ciphertext:  99999 fla 99999 g 99999 {gfloljqx} 99999 
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{gfloljqx}
+ciphertext:  99999 fla 99999 g 99999 {gfloljqx} 99999 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 3 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

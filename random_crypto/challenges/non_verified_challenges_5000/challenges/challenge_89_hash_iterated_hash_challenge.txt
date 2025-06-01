@@ -1,0 +1,24 @@
+A rogue agent hashed the secret launch code using SHA-256. Recover the original code from the given hash: c1218007f5d51a0957d1bbef630724cfab34ade849cf34ed58ac260f243d7808
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{yqa8}
+ciphertext: c1218007f5d51a0957d1bbef630724cfab34ade849cf34ed58ac260f243d7808
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

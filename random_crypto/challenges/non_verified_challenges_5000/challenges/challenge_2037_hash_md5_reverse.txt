@@ -1,0 +1,15 @@
+Someone hashed the password using MD5, thinking it's safe. The ciphertext is 8cb2496a00d1418df21b191fc279f17b. Can you exploit MD5’s weakness and recover the original password?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{bbrad}
+ciphertext: 8cb2496a00d1418df21b191fc279f17b
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

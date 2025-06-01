@@ -1,0 +1,16 @@
+Decipher the message intercepted between rival hackers. They used a classic Vigenère cipher. The encrypted text is: kxed{uv1ka2u3}
+
+The flag format is flag{...}
+The keyword is: fmexv
+
+---
+
+## Challenge Technical Details
+flag: flag{zq1yw2x3}
+ciphertext: kxed{uv1ka2u3}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: fmexv
+subtype: vigenere
+archetype: classical_cipher

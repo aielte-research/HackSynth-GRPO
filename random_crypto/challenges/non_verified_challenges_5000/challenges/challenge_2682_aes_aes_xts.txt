@@ -1,0 +1,15 @@
+Your encrypted backup drive stores the master flag. Only AES-XTS stood between you and it… until now. The ciphertext is: ciphertext1:6ae78faf544ebd1ff79106a0444db060, ciphertext2: b488bbe34452eed49b4cda25fc01e1fea75e5e96c5127e8d86ccedb444975487.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{5l79fjzq}
+ciphertext: ciphertext1:6ae78faf544ebd1ff79106a0444db060, ciphertext2: b488bbe34452eed49b4cda25fc01e1fea75e5e96c5127e8d86ccedb444975487
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 9b76fba1642b099bcfadcd3f7fba3775
+subtype: aes_xts
+archetype: aes

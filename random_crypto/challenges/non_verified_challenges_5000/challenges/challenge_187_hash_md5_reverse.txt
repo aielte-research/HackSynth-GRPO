@@ -1,0 +1,15 @@
+A hacker left a secret note protected by MD5. Exploit MD5’s reversing flaw to retrieve the original message from this ciphertext: a46054feacf2e098b30784bc3f4c239b
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{KKDZT}
+ciphertext: a46054feacf2e098b30784bc3f4c239b
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

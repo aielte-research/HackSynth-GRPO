@@ -1,0 +1,19 @@
+The hacker's note reads: "Break my luck—if you can predict it, you can own my wallet." Encrypted message: 6655615e7b0830506c5a614a6544
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 2**8)
+A secret number was generated using Python's PRNG with a seed from 0 to 9,999. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{10ilcase}
+ciphertext: 6655615e7b0830506c5a614a6544
+cipher: Predictable PRNG
+hint: The seed range is small enough for brute-force. Try recreating the PRNG sequence.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 2**8)
+A secret number was generated using Python's PRNG with a seed from 0 to 9,999. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: If you can predict or brute-force the seed, you can reconstruct the PRNG output and decrypt the flag.
+subtype: predictable_seed
+archetype: prng

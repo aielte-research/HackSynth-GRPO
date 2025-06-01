@@ -1,0 +1,18 @@
+
+A rogue agent hid the meeting coordinates in a Vigenère-encrypted message: rbqi{xwwxeu05}. Recover the keyword and decrypt to reveal the secret location.
+
+
+The flag format is flag{...}
+The keyword is: mqqcax
+
+---
+
+## Challenge Technical Details
+flag: flag{xzkhos05}
+ciphertext: rbqi{xwwxeu05}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: mqqcax
+subtype: vigenere
+archetype: classical_cipher

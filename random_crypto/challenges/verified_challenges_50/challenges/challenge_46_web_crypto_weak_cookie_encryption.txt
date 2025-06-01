@@ -1,0 +1,18 @@
+
+Eager to impress, Alice implemented AES-ECB, but padded her short password with null bytes. Can you recover the flag from this slip? Ciphertext: f6550a9eb5d0a69910cb454c75666c76
+
+
+An encryption key that is only 2 bytes long?.
+
+---
+
+## Challenge Technical Details
+flag: flag{1cnirjy3}
+ciphertext: f6550a9eb5d0a69910cb454c75666c76
+cipher: AES-ECB
+vulnerability: small key padded with null bytes
+hint: ECB mode with a short key makes brute-forcing possible. Consider the small key entropy.
+necessary_info: An encryption key that is only 2 bytes long?.
+extra_info: Padding follows PKCS#7. The key is padded to 16 bytes with null bytes.
+subtype: weak_cookie_encryption
+archetype: web_crypto

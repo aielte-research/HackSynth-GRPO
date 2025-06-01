@@ -1,0 +1,16 @@
+An old hacker left a Vigenère-encrypted message for her apprentice. Can you reveal the hidden clue inside? Ciphertext: wpbz{swaio011}
+
+The flag format is flag{...}
+The keyword is: rebtayx
+
+---
+
+## Challenge Technical Details
+flag: flag{sydrk011}
+ciphertext: wpbz{swaio011}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: rebtayx
+subtype: vigenere
+archetype: classical_cipher

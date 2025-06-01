@@ -1,0 +1,15 @@
+A hacker left a secret passphrase, but reversed it to hide it. Can you recover the original message from this backward ciphertext? Here's the code: }c5nkyiij{galf
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{jiiykn5c}
+ciphertext: }c5nkyiij{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

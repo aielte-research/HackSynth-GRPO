@@ -1,0 +1,18 @@
+The secret launch code was encrypted with AES before transmission. Can you recover the original message from this cipher? Ciphertext: ciphertext1:1a11f05a5b87a59e0b2e7375e439, ciphertext2: 1a11f05a5bc7b4db4b3d6837ff39
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{vfq1ihwu}
+ciphertext: ciphertext1:1a11f05a5b87a59e0b2e7375e439, ciphertext2: 1a11f05a5bc7b4db4b3d6837ff39
+tag1: 477eb58a682444cc417502b8c33af976
+tag2: 720ef3c0dd4c9ba2ab2d1674733f32b1
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 8f6b170427d9db821ecf05
+subtype: aes_ccm
+archetype: aes

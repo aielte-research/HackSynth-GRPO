@@ -1,0 +1,24 @@
+Agent Nova left a secret code, encrypted with SHA-256. Decode 646709804be5dbea9613d5eda42fbb0e7a97b0dfb73f1ab1b05d6ddf9c0b86ad to discover the location of the hidden asset.
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{7j68}
+ciphertext: 646709804be5dbea9613d5eda42fbb0e7a97b0dfb73f1ab1b05d6ddf9c0b86ad
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

@@ -1,0 +1,24 @@
+A secret society encoded their meeting location using SHA-256. Can you recover the hidden message from this mysterious hash: fd07abd842694721c2fa7f91f074323fe6014938e0952e78a46a469cc72e1250?
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{483o}
+ciphertext: fd07abd842694721c2fa7f91f074323fe6014938e0952e78a46a469cc72e1250
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

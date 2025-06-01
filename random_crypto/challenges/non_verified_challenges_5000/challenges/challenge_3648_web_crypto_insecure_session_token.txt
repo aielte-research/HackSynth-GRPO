@@ -1,0 +1,12 @@
+Our web app's session cookies are encrypted with a rushed algorithm. Can you recover the admin session from this token: 757365725f683278653a666c61677b6e6d64356831346d7d3a31373438313639323439?
+
+---
+
+## Challenge Technical Details
+flag: flag{nmd5h14m}
+ciphertext: 757365725f683278653a666c61677b6e6d64356831346d7d3a31373438313639323439
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_h2xe:flag{nmd5h14m}:1748169249'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

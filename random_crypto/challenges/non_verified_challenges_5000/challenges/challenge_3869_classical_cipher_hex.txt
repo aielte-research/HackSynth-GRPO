@@ -1,0 +1,14 @@
+A hacker encoded their wallet password in hex. Can you decode 666c61677b786e686d366478637d to recover the original secret?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{xnhm6dxc}
+cipher: Hex
+ciphertext: 666c61677b786e686d366478637d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

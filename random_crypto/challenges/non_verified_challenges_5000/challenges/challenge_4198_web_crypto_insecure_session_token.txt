@@ -1,0 +1,14 @@
+
+A careless developer deployed a site using the Insecure Session Token cipher. They left a sample session token here: 757365725f723636343a666c61677b726f6736786230387d3a31373438313639393935. Can you recover the original user ID?
+
+
+---
+
+## Challenge Technical Details
+flag: flag{rog6xb08}
+ciphertext: 757365725f723636343a666c61677b726f6736786230387d3a31373438313639393935
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_r664:flag{rog6xb08}:1748169995'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

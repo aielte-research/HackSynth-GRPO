@@ -1,0 +1,17 @@
+
+A rogue sysadmin encrypted the payroll file using AES-XTS. The encrypted data is ciphertext1:396d37627eca204294dddf428edb02ef, ciphertext2: 86a3c6fb1cf53f1a340961f32fc235ac0ae77f1a51c95a11261aeaf420029103. Can you recover the original salary records?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{axv1wjw7}
+ciphertext: ciphertext1:396d37627eca204294dddf428edb02ef, ciphertext2: 86a3c6fb1cf53f1a340961f32fc235ac0ae77f1a51c95a11261aeaf420029103
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 950ed8c01914055b8252dbd13614172e
+subtype: aes_xts
+archetype: aes

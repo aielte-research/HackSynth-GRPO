@@ -1,0 +1,15 @@
+An agent scrambled a password using XOR, sending this to HQ: stringA: 3319183217473630157e1b441829 stringB: 557579556c705354634962336d54. Can you recover the original password?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{7edv7ywu}
+cipher: XOR
+ciphertext: stringA: 3319183217473630157e1b441829 stringB: 557579556c705354634962336d54
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

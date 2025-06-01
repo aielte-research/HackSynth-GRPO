@@ -1,0 +1,18 @@
+You intercepted a secret transmission between agents. It’s encrypted with AES. Can you recover the hidden message from this ciphertext: ciphertext1:e8c2ef66c863d3b7966b6758b554, ciphertext2: e8c2ef66c83586f58b61605ffe54?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{dg0mkbhy}
+ciphertext: ciphertext1:e8c2ef66c863d3b7966b6758b554, ciphertext2: e8c2ef66c83586f58b61605ffe54
+tag1: 408fa4a2e465974699d49bff0ff6ecc8
+tag2: eba15f3ab17b8e8a128c7a0d33439750
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 0797f36a5978ef5cf8b962
+subtype: aes_ccm
+archetype: aes

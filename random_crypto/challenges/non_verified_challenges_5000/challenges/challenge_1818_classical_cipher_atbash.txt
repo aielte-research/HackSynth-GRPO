@@ -1,0 +1,14 @@
+An artifact found in ancient ruins bears an encrypted message. Decipher it with the old code, where each letter's twin lies opposite in the alphabet: uozt{cf42zbxs}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{xu42aych}
+cipher: Atbash
+ciphertext: uozt{cf42zbxs}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

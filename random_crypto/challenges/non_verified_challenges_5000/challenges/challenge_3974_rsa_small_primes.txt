@@ -1,0 +1,18 @@
+A careless engineer used small primes to encrypt the admin password with RSA. Recover the plaintext from this ciphertext: 647268581335884687
+
+The flag format is flag{...}
+n=7793717753460100493, e=6271717293901305319
+
+---
+
+## Challenge Technical Details
+flag: flag{9fufhay1}
+cipher: RSA
+ciphertext: 647268581335884687
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=7793717753460100493, e=6271717293901305319
+extra_info: p=3177573943, q=2452725851, φ(n)=7793717747829800700
+subtype: small_primes
+archetype: rsa

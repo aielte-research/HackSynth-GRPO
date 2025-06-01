@@ -1,0 +1,17 @@
+
+A curious message appeared on the blockchain explorer—rumored to reveal a lost wallet key. It’s scrambled below in an old transposition style: fa{501algfkud}
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{f5k0u1da}
+ciphertext: fa{501algfkud}
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 2
+subtype: rail_fence
+archetype: classical_cipher

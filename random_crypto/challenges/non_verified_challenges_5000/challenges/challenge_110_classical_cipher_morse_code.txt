@@ -1,0 +1,15 @@
+A secretive agent transmitted the vault password over radio in Morse code. Decode the message: ..-. .-.. .- --. { --.. .--. -.-. --. .-. .---- .... .--. }
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{zpcgr1hp}
+ciphertext: ..-. .-.. .- --. { --.. .--. -.-. --. .-. .---- .... .--. }
+cipher: Morse Code
+hint: Morse Code represents each letter as a series of dots and dashes. Spaces separate letters, and slashes separate words.
+necessary_info: The flag format is flag{...}
+extra_info: Morse Code follows international standards, with letters separated by spaces and words separated by slashes.
+subtype: morse_code
+archetype: classical_cipher

@@ -1,0 +1,19 @@
+
+Intercepted messages use AES-CFB, but agents forgot to change the IV. Can you recover the original text from 58ebf06fd6e4c02e1c13283fbb14b37687371aa9039e0a6583282dcdd4eddf0d8099b4c1292d1df58e30bd2d0e69a0a0736778c6e6eff6b144c21a0fc1d275685ff7d4a879fb24dc2d22d4d711d78efc019c845db0a8450c4e1410ce5bfbda8f2a4346630ccfbadc7d03745283e16864dd4e22696913b6cd470a234fac450c442965bf6a5b506f8f0ca97f9555699a121abf27b3aed29a8d8df4c10ea728a2ca45dc1d682572134745003b52195407638b?
+
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{kq3px1ei}
+ciphertext: 58ebf06fd6e4c02e1c13283fbb14b37687371aa9039e0a6583282dcdd4eddf0d8099b4c1292d1df58e30bd2d0e69a0a0736778c6e6eff6b144c21a0fc1d275685ff7d4a879fb24dc2d22d4d711d78efc019c845db0a8450c4e1410ce5bfbda8f2a4346630ccfbadc7d03745283e16864dd4e22696913b6cd470a234fac450c442965bf6a5b506f8f0ca97f9555699a121abf27b3aed29a8d8df4c10ea728a2ca45dc1d682572134745003b52195407638b
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: 21e2eee7ecf7da546c354a18c1321262
+subtype: aes_cfb
+archetype: aes

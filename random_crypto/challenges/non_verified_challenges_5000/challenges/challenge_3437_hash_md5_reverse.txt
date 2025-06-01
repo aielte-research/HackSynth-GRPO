@@ -1,0 +1,15 @@
+A hacker left a secret message hashed with MD5. Exploit MD5’s weaknesses to recover the original text from the hash: ba43b08ada210b224da5fb8d93ba6d8a
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{KEV38}
+ciphertext: ba43b08ada210b224da5fb8d93ba6d8a
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

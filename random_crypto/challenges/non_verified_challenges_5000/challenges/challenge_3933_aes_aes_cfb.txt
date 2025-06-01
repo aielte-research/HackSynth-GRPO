@@ -1,0 +1,17 @@
+A rogue bot intercepted a secret transmission—now you must decrypt the 2e8aed0b7047b185414b1fb52cec7bf88268a04fa81f6863766288ad96b83276b2774ba79f2f62e25c5d88cd931c5159029b1a052e959d91884b0f53636f8ace6bccce55aa0ae44c9d7ff9dd6dd909a7c3040a6dd9a8004344c2d06681d28130d3bf35d060fdf8398d50c790486ba57fe1c226b089c174bb05bce7574321db4ef2e2266277d92a899a3e7c55e005a03abb48ff4a169833bcac934e598c3d0fb32033d3f31d0b3665651bfa7906079dd2ee using AES-CFB to uncover the hidden meeting point.
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{1fjq3zn4}
+ciphertext: 2e8aed0b7047b185414b1fb52cec7bf88268a04fa81f6863766288ad96b83276b2774ba79f2f62e25c5d88cd931c5159029b1a052e959d91884b0f53636f8ace6bccce55aa0ae44c9d7ff9dd6dd909a7c3040a6dd9a8004344c2d06681d28130d3bf35d060fdf8398d50c790486ba57fe1c226b089c174bb05bce7574321db4ef2e2266277d92a899a3e7c55e005a03abb48ff4a169833bcac934e598c3d0fb32033d3f31d0b3665651bfa7906079dd2ee
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: 5f805032a81c5d9e79d752f197fe3ba5
+subtype: aes_cfb
+archetype: aes

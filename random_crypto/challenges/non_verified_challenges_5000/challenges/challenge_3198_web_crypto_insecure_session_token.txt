@@ -1,0 +1,12 @@
+Acme’s web app uses a homegrown scheme for session tokens. This one holds a flag—can you break the token? Here it is: 757365725f757662783a666c61677b72656c35386732787d3a31373438313638363136
+
+---
+
+## Challenge Technical Details
+flag: flag{rel58g2x}
+ciphertext: 757365725f757662783a666c61677b72656c35386732787d3a31373438313638363136
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_uvbx:flag{rel58g2x}:1748168616'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

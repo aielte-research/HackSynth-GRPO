@@ -1,0 +1,17 @@
+An old spy's diary contains a secret. The message is encoded using the Playfair cipher. Can you reveal the hidden truth from: odfofcvlfaclaveoksisfcvlfacyowciounyeodptoqkfofcvlfaclaveoxnpcfdkwcfyrtdefsxragklcvspxqkomdarnowfhxbvbtoeopacysmxplkcfaxlndfoycqpxozpxqkaroalkgmbfgftgmr?
+
+The flag format is flag{...}
+The keyword is: kjnrxhrn
+
+---
+
+## Challenge Technical Details
+flag: flag{f6eq8ml7}
+ciphertext: odfofcvlfaclaveoksisfcvlfacyowciounyeodptoqkfofcvlfaclaveoxnpcfdkwcfyrtdefsxragklcvspxqkomdarnowfhxbvbtoeopacysmxplkcfaxlndfoycqpxozpxqkaroalkgmbfgftgmr
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: kjnrxhrn
+extra_info: The playfair table is [['k', 'i', 'n', 'r', 'x'], ['h', 'a', 'b', 'c', 'd'], ['e', 'f', 'g', 'l', 'm'], ['o', 'p', 'q', 's', 't'], ['u', 'v', 'w', 'y', 'z']]
+subtype: playfair
+archetype: classical_cipher

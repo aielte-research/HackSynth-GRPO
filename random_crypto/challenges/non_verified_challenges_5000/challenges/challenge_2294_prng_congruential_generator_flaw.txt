@@ -1,0 +1,27 @@
+A rogue bot encrypts messages with predictable randomness. Can you recover the secret after intercepting this ciphertext? 77a340666abf193976ad566270b2
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 381099573
+  - Multiplier: 296694565
+  - Increment: 311767170
+The first 5 outputs of the LCG are provided: [349897431, 175209831, 347578026, 246538263, 95301] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{p88gbwca}
+ciphertext: 77a340666abf193976ad566270b2
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 381099573
+  - Multiplier: 296694565
+  - Increment: 311767170
+The first 5 outputs of the LCG are provided: [349897431, 175209831, 347578026, 246538263, 95301] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

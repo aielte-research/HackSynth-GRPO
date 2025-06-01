@@ -1,0 +1,24 @@
+The developer got lazy and signed two messages with the same ECDSA nonce. Can you recover the private key? Here’s the evidence: Sig1: c050c3f0b8d45b9e093a91cb96d097b24100e66585d0d8561e01c1231837493fd24a1fe584fb5812653546c73a4db25c9a59aa01540487cefe440c8fef032217
+Sig2: c050c3f0b8d45b9e093a91cb96d097b24100e66585d0d8561e01c1231837493fbc420358f1ae13a0f89df4f6cdc5e96ca2597e565c316255d487d1180ea01fff
+
+Public Key (x,y): (106256389161956124651978943472551573255232424345424447845190347051772651813165, 53363768010022834099865275973033637231157802415600774062758863770785866692748)
+Messages:
+1. CTF challenge message
+2. Second signed message
+Curve: secp256k1The flag format is flag{hex(private_key)}
+
+---
+
+## Challenge Technical Details
+flag: flag{6439f6b5638ca475afc870f3b05b258ca2a5a973bf4eb02143f06743e21e76cf}
+ciphertext: Sig1: c050c3f0b8d45b9e093a91cb96d097b24100e66585d0d8561e01c1231837493fd24a1fe584fb5812653546c73a4db25c9a59aa01540487cefe440c8fef032217
+Sig2: c050c3f0b8d45b9e093a91cb96d097b24100e66585d0d8561e01c1231837493fbc420358f1ae13a0f89df4f6cdc5e96ca2597e565c316255d487d1180ea01fff
+cipher: ECDSA Nonce Reuse
+hint: Identical nonce usage breaks ECDSA security. What's common between the signatures?
+necessary_info: Public Key (x,y): (106256389161956124651978943472551573255232424345424447845190347051772651813165, 53363768010022834099865275973033637231157802415600774062758863770785866692748)
+Messages:
+1. CTF challenge message
+2. Second signed message
+Curve: secp256k1The flag format is flag{hex(private_key)}
+subtype: ecdsa_nonce_reuse
+archetype: signature_schemes

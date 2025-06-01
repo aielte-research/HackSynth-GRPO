@@ -1,0 +1,19 @@
+Intercepted from an outdated comms system, this message uses a faulty LFSR cipher. Can you exploit its weakness to reveal the secret? Ciphertext: 8bc78ccc96dadb9d979395c29bd6
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[44110, 22055, 43795, 54665, 27332, 46434, 55985, 27992, 46764, 56150]
+
+---
+
+## Challenge Technical Details
+flag: flag{q66z8xiv}
+ciphertext: 8bc78ccc96dadb9d979395c29bd6
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[44110, 22055, 43795, 54665, 27332, 46434, 55985, 27992, 46764, 56150]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

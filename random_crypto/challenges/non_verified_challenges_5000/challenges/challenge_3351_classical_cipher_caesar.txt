@@ -1,0 +1,15 @@
+A secret Roman message was intercepted. Can you decipher Julius Caesar’s coded order? Here it is: agvb{21wjr5mi}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{21bow5rn}
+ciphertext: agvb{21wjr5mi}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 21
+subtype: caesar
+archetype: classical_cipher

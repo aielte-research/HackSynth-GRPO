@@ -1,0 +1,21 @@
+An old hacker found a secret, but encrypted it using a simple letter swap. Can you recover their message hidden in this classic substitution cipher? ygnb{hpru6a1f}
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'n', 'b': 'j', 'c': 'v', 'd': 'k', 'e': 'z', 'f': 'y', 'g': 'b', 'h': 'o', 'i': 'e', 'j': 'c', 'k': 'm', 'l': 'g', 'm': 'q', 'n': 'l', 'o': 'w', 'p': 'u', 'q': 'f', 'r': 'x', 's': 's', 't': 'h', 'u': 'r', 'v': 't', 'w': 'p', 'x': 'a', 'y': 'd', 'z': 'i'}
+
+---
+
+## Challenge Technical Details
+flag: flag{twup6x1q}
+cipher: Substitution
+ciphertext: ygnb{hpru6a1f}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'n', 'b': 'j', 'c': 'v', 'd': 'k', 'e': 'z', 'f': 'y', 'g': 'b', 'h': 'o', 'i': 'e', 'j': 'c', 'k': 'm', 'l': 'g', 'm': 'q', 'n': 'l', 'o': 'w', 'p': 'u', 'q': 'f', 'r': 'x', 's': 's', 't': 'h', 'u': 'r', 'v': 't', 'w': 'p', 'x': 'a', 'y': 'd', 'z': 'i'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

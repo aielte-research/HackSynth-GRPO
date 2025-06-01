@@ -1,0 +1,17 @@
+A mysterious message encrypted with AES-CFB surfaced on a hacker forum. Can you recover the hidden flag from this 938204e21c0f5fe831afdf9e82d8eae7548ca90517255f2fced9bd1782385cc1dc2cde9606f0be20690d2964ab6557a81a399e0273feecec286afae59e687df9506cfdc6dd4647e03a0de6879878c59a4c6d5d450b6cee7332b580f979fa95baf0d75388514d026716599bcc0e6687a15e7e63585527c9dbba3535860c96a2f82f2ac313aba97f26e605048bf166e88a9034e2e2564601748143fb2db7354b31e680b8a450091e6d8260a93bc839118601?
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{ob9at1lm}
+ciphertext: 938204e21c0f5fe831afdf9e82d8eae7548ca90517255f2fced9bd1782385cc1dc2cde9606f0be20690d2964ab6557a81a399e0273feecec286afae59e687df9506cfdc6dd4647e03a0de6879878c59a4c6d5d450b6cee7332b580f979fa95baf0d75388514d026716599bcc0e6687a15e7e63585527c9dbba3535860c96a2f82f2ac313aba97f26e605048bf166e88a9034e2e2564601748143fb2db7354b31e680b8a450091e6d8260a93bc839118601
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: c8fd5cb393d1d8a66ad70151740c9c98
+subtype: aes_cfb
+archetype: aes

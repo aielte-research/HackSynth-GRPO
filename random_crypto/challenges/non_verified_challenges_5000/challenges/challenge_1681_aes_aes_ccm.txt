@@ -1,0 +1,18 @@
+Intercepted communications from a secret society were found encrypted with AES. Can you recover the hidden message from this mysterious ciphertext1:231b97dae7c791451132881cd13d, ciphertext2: 231b97dae78f97464c7f944f923d?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{8kq6uz0v}
+ciphertext: ciphertext1:231b97dae7c791451132881cd13d, ciphertext2: 231b97dae78f97464c7f944f923d
+tag1: 9aa7e4b961cdc37574186a07f8704f62
+tag2: 3e95ce0f56c1b98368f6aead23b34027
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 53ce4d055e3e94dce6b499
+subtype: aes_ccm
+archetype: aes

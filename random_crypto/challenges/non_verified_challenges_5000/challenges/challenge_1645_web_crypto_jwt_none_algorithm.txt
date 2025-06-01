@@ -1,0 +1,11 @@
+Our security bot sends login tokens—one got intercepted. Can you uncover the secret from this suspicious JWT? Token: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tuNGZ2NTFkM30ifQ.
+
+---
+
+## Challenge Technical Details
+flag: flag{n4fv51d3}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tuNGZ2NTFkM30ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

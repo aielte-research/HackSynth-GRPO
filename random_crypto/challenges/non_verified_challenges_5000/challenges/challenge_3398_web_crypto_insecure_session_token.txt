@@ -1,0 +1,14 @@
+
+A careless developer used an insecure homebrew cipher for web session tokens. One leaked token is: 757365725f3267356c3a666c61677b32676331707074777d3a31373438313638383836. Can you recover the original session ID?
+
+
+---
+
+## Challenge Technical Details
+flag: flag{2gc1pptw}
+ciphertext: 757365725f3267356c3a666c61677b32676331707074777d3a31373438313638383836
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_2g5l:flag{2gc1pptw}:1748168886'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

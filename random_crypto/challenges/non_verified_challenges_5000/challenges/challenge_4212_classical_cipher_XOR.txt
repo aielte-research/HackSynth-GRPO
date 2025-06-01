@@ -1,0 +1,17 @@
+
+A hacker hid the flag using XOR. Can you retrieve it from this encrypted message? stringA: 5f20361f31272579355b1f536f1b stringB: 394c57784a564f4a506a69645766
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{qj3e1v78}
+cipher: XOR
+ciphertext: stringA: 5f20361f31272579355b1f536f1b stringB: 394c57784a564f4a506a69645766
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

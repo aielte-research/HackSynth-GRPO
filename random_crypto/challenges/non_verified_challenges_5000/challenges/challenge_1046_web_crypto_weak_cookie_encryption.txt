@@ -1,0 +1,16 @@
+Agent X encrypted the password using AES-ECB, padding a short key with null bytes. Can you reveal it from d42635294b1f55a67f899193ce01f15d?
+
+An encryption key that is only 2 bytes long?.
+
+---
+
+## Challenge Technical Details
+flag: flag{nsbzak0p}
+ciphertext: d42635294b1f55a67f899193ce01f15d
+cipher: AES-ECB
+vulnerability: small key padded with null bytes
+hint: ECB mode with a short key makes brute-forcing possible. Consider the small key entropy.
+necessary_info: An encryption key that is only 2 bytes long?.
+extra_info: Padding follows PKCS#7. The key is padded to 16 bytes with null bytes.
+subtype: weak_cookie_encryption
+archetype: web_crypto

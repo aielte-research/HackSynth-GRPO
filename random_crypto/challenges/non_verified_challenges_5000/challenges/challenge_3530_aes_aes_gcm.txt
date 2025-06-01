@@ -1,0 +1,18 @@
+Someone encrypted two secret memos using AES-GCM but accidentally reused the same nonce for both. The ciphertexts are: ciphertext1:7a85bf2d40e5348219e71de3ea44, ciphertext2: 6881b7391bfd75cf4eed0da9ee19112408d6
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{q2m9edje}
+ciphertext: ciphertext1:7a85bf2d40e5348219e71de3ea44, ciphertext2: 6881b7391bfd75cf4eed0da9ee19112408d6
+tag1: e3b62ba073af9ee8bf7bc4300dab1ba1
+tag2: 3557ca31c4fbe2c67836beb099a72b0a
+cipher: AES-GCM
+vulnerability: nonce reuse
+hint: AES-GCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 05911fe5a06ca558139ad2d0
+subtype: aes_gcm
+archetype: aes

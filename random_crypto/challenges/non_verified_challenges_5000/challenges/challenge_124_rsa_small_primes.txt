@@ -1,0 +1,18 @@
+An intern encrypted a message using RSA, but accidentally chose two small prime numbers for the keys. Can you recover the original message from 6853529399248456586?
+
+The flag format is flag{...}
+n=9436788795924584663, e=3268606869010628905
+
+---
+
+## Challenge Technical Details
+flag: flag{s8su9ajm}
+cipher: RSA
+ciphertext: 6853529399248456586
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=9436788795924584663, e=3268606869010628905
+extra_info: p=2611170007, q=3614007809, φ(n)=9436788789699406848
+subtype: small_primes
+archetype: rsa

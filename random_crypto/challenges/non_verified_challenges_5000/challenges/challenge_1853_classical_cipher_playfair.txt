@@ -1,0 +1,17 @@
+An intercepted message hints at a secret meeting. It’s scrambled using an old Playfair cipher: bqascduidgplgrmbspsqcduidgsoowdpksqymbbcqxukascduidgplgrmbyrpegekndcrzsesmlqglkxlpvrlhukxbtglfowkblkvbqxmbgmsolxhldsdciripegozeqlhnwlhuklgqgdsingpglcvkaml. Can you uncover the plan?
+
+The flag format is flag{...}
+The keyword is: ncctlxlk
+
+---
+
+## Challenge Technical Details
+flag: flag{jc1vpekj}
+ciphertext: bqascduidgplgrmbspsqcduidgsoowdpksqymbbcqxukascduidgplgrmbyrpegekndcrzsesmlqglkxlpvrlhukxbtglfowkblkvbqxmbgmsolxhldsdciripegozeqlhnwlhuklgqgdsingpglcvkaml
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: ncctlxlk
+extra_info: The playfair table is [['n', 'c', 't', 'l', 'x'], ['k', 'a', 'b', 'd', 'e'], ['f', 'g', 'h', 'i', 'm'], ['o', 'p', 'q', 'r', 's'], ['u', 'v', 'w', 'y', 'z']]
+subtype: playfair
+archetype: classical_cipher

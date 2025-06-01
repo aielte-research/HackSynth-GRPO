@@ -1,0 +1,15 @@
+A hacker hid the vault code using a simple XOR cipher. Can you recover it from this encrypted message: stringA: 1e290a0a38022f3e085c281f6508 stringB: 78456b6d436e5752786a5a7a5275?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{lxlp6re7}
+cipher: XOR
+ciphertext: stringA: 1e290a0a38022f3e085c281f6508 stringB: 78456b6d436e5752786a5a7a5275
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

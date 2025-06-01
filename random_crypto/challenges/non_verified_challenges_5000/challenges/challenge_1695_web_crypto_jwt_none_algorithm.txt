@@ -1,0 +1,11 @@
+The admin's password is hidden inside a signed JWT. All you have is this token: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tnMGg5bHY4an0ifQ.. Can you recover the secret?
+
+---
+
+## Challenge Technical Details
+flag: flag{g0h9lv8j}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tnMGg5bHY4an0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

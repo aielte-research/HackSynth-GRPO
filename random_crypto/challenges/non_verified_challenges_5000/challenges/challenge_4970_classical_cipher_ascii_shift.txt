@@ -1,0 +1,15 @@
+An old hacker left behind a secret code, encrypted with a simple ASCII shift. Can you recover the original message from this cipher: kqfln6wy7s?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{i1rtz2zn}
+cipher: ASCII Shift
+ciphertext: kqfln6wy7s
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 5
+subtype: ascii_shift
+archetype: classical_cipher

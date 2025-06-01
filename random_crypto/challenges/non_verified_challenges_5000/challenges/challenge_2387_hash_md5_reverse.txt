@@ -1,0 +1,15 @@
+A rogue admin sent a password hash using MD5. He claims it's unbreakable. Prove him wrong and recover the original password: d0a4dfc76bf426f04b149e5bcde5e6ae
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{PHI-X}
+ciphertext: d0a4dfc76bf426f04b149e5bcde5e6ae
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

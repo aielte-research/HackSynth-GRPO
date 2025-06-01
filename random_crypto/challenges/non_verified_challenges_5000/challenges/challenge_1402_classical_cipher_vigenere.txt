@@ -1,0 +1,18 @@
+
+An old hacker left a message encrypted with Vigenère to reveal their stash location. Crack the code: jkxz{x9hg33zs}
+
+
+The flag format is flag{...}
+The keyword is: ezxtrr
+
+---
+
+## Challenge Technical Details
+flag: flag{g9qc33av}
+ciphertext: jkxz{x9hg33zs}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: ezxtrr
+subtype: vigenere
+archetype: classical_cipher

@@ -1,0 +1,19 @@
+An intern secured passwords with SHA-256, but used the same birthday as the salt for every user. Can you recover the original password from fbb5b4976434748aca0c6837ff38ffbfab2fb015f494acdc9b92b6e5cf401b1c?
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{wfi}
+ciphertext: fbb5b4976434748aca0c6837ff38ffbfab2fb015f494acdc9b92b6e5cf401b1c
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

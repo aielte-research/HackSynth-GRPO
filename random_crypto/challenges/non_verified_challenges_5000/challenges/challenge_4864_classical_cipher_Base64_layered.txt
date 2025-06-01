@@ -1,0 +1,15 @@
+An old hacker left a secret clue encoded with Base64. Can you decode the message below? Vm1wSmQyVkZOVWhTYTJScFRUTkNjVnBYZUV0amJGcHlXa2R3YkdKR1NqQlVWVkpIWVdzeFJXSkZjRlZXVmtZelZVWkZPVkJSUFQwPQ==
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{8u876nl8}
+cipher: Base64
+ciphertext: Vm1wSmQyVkZOVWhTYTJScFRUTkNjVnBYZUV0amJGcHlXa2R3YkdKR1NqQlVWVkpIWVdzeFJXSkZjRlZXVmtZelZVWkZPVkJSUFQwPQ==
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 6 times in total.
+subtype: Base64_layered
+archetype: classical_cipher

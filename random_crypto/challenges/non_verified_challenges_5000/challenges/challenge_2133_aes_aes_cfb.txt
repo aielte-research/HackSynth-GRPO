@@ -1,0 +1,17 @@
+An encrypted password with AES-CFB locked the admin panel. Recover the key to decrypt this ciphertext: 7583313b1b9195665e46d0fe146ec51f020257171ea3af855578d40ab7160cf5692ebc0de4d62138d6c109b28c00151527129e70d08acf43c427bb51a7d6d81c541c2fcb8d7b64ae4a6507ca67ece58c3e3f026b625bf94049bab112c7de72e37e2f1db30cbabf79d08356a51b4d5b260b7b63626b70c70c54153641aef0620a7032dfb49c7b53c7a72d1305e47749159e65f48dc6deb8d6cf9d8e31dbb29038d810292cd3dc3e5ea44bf764daadc8db26
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{veyqtlu4}
+ciphertext: 7583313b1b9195665e46d0fe146ec51f020257171ea3af855578d40ab7160cf5692ebc0de4d62138d6c109b28c00151527129e70d08acf43c427bb51a7d6d81c541c2fcb8d7b64ae4a6507ca67ece58c3e3f026b625bf94049bab112c7de72e37e2f1db30cbabf79d08356a51b4d5b260b7b63626b70c70c54153641aef0620a7032dfb49c7b53c7a72d1305e47749159e65f48dc6deb8d6cf9d8e31dbb29038d810292cd3dc3e5ea44bf764daadc8db26
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: b035b3343501079ca1e930865c0bb8a0
+subtype: aes_cfb
+archetype: aes

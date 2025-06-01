@@ -1,0 +1,18 @@
+The intern encrypted the flag using RSA but chose two tiny primes. Can you retrieve the message from this insecure ciphertext? 4423476814931000724
+
+The flag format is flag{...}
+n=11983606462444067083, e=2671348188166820903
+
+---
+
+## Challenge Technical Details
+flag: flag{ty1bkwo0}
+cipher: RSA
+ciphertext: 4423476814931000724
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=11983606462444067083, e=2671348188166820903
+extra_info: p=3333037177, q=3595401379, φ(n)=11983606455515628528
+subtype: small_primes
+archetype: rsa

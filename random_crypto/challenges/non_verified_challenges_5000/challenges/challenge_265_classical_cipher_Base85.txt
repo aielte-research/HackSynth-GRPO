@@ -1,0 +1,15 @@
+An agent intercepted a secret message encoded with Base85. Can you decode it to reveal the instructions? Ciphertext: W^7?+du=jmZ8bP*bA1
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{m2jm58js}
+cipher: Base85
+ciphertext: W^7?+du=jmZ8bP*bA1
+hint: Use a Base85 decoder to retrieve the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is straightforward; only one layer is used.
+subtype: Base85
+archetype: classical_cipher

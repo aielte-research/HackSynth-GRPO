@@ -1,0 +1,16 @@
+An old hacker left a hidden message in the company's logs, encrypted with a Vigenère cipher. Can you reveal the secret by decrypting tuwn{f516roxc}?
+
+The flag format is flag{...}
+The keyword is: ojwhnzx
+
+---
+
+## Challenge Technical Details
+flag: flag{s516srjt}
+ciphertext: tuwn{f516roxc}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: ojwhnzx
+subtype: vigenere
+archetype: classical_cipher

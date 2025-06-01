@@ -1,0 +1,17 @@
+An intercepted spy note labeled "Project Hill" contains qsvjwcslmvzdanauirniwhvrjtxzlairoopmqvpmmmkiaxxluqckmdsgatjlwamegnujot. Can you recover the secret message using classic cryptanalysis?
+
+The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+
+---
+
+## Challenge Technical Details
+flag: flag{gyuergxq}
+ciphertext: qsvjwcslmvzdanauirniwhvrjtxzlairoopmqvpmmmkiaxxluqckmdsgatjlwamegnujot
+cipher: Hill
+hint: Hill ciphers can be broken using known-plaintext attacks and linear algebra mod 26.
+necessary_info: The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+extra_info: The matrix used is: [[15, 6], [1, 25]]
+subtype: hill
+archetype: classical_cipher

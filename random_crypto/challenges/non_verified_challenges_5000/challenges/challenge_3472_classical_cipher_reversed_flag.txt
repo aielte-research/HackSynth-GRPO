@@ -1,0 +1,15 @@
+The hacker left behind a suspicious note: }mp8wyo2k{galf. Can you decipher it to reveal the access code?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{k2oyw8pm}
+ciphertext: }mp8wyo2k{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

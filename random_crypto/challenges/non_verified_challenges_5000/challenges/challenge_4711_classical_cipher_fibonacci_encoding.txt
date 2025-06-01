@@ -1,0 +1,15 @@
+Decode the secret sequence left by the mathematician. Numbers hide words—can you unravel the message behind this Fibonacci-based encoding? The ciphertext: 10001000001 10001010011 10000100001 10001000011 10100000001 10010100011 101010001 10000101011 10010000001 1000000101 10000100001 101001011 1000000101 10100000101
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{w4en9a39}
+ciphertext: 10001000001 10001010011 10000100001 10001000011 10100000001 10010100011 101010001 10000101011 10010000001 1000000101 10000100001 101001011 1000000101 10100000101
+cipher: Fibonacci Encoding
+hint: Each ASCII character is represented as a sum of non-consecutive Fibonacci numbers, always ending in 1.
+necessary_info: The flag format is flag{...}
+extra_info: Each character of the flag is independently encoded using Fibonacci representation.
+subtype: fibonacci_encoding
+archetype: classical_cipher

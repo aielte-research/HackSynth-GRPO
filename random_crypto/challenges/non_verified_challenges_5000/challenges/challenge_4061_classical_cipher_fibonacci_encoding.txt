@@ -1,0 +1,15 @@
+An eccentric mathematician left a coded will. His note, 10001000001 10001010011 10000100001 10001000011 10100000001 10001010011 101010001 10010010001 1000000001 10010001001 10010010001 101000011 1000000011 10100000101, hides the vault key using Fibonacci Encoding. Can you unveil his secret?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{l4s7qs08}
+ciphertext: 10001000001 10001010011 10000100001 10001000011 10100000001 10001010011 101010001 10010010001 1000000001 10010001001 10010010001 101000011 1000000011 10100000101
+cipher: Fibonacci Encoding
+hint: Each ASCII character is represented as a sum of non-consecutive Fibonacci numbers, always ending in 1.
+necessary_info: The flag format is flag{...}
+extra_info: Each character of the flag is independently encoded using Fibonacci representation.
+subtype: fibonacci_encoding
+archetype: classical_cipher

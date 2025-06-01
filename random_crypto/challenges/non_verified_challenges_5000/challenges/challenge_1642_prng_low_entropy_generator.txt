@@ -1,0 +1,19 @@
+An intern encrypted the password using a PRNG with a 4-digit seed. Can you recover the original password from the ciphertext below? 666c60f47b6c77a26e7735e7797d
+
+The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [109, 630, 719, 773, 667, 539, 252, 277, 752, 261, 298, 751, 74, 674, 460, 310, 477, 700, 893, 406]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 901)
+
+---
+
+## Challenge Technical Details
+flag: flag{lv1nw4ty}
+ciphertext: 666c60f47b6c77a26e7735e7797d
+cipher: Low-entropy PRNG
+hint: The PRNG seed space is small. You can try brute-forcing all possible seeds to reconstruct the sequence.
+necessary_info: The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [109, 630, 719, 773, 667, 539, 252, 277, 752, 261, 298, 751, 74, 674, 460, 310, 477, 700, 893, 406]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 901)
+extra_info: Since the seed has only 256 possible values, it can be brute-forced to recover the secret number and decrypt the flag.
+subtype: low_entropy_generator
+archetype: prng

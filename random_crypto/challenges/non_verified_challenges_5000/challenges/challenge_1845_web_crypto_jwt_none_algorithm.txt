@@ -1,0 +1,11 @@
+A rogue admin left sensitive access in a JWT token, hidden as eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3sxbGMzMG5sNH0ifQ.. Can you unlock the secret inside?
+
+---
+
+## Challenge Technical Details
+flag: flag{1lc30nl4}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3sxbGMzMG5sNH0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

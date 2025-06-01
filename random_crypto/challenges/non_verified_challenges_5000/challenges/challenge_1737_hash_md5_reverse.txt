@@ -1,0 +1,15 @@
+An anonymous hacker left an encrypted message at a digital heist scene, saying: "If you can undo MD5, you'll find my signature." Ciphertext: c9df09b4610bb43e290507a37c658ae8
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{defer}
+ciphertext: c9df09b4610bb43e290507a37c658ae8
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

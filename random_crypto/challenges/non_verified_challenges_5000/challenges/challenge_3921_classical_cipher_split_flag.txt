@@ -1,0 +1,15 @@
+An old ledger encodes hidden funds using SplitNumberMix. Can you break the cipher and reveal the account? Here is the encrypted message:  99999 fla 99999 g{lrggrj 99999 ii} 99999 
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{lrggrjii}
+ciphertext:  99999 fla 99999 g{lrggrj 99999 ii} 99999 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 3 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

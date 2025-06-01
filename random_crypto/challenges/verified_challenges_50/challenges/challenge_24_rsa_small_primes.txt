@@ -1,0 +1,20 @@
+
+Alice encrypted her secret with RSA, but used small primes for speed. Can you recover her message from the ciphertext? Here it is: 4555367640491346409
+
+
+The flag format is flag{...}
+n=10160858018274618901, e=4866414640054471729
+
+---
+
+## Challenge Technical Details
+flag: flag{ljb1j5xg}
+cipher: RSA
+ciphertext: 4555367640491346409
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=10160858018274618901, e=4866414640054471729
+extra_info: p=2806456531, q=3620529271, φ(n)=10160858011847633100
+subtype: small_primes
+archetype: rsa

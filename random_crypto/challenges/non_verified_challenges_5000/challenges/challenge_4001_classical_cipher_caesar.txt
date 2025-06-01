@@ -1,0 +1,15 @@
+A message from Julius Caesar’s desk has been intercepted. Decrypt the following to reveal the secret plan: lrgm{x0xrfn1g}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{r0rlzh1a}
+ciphertext: lrgm{x0xrfn1g}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 6
+subtype: caesar
+archetype: classical_cipher

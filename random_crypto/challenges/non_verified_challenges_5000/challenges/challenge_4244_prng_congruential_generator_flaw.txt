@@ -1,0 +1,27 @@
+The vault's lock resets with each opening, but its passcode is always masked by this sequence: 2ab50ef737a00ef579ed5fa035a4. Can you spot the pattern and predict the next code?
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1468309226
+  - Multiplier: 1261611383
+  - Increment: 722257992
+The first 5 outputs of the LCG are provided: [1337893740, 858983476, 1262508966, 273025290, 483051652] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{yae5400y}
+ciphertext: 2ab50ef737a00ef579ed5fa035a4
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1468309226
+  - Multiplier: 1261611383
+  - Increment: 722257992
+The first 5 outputs of the LCG are provided: [1337893740, 858983476, 1262508966, 273025290, 483051652] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

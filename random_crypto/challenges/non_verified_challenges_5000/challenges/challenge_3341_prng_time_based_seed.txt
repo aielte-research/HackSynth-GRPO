@@ -1,0 +1,21 @@
+
+A hacker hid secret coordinates inside 666c4afb7b6645e47a6259fb637d, encrypted using a PRNG seeded with a timestamp. Can you recover the message and find where the treasure is buried?
+
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 14530)
+The system time when the encryption process started was around: 2025-05-25 12:26:53 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{fnxzbrgc}
+ciphertext: 666c4afb7b6645e47a6259fb637d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 14530)
+The system time when the encryption process started was around: 2025-05-25 12:26:53 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 11164.
+subtype: time_based_seed
+archetype: prng

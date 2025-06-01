@@ -1,0 +1,19 @@
+Intercepted data from an old IoT botnet was scrambled using a flawed stream cipher. Can you break the LFSR Weakness and reveal the original message? ada9aaa2b0b2bfaeb9a6bdaaf8b8
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[5133, 35334, 50435, 57985, 61760, 30880, 48208, 24104, 12052, 38794]
+
+---
+
+## Challenge Technical Details
+flag: flag{wtkrcvo3}
+ciphertext: ada9aaa2b0b2bfaeb9a6bdaaf8b8
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[5133, 35334, 50435, 57985, 61760, 30880, 48208, 24104, 12052, 38794]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

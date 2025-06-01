@@ -1,0 +1,17 @@
+An old hacker’s diary entry is encrypted with the Playfair cipher. Crack the code to reveal the hidden message: rlpageuidgxhfdlcmvmcgeuidgstowcnpknxlcentmqmpageuidgxhfdlcshndnpmwegybrutpmshdathxudslqmzlhrsgowpcsaqgtmlcglstztlsctegishnpnmydyslmzslqmdhcfctgfgnhdfwrz
+
+The flag format is flag{...}
+The keyword is: oqvoqbkp
+
+---
+
+## Challenge Technical Details
+flag: flag{j4c1g8ut}
+ciphertext: rlpageuidgxhfdlcmvmcgeuidgstowcnpknxlcentmqmpageuidgxhfdlcshndnpmwegybrutpmshdathxudslqmzlhrsgowpcsaqgtmlcglstztlsctegishnpnmydyslmzslqmdhcfctgfgnhdfwrz
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: oqvoqbkp
+extra_info: The playfair table is [['o', 'q', 'v', 'b', 'k'], ['p', 'a', 'c', 'd', 'e'], ['f', 'g', 'h', 'i', 'l'], ['m', 'n', 'r', 's', 't'], ['u', 'w', 'x', 'y', 'z']]
+subtype: playfair
+archetype: classical_cipher

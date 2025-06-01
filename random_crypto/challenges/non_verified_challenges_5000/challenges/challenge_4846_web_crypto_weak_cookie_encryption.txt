@@ -1,0 +1,16 @@
+Bob forgot to use a strong key for Alice's secret message—he padded it with null bytes for AES-ECB. Can you recover the plaintext from 4e37ab8cd081e320ffd7395761ff284c?
+
+An encryption key that is only 2 bytes long?.
+
+---
+
+## Challenge Technical Details
+flag: flag{dmltymqq}
+ciphertext: 4e37ab8cd081e320ffd7395761ff284c
+cipher: AES-ECB
+vulnerability: small key padded with null bytes
+hint: ECB mode with a short key makes brute-forcing possible. Consider the small key entropy.
+necessary_info: An encryption key that is only 2 bytes long?.
+extra_info: Padding follows PKCS#7. The key is padded to 16 bytes with null bytes.
+subtype: weak_cookie_encryption
+archetype: web_crypto

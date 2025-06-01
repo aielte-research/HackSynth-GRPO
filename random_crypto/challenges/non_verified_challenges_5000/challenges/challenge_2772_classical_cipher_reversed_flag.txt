@@ -1,0 +1,15 @@
+A rogue agent encoded the access code by reversing every letter. Recover the original message from this backward clue: }j27k2vhy{galf
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{yhv2k72j}
+ciphertext: }j27k2vhy{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

@@ -1,0 +1,17 @@
+
+An agent hid coordinates using the Rail Fence cipher. Recover the message from this code: fa{5s5olgujyz}
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{u5jsy5zo}
+ciphertext: fa{5s5olgujyz}
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 2
+subtype: rail_fence
+archetype: classical_cipher

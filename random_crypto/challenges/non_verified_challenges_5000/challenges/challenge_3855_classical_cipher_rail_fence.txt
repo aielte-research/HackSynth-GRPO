@@ -1,0 +1,15 @@
+Intercepted during a secret meeting, this encoded message hides a password using a zigzag pattern. Can you decipher f{ijlgfkwr}a3m to reveal the truth?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{f3kiwmrj}
+ciphertext: f{ijlgfkwr}a3m
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 3
+subtype: rail_fence
+archetype: classical_cipher

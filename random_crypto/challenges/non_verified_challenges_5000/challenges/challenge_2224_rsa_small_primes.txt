@@ -1,0 +1,18 @@
+The admin encrypted the flag with RSA, but carelessly used small primes for the modulus. Can you break the weak key and reveal the secret? 5947515533804772046
+
+The flag format is flag{...}
+n=7671900530159715413, e=3928298072415853787
+
+---
+
+## Challenge Technical Details
+flag: flag{sg5c0k18}
+cipher: RSA
+ciphertext: 5947515533804772046
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=7671900530159715413, e=3928298072415853787
+extra_info: p=2733802871, q=2806310803, φ(n)=7671900524619601740
+subtype: small_primes
+archetype: rsa

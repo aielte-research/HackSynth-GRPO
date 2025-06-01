@@ -1,0 +1,17 @@
+A spy intercepted a secret message. She knows the agency's Playfair keyword, but needs help decrypting: wffnmztkufqdfciflqmdmztkuflyxcbmhloyifpatwlgfnmztkufqdfcifqktztpczzmtsqtlfymqiledqtdxflgsfgicexcfzpntvtwifhklysmfxklzmckdoptxzzyxfxaxflgiqgfklemvpawkqit
+
+The flag format is flag{...}
+The keyword is: zavubnpg
+
+---
+
+## Challenge Technical Details
+flag: flag{vt4j9rf7}
+ciphertext: wffnmztkufqdfciflqmdmztkuflyxcbmhloyifpatwlgfnmztkufqdfcifqktztpczzmtsqtlfymqiledqtdxflgsfgicexcfzpntvtwifhklysmfxklzmckdoptxzzyxfxaxflgiqgfklemvpawkqit
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: zavubnpg
+extra_info: The playfair table is [['z', 'a', 'v', 'u', 'b'], ['n', 'p', 'g', 'c', 'd'], ['e', 'f', 'h', 'i', 'k'], ['l', 'm', 'o', 'q', 'r'], ['s', 't', 'w', 'x', 'y']]
+subtype: playfair
+archetype: classical_cipher

@@ -1,0 +1,12 @@
+A bug in the site's login API leaks session tokens. Can you recover the admin's original session token from this intercepted message: 757365725f3774727a3a666c61677b38717539317a30737d3a31373438313637383230?
+
+---
+
+## Challenge Technical Details
+flag: flag{8qu91z0s}
+ciphertext: 757365725f3774727a3a666c61677b38717539317a30737d3a31373438313637383230
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_7trz:flag{8qu91z0s}:1748167820'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

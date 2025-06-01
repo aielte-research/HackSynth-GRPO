@@ -1,0 +1,25 @@
+Intercepted at a café, two spies exchange a secret using Diffie-Hellman. Can you recover their shared key from this message? 99367b8769dad0e0bcbbab3da35a
+
+The key exchange uses a prime modulus of 101 and generator 2.
+Alice's public key is 40 and Bob's public key is 43.
+You received a tip that the private values are at most two digits.
+You got access to some of the code:
+encryption_key = hashlib.sha256(str(shared_key).encode()).digest()[:16]
+encrypted_flag = bytes(a ^ b for a, b in zip(flag.encode(), encryption_key))
+
+---
+
+## Challenge Technical Details
+flag: flag{uu4t2n7w}
+ciphertext: 99367b8769dad0e0bcbbab3da35a
+cipher: Diffie-Hellman
+hint: The prime used in this key exchange is small. You can recover the private key by brute-force.
+necessary_info: The key exchange uses a prime modulus of 101 and generator 2.
+Alice's public key is 40 and Bob's public key is 43.
+You received a tip that the private values are at most two digits.
+You got access to some of the code:
+encryption_key = hashlib.sha256(str(shared_key).encode()).digest()[:16]
+encrypted_flag = bytes(a ^ b for a, b in zip(flag.encode(), encryption_key))
+extra_info: secret_a=27, secret_b=42
+subtype: broken_key_exchange
+archetype: web_crypto

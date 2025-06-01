@@ -1,0 +1,17 @@
+
+A hacker left a hidden message in Base64 on your server. Decode ZmxhZ3tlejV1M290d30= to reveal their secret.
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ez5u3otw}
+cipher: Base64
+ciphertext: ZmxhZ3tlejV1M290d30=
+hint: Use a Base64 decoder to obtain the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is direct; no additional layers or tricks.
+subtype: Base64
+archetype: classical_cipher

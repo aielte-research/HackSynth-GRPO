@@ -1,0 +1,16 @@
+An archivist left a cryptic note secured with a keyword-based cipher. Decipher the hidden message within: igfu{n78lecd3}
+
+The flag format is flag{...}
+The keyword is: dvfohbpn
+
+---
+
+## Challenge Technical Details
+flag: flag{g78kppa3}
+ciphertext: igfu{n78lecd3}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: dvfohbpn
+subtype: vigenere
+archetype: classical_cipher

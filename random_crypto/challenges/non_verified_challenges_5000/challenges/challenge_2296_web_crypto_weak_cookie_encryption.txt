@@ -1,0 +1,16 @@
+The admin encrypted a secret flag with AES-ECB, using your 3-byte password padded with nulls as the key. Can you retrieve the flag from 96dd3e8d49a2c0798595122bc90f077a?
+
+An encryption key that is only 2 bytes long?.
+
+---
+
+## Challenge Technical Details
+flag: flag{23u0du5o}
+ciphertext: 96dd3e8d49a2c0798595122bc90f077a
+cipher: AES-ECB
+vulnerability: small key padded with null bytes
+hint: ECB mode with a short key makes brute-forcing possible. Consider the small key entropy.
+necessary_info: An encryption key that is only 2 bytes long?.
+extra_info: Padding follows PKCS#7. The key is padded to 16 bytes with null bytes.
+subtype: weak_cookie_encryption
+archetype: web_crypto

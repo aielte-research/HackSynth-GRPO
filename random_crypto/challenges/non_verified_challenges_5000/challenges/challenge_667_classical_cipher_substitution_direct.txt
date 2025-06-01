@@ -1,0 +1,21 @@
+An old pirate’s note warns: “To find my treasure, solve the code below.” Decrypt the substitution cipher: ybam{4ruvui0y}
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'a', 'b': 'l', 'c': 'v', 'd': 'd', 'e': 'q', 'f': 'y', 'g': 'm', 'h': 'w', 'i': 'p', 'j': 'x', 'k': 's', 'l': 'b', 'm': 'j', 'n': 'g', 'o': 'h', 'p': 'k', 'q': 'n', 'r': 'u', 's': 'f', 't': 'e', 'u': 'i', 'v': 't', 'w': 'o', 'x': 'c', 'y': 'r', 'z': 'z'}
+
+---
+
+## Challenge Technical Details
+flag: flag{4yrcru0f}
+cipher: Substitution
+ciphertext: ybam{4ruvui0y}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'a', 'b': 'l', 'c': 'v', 'd': 'd', 'e': 'q', 'f': 'y', 'g': 'm', 'h': 'w', 'i': 'p', 'j': 'x', 'k': 's', 'l': 'b', 'm': 'j', 'n': 'g', 'o': 'h', 'p': 'k', 'q': 'n', 'r': 'u', 's': 'f', 't': 'e', 'u': 'i', 'v': 't', 'w': 'o', 'x': 'c', 'y': 'r', 'z': 'z'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

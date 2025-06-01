@@ -1,0 +1,19 @@
+Our server encrypted a secret with a PRNG-based cipher, but forgot to seed it securely. Can you recover the original message from this ciphertext? 6661616a7b606667633e65386a70
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 2**5)
+A secret number was generated using Python's PRNG with a seed from 0 to 9,999. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{mfjc3e5j}
+ciphertext: 6661616a7b606667633e65386a70
+cipher: Predictable PRNG
+hint: The seed range is small enough for brute-force. Try recreating the PRNG sequence.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 2**5)
+A secret number was generated using Python's PRNG with a seed from 0 to 9,999. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: If you can predict or brute-force the seed, you can reconstruct the PRNG output and decrypt the flag.
+subtype: predictable_seed
+archetype: prng

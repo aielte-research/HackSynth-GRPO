@@ -1,0 +1,17 @@
+
+An old hacker claims to hide wallet keys with a zigzag method. He leaves a message: fa{anqwlgjwby}. Can you decode his wavy secret?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{jawnbqyw}
+ciphertext: fa{anqwlgjwby}
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 2
+subtype: rail_fence
+archetype: classical_cipher

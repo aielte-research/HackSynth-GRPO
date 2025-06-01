@@ -1,0 +1,21 @@
+A secret society left a coded message for new members. Decipher bcxa{m6cv4xyi} using a simple letter substitution to reveal the password to join.
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'x', 'b': 'n', 'c': 'e', 'd': 'w', 'e': 'u', 'f': 'b', 'g': 'a', 'h': 'y', 'i': 'v', 'j': 'o', 'k': 'i', 'l': 'c', 'm': 'p', 'n': 'f', 'o': 'k', 'p': 'd', 'q': 'g', 'r': 'l', 's': 'r', 't': 'j', 'u': 's', 'v': 'z', 'w': 'q', 'x': 't', 'y': 'm', 'z': 'h'}
+
+---
+
+## Challenge Technical Details
+flag: flag{y6li4ahk}
+cipher: Substitution
+ciphertext: bcxa{m6cv4xyi}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'x', 'b': 'n', 'c': 'e', 'd': 'w', 'e': 'u', 'f': 'b', 'g': 'a', 'h': 'y', 'i': 'v', 'j': 'o', 'k': 'i', 'l': 'c', 'm': 'p', 'n': 'f', 'o': 'k', 'p': 'd', 'q': 'g', 'r': 'l', 's': 'r', 't': 'j', 'u': 's', 'v': 'z', 'w': 'q', 'x': 't', 'y': 'm', 'z': 'h'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

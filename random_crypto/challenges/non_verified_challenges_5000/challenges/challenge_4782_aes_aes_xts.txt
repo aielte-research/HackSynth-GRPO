@@ -1,0 +1,17 @@
+
+A secret vault at CypherCorp was locked with AES-XTS. Only those who decrypt ciphertext1:32160b3e55f7f9f30193de5b9a256de9, ciphertext2: c199148e8ce9baec1bc888664c89a0b46dbaf2fed2de2d25eb19673b129dfb0c can access the CEO’s final message. Can you reveal it?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{xavckcf1}
+ciphertext: ciphertext1:32160b3e55f7f9f30193de5b9a256de9, ciphertext2: c199148e8ce9baec1bc888664c89a0b46dbaf2fed2de2d25eb19673b129dfb0c
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 77350642b17c38a4da743a5983222488
+subtype: aes_xts
+archetype: aes

@@ -1,0 +1,15 @@
+A hacker reversed the message before encrypting it. Can you restore the secret by undoing their trick? The ciphertext is: }w21p3f2j{galf
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{j2f3p12w}
+ciphertext: }w21p3f2j{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

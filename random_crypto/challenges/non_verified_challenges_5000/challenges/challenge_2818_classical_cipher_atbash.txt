@@ -1,0 +1,14 @@
+An old scholar sends you a parchment with a secret word hidden using an ancient mirror cipher. Decode this Atbash-encrypted message: uozt{eiiqcqkn}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{vrrjxjpm}
+cipher: Atbash
+ciphertext: uozt{eiiqcqkn}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

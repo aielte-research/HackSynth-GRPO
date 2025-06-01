@@ -1,0 +1,18 @@
+An intern encrypted the secret with RSA but used tiny primes for quick testing. Recover the flag from the resulting ciphertext: 4181165219449293575
+
+The flag format is flag{...}
+n=8978362241064773993, e=7151064551493967345
+
+---
+
+## Challenge Technical Details
+flag: flag{4m2q4tlf}
+cipher: RSA
+ciphertext: 4181165219449293575
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=8978362241064773993, e=7151064551493967345
+extra_info: p=2744899739, q=3270925387, φ(n)=8978362235048948868
+subtype: small_primes
+archetype: rsa

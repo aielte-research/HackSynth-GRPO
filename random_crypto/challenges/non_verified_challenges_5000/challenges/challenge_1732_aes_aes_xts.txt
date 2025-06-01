@@ -1,0 +1,17 @@
+
+A rogue sysadmin encrypted the secret using AES-XTS before vanishing. Can you recover the hidden flag from this ciphertext? ciphertext1:c01f15d7a690de19f6fb52a4abcdc69a, ciphertext2: 523fe4702f5043bf20bd9e995e0e72e0a1b1fbf2e8e386c4a29dc0ee41055fbc
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{iz65uq69}
+ciphertext: ciphertext1:c01f15d7a690de19f6fb52a4abcdc69a, ciphertext2: 523fe4702f5043bf20bd9e995e0e72e0a1b1fbf2e8e386c4a29dc0ee41055fbc
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 63611592ddb2557e3ea158cc260eb5be
+subtype: aes_xts
+archetype: aes

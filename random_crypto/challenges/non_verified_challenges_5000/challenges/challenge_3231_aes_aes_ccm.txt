@@ -1,0 +1,20 @@
+
+A rogue AI encrypted its secret plans using AES. Decrypt the message below to uncover its next move: ciphertext1:8bddcaf5f2f261a59d489fdbb495, ciphertext2: 8bddcaf5f2ac65b0d1498b80a395
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{7kp9oy2e}
+ciphertext: ciphertext1:8bddcaf5f2f261a59d489fdbb495, ciphertext2: 8bddcaf5f2ac65b0d1498b80a395
+tag1: 473078e6cdb66ca50a032240f058733a
+tag2: 4b0a85f1b8c0249a71e3a70f07b3efb0
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: d07653b33b16651c19863c
+subtype: aes_ccm
+archetype: aes

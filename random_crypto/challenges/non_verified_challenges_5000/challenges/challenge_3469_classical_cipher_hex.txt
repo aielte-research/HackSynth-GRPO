@@ -1,0 +1,14 @@
+A hacker left a secret message in a log file, encoded with Hex. Crack the code to recover their hidden instructions: 666c61677b7a6b616837307a347d
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{zkah70z4}
+cipher: Hex
+ciphertext: 666c61677b7a6b616837307a347d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

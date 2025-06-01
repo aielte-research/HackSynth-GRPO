@@ -1,0 +1,15 @@
+While decoding a mysterious sequence of numbers left by a vanished mathematician, you discover a note encoded with Fibonacci Encoding. Can you reveal its secret? 10001000001 10001010011 10000100001 10001000011 10100000001 10010100001 10010000001 10010100101 10000100011 101000101 10001001001 10010010101 101000011 10100000101
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{vnxb1iu0}
+ciphertext: 10001000001 10001010011 10000100001 10001000011 10100000001 10010100001 10010000001 10010100101 10000100011 101000101 10001001001 10010010101 101000011 10100000101
+cipher: Fibonacci Encoding
+hint: Each ASCII character is represented as a sum of non-consecutive Fibonacci numbers, always ending in 1.
+necessary_info: The flag format is flag{...}
+extra_info: Each character of the flag is independently encoded using Fibonacci representation.
+subtype: fibonacci_encoding
+archetype: classical_cipher

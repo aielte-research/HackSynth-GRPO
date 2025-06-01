@@ -1,0 +1,14 @@
+The hacker left a note in hexadecimal on your terminal. Can you decode the message? Here it is: 666c61677b7475756275316e687d
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{tuubu1nh}
+cipher: Hex
+ciphertext: 666c61677b7475756275316e687d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

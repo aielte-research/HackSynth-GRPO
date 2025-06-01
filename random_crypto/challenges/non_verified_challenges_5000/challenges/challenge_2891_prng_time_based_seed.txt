@@ -1,0 +1,19 @@
+An old hacker hid a password using a PRNG seeded with the file’s creation time. Can you recover the secret from this 666d5d6e7b65466836640c6a387c?
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 89168)
+The system time when the encryption process started was around: 2025-05-25 12:15:53 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{dza6e0c8}
+ciphertext: 666d5d6e7b65466836640c6a387c
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 89168)
+The system time when the encryption process started was around: 2025-05-25 12:15:53 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 80905.
+subtype: time_based_seed
+archetype: prng

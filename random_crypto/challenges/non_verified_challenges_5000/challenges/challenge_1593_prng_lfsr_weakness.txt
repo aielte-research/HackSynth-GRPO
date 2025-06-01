@@ -1,0 +1,19 @@
+Intercepted spy messages use a homemade "random" generator. Can you break their LFSR-based cipher and recover the secret from this encrypted text: 5061576a4d610339433404615070?
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[13860, 6930, 3465, 1732, 33634, 49585, 24792, 45164, 55350, 27675]
+
+---
+
+## Challenge Technical Details
+flag: flag{l54u92lf}
+ciphertext: 5061576a4d610339433404615070
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[13860, 6930, 3465, 1732, 33634, 49585, 24792, 45164, 55350, 27675]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

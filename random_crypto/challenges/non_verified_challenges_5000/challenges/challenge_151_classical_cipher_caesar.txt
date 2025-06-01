@@ -1,0 +1,15 @@
+Julius left a hidden message for his allies. Can you decipher his classic shift? The message: pvkq{rpbqj9ah}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{hfrgz9qx}
+ciphertext: pvkq{rpbqj9ah}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 10
+subtype: caesar
+archetype: classical_cipher

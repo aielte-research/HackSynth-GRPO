@@ -1,0 +1,18 @@
+
+A hacker hid a password using a Vigenère cipher. The ciphertext is below—find the key and decrypt it: wkvi{8jhngqnj}
+
+
+The flag format is flag{...}
+The keyword is: rzvcrbtg
+
+---
+
+## Challenge Technical Details
+flag: flag{8sguazoo}
+ciphertext: wkvi{8jhngqnj}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: rzvcrbtg
+subtype: vigenere
+archetype: classical_cipher

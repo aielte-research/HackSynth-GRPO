@@ -1,0 +1,18 @@
+The hacker intercepted a secret file allegedly encrypted with AES. All they have now is this enigmatic ciphertext: ciphertext1:175c5d71a59babcc3ce0156a4670, ciphertext2: 175c5d71a598e8c237e74c791170. Can you uncover the original message?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{g06bslx5}
+ciphertext: ciphertext1:175c5d71a59babcc3ce0156a4670, ciphertext2: 175c5d71a598e8c237e74c791170
+tag1: e14735feef7b11a6fb4e3c2cc2249434
+tag2: 0c3cadb85902d3282172d64acd7cbf00
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 033b1bf47edb1dcb2ef0bb
+subtype: aes_ccm
+archetype: aes

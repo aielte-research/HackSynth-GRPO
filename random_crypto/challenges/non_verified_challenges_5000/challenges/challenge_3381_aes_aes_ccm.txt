@@ -1,0 +1,18 @@
+An encrypted transaction record, ciphertext1:694e97bd7f65255c0ace43c52132, ciphertext2: 694e97bd7f337417049412c56c32, was intercepted. Can you recover the secret payment amount using your knowledge of AES?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{19rk4e97}
+ciphertext: ciphertext1:694e97bd7f65255c0ace43c52132, ciphertext2: 694e97bd7f337417049412c56c32
+tag1: dca7a4a2b62d137924658af3eb42fe2f
+tag2: 00bb59a7ef22841a8613d769130d1df8
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 58f11d295ce899df2421b2
+subtype: aes_ccm
+archetype: aes

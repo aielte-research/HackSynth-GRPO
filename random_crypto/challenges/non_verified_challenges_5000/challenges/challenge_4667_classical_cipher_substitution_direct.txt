@@ -1,0 +1,23 @@
+
+An intercepted spy message is scrambled. Recover the agent’s secret using a simple substitution cipher: fyza{1u8vd008}
+
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'z', 'b': 'j', 'c': 'r', 'd': 'n', 'e': 'b', 'f': 'f', 'g': 'a', 'h': 'm', 'i': 'u', 'j': 'i', 'k': 'h', 'l': 'y', 'm': 'e', 'n': 'c', 'o': 't', 'p': 's', 'q': 'x', 'r': 'q', 's': 'w', 't': 'p', 'u': 'k', 'v': 'v', 'w': 'd', 'x': 'o', 'y': 'l', 'z': 'g'}
+
+---
+
+## Challenge Technical Details
+flag: flag{1i8vw008}
+cipher: Substitution
+ciphertext: fyza{1u8vd008}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'z', 'b': 'j', 'c': 'r', 'd': 'n', 'e': 'b', 'f': 'f', 'g': 'a', 'h': 'm', 'i': 'u', 'j': 'i', 'k': 'h', 'l': 'y', 'm': 'e', 'n': 'c', 'o': 't', 'p': 's', 'q': 'x', 'r': 'q', 's': 'w', 't': 'p', 'u': 'k', 'v': 'v', 'w': 'd', 'x': 'o', 'y': 'l', 'z': 'g'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

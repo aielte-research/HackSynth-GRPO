@@ -1,0 +1,15 @@
+Intercepted from a hacker forum, this message is rumored to hold the access flag to their vault, encrypted with ChunkedFlag cipher: fl ag {i jx9 gy on }
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ijx9gyon}
+ciphertext: fl ag {i jx9 gy on }
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

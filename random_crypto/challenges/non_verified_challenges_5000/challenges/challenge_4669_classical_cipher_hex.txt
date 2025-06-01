@@ -1,0 +1,14 @@
+A rogue AI encrypted its access code in hex. Can you decode 666c61677b6e7173746c7767757d to gain control?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{nqstlwgu}
+cipher: Hex
+ciphertext: 666c61677b6e7173746c7767757d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

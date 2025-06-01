@@ -1,0 +1,20 @@
+
+Someone encrypted the treasure map using RSA, but they picked tiny primes for speed. Can you recover the secret from this weak encryption? Ciphertext: 3555670166210960320
+
+
+The flag format is flag{...}
+n=10141991482471571027, e=9113338830437739487
+
+---
+
+## Challenge Technical Details
+flag: flag{ufxkb585}
+cipher: RSA
+ciphertext: 3555670166210960320
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=10141991482471571027, e=9113338830437739487
+extra_info: p=4162329779, q=2436614113, φ(n)=10141991475872627136
+subtype: small_primes
+archetype: rsa

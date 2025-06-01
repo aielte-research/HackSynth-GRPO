@@ -1,0 +1,11 @@
+A hacker intercepted a suspicious JWT token during a network breach. Can you decode the secret inside? Token: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tlNmd2bmZ0OH0ifQ.
+
+---
+
+## Challenge Technical Details
+flag: flag{e6gvnft8}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tlNmd2bmZ0OH0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

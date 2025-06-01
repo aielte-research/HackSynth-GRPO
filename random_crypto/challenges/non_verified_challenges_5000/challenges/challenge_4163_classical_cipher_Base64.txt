@@ -1,0 +1,15 @@
+An agent intercepted a suspicious message labeled “For decoding eyes only.” Can you recover the original content from this Base64-encoded string? ZmxhZ3s3Mnk4eW12NX0=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{72y8ymv5}
+cipher: Base64
+ciphertext: ZmxhZ3s3Mnk4eW12NX0=
+hint: Use a Base64 decoder to obtain the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is direct; no additional layers or tricks.
+subtype: Base64
+archetype: classical_cipher

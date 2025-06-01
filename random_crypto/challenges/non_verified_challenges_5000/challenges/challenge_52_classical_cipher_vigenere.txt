@@ -1,0 +1,16 @@
+An old hacker's note reads: "My key is hidden in plain sight. Can you break my code?" The message: itry{fl69hukc}
+
+The flag format is flag{...}
+The keyword is: dirsz
+
+---
+
+## Challenge Technical Details
+flag: flag{gi69zdsd}
+ciphertext: itry{fl69hukc}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: dirsz
+subtype: vigenere
+archetype: classical_cipher

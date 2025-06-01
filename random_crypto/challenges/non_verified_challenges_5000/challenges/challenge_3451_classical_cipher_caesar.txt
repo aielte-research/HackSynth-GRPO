@@ -1,0 +1,15 @@
+A hacker left a coded note behind. Can you figure out what secret is hidden in the Caesar-shifted message below? cixd{kp9kewnk}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ns9nhzqn}
+ciphertext: cixd{kp9kewnk}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 23
+subtype: caesar
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+Someone hid the admin password’s hash in an old database, trusting MD5. Recover the original password from db3fa804c051b7fc3bb43bba27b5ed47 to access the system.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{NZMAA}
+ciphertext: db3fa804c051b7fc3bb43bba27b5ed47
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

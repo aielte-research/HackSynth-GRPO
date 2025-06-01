@@ -1,0 +1,18 @@
+Agent's RSA keys used embarrassingly small primes. The intercepted message is below. Can you recover the plaintext? 2535982918773414741
+
+The flag format is flag{...}
+n=9793231660276048001, e=7415339326964491021
+
+---
+
+## Challenge Technical Details
+flag: flag{v49v9bim}
+cipher: RSA
+ciphertext: 2535982918773414741
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=9793231660276048001, e=7415339326964491021
+extra_info: p=2535555091, q=3862362011, φ(n)=9793231653878130900
+subtype: small_primes
+archetype: rsa

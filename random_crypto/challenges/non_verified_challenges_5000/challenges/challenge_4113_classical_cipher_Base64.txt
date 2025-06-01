@@ -1,0 +1,15 @@
+A rogue AI encoded its secret shutdown command. Can you decode this Base64 message to save the system? Here's the ciphertext: ZmxhZ3t0NHFqMnNpd30=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{t4qj2siw}
+cipher: Base64
+ciphertext: ZmxhZ3t0NHFqMnNpd30=
+hint: Use a Base64 decoder to obtain the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is direct; no additional layers or tricks.
+subtype: Base64
+archetype: classical_cipher

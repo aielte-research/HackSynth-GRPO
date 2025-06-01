@@ -1,0 +1,18 @@
+A hacker intercepted a secret transmission. The message is encrypted with AES. Can you recover the plaintext from this cipher? Ciphertext: ciphertext1:374451da2a18c8b55d076a4f852d, ciphertext2: 374451da2a5980af14172b04c12d
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{01pqd790}
+ciphertext: ciphertext1:374451da2a18c8b55d076a4f852d, ciphertext2: 374451da2a5980af14172b04c12d
+tag1: aa5665d6f7bc47603aa9bf4576f22718
+tag2: 817668ee248b4a25152e3f3381df10cd
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 69f0ef87ba0af34dc8276f
+subtype: aes_ccm
+archetype: aes

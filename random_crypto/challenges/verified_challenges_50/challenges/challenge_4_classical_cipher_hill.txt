@@ -1,0 +1,17 @@
+An old professor left a puzzle in his journal—decode the cipher below using the right Hill matrix to find where he hid the key: skwfcerkhsulnaacjyntpywlchitbljygszlfwzluiiqnoipqgmqhyeqnycbmyfhimpsbq
+
+The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+
+---
+
+## Challenge Technical Details
+flag: flag{utfagcdi}
+ciphertext: skwfcerkhsulnaacjyntpywlchitbljygszlfwzluiiqnoipqgmqhyeqnycbmyfhimpsbq
+cipher: Hill
+hint: Hill ciphers can be broken using known-plaintext attacks and linear algebra mod 26.
+necessary_info: The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+extra_info: The matrix used is: [[12, 23], [19, 2]]
+subtype: hill
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+A hacker left a secret code protected by shifting ASCII values. Can you decode the hidden password from the string below? oujp:Bp{y<k
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{19grp3bv}
+cipher: ASCII Shift
+ciphertext: oujp:Bp{y<k
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 9
+subtype: ascii_shift
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+An old hacker left a hidden message in a classic letter-substitution cipher. Can you crack their code? Here's the encrypted text: ca pwnsqflwzsyn, z jivjqcqiqcfa pcsyuw cj z kuqyfm fx uapwnsqcal ca tycpy iacqj fx srzcaqugq zwu wusrzpum tcqy qyu pcsyuwqugq, ca z muxcaum kzaauw, tcqy qyu yurs fx z bun; qyu "iacqj" kzn vu jcalru ruqquwj (qyu kfjq pfkkfa), szcwj fx ruqquwj, qwcsruqj fx ruqquwj, kcgqiwuj fx qyu zvfeu, zam jf xfwqy. qyu wupuceuw mupcsyuwj qyu qugq vn suwxfwkcal qyu caeuwju jivjqcqiqcfa swfpujj qf ugqwzpq qyu fwclcazr kujjzlu. rcbutcju, dzpoiuj oicpbrn hcssum qywfily z oiujqcfa fa huwf-baftrumlu swffxj, uajiwcal af pwcqcpzr ruqquw tzj ruxq fiq fx fiw pwnsqflwzsycp sihhru.xrzl{wezg4fr4}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{rvax4ol4}
+ciphertext: ca pwnsqflwzsyn, z jivjqcqiqcfa pcsyuw cj z kuqyfm fx uapwnsqcal ca tycpy iacqj fx srzcaqugq zwu wusrzpum tcqy qyu pcsyuwqugq, ca z muxcaum kzaauw, tcqy qyu yurs fx z bun; qyu "iacqj" kzn vu jcalru ruqquwj (qyu kfjq pfkkfa), szcwj fx ruqquwj, qwcsruqj fx ruqquwj, kcgqiwuj fx qyu zvfeu, zam jf xfwqy. qyu wupuceuw mupcsyuwj qyu qugq vn suwxfwkcal qyu caeuwju jivjqcqiqcfa swfpujj qf ugqwzpq qyu fwclcazr kujjzlu. rcbutcju, dzpoiuj oicpbrn hcssum qywfily z oiujqcfa fa huwf-baftrumlu swffxj, uajiwcal af pwcqcpzr ruqquw tzj ruxq fiq fx fiw pwnsqflwzsycp sihhru.xrzl{wezg4fr4}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'z', 'b': 'v', 'c': 'p', 'd': 'm', 'e': 'u', 'f': 'x', 'g': 'l', 'h': 'y', 'i': 'c', 'j': 'd', 'k': 'b', 'l': 'r', 'm': 'k', 'n': 'a', 'o': 'f', 'p': 's', 'q': 'o', 'r': 'w', 's': 'j', 't': 'q', 'u': 'i', 'v': 'e', 'w': 't', 'x': 'g', 'y': 'n', 'z': 'h'}
+subtype: substitution
+archetype: classical_cipher

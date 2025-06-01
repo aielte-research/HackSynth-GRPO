@@ -1,0 +1,21 @@
+
+Intercepted comms were encrypted with an LFSR-based cipher rumored to be breakable. Can you recover the original message from the ciphertext below? 61d766dc7c8a77d166de70d562c6
+
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[60845, 30422, 47979, 56757, 61146, 63341, 31670, 15835, 7917, 3958]
+
+---
+
+## Challenge Technical Details
+flag: flag{1pjaewne}
+ciphertext: 61d766dc7c8a77d166de70d562c6
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[60845, 30422, 47979, 56757, 61146, 63341, 31670, 15835, 7917, 3958]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

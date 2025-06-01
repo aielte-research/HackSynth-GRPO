@@ -1,0 +1,18 @@
+An intercepted message, believed to reveal the intruder’s access code, was encrypted with AES. Can you recover the original plaintext from this ciphertext: ciphertext1:e37638c6bb9be45241c4ef62b1a5, ciphertext2: e37638c6bb83ba504ed8fd23a7a5?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{yfsakd9a}
+ciphertext: ciphertext1:e37638c6bb9be45241c4ef62b1a5, ciphertext2: e37638c6bb83ba504ed8fd23a7a5
+tag1: faa2603f466a126288ce421370503bec
+tag2: 0b9012ed5ad1d79ff9b0639f6ec38404
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: b612b7ed890769cd9e49f2
+subtype: aes_ccm
+archetype: aes

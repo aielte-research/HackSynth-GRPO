@@ -1,0 +1,19 @@
+A hacker left a secret in 666c665a7b316f0a69676804797d, encrypted with a cipher seeded by the exact time they sent their message. Can you recover the hidden info?
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 41860)
+The system time when the encryption process started was around: 2025-05-17 13:41:23 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{1h7igo9y}
+ciphertext: 666c665a7b316f0a69676804797d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 41860)
+The system time when the encryption process started was around: 2025-05-17 13:41:23 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 1853.
+subtype: time_based_seed
+archetype: prng

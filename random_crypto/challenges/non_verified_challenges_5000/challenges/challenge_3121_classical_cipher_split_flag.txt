@@ -1,0 +1,15 @@
+An encrypted vault code was intercepted. Rumor says it's protected by the SplitNumberMix method. Can you recover the original number from this cipher?  555555 fl 555555 ag{gjrv 555555 y 555555 xgx} 555555 
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{gjrvyxgx}
+ciphertext:  555555 fl 555555 ag{gjrv 555555 y 555555 xgx} 555555 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 4 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

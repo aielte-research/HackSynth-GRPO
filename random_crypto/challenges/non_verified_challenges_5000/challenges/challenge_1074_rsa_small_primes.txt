@@ -1,0 +1,18 @@
+A careless admin used tiny primes for RSA. Crack the RSA-encrypted flag: 598864023077391858
+
+The flag format is flag{...}
+n=9296199586342852511, e=2909490242033637287
+
+---
+
+## Challenge Technical Details
+flag: flag{0dlxsu3a}
+cipher: RSA
+ciphertext: 598864023077391858
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=9296199586342852511, e=2909490242033637287
+extra_info: p=3952488781, q=2351986331, φ(n)=9296199580038377400
+subtype: small_primes
+archetype: rsa

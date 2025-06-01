@@ -1,0 +1,15 @@
+Agent Byte left a secret message. Decode VmpJd2VFNUhSa2RpTTNCcVpXdGFiMVJVUm5ka1ZuQkZWRzVrYWxZd05URlVWVkYzVUZFOVBRPT0= to reveal the meeting location.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{5kvgwzjr}
+cipher: Base64
+ciphertext: VmpJd2VFNUhSa2RpTTNCcVpXdGFiMVJVUm5ka1ZuQkZWRzVrYWxZd05URlVWVkYzVUZFOVBRPT0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 5 times in total.
+subtype: Base64_layered
+archetype: classical_cipher

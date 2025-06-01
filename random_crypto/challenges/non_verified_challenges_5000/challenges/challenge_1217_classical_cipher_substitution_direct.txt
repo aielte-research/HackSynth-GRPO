@@ -1,0 +1,21 @@
+A mysterious message, believed to reveal a secret wallet key, was intercepted. It appears scrambled—can you decrypt this simple substitution cipher? gboa{ui9c2nam}
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'o', 'b': 'c', 'c': 'm', 'd': 'e', 'e': 'v', 'f': 'g', 'g': 'a', 'h': 'd', 'i': 'w', 'j': 's', 'k': 'n', 'l': 'b', 'm': 'l', 'n': 'q', 'o': 'f', 'p': 'i', 'q': 'h', 'r': 'u', 's': 'z', 't': 'p', 'u': 'r', 'v': 'y', 'w': 'j', 'x': 'k', 'y': 'x', 'z': 't'}
+
+---
+
+## Challenge Technical Details
+flag: flag{rp9b2kgc}
+cipher: Substitution
+ciphertext: gboa{ui9c2nam}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'o', 'b': 'c', 'c': 'm', 'd': 'e', 'e': 'v', 'f': 'g', 'g': 'a', 'h': 'd', 'i': 'w', 'j': 's', 'k': 'n', 'l': 'b', 'm': 'l', 'n': 'q', 'o': 'f', 'p': 'i', 'q': 'h', 'r': 'u', 's': 'z', 't': 'p', 'u': 'r', 'v': 'y', 'w': 'j', 'x': 'k', 'y': 'x', 'z': 't'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

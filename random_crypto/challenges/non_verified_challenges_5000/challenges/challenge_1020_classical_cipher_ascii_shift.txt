@@ -1,0 +1,15 @@
+An old hacker left a note encoded by shifting each ASCII character. Can you recover the original message hidden in jpek9i8ro:~8?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{5e4nk6z4}
+cipher: ASCII Shift
+ciphertext: jpek9i8ro:~8
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 4
+subtype: ascii_shift
+archetype: classical_cipher

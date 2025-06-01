@@ -1,0 +1,19 @@
+A careless intern encrypted the launch codes using a PRNG with only 3 bits of entropy. Here’s the cipher: 666c61b47b3736e5327166ba757d. Can you recover the original message?
+
+The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [213, 11, 533, 37, 161, 244, 17, 56, 150, 376, 245, 119, 346, 477, 364, 287, 401, 269, 352, 234]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 669)
+
+---
+
+## Challenge Technical Details
+flag: flag{7662qfiu}
+ciphertext: 666c61b47b3736e5327166ba757d
+cipher: Low-entropy PRNG
+hint: The PRNG seed space is small. You can try brute-forcing all possible seeds to reconstruct the sequence.
+necessary_info: The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [213, 11, 533, 37, 161, 244, 17, 56, 150, 376, 245, 119, 346, 477, 364, 287, 401, 269, 352, 234]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 669)
+extra_info: Since the seed has only 256 possible values, it can be brute-forced to recover the secret number and decrypt the flag.
+subtype: low_entropy_generator
+archetype: prng

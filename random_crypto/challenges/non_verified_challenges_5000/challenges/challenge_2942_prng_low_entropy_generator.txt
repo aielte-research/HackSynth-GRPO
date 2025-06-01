@@ -1,0 +1,21 @@
+
+A distracted developer secured this message using a makeshift PRNG with poor randomness. Can you break the 666c630f7b347058336d3006367d encrypted with this low-entropy stream cipher?
+
+
+The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [370, 480, 492, 291, 426, 232, 457, 5, 419, 673, 265, 243, 650, 227, 10, 303, 309, 343, 682, 145]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 721)
+
+---
+
+## Challenge Technical Details
+flag: flag{4r03m2n6}
+ciphertext: 666c630f7b347058336d3006367d
+cipher: Low-entropy PRNG
+hint: The PRNG seed space is small. You can try brute-forcing all possible seeds to reconstruct the sequence.
+necessary_info: The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [370, 480, 492, 291, 426, 232, 457, 5, 419, 673, 265, 243, 650, 227, 10, 303, 309, 343, 682, 145]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 721)
+extra_info: Since the seed has only 256 possible values, it can be brute-forced to recover the secret number and decrypt the flag.
+subtype: low_entropy_generator
+archetype: prng

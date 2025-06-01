@@ -1,0 +1,14 @@
+Agent Hex left a coded message in a digital locker. Decode the hex-encoded secret to find the location: 666c61677b61707070767073627d
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{apppvpsb}
+cipher: Hex
+ciphertext: 666c61677b61707070767073627d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

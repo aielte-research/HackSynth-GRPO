@@ -1,0 +1,15 @@
+An anonymous hacker sent a mysterious string. "Decode my secret in Base64 to reveal the flag." The message is: Vm1wSmQyVkZOVWhTYTJScFRUTkNjbFV3YUVOVlZsVjNWMjVrYTFadGVERlpNRnBQWWtaS1ZWSnNjRlZXVmtZelZVWkZPVkJSUFQwPQ==
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{s8vgo4q1}
+cipher: Base64
+ciphertext: Vm1wSmQyVkZOVWhTYTJScFRUTkNjbFV3YUVOVlZsVjNWMjVrYTFadGVERlpNRnBQWWtaS1ZWSnNjRlZXVmtZelZVWkZPVkJSUFQwPQ==
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 6 times in total.
+subtype: Base64_layered
+archetype: classical_cipher

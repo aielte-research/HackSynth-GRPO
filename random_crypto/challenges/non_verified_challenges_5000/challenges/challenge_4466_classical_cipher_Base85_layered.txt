@@ -1,0 +1,15 @@
+The famed hacker Nyx encoded their secret into Base85 to evade detection. Can you uncover the message they left behind? Cipher: Q8+7fbYyZsPf15ALm_fVLM1IeN?KPfc2Fd6EiqCzU|Cp0GDA%{LVk8XLRD`(CTL7=dVVleGHrA}R!ux)S6FFaV_!%?PiX
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{mbenujxy}
+cipher: Base85
+ciphertext: Q8+7fbYyZsPf15ALm_fVLM1IeN?KPfc2Fd6EiqCzU|Cp0GDA%{LVk8XLRD`(CTL7=dVVleGHrA}R!ux)S6FFaV_!%?PiX
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 8 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

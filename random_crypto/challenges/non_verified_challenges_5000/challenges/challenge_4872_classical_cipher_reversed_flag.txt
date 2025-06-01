@@ -1,0 +1,15 @@
+Professor Ada scrambled her secret password using a simple method: just reversing its letters. Can you decode the message below? }8j04oxl5{galf
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{5lxo40j8}
+ciphertext: }8j04oxl5{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

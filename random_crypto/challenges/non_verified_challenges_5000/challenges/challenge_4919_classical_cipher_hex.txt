@@ -1,0 +1,14 @@
+An old hacker left a secret in hexadecimal. Only those who decode 666c61677b68376b6f753736687d will learn the hidden message he wanted to share.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{h7kou76h}
+cipher: Hex
+ciphertext: 666c61677b68376b6f753736687d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+Stolen disk files were encrypted with AES-XTS. Can you recover the secret from ciphertext1:dbb948928ab8c62828f7f0c72965e85f, ciphertext2: d0280666b6be225cf6107cb840aa79e9bb994f619bb70744b0a230727dc073d8?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{8s40rhnl}
+ciphertext: ciphertext1:dbb948928ab8c62828f7f0c72965e85f, ciphertext2: d0280666b6be225cf6107cb840aa79e9bb994f619bb70744b0a230727dc073d8
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 9975d51075507a2b94a82d5b67a9c928
+subtype: aes_xts
+archetype: aes

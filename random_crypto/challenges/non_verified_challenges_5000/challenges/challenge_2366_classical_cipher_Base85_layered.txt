@@ -1,0 +1,15 @@
+A rogue hacker left a secret in base85. Can you decode their cryptic message? Here it is: Q8sTRJX$6xX;4yHCSNLJHg-#CQAR_1HdA#;b~{NpAt_ZxBL
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{4h27df4q}
+cipher: Base85
+ciphertext: Q8sTRJX$6xX;4yHCSNLJHg-#CQAR_1HdA#;b~{NpAt_ZxBL
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 5 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

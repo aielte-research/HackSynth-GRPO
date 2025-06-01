@@ -1,0 +1,15 @@
+A hacker split the access code and scrambled it with their SplitNumberMix cipher. Decrypt  7777777 fla 7777777 g{xthbhjrr} 7777777  to retrieve the original code.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{xthbhjrr}
+ciphertext:  7777777 fla 7777777 g{xthbhjrr} 7777777 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 2 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

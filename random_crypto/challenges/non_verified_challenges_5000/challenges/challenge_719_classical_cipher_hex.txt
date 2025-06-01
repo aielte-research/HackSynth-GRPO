@@ -1,0 +1,16 @@
+
+A hacker hid a message in a hex-encoded string. Can you decode their secret? Here’s the cipher: 666c61677b316b656165626f357d
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{1keaebo5}
+cipher: Hex
+ciphertext: 666c61677b316b656165626f357d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

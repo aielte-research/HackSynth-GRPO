@@ -1,0 +1,21 @@
+
+Intercepted spy communications use a homemade stream cipher. Analysts suspect an LFSR weakness—can you recover the secret message from 89da8ed194879ac198d286c0decb?
+
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[55402, 27701, 46618, 56077, 60806, 63171, 64353, 32176, 48856, 57196]
+
+---
+
+## Challenge Technical Details
+flag: flag{1uwwdiv1}
+ciphertext: 89da8ed194879ac198d286c0decb
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[55402, 27701, 46618, 56077, 60806, 63171, 64353, 32176, 48856, 57196]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

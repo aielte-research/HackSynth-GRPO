@@ -1,0 +1,14 @@
+Intercepted admin messages use suspiciously small exponents to sign. Can you forge a valid signature for 0x35d9eacc6d27be44adec32ecb74da2db9b51a552c498072e932362ee3cbb59fb2e0ec6767ecf79d48fdd4c508b2bc8a4f3b5b8be2e79a00fbb8f606c871a7a98 and reveal their weak setup?
+
+Public Key (n, e): (3767920259492153370959790258605445716157960350664643338286679879172545265025003000246482372825898742556170734305814193668098127931048943644056827284931031, 3)
+
+---
+
+## Challenge Technical Details
+flag: flag{ocanh5pd}
+ciphertext: 0x35d9eacc6d27be44adec32ecb74da2db9b51a552c498072e932362ee3cbb59fb2e0ec6767ecf79d48fdd4c508b2bc8a4f3b5b8be2e79a00fbb8f606c871a7a98
+cipher: RSA Low-Exponent Signature
+hint: What happens when you cube small numbers? Remember e=3!
+necessary_info: Public Key (n, e): (3767920259492153370959790258605445716157960350664643338286679879172545265025003000246482372825898742556170734305814193668098127931048943644056827284931031, 3)
+subtype: rsa_sign_with_low_public_exponent
+archetype: signature_schemes

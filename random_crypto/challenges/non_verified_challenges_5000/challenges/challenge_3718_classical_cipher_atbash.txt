@@ -1,0 +1,14 @@
+A rogue archaeologist left a secret in an ancient script. He claims only those who can read mirrored alphabets—like Atbash—can reveal the message: uozt{ani97pca}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{zmr97kxz}
+cipher: Atbash
+ciphertext: uozt{ani97pca}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

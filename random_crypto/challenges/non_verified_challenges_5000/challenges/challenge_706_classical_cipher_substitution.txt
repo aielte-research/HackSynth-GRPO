@@ -1,0 +1,17 @@
+
+Agent Nova encrypted the meeting location with a secret substitution cipher. Recover the original message from this cryptic jumble: ek qatiobvadiyt, d lujloeouoebk qeiyga el d hgoybs br gkqatioekv ek wyeqy ukeol br imdekogno dag agimdqgs weoy oyg qeiygaogno, ek d sgrekgs hdkkga, weoy oyg ygmi br d zgt; oyg "ukeol" hdt jg lekvmg mgoogal (oyg hblo qbhhbk), ideal br mgoogal, oaeimgol br mgoogal, henouagl br oyg djbpg, dks lb rbaoy. oyg agqgepga sgqeiygal oyg ogno jt igarbahekv oyg ekpgalg lujloeouoebk iabqgll ob gnoadqo oyg baevekdm hglldvg. mezgwelg, cdqxugl xueqzmt feiigs oyabuvy d xugloebk bk fgab-zkbwmgsvg iabbrl, gkluaekv kb qaeoeqdm mgooga wdl mgro buo br bua qatiobvadiyeq iuffmg.rmdv{vq8v2311}
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{gc8g2311}
+ciphertext: ek qatiobvadiyt, d lujloeouoebk qeiyga el d hgoybs br gkqatioekv ek wyeqy ukeol br imdekogno dag agimdqgs weoy oyg qeiygaogno, ek d sgrekgs hdkkga, weoy oyg ygmi br d zgt; oyg "ukeol" hdt jg lekvmg mgoogal (oyg hblo qbhhbk), ideal br mgoogal, oaeimgol br mgoogal, henouagl br oyg djbpg, dks lb rbaoy. oyg agqgepga sgqeiygal oyg ogno jt igarbahekv oyg ekpgalg lujloeouoebk iabqgll ob gnoadqo oyg baevekdm hglldvg. mezgwelg, cdqxugl xueqzmt feiigs oyabuvy d xugloebk bk fgab-zkbwmgsvg iabbrl, gkluaekv kb qaeoeqdm mgooga wdl mgro buo br bua qatiobvadiyeq iuffmg.rmdv{vq8v2311}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'd', 'b': 'j', 'c': 'q', 'd': 's', 'e': 'g', 'f': 'r', 'g': 'v', 'h': 'y', 'i': 'e', 'j': 'c', 'k': 'z', 'l': 'm', 'm': 'h', 'n': 'k', 'o': 'b', 'p': 'i', 'q': 'x', 'r': 'a', 's': 'l', 't': 'o', 'u': 'u', 'v': 'p', 'w': 'w', 'x': 'n', 'y': 't', 'z': 'f'}
+subtype: substitution
+archetype: classical_cipher

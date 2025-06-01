@@ -1,0 +1,23 @@
+
+An agent intercepted a coded message. It looks like a simple letter swap. Can you reveal the secret by deciphering: tjfz{7hvv7htv}
+
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'f', 'b': 'l', 'c': 'k', 'd': 's', 'e': 'o', 'f': 't', 'g': 'z', 'h': 'd', 'i': 'r', 'j': 'c', 'k': 'b', 'l': 'j', 'm': 'n', 'n': 'i', 'o': 'e', 'p': 'h', 'q': 'y', 'r': 'g', 's': 'u', 't': 'm', 'u': 'x', 'v': 'v', 'w': 'w', 'x': 'a', 'y': 'q', 'z': 'p'}
+
+---
+
+## Challenge Technical Details
+flag: flag{7pvv7pfv}
+cipher: Substitution
+ciphertext: tjfz{7hvv7htv}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'f', 'b': 'l', 'c': 'k', 'd': 's', 'e': 'o', 'f': 't', 'g': 'z', 'h': 'd', 'i': 'r', 'j': 'c', 'k': 'b', 'l': 'j', 'm': 'n', 'n': 'i', 'o': 'e', 'p': 'h', 'q': 'y', 'r': 'g', 's': 'u', 't': 'm', 'u': 'x', 'v': 'v', 'w': 'w', 'x': 'a', 'y': 'q', 'z': 'p'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

@@ -1,0 +1,18 @@
+A novice hacker used RSA with tiny primes to encrypt a secret: 9698883264486082797. Can you exploit this classic vulnerability and recover the hidden flag?
+
+The flag format is flag{...}
+n=11133350446572961133, e=2524832825701152971
+
+---
+
+## Challenge Technical Details
+flag: flag{5949xs4a}
+cipher: RSA
+ciphertext: 9698883264486082797
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=11133350446572961133, e=2524832825701152971
+extra_info: p=4080147887, q=2728663459, φ(n)=11133350439764149788
+subtype: small_primes
+archetype: rsa

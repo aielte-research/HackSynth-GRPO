@@ -1,0 +1,24 @@
+The secret code was hidden in a scrambled form. Only those who can reverse the process used by SHA-256 can unveil the original message from 8c2d69c892f51f8e9e1a3d739bda4f7411a71c57e0693849db698933093aacff.
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{d1mx}
+ciphertext: 8c2d69c892f51f8e9e1a3d739bda4f7411a71c57e0693849db698933093aacff
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

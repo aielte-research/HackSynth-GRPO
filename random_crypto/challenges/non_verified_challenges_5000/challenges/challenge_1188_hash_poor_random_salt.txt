@@ -1,0 +1,19 @@
+A careless admin hashed passwords with SHA-256 and a predictable salt. Can you recover the original from bf775e7e6022563611b39bbecb9c55a0bc2972776a8e10de449d6308bda6436e?
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{t85}
+ciphertext: bf775e7e6022563611b39bbecb9c55a0bc2972776a8e10de449d6308bda6436e
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

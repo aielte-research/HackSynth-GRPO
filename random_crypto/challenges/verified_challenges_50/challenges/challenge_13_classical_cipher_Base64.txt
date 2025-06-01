@@ -1,0 +1,15 @@
+Intercepted traffic hides the password in an odd format. Can you decode the string below to uncover it? ZmxhZ3s5eW12YmZ0cn0=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{9ymvbftr}
+cipher: Base64
+ciphertext: ZmxhZ3s5eW12YmZ0cn0=
+hint: Use a Base64 decoder to obtain the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is direct; no additional layers or tricks.
+subtype: Base64
+archetype: classical_cipher

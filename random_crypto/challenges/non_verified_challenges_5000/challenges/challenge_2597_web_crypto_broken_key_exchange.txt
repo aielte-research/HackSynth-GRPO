@@ -1,0 +1,25 @@
+Spies exchanged secrets over an open channel using Diffie-Hellman, trusting its math. Recover the shared secret and decrypt the intercepted message: 04648e680c3fb16b26ff8a6e1cdc
+
+The key exchange uses a prime modulus of 101 and generator 2.
+Alice's public key is 76 and Bob's public key is 85.
+You received a tip that the private values are at most two digits.
+You got access to some of the code:
+encryption_key = hashlib.sha256(str(shared_key).encode()).digest()[:16]
+encrypted_flag = bytes(a ^ b for a, b in zip(flag.encode(), encryption_key))
+
+---
+
+## Challenge Technical Details
+flag: flag{opzrsser}
+ciphertext: 04648e680c3fb16b26ff8a6e1cdc
+cipher: Diffie-Hellman
+hint: The prime used in this key exchange is small. You can recover the private key by brute-force.
+necessary_info: The key exchange uses a prime modulus of 101 and generator 2.
+Alice's public key is 76 and Bob's public key is 85.
+You received a tip that the private values are at most two digits.
+You got access to some of the code:
+encryption_key = hashlib.sha256(str(shared_key).encode()).digest()[:16]
+encrypted_flag = bytes(a ^ b for a, b in zip(flag.encode(), encryption_key))
+extra_info: secret_a=98, secret_b=54
+subtype: broken_key_exchange
+archetype: web_crypto

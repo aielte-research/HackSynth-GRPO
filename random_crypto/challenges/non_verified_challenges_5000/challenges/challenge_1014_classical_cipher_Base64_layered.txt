@@ -1,0 +1,15 @@
+A rogue AI encoded a secret message in Base64. Decode Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVd4YWMxTnNXbFpOYm1oUVZqSjRZV1JIVmtsalJtUk9ZV3hhZVZkV1dsWmxSbGw0Vkc1T1lWSnRhRzlVVmxwelRURmFjbGt6YUZSTlZUVllWVzAxUzJGc1NuTlhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0= to recover the password needed to shut it down.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{0bfa0bvd}
+cipher: Base64
+ciphertext: Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVd4YWMxTnNXbFpOYm1oUVZqSjRZV1JIVmtsalJtUk9ZV3hhZVZkV1dsWmxSbGw0Vkc1T1lWSnRhRzlVVmxwelRURmFjbGt6YUZSTlZUVllWVzAxUzJGc1NuTlhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 9 times in total.
+subtype: Base64_layered
+archetype: classical_cipher

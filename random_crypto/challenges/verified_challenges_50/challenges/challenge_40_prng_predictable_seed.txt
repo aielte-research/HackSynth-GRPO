@@ -1,0 +1,19 @@
+Our intern encrypted the secret flag with a home-made cipher, seeding their PRNG with yesterday's date. The result is below—can you recover the flag from 6677617c7b6c797d6928632c3866?
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 2**5)
+A secret number was generated using Python's PRNG with a seed from 0 to 9,999. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{wyfi3c78}
+ciphertext: 6677617c7b6c797d6928632c3866
+cipher: Predictable PRNG
+hint: The seed range is small enough for brute-force. Try recreating the PRNG sequence.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 2**5)
+A secret number was generated using Python's PRNG with a seed from 0 to 9,999. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: If you can predict or brute-force the seed, you can reconstruct the PRNG output and decrypt the flag.
+subtype: predictable_seed
+archetype: prng

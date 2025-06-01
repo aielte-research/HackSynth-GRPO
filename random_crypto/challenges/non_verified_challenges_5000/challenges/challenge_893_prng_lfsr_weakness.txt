@@ -1,0 +1,21 @@
+
+Agent Lin intercepted a secret message, but suspects the hacker used a weak LFSR cipher. Find the hidden flag in 981d9f168500891dc8179005cf0c.
+
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[50243, 57889, 28944, 14472, 40004, 52770, 59153, 62344, 63940, 64738]
+
+---
+
+## Challenge Technical Details
+flag: flag{qwl6fnt1}
+ciphertext: 981d9f168500891dc8179005cf0c
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[50243, 57889, 28944, 14472, 40004, 52770, 59153, 62344, 63940, 64738]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

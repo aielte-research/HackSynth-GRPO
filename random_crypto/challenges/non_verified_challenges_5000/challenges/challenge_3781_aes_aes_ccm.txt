@@ -1,0 +1,20 @@
+
+An agent intercepted a secret message encrypted with AES. The decryption key is hidden in plain sight. Can you recover the info from ciphertext1:f66e9c4e5197b7d2ec954536dbf2, ciphertext2: f66e9c4e5196afdae986532d9ff2?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{1am0cpqu}
+ciphertext: ciphertext1:f66e9c4e5197b7d2ec954536dbf2, ciphertext2: f66e9c4e5196afdae986532d9ff2
+tag1: 83b853a951f3254b30fe7b89e7a14435
+tag2: f080ed0aa46db41ce28b08d56f90321a
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: a15ccfbc9d4782123a95b8
+subtype: aes_ccm
+archetype: aes

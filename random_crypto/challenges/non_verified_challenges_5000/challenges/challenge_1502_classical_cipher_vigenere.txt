@@ -1,0 +1,18 @@
+
+An explorer finds a centuries-old journal with a cryptic line: okhz{kk4a5uxg}. Legend says the keyword is the name of the first ship that sailed the hidden bay.
+
+
+The flag format is flag{...}
+The keyword is: jzhtim
+
+---
+
+## Challenge Technical Details
+flag: flag{cy4r5vqn}
+ciphertext: okhz{kk4a5uxg}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: jzhtim
+subtype: vigenere
+archetype: classical_cipher

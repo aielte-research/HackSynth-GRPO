@@ -1,0 +1,15 @@
+Our digital vault was breached, but we chunked the flag and encrypted it. Recover the flag hidden in fl ag {zh 26 2ke m} using the ChunkedFlag cipher.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{zh262kem}
+ciphertext: fl ag {zh 26 2ke m}
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

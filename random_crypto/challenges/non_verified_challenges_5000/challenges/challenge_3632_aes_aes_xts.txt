@@ -1,0 +1,15 @@
+An old hard drive was encrypted with AES-XTS. Your task: retrieve the lost secret message hidden inside. The encrypted data is below: ciphertext1:bc3e748848fb257a8914f80f9c168674, ciphertext2: 473314464dbb5c6d113bdf566adc5e86f8485a80e26cfdec10124346b6f4b9a9
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{4ear61zu}
+ciphertext: ciphertext1:bc3e748848fb257a8914f80f9c168674, ciphertext2: 473314464dbb5c6d113bdf566adc5e86f8485a80e26cfdec10124346b6f4b9a9
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 81c0808a2d3860de66f7ba9538bf346e
+subtype: aes_xts
+archetype: aes

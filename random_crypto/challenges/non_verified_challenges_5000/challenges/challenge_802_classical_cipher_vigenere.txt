@@ -1,0 +1,16 @@
+An agent hid vital intel in a coded message. We know she used the Vigenère cipher. Can you decrypt it? Here is the message: btkl{owwb211g}
+
+The flag format is flag{...}
+The keyword is: wikfi
+
+---
+
+## Challenge Technical Details
+flag: flag{gaor211b}
+ciphertext: btkl{owwb211g}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: wikfi
+subtype: vigenere
+archetype: classical_cipher

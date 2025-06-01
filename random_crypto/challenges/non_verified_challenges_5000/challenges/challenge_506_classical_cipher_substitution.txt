@@ -1,0 +1,15 @@
+A notorious hacker left a secret message for their accomplice, but it's hidden with a simple substitution cipher. Can you crack the code? uh gtzwkpytewcz, e jlxjkuklkuph guwcbt uj e rbkcpf pi bhgtzwkuhy uh scugc lhukj pi wveuhkbak etb tbwvegbf sukc kcb guwcbtkbak, uh e fbiuhbf rehhbt, sukc kcb cbvw pi e nbz; kcb "lhukj" rez xb juhyvb vbkkbtj (kcb rpjk gprrph), weutj pi vbkkbtj, ktuwvbkj pi vbkkbtj, ruakltbj pi kcb expqb, ehf jp iptkc. kcb tbgbuqbt fbguwcbtj kcb kbak xz wbtiptruhy kcb uhqbtjb jlxjkuklkuph wtpgbjj kp baktegk kcb ptuyuhev rbjjeyb. vunbsujb, degolbj olugnvz muwwbf kctplyc e olbjkuph ph mbtp-nhpsvbfyb wtppij, bhjltuhy hp gtukugev vbkkbt sej vbik plk pi plt gtzwkpytewcug wlmmvb.ivey{0u231py7}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{0i231og7}
+ciphertext: uh gtzwkpytewcz, e jlxjkuklkuph guwcbt uj e rbkcpf pi bhgtzwkuhy uh scugc lhukj pi wveuhkbak etb tbwvegbf sukc kcb guwcbtkbak, uh e fbiuhbf rehhbt, sukc kcb cbvw pi e nbz; kcb "lhukj" rez xb juhyvb vbkkbtj (kcb rpjk gprrph), weutj pi vbkkbtj, ktuwvbkj pi vbkkbtj, ruakltbj pi kcb expqb, ehf jp iptkc. kcb tbgbuqbt fbguwcbtj kcb kbak xz wbtiptruhy kcb uhqbtjb jlxjkuklkuph wtpgbjj kp baktegk kcb ptuyuhev rbjjeyb. vunbsujb, degolbj olugnvz muwwbf kctplyc e olbjkuph ph mbtp-nhpsvbfyb wtppij, bhjltuhy hp gtukugev vbkkbt sej vbik plk pi plt gtzwkpytewcug wlmmvb.ivey{0u231py7}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'e', 'b': 'x', 'c': 'g', 'd': 'f', 'e': 'b', 'f': 'i', 'g': 'y', 'h': 'c', 'i': 'u', 'j': 'd', 'k': 'n', 'l': 'v', 'm': 'r', 'n': 'h', 'o': 'p', 'p': 'w', 'q': 'o', 'r': 't', 's': 'j', 't': 'k', 'u': 'l', 'v': 'q', 'w': 's', 'x': 'a', 'y': 'z', 'z': 'm'}
+subtype: substitution
+archetype: classical_cipher

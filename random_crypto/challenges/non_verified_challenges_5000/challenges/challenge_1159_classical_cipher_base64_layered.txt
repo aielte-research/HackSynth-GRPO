@@ -1,0 +1,15 @@
+An agent hid a password in plain sight, but used Base64 to conceal it. Decode Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVd4YWMxTnNXbFpOYWtFeFdWVmFTMk14WkhWaFJtUlRUVEZLVFZaclkzaFRNVWw0Vkc1V2FsSnRVbGhhVjNSaFUxWmtXR1JIUmxSaVZscElWMnRvVDJGc1NuTlhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0= to reveal the secret word.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{1djz56qy}
+cipher: Base64
+ciphertext: Vm0wd2VHUXhUblJWV0d4WFlURndVRlpzWkc5V1JteFZVMnhPYWxKc1NsWldSM1JQWVd4YWMxTnNXbFpOYWtFeFdWVmFTMk14WkhWaFJtUlRUVEZLVFZaclkzaFRNVWw0Vkc1V2FsSnRVbGhhVjNSaFUxWmtXR1JIUmxSaVZscElWMnRvVDJGc1NuTlhiR2hYWWxoU1lWcFhlR0ZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 9 times in total.
+subtype: base64_layered
+archetype: classical_cipher

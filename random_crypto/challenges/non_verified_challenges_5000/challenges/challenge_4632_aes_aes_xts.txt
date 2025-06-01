@@ -1,0 +1,15 @@
+A rogue sysadmin encrypted a crucial system image using AES-XTS, then lost the key. The only remaining copy is here: ciphertext1:965bd0627b92239b7e94bf00fb2cf171, ciphertext2: 340381ae7df48c31697139df4394a8e34f021ef67f155b15f6a9e5a77d33e5d7. Can you recover the original data?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{7x9a83aq}
+ciphertext: ciphertext1:965bd0627b92239b7e94bf00fb2cf171, ciphertext2: 340381ae7df48c31697139df4394a8e34f021ef67f155b15f6a9e5a77d33e5d7
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 77ca2ed175aaaf6c3b5b072c8397b349
+subtype: aes_xts
+archetype: aes

@@ -1,0 +1,14 @@
+An archaeologist finds a note with strange letters. She suspects it’s an ancient message written using a simple mirrored alphabet. Can you reveal its secret? uozt{0ylewswg}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{0bovdhdt}
+cipher: Atbash
+ciphertext: uozt{0ylewswg}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

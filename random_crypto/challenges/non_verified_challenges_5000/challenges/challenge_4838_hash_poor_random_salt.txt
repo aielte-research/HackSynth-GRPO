@@ -1,0 +1,19 @@
+An intern secured login hashes with SHA-256, but used a timestamp as salt. Can you reverse this mistake and recover the original password from ab0fa8cd13873c40d60700e1ba737560b450cd6fb217a8792f59e01f9b0a724f?
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{bq5}
+ciphertext: ab0fa8cd13873c40d60700e1ba737560b450cd6fb217a8792f59e01f9b0a724f
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

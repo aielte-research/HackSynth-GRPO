@@ -1,0 +1,15 @@
+Intercepted message uses MD5. Analyst claims the cipher is reversible—prove it by recovering the original plaintext from: 841f32d8954bbfeec8e45c9ca960add7
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{XJCPJ}
+ciphertext: 841f32d8954bbfeec8e45c9ca960add7
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

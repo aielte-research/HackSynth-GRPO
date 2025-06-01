@@ -1,0 +1,16 @@
+An old notebook contains a cryptic message left by a vanished hacker. Can you break the Vigenère cipher and reveal their secret? bgcf{8tlciqym}
+
+The flag format is flag{...}
+The keyword is: wvczlha
+
+---
+
+## Challenge Technical Details
+flag: flag{8iecmvwn}
+ciphertext: bgcf{8tlciqym}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: wvczlha
+subtype: vigenere
+archetype: classical_cipher

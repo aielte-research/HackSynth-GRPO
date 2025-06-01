@@ -1,0 +1,17 @@
+
+A hacker split the flag into chunks and scrambled them with their new ChunkedFlag cipher. Decrypt fla g{ o4 ihn h4 m} to restore the original flag order.
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{o4ihnh4m}
+ciphertext: fla g{ o4 ihn h4 m}
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

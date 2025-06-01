@@ -1,0 +1,15 @@
+An encrypted drive backup uses AES-XTS, but the password was lost. Can you decrypt ciphertext1:d78e2d4ddec12d09f1631972adbe0a70, ciphertext2: 2c208c0ece92d1b4a1d3f72273760b6fc9e8f56964bdcce8f12c2bb09c8ccd4e and recover the hidden secret?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{pm9ps4uu}
+ciphertext: ciphertext1:d78e2d4ddec12d09f1631972adbe0a70, ciphertext2: 2c208c0ece92d1b4a1d3f72273760b6fc9e8f56964bdcce8f12c2bb09c8ccd4e
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: d2e314eb2b42fd36a90e746c8486226e
+subtype: aes_xts
+archetype: aes

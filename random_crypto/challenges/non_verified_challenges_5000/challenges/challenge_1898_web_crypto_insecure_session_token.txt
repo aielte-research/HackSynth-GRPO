@@ -1,0 +1,14 @@
+
+A careless intern reused their session token cipher, exposing an admin login. Can you crack the 757365725f316e34683a666c61677b776c3369347435617d3a31373438313636373636 they left behind to access the admin panel?
+
+
+---
+
+## Challenge Technical Details
+flag: flag{wl3i4t5a}
+ciphertext: 757365725f316e34683a666c61677b776c3369347435617d3a31373438313636373636
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_1n4h:flag{wl3i4t5a}:1748166766'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

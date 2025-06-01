@@ -1,0 +1,14 @@
+An archaeologist found a coded message in ancient ruins. She suspects Atbash cipher was used. Can you help her decipher it?uozt{31a4lb6x}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{31z4oy6c}
+cipher: Atbash
+ciphertext: uozt{31a4lb6x}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

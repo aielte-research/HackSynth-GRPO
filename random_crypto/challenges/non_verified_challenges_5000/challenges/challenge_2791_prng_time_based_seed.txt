@@ -1,0 +1,21 @@
+
+The vault's access code is scrambled using a cipher seeded with last midnight’s timestamp. Crack it to reveal the code: 666c50297b78543f77770026317d
+
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 59830)
+The system time when the encryption process started was around: 2025-05-25 12:13:42 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{xeqww1h1}
+ciphertext: 666c50297b78543f77770026317d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 59830)
+The system time when the encryption process started was around: 2025-05-25 12:13:42 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 12622.
+subtype: time_based_seed
+archetype: prng

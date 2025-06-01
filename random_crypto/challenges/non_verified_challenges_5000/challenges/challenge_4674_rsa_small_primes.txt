@@ -1,0 +1,20 @@
+
+Eve, rushing her encryption, used tiny primes for Alice's RSA message. Can you recover the plaintext from this weak ciphertext? 8041819409490423222
+
+
+The flag format is flag{...}
+n=12066633271661388037, e=542871368428980023
+
+---
+
+## Challenge Technical Details
+flag: flag{ll0im6if}
+cipher: RSA
+ciphertext: 8041819409490423222
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=12066633271661388037, e=542871368428980023
+extra_info: p=2874244951, q=4198192387, φ(n)=12066633264588950700
+subtype: small_primes
+archetype: rsa

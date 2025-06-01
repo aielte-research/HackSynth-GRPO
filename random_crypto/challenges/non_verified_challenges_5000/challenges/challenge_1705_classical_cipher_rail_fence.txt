@@ -1,0 +1,17 @@
+
+An agent left a secret message on the fence at midnight. Decode the zigzag to reveal the plan: fa{2h5algu1q9}
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{u21hq59a}
+ciphertext: fa{2h5algu1q9}
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 2
+subtype: rail_fence
+archetype: classical_cipher

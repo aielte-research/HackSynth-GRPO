@@ -1,0 +1,12 @@
+A careless developer secured the admin panel with session tokens encrypted by their homemade cipher. They gave you a captured session: 757365725f363568633a666c61677b62727a64787731387d3a31373438313635353537. Can you log in as admin?
+
+---
+
+## Challenge Technical Details
+flag: flag{brzdxw18}
+ciphertext: 757365725f363568633a666c61677b62727a64787731387d3a31373438313635353537
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_65hc:flag{brzdxw18}:1748165557'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

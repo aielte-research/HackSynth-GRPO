@@ -1,0 +1,14 @@
+A secret alliance encoded their plans using Hex. Can you reveal their hidden message in 666c61677b7731366438326b6c7d?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{w16d82kl}
+cipher: Hex
+ciphertext: 666c61677b7731366438326b6c7d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

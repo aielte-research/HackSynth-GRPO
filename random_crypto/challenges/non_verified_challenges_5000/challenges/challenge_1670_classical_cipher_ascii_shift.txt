@@ -1,0 +1,15 @@
+Someone left a suspicious note on your keyboard. Can you shift the bytes back to reveal the original message? The encrypted note reads: pvkq}:nn=z
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{s0dvzd3p}
+cipher: ASCII Shift
+ciphertext: pvkq}:nn=z
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 10
+subtype: ascii_shift
+archetype: classical_cipher

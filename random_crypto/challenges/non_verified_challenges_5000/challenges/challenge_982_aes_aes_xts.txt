@@ -1,0 +1,17 @@
+
+An encrypted hard drive sector contains the secret. Recover the key and decrypt ciphertext1:740b46d72f596678838b8001a9b0b8f1, ciphertext2: e505ac827141c8b4b83f8268ed5ffc90fbdfa5256e8499e4db0a09c61e6d6729 using AES-XTS to reveal the hidden message.
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{1xy4vlvl}
+ciphertext: ciphertext1:740b46d72f596678838b8001a9b0b8f1, ciphertext2: e505ac827141c8b4b83f8268ed5ffc90fbdfa5256e8499e4db0a09c61e6d6729
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: ddd99b6028d732c7c5c8006f203efa33
+subtype: aes_xts
+archetype: aes

@@ -1,0 +1,17 @@
+An old hacker left a Playfair-encrypted note in a forgotten crypto forum. Can you crack the code to reveal their hidden password? Ciphertext: xrimgcuibgkbpytghpbygcuibgtynzbhgmhytgvhtvpoimgcuibgkbpytgbpwvovuxcguzntsmxklbfmbkryrepovmakpfnzgvufhgtvtggltykeeritcgbfihvouwvyrexsrepobloritgegoosivrh
+
+The flag format is flag{...}
+The keyword is: txhxrkvd
+
+---
+
+## Challenge Technical Details
+flag: flag{mwebh716}
+ciphertext: xrimgcuibgkbpytghpbygcuibgtynzbhgmhytgvhtvpoimgcuibgkbpytgbpwvovuxcguzntsmxklbfmbkryrepovmakpfnzgvufhgtvtggltykeeritcgbfihvouwvyrexsrepobloritgegoosivrh
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: txhxrkvd
+extra_info: The playfair table is [['t', 'x', 'h', 'r', 'k'], ['v', 'd', 'a', 'b', 'c'], ['e', 'f', 'g', 'i', 'l'], ['m', 'n', 'o', 'p', 'q'], ['s', 'u', 'w', 'y', 'z']]
+subtype: playfair
+archetype: classical_cipher

@@ -1,0 +1,17 @@
+
+Intercepted logs from a rival hacker group are encrypted with ChunkedFlag. Decipher fl ag{ lvb npb u4} to reveal their secret plan.
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{lvbnpbu4}
+ciphertext: fl ag{ lvb npb u4}
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

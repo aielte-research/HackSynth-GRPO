@@ -1,0 +1,15 @@
+The hacker left you a secret message: kqfl{l29iyn4o}. Can you decipher it and reveal their hidden plan?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{g29dti4j}
+ciphertext: kqfl{l29iyn4o}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 5
+subtype: caesar
+archetype: classical_cipher

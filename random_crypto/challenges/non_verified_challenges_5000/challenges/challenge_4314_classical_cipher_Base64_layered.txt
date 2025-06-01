@@ -1,0 +1,15 @@
+A hacker left a secret message encoded in Base64 at the scene. Decode Vm0weGQxTnRVWGxXYTFwUFZsZG9WRmxVU2xOalJsSlZWR3RPYWxadVFsbGFSV1JIWVd4S2RHVkljRmhoTWsweFZrZDRZV1JHVm5WaVJtaG9UVzFvYjFkV1VrSmxSMDE0V2toR1UySkdXbGhXYlhSYVpXeGFWbGRyV2xCV2EwcFRWVVpSZDFCUlBUMD0= to reveal their hidden plan.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{5nhndj0z}
+cipher: Base64
+ciphertext: Vm0weGQxTnRVWGxXYTFwUFZsZG9WRmxVU2xOalJsSlZWR3RPYWxadVFsbGFSV1JIWVd4S2RHVkljRmhoTWsweFZrZDRZV1JHVm5WaVJtaG9UVzFvYjFkV1VrSmxSMDE0V2toR1UySkdXbGhXYlhSYVpXeGFWbGRyV2xCV2EwcFRWVVpSZDFCUlBUMD0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 8 times in total.
+subtype: Base64_layered
+archetype: classical_cipher

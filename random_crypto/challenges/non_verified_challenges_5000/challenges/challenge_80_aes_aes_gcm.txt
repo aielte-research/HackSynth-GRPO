@@ -1,0 +1,18 @@
+Oops—our messaging bot reused a nonce in AES-GCM. It encrypted two messages with the same key and IV. Here’s one ciphertext: ciphertext1:9fdcb0e542b96123a3ac7567d710, ciphertext2: 8dd8b8f119b87562b4b5682b8f4dfc64041b. Can you recover the flag?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{hgayvil9}
+ciphertext: ciphertext1:9fdcb0e542b96123a3ac7567d710, ciphertext2: 8dd8b8f119b87562b4b5682b8f4dfc64041b
+tag1: ae58ef999f4368c10bbfff360fd5ca09
+tag2: d7470359fd895fad6f8c2ecb02ea3535
+cipher: AES-GCM
+vulnerability: nonce reuse
+hint: AES-GCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 5cabf0d2aabcea4c9035f3a0
+subtype: aes_gcm
+archetype: aes

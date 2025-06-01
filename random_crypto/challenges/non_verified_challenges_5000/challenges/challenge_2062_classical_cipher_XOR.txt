@@ -1,0 +1,15 @@
+An agent hid a secret message from spies using an XOR cipher. Can you decrypt it? Ciphertext: stringA: 502d2520193c4d0664750b0d3304 stringB: 36414447624b7834524373624579
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{w5266xov}
+cipher: XOR
+ciphertext: stringA: 502d2520193c4d0664750b0d3304 stringB: 36414447624b7834524373624579
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

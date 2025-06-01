@@ -1,0 +1,24 @@
+A hacker encoded the launch code with SHA-256. Can you recover the original message from this hash? Ciphertext: 926923b11697d755dcbd37042dba5221934896666865d29c661540f1763440d3
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{b764}
+ciphertext: 926923b11697d755dcbd37042dba5221934896666865d29c661540f1763440d3
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

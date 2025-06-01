@@ -1,0 +1,18 @@
+Professor Lazlo encrypted the flag using RSA, but accidentally chose two very small primes. Can you decrypt the message? 3901513957702588137
+
+The flag format is flag{...}
+n=8003970394330422859, e=3198073156396963459
+
+---
+
+## Challenge Technical Details
+flag: flag{5q5123nl}
+cipher: RSA
+ciphertext: 3901513957702588137
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=8003970394330422859, e=3198073156396963459
+extra_info: p=2375699569, q=3369100411, φ(n)=8003970388585622880
+subtype: small_primes
+archetype: rsa

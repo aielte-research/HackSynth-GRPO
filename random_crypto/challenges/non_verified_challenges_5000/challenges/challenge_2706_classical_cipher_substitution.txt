@@ -1,0 +1,15 @@
+Intercepted from a spy's notebook, this message hides vital coordinates using simple letter swaps. Can you reveal the secret location? Ciphertext: au gcozljwchzko, h xvqxlalvlaju gazkec ax h pelkjd jr eugcozlauw au ikagk vualx jr zmhaulesl hce cezmhged ialk lke gazkeclesl, au h deraued phuuec, ialk lke kemz jr h yeo; lke "vualx" pho qe xauwme mellecx (lke pjxl gjppju), zhacx jr mellecx, lcazmelx jr mellecx, paslvcex jr lke hqjte, hud xj rjclk. lke cegeatec degazkecx lke lesl qo zecrjcpauw lke autecxe xvqxlalvlaju zcjgexx lj eslchgl lke jcawauhm pexxhwe. mayeiaxe, bhgfvex fvagymo nazzed lkcjvwk h fvexlaju ju necj-yujimedwe zcjjrx, euxvcauw uj gcalaghm mellec ihx merl jvl jr jvc gcozljwchzkag zvnnme.rmhw{zy9u4wh3}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{pk9n4ga3}
+ciphertext: au gcozljwchzko, h xvqxlalvlaju gazkec ax h pelkjd jr eugcozlauw au ikagk vualx jr zmhaulesl hce cezmhged ialk lke gazkeclesl, au h deraued phuuec, ialk lke kemz jr h yeo; lke "vualx" pho qe xauwme mellecx (lke pjxl gjppju), zhacx jr mellecx, lcazmelx jr mellecx, paslvcex jr lke hqjte, hud xj rjclk. lke cegeatec degazkecx lke lesl qo zecrjcpauw lke autecxe xvqxlalvlaju zcjgexx lj eslchgl lke jcawauhm pexxhwe. mayeiaxe, bhgfvex fvagymo nazzed lkcjvwk h fvexlaju ju necj-yujimedwe zcjjrx, euxvcauw uj gcalaghm mellec ihx merl jvl jr jvc gcozljwchzkag zvnnme.rmhw{zy9u4wh3}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'h', 'b': 'q', 'c': 'g', 'd': 'd', 'e': 'e', 'f': 'r', 'g': 'w', 'h': 'k', 'i': 'a', 'j': 'b', 'k': 'y', 'l': 'm', 'm': 'p', 'n': 'u', 'o': 'j', 'p': 'z', 'q': 'f', 'r': 'c', 's': 'x', 't': 'l', 'u': 'v', 'v': 't', 'w': 'i', 'x': 's', 'y': 'o', 'z': 'n'}
+subtype: substitution
+archetype: classical_cipher

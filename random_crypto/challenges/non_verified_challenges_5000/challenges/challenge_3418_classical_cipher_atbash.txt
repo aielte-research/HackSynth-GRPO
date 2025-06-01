@@ -1,0 +1,14 @@
+An ancient society sends a message hidden with their favorite mirrored-alphabet cipher. Can you reveal its secret? Here is the message: uozt{434r9bfu}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{434i9yuf}
+cipher: Atbash
+ciphertext: uozt{434r9bfu}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

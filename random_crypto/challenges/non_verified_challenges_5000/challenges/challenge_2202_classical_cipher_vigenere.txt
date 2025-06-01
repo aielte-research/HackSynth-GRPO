@@ -1,0 +1,18 @@
+
+A rogue agent left secret intel in encrypted form. Can you reveal the message hidden within this Vigenère-encrypted note? Ciphertext: tpir{lg5acwik}
+
+
+The flag format is flag{...}
+The keyword is: oeilq
+
+---
+
+## Challenge Technical Details
+flag: flag{vs5wulsw}
+ciphertext: tpir{lg5acwik}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: oeilq
+subtype: vigenere
+archetype: classical_cipher

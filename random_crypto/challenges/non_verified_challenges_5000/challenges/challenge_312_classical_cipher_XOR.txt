@@ -1,0 +1,15 @@
+An anonymous hacker left an encrypted clue at a digital dead drop—can you recover the secret message from this classic XOR-ciphered string? stringA: 2258562d3c5d005b01320c0f611a stringB: 4434374a4769326d785574655067
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{426ygxj1}
+cipher: XOR
+ciphertext: stringA: 2258562d3c5d005b01320c0f611a stringB: 4434374a4769326d785574655067
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

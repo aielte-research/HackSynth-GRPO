@@ -1,0 +1,15 @@
+A century-old diary hides a vital clue, but its message is scrambled. Can you decode the Caesar-shifted secret?hnci{asf9h4hd}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{yqd9f4fb}
+ciphertext: hnci{asf9h4hd}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 2
+subtype: caesar
+archetype: classical_cipher

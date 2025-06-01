@@ -1,0 +1,23 @@
+
+Intercepted spy message: decrypt the hidden password from the coded text below using a substitution cipher. Ciphertext: efps{5d4sk3us}
+
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'p', 'b': 'w', 'c': 'i', 'd': 'j', 'e': 'r', 'f': 'e', 'g': 's', 'h': 'c', 'i': 'g', 'j': 'q', 'k': 'l', 'l': 'f', 'm': 'm', 'n': 'y', 'o': 'n', 'p': 'x', 'q': 'k', 'r': 't', 's': 'z', 't': 'd', 'u': 'b', 'v': 'a', 'w': 'o', 'x': 'v', 'y': 'u', 'z': 'h'}
+
+---
+
+## Challenge Technical Details
+flag: flag{5t4gq3yg}
+cipher: Substitution
+ciphertext: efps{5d4sk3us}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'p', 'b': 'w', 'c': 'i', 'd': 'j', 'e': 'r', 'f': 'e', 'g': 's', 'h': 'c', 'i': 'g', 'j': 'q', 'k': 'l', 'l': 'f', 'm': 'm', 'n': 'y', 'o': 'n', 'p': 'x', 'q': 'k', 'r': 't', 's': 'z', 't': 'd', 'u': 'b', 'v': 'a', 'w': 'o', 'x': 'v', 'y': 'u', 'z': 'h'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

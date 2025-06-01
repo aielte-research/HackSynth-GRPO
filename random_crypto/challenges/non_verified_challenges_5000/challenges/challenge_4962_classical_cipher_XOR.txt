@@ -1,0 +1,15 @@
+Agent X left a secret message for you, encrypted using XOR. Can you recover the original note and reveal their codeword? Ciphertext: stringA: 2f3f3109034666743601104f0214 stringB: 4953506e7831504d4e3661386d69
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{w69x7qwo}
+cipher: XOR
+ciphertext: stringA: 2f3f3109034666743601104f0214 stringB: 4953506e7831504d4e3661386d69
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

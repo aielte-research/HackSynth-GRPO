@@ -1,0 +1,17 @@
+A hacker left a secret flag hidden in an AES-CFB encrypted message. Can you recover it from this ciphertext: 6cd9f8f342e1880abd4951795d8df1883ce4326b0d195e289638a49602d4a2fb4e93a331aaf2a06a387496b9b7b1c42c0de76211b134930beb46ef347eb33e68a5f8ebb2dc030c5753aea7e441026a06f692470952c0801baa2efaee94b006f1afd47eada78f684fa7cb6da0b39fc2403c1eb52dabf3b6dc205e89496713590335915f9b2ab801f3299d1dee290c75cc0d5382728d2ff7741dab445042cf813c8b4ef497b6619f6bf83a150462d615a83f?
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{49mdu292}
+ciphertext: 6cd9f8f342e1880abd4951795d8df1883ce4326b0d195e289638a49602d4a2fb4e93a331aaf2a06a387496b9b7b1c42c0de76211b134930beb46ef347eb33e68a5f8ebb2dc030c5753aea7e441026a06f692470952c0801baa2efaee94b006f1afd47eada78f684fa7cb6da0b39fc2403c1eb52dabf3b6dc205e89496713590335915f9b2ab801f3299d1dee290c75cc0d5382728d2ff7741dab445042cf813c8b4ef497b6619f6bf83a150462d615a83f
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: ae855bf6601290f9d6c52f321d1bba6f
+subtype: aes_cfb
+archetype: aes

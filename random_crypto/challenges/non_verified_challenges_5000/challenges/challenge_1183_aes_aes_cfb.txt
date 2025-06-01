@@ -1,0 +1,17 @@
+An agent encoded vital coordinates using AES-CFB, but only left this ciphertext: 962d53d8109fd819240a503ec3cfb4793046c835cd79e52a9807c4f015ce0e212d2b2c38e04b11b38de41d6705111524ae85e8977ed99432a9731637ffe6cb12cfd78a91fb29443ce0483a8b83f9fdcca20c47090a2d784fc0935a6d7b5763342f484a5fdefd8104d832bf435805edab0679adaaed921aa52b08b469325fe7714f7ba42ca195dca06df168031f4b7d108e2de2ef9cee2932badcaee1802d7e2a0d55933fbddb7c4108c9277967214b807d. Can you recover the original message?
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{45vcmhbq}
+ciphertext: 962d53d8109fd819240a503ec3cfb4793046c835cd79e52a9807c4f015ce0e212d2b2c38e04b11b38de41d6705111524ae85e8977ed99432a9731637ffe6cb12cfd78a91fb29443ce0483a8b83f9fdcca20c47090a2d784fc0935a6d7b5763342f484a5fdefd8104d832bf435805edab0679adaaed921aa52b08b469325fe7714f7ba42ca195dca06df168031f4b7d108e2de2ef9cee2932badcaee1802d7e2a0d55933fbddb7c4108c9277967214b807d
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: 2ba7a8cc5a78af22d24a24c0b87d5a6e
+subtype: aes_cfb
+archetype: aes

@@ -1,0 +1,15 @@
+The hacker left a secret note in Julius Caesar’s favorite cipher. Can you shift the letters back and reveal the hidden message? Ciphertext: uapv{rru7thna}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ccf7esyl}
+ciphertext: uapv{rru7thna}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 15
+subtype: caesar
+archetype: classical_cipher

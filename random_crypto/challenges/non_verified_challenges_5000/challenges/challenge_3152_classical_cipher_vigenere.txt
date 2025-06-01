@@ -1,0 +1,16 @@
+An old hacker left a hidden clue in qlkm{vr53bqp7}. Rumor says it’s a Vigenère cipher—can you decrypt the secret message?
+
+The flag format is flag{...}
+The keyword is: lakgqyl
+
+---
+
+## Challenge Technical Details
+flag: flag{ft53qfp7}
+ciphertext: qlkm{vr53bqp7}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: lakgqyl
+subtype: vigenere
+archetype: classical_cipher

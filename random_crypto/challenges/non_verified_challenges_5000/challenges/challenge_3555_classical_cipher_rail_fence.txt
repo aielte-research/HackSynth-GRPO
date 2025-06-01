@@ -1,0 +1,15 @@
+A secret message from the hacker group "Rails" was intercepted. Can you recover the original text from their scrambled Rail Fence cipher? Ciphertext: fa{ppc9lg9emu}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{9pepmcu9}
+ciphertext: fa{ppc9lg9emu}
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 2
+subtype: rail_fence
+archetype: classical_cipher

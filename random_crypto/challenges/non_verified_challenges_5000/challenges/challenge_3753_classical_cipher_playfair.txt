@@ -1,0 +1,19 @@
+
+A hacker intercepted the secret coordinates but encrypted them using a Playfair cipher. Decode xrkokbfaqfqdfmeohnankbfaqfbncibhowhveorfngpokokbfaqfqdfmeoqtpbpqmvbkpzoiocrdqmdodqfyxtpoxdeqmtcikhvnyhngeogtbngdtxdhbkcttbqpmzlzxtivxtpomqoadhgkbfoeukfc to reveal the hidden location.
+
+
+The flag format is flag{...}
+The keyword is: itxfgqrh
+
+---
+
+## Challenge Technical Details
+flag: flag{eh7ycik4}
+ciphertext: xrkokbfaqfqdfmeohnankbfaqfbncibhowhveorfngpokokbfaqfqdfmeoqtpbpqmvbkpzoiocrdqmdodqfyxtpoxdeqmtcikhvnyhngeogtbngdtxdhbkcttbqpmzlzxtivxtpomqoadhgkbfoeukfc
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: itxfgqrh
+extra_info: The playfair table is [['i', 't', 'x', 'f', 'g'], ['q', 'r', 'h', 'a', 'b'], ['c', 'd', 'e', 'k', 'l'], ['m', 'n', 'o', 'p', 's'], ['u', 'v', 'w', 'y', 'z']]
+subtype: playfair
+archetype: classical_cipher

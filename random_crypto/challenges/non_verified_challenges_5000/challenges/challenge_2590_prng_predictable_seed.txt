@@ -1,0 +1,19 @@
+An intern encrypted the company passwords with a homemade cipher using a predictable random number generator. Now, only 67ab60a07aa871a079bd6df465ba remains. Can you recover the original secrets?
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 2**10)
+A secret number was generated using Python's PRNG with a seed from 0 to 9,999. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{opgxzl3d}
+ciphertext: 67ab60a07aa871a079bd6df465ba
+cipher: Predictable PRNG
+hint: The seed range is small enough for brute-force. Try recreating the PRNG sequence.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 2**10)
+A secret number was generated using Python's PRNG with a seed from 0 to 9,999. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: If you can predict or brute-force the seed, you can reconstruct the PRNG output and decrypt the flag.
+subtype: predictable_seed
+archetype: prng

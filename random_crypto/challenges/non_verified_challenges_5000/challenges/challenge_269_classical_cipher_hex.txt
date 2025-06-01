@@ -1,0 +1,14 @@
+An agent left a secret message in hex at the rendezvous point. Can you decode it and reveal its contents? Ciphertext: 666c61677b626332346d7431767d
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{bc24mt1v}
+cipher: Hex
+ciphertext: 666c61677b626332346d7431767d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

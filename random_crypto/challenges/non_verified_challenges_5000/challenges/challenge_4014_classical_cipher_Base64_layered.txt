@@ -1,0 +1,15 @@
+Intercepted transmission reads: Vm0weGQxTnRVWGxXYTFwUFZsZG9WRmxVU2xOalJsSlZWR3RPYW1KR1ZqTldNblF3Vm14YWMxZHVhRmRTTTJoUVdWUkdZV014VG5WaVJtaG9UVmhDZVZaclVrZFhiVkY1Vkd0V1UySkdXbGhXYlhSYVpXeGFWbGRyV2xCV2EwcFRWVVpSZDFCUlBUMD0=. Agent suspects it’s Base64. Decode for the hidden message.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{m8kg4eyn}
+cipher: Base64
+ciphertext: Vm0weGQxTnRVWGxXYTFwUFZsZG9WRmxVU2xOalJsSlZWR3RPYW1KR1ZqTldNblF3Vm14YWMxZHVhRmRTTTJoUVdWUkdZV014VG5WaVJtaG9UVmhDZVZaclVrZFhiVkY1Vkd0V1UySkdXbGhXYlhSYVpXeGFWbGRyV2xCV2EwcFRWVVpSZDFCUlBUMD0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 8 times in total.
+subtype: Base64_layered
+archetype: classical_cipher

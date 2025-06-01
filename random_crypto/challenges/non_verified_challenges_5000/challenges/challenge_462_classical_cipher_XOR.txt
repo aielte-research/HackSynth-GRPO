@@ -1,0 +1,15 @@
+A hacker left a secret message encrypted with XOR in his notes. Can you recover the original text from this clue? stringA: 513b102f2f1f733d272512250109 stringB: 375771485471474846567a4f3074
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{n4uashj1}
+cipher: XOR
+ciphertext: stringA: 513b102f2f1f733d272512250109 stringB: 375771485471474846567a4f3074
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

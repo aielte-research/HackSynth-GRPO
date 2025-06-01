@@ -1,0 +1,19 @@
+
+An old journal hides directions to the treasure in a secret code. You find a note: “Decode this with Playfair: yecsnqibfxpdficgzlsrnqibfxsuarquhmsqcgwxtwkocsnqibfxpdficgpvuwnwuxqnztntsmvsfkgmdpizxvkowmdckxargwlgabtwcgcfsuvmvxdsqncvduwnuzwzxvxsxvkokfzcdsqkgnlzkooz”
+
+
+The flag format is flag{...}
+The keyword is: jvtxyfqw
+
+---
+
+## Challenge Technical Details
+flag: flag{oro74nho}
+ciphertext: yecsnqibfxpdficgzlsrnqibfxsuarquhmsqcgwxtwkocsnqibfxpdficgpvuwnwuxqnztntsmvsfkgmdpizxvkowmdckxargwlgabtwcgcfsuvmvxdsqncvduwnuzwzxvxsxvkokfzcdsqkgnlzkooz
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: jvtxyfqw
+extra_info: The playfair table is [['i', 'v', 't', 'x', 'y'], ['f', 'q', 'w', 'a', 'b'], ['c', 'd', 'e', 'g', 'h'], ['k', 'l', 'm', 'n', 'o'], ['p', 'r', 's', 'u', 'z']]
+subtype: playfair
+archetype: classical_cipher

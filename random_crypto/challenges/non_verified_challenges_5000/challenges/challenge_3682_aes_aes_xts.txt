@@ -1,0 +1,15 @@
+Someone hid secret blueprints in an encrypted USB drive using AES-XTS. The file you found contains the ciphertext: ciphertext1:3e7343dbfb0cdc23a7ae9ebe8995b33a, ciphertext2: 1a6ceaa269cc39a8eaa39d2d14d4fc1c1d92ccb28e0384d41371fe9b5b95d3d5. Can you recover the plans?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{exl6ik28}
+ciphertext: ciphertext1:3e7343dbfb0cdc23a7ae9ebe8995b33a, ciphertext2: 1a6ceaa269cc39a8eaa39d2d14d4fc1c1d92ccb28e0384d41371fe9b5b95d3d5
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 7c5a9049c496b943b680b78f7b2664b9
+subtype: aes_xts
+archetype: aes

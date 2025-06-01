@@ -1,0 +1,21 @@
+
+An intern used an insecure LFSR-based cipher to encrypt the boss's password. Recover the password from the leaked ciphertext: 42f345f85ff613f051f650ac40e2
+
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[32599, 16299, 40917, 20458, 10229, 37882, 18941, 9470, 37503, 18751]
+
+---
+
+## Challenge Technical Details
+flag: flag{i7ouit3d}
+ciphertext: 42f345f85ff613f051f650ac40e2
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[32599, 16299, 40917, 20458, 10229, 37882, 18941, 9470, 37503, 18751]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

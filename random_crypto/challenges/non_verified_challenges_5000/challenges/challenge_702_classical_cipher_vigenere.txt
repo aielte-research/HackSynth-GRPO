@@ -1,0 +1,16 @@
+An intercepted message hides a secret key to the vault. The agent encoded it with a Vigenère cipher before disappearing. Can you decrypt the ciphertext? amfz{alnfq5uv}
+
+The flag format is flag{...}
+The keyword is: vbftnio
+
+---
+
+## Challenge Technical Details
+flag: flag{ndzkp5pc}
+ciphertext: amfz{alnfq5uv}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: vbftnio
+subtype: vigenere
+archetype: classical_cipher

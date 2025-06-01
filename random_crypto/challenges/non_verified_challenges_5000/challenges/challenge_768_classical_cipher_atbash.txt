@@ -1,0 +1,14 @@
+A secret alliance communicates using ancient codes. They've left a message using an old alphabet trick. Can you decipher uozt{61r7hf14} and reveal what they're hiding?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{61i7su14}
+cipher: Atbash
+ciphertext: uozt{61r7hf14}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

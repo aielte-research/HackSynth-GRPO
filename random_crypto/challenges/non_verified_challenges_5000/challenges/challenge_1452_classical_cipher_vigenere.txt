@@ -1,0 +1,16 @@
+An intercepted spy message labeled "Project Vigenère" hides the agent's next rendezvous. Can you recover the meeting location from the code? hbqg{u1uadxf6}
+
+The flag format is flag{...}
+The keyword is: cqqatq
+
+---
+
+## Challenge Technical Details
+flag: flag{b1eynhf6}
+ciphertext: hbqg{u1uadxf6}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: cqqatq
+subtype: vigenere
+archetype: classical_cipher

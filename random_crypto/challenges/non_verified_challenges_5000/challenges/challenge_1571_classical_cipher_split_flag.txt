@@ -1,0 +1,17 @@
+
+A hacker left behind a mysterious code encrypted with SplitNumberMix. Can you reveal the hidden password from this sequence? Ciphertext:  4444444 fla 4444444 g{ztelujtd} 4444444 
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ztelujtd}
+ciphertext:  4444444 fla 4444444 g{ztelujtd} 4444444 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 2 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

@@ -1,0 +1,17 @@
+
+Agent Nova intercepted a secret message using the SplitNumberMix cipher. Can you crack it and reveal the hidden code? Ciphertext:  99999999 fla 99999999 g 99999999 {yallhbdu 99999999 } 99999999 
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{yallhbdu}
+ciphertext:  99999999 fla 99999999 g 99999999 {yallhbdu 99999999 } 99999999 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 4 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

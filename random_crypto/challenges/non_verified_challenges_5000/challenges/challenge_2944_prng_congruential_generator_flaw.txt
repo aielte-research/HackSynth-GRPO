@@ -1,0 +1,29 @@
+
+The casino's slot machine uses an LCG to encrypt jackpot codes. Can you predict the next win by cracking this sequence: 6e7e39777367332369756c7a3c6f?
+
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 920886920
+  - Multiplier: 582374286
+  - Increment: 643288792
+The first 5 outputs of the LCG are provided: [28578120, 274071792, 400701944, 740755416, 668138128] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{uk3ag4j4}
+ciphertext: 6e7e39777367332369756c7a3c6f
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 920886920
+  - Multiplier: 582374286
+  - Increment: 643288792
+The first 5 outputs of the LCG are provided: [28578120, 274071792, 400701944, 740755416, 668138128] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

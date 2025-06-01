@@ -1,0 +1,18 @@
+
+Intercepted by a rival, your agent’s message—encrypted with a keyword—needs decoding. The hidden instructions are in sdlj{ddxjn3xg}. Can you reveal their secret?
+
+
+The flag format is flag{...}
+The keyword is: nsldc
+
+---
+
+## Challenge Technical Details
+flag: flag{bqfyk3vt}
+ciphertext: sdlj{ddxjn3xg}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: nsldc
+subtype: vigenere
+archetype: classical_cipher

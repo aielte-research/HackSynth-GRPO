@@ -1,0 +1,18 @@
+An intern used tiny primes for RSA keys. Can you decrypt this confidential message before it's leaked? Ciphertext: 1756928728490703479
+
+The flag format is flag{...}
+n=9503919359826582179, e=8532809740573223009
+
+---
+
+## Challenge Technical Details
+flag: flag{7fsqvmc8}
+cipher: RSA
+ciphertext: 1756928728490703479
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=9503919359826582179, e=8532809740573223009
+extra_info: p=2876558323, q=3303920273, φ(n)=9503919353646103584
+subtype: small_primes
+archetype: rsa

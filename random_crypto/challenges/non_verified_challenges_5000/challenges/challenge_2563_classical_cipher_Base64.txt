@@ -1,0 +1,15 @@
+An encrypted message was intercepted. It looks suspiciously encoded—figure out what secrets it hides: ZmxhZ3tjdzdtYWE2Y30=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{cw7maa6c}
+cipher: Base64
+ciphertext: ZmxhZ3tjdzdtYWE2Y30=
+hint: Use a Base64 decoder to obtain the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is direct; no additional layers or tricks.
+subtype: Base64
+archetype: classical_cipher

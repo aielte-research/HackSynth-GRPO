@@ -1,0 +1,29 @@
+
+A rogue bot encrypted the secret with LCG Predictability, boasting it's "impossible" to guess. Prove it wrong using 5598d1b6489adfb85dcdc6e00689 to recover the original message.
+
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1866599250
+  - Multiplier: 1206238799
+  - Increment: 110990470
+The first 5 outputs of the LCG are provided: [748833905, 1361368565, 1647591155, 1014111065, 287790905] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{noin9v15}
+ciphertext: 5598d1b6489adfb85dcdc6e00689
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1866599250
+  - Multiplier: 1206238799
+  - Increment: 110990470
+The first 5 outputs of the LCG are provided: [748833905, 1361368565, 1647591155, 1014111065, 287790905] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

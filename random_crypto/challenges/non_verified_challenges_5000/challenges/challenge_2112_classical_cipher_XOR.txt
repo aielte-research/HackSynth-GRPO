@@ -1,0 +1,15 @@
+Decrypt the XOR-encrypted message intercepted from a rogue AI: stringA: 010622301214642203572166030b stringB: 676a4357697a5253313646547076. Find the original command it was hiding.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{n6q2ag2s}
+cipher: XOR
+ciphertext: stringA: 010622301214642203572166030b stringB: 676a4357697a5253313646547076
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

@@ -1,0 +1,14 @@
+An ancient order encoded their secrets by reversing the alphabet. Can you reveal their hidden message? Ciphertext: uozt{mcb5njtq}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{nxy5mqgj}
+cipher: Atbash
+ciphertext: uozt{mcb5njtq}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

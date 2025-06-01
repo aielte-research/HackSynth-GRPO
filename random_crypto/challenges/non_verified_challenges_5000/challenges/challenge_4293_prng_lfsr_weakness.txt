@@ -1,0 +1,19 @@
+A secret radio transmission was intercepted, but the message is scrambled with an LFSR-based cipher. Can you decrypt it? Ciphertext: 0bd90cd216c5058c18cf58cf00c8
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[54445, 27222, 46379, 55957, 27978, 46757, 56146, 28073, 46804, 56170]
+
+---
+
+## Challenge Technical Details
+flag: flag{ph9uz5zm}
+ciphertext: 0bd90cd216c5058c18cf58cf00c8
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[54445, 27222, 46379, 55957, 27978, 46757, 56146, 28073, 46804, 56170]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

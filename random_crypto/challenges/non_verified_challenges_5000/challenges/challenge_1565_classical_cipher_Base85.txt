@@ -1,0 +1,17 @@
+
+An old hacker left a note in Base85. Decode W^7?+dwMf?VQ+J3H+= to read the secret message.
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{z3xaosi7}
+cipher: Base85
+ciphertext: W^7?+dwMf?VQ+J3H+=
+hint: Use a Base85 decoder to retrieve the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is straightforward; only one layer is used.
+subtype: Base85
+archetype: classical_cipher

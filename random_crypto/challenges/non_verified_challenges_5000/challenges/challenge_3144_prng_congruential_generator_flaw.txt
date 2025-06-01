@@ -1,0 +1,27 @@
+Intercepted messages from a rogue developer were encrypted using an insecure LCG-based cipher. Can you recover the original content from this predictable stream? Ciphertext: 7893dbf9659ecefb2986d2f96e82
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 2122680297
+  - Multiplier: 223396674
+  - Increment: 992511809
+The first 5 outputs of the LCG are provided: [808133423, 1846126718, 466096001, 150247034, 1756751549] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{ate7yhgp}
+ciphertext: 7893dbf9659ecefb2986d2f96e82
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 2122680297
+  - Multiplier: 223396674
+  - Increment: 992511809
+The first 5 outputs of the LCG are provided: [808133423, 1846126718, 466096001, 150247034, 1756751549] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

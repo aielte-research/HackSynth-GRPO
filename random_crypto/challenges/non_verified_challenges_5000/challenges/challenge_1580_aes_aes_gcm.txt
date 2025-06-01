@@ -1,0 +1,18 @@
+Two files, both encrypted with AES-GCM, were sent to rival spies using the same nonce. Can you recover the secrets from ciphertext1:7b1346e52d61ef039edc0a440125, ciphertext2: 69174ef17660fe4c97da0c5517786d8df5fd?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{hbogir1w}
+ciphertext: ciphertext1:7b1346e52d61ef039edc0a440125, ciphertext2: 69174ef17660fe4c97da0c5517786d8df5fd
+tag1: 18a255c5ab5e6bccb9e384c63b23ea62
+tag2: 769b7602628c0a540900e3e79da1cb4b
+cipher: AES-GCM
+vulnerability: nonce reuse
+hint: AES-GCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 58a0a0226b896eed96fd6c7c
+subtype: aes_gcm
+archetype: aes

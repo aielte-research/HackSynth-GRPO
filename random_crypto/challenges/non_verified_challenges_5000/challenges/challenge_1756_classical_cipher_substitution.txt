@@ -1,0 +1,17 @@
+
+Intercepted spy messages were enciphered using a consistent letter mapping. Can you recover the plaintext from this coded note? hg nkqsdyuklscq, l vzwvdhdzdhyg nhscik hv l bidcyt yj ignkqsdhgu hg rchnc zghdv yj smlhgdied lki kismlnit rhdc dci nhscikdied, hg l tijhgit blggik, rhdc dci cims yj l fiq; dci "zghdv" blq wi vhgumi middikv (dci byvd nybbyg), slhkv yj middikv, dkhsmidv yj middikv, bhedzkiv yj dci lwyoi, lgt vy jykdc. dci kinihoik tinhscikv dci died wq sikjykbhgu dci hgoikvi vzwvdhdzdhyg skynivv dy iedklnd dci ykhuhglm bivvlui. mhfirhvi, plnxziv xzhnfmq ahssit dckyzuc l xzivdhyg yg aiky-fgyrmitui skyyjv, igvzkhgu gy nkhdhnlm middik rlv mijd yzd yj yzk nkqsdyuklschn szaami.jmlu{dapvy2wq}
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{tzjso2by}
+ciphertext: hg nkqsdyuklscq, l vzwvdhdzdhyg nhscik hv l bidcyt yj ignkqsdhgu hg rchnc zghdv yj smlhgdied lki kismlnit rhdc dci nhscikdied, hg l tijhgit blggik, rhdc dci cims yj l fiq; dci "zghdv" blq wi vhgumi middikv (dci byvd nybbyg), slhkv yj middikv, dkhsmidv yj middikv, bhedzkiv yj dci lwyoi, lgt vy jykdc. dci kinihoik tinhscikv dci died wq sikjykbhgu dci hgoikvi vzwvdhdzdhyg skynivv dy iedklnd dci ykhuhglm bivvlui. mhfirhvi, plnxziv xzhnfmq ahssit dckyzuc l xzivdhyg yg aiky-fgyrmitui skyyjv, igvzkhgu gy nkhdhnlm middik rlv mijd yzd yj yzk nkqsdyuklschn szaami.jmlu{dapvy2wq}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'l', 'b': 'w', 'c': 'n', 'd': 't', 'e': 'i', 'f': 'j', 'g': 'u', 'h': 'c', 'i': 'h', 'j': 'p', 'k': 'f', 'l': 'm', 'm': 'b', 'n': 'g', 'o': 'y', 'p': 's', 'q': 'x', 'r': 'k', 's': 'v', 't': 'd', 'u': 'z', 'v': 'o', 'w': 'r', 'x': 'e', 'y': 'q', 'z': 'a'}
+subtype: substitution
+archetype: classical_cipher

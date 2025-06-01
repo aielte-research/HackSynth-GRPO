@@ -1,0 +1,15 @@
+Agents intercepted a stolen hard drive encrypted with AES-XTS. Can you recover the secret file from the provided ciphertext? Here it is: ciphertext1:70272e8de6dd6971e9019e903b55842e, ciphertext2: 7efe9fce3922a291aa43074ebc819a55db96c1e30a12df8830693d5901f0f004
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{cdh38dd5}
+ciphertext: ciphertext1:70272e8de6dd6971e9019e903b55842e, ciphertext2: 7efe9fce3922a291aa43074ebc819a55db96c1e30a12df8830693d5901f0f004
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: f09aae4351d65f1122f7601cc811ddab
+subtype: aes_xts
+archetype: aes

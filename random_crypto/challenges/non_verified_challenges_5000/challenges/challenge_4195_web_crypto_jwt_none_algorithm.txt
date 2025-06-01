@@ -1,0 +1,11 @@
+An anonymous hacker left a suspicious JWT token in the logs. Can you uncover the secret inside eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3swenB4NmwzaX0ifQ.?
+
+---
+
+## Challenge Technical Details
+flag: flag{0zpx6l3i}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3swenB4NmwzaX0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

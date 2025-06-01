@@ -1,0 +1,14 @@
+An archaeologist discovers a coded message on an ancient tablet rumored to hide a king’s secret. Can you decode the Atbash-encrypted text? uozt{8zhhcycf}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{8assxbxu}
+cipher: Atbash
+ciphertext: uozt{8zhhcycf}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

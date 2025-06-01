@@ -1,0 +1,16 @@
+An archivist found a coded diary from 1852. Crack its Vigenère cipher to reveal the hidden message: maqx{hhfclbd3}
+
+The flag format is flag{...}
+The keyword is: hpqr
+
+---
+
+## Challenge Technical Details
+flag: flag{asplemn3}
+ciphertext: maqx{hhfclbd3}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: hpqr
+subtype: vigenere
+archetype: classical_cipher

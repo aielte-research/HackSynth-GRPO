@@ -1,0 +1,14 @@
+An old hacker's message surfaced, encrypted in hexadecimal. Can you decode the secret within? Cipher: 666c61677b706c3170666463357d
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{pl1pfdc5}
+cipher: Hex
+ciphertext: 666c61677b706c3170666463357d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

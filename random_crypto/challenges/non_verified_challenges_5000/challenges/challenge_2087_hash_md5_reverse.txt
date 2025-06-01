@@ -1,0 +1,17 @@
+
+A hacker scrambled a password using MD5, believing it unbreakable. Can you recover the original password from its hash? The cipher: 43b4b57cf73e36684bd91d4f4ea9fc5d
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{MAAGS}
+ciphertext: 43b4b57cf73e36684bd91d4f4ea9fc5d
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

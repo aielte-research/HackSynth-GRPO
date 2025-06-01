@@ -1,0 +1,17 @@
+An old spy journal hides crucial data. Only those who decode atgmnhwicfyhgqtdwuxlnhwicfswlzhwfksxtdbakeawgmnhwicfyhgqtdydwtntlohnwrpssmhsqifmhyxqceawemhtqflzftlfofketdgdswhmecdshneddxtnrktxcehkceawiqlbdsdnbfmqahpy with the Playfair cipher will unveil its secrets.
+
+The flag format is flag{...}
+The keyword is: ukovuzht
+
+---
+
+## Challenge Technical Details
+flag: flag{l3p89tcq}
+ciphertext: atgmnhwicfyhgqtdwuxlnhwicfswlzhwfksxtdbakeawgmnhwicfyhgqtdydwtntlohnwrpssmhsqifmhyxqceawemhtqflzftlfofketdgdswhmecdshneddxtnrktxcehkceawiqlbdsdnbfmqahpy
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: ukovuzht
+extra_info: The playfair table is [['u', 'k', 'o', 'v', 'z'], ['h', 't', 'a', 'b', 'c'], ['d', 'e', 'f', 'g', 'i'], ['l', 'm', 'n', 'p', 'q'], ['r', 's', 'w', 'x', 'y']]
+subtype: playfair
+archetype: classical_cipher

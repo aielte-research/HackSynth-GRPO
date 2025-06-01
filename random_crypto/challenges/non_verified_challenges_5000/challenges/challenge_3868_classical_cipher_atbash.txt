@@ -1,0 +1,14 @@
+Legend says the treasure’s location was hidden by a reversal cipher. Can you decode the message below to find the treasure’s coordinates? uozt{4c1j4cyj}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{4x1q4xbq}
+cipher: Atbash
+ciphertext: uozt{4c1j4cyj}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

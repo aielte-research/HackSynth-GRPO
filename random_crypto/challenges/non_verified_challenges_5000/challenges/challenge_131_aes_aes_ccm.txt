@@ -1,0 +1,18 @@
+A mysterious hacker claims the treasure’s location is hidden in this encrypted message. Can you decipher it using AES? ciphertext1:38e1c104217a78b693d2af79d63b, ciphertext2: 38e1c10421692fa5c589a933d73b
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{r3ye5030}
+ciphertext: ciphertext1:38e1c104217a78b693d2af79d63b, ciphertext2: 38e1c10421692fa5c589a933d73b
+tag1: bdeb81d972e3cc8f85037a28a5334ef8
+tag2: f13e34af79cba8a3dad6fdbf0bf1175d
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 6ccbcbca9ef516df5abfba
+subtype: aes_ccm
+archetype: aes

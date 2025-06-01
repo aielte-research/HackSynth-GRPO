@@ -1,0 +1,12 @@
+A careless developer used a weak session token scheme on the login page. The token is below—can you break it and steal an admin session? 757365725f70376d683a666c61677b753833706e326f367d3a31373438313730373533
+
+---
+
+## Challenge Technical Details
+flag: flag{u83pn2o6}
+ciphertext: 757365725f70376d683a666c61677b753833706e326f367d3a31373438313730373533
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_p7mh:flag{u83pn2o6}:1748170753'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

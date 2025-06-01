@@ -1,0 +1,14 @@
+A rushed intern signed this contract with a quickly coded 0x3c97e0467f1e9fd81b117fa9701b4a0b96de15369be0959c0aeb4c4cc3211984ef19afceff2885ebbcb6404464cf8602b752dbc062f8e1f9183cc5d0abe1ca52 generator—rumor is, it's vulnerable when reusing key parameters. Can you break the signature?
+
+Public Key (n, e): (7911949294765768578582414307976982371229960292171293116150223998402519052684895701783029165676927859054496798571299493575957328067248193754210651829575827, 3)
+
+---
+
+## Challenge Technical Details
+flag: flag{d7yk16xg}
+ciphertext: 0x3c97e0467f1e9fd81b117fa9701b4a0b96de15369be0959c0aeb4c4cc3211984ef19afceff2885ebbcb6404464cf8602b752dbc062f8e1f9183cc5d0abe1ca52
+cipher: RSA Low-Exponent Signature
+hint: What happens when you cube small numbers? Remember e=3!
+necessary_info: Public Key (n, e): (7911949294765768578582414307976982371229960292171293116150223998402519052684895701783029165676927859054496798571299493575957328067248193754210651829575827, 3)
+subtype: rsa_sign_with_low_public_exponent
+archetype: signature_schemes

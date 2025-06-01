@@ -1,0 +1,17 @@
+
+A rogue sysadmin encrypted the disk sector map with AES-XTS before vanishing. Recover the key to decode ciphertext1:a03a12774c403df2a90af08066739acb, ciphertext2: 7b70309a6d670c2d8a21d41bbad9dc160909143cd900db7419bb802474c634d4 and access the hidden sectors.
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{8r6p812n}
+ciphertext: ciphertext1:a03a12774c403df2a90af08066739acb, ciphertext2: 7b70309a6d670c2d8a21d41bbad9dc160909143cd900db7419bb802474c634d4
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 211c512ef6d79a922d42ef21864d696a
+subtype: aes_xts
+archetype: aes

@@ -1,0 +1,15 @@
+The ancient scroll hid its message with a simple shift of letters. Can you reveal the secret within? Ciphertext: cixd{v9d98n6u}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{y9g98q6x}
+ciphertext: cixd{v9d98n6u}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 23
+subtype: caesar
+archetype: classical_cipher

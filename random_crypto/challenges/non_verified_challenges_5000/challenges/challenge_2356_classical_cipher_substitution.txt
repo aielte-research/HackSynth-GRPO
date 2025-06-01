@@ -1,0 +1,15 @@
+An old hacker left a cryptic message protected by a substitution cipher: sj oityglriqyft, q hadhgsgagslj osyfui sh q pugflm ln ujoitygsjr sj kfsof ajsgh ln ycqsjgubg qiu iuycqoum ksgf gfu osyfuigubg, sj q munsjum pqjjui, ksgf gfu fucy ln q vut; gfu "ajsgh" pqt du hsjrcu cugguih (gfu plhg olpplj), yqsih ln cugguih, gisycugh ln cugguih, psbgaiuh ln gfu qdlxu, qjm hl nligf. gfu iuousxui muosyfuih gfu gubg dt yuinlipsjr gfu sjxuihu hadhgsgagslj yilouhh gl ubgiqog gfu lisrsjqc puhhqru. csvukshu, zqoeauh easovct wsyyum gfilarf q eauhgslj lj wuil-vjlkcumru yillnh, ujhaisjr jl oisgsoqc cuggui kqh cung lag ln lai oityglriqyfso yawwcu.ncqr{nxdzl3sh}. Can you decipher it to uncover the secret?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{fvbjo3is}
+ciphertext: sj oityglriqyft, q hadhgsgagslj osyfui sh q pugflm ln ujoitygsjr sj kfsof ajsgh ln ycqsjgubg qiu iuycqoum ksgf gfu osyfuigubg, sj q munsjum pqjjui, ksgf gfu fucy ln q vut; gfu "ajsgh" pqt du hsjrcu cugguih (gfu plhg olpplj), yqsih ln cugguih, gisycugh ln cugguih, psbgaiuh ln gfu qdlxu, qjm hl nligf. gfu iuousxui muosyfuih gfu gubg dt yuinlipsjr gfu sjxuihu hadhgsgagslj yilouhh gl ubgiqog gfu lisrsjqc puhhqru. csvukshu, zqoeauh easovct wsyyum gfilarf q eauhgslj lj wuil-vjlkcumru yillnh, ujhaisjr jl oisgsoqc cuggui kqh cung lag ln lai oityglriqyfso yawwcu.ncqr{nxdzl3sh}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'q', 'b': 'd', 'c': 'o', 'd': 'm', 'e': 'u', 'f': 'n', 'g': 'r', 'h': 'f', 'i': 's', 'j': 'z', 'k': 'v', 'l': 'c', 'm': 'p', 'n': 'j', 'o': 'l', 'p': 'y', 'q': 'e', 'r': 'i', 's': 'h', 't': 'g', 'u': 'a', 'v': 'x', 'w': 'k', 'x': 'b', 'y': 't', 'z': 'w'}
+subtype: substitution
+archetype: classical_cipher

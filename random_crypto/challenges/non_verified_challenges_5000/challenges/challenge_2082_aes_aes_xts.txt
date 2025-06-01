@@ -1,0 +1,15 @@
+An encrypted SSD threw errors mid-transfer. Its critical sector dump is here: ciphertext1:58dd8e5e61f60518bfa51b92e64ffdf3, ciphertext2: 6cc5492bce265710fbcf650b9e09f5e91d11bc17fb756595470d1781c4278f83. Recover the original using the disk's AES-XTS routine.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{gnq3kz2x}
+ciphertext: ciphertext1:58dd8e5e61f60518bfa51b92e64ffdf3, ciphertext2: 6cc5492bce265710fbcf650b9e09f5e91d11bc17fb756595470d1781c4278f83
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: f39991ffe07f0456847cc2ab6b6f9295
+subtype: aes_xts
+archetype: aes

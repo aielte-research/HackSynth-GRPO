@@ -1,0 +1,14 @@
+
+A careless developer shared a session token encrypted with the insecure Insecure Session Token cipher. Can you recover the secret from this intercepted message: 757365725f78366b653a666c61677b31726b39623931767d3a31373438313731303436?
+
+
+---
+
+## Challenge Technical Details
+flag: flag{1rk9b91v}
+ciphertext: 757365725f78366b653a666c61677b31726b39623931767d3a31373438313731303436
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_x6ke:flag{1rk9b91v}:1748171046'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

@@ -1,0 +1,29 @@
+
+An overconfident developer encrypted this flag with their homemade LCG cipher. The ciphertext is below—can you predict the future and recover the flag? 6c2e23c3712b21c26e7338d6793f
+
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 315359712
+  - Multiplier: 253700985
+  - Increment: 174569121
+The first 5 outputs of the LCG are provided: [223747431, 127467216, 230893713, 157681386, 286950555] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{icfd1zrs}
+ciphertext: 6c2e23c3712b21c26e7338d6793f
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 315359712
+  - Multiplier: 253700985
+  - Increment: 174569121
+The first 5 outputs of the LCG are provided: [223747431, 127467216, 230893713, 157681386, 286950555] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

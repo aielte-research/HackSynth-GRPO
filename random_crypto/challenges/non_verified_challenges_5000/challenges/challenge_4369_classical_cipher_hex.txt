@@ -1,0 +1,14 @@
+A hacker left a mysterious hex-encoded message on the mainframe. Can you decode 666c61677b6b796975316674377d to reveal their secret?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{kyiu1ft7}
+cipher: Hex
+ciphertext: 666c61677b6b796975316674377d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

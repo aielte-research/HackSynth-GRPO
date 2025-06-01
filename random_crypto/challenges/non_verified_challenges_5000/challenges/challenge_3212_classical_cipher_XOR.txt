@@ -1,0 +1,15 @@
+Agent Z hid the access code using an XOR cipher. Recover it from this encrypted string: stringA: 133a1652131e310b31003a445c2b stringB: 755677356871476f54374c776b56
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ovde7v37}
+cipher: XOR
+ciphertext: stringA: 133a1652131e310b31003a445c2b stringB: 755677356871476f54374c776b56
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

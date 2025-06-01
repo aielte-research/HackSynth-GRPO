@@ -1,0 +1,24 @@
+Agent Nova stored the secret passcode, hashed with SHA-256. Recover the original passcode hiding behind this hash: 91ef9cae5ffdecc54a0fb251095a7b3612e155be0bb9ec847c03fa4022c9c76f
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{1b0w}
+ciphertext: 91ef9cae5ffdecc54a0fb251095a7b3612e155be0bb9ec847c03fa4022c9c76f
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

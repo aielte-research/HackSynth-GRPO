@@ -1,0 +1,21 @@
+The hacker sent a taunting message, but it's scrambled with a secret substitution cipher. Can you decode their challenge and reveal the truth? djib{lqj2jwqv}
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'i', 'b': 'a', 'c': 't', 'd': 's', 'e': 'r', 'f': 'd', 'g': 'b', 'h': 'e', 'i': 'x', 'j': 'u', 'k': 'g', 'l': 'j', 'm': 'c', 'n': 'n', 'o': 'f', 'p': 'y', 'q': 'z', 'r': 'v', 's': 'm', 't': 'p', 'u': 'h', 'v': 'l', 'w': 'o', 'x': 'q', 'y': 'k', 'z': 'w'}
+
+---
+
+## Challenge Technical Details
+flag: flag{vxl2lzxr}
+cipher: Substitution
+ciphertext: djib{lqj2jwqv}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'i', 'b': 'a', 'c': 't', 'd': 's', 'e': 'r', 'f': 'd', 'g': 'b', 'h': 'e', 'i': 'x', 'j': 'u', 'k': 'g', 'l': 'j', 'm': 'c', 'n': 'n', 'o': 'f', 'p': 'y', 'q': 'z', 'r': 'v', 's': 'm', 't': 'p', 'u': 'h', 'v': 'l', 'w': 'o', 'x': 'q', 'y': 'k', 'z': 'w'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

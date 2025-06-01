@@ -1,0 +1,12 @@
+A careless admin built a login system using weak session tokens. Can you break in and recover the original session ID from: 757365725f65686b6d3a666c61677b6337636f6c38686f7d3a31373438313637373532?
+
+---
+
+## Challenge Technical Details
+flag: flag{c7col8ho}
+ciphertext: 757365725f65686b6d3a666c61677b6337636f6c38686f7d3a31373438313637373532
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_ehkm:flag{c7col8ho}:1748167752'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

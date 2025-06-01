@@ -1,0 +1,17 @@
+
+An old server hashed secret codes with MD5, thinking them safe. Now only the hash 1bb6c496c196123917dc4a998cbec1f7 remains—recover the original code!
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{QUEIL}
+ciphertext: 1bb6c496c196123917dc4a998cbec1f7
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

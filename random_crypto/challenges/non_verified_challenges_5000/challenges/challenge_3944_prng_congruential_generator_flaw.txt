@@ -1,0 +1,29 @@
+
+A rookie hacker encrypted secret keys with their homemade LCG-based cipher. Can you crack the 527cab2b4f65ae3a537dbb2e076d and expose the flaws before they return?
+
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1556344512
+  - Multiplier: 140318241
+  - Increment: 1060877329
+The first 5 outputs of the LCG are provided: [1106738647, 262000264, 1243075225, 146641162, 177761371] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{udvgmqb3}
+ciphertext: 527cab2b4f65ae3a537dbb2e076d
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1556344512
+  - Multiplier: 140318241
+  - Increment: 1060877329
+The first 5 outputs of the LCG are provided: [1106738647, 262000264, 1243075225, 146641162, 177761371] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

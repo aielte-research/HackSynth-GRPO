@@ -1,0 +1,18 @@
+An intern encrypted the flag with RSA but used tiny primes for convenience. Recover the original message: 9946007718488110373
+
+The flag format is flag{...}
+n=11813549060131764307, e=1249471443277261927
+
+---
+
+## Challenge Technical Details
+flag: flag{l7nv0zn5}
+cipher: RSA
+ciphertext: 9946007718488110373
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=11813549060131764307, e=1249471443277261927
+extra_info: p=3717330973, q=3177965359, φ(n)=11813549053236467976
+subtype: small_primes
+archetype: rsa

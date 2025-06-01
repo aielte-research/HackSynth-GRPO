@@ -1,0 +1,29 @@
+
+A hacker left a secret message for their partner, but encrypted it using their hastily coded LCG Predictability cipher. Can you reveal the flag? Ciphertext: 71f43c156cee2c4723ad2f1d74e5
+
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1596099130
+  - Multiplier: 402029093
+  - Increment: 1028792785
+The first 5 outputs of the LCG are provided: [1033281029, 583980432, 275063711, 292535028, 636682559] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{vq545roc}
+ciphertext: 71f43c156cee2c4723ad2f1d74e5
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1596099130
+  - Multiplier: 402029093
+  - Increment: 1028792785
+The first 5 outputs of the LCG are provided: [1033281029, 583980432, 275063711, 292535028, 636682559] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

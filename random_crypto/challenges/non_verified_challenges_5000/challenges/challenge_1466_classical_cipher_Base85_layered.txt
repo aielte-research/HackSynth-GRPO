@@ -1,0 +1,15 @@
+A hacker left a secret message on a forum, but it's encoded in obscure Base85. Can you decode the flag? Ciphertext: Q8;r{Qc74PHh5S&G<irvP+DhkWIs1qSW-1ZK6^rSdS`A&X*N}DT4sA*JyBH
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{r21fxkia}
+cipher: Base85
+ciphertext: Q8;r{Qc74PHh5S&G<irvP+DhkWIs1qSW-1ZK6^rSdS`A&X*N}DT4sA*JyBH
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 6 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

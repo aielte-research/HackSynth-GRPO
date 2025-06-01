@@ -1,0 +1,17 @@
+
+The hacker left a note for their partner, but it's written in a secret alphabet. Can you reveal the original message from this substitution cipher? jv mwhzsgxwizkh, i nbqnsjsbsjgv mjzkow jn i uoskgr gc ovmwhzsjvx jv fkjmk bvjsn gc ztijvsols iwo woztimor fjsk sko mjzkowsols, jv i rocjvor uivvow, fjsk sko kotz gc i doh; sko "bvjsn" uih qo njvxto tossown (sko ugns mguugv), zijwn gc tossown, swjztosn gc tossown, ujlsbwon gc sko iqgyo, ivr ng cgwsk. sko womojyow romjzkown sko sols qh zowcgwujvx sko jvyowno nbqnsjsbsjgv zwgmonn sg olswims sko gwjxjvit uonnixo. tjdofjno, eimpbon pbjmdth ajzzor skwgbxk i pbonsjgv gv aowg-dvgftorxo zwggcn, ovnbwjvx vg mwjsjmit tossow fin tocs gbs gc gbw mwhzsgxwizkjm zbaato.ctix{f69t9uwx}
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{w69l9mrg}
+ciphertext: jv mwhzsgxwizkh, i nbqnsjsbsjgv mjzkow jn i uoskgr gc ovmwhzsjvx jv fkjmk bvjsn gc ztijvsols iwo woztimor fjsk sko mjzkowsols, jv i rocjvor uivvow, fjsk sko kotz gc i doh; sko "bvjsn" uih qo njvxto tossown (sko ugns mguugv), zijwn gc tossown, swjztosn gc tossown, ujlsbwon gc sko iqgyo, ivr ng cgwsk. sko womojyow romjzkown sko sols qh zowcgwujvx sko jvyowno nbqnsjsbsjgv zwgmonn sg olswims sko gwjxjvit uonnixo. tjdofjno, eimpbon pbjmdth ajzzor skwgbxk i pbonsjgv gv aowg-dvgftorxo zwggcn, ovnbwjvx vg mwjsjmit tossow fin tocs gbs gc gbw mwhzsgxwizkjm zbaato.ctix{f69t9uwx}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'i', 'b': 'q', 'c': 'm', 'd': 'r', 'e': 'o', 'f': 'c', 'g': 'x', 'h': 'k', 'i': 'j', 'j': 'e', 'k': 'd', 'l': 't', 'm': 'u', 'n': 'v', 'o': 'g', 'p': 'z', 'q': 'p', 'r': 'w', 's': 'n', 't': 's', 'u': 'b', 'v': 'y', 'w': 'f', 'x': 'l', 'y': 'h', 'z': 'a'}
+subtype: substitution
+archetype: classical_cipher

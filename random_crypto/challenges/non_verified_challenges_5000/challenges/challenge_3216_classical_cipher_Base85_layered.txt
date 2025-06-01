@@ -1,0 +1,15 @@
+A secret Base85 message was intercepted from a hacker planning a cyber-heist. Crack the code below to uncover their next move: Q8+ttdr@OIG*C!rHB%->JZW-vRbX^$SWH$(Vn<;(a9}h|OJyl*S7;+QI97CWHf>f+GiFCgT4_H
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{8ej0qp6y}
+cipher: Base85
+ciphertext: Q8+ttdr@OIG*C!rHB%->JZW-vRbX^$SWH$(Vn<;(a9}h|OJyl*S7;+QI97CWHf>f+GiFCgT4_H
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 7 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

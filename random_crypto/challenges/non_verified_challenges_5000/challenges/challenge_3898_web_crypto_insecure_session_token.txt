@@ -1,0 +1,14 @@
+
+An intern left behind session tokens encrypted with a weak cipher. Can you recover the original token from this 757365725f787164753a666c61677b33773165343769337d3a31373438313639353834?
+
+
+---
+
+## Challenge Technical Details
+flag: flag{3w1e47i3}
+ciphertext: 757365725f787164753a666c61677b33773165343769337d3a31373438313639353834
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_xqdu:flag{3w1e47i3}:1748169584'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

@@ -1,0 +1,17 @@
+An agent encrypted the access code to the vault using AES-CFB. Only the ciphertext remains: d432899ad6db212bdb840e3c299e886ec81ed81bdb439c47468ccd460b083a8c0e9fc366240231b609e22258e1e55df08dd98bfcbbd6ae90118064f2ead94d7c2a11d1763149b6d98038e7ed63c0f7e2d5ee4794dee6fda04df220c37aee3a955dc57e39919be34ddf28d5881dbb0c8af607784e8e1c770e8753fe34b27363917706b78d4c68bee4ccdb88b0cf05b93409f4572d547f1f54fe6c9fe294937b1478f40c57bc91814f84af69a5791f5feb2c. Can you recover the original code?
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{8pin69p5}
+ciphertext: d432899ad6db212bdb840e3c299e886ec81ed81bdb439c47468ccd460b083a8c0e9fc366240231b609e22258e1e55df08dd98bfcbbd6ae90118064f2ead94d7c2a11d1763149b6d98038e7ed63c0f7e2d5ee4794dee6fda04df220c37aee3a955dc57e39919be34ddf28d5881dbb0c8af607784e8e1c770e8753fe34b27363917706b78d4c68bee4ccdb88b0cf05b93409f4572d547f1f54fe6c9fe294937b1478f40c57bc91814f84af69a5791f5feb2c
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: c1015ec1e67a23d9bb912cd268001517
+subtype: aes_cfb
+archetype: aes

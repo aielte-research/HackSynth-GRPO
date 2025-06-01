@@ -1,0 +1,16 @@
+An intercepted message from a secret society reads: uuyt{nq3o1om8}. Can you uncover the keyword and reveal their plans?
+
+The flag format is flag{...}
+The keyword is: pjynjao
+
+---
+
+## Challenge Technical Details
+flag: flag{eq3a1zd8}
+ciphertext: uuyt{nq3o1om8}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: pjynjao
+subtype: vigenere
+archetype: classical_cipher

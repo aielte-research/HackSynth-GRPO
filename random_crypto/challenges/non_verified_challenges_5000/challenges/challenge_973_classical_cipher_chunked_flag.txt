@@ -1,0 +1,17 @@
+
+A hacker fragmented a secret flag using the ChunkedFlag cipher before fleeing. Recover the full flag from this encrypted message: fla g{ 5u iv bty x}
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{5uivbtyx}
+ciphertext: fla g{ 5u iv bty x}
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

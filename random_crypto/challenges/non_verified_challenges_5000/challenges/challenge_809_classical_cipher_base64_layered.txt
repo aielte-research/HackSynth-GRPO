@@ -1,0 +1,15 @@
+An anonymous hacker shared a mysterious string. It looks scrambled, but maybe it's just encoded. Can you reveal the hidden message? Here it is: Vm1wSmQyVkZOVWhTYTJScFRUTkNjVlJVVGtOak1XeDBaVWhhYkZadVFsbFVWbHByWVRGS2RHVkVSbFZXVmtZelZVWkZPVkJSUFQwPQ==
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{3zvvzemb}
+cipher: Base64
+ciphertext: Vm1wSmQyVkZOVWhTYTJScFRUTkNjVlJVVGtOak1XeDBaVWhhYkZadVFsbFVWbHByWVRGS2RHVkVSbFZXVmtZelZVWkZPVkJSUFQwPQ==
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 6 times in total.
+subtype: base64_layered
+archetype: classical_cipher

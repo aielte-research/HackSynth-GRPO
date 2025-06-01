@@ -1,0 +1,18 @@
+A hacker intercepted a secret file, but it's locked with AES. Can you decrypt it and reveal the contents? The ciphertext is: ciphertext1:0245f9eb547921e9932840b9e048, ciphertext2: 0245f9eb542170ef932c5de0f548
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{16717kmz}
+ciphertext: ciphertext1:0245f9eb547921e9932840b9e048, ciphertext2: 0245f9eb542170ef932c5de0f548
+tag1: f601a519ab8a29cf54de0e889edafc21
+tag2: da3ff617cc10d33b30b4dc42c1f6257e
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 41baff859dbc6ecabfd4d1
+subtype: aes_ccm
+archetype: aes

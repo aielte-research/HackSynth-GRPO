@@ -1,0 +1,19 @@
+
+Intercepted from a secret society, this suspicious note, pkteoyndbhzkheiplqotoyndbhlzmxcopqmtipcpzgmateoyndbhzkheipqkvyonfwyogdquqwczkbwbkzagekmagtakbfmxpbyfpnzgiphklzgrketqyofktlnouvyxekwzekmabkaotqdmypxluqgt, was likely encrypted with their known Playfair cipher methods. What message are they hiding from outsiders?
+
+
+The flag format is flag{...}
+The keyword is: gwpetpyn
+
+---
+
+## Challenge Technical Details
+flag: flag{1s6qxmte}
+ciphertext: pkteoyndbhzkheiplqotoyndbhlzmxcopqmtipcpzgmateoyndbhzkheipqkvyonfwyogdquqwczkbwbkzagekmagtakbfmxpbyfpnzgiphklzgrketqyofktlnouvyxekwzekmabkaotqdmypxluqgt
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: gwpetpyn
+extra_info: The playfair table is [['g', 'w', 'p', 'e', 't'], ['y', 'n', 'a', 'b', 'c'], ['d', 'f', 'h', 'i', 'k'], ['l', 'm', 'o', 'q', 'r'], ['s', 'u', 'v', 'x', 'z']]
+subtype: playfair
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+An old hacker left a coded clue for their successor. The message below was encrypted with a simple substitution cipher. Can you reveal the secret? cf anxoretnlomx, l wqhwrcrqrcef acomin cw l sirmeb ek ifanxorcft cf ymcam qfcrw ek ovlcfrizr lni niovlaib ycrm rmi acominrizr, cf l bikcfib slffin, ycrm rmi mivo ek l dix; rmi "qfcrw" slx hi wcftvi virrinw (rmi sewr aessef), olcnw ek virrinw, rncovirw ek virrinw, sczrqniw ek rmi lhegi, lfb we kenrm. rmi niaicgin biacominw rmi rizr hx oinkenscft rmi cfginwi wqhwrcrqrcef oneaiww re izrnlar rmi enctcflv siwwlti. vcdiycwi, plauqiw uqcadvx jcooib rmneqtm l uqiwrcef ef jine-dfeyvibti oneekw, ifwqncft fe ancrcalv virrin ylw vikr eqr ek eqn anxoretnlomca oqjjvi.kvlt{09abdxec}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{09cdkyoi}
+ciphertext: cf anxoretnlomx, l wqhwrcrqrcef acomin cw l sirmeb ek ifanxorcft cf ymcam qfcrw ek ovlcfrizr lni niovlaib ycrm rmi acominrizr, cf l bikcfib slffin, ycrm rmi mivo ek l dix; rmi "qfcrw" slx hi wcftvi virrinw (rmi sewr aessef), olcnw ek virrinw, rncovirw ek virrinw, sczrqniw ek rmi lhegi, lfb we kenrm. rmi niaicgin biacominw rmi rizr hx oinkenscft rmi cfginwi wqhwrcrqrcef oneaiww re izrnlar rmi enctcflv siwwlti. vcdiycwi, plauqiw uqcadvx jcooib rmneqtm l uqiwrcef ef jine-dfeyvibti oneekw, ifwqncft fe ancrcalv virrin ylw vikr eqr ek eqn anxoretnlomca oqjjvi.kvlt{09abdxec}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'l', 'b': 'h', 'c': 'a', 'd': 'b', 'e': 'i', 'f': 'k', 'g': 't', 'h': 'm', 'i': 'c', 'j': 'p', 'k': 'd', 'l': 'v', 'm': 's', 'n': 'f', 'o': 'e', 'p': 'o', 'q': 'u', 'r': 'n', 's': 'w', 't': 'r', 'u': 'q', 'v': 'g', 'w': 'y', 'x': 'z', 'y': 'x', 'z': 'j'}
+subtype: substitution
+archetype: classical_cipher

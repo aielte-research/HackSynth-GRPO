@@ -1,0 +1,15 @@
+A hacker left a secret message for you, but wrote it backwards to confuse eavesdroppers. Can you decipher }bq6ei2yg{galf?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{gy2ie6qb}
+ciphertext: }bq6ei2yg{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

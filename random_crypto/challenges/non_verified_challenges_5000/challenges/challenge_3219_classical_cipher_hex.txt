@@ -1,0 +1,16 @@
+
+The old hacker left a secret in his code repository. Decode this Hex-encoded message: 666c61677b71647676307667397d
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{qdvv0vg9}
+cipher: Hex
+ciphertext: 666c61677b71647676307667397d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

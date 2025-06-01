@@ -1,0 +1,17 @@
+An archaeologist finds a note labeled 'Encrypted with Hill matrix'. The message reads: ecpbmgnghwnrnacuvwgvtyvjpxzpcpvwqauxdsuxkawybkvbswminegolgjpqcwnkiqjbq. Can you recover the secret?
+
+The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+
+---
+
+## Challenge Technical Details
+flag: flag{kblsaprs}
+ciphertext: ecpbmgnghwnrnacuvwgvtyvjpxzpcpvwqauxdsuxkawybkvbswminegolgjpqcwnkiqjbq
+cipher: Hill
+hint: Hill ciphers can be broken using known-plaintext attacks and linear algebra mod 26.
+necessary_info: The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+extra_info: The matrix used is: [[15, 3], [25, 6]]
+subtype: hill
+archetype: classical_cipher

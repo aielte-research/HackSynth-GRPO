@@ -1,0 +1,17 @@
+Agent Nova intercepted yomhuqnldbadnnmsjjxcxbwjmrunzyjjsydsffdsiccmtjwdeyuyndkabvcptndihbumth, a coded message from a rival group. She suspects it's encrypted using the Hill cipher. Can you help her recover the plaintext?
+
+The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+
+---
+
+## Challenge Technical Details
+flag: flag{fnlsfwys}
+ciphertext: yomhuqnldbadnnmsjjxcxbwjmrunzyjjsydsffdsiccmtjwdeyuyndkabvcptndihbumth
+cipher: Hill
+hint: Hill ciphers can be broken using known-plaintext attacks and linear algebra mod 26.
+necessary_info: The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+extra_info: The matrix used is: [[12, 5], [25, 9]]
+subtype: hill
+archetype: classical_cipher

@@ -1,0 +1,17 @@
+
+A hacker encrypted their vault backup using AES-XTS, but forgot the tweak value. The ciphertext is: ciphertext1:017d9677c30adc03704724c0c9b88b76, ciphertext2: 451b909da3b7a68c3a0cffbc144491cd6fab8550ee1c65dced402efaeaba89ef. Can you recover the original data?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{q7b3zgnh}
+ciphertext: ciphertext1:017d9677c30adc03704724c0c9b88b76, ciphertext2: 451b909da3b7a68c3a0cffbc144491cd6fab8550ee1c65dced402efaeaba89ef
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 81340b4110f215a954bdbf70f7986930
+subtype: aes_xts
+archetype: aes

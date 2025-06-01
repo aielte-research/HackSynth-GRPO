@@ -1,0 +1,15 @@
+An agent left a secret clue in a meeting log, but it's encoded with Base85. Can you recover the hidden message? Ciphertext: Q8+6$C09T(Kr2)>FllT?Dp5>4T0>tyaZhPwOiNd6Y-Ax&En-MNP$(v4MOtD%dstE=Wk@huLs?>UOmj1HW=(EhByLA)C1E#IG%9v#S8ZV-K}1hBW=2qIW;uCcGbBqiOnxL_X<}DIGkH>CUQ$_6eg
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{31jmanvd}
+cipher: Base85
+ciphertext: Q8+6$C09T(Kr2)>FllT?Dp5>4T0>tyaZhPwOiNd6Y-Ax&En-MNP$(v4MOtD%dstE=Wk@huLs?>UOmj1HW=(EhByLA)C1E#IG%9v#S8ZV-K}1hBW=2qIW;uCcGbBqiOnxL_X<}DIGkH>CUQ$_6eg
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 10 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+The hacker hid the password in a string encoded with a simple scheme. Decoding Vm0weGQxTnRVWGxXYTFwUFZsZG9WRmxVU2xOalJsSlZWR3RPYW1KR1duaFdSM1JQVm14YWMySkVUbGhoTVhCUVdWWlZlRmRXUm5KaFJtUlhUVEZLZVZkV1pEUlpWMUpJVld0V1dHSkdXbGhXYlhSYVpXeGFWbGRyV2xCV2EwcFRWVVpSZDFCUlBUMD0= will reveal the secret you need.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{c9wau1jc}
+cipher: Base64
+ciphertext: Vm0weGQxTnRVWGxXYTFwUFZsZG9WRmxVU2xOalJsSlZWR3RPYW1KR1duaFdSM1JQVm14YWMySkVUbGhoTVhCUVdWWlZlRmRXUm5KaFJtUlhUVEZLZVZkV1pEUlpWMUpJVld0V1dHSkdXbGhXYlhSYVpXeGFWbGRyV2xCV2EwcFRWVVpSZDFCUlBUMD0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 8 times in total.
+subtype: base64_layered
+archetype: classical_cipher

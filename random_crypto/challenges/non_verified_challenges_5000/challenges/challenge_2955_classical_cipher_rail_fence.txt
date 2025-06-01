@@ -1,0 +1,15 @@
+A hacker left a message on a train ticket. To decode it, reconstruct the fa{fmqdlgg9oo} using the path a rail fence would travel.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{gf9moqod}
+ciphertext: fa{fmqdlgg9oo}
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 2
+subtype: rail_fence
+archetype: classical_cipher

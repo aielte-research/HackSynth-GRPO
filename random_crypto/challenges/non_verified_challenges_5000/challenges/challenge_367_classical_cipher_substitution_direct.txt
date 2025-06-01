@@ -1,0 +1,21 @@
+An old hacker left a message for their apprentice, but it's jumbled by a secret letter swap. Can you reveal their hidden tip? Here is the code: mqiz{guf8hsme}
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'i', 'b': 'e', 'c': 'l', 'd': 'h', 'e': 'a', 'f': 'm', 'g': 'z', 'h': 'p', 'i': 'y', 'j': 't', 'k': 'c', 'l': 'q', 'm': 's', 'n': 'u', 'o': 'r', 'p': 'w', 'q': 'v', 'r': 'g', 's': 'k', 't': 'f', 'u': 'd', 'v': 'x', 'w': 'j', 'x': 'b', 'y': 'o', 'z': 'n'}
+
+---
+
+## Challenge Technical Details
+flag: flag{rnt8dmfb}
+cipher: Substitution
+ciphertext: mqiz{guf8hsme}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'i', 'b': 'e', 'c': 'l', 'd': 'h', 'e': 'a', 'f': 'm', 'g': 'z', 'h': 'p', 'i': 'y', 'j': 't', 'k': 'c', 'l': 'q', 'm': 's', 'n': 'u', 'o': 'r', 'p': 'w', 'q': 'v', 'r': 'g', 's': 'k', 't': 'f', 'u': 'd', 'v': 'x', 'w': 'j', 'x': 'b', 'y': 'o', 'z': 'n'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

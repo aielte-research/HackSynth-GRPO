@@ -1,0 +1,15 @@
+A hacker left a scrambled hint using an ASCII Shift cipher. Can you restore the original message from this cryptic code? Here’s what they left: iodj~j|s6p9;3
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{gyp3m680}
+cipher: ASCII Shift
+ciphertext: iodj~j|s6p9;3
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 3
+subtype: ascii_shift
+archetype: classical_cipher

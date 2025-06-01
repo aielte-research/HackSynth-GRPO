@@ -1,0 +1,19 @@
+
+A lost diary reveals a Playfair-encoded message from a secret spy mission. Can you decipher it to uncover the agent's critical revelation? Ciphertext: vfavhdtkbhykhqpaqnsqhdtkbhsmmbcponqypauvmznxavhdtkbhykhqpaqkpdpugcdhrzsgpgymkboxkyvrwfnxvgakokmbahxcvbmzpahksmzffwnpdhblnmupmddqwfgfwfnxbkvpnphfuevzcsuc
+
+
+The flag format is flag{...}
+The keyword is: geognxgu
+
+---
+
+## Challenge Technical Details
+flag: flag{tydr1db5}
+ciphertext: vfavhdtkbhykhqpaqnsqhdtkbhsmmbcponqypauvmznxavhdtkbhykhqpaqkpdpugcdhrzsgpgymkboxkyvrwfnxvgakokmbahxcvbmzpahksmzffwnpdhblnmupmddqwfgfwfnxbkvpnphfuevzcsuc
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: geognxgu
+extra_info: The playfair table is [['g', 'e', 'o', 'n', 'x'], ['u', 'a', 'b', 'c', 'd'], ['f', 'h', 'i', 'k', 'l'], ['m', 'p', 'q', 'r', 's'], ['t', 'v', 'w', 'y', 'z']]
+subtype: playfair
+archetype: classical_cipher

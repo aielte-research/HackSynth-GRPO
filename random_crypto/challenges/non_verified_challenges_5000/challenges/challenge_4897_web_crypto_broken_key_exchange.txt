@@ -1,0 +1,25 @@
+Intercepted during a secret exchange, Alice and Bob's shared key secures this message with Diffie-Hellman. Can you uncover their secret to decrypt 27a3a1b689b815d42266d61d14f9?
+
+The key exchange uses a prime modulus of 101 and generator 2.
+Alice's public key is 80 and Bob's public key is 67.
+You received a tip that the private values are at most two digits.
+You got access to some of the code:
+encryption_key = hashlib.sha256(str(shared_key).encode()).digest()[:16]
+encrypted_flag = bytes(a ^ b for a, b in zip(flag.encode(), encryption_key))
+
+---
+
+## Challenge Technical Details
+flag: flag{i2dg3a9y}
+ciphertext: 27a3a1b689b815d42266d61d14f9
+cipher: Diffie-Hellman
+hint: The prime used in this key exchange is small. You can recover the private key by brute-force.
+necessary_info: The key exchange uses a prime modulus of 101 and generator 2.
+Alice's public key is 80 and Bob's public key is 67.
+You received a tip that the private values are at most two digits.
+You got access to some of the code:
+encryption_key = hashlib.sha256(str(shared_key).encode()).digest()[:16]
+encrypted_flag = bytes(a ^ b for a, b in zip(flag.encode(), encryption_key))
+extra_info: secret_a=28, secret_b=81
+subtype: broken_key_exchange
+archetype: web_crypto

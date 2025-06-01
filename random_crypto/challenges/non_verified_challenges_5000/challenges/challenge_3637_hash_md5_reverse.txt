@@ -1,0 +1,15 @@
+Intercepted old comms: an agent reused a weak password, but relied on MD5. Crack the original message from this hash: f64798b66cd1b287253b6c14b538aa3a
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{HMIGQ}
+ciphertext: f64798b66cd1b287253b6c14b538aa3a
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

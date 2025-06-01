@@ -1,0 +1,15 @@
+An encrypted message hidden by XOR underlies the server's authentication. Retrieve the original passphrase from this ciphertext: stringA: 0b5831160c3855690c0e5f355227 stringB: 6d3450717752305034746a44625a
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{je98z5q0}
+cipher: XOR
+ciphertext: stringA: 0b5831160c3855690c0e5f355227 stringB: 6d3450717752305034746a44625a
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

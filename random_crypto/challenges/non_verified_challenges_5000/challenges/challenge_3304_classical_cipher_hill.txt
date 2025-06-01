@@ -1,0 +1,17 @@
+A secret meeting location is hidden in the ciphertext below. The spies used the Hill cipher to encrypt it. Can you recover the message from mwtykowjaltgancumttvetzgnsribtmtkyvtyzvtqcoeoxnuciaegtceythkigufhgihwz?
+
+The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+
+---
+
+## Challenge Technical Details
+flag: flag{uupnmmrw}
+ciphertext: mwtykowjaltgancumttvetzgnsribtmtkyvtyzvtqcoeoxnuciaegtceythkigufhgihwz
+cipher: Hill
+hint: Hill ciphers can be broken using known-plaintext attacks and linear algebra mod 26.
+necessary_info: The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+extra_info: The matrix used is: [[3, 6], [8, 7]]
+subtype: hill
+archetype: classical_cipher

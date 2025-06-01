@@ -1,0 +1,15 @@
+The drive’s secret was locked using AES-XTS. All you have is the encrypted sector: ciphertext1:a8ac772e9f96ed5beb1253d121155b72, ciphertext2: 49f5d8268d0b7d3ff746db50715d24840a247e94202d5c93848085718f0ef42b. Can you recover the original message?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{z4izhskt}
+ciphertext: ciphertext1:a8ac772e9f96ed5beb1253d121155b72, ciphertext2: 49f5d8268d0b7d3ff746db50715d24840a247e94202d5c93848085718f0ef42b
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 6b0a61deaab4c9e20b571f43d21d9f35
+subtype: aes_xts
+archetype: aes

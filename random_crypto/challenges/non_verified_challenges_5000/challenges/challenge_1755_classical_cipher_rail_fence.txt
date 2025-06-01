@@ -1,0 +1,15 @@
+A secret agent scribbled a vital password using the Rail Fence cipher. Can you decode this zigzagged message: fa{et6jlg8gk1}?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{8egtk61j}
+ciphertext: fa{et6jlg8gk1}
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 2
+subtype: rail_fence
+archetype: classical_cipher

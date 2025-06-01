@@ -1,0 +1,20 @@
+
+A rogue agent stole secret plans, encrypting them with AES. Can you crack the password and recover the hidden blueprint? Ciphertext: ciphertext1:a933791fbe10c6b561531223210a, ciphertext2: a933791fbe55d1aa61471b20200a
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{5zvvqyo3}
+ciphertext: ciphertext1:a933791fbe10c6b561531223210a, ciphertext2: a933791fbe55d1aa61471b20200a
+tag1: 5a2c9004efa44d16c53b4315d95a2863
+tag2: adab196ee7940fddb5346ce4a8245ba7
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: d182436dba0a9e22bcf481
+subtype: aes_ccm
+archetype: aes

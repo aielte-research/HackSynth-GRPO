@@ -1,0 +1,21 @@
+A lost letter uses a secret alphabet. Can you unveil the hidden message and recover the password? Ciphertext: jbgv{knahqhvo}
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'g', 'b': 's', 'c': 'q', 'd': 'm', 'e': 'n', 'f': 'j', 'g': 'v', 'h': 'l', 'i': 'w', 'j': 'c', 'k': 'i', 'l': 'b', 'm': 'a', 'n': 'f', 'o': 'x', 'p': 'p', 'q': 'e', 'r': 'o', 's': 'd', 't': 'r', 'u': 't', 'v': 'z', 'w': 'h', 'x': 'k', 'y': 'y', 'z': 'u'}
+
+---
+
+## Challenge Technical Details
+flag: flag{xemwcwgr}
+cipher: Substitution
+ciphertext: jbgv{knahqhvo}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'g', 'b': 's', 'c': 'q', 'd': 'm', 'e': 'n', 'f': 'j', 'g': 'v', 'h': 'l', 'i': 'w', 'j': 'c', 'k': 'i', 'l': 'b', 'm': 'a', 'n': 'f', 'o': 'x', 'p': 'p', 'q': 'e', 'r': 'o', 's': 'd', 't': 'r', 'u': 't', 'v': 'z', 'w': 'h', 'x': 'k', 'y': 'y', 'z': 'u'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

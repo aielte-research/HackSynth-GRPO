@@ -1,0 +1,15 @@
+An encrypted hard drive image has surfaced. Can you recover the flag if you decrypt ciphertext1:568f0fb58d0878030a6d3b9ee9e532a3, ciphertext2: b25cbfd84490552544a15313716bba4b3d83cac0ce29b718a9fd4b1d16ae653c using AES-XTS with the correct key and tweak?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{90o5h9tz}
+ciphertext: ciphertext1:568f0fb58d0878030a6d3b9ee9e532a3, ciphertext2: b25cbfd84490552544a15313716bba4b3d83cac0ce29b718a9fd4b1d16ae653c
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 6b2dfd1e1879509ed71c2719ca2f41c3
+subtype: aes_xts
+archetype: aes

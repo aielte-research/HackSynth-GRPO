@@ -1,0 +1,15 @@
+An agent intercepted a suspicious message hidden in an email attachment. Can you decode the following Base64-encoded string to reveal its secret? Vm1wSmQyVkZOVWhTYTJScFRUTkNjbFV3Vmt0VU1XeDBaVWhrVG1KSFVsWlZNakV3WVRKR05tSkdjRlZXVmtZelZVWkZPVkJSUFQwPQ==
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{i2vocgo9}
+cipher: Base64
+ciphertext: Vm1wSmQyVkZOVWhTYTJScFRUTkNjbFV3Vmt0VU1XeDBaVWhrVG1KSFVsWlZNakV3WVRKR05tSkdjRlZXVmtZelZVWkZPVkJSUFQwPQ==
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 6 times in total.
+subtype: Base64_layered
+archetype: classical_cipher

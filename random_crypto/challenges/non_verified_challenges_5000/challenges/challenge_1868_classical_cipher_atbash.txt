@@ -1,0 +1,14 @@
+A secret society encrypts messages using an ancient reversal cipher. Can you decode the clue below to unlock the next key? Ciphertext: uozt{al8oq5jm}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{zo8lj5qn}
+cipher: Atbash
+ciphertext: uozt{al8oq5jm}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

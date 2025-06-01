@@ -1,0 +1,15 @@
+An old hacker left a mysterious message on a forum. They mentioned a railway, hinting at a zigzag pattern. Decode the hidden secret: fa{sizdlgbr27}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{bsri2z7d}
+ciphertext: fa{sizdlgbr27}
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 2
+subtype: rail_fence
+archetype: classical_cipher

@@ -1,0 +1,18 @@
+An intercepted message labeled "Project Hydra" was encrypted with AES. Your task: recover its secret contents from this ciphertext fragment: ciphertext1:52b608ca881bc7bdfd9cd461be3d, ciphertext2: 52b608ca8849d7f4ae859a38f53d.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{0bxbp43r}
+ciphertext: ciphertext1:52b608ca881bc7bdfd9cd461be3d, ciphertext2: 52b608ca8849d7f4ae859a38f53d
+tag1: f20a076b4157f7ad9493349d56c9fad8
+tag2: a34cdc57524fe7479b3df5fb42a9a7ca
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 278f5a90931ad0c4a7ab69
+subtype: aes_ccm
+archetype: aes

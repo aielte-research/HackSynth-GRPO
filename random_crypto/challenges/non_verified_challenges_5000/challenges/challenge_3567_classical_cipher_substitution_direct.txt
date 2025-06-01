@@ -1,0 +1,21 @@
+A hacker left a secret password hidden using a simple letter-for-letter swap. Decode ofca{ijit6c8c} to uncover what they protected.
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'c', 'b': 'w', 'c': 'p', 'd': 'q', 'e': 'v', 'f': 'o', 'g': 'a', 'h': 'm', 'i': 'x', 'j': 'y', 'k': 'h', 'l': 'f', 'm': 'l', 'n': 'z', 'o': 'e', 'p': 'u', 'q': 'i', 'r': 'r', 's': 'j', 't': 'g', 'u': 'k', 'v': 'b', 'w': 's', 'x': 'd', 'y': 't', 'z': 'n'}
+
+---
+
+## Challenge Technical Details
+flag: flag{qsqy6a8a}
+cipher: Substitution
+ciphertext: ofca{ijit6c8c}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'c', 'b': 'w', 'c': 'p', 'd': 'q', 'e': 'v', 'f': 'o', 'g': 'a', 'h': 'm', 'i': 'x', 'j': 'y', 'k': 'h', 'l': 'f', 'm': 'l', 'n': 'z', 'o': 'e', 'p': 'u', 'q': 'i', 'r': 'r', 's': 'j', 't': 'g', 'u': 'k', 'v': 'b', 'w': 's', 'x': 'd', 'y': 't', 'z': 'n'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

@@ -1,0 +1,21 @@
+
+An intercepted spy message, encrypted using a PRNG seeded with the transmission time, needs decrypting. Can you unveil the secret behind 666c7c417b31641433716f4a757d?
+
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 12770)
+The system time when the encryption process started was around: 2025-05-25 12:54:46 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{1y23qrlu}
+ciphertext: 666c7c417b31641433716f4a757d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 12770)
+The system time when the encryption process started was around: 2025-05-25 12:54:46 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 7462.
+subtype: time_based_seed
+archetype: prng

@@ -1,0 +1,18 @@
+Someone encrypted a secret using RSA, but picked tiny primes for speed. The ciphertext is: 4340369654178162064. Can you recover the original message?
+
+The flag format is flag{...}
+n=11695189713499912337, e=10696280285622404533
+
+---
+
+## Challenge Technical Details
+flag: flag{4hjnhdgu}
+cipher: RSA
+ciphertext: 4340369654178162064
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=11695189713499912337, e=10696280285622404533
+extra_info: p=3597407641, q=3251004857, φ(n)=11695189706651499840
+subtype: small_primes
+archetype: rsa

@@ -1,0 +1,17 @@
+
+An agent intercepted a secret note, but it's encoded in an unfamiliar Base85 format. Can you decode the hidden message? Ciphertext: Q8;r{Qc74PHh5S&G<irvPdR;bMlC{VR#IeXNK#KbFi9azPAE}MWNslNJWWO
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{dctjbzm2}
+cipher: Base85
+ciphertext: Q8;r{Qc74PHh5S&G<irvPdR;bMlC{VR#IeXNK#KbFi9azPAE}MWNslNJWWO
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 6 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

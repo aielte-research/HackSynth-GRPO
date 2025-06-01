@@ -1,0 +1,14 @@
+The CEO’s quick digital signature on a top-secret contract was intercepted. Analysts captured 0x54cf64bb5b9e4bcfa6fea230220934dc591c9d102c1d37368b00f0fe22fd09a70a8652bd7cafaca5bf5a8d4f5447fbfe75d8eeccd25ef5dbe071974a778d114c, but can you recover the signed message using the low public exponent flaw?
+
+Public Key (n, e): (5632551967090972280958695512339302217352721390674173694906085707201912748596251017891408410980146177712196534529682723315397066101289350632946128256997761, 3)
+
+---
+
+## Challenge Technical Details
+flag: flag{yq1vlwo1}
+ciphertext: 0x54cf64bb5b9e4bcfa6fea230220934dc591c9d102c1d37368b00f0fe22fd09a70a8652bd7cafaca5bf5a8d4f5447fbfe75d8eeccd25ef5dbe071974a778d114c
+cipher: RSA Low-Exponent Signature
+hint: What happens when you cube small numbers? Remember e=3!
+necessary_info: Public Key (n, e): (5632551967090972280958695512339302217352721390674173694906085707201912748596251017891408410980146177712196534529682723315397066101289350632946128256997761, 3)
+subtype: rsa_sign_with_low_public_exponent
+archetype: signature_schemes

@@ -1,0 +1,18 @@
+
+Intercepted from a secret blockchain forum, this message hints at a wallet key. Decrypt it with the right passphrase: fcdx{1j5z56vk}
+
+
+The flag format is flag{...}
+The keyword is: ardr
+
+---
+
+## Challenge Technical Details
+flag: flag{1j5i56st}
+ciphertext: fcdx{1j5z56vk}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: ardr
+subtype: vigenere
+archetype: classical_cipher

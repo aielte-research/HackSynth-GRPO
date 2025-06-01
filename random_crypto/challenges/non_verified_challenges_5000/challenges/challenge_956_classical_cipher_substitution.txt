@@ -1,0 +1,15 @@
+An old hacker left a secret location encoded with a substitution cipher. Crack the code to find where the treasure’s hidden: ts lymnhzcydngm, d wiewhthihtzs ltngay tw d bahgzr zv aslymnhtsc ts qgtlg isthw zv nfdtshaoh dya yanfdlar qthg hga ltngayhaoh, ts d ravtsar bdssay, qthg hga gafn zv d xam; hga "isthw" bdm ea wtscfa fahhayw (hga bzwh lzbbzs), ndtyw zv fahhayw, hytnfahw zv fahhayw, btohiyaw zv hga dezja, dsr wz vzyhg. hga yalatjay raltngayw hga haoh em nayvzybtsc hga tsjaywa wiewhthihtzs nyzlaww hz aohydlh hga zytctsdf bawwdca. ftxaqtwa, pdluiaw uitlxfm ktnnar hgyzicg d uiawhtzs zs kayz-xszqfarca nyzzvw, aswiytsc sz lythtldf fahhay qdw favh zih zv ziy lymnhzcydngtl nikkfa.vfdc{vhv7g58m}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ftf7h58y}
+ciphertext: ts lymnhzcydngm, d wiewhthihtzs ltngay tw d bahgzr zv aslymnhtsc ts qgtlg isthw zv nfdtshaoh dya yanfdlar qthg hga ltngayhaoh, ts d ravtsar bdssay, qthg hga gafn zv d xam; hga "isthw" bdm ea wtscfa fahhayw (hga bzwh lzbbzs), ndtyw zv fahhayw, hytnfahw zv fahhayw, btohiyaw zv hga dezja, dsr wz vzyhg. hga yalatjay raltngayw hga haoh em nayvzybtsc hga tsjaywa wiewhthihtzs nyzlaww hz aohydlh hga zytctsdf bawwdca. ftxaqtwa, pdluiaw uitlxfm ktnnar hgyzicg d uiawhtzs zs kayz-xszqfarca nyzzvw, aswiytsc sz lythtldf fahhay qdw favh zih zv ziy lymnhzcydngtl nikkfa.vfdc{vhv7g58m}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'd', 'b': 'e', 'c': 'l', 'd': 'r', 'e': 'a', 'f': 'v', 'g': 'c', 'h': 'g', 'i': 't', 'j': 'p', 'k': 'x', 'l': 'f', 'm': 'b', 'n': 's', 'o': 'z', 'p': 'n', 'q': 'u', 'r': 'y', 's': 'w', 't': 'h', 'u': 'i', 'v': 'j', 'w': 'q', 'x': 'o', 'y': 'm', 'z': 'k'}
+subtype: substitution
+archetype: classical_cipher

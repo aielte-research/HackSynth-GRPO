@@ -1,0 +1,16 @@
+Sara encrypted her diary using AES-ECB, but padded her 5-byte password with null bytes. Can you recover her secret from this ciphertext? 6a8357f4eac4f2a9eb47a819ba3dfcc4
+
+An encryption key that is only 2 bytes long?.
+
+---
+
+## Challenge Technical Details
+flag: flag{jrqbp0yc}
+ciphertext: 6a8357f4eac4f2a9eb47a819ba3dfcc4
+cipher: AES-ECB
+vulnerability: small key padded with null bytes
+hint: ECB mode with a short key makes brute-forcing possible. Consider the small key entropy.
+necessary_info: An encryption key that is only 2 bytes long?.
+extra_info: Padding follows PKCS#7. The key is padded to 16 bytes with null bytes.
+subtype: weak_cookie_encryption
+archetype: web_crypto

@@ -1,0 +1,15 @@
+An agent split the secret flag with the ChunkedFlag cipher before sending it. Recover the original flag from this transmission: fla g{ f3 ph 1e 9n}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{f3ph1e9n}
+ciphertext: fla g{ f3 ph 1e 9n}
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

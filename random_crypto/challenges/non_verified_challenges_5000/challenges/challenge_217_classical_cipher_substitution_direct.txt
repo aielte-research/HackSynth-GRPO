@@ -1,0 +1,21 @@
+An old treasure map holds a secret message. Decipher the coded instructions below using the Substitution cipher to reveal the path: sawh{bz1ysttp}
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'w', 'b': 'c', 'c': 'j', 'd': 'n', 'e': 'v', 'f': 's', 'g': 'h', 'h': 'i', 'i': 'p', 'j': 'r', 'k': 'f', 'l': 'a', 'm': 'u', 'n': 'o', 'o': 'b', 'p': 'l', 'q': 'x', 'r': 't', 's': 'z', 't': 'e', 'u': 'g', 'v': 'y', 'w': 'q', 'x': 'k', 'y': 'd', 'z': 'm'}
+
+---
+
+## Challenge Technical Details
+flag: flag{os1vfrri}
+cipher: Substitution
+ciphertext: sawh{bz1ysttp}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'w', 'b': 'c', 'c': 'j', 'd': 'n', 'e': 'v', 'f': 's', 'g': 'h', 'h': 'i', 'i': 'p', 'j': 'r', 'k': 'f', 'l': 'a', 'm': 'u', 'n': 'o', 'o': 'b', 'p': 'l', 'q': 'x', 'r': 't', 's': 'z', 't': 'e', 'u': 'g', 'v': 'y', 'w': 'q', 'x': 'k', 'y': 'd', 'z': 'm'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

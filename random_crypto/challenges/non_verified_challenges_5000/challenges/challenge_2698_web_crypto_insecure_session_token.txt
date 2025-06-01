@@ -1,0 +1,12 @@
+You've intercepted a login session from a vulnerable app. The crucial token, encrypted using Insecure Session Token cipher, is: 757365725f75366d623a666c61677b74347578353967357d3a31373438313637383933. Can you recover the original session details?
+
+---
+
+## Challenge Technical Details
+flag: flag{t4ux59g5}
+ciphertext: 757365725f75366d623a666c61677b74347578353967357d3a31373438313637383933
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_u6mb:flag{t4ux59g5}:1748167893'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

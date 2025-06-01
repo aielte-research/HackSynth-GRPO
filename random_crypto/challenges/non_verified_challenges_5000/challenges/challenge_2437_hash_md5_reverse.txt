@@ -1,0 +1,15 @@
+A mysterious hacker left an MD5 hash behind. Rumor says a flaw now makes it weak. Recover the original secret hidden in e20a184008d2c20d08455aad4e80aec7 before others do.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{KOLDN}
+ciphertext: e20a184008d2c20d08455aad4e80aec7
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

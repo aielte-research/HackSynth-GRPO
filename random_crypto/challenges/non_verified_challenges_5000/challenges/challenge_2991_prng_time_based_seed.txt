@@ -1,0 +1,21 @@
+
+A hacker intercepted a message encrypted with a time-seeded PRNG. Can you recover the flag from the mysterious 666c2c2f7b392c3f73673c276f7d?
+
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 33313)
+The system time when the encryption process started was around: 2025-05-25 12:18:13 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{9awsgqoo}
+ciphertext: 666c2c2f7b392c3f73673c276f7d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 33313)
+The system time when the encryption process started was around: 2025-05-25 12:18:13 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 19784.
+subtype: time_based_seed
+archetype: prng

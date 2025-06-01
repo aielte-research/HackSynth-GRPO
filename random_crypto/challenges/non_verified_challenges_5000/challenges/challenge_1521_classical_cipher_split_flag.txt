@@ -1,0 +1,15 @@
+Intercepted at the hacker meetup: a secret code using the notorious SplitNumberMix cipher. Can you crack  222222222 f 222222222 la 222222222 g{hhmlyoxe} 222222222  and reveal the access passphrase?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{hhmlyoxe}
+ciphertext:  222222222 f 222222222 la 222222222 g{hhmlyoxe} 222222222 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 3 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

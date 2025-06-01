@@ -1,0 +1,14 @@
+
+A rushed developer deployed a web app using session tokens encrypted with the flawed Insecure Session Token cipher. Recover the original session ID from this ciphertext: 757365725f667578753a666c61677b33686433733470387d3a31373438313639373331
+
+
+---
+
+## Challenge Technical Details
+flag: flag{3hd3s4p8}
+ciphertext: 757365725f667578753a666c61677b33686433733470387d3a31373438313639373331
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_fuxu:flag{3hd3s4p8}:1748169731'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

@@ -1,0 +1,27 @@
+A careless developer encrypted the admin password using an insecure random sequence. The intercepted message is below—can you recover the secret?
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1645269379
+  - Multiplier: 727837410
+  - Increment: 413454900
+The first 5 outputs of the LCG are provided: [903315305, 31542300, 270562303, 936900158, 706325581] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{qhr9vi6f}
+ciphertext: 23353dda3e2834cf7c2f358b2324
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1645269379
+  - Multiplier: 727837410
+  - Increment: 413454900
+The first 5 outputs of the LCG are provided: [903315305, 31542300, 270562303, 936900158, 706325581] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

@@ -1,0 +1,21 @@
+A rogue AI intercepted your briefing and encrypted it with a substitution cipher. Can you recover the message from this intercepted text: vcnx{bqnrn4rr}?
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'n', 'b': 'h', 'c': 'b', 'd': 'y', 'e': 'l', 'f': 'v', 'g': 'x', 'h': 'j', 'i': 'u', 'j': 'w', 'k': 'p', 'l': 'c', 'm': 'k', 'n': 'f', 'o': 'q', 'p': 'i', 'q': 'e', 'r': 'm', 's': 'g', 't': 's', 'u': 't', 'v': 'o', 'w': 'd', 'x': 'z', 'y': 'r', 'z': 'a'}
+
+---
+
+## Challenge Technical Details
+flag: flag{coaya4yy}
+cipher: Substitution
+ciphertext: vcnx{bqnrn4rr}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'n', 'b': 'h', 'c': 'b', 'd': 'y', 'e': 'l', 'f': 'v', 'g': 'x', 'h': 'j', 'i': 'u', 'j': 'w', 'k': 'p', 'l': 'c', 'm': 'k', 'n': 'f', 'o': 'q', 'p': 'i', 'q': 'e', 'r': 'm', 's': 'g', 't': 's', 'u': 't', 'v': 'o', 'w': 'd', 'x': 'z', 'y': 'r', 'z': 'a'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

@@ -1,0 +1,17 @@
+Agent Z encoded her secret rendezvous time using AES-CFB. She left only the encrypted message: 5620a0ab8dd4fa71ea7d3ddf1995f03a9058717a4e6355334c816bff7480deba8199969ab982f7a14a266c1d53c4640699acb1255d7d704816b1fa6d88fd67f71619c4648949436ee0e4733a395cc329e653b2faeaa47963aeea41652a0471a2562a2ed29e9abad7c45ccc21c6842c9303f7b0f4e02e39a8b1ef3fd9e717440fe392bc92d877f2cda3826c53a36d0069924d92075c63eccde0ab84007211e1427733bc76e9b62181360cced8c1ecd4edb6. Can you decipher when to meet?
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{tu4ytew3}
+ciphertext: 5620a0ab8dd4fa71ea7d3ddf1995f03a9058717a4e6355334c816bff7480deba8199969ab982f7a14a266c1d53c4640699acb1255d7d704816b1fa6d88fd67f71619c4648949436ee0e4733a395cc329e653b2faeaa47963aeea41652a0471a2562a2ed29e9abad7c45ccc21c6842c9303f7b0f4e02e39a8b1ef3fd9e717440fe392bc92d877f2cda3826c53a36d0069924d92075c63eccde0ab84007211e1427733bc76e9b62181360cced8c1ecd4edb6
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: f71ee9c2c25737de0bcb652324408d18
+subtype: aes_cfb
+archetype: aes

@@ -1,0 +1,15 @@
+A Roman general encodes secret orders using Caesar's shift. Can you uncover his hidden message and reveal the plan? Here is the encrypted note: iodj{16yl0sa2}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{16vi0px2}
+ciphertext: iodj{16yl0sa2}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 3
+subtype: caesar
+archetype: classical_cipher

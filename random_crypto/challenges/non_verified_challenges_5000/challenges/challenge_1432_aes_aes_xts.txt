@@ -1,0 +1,15 @@
+Your friend's portable drive is encrypted with AES-XTS. All you have is the ciphertext: ciphertext1:fbb6f26496220386c0f881e9a2b1426c, ciphertext2: 7bb4a3e083643f6dd70b910841a678c078f2747b6461764c77841ce161a4a7f9. Can you recover the lost data before it's too late?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{9wq3k5z0}
+ciphertext: ciphertext1:fbb6f26496220386c0f881e9a2b1426c, ciphertext2: 7bb4a3e083643f6dd70b910841a678c078f2747b6461764c77841ce161a4a7f9
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 70a7f8b3d13cf49e2bbfcbb5a3c8280a
+subtype: aes_xts
+archetype: aes

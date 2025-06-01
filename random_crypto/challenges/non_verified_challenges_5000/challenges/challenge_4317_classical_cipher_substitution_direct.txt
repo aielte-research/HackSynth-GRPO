@@ -1,0 +1,21 @@
+An old hacker leaves behind a note reading asbr{1ly594oh}. It’s rumored he hid a wallet key using a simple letter swap. Can you decode his secret?
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'b', 'b': 'f', 'c': 'o', 'd': 'u', 'e': 'x', 'f': 'a', 'g': 'r', 'h': 'k', 'i': 'y', 'j': 'n', 'k': 'l', 'l': 's', 'm': 'j', 'n': 'h', 'o': 'g', 'p': 'z', 'q': 't', 'r': 'd', 's': 'v', 't': 'w', 'u': 'e', 'v': 'q', 'w': 'c', 'x': 'i', 'y': 'm', 'z': 'p'}
+
+---
+
+## Challenge Technical Details
+flag: flag{1ki594cn}
+cipher: Substitution
+ciphertext: asbr{1ly594oh}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'b', 'b': 'f', 'c': 'o', 'd': 'u', 'e': 'x', 'f': 'a', 'g': 'r', 'h': 'k', 'i': 'y', 'j': 'n', 'k': 'l', 'l': 's', 'm': 'j', 'n': 'h', 'o': 'g', 'p': 'z', 'q': 't', 'r': 'd', 's': 'v', 't': 'w', 'u': 'e', 'v': 'q', 'w': 'c', 'x': 'i', 'y': 'm', 'z': 'p'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+A spy intercepted the message below. It’s scrambled using a zigzag pattern. Can you reveal the hidden instruction? Ciphertext: f{ualg3xus}aqk
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{3qxuuksa}
+ciphertext: f{ualg3xus}aqk
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 3
+subtype: rail_fence
+archetype: classical_cipher

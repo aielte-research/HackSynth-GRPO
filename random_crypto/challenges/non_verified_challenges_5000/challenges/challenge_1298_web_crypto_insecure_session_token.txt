@@ -1,0 +1,12 @@
+Bob's web app uses a homemade session token scheme. Can you retrieve the admin's flag from this encrypted session? Ciphertext: 757365725f6d316c643a666c61677b33716932766461317d3a31373438313635383631
+
+---
+
+## Challenge Technical Details
+flag: flag{3qi2vda1}
+ciphertext: 757365725f6d316c643a666c61677b33716932766461317d3a31373438313635383631
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_m1ld:flag{3qi2vda1}:1748165861'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

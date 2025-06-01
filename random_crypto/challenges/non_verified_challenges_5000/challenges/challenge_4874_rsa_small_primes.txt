@@ -1,0 +1,18 @@
+A rookie forgot to use large primes when encrypting the secret, compromising RSA security. Can you recover the flag from this ciphertext? 8780479130732584351
+
+The flag format is flag{...}
+n=14226514766775996523, e=11482494849471080021
+
+---
+
+## Challenge Technical Details
+flag: flag{shtshn5i}
+cipher: RSA
+ciphertext: 8780479130732584351
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=14226514766775996523, e=11482494849471080021
+extra_info: p=4071357853, q=3494292391, φ(n)=14226514759210346280
+subtype: small_primes
+archetype: rsa

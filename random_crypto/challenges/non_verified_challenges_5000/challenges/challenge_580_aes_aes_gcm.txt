@@ -1,0 +1,18 @@
+An intern encrypted two secrets with AES-GCM but reused the same nonce, exposing both in ciphertext1:70c35c592abd9b8135f6b5739192, ciphertext2: 62c7544d71e38b9438f3af6ac4cf1076d38d. Can you recover the hidden flag?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{7c5cjn94}
+ciphertext: ciphertext1:70c35c592abd9b8135f6b5739192, ciphertext2: 62c7544d71e38b9438f3af6ac4cf1076d38d
+tag1: dbb81982933d0b0dbcece082709c2652
+tag2: a388be6bc2d84d495bc00918c6a7703f
+cipher: AES-GCM
+vulnerability: nonce reuse
+hint: AES-GCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 402bc25575c0a2fb803b0341
+subtype: aes_gcm
+archetype: aes

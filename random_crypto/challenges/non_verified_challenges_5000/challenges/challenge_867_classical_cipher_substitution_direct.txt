@@ -1,0 +1,23 @@
+
+Intercepted smugglers' note hides a keyword. Decipher their simple substitution code: umgt{w7dvvvqq}
+
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'g', 'b': 'x', 'c': 'j', 'd': 'i', 'e': 'e', 'f': 'u', 'g': 't', 'h': 'y', 'i': 'd', 'j': 'w', 'k': 'z', 'l': 'm', 'm': 'o', 'n': 'b', 'o': 'q', 'p': 'k', 'q': 'p', 'r': 'f', 's': 'r', 't': 'h', 'u': 'l', 'v': 's', 'w': 'n', 'x': 'c', 'y': 'a', 'z': 'v'}
+
+---
+
+## Challenge Technical Details
+flag: flag{j7izzzoo}
+cipher: Substitution
+ciphertext: umgt{w7dvvvqq}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'g', 'b': 'x', 'c': 'j', 'd': 'i', 'e': 'e', 'f': 'u', 'g': 't', 'h': 'y', 'i': 'd', 'j': 'w', 'k': 'z', 'l': 'm', 'm': 'o', 'n': 'b', 'o': 'q', 'p': 'k', 'q': 'p', 'r': 'f', 's': 'r', 't': 'h', 'u': 'l', 'v': 's', 'w': 'n', 'x': 'c', 'y': 'a', 'z': 'v'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

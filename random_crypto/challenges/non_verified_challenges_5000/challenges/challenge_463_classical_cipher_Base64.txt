@@ -1,0 +1,15 @@
+An intercepted spy message labeled "Encoded for swift eyes only" arrived at HQ. Can you decode its true contents from this cryptic string? ZmxhZ3tmOTN4M3o3cn0=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{f93x3z7r}
+cipher: Base64
+ciphertext: ZmxhZ3tmOTN4M3o3cn0=
+hint: Use a Base64 decoder to obtain the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is direct; no additional layers or tricks.
+subtype: Base64
+archetype: classical_cipher

@@ -1,0 +1,21 @@
+
+A distracted admin hashed user passwords with SHA-256 and always used their birth year as the salt. Can you recover the original password from cc10c7a21f1d4ea79df000f39b603a754ec87ef54f15cea49dba2e85557554ff?
+
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{5nl}
+ciphertext: cc10c7a21f1d4ea79df000f39b603a754ec87ef54f15cea49dba2e85557554ff
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

@@ -1,0 +1,15 @@
+An old hacker's blog post reveals a hidden message, but it's encoded in Base85. Can you decode the secret text? Here it is: Q8+ttdr@OIG*C!rHB%->JZW-vP$ourO;dbLd0|&<CM_sePHQ1nRdq;kH)LRUXDw2CP;z2RRcAf
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{l9zbbiv6}
+cipher: Base85
+ciphertext: Q8+ttdr@OIG*C!rHB%->JZW-vP$ourO;dbLd0|&<CM_sePHQ1nRdq;kH)LRUXDw2CP;z2RRcAf
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 7 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

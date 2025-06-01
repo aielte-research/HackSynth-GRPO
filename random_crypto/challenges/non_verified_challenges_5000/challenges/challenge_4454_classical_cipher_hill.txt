@@ -1,0 +1,19 @@
+
+An archaeologist found a torn map with a scrambled code. She’s sure the Hill cipher hides the next clue: eapamabtjzfennqglfwfdvlsxwhwablfgsunjxunuiwavdbksaicfrkyxhbeqqjlmaagaz
+
+
+The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+
+---
+
+## Challenge Technical Details
+flag: flag{mydomssx}
+ciphertext: eapamabtjzfennqglfwfdvlsxwhwablfgsunjxunuiwavdbksaicfrkyxhbeqqjlmaagaz
+cipher: Hill
+hint: Hill ciphers can be broken using known-plaintext attacks and linear algebra mod 26.
+necessary_info: The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+extra_info: The matrix used is: [[19, 7], [24, 11]]
+subtype: hill
+archetype: classical_cipher

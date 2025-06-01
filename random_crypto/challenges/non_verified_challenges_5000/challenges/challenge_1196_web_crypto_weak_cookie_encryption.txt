@@ -1,0 +1,18 @@
+
+Bob encrypted his password using AES-ECB with a key shorter than 16 bytes, null-padded. Recover his key from the ciphertext: fe027082e2adec26899550c39fc03917
+
+
+An encryption key that is only 2 bytes long?.
+
+---
+
+## Challenge Technical Details
+flag: flag{tdknfvhk}
+ciphertext: fe027082e2adec26899550c39fc03917
+cipher: AES-ECB
+vulnerability: small key padded with null bytes
+hint: ECB mode with a short key makes brute-forcing possible. Consider the small key entropy.
+necessary_info: An encryption key that is only 2 bytes long?.
+extra_info: Padding follows PKCS#7. The key is padded to 16 bytes with null bytes.
+subtype: weak_cookie_encryption
+archetype: web_crypto

@@ -1,0 +1,18 @@
+An encrypted vault has surfaced. Legend says the passphrase unlocks a hidden key. Can you decrypt ciphertext1:a79009feabcebce1a7ac2960fcd3, ciphertext2: a79009feabd6b1beb3ec7d6cebd3 using the AES cipher and reveal what’s inside?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{mjlbu8as}
+ciphertext: ciphertext1:a79009feabcebce1a7ac2960fcd3, ciphertext2: a79009feabd6b1beb3ec7d6cebd3
+tag1: a56cc42af9f9c1635162197092cd18c2
+tag2: 31c847bd36ecbbda1bba2d8bed5b58f9
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 8dcfeba7edcd9da60f4c87
+subtype: aes_ccm
+archetype: aes

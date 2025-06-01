@@ -1,0 +1,16 @@
+An old hacker left a note—rumored to unlock a hidden wallet—encrypted as sesr{q2p4coz4}. Can you break the code and claim the coins?
+
+The flag format is flag{...}
+The keyword is: ntslwnw
+
+---
+
+## Challenge Technical Details
+flag: flag{u2c4gbg4}
+ciphertext: sesr{q2p4coz4}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: ntslwnw
+subtype: vigenere
+archetype: classical_cipher

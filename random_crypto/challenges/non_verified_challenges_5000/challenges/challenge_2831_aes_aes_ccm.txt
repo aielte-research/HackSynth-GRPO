@@ -1,0 +1,18 @@
+Agent Iris intercepted a message from CipherCorp. It’s encrypted with AES. Can you help her uncover the secret? Encrypted text: ciphertext1:c41f0ff23fb26c1569dd43d95b57, ciphertext2: c41f0ff23fa1704a638351c44457
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{xyoc2tuh}
+ciphertext: ciphertext1:c41f0ff23fb26c1569dd43d95b57, ciphertext2: c41f0ff23fa1704a638351c44457
+tag1: 258f9b31cf20b096e598cd818ad1117d
+tag2: 0037b4181bde386aadff90b612444357
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: f75f2fd07b60e9002d6e2c
+subtype: aes_ccm
+archetype: aes

@@ -1,0 +1,21 @@
+
+Hacked IoT device logs showed secret messages encrypted with a weak PRNG cipher. Can you recover the flag from this intercepted ciphertext: 666c60ae7b6e35fd6a757ba8307d?
+
+
+The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [463, 886, 573, 877, 799, 476, 462, 520, 875, 601, 194, 189, 823, 524, 487, 644, 628, 812, 190, 96]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 899)
+
+---
+
+## Challenge Technical Details
+flag: flag{n44juza0}
+ciphertext: 666c60ae7b6e35fd6a757ba8307d
+cipher: Low-entropy PRNG
+hint: The PRNG seed space is small. You can try brute-forcing all possible seeds to reconstruct the sequence.
+necessary_info: The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [463, 886, 573, 877, 799, 476, 462, 520, 875, 601, 194, 189, 823, 524, 487, 644, 628, 812, 190, 96]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 899)
+extra_info: Since the seed has only 256 possible values, it can be brute-forced to recover the secret number and decrypt the flag.
+subtype: low_entropy_generator
+archetype: prng

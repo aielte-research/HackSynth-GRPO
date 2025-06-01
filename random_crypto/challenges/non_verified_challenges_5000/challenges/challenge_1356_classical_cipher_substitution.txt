@@ -1,0 +1,15 @@
+An ancient message hides the vault’s password. Decrypt the substitution cipher below to unlock access: sf aryuweirkuny, k mldmwswlwsef asungr sm k hgwnex ec gfaryuwsfi sf vnsan lfswm ec ubksfwgzw krg rgubkagx vswn wng asungrwgzw, sf k xgcsfgx hkffgr, vswn wng ngbu ec k ogy; wng "lfswm" hky dg msfibg bgwwgrm (wng hemw aehhef), uksrm ec bgwwgrm, wrsubgwm ec bgwwgrm, hszwlrgm ec wng kdetg, kfx me cerwn. wng rgagstgr xgasungrm wng wgzw dy ugrcerhsfi wng sftgrmg mldmwswlwsef ureagmm we gzwrkaw wng ersisfkb hgmmkig. bsogvsmg, jkaplgm plsaoby qsuugx wnrelin k plgmwsef ef qgre-ofevbgxig ureecm, gfmlrsfi fe arswsakb bgwwgr vkm bgcw elw ec elr aryuweirkunsa ulqqbg.cbki{awwzoj2h}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{cttxkj2m}
+ciphertext: sf aryuweirkuny, k mldmwswlwsef asungr sm k hgwnex ec gfaryuwsfi sf vnsan lfswm ec ubksfwgzw krg rgubkagx vswn wng asungrwgzw, sf k xgcsfgx hkffgr, vswn wng ngbu ec k ogy; wng "lfswm" hky dg msfibg bgwwgrm (wng hemw aehhef), uksrm ec bgwwgrm, wrsubgwm ec bgwwgrm, hszwlrgm ec wng kdetg, kfx me cerwn. wng rgagstgr xgasungrm wng wgzw dy ugrcerhsfi wng sftgrmg mldmwswlwsef ureagmm we gzwrkaw wng ersisfkb hgmmkig. bsogvsmg, jkaplgm plsaoby qsuugx wnrelin k plgmwsef ef qgre-ofevbgxig ureecm, gfmlrsfi fe arswsakb bgwwgr vkm bgcw elw ec elr aryuweirkunsa ulqqbg.cbki{awwzoj2h}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'k', 'b': 'd', 'c': 'a', 'd': 'x', 'e': 'g', 'f': 'c', 'g': 'i', 'h': 'n', 'i': 's', 'j': 'j', 'k': 'o', 'l': 'b', 'm': 'h', 'n': 'f', 'o': 'e', 'p': 'u', 'q': 'p', 'r': 'r', 's': 'm', 't': 'w', 'u': 'l', 'v': 't', 'w': 'v', 'x': 'z', 'y': 'y', 'z': 'q'}
+subtype: substitution
+archetype: classical_cipher

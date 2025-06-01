@@ -1,0 +1,14 @@
+Solve the bug in our new voting protocol—can you forge a valid signature under RSA low exponent? Here’s the signature you intercepted: 0x58b863fe3ab313d728523954d527de7cf7df05290e1af69b6bca4d550ab76aff6a6740ef0a6da0a3e43fabe887b5516fb9cdbfcb956339d7bda548b74ba6b95f
+
+Public Key (n, e): (8421251582159513664038786510223183680947953868131046339548775703162798874396917956399959502541403341206064647713415852266616365914666928210421206582832183, 3)
+
+---
+
+## Challenge Technical Details
+flag: flag{8i86wgi2}
+ciphertext: 0x58b863fe3ab313d728523954d527de7cf7df05290e1af69b6bca4d550ab76aff6a6740ef0a6da0a3e43fabe887b5516fb9cdbfcb956339d7bda548b74ba6b95f
+cipher: RSA Low-Exponent Signature
+hint: What happens when you cube small numbers? Remember e=3!
+necessary_info: Public Key (n, e): (8421251582159513664038786510223183680947953868131046339548775703162798874396917956399959502541403341206064647713415852266616365914666928210421206582832183, 3)
+subtype: rsa_sign_with_low_public_exponent
+archetype: signature_schemes

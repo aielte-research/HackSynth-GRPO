@@ -1,0 +1,15 @@
+An old server stores secrets encrypted with MD5. A leak exposed e5fddf1d0b4c0cebcbe6c458246f65a4, but nobody knows the password. Can you exploit MD5's reversibility to recover it?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{MIDMO}
+ciphertext: e5fddf1d0b4c0cebcbe6c458246f65a4
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

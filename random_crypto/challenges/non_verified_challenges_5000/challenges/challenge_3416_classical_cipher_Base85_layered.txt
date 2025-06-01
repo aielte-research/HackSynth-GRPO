@@ -1,0 +1,15 @@
+A hacker hid the login code for the vault in a Base85-encoded message. Can you decode it? Here’s the cipher: Q8+ttdr@OIG*C!rHB%->JZW-vP$p-1QBO=cOmR^|GigOwDo-$ePe)lyepf$sJ62CSOIkKnU{oO
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{f4bxo57v}
+cipher: Base85
+ciphertext: Q8+ttdr@OIG*C!rHB%->JZW-vP$p-1QBO=cOmR^|GigOwDo-$ePe)lyepf$sJ62CSOIkKnU{oO
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 7 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

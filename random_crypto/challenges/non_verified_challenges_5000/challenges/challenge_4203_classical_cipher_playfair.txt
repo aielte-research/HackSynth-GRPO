@@ -1,0 +1,19 @@
+
+A whistleblower sent you a Playfair-encrypted note, warning of a planned data heist. Can you decrypt omcakbgypkoaqimcsqqakbgypkstovkwctwdmcertoqgcakbgypkoaqimcqkrbkegvbktflztmoshppyaoneqmqgzmhopqovcbdfdktomcnlstsmmqatbknkdoekoxlxqmozqmqgphciatbscdhaewlbqh before it’s too late?
+
+
+The flag format is flag{...}
+The keyword is: gndfycpp
+
+---
+
+## Challenge Technical Details
+flag: flag{kcazbfoj}
+ciphertext: omcakbgypkoaqimcsqqakbgypkstovkwctwdmcertoqgcakbgypkoaqimcqkrbkegvbktflztmoshppyaoneqmqgzmhopqovcbdfdktomcnlstsmmqatbknkdoekoxlxqmozqmqgphciatbscdhaewlbqh
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: gndfycpp
+extra_info: The playfair table is [['g', 'n', 'd', 'f', 'y'], ['c', 'p', 'a', 'b', 'e'], ['h', 'i', 'k', 'l', 'm'], ['o', 'q', 'r', 's', 't'], ['u', 'v', 'w', 'x', 'z']]
+subtype: playfair
+archetype: classical_cipher

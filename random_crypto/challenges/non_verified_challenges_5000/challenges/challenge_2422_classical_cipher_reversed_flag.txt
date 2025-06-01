@@ -1,0 +1,15 @@
+A secret society hid their entrance passcode by reversing its characters. Can you restore the original password from this reversed text? }b0xghjmg{galf
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{gmjhgx0b}
+ciphertext: }b0xghjmg{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

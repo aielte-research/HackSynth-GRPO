@@ -1,0 +1,15 @@
+Archaeologists found a coded plaque in a ruined vault. The inscription, obscured by age, reads:  666666666 flag 666666666 {bv 666666666 svpktq} 666666666 . Can you uncover the hidden message using SplitNumberMix?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{bvsvpktq}
+ciphertext:  666666666 flag 666666666 {bv 666666666 svpktq} 666666666 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 3 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

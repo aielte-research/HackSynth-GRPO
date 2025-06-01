@@ -1,0 +1,18 @@
+
+An apprentice padded a short key with nulls before encrypting secrets with AES-ECB. Recover the flag from: b685597f03e3e06e470a1a0e366abdf8
+
+
+An encryption key that is only 2 bytes long?.
+
+---
+
+## Challenge Technical Details
+flag: flag{ofb9qu9d}
+ciphertext: b685597f03e3e06e470a1a0e366abdf8
+cipher: AES-ECB
+vulnerability: small key padded with null bytes
+hint: ECB mode with a short key makes brute-forcing possible. Consider the small key entropy.
+necessary_info: An encryption key that is only 2 bytes long?.
+extra_info: Padding follows PKCS#7. The key is padded to 16 bytes with null bytes.
+subtype: weak_cookie_encryption
+archetype: web_crypto

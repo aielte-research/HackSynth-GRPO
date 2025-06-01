@@ -1,0 +1,16 @@
+An old hacker left a clue to his stash in a Vigenère-encrypted note: eteg{kp53d7te}. Can you reveal the hidden key and claim the treasure?
+
+The flag format is flag{...}
+The keyword is: zieas
+
+---
+
+## Challenge Technical Details
+flag: flag{sq53v7pe}
+ciphertext: eteg{kp53d7te}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: zieas
+subtype: vigenere
+archetype: classical_cipher

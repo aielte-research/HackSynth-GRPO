@@ -1,0 +1,16 @@
+We encrypted a flag with AES-ECB, using a short key padded with null bytes. Can you reveal it? The ciphertext is: 3244a8cc8d5f8ad793771a04483d826a
+
+An encryption key that is only 2 bytes long?.
+
+---
+
+## Challenge Technical Details
+flag: flag{627810e8}
+ciphertext: 3244a8cc8d5f8ad793771a04483d826a
+cipher: AES-ECB
+vulnerability: small key padded with null bytes
+hint: ECB mode with a short key makes brute-forcing possible. Consider the small key entropy.
+necessary_info: An encryption key that is only 2 bytes long?.
+extra_info: Padding follows PKCS#7. The key is padded to 16 bytes with null bytes.
+subtype: weak_cookie_encryption
+archetype: web_crypto

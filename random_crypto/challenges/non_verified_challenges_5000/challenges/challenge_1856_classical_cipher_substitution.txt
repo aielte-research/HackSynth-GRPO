@@ -1,0 +1,15 @@
+A rival hacker left you a taunting message, but it's scrambled. Can you break their Substitution cipher and reveal what they wrote? Ciphertext: pf vrdntazrinsd, i ckwctptktpaf vpnslr pc i gltsay am lfvrdntpfz pf espvs kfptc am njipftlxt irl rlnjivly epts tsl vpnslrtlxt, pf i ylmpfly gifflr, epts tsl sljn am i qld; tsl "kfptc" gid wl cpfzjl jlttlrc (tsl gact vaggaf), niprc am jlttlrc, trpnjltc am jlttlrc, gpxtkrlc am tsl iwaul, ify ca marts. tsl rlvlpulr ylvpnslrc tsl tlxt wd nlrmargpfz tsl pfulrcl ckwctptktpaf nravlcc ta lxtrivt tsl arpzpfij glccizl. jpqlepcl, bivoklc okpvqjd hpnnly tsrakzs i oklctpaf af hlra-qfaejlyzl nraamc, lfckrpfz fa vrptpvij jlttlr eic jlmt akt am akr vrdntazrinspv nkhhjl.mjiz{yyegoe5s}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ddwmqw5h}
+ciphertext: pf vrdntazrinsd, i ckwctptktpaf vpnslr pc i gltsay am lfvrdntpfz pf espvs kfptc am njipftlxt irl rlnjivly epts tsl vpnslrtlxt, pf i ylmpfly gifflr, epts tsl sljn am i qld; tsl "kfptc" gid wl cpfzjl jlttlrc (tsl gact vaggaf), niprc am jlttlrc, trpnjltc am jlttlrc, gpxtkrlc am tsl iwaul, ify ca marts. tsl rlvlpulr ylvpnslrc tsl tlxt wd nlrmargpfz tsl pfulrcl ckwctptktpaf nravlcc ta lxtrivt tsl arpzpfij glccizl. jpqlepcl, bivoklc okpvqjd hpnnly tsrakzs i oklctpaf af hlra-qfaejlyzl nraamc, lfckrpfz fa vrptpvij jlttlr eic jlmt akt am akr vrdntazrinspv nkhhjl.mjiz{yyegoe5s}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'i', 'b': 'w', 'c': 'v', 'd': 'y', 'e': 'l', 'f': 'm', 'g': 'z', 'h': 's', 'i': 'p', 'j': 'b', 'k': 'q', 'l': 'j', 'm': 'g', 'n': 'f', 'o': 'a', 'p': 'n', 'q': 'o', 'r': 'r', 's': 'c', 't': 't', 'u': 'k', 'v': 'u', 'w': 'e', 'x': 'x', 'y': 'd', 'z': 'h'}
+subtype: substitution
+archetype: classical_cipher

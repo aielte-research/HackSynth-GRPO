@@ -1,0 +1,13 @@
+
+Intercepted JWT tokens hide the vault code. Can you decode eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tnaWtwemJwZn0ifQ. and extract the secret before your rivals do?
+
+
+---
+
+## Challenge Technical Details
+flag: flag{gikpzbpf}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tnaWtwemJwZn0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

@@ -1,0 +1,15 @@
+An old server stored admin passwords as MD5 hashes. Someone leaked this hash: d6fdefa350e5c308646b8f1ff10989ad. Can you recover the original password using MD5’s vulnerabilities?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{tyold}
+ciphertext: d6fdefa350e5c308646b8f1ff10989ad
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

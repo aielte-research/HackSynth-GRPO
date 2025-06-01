@@ -1,0 +1,17 @@
+
+A hacker left a message for her crew but hid it on a subway map, zig-zagged like train tracks. Decode f{qzlgh91q}ae6 to reveal her next move.
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{he9q16qz}
+ciphertext: f{qzlgh91q}ae6
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 3
+subtype: rail_fence
+archetype: classical_cipher

@@ -1,0 +1,18 @@
+You intercepted an encrypted message sent with AES between rival hackers. Decrypt ciphertext1:16da184967f7e6183ddc9bc9abf2, ciphertext2: 16da184967edfe4121d38c97aaf2 to reveal their secret plan.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{mthy7gk4}
+ciphertext: ciphertext1:16da184967f7e6183ddc9bc9abf2, ciphertext2: 16da184967edfe4121d38c97aaf2
+tag1: 03b3620a8693a7975be63a8c80ab833e
+tag2: e28d805b8f52388f8def041a6cb30fdd
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 8fd63d7b4e444762e523dd
+subtype: aes_ccm
+archetype: aes

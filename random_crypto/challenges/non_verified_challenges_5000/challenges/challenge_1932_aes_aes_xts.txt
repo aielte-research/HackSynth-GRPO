@@ -1,0 +1,15 @@
+A hacker encrypted secret blueprints with AES-XTS. All we have is this ciphertext: ciphertext1:1430cbb69d750809b4ee1a0fa12b9f3d, ciphertext2: de7713c4575f9bd3aeb308160c0f06ee9e0ae76415db40da51993a9105006f2d. Can you recover the original file?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{m09sh7dq}
+ciphertext: ciphertext1:1430cbb69d750809b4ee1a0fa12b9f3d, ciphertext2: de7713c4575f9bd3aeb308160c0f06ee9e0ae76415db40da51993a9105006f2d
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 0731f67152e7fe17d677a4ca2a89ce87
+subtype: aes_xts
+archetype: aes

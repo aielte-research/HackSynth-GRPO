@@ -1,0 +1,19 @@
+Intercepted at midnight, this message uses a timestamped PRNG for encryption. Can you recover the plaintext from the mysterious 666ca1f37b36a9a5696dbaf7327d?
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 73676)
+The system time when the encryption process started was around: 2025-05-17 13:50:18 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{6i1imzc2}
+ciphertext: 666ca1f37b36a9a5696dbaf7327d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 73676)
+The system time when the encryption process started was around: 2025-05-17 13:50:18 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 49300.
+subtype: time_based_seed
+archetype: prng

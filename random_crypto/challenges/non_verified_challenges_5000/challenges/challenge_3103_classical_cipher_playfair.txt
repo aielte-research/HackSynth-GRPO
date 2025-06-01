@@ -1,0 +1,19 @@
+
+A rival hacker hid the key to their safe in a Playfair-encrypted message. Can you crack the code and reveal the secret? Ciphertext: rlpuicvokatdbkbdtgugicvokastrqdscpwhbdcstufcpuicvokatdbkbdshxkineqcitxivbnuslanddtzoslfcucdlamrqncdaxdtubdkmstyclsduciahrwnitqiusluqslfcalgbduomdkcqrzze
+
+
+The flag format is flag{...}
+The keyword is: mhjljbnd
+
+---
+
+## Challenge Technical Details
+flag: flag{ntuw80ub}
+ciphertext: rlpuicvokatdbkbdtgugicvokastrqdscpwhbdcstufcpuicvokatdbkbdshxkineqcitxivbnuslanddtzoslfcucdlamrqncdaxdtubdkmstyclsduciahrwnitqiusluqslfcalgbduomdkcqrzze
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: mhjljbnd
+extra_info: The playfair table is [['m', 'h', 'i', 'l', 'b'], ['n', 'd', 'a', 'c', 'e'], ['f', 'g', 'k', 'o', 'p'], ['q', 'r', 's', 't', 'u'], ['v', 'w', 'x', 'y', 'z']]
+subtype: playfair
+archetype: classical_cipher

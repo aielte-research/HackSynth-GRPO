@@ -1,0 +1,16 @@
+Your friend left a Vigenère-encrypted message in a code repository. Decode fcpd{qcwfeoc0} using the project’s default branch name as the key.
+
+The flag format is flag{...}
+The keyword is: arpxjntd
+
+---
+
+## Challenge Technical Details
+flag: flag{hpdcexn0}
+ciphertext: fcpd{qcwfeoc0}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: arpxjntd
+subtype: vigenere
+archetype: classical_cipher

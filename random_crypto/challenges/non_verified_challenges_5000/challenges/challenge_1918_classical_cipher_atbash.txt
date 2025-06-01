@@ -1,0 +1,14 @@
+An ancient scroll holds a secret message, but the letters seem reversed. Can you decode its hidden meaning? Ciphertext: uozt{cj3i6e7j}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{xq3r6v7q}
+cipher: Atbash
+ciphertext: uozt{cj3i6e7j}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

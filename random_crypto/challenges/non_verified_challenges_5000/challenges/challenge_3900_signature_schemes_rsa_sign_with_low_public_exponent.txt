@@ -1,0 +1,14 @@
+A hacker left their RSA-signed message, but used a dangerously low public exponent. Can you break their signature scheme and recover the signed message from 0x49134b7ac2f19d9e2fedddf5d9bc32c03bd56d73e57ad051d3883989076daa1c26844eb7ecf0dc6fce03559268bdddabc0e5a6cbab3d1160b875ad05001b9440?
+
+Public Key (n, e): (10186306714499328156316379475651533729116884651937174591886784178120146117146214819808347813661311470909296969588646529544838778201985129276148826579820819, 3)
+
+---
+
+## Challenge Technical Details
+flag: flag{6g0oyxhe}
+ciphertext: 0x49134b7ac2f19d9e2fedddf5d9bc32c03bd56d73e57ad051d3883989076daa1c26844eb7ecf0dc6fce03559268bdddabc0e5a6cbab3d1160b875ad05001b9440
+cipher: RSA Low-Exponent Signature
+hint: What happens when you cube small numbers? Remember e=3!
+necessary_info: Public Key (n, e): (10186306714499328156316379475651533729116884651937174591886784178120146117146214819808347813661311470909296969588646529544838778201985129276148826579820819, 3)
+subtype: rsa_sign_with_low_public_exponent
+archetype: signature_schemes

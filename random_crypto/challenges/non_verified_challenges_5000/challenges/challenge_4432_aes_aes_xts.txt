@@ -1,0 +1,15 @@
+The stolen disk containing secret plans was encrypted using AES-XTS. Only the right keys can reveal its secrets. Recover the plaintext from this ciphertext: ciphertext1:af0134d27cfc9b06afa0b35af9c5c6e9, ciphertext2: ef8633558fcd23a06d6a69d280a619980cd57f83a4f7f8d0ed9995ef7930da90
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{505ie8ay}
+ciphertext: ciphertext1:af0134d27cfc9b06afa0b35af9c5c6e9, ciphertext2: ef8633558fcd23a06d6a69d280a619980cd57f83a4f7f8d0ed9995ef7930da90
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: bcbd2bd0ebb8d74cda1d2112c90f1349
+subtype: aes_xts
+archetype: aes

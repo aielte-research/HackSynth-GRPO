@@ -1,0 +1,19 @@
+
+Intercepted in a spy’s diary, ykimyglhbhxvpwifumwmyglhbhsuoxvuhmsxifcyxlpoimyglhbhxvpwifweugovosgyulqrrmdxkbfmvxzozkpodkakpfoxhvmlubxlifhksudykzmdgyzevsvouwgwzkyxzkpobkoimdngbadcqfblep hides the launch code. Rumor says Playfair was her favorite word game. Can you crack it?
+
+
+The flag format is flag{...}
+The keyword is: dlyztvgy
+
+---
+
+## Challenge Technical Details
+flag: flag{tvnkgzjm}
+ciphertext: ykimyglhbhxvpwifumwmyglhbhsuoxvuhmsxifcyxlpoimyglhbhxvpwifweugovosgyulqrrmdxkbfmvxzozkpodkakpfoxhvmlubxlifhksudykzmdgyzevsvouwgwzkyxzkpobkoimdngbadcqfblep
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: dlyztvgy
+extra_info: The playfair table is [['d', 'l', 'y', 'z', 't'], ['v', 'g', 'a', 'b', 'c'], ['e', 'f', 'h', 'i', 'k'], ['m', 'n', 'o', 'p', 'q'], ['r', 's', 'u', 'w', 'x']]
+subtype: playfair
+archetype: classical_cipher

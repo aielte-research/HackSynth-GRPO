@@ -1,0 +1,15 @@
+A mysterious hacker left you a secret message. All you know: they used the XOR cipher. Can you uncover the original? Ciphertext: stringA: 2c0215502f545f2175710224083e stringB: 4a6e7437543266434746644f6343
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{f9b27fkk}
+cipher: XOR
+ciphertext: stringA: 2c0215502f545f2175710224083e stringB: 4a6e7437543266434746644f6343
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

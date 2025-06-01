@@ -1,0 +1,21 @@
+An agent intercepted a secret message encoded with a simple substitution cipher. Can you reveal the hidden instructions in chmg{z90ifxx8}?
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'm', 'b': 'u', 'c': 's', 'd': 'l', 'e': 'd', 'f': 'c', 'g': 'g', 'h': 'v', 'i': 'e', 'j': 'n', 'k': 'z', 'l': 'h', 'm': 'f', 'n': 'w', 'o': 'q', 'p': 'x', 'q': 'i', 'r': 'a', 's': 'p', 't': 'j', 'u': 'r', 'v': 'y', 'w': 'k', 'x': 'o', 'y': 'b', 'z': 't'}
+
+---
+
+## Challenge Technical Details
+flag: flag{k90qmpp8}
+cipher: Substitution
+ciphertext: chmg{z90ifxx8}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'm', 'b': 'u', 'c': 's', 'd': 'l', 'e': 'd', 'f': 'c', 'g': 'g', 'h': 'v', 'i': 'e', 'j': 'n', 'k': 'z', 'l': 'h', 'm': 'f', 'n': 'w', 'o': 'q', 'p': 'x', 'q': 'i', 'r': 'a', 's': 'p', 't': 'j', 'u': 'r', 'v': 'y', 'w': 'k', 'x': 'o', 'y': 'b', 'z': 't'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

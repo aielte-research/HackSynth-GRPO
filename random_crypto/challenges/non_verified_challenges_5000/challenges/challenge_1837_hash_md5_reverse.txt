@@ -1,0 +1,15 @@
+The vault unlocks with a password, but its MD5 hash—99cc2d09fc21c4388fe42a470209707a—leaked. Due to MD5's weakness, perhaps you can recover the password and access what's inside.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ADURO}
+ciphertext: 99cc2d09fc21c4388fe42a470209707a
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

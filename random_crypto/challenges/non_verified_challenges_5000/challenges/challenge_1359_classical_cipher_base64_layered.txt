@@ -1,0 +1,15 @@
+An agent hid a password in a string encoded using Base64. Decode Vm1wSmQyVkZOVWhTYTJScFRUTkNjbFZxVGtOalZscHhVbTFHVGxac1NsZFhhMk0xWWtaYVZWWnJjRlZXVmtZelZVWkZPVkJSUFQwPQ== to reveal the secret and unlock the next mission.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{cqen0hr4}
+cipher: Base64
+ciphertext: Vm1wSmQyVkZOVWhTYTJScFRUTkNjbFZxVGtOalZscHhVbTFHVGxac1NsZFhhMk0xWWtaYVZWWnJjRlZXVmtZelZVWkZPVkJSUFQwPQ==
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 6 times in total.
+subtype: base64_layered
+archetype: classical_cipher

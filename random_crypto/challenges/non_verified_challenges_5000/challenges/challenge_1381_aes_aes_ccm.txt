@@ -1,0 +1,18 @@
+An encrypted message—rumored to hold a digital wallet key—was intercepted. It's protected by AES. Crack the cipher and unlock its secret: ciphertext1:a65a9d2eff000dfc2796aa18498a, ciphertext2: a65a9d2eff150cbd3cd7f01b418a
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{cqqa3kmn}
+ciphertext: ciphertext1:a65a9d2eff000dfc2796aa18498a, ciphertext2: a65a9d2eff150cbd3cd7f01b418a
+tag1: b8c903134d54098300e077825f56332d
+tag2: d2c46e91f635660f8f545fd80da24344
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: f389e9af7b6ce12b9b1776
+subtype: aes_ccm
+archetype: aes

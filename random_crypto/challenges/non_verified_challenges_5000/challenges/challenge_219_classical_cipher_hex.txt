@@ -1,0 +1,14 @@
+A hacker left secret wallet keys in a hex-encoded message. Can you convert 666c61677b346264616e76617a7d back to its original form and unlock the account?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{4bdanvaz}
+cipher: Hex
+ciphertext: 666c61677b346264616e76617a7d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+An intercepted transmission hides the vault code, split and jumbled using the SplitNumberMix cipher. Can you reconstruct the secret? Ciphertext:  1111111 flag 1111111 {xry 1111111 mnfos} 1111111 
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{xrymnfos}
+ciphertext:  1111111 flag 1111111 {xry 1111111 mnfos} 1111111 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 3 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

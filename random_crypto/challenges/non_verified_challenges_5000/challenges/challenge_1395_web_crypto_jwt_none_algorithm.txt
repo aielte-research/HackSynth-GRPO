@@ -1,0 +1,13 @@
+
+The hacker sent you a suspicious JWT token: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3s0MXcxbjJkY30ifQ.. Can you decode it and uncover their secret message?
+
+
+---
+
+## Challenge Technical Details
+flag: flag{41w1n2dc}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3s0MXcxbjJkY30ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

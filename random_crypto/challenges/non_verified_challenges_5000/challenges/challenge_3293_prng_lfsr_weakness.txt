@@ -1,0 +1,19 @@
+Agent 7 left this encrypted message using a flawed LFSR machine. Crack the stream cipher and retrieve the secret: 9f87988c829b938c81dc88da9396
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[44038, 54787, 60161, 62848, 31424, 15712, 40624, 53080, 59308, 62422]
+
+---
+
+## Challenge Technical Details
+flag: flag{pjgx7q1j}
+ciphertext: 9f87988c829b938c81dc88da9396
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[44038, 54787, 60161, 62848, 31424, 15712, 40624, 53080, 59308, 62422]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

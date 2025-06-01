@@ -1,0 +1,20 @@
+
+Intercepted communications between rival hackers were encrypted with AES. Can you decrypt their secret message: ciphertext1:c53d531284692830372f039d0058, ciphertext2: c53d53128428333c782411995c58?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{uo8yaefl}
+ciphertext: ciphertext1:c53d531284692830372f039d0058, ciphertext2: c53d53128428333c782411995c58
+tag1: ae04f5f3cdee27d4a10980ca8c432d78
+tag2: 10b0bd2c8b455e1417ad5cf2f91c97ee
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: f5f62e31ecc8093446908b
+subtype: aes_ccm
+archetype: aes

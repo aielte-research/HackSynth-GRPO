@@ -1,0 +1,17 @@
+Agent Zero hid coordinates in a message, encrypting it with AES-CFB. Your mission: recover the secret location from this ciphertext—3fadf5e163a65031a2156b38864cfad177b9bf246aeab904859f83557d99bfc842d0a283e375603b5b0ca7dcce485f39adec444cb75359d6c7e494d3c9c431345101851534cd8e59ebbf602fc0b82aa05725087364286a98e6990111fbd4894bafe318be3df4092fa4f9cfcb4b5b7792d3706f2fcf8d38a9791e2dd1e0843676627a4de5642b478abde5d4b93dc03a38251999ddeaf0b10c2ce955a485796f4c1e6ece298bbaf645e841aea6093cbe5188—using your cryptographic skills.
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{ii2lrqid}
+ciphertext: 3fadf5e163a65031a2156b38864cfad177b9bf246aeab904859f83557d99bfc842d0a283e375603b5b0ca7dcce485f39adec444cb75359d6c7e494d3c9c431345101851534cd8e59ebbf602fc0b82aa05725087364286a98e6990111fbd4894bafe318be3df4092fa4f9cfcb4b5b7792d3706f2fcf8d38a9791e2dd1e0843676627a4de5642b478abde5d4b93dc03a38251999ddeaf0b10c2ce955a485796f4c1e6ece298bbaf645e841aea6093cbe5188
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: af161b3725dbae202161f1e9b3cb6de6
+subtype: aes_cfb
+archetype: aes

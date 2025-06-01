@@ -1,0 +1,15 @@
+A hacker left a clue in mirrored text. Can you reveal the secret message hidden inside }m9ztoe9v{galf?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{v9eotz9m}
+ciphertext: }m9ztoe9v{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

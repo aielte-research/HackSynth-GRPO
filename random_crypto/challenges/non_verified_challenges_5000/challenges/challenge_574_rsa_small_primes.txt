@@ -1,0 +1,18 @@
+A careless intern generated RSA keys using small, predictable primes. Can you decrypt the intercepted message below? 1418909166517669739
+
+The flag format is flag{...}
+n=12617008273141501387, e=9339719351284058933
+
+---
+
+## Challenge Technical Details
+flag: flag{xk1p7104}
+cipher: RSA
+ciphertext: 1418909166517669739
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=12617008273141501387, e=9339719351284058933
+extra_info: p=3580695991, q=3523618957, φ(n)=12617008266037186440
+subtype: small_primes
+archetype: rsa

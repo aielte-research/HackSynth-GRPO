@@ -1,0 +1,15 @@
+A hacker left a secret in a message. It looks strange—can you reverse it to find out what they hid? Ciphertext: }17h0vsr8{galf
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{8rsv0h71}
+ciphertext: }17h0vsr8{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

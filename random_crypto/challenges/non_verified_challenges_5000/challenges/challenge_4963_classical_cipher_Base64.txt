@@ -1,0 +1,15 @@
+A hacker hid the server password using Base64. Can you decode this message to unlock the next clue: ZmxhZ3toZTVseHV5c30=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{he5lxuys}
+cipher: Base64
+ciphertext: ZmxhZ3toZTVseHV5c30=
+hint: Use a Base64 decoder to obtain the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is direct; no additional layers or tricks.
+subtype: Base64
+archetype: classical_cipher

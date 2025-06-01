@@ -1,0 +1,18 @@
+Someone tried to be clever, but their RSA keys use very small primes. Can you recover the message? Here is the ciphertext: 2256530005584988919
+
+The flag format is flag{...}
+n=10955157054590566117, e=7191662379265144559
+
+---
+
+## Challenge Technical Details
+flag: flag{jolpp4ac}
+cipher: RSA
+ciphertext: 2256530005584988919
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=10955157054590566117, e=7191662379265144559
+extra_info: p=2625284219, q=4172941343, φ(n)=10955157047792340556
+subtype: small_primes
+archetype: rsa

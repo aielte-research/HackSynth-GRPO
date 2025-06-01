@@ -1,0 +1,17 @@
+An intercepted message to Agent Nova reads: qsvjwcxejulhnasaxwcnhcxjxplvobxwqgczhsczkukijabvuqimlumevavppwjlrczeqn. HQ suspects it’s a Hill cipher and needs your help to decrypt it before midnight.
+
+The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+
+---
+
+## Challenge Technical Details
+flag: flag{vbwmrkrj}
+ciphertext: qsvjwcxejulhnasaxwcnhcxjxplvobxwqgczhsczkukijabvuqimlumevavppwjlrczeqn
+cipher: Hill
+hint: Hill ciphers can be broken using known-plaintext attacks and linear algebra mod 26.
+necessary_info: The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+extra_info: The matrix used is: [[9, 13], [25, 10]]
+subtype: hill
+archetype: classical_cipher

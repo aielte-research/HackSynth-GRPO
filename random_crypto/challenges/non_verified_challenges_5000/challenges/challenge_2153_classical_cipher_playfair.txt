@@ -1,0 +1,19 @@
+
+Intercepted correspondence between rival hackers contains a mysterious code. They mention an old technique involving "squares." Crack the secret in nfaoziwhbekhamfbkpkrziwhbekylsbpfwoyfbezwqrtaoziwhbekhamfbmbxvpilyizuspuoinovdbthkxrlertefdclblsablhxewqfbdekyztelboizmdhpipuwvylelwlertdvrgbodtgprbcnbkgu.
+
+
+The flag format is flag{...}
+The keyword is: qltznvje
+
+---
+
+## Challenge Technical Details
+flag: flag{hn4hqvrd}
+ciphertext: nfaoziwhbekhamfbkpkrziwhbekylsbpfwoyfbezwqrtaoziwhbekhamfbmbxvpilyizuspuoinovdbthkxrlertefdclblsablhxewqfbdekyztelboizmdhpipuwvylelwlertdvrgbodtgprbcnbkgu
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: qltznvje
+extra_info: The playfair table is [['q', 'l', 't', 'z', 'n'], ['v', 'i', 'e', 'a', 'b'], ['c', 'd', 'f', 'g', 'h'], ['k', 'm', 'o', 'p', 'r'], ['s', 'u', 'w', 'x', 'y']]
+subtype: playfair
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+Intercepted disk data, encrypted by a mysterious rival using AES-XTS, hides their secret plans. Only ciphertext1:6c539b67dd6396302c363de6ba758e98, ciphertext2: 23e317586d192025c231180a12d1cf70d1626a9e747b0c668433b00498e2ffab could reveal the truth behind their next move.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{g8v2uwx2}
+ciphertext: ciphertext1:6c539b67dd6396302c363de6ba758e98, ciphertext2: 23e317586d192025c231180a12d1cf70d1626a9e747b0c668433b00498e2ffab
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 9fd79621531ea849daebe48c3155596d
+subtype: aes_xts
+archetype: aes

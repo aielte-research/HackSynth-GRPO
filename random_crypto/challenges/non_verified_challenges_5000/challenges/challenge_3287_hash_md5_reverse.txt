@@ -1,0 +1,15 @@
+Intercepted message: e604d3ed8222c31089145e8b8ca735e0. Legend says MD5 isn’t safe—find the original input to reveal the secret phrase the hacker tried to keep hidden.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ODZER}
+ciphertext: e604d3ed8222c31089145e8b8ca735e0
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

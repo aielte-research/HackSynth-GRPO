@@ -1,0 +1,16 @@
+An old hacker left a hidden password for his secret wallet. The clue? A Vigenère-encrypted message: xspv{lvemfi8z}
+
+The flag format is flag{...}
+The keyword is: shpphf
+
+---
+
+## Challenge Technical Details
+flag: flag{eqmfqt8s}
+ciphertext: xspv{lvemfi8z}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: shpphf
+subtype: vigenere
+archetype: classical_cipher

@@ -1,0 +1,11 @@
+An intercepted JWT token hides the flag, but its signature is suspect. Can you reveal the secret hidden in eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3s0MDQwNTdzZH0ifQ.?
+
+---
+
+## Challenge Technical Details
+flag: flag{404057sd}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3s0MDQwNTdzZH0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

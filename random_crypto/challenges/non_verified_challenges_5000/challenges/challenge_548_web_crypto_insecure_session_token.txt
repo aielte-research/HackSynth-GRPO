@@ -1,0 +1,12 @@
+A careless intern stored user sessions using a homemade cipher. Can you recover the secret from this leaked session token? Ciphertext: 757365725f686963323a666c61677b30376e6e37627a6b7d3a31373437343832363236
+
+---
+
+## Challenge Technical Details
+flag: flag{07nn7bzk}
+ciphertext: 757365725f686963323a666c61677b30376e6e37627a6b7d3a31373437343832363236
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_hic2:flag{07nn7bzk}:1747482626'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

@@ -1,0 +1,24 @@
+A hacker left a secret in the blockchain, hashed with SHA-256. Recover the original message from its digest: ca7037e8be477b431c59eaa44718b895e386e2f9da7a3169ad8f8e831d57203c
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{z5cy}
+ciphertext: ca7037e8be477b431c59eaa44718b895e386e2f9da7a3169ad8f8e831d57203c
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

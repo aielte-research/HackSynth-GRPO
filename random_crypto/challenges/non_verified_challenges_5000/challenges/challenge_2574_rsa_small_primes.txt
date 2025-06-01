@@ -1,0 +1,18 @@
+An intern generated RSA keys with very small primes. Find the plaintext of the secret message: 606594186791987236
+
+The flag format is flag{...}
+n=7386412147122045101, e=924154735703137945
+
+---
+
+## Challenge Technical Details
+flag: flag{2xg2q1f0}
+cipher: RSA
+ciphertext: 606594186791987236
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=7386412147122045101, e=924154735703137945
+extra_info: p=2532678959, q=2916442339, φ(n)=7386412141672923804
+subtype: small_primes
+archetype: rsa

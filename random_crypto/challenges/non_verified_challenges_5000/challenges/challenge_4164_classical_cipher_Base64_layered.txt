@@ -1,0 +1,15 @@
+An encrypted message hides the launch code. Decode the Base64 cipher below to reveal it: Vm0xd1NtUXlWa1pPVldoVFlUSlNjRlJVVGtOamJGVjNWbTFHVlUxV1ZqTldNalZMWVRBeFdGVnNhRmhoTWsxNFdWUkJlRkpXVm5GWGJGWlhWbXRaZWxaVldrWlBWa0pTVUZRd1BRPT0=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{j0v4ah07}
+cipher: Base64
+ciphertext: Vm0xd1NtUXlWa1pPVldoVFlUSlNjRlJVVGtOamJGVjNWbTFHVlUxV1ZqTldNalZMWVRBeFdGVnNhRmhoTWsxNFdWUkJlRkpXVm5GWGJGWlhWbXRaZWxaVldrWlBWa0pTVUZRd1BRPT0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 7 times in total.
+subtype: Base64_layered
+archetype: classical_cipher

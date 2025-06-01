@@ -1,0 +1,11 @@
+Intercepted in a secure channel, this JWT-protected message hides a vital clue. Can you decrypt eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3trYWJlMnFmYX0ifQ. to reveal the secret?
+
+---
+
+## Challenge Technical Details
+flag: flag{kabe2qfa}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3trYWJlMnFmYX0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

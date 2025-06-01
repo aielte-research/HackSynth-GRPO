@@ -1,0 +1,15 @@
+Agent Nova encoded the vault code using her SplitNumberMix method. Decode  444444444 f 444444444 la 444444444 g{phech 444444444 coj} 444444444  to unlock the secret she left behind.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{phechcoj}
+ciphertext:  444444444 f 444444444 la 444444444 g{phech 444444444 coj} 444444444 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 4 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

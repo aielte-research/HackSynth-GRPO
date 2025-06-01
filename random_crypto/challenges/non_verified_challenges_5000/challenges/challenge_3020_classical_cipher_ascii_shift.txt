@@ -1,0 +1,15 @@
+A hacker hid the password to their crypto vault by shifting each letter in ASCII. Recover it from this message: oujpk9;wrj
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{b0w2niva}
+cipher: ASCII Shift
+ciphertext: oujpk9;wrj
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 9
+subtype: ascii_shift
+archetype: classical_cipher

@@ -1,0 +1,20 @@
+
+An intern rushed to generate RSA keys using small primes for faster encryption. Now your mission: recover the flag from 450630590357913526 before anyone else exploits the weakness!
+
+
+The flag format is flag{...}
+n=9360054641118986669, e=5900241964369595017
+
+---
+
+## Challenge Technical Details
+flag: flag{lzv50p59}
+cipher: RSA
+ciphertext: 450630590357913526
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=9360054641118986669, e=5900241964369595017
+extra_info: p=3672646157, q=2548586017, φ(n)=9360054634897754496
+subtype: small_primes
+archetype: rsa

@@ -1,0 +1,16 @@
+
+A message from an ancient sect warns of a trap, encoded with their favorite reversal cipher. Decode uozt{8zdm6744} to reveal the secret.
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{8awn6744}
+cipher: Atbash
+ciphertext: uozt{8zdm6744}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

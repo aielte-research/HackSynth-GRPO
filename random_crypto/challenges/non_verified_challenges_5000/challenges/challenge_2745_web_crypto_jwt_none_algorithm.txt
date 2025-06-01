@@ -1,0 +1,11 @@
+A rogue admin encrypted access rights with JWT. Can you recover the original token from this ciphertext? eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3szY2NzNjhtcX0ifQ.
+
+---
+
+## Challenge Technical Details
+flag: flag{3ccs68mq}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3szY2NzNjhtcX0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

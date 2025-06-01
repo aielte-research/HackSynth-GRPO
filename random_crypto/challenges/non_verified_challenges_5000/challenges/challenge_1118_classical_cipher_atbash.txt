@@ -1,0 +1,16 @@
+
+A secret society communicates using reversed letters. Can you decode their latest message, uozt{vnum3orr}, and unveil their hidden plan?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{emfn3lii}
+cipher: Atbash
+ciphertext: uozt{vnum3orr}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

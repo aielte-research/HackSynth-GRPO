@@ -1,0 +1,15 @@
+A mysterious vault was locked with disk encryption. All you have is the encrypted sector: ciphertext1:77790506c9507abb02df50cca53588b3, ciphertext2: a5b284f25f16613639356c429f2d435e8f193056e801164cf2607ba9e33a4cb7. Can you decrypt it using AES-XTS?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{n4nwuuh5}
+ciphertext: ciphertext1:77790506c9507abb02df50cca53588b3, ciphertext2: a5b284f25f16613639356c429f2d435e8f193056e801164cf2607ba9e33a4cb7
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: a52128f0eed5c4f66e2cef2a9baffa5f
+subtype: aes_xts
+archetype: aes

@@ -1,0 +1,14 @@
+An old hacker left a secret in a forum post—only those who can decode the hex message below will reveal the hidden password: 666c61677b326538736633696c7d
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{2e8sf3il}
+cipher: Hex
+ciphertext: 666c61677b326538736633696c7d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

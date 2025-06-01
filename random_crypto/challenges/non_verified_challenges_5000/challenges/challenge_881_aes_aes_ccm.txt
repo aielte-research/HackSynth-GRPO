@@ -1,0 +1,18 @@
+A rogue hacker claims they've hidden the key to a digital vault in this AES-encrypted message. Only the truly clever can reveal its secrets: ciphertext1:163129ee781331db5659e450d6e9, ciphertext2: 163129ee780a6ec8521efa4cd2e9
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{n0ikqdso}
+ciphertext: ciphertext1:163129ee781331db5659e450d6e9, ciphertext2: 163129ee780a6ec8521efa4cd2e9
+tag1: b2e8d6f75e884f76eefe4f8e293e6f76
+tag2: 7dff09c3f7f42f505957ffb57979ccce
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 22a80d4bb550a693328254
+subtype: aes_ccm
+archetype: aes

@@ -1,0 +1,15 @@
+An encoded password found in a hacker's notebook reads: VmpJd2VFNUhSa2RpTTNCclVucFdhRlp1Y0ZKbFJteFlUVmRHYW1KVmNFcFVWVkYzVUZFOVBRPT0=. Can you recover the original password using Base64 decoding?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{gen5jfkl}
+cipher: Base64
+ciphertext: VmpJd2VFNUhSa2RpTTNCclVucFdhRlp1Y0ZKbFJteFlUVmRHYW1KVmNFcFVWVkYzVUZFOVBRPT0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 5 times in total.
+subtype: base64_layered
+archetype: classical_cipher

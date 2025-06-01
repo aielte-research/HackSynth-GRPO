@@ -1,0 +1,20 @@
+
+Intercepted: An agent's secret plan was encrypted with AES. Only the right key unlocks it. The captured message is: ciphertext1:3fca4e78fc8ade5e6957ff00dd72, ciphertext2: 3fca4e78fcd3c55e6e14ad17d472
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{8mjj53sa}
+ciphertext: ciphertext1:3fca4e78fc8ade5e6957ff00dd72, ciphertext2: 3fca4e78fcd3c55e6e14ad17d472
+tag1: 0a99545e20b15c2d2458417232b21ff7
+tag2: 548090866388d95ee1660a5aaae00470
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: de89a0524a827871c5f3f5
+subtype: aes_ccm
+archetype: aes

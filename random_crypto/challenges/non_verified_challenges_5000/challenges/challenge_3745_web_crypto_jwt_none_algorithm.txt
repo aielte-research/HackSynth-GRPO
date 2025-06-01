@@ -1,0 +1,11 @@
+Intercepted while spying, this JWT token holds a secret message. Crack its contents: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3twOWllemhjcX0ifQ.
+
+---
+
+## Challenge Technical Details
+flag: flag{p9iezhcq}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3twOWllemhjcX0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

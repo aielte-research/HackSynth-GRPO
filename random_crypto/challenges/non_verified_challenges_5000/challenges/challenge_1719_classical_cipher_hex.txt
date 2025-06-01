@@ -1,0 +1,16 @@
+
+A hacker encoded the treasure's coordinates in hexadecimal. Decode 666c61677b73646663747678727d to uncover where the fortune is hidden.
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{sdfctvxr}
+cipher: Hex
+ciphertext: 666c61677b73646663747678727d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

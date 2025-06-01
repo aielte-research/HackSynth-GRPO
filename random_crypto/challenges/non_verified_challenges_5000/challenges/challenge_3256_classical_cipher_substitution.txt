@@ -1,0 +1,15 @@
+A mysterious message (vi fcohyescxhwo, x gutgyvyuyvei fvhwlc vg x dlywea ez lifcohyvis vi jwvfw uivyg ez hrxviylpy xcl clhrxfla jvyw ywl fvhwlcylpy, vi x alzvila dxiilc, jvyw ywl wlrh ez x klo; ywl "uivyg" dxo tl gvisrl rlyylcg (ywl degy feddei), hxvcg ez rlyylcg, ycvhrlyg ez rlyylcg, dvpyuclg ez ywl xteql, xia ge zecyw. ywl clflvqlc alfvhwlcg ywl ylpy to hlczecdvis ywl viqlcgl gutgyvyuyvei hceflgg ye lpycxfy ywl ecvsvixr dlggxsl. rvkljvgl, bxfnulg nuvfkro mvhhla ywceusw x nulgyvei ei mlce-kiejrlasl hceezg, ligucvis ie fcvyvfxr rlyylc jxg rlzy euy ez euc fcohyescxhwvf hummrl.zrxs{kb4e6e9i}) was found in the hacker's notebook. It seems to be encrypted with a simple substitution cipher. Can you reveal its secret?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{kj4o6o9n}
+ciphertext: vi fcohyescxhwo, x gutgyvyuyvei fvhwlc vg x dlywea ez lifcohyvis vi jwvfw uivyg ez hrxviylpy xcl clhrxfla jvyw ywl fvhwlcylpy, vi x alzvila dxiilc, jvyw ywl wlrh ez x klo; ywl "uivyg" dxo tl gvisrl rlyylcg (ywl degy feddei), hxvcg ez rlyylcg, ycvhrlyg ez rlyylcg, dvpyuclg ez ywl xteql, xia ge zecyw. ywl clflvqlc alfvhwlcg ywl ylpy to hlczecdvis ywl viqlcgl gutgyvyuyvei hceflgg ye lpycxfy ywl ecvsvixr dlggxsl. rvkljvgl, bxfnulg nuvfkro mvhhla ywceusw x nulgyvei ei mlce-kiejrlasl hceezg, ligucvis ie fcvyvfxr rlyylc jxg rlzy euy ez euc fcohyescxhwvf hummrl.zrxs{kb4e6e9i}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'x', 'b': 't', 'c': 'f', 'd': 'a', 'e': 'l', 'f': 'z', 'g': 's', 'h': 'w', 'i': 'v', 'j': 'b', 'k': 'k', 'l': 'r', 'm': 'd', 'n': 'i', 'o': 'e', 'p': 'h', 'q': 'n', 'r': 'c', 's': 'g', 't': 'y', 'u': 'u', 'v': 'q', 'w': 'j', 'x': 'p', 'y': 'o', 'z': 'm'}
+subtype: substitution
+archetype: classical_cipher

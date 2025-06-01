@@ -1,0 +1,15 @@
+Someone leaked a password hash, trusting MD5’s security. Can you reverse-engineer the original string from 50a4bf791f7fb2308645506c99df8766 and prove that MD5 isn’t as safe as they thought?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{CQBIC}
+ciphertext: 50a4bf791f7fb2308645506c99df8766
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

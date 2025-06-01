@@ -1,0 +1,15 @@
+Alex hid a secret in an MD5 hash but forgot MD5's collision flaw. Can you recover it from 9fdec1ea4c0adefe2064cf6521bda9da?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{OBITU}
+ciphertext: 9fdec1ea4c0adefe2064cf6521bda9da
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

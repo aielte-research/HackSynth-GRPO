@@ -1,0 +1,19 @@
+
+A mysterious note with the key "MAGNET" was found in an old safe. Can you decrypt its message using Playfair? Ciphertext: ufurhdvkbhykhqkuncsqhdvkbhsnpgcptcpykuounmfvurhdvkbhykhqkuqkpdudptdhrzgztmenkbtrkywrgffvumakqfpgucsouhnmkuhksnmffgcydhbleqdupmdqgfuggffvbkwpcyhfbubnvm
+
+
+The flag format is flag{...}
+The keyword is: tutgemto
+
+---
+
+## Challenge Technical Details
+flag: flag{o5q6zt33}
+ciphertext: ufurhdvkbhykhqkuncsqhdvkbhsnpgcptcpykuounmfvurhdvkbhykhqkuqkpdudptdhrzgztmenkbtrkywrgffvumakqfpgucsouhnmkuhksnmffgcydhbleqdupmdqgfuggffvbkwpcyhfbubnvm
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: tutgemto
+extra_info: The playfair table is [['t', 'u', 'g', 'e', 'm'], ['o', 'a', 'b', 'c', 'd'], ['f', 'h', 'i', 'k', 'l'], ['n', 'p', 'q', 'r', 's'], ['v', 'w', 'x', 'y', 'z']]
+subtype: playfair
+archetype: classical_cipher

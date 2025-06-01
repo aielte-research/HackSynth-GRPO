@@ -1,0 +1,15 @@
+A forgetful Roman left an encrypted message on his tablet. Can you reveal the hidden words in gmbh{9ehy4amj} using Caesar’s timeless method?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{9dgx4zli}
+ciphertext: gmbh{9ehy4amj}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 1
+subtype: caesar
+archetype: classical_cipher

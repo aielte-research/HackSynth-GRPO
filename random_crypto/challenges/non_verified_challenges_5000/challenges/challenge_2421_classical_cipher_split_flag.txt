@@ -1,0 +1,15 @@
+The hacker intercepted valuable data, but it’s scrambled using the mysterious SplitNumberMix cipher. Can you decrypt  3333333 flag{pbdq 3333333 unfq} 3333333  and reveal the secret?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{pbdqunfq}
+ciphertext:  3333333 flag{pbdq 3333333 unfq} 3333333 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 2 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

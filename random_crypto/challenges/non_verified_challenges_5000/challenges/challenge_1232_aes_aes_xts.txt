@@ -1,0 +1,17 @@
+
+A rogue sysadmin encrypted the backup vault key using AES-XTS. Only the ciphertext ciphertext1:7402ad2bd700b9e38634ebcf91f0159f, ciphertext2: 7d1bfdfd4362bfabc9be8a30222ab7087a87460b2dd723af12f72495fa9fafa3 and his old sector number remain. Can you recover the original key?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{t4ifyi30}
+ciphertext: ciphertext1:7402ad2bd700b9e38634ebcf91f0159f, ciphertext2: 7d1bfdfd4362bfabc9be8a30222ab7087a87460b2dd723af12f72495fa9fafa3
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 374e6b55cbeba420b73f992939a7fadb
+subtype: aes_xts
+archetype: aes

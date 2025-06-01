@@ -1,0 +1,17 @@
+
+A mysterious USB stick contains ciphertext1:e2961eb8e750d5312edd148973ace3b2, ciphertext2: 64491c2335d67dea058d3d024fccf3672de94b0bc13e60d98abf5234f9d2ba91. The clue says: "Recover the hidden flag from this encrypted disk fragment. Algorithm: AES-XTS. Can you decrypt it?"
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{k95z6yo1}
+ciphertext: ciphertext1:e2961eb8e750d5312edd148973ace3b2, ciphertext2: 64491c2335d67dea058d3d024fccf3672de94b0bc13e60d98abf5234f9d2ba91
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 0a35100eecbc4b2975d8c1ea5e55d70c
+subtype: aes_xts
+archetype: aes

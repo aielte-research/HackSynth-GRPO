@@ -1,0 +1,11 @@
+An anonymous hacker left a secret JWT token to access a restricted server. Can you decode eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3txNDhteHpnOX0ifQ. to uncover the hidden admin credentials?
+
+---
+
+## Challenge Technical Details
+flag: flag{q48mxzg9}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3txNDhteHpnOX0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

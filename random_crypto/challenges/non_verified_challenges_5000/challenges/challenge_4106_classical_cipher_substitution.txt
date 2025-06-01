@@ -1,0 +1,15 @@
+An agent hid the meeting location using a simple substitution cipher. Decode xi dvfutpbvwuef, w sojstxtotxpi dxuemv xs w amtepq pn midvfutxib xi cexde oixts pn uzwxitmkt wvm vmuzwdmq cxte tem dxuemvtmkt, xi w qmnximq awiimv, cxte tem emzu pn w lmf; tem "oixts" awf jm sxibzm zmttmvs (tem apst dpaapi), uwxvs pn zmttmvs, tvxuzmts pn zmttmvs, axktovms pn tem wjprm, wiq sp npvte. tem vmdmxrmv qmdxuemvs tem tmkt jf umvnpvaxib tem xirmvsm sojstxtotxpi uvpdmss tp mktvwdt tem pvxbxiwz amsswbm. zxlmcxsm, gwdyoms yoxdlzf hxuumq tevpobe w yomstxpi pi hmvp-lipczmqbm uvppns, misovxib ip dvxtxdwz zmttmv cws zmnt pot pn pov dvfutpbvwuexd uohhzm.nzwb{n49usm88} to find where to rendezvous.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{f49pse88}
+ciphertext: xi dvfutpbvwuef, w sojstxtotxpi dxuemv xs w amtepq pn midvfutxib xi cexde oixts pn uzwxitmkt wvm vmuzwdmq cxte tem dxuemvtmkt, xi w qmnximq awiimv, cxte tem emzu pn w lmf; tem "oixts" awf jm sxibzm zmttmvs (tem apst dpaapi), uwxvs pn zmttmvs, tvxuzmts pn zmttmvs, axktovms pn tem wjprm, wiq sp npvte. tem vmdmxrmv qmdxuemvs tem tmkt jf umvnpvaxib tem xirmvsm sojstxtotxpi uvpdmss tp mktvwdt tem pvxbxiwz amsswbm. zxlmcxsm, gwdyoms yoxdlzf hxuumq tevpobe w yomstxpi pi hmvp-lipczmqbm uvppns, misovxib ip dvxtxdwz zmttmv cws zmnt pot pn pov dvfutpbvwuexd uohhzm.nzwb{n49usm88}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'w', 'b': 'j', 'c': 'd', 'd': 'q', 'e': 'm', 'f': 'n', 'g': 'b', 'h': 'e', 'i': 'x', 'j': 'g', 'k': 'l', 'l': 'z', 'm': 'a', 'n': 'i', 'o': 'p', 'p': 'u', 'q': 'y', 'r': 'v', 's': 's', 't': 't', 'u': 'o', 'v': 'r', 'w': 'c', 'x': 'k', 'y': 'f', 'z': 'h'}
+subtype: substitution
+archetype: classical_cipher

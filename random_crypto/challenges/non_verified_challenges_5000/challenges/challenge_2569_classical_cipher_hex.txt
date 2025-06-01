@@ -1,0 +1,14 @@
+A hacker left a mysterious note in hex under your desk. Decode 666c61677b6e306b31643765647d to find the secret password.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{n0k1d7ed}
+cipher: Hex
+ciphertext: 666c61677b6e306b31643765647d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

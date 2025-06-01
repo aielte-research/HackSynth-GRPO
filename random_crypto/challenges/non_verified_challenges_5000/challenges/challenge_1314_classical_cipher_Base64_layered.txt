@@ -1,0 +1,15 @@
+An agent emailed secret coordinates, hiding them using a classic encoding from the 1960s. Can you reveal the message inside? Ciphertext: VmpJd2VFNUhSa2RpTTNCclUwZFNjMVZxU1RSTlJtdzJWRzEwYWxKVVJqRlVWVkYzVUZFOVBRPT0=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{pxj8swi2}
+cipher: Base64
+ciphertext: VmpJd2VFNUhSa2RpTTNCclUwZFNjMVZxU1RSTlJtdzJWRzEwYWxKVVJqRlVWVkYzVUZFOVBRPT0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 5 times in total.
+subtype: Base64_layered
+archetype: classical_cipher

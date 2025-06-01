@@ -1,0 +1,11 @@
+A hacker intercepted a JWT-protected API request. Can you reveal the secret inside this token? Ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tzemk3YW4wZH0ifQ.
+
+---
+
+## Challenge Technical Details
+flag: flag{szi7an0d}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tzemk3YW4wZH0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

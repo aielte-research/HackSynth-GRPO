@@ -1,0 +1,14 @@
+A hacker left a key in hexadecimal form. Decode 666c61677b6a68706c697978327d to unlock the secure server and reveal the secret password.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{jhpliyx2}
+cipher: Hex
+ciphertext: 666c61677b6a68706c697978327d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

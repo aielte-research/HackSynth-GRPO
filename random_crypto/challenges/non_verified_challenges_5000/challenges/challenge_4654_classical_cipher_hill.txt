@@ -1,0 +1,17 @@
+An encrypted message, intercepted from a spy's notebook, uses an old Hill cipher. Can you decrypt it and reveal the secret? Ciphertext: aeapamdstecznaqujkjvrewxydynhfjkwsnhfunheiawvkszasospmmaxgcvtmdsctnrrn
+
+The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+
+---
+
+## Challenge Technical Details
+flag: flag{betnyjrz}
+ciphertext: aeapamdstecznaqujkjvrewxydynhfjkwsnhfunheiawvkszasospmmaxgcvtmdsctnrrn
+cipher: Hill
+hint: Hill ciphers can be broken using known-plaintext attacks and linear algebra mod 26.
+necessary_info: The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+extra_info: The matrix used is: [[12, 25], [9, 10]]
+subtype: hill
+archetype: classical_cipher

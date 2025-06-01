@@ -1,0 +1,21 @@
+
+The heist code changes every minute! Recover the original message from the intercepted 666c44007b7116546377565f707d before the clock runs out.
+
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 13010)
+The system time when the encryption process started was around: 2025-05-17 13:57:54 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{q33cws8p}
+ciphertext: 666c44007b7116546377565f707d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 13010)
+The system time when the encryption process started was around: 2025-05-17 13:57:54 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 9575.
+subtype: time_based_seed
+archetype: prng

@@ -1,0 +1,24 @@
+An anonymous hacker left a note saying, "Prove your skills by revealing my secret, hidden within this SHA-256 hash: 98f7a444f6799545316c6123e8658e6d427a8cb96a60d22d047e6bcc5b8acd5e."
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{m3xy}
+ciphertext: 98f7a444f6799545316c6123e8658e6d427a8cb96a60d22d047e6bcc5b8acd5e
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

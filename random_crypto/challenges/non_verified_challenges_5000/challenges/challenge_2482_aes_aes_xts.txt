@@ -1,0 +1,17 @@
+
+An encrypted disk sector contains the code. Only AES-XTS can unlock its hidden message: ciphertext1:649d4f09618b242d4b101984b43d4549, ciphertext2: 827cde92c4531f5274d92f7223a0902b7525f1835506b3fc367bc36f91c8d531
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{5715ygn5}
+ciphertext: ciphertext1:649d4f09618b242d4b101984b43d4549, ciphertext2: 827cde92c4531f5274d92f7223a0902b7525f1835506b3fc367bc36f91c8d531
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 9cd57e295abe3cc08fa1ccd664e1e957
+subtype: aes_xts
+archetype: aes

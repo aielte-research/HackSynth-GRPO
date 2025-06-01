@@ -1,0 +1,15 @@
+A mysterious note was found in Caesar's journal. It seems encoded. Can you reveal its secrets? Ciphertext: uapv{cmnccg4b}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{nxynnr4m}
+ciphertext: uapv{cmnccg4b}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 15
+subtype: caesar
+archetype: classical_cipher

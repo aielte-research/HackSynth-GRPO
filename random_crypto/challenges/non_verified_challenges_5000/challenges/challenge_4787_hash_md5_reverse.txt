@@ -1,0 +1,15 @@
+Professor Byte encrypted his password using MD5, confident it was unbreakable. Prove him wrong: recover his original password from this hash: e92c46a92a43d345f7647ca63ed2ffcb
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{iueoa}
+ciphertext: e92c46a92a43d345f7647ca63ed2ffcb
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

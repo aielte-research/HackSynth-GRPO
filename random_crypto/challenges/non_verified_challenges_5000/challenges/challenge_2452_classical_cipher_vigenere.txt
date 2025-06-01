@@ -1,0 +1,16 @@
+An agent hid their password in a coded message, using the name of their cat as the Vigenère key. The ciphertext is below. Can you recover the password? tdhd{h20aqh14}
+
+The flag format is flag{...}
+The keyword is: oshxsgc
+
+---
+
+## Challenge Technical Details
+flag: flag{p20uot14}
+ciphertext: tdhd{h20aqh14}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: oshxsgc
+subtype: vigenere
+archetype: classical_cipher

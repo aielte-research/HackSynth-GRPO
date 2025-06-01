@@ -1,0 +1,24 @@
+An agent left a secret message for you, but encoded it with SHA-256. Can you recover the original text from this hash? a76f2a95650cc501b179323511de9c1eb43140dacfff187d7a3516a6e7d79800
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{vglz}
+ciphertext: a76f2a95650cc501b179323511de9c1eb43140dacfff187d7a3516a6e7d79800
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

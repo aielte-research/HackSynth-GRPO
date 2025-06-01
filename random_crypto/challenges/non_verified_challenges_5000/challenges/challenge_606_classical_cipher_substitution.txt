@@ -1,0 +1,15 @@
+A hacker left a hidden message on a crypto forum. It's a classic substitution cipher. Can you reveal the secret? Ciphertext: ig pxaceorxvcqa, v zfwzeiefeiog picqsx iz v useqoy oh sgpxaceigr ig mqipq fgiez oh cdvigeske vxs xscdvpsy mieq eqs picqsxeske, ig v yshigsy uvggsx, mieq eqs qsdc oh v lsa; eqs "fgiez" uva ws zigrds dseesxz (eqs uoze pouuog), cvixz oh dseesxz, exicdsez oh dseesxz, uikefxsz oh eqs vwojs, vgy zo hoxeq. eqs xspsijsx yspicqsxz eqs eske wa csxhoxuigr eqs igjsxzs zfwzeiefeiog cxopszz eo skexvpe eqs oxirigvd uszzvrs. dilsmizs, bvpnfsz nfiplda ticcsy eqxofrq v nfszeiog og tsxo-lgomdsyrs cxoohz, sgzfxigr go pxieipvd dseesx mvz dshe ofe oh ofx pxaceorxvcqip cfttds.hdvr{gmahkwzz}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{nwyfxbss}
+ciphertext: ig pxaceorxvcqa, v zfwzeiefeiog picqsx iz v useqoy oh sgpxaceigr ig mqipq fgiez oh cdvigeske vxs xscdvpsy mieq eqs picqsxeske, ig v yshigsy uvggsx, mieq eqs qsdc oh v lsa; eqs "fgiez" uva ws zigrds dseesxz (eqs uoze pouuog), cvixz oh dseesxz, exicdsez oh dseesxz, uikefxsz oh eqs vwojs, vgy zo hoxeq. eqs xspsijsx yspicqsxz eqs eske wa csxhoxuigr eqs igjsxzs zfwzeiefeiog cxopszz eo skexvpe eqs oxirigvd uszzvrs. dilsmizs, bvpnfsz nfiplda ticcsy eqxofrq v nfszeiog og tsxo-lgomdsyrs cxoohz, sgzfxigr go pxieipvd dseesx mvz dshe ofe oh ofx pxaceorxvcqip cfttds.hdvr{gmahkwzz}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'v', 'b': 'w', 'c': 'p', 'd': 'y', 'e': 's', 'f': 'h', 'g': 'r', 'h': 'q', 'i': 'i', 'j': 'b', 'k': 'l', 'l': 'd', 'm': 'u', 'n': 'g', 'o': 'o', 'p': 'c', 'q': 'n', 'r': 'x', 's': 'z', 't': 'e', 'u': 'f', 'v': 'j', 'w': 'm', 'x': 'k', 'y': 'a', 'z': 't'}
+subtype: substitution
+archetype: classical_cipher

@@ -1,0 +1,12 @@
+Our intern rolled their own session management. They sent you a suspicious cookie: 757365725f336b646e3a666c61677b30683978666e62387d3a31373438313638303332. Can you recover the flag they're hiding in it?
+
+---
+
+## Challenge Technical Details
+flag: flag{0h9xfnb8}
+ciphertext: 757365725f336b646e3a666c61677b30683978666e62387d3a31373438313638303332
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_3kdn:flag{0h9xfnb8}:1748168032'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

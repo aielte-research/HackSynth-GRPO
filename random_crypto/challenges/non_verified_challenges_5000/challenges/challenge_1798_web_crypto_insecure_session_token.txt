@@ -1,0 +1,14 @@
+
+Someone left an admin panel unlocked, but you need the session token. The only clue is a message encrypted with the Insecure Session Token cipher: 757365725f6b3763703a666c61677b30643867766b746e7d3a31373438313636363136
+
+
+---
+
+## Challenge Technical Details
+flag: flag{0d8gvktn}
+ciphertext: 757365725f6b3763703a666c61677b30643867766b746e7d3a31373438313636363136
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_k7cp:flag{0d8gvktn}:1748166616'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

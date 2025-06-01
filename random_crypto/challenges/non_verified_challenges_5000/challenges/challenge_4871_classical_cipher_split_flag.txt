@@ -1,0 +1,17 @@
+
+A secret agent left vital coordinates hidden using the SplitNumberMix cipher. Decode  0000000 flag{z 0000000 uhvm 0000000 ckg} 0000000  to retrieve the information before it falls into enemy hands.
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{zuhvmckg}
+ciphertext:  0000000 flag{z 0000000 uhvm 0000000 ckg} 0000000 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 3 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

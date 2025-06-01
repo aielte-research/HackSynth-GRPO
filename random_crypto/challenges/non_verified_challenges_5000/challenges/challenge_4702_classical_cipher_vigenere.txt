@@ -1,0 +1,16 @@
+An old hacker left a secret message for their protege. All that remains is aajr{h88wy3wl}—rumored to be encrypted with the password they always used.
+
+The flag format is flag{...}
+The keyword is: vpjlnkm
+
+---
+
+## Challenge Technical Details
+flag: flag{u88mm3bw}
+ciphertext: aajr{h88wy3wl}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: vpjlnkm
+subtype: vigenere
+archetype: classical_cipher

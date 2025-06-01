@@ -1,0 +1,19 @@
+
+A forgotten spy letter hides a password using the Playfair cipher. Can you reveal the secret by cracking zckuqfaeblogkocfspsqqfaeblsopvdqcpwdcfbvozsikuqfaeblogkocfomqxldkzfqpxndkgwooihkgoeubosiucecikpvfymxvdozcfclsoviobgpfqbmmwdlpzxobouvbosiiosegplqdfyplk?
+
+
+The flag format is flag{...}
+The keyword is: bybbadxy
+
+---
+
+## Challenge Technical Details
+flag: flag{u75kk6j3}
+ciphertext: zckuqfaeblogkocfspsqqfaeblsopvdqcpwdcfbvozsikuqfaeblogkocfomqxldkzfqpxndkgwooihkgoeubosiucecikpvfymxvdozcfclsoviobgpfqbmmwdlpzxobouvbosiiosegplqdfyplk
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: bybbadxy
+extra_info: The playfair table is [['b', 'y', 'a', 'd', 'x'], ['c', 'e', 'f', 'g', 'h'], ['i', 'k', 'l', 'm', 'n'], ['o', 'p', 'q', 'r', 's'], ['t', 'u', 'v', 'w', 'z']]
+subtype: playfair
+archetype: classical_cipher

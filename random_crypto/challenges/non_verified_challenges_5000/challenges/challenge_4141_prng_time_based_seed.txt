@@ -1,0 +1,19 @@
+Agent Nix encrypted the plans with a PRNG seeded at midnight. Recover the key to decrypt this message: 666cc7817b62d2d06a38c19e687d
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 78687)
+The system time when the encryption process started was around: 2025-05-25 12:45:18 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{bt6j8gxh}
+ciphertext: 666cc7817b62d2d06a38c19e687d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 78687)
+The system time when the encryption process started was around: 2025-05-25 12:45:18 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 42726.
+subtype: time_based_seed
+archetype: prng

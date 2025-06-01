@@ -1,0 +1,15 @@
+Intercepted spy messages were scrambled using a simple XOR cipher. Can you recover the vital clue encoded here: stringA: 3c14232a4c15413a020f4c1d774e stringB: 5a78424d3770724f3163786a4733?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{e3u3l4w0}
+cipher: XOR
+ciphertext: stringA: 3c14232a4c15413a020f4c1d774e stringB: 5a78424d3770724f3163786a4733
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

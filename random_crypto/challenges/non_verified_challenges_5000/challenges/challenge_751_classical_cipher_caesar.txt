@@ -1,0 +1,15 @@
+Intercepted Roman scrolls hide the treasure's location. Can you decode Caesar's secret message? Ciphertext: zfua{7xnlzuna}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{7dtrfatg}
+ciphertext: zfua{7xnlzuna}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 20
+subtype: caesar
+archetype: classical_cipher

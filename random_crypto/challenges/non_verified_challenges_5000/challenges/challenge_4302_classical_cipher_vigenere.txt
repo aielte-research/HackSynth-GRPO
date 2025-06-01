@@ -1,0 +1,16 @@
+A hacker left a coded note in a chatroom. It's encrypted with the Vigenère cipher. Can you uncover the hidden message in ugts{m1dk8bzt}?
+
+The flag format is flag{...}
+The keyword is: pvtmo
+
+---
+
+## Challenge Technical Details
+flag: flag{y1op8inf}
+ciphertext: ugts{m1dk8bzt}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: pvtmo
+subtype: vigenere
+archetype: classical_cipher

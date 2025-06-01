@@ -1,0 +1,14 @@
+A legendary developer signed their secret message with a custom signature system. All you have is the public key and this signature: 0x92da84a4fbdf648983bc0bb20bbff2169d285c00ccd13bdca65c342c532b93dc1de443d467d30c7c9933e1421d4704f19d77ffd111f8a39e2d862ffc80e1dbbe. Can you recover the original message?
+
+Public Key (n, e): (8636542632665182187589663519766683847444226313684369648712527205656337925756655081751528275364380093658907517724877835875369293096458349419178856079070261, 3)
+
+---
+
+## Challenge Technical Details
+flag: flag{co2983p6}
+ciphertext: 0x92da84a4fbdf648983bc0bb20bbff2169d285c00ccd13bdca65c342c532b93dc1de443d467d30c7c9933e1421d4704f19d77ffd111f8a39e2d862ffc80e1dbbe
+cipher: RSA Low-Exponent Signature
+hint: What happens when you cube small numbers? Remember e=3!
+necessary_info: Public Key (n, e): (8636542632665182187589663519766683847444226313684369648712527205656337925756655081751528275364380093658907517724877835875369293096458349419178856079070261, 3)
+subtype: rsa_sign_with_low_public_exponent
+archetype: signature_schemes

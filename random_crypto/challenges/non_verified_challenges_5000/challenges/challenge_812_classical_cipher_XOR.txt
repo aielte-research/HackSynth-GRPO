@@ -1,0 +1,15 @@
+An agent hid a secret message using XOR before disappearing. Can you recover the hidden words from stringA: 5738310d2a2a7608433631024030 stringB: 3154506a515a467171574234774d?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{p0y2as67}
+cipher: XOR
+ciphertext: stringA: 5738310d2a2a7608433631024030 stringB: 3154506a515a467171574234774d
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

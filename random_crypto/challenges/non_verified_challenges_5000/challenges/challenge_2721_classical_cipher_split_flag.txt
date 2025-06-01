@@ -1,0 +1,17 @@
+
+Rumor says a rogue mathematician encrypted the password in team files using SplitNumberMix. Can you extract the secret from this ciphertext?  22222 fl 22222 ag{sthhkhn 22222 s} 22222 
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{sthhkhns}
+ciphertext:  22222 fl 22222 ag{sthhkhn 22222 s} 22222 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 3 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

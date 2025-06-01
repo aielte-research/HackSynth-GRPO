@@ -1,0 +1,20 @@
+
+An intern encrypted the company secret with RSA but used tiny primes. Crack 4443519758207371490 to reveal what they tried to hide.
+
+
+The flag format is flag{...}
+n=7654788458886596207, e=4841361495059999165
+
+---
+
+## Challenge Technical Details
+flag: flag{fvy8vdgs}
+cipher: RSA
+ciphertext: 4443519758207371490
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=7654788458886596207, e=4841361495059999165
+extra_info: p=2491881803, q=3071890669, φ(n)=7654788453322823736
+subtype: small_primes
+archetype: rsa

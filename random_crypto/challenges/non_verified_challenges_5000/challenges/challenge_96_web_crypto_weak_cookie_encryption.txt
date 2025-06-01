@@ -1,0 +1,16 @@
+A forgetful admin encrypted data using AES-ECB but padded the short key with null bytes. Can you recover the plaintext from a7b6682593e8fd399e2ec1155dee0906?
+
+An encryption key that is only 2 bytes long?.
+
+---
+
+## Challenge Technical Details
+flag: flag{stk35z2k}
+ciphertext: a7b6682593e8fd399e2ec1155dee0906
+cipher: AES-ECB
+vulnerability: small key padded with null bytes
+hint: ECB mode with a short key makes brute-forcing possible. Consider the small key entropy.
+necessary_info: An encryption key that is only 2 bytes long?.
+extra_info: Padding follows PKCS#7. The key is padded to 16 bytes with null bytes.
+subtype: weak_cookie_encryption
+archetype: web_crypto

@@ -1,0 +1,17 @@
+
+An old hacker left a clue on a subway ticket. Decipher f{0dlg2et2}a5w using the method named after the rails below your feet.
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{25e0tw2d}
+ciphertext: f{0dlg2et2}a5w
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 3
+subtype: rail_fence
+archetype: classical_cipher

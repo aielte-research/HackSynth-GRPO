@@ -1,0 +1,14 @@
+A mysterious message from an ancient hacker society appears online. Can you decode their secret with a forgotten mirror code? uozt{zo7er7e1}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{al7vi7v1}
+cipher: Atbash
+ciphertext: uozt{zo7er7e1}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

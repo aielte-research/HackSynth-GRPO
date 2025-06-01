@@ -1,0 +1,15 @@
+You've intercepted a crucial encrypted sector from a rogue agent. Only by decrypting ciphertext1:16369f755d89bdcea7611f970a919e84, ciphertext2: 32d6388b200810921dc13b31d47f9e294218f9f82c9fdb0f78a15368d70182b5 with the correct AES-XTS key can you unlock the hidden intel.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{xseo16hc}
+ciphertext: ciphertext1:16369f755d89bdcea7611f970a919e84, ciphertext2: 32d6388b200810921dc13b31d47f9e294218f9f82c9fdb0f78a15368d70182b5
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 54931e60795ad9181bce5348f83ba7ba
+subtype: aes_xts
+archetype: aes

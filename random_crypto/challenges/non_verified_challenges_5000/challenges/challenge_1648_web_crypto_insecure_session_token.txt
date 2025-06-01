@@ -1,0 +1,12 @@
+During a late-night bug bounty session, you intercepted a session token encrypted with a notoriously weak scheme. Recover the original token from this 757365725f396c6f673a666c61677b75656f6d666966747d3a31373438313636333837.
+
+---
+
+## Challenge Technical Details
+flag: flag{ueomfift}
+ciphertext: 757365725f396c6f673a666c61677b75656f6d666966747d3a31373438313636333837
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_9log:flag{ueomfift}:1748166387'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

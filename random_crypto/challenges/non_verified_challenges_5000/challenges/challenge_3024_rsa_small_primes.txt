@@ -1,0 +1,18 @@
+An intern tried to implement RSA, but used small primes for speed. Recover the secret flag from the ciphertext: 7220425831013739931
+
+The flag format is flag{...}
+n=10185602035559589347, e=3264622784873189833
+
+---
+
+## Challenge Technical Details
+flag: flag{xfggjtbm}
+cipher: RSA
+ciphertext: 7220425831013739931
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=10185602035559589347, e=3264622784873189833
+extra_info: p=3701551019, q=2751711913, φ(n)=10185602029106326416
+subtype: small_primes
+archetype: rsa

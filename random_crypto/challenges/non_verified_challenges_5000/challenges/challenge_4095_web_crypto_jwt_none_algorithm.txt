@@ -1,0 +1,11 @@
+Intercepted admin tokens use eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3swZHhud2hqZn0ifQ.; extract the payload to uncover hidden access privileges.
+
+---
+
+## Challenge Technical Details
+flag: flag{0dxnwhjf}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3swZHhud2hqZn0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

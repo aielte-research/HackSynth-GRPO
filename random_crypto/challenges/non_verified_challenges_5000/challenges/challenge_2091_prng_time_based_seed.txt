@@ -1,0 +1,19 @@
+Someone encrypted their login with a timestamp-seeded PRNG. Recover the plaintext, knowing the method and 666c21757b312c686a3229736a7d.
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 19214)
+The system time when the encryption process started was around: 2025-05-25 11:57:30 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{1lzj2iaj}
+ciphertext: 666c21757b312c686a3229736a7d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 19214)
+The system time when the encryption process started was around: 2025-05-25 11:57:30 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 16402.
+subtype: time_based_seed
+archetype: prng

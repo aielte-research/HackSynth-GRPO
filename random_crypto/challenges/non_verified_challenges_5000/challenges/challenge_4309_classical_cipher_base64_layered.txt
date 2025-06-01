@@ -1,0 +1,15 @@
+A hacker left you a hidden flag—can you decode their Base64 message? Here it is: VmpJd2VFNUhSa2RpTTNCclVrWndjRlJVUW1GT2JHUllUVmQwYUZaVVJscFVWVkYzVUZFOVBRPT0=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{zoqsbgb1}
+cipher: Base64
+ciphertext: VmpJd2VFNUhSa2RpTTNCclVrWndjRlJVUW1GT2JHUllUVmQwYUZaVVJscFVWVkYzVUZFOVBRPT0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 5 times in total.
+subtype: base64_layered
+archetype: classical_cipher

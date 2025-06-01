@@ -1,0 +1,24 @@
+An agent secured the vault password using SHA-256. Can you reveal the original password from this hash? Here is the ciphertext: ba6b31635fe4e3b96609682f4c7b3b7a9a82546ff21e4d6e7b160dbc7fe12eeb
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{35v3}
+ciphertext: ba6b31635fe4e3b96609682f4c7b3b7a9a82546ff21e4d6e7b160dbc7fe12eeb
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

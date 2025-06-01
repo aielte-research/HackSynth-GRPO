@@ -1,0 +1,14 @@
+
+An intern built a login system, but stored session tokens using a custom scheme. Your task: recover the original token from this ciphertext: 757365725f6c7469333a666c61677b32656377366830707d3a31373437343832383138
+
+
+---
+
+## Challenge Technical Details
+flag: flag{2ecw6h0p}
+ciphertext: 757365725f6c7469333a666c61677b32656377366830707d3a31373437343832383138
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_lti3:flag{2ecw6h0p}:1747482818'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

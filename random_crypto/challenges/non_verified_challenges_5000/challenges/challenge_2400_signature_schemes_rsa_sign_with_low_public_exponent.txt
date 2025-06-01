@@ -1,0 +1,14 @@
+Hackers intercepted the CEO’s signed transfer request, protected by an insecurely small RSA exponent. Recover the signed amount from the signature ciphertext: 0xf9e6687e877239c0efa9f2df4810c47b66c7ed47f8cae57c4500299e122d635f4206b6f51eee6ac0f057f8e645be57ed61a0dbeab099b78b293d2d54d8e323a
+
+Public Key (n, e): (7600993097086415988547245102731092936327558646599845716759207863288462544396857327624971113390810577096160511463504861619779185055776882509264899702558751, 3)
+
+---
+
+## Challenge Technical Details
+flag: flag{02nons1r}
+ciphertext: 0xf9e6687e877239c0efa9f2df4810c47b66c7ed47f8cae57c4500299e122d635f4206b6f51eee6ac0f057f8e645be57ed61a0dbeab099b78b293d2d54d8e323a
+cipher: RSA Low-Exponent Signature
+hint: What happens when you cube small numbers? Remember e=3!
+necessary_info: Public Key (n, e): (7600993097086415988547245102731092936327558646599845716759207863288462544396857327624971113390810577096160511463504861619779185055776882509264899702558751, 3)
+subtype: rsa_sign_with_low_public_exponent
+archetype: signature_schemes

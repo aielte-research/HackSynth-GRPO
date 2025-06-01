@@ -1,0 +1,18 @@
+An intern encrypted a secret using RSA, but carelessly picked tiny primes for the keys. Can you recover the message from this ciphertext? 499466810298426569
+
+The flag format is flag{...}
+n=9093523040634054731, e=7868664588920305153
+
+---
+
+## Challenge Technical Details
+flag: flag{c3wky18q}
+cipher: RSA
+ciphertext: 499466810298426569
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=9093523040634054731, e=7868664588920305153
+extra_info: p=2261912813, q=4020280087, φ(n)=9093523034351861832
+subtype: small_primes
+archetype: rsa

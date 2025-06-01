@@ -1,0 +1,19 @@
+
+An old spy logbook hides the password, coded using Playfair. Can you decrypt xwbrwflbbgqepuemspsqwflbbgsopveoarohemgwozsgbrwflbbgqepuempmofgeizfwplrhrmxokbfmeqbuugsgxaedgkpvfbklagozembnsozwgumxfwykmoegpzfpuguvugsgbkrymxnfgooflkut and discover the secret phrase?
+
+
+The flag format is flag{...}
+The keyword is: wwydyhhl
+
+---
+
+## Challenge Technical Details
+flag: flag{sadn50tz}
+ciphertext: xwbrwflbbgqepuemspsqwflbbgsopveoarohemgwozsgbrwflbbgqepuempmofgeizfwplrhrmxokbfmeqbuugsgxaedgkpvfbklagozembnsozwgumxfwykmoegpzfpuguvugsgbkrymxnfgooflkut
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: wwydyhhl
+extra_info: The playfair table is [['w', 'y', 'd', 'h', 'l'], ['a', 'b', 'c', 'e', 'f'], ['g', 'i', 'k', 'm', 'n'], ['o', 'p', 'q', 'r', 's'], ['t', 'u', 'v', 'x', 'z']]
+subtype: playfair
+archetype: classical_cipher

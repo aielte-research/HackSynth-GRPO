@@ -1,0 +1,15 @@
+Recover my lost password from its MD5 hash: 3735f4ed37d2bd8538188a88ca063d6d. I used a weak password—can you exploit MD5's reversibility to find it?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{bichf}
+ciphertext: 3735f4ed37d2bd8538188a88ca063d6d
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

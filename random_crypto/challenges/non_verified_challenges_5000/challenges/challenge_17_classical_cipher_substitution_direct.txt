@@ -1,0 +1,21 @@
+An old hacker left you a secret token, hidden using a substitution cipher. Crack the code in wifm{8yjcwjka} to claim your digital prize.
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'f', 'b': 'r', 'c': 'u', 'd': 'g', 'e': 'n', 'f': 'w', 'g': 'm', 'h': 'y', 'i': 'p', 'j': 'x', 'k': 'v', 'l': 'i', 'm': 'q', 'n': 'o', 'o': 'l', 'p': 'c', 'q': 'b', 'r': 'h', 's': 't', 't': 'e', 'u': 'j', 'v': 'd', 'w': 'z', 'x': 's', 'y': 'a', 'z': 'k'}
+
+---
+
+## Challenge Technical Details
+flag: flag{8hupfuzy}
+cipher: Substitution
+ciphertext: wifm{8yjcwjka}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'f', 'b': 'r', 'c': 'u', 'd': 'g', 'e': 'n', 'f': 'w', 'g': 'm', 'h': 'y', 'i': 'p', 'j': 'x', 'k': 'v', 'l': 'i', 'm': 'q', 'n': 'o', 'o': 'l', 'p': 'c', 'q': 'b', 'r': 'h', 's': 't', 't': 'e', 'u': 'j', 'v': 'd', 'w': 'z', 'x': 's', 'y': 'a', 'z': 'k'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

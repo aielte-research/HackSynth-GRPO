@@ -1,0 +1,14 @@
+An artifact from an ancient guild contains a secret message. Decipher uozt{9nctgr5z} using the same code Julius Caesar wished he'd invented.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{9mxgti5a}
+cipher: Atbash
+ciphertext: uozt{9nctgr5z}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

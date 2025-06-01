@@ -1,0 +1,16 @@
+Intercepted secret text was encrypted with AES-ECB. Rumor is, the key is oddly short—padded out with null bytes! Can you recover the message from 3d11bca07adda2821c72190c4f2e4abf?
+
+An encryption key that is only 2 bytes long?.
+
+---
+
+## Challenge Technical Details
+flag: flag{7vht9fyn}
+ciphertext: 3d11bca07adda2821c72190c4f2e4abf
+cipher: AES-ECB
+vulnerability: small key padded with null bytes
+hint: ECB mode with a short key makes brute-forcing possible. Consider the small key entropy.
+necessary_info: An encryption key that is only 2 bytes long?.
+extra_info: Padding follows PKCS#7. The key is padded to 16 bytes with null bytes.
+subtype: weak_cookie_encryption
+archetype: web_crypto

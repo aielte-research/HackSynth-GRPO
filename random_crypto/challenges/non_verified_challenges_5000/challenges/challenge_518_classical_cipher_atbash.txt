@@ -1,0 +1,14 @@
+An archaeologist found an old scroll with a message. It seems mirrored—can you decode the secret left behind? Ciphertext: uozt{hl4kcvm4}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{so4pxen4}
+cipher: Atbash
+ciphertext: uozt{hl4kcvm4}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

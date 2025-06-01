@@ -1,0 +1,29 @@
+
+An intern built our prize vault's encryption with a simple number generator. Can you predict the sequence and recover the message? Ciphertext: 27d662b63a8e64bd32ce68a228c7
+
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1537540203
+  - Multiplier: 1475037415
+  - Increment: 1377559808
+The first 5 outputs of the LCG are provided: [226344855, 1055643608, 1504906906, 264115698, 341845208] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{4glstksi}
+ciphertext: 27d662b63a8e64bd32ce68a228c7
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1537540203
+  - Multiplier: 1475037415
+  - Increment: 1377559808
+The first 5 outputs of the LCG are provided: [226344855, 1055643608, 1504906906, 264115698, 341845208] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

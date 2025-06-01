@@ -1,0 +1,15 @@
+Agent Nova hid the access code using an ASCII Shift cipher. Decode this message to unlock the hidden channel: oujpj<|;;k
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{a3s2wy2b}
+cipher: ASCII Shift
+ciphertext: oujpj<|;;k
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 9
+subtype: ascii_shift
+archetype: classical_cipher

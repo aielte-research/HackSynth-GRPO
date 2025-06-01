@@ -1,0 +1,17 @@
+An agent encoded a message using AES-CFB mode. They left behind this ciphertext: d890dc4247a8ee0eed15f7a3268777c2183b3b5f781635805a4761ff54f2ee493ffb47175a6ce6028a26c9309471159c92113f64bab42f645b2e2faeecfbd79fe71c2bdc64b7a6507fcb2e55785d7a6edbfc0ab5fd7b780fc2f76c61eebac0e86995e5227bd7de3dbc7cae9260fff181ebaa8a8a27cf8419ad2ba1d551c44b176a36d87fd461d53e3c3c4bc8406c6840af2a121b0170e81e6ab4436878305a6a1fae8169fca75b46fb93c9509d693b7f28. Can you recover the original secret?
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{ejbpedw8}
+ciphertext: d890dc4247a8ee0eed15f7a3268777c2183b3b5f781635805a4761ff54f2ee493ffb47175a6ce6028a26c9309471159c92113f64bab42f645b2e2faeecfbd79fe71c2bdc64b7a6507fcb2e55785d7a6edbfc0ab5fd7b780fc2f76c61eebac0e86995e5227bd7de3dbc7cae9260fff181ebaa8a8a27cf8419ad2ba1d551c44b176a36d87fd461d53e3c3c4bc8406c6840af2a121b0170e81e6ab4436878305a6a1fae8169fca75b46fb93c9509d693b7f28
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: 31111b6f4bd2ef7067cc58c8526700f4
+subtype: aes_cfb
+archetype: aes

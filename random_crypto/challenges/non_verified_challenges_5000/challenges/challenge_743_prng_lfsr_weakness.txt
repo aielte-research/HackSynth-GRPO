@@ -1,0 +1,19 @@
+A hacker intercepted a message supposedly encrypted with an LFSR stream cipher, but their sloppy implementation left it vulnerable. Can you recover the original message from 9c4f9b44815bce4ec3578d42c35e?
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[36209, 18104, 9052, 4526, 35031, 17515, 41525, 53530, 59533, 62534]
+
+---
+
+## Challenge Technical Details
+flag: flag{x4m9twa9}
+ciphertext: 9c4f9b44815bce4ec3578d42c35e
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[36209, 18104, 9052, 4526, 35031, 17515, 41525, 53530, 59533, 62534]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

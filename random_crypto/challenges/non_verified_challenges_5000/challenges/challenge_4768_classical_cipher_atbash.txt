@@ -1,0 +1,14 @@
+A mysterious hacker encoded his password hint using an ancient reverse-alphabet cipher. Decipher uozt{coj3j2pl} to reveal the clue.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{xlq3q2ko}
+cipher: Atbash
+ciphertext: uozt{coj3j2pl}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

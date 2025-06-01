@@ -1,0 +1,15 @@
+A forgotten hacker left a secret in an old database, secured with MD5. Recover the original password from its hash: c6972b628d206357100dadb7f4401d6b
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{DIPTI}
+ciphertext: c6972b628d206357100dadb7f4401d6b
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

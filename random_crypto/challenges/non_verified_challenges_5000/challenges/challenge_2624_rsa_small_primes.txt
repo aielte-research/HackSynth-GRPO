@@ -1,0 +1,18 @@
+A careless developer used RSA keys with small primes. Protected data: 4217344136736371990. Can you recover the message by exploiting this vulnerability?
+
+The flag format is flag{...}
+n=9119125410515320663, e=5839170227749644385
+
+---
+
+## Challenge Technical Details
+flag: flag{6qlldevz}
+cipher: RSA
+ciphertext: 4217344136736371990
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=9119125410515320663, e=5839170227749644385
+extra_info: p=3353707817, q=2719117439, φ(n)=9119125404442495408
+subtype: small_primes
+archetype: rsa

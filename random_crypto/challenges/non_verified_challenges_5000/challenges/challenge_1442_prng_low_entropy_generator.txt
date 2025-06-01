@@ -1,0 +1,19 @@
+An intern encrypted the login with a weak PRNG. Bragging, they posted the ciphertext: 666c61577b6c65587569615c337d. Can you recover the secret?
+
+The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [231, 443, 286, 438, 473, 399, 238, 231, 260, 437, 300, 97, 94, 411, 262, 243, 322, 314, 406, 95]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 506)
+
+---
+
+## Challenge Technical Details
+flag: flag{lehuial3}
+ciphertext: 666c61577b6c65587569615c337d
+cipher: Low-entropy PRNG
+hint: The PRNG seed space is small. You can try brute-forcing all possible seeds to reconstruct the sequence.
+necessary_info: The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [231, 443, 286, 438, 473, 399, 238, 231, 260, 437, 300, 97, 94, 411, 262, 243, 322, 314, 406, 95]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 506)
+extra_info: Since the seed has only 256 possible values, it can be brute-forced to recover the secret number and decrypt the flag.
+subtype: low_entropy_generator
+archetype: prng

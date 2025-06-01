@@ -1,0 +1,14 @@
+Agent signed the secret message using RSA low-exponent signatures. Enemy intercepted this cipher: 0x95158f97a499dcb7cc140abbe18be1ff21a314726db407c692db521bbe9db0b217befb1577d94b91cb713797b5f5edc8930aa9050ae2aebb6aa06ffc579a283c. Can you forge a valid signature for your own message?
+
+Public Key (n, e): (9479054729935179350985404403868913707761110420737449943585771329923880846853276356814893750862279056410276805581659248085761919144649190964279713435100009, 3)
+
+---
+
+## Challenge Technical Details
+flag: flag{3ggmfog1}
+ciphertext: 0x95158f97a499dcb7cc140abbe18be1ff21a314726db407c692db521bbe9db0b217befb1577d94b91cb713797b5f5edc8930aa9050ae2aebb6aa06ffc579a283c
+cipher: RSA Low-Exponent Signature
+hint: What happens when you cube small numbers? Remember e=3!
+necessary_info: Public Key (n, e): (9479054729935179350985404403868913707761110420737449943585771329923880846853276356814893750862279056410276805581659248085761919144649190964279713435100009, 3)
+subtype: rsa_sign_with_low_public_exponent
+archetype: signature_schemes

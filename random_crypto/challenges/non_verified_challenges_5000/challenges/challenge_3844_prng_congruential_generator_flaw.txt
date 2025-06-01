@@ -1,0 +1,29 @@
+
+Eve intercepted Bob’s message to Alice, encrypted with a basic LCG-based scheme. Can you predict the key stream and recover the flag from 7b8985b066d594ba68d687a57098?
+
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1006255762
+  - Multiplier: 873310118
+  - Increment: 658700655
+The first 5 outputs of the LCG are provided: [149499657, 828232239, 78279437, 911603771, 127308779] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{0pmu3crm}
+ciphertext: 7b8985b066d594ba68d687a57098
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1006255762
+  - Multiplier: 873310118
+  - Increment: 658700655
+The first 5 outputs of the LCG are provided: [149499657, 828232239, 78279437, 911603771, 127308779] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

@@ -1,0 +1,15 @@
+A hacker left a secret message hidden on the blockchain, encoded with Base85 to thwart prying eyes. Can you uncover the original text from this cipher? W^7?+dogEoax`^zY<&
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{1gsr4uvl}
+cipher: Base85
+ciphertext: W^7?+dogEoax`^zY<&
+hint: Use a Base85 decoder to retrieve the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is straightforward; only one layer is used.
+subtype: Base85
+archetype: classical_cipher

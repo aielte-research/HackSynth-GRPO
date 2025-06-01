@@ -1,0 +1,15 @@
+An ancient alchemist's note reads ti dcsuhylcnufs, n xbqxhthbhtyi dtufmc tx n vmhfyk yg midcsuhtil ti aftdf bithx yg uentihmwh ncm cmuendmk athf hfm dtufmchmwh, ti n kmgtimk vniimc, athf hfm fmeu yg n jms; hfm "bithx" vns qm xtilem emhhmcx (hfm vyxh dyvvyi), untcx yg emhhmcx, hctuemhx yg emhhmcx, vtwhbcmx yg hfm nqyzm, nik xy gychf. hfm cmdmtzmc kmdtufmcx hfm hmwh qs umcgycvtil hfm tizmcxm xbqxhthbhtyi ucydmxx hy mwhcndh hfm yctltine vmxxnlm. etjmatxm, rndobmx obtdjes ptuumk hfcyblf n obmxhtyi yi pmcy-jiyaemklm ucyygx, mixbctil iy dcthtdne emhhmc anx emgh ybh yg ybc dcsuhylcnuftd ubppem.genl{qzfrpxr7}. Can you reveal the hidden recipe by breaking the simple substitution cipher?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{bvhjzsj7}
+ciphertext: ti dcsuhylcnufs, n xbqxhthbhtyi dtufmc tx n vmhfyk yg midcsuhtil ti aftdf bithx yg uentihmwh ncm cmuendmk athf hfm dtufmchmwh, ti n kmgtimk vniimc, athf hfm fmeu yg n jms; hfm "bithx" vns qm xtilem emhhmcx (hfm vyxh dyvvyi), untcx yg emhhmcx, hctuemhx yg emhhmcx, vtwhbcmx yg hfm nqyzm, nik xy gychf. hfm cmdmtzmc kmdtufmcx hfm hmwh qs umcgycvtil hfm tizmcxm xbqxhthbhtyi ucydmxx hy mwhcndh hfm yctltine vmxxnlm. etjmatxm, rndobmx obtdjes ptuumk hfcyblf n obmxhtyi yi pmcy-jiyaemklm ucyygx, mixbctil iy dcthtdne emhhmc anx emgh ybh yg ybc dcsuhylcnuftd ubppem.genl{qzfrpxr7}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'n', 'b': 'q', 'c': 'd', 'd': 'k', 'e': 'm', 'f': 'g', 'g': 'l', 'h': 'f', 'i': 't', 'j': 'r', 'k': 'j', 'l': 'e', 'm': 'v', 'n': 'i', 'o': 'y', 'p': 'u', 'q': 'o', 'r': 'c', 's': 'x', 't': 'h', 'u': 'b', 'v': 'z', 'w': 'a', 'x': 'w', 'y': 's', 'z': 'p'}
+subtype: substitution
+archetype: classical_cipher

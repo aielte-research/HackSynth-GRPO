@@ -1,0 +1,15 @@
+An old terminal spits out oujpq=|=;u after a power surge. Can you decode its ASCII-shifted secret?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{h4s4v2ly}
+cipher: ASCII Shift
+ciphertext: oujpq=|=;u
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 9
+subtype: ascii_shift
+archetype: classical_cipher

@@ -1,0 +1,21 @@
+The hacker left a coded message on a forum. It's been encrypted using a simple substitution cipher. Can you reveal the original text from this liwv{fipgsyau}?
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'w', 'b': 'u', 'c': 'a', 'd': 't', 'e': 'f', 'f': 'l', 'g': 'v', 'h': 'k', 'i': 'q', 'j': 'c', 'k': 'n', 'l': 'i', 'm': 'g', 'n': 'e', 'o': 'r', 'p': 'm', 'q': 'b', 'r': 'o', 's': 's', 't': 'z', 'u': 'y', 'v': 'j', 'w': 'd', 'x': 'p', 'y': 'x', 'z': 'h'}
+
+---
+
+## Challenge Technical Details
+flag: flag{elxmsucb}
+cipher: Substitution
+ciphertext: liwv{fipgsyau}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'w', 'b': 'u', 'c': 'a', 'd': 't', 'e': 'f', 'f': 'l', 'g': 'v', 'h': 'k', 'i': 'q', 'j': 'c', 'k': 'n', 'l': 'i', 'm': 'g', 'n': 'e', 'o': 'r', 'p': 'm', 'q': 'b', 'r': 'o', 's': 's', 't': 'z', 'u': 'y', 'v': 'j', 'w': 'd', 'x': 'p', 'y': 'x', 'z': 'h'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

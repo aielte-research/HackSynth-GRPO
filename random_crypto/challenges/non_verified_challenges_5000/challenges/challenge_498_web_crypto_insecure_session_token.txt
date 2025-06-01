@@ -1,0 +1,12 @@
+Our web app's session tokens are encrypted for security, but someone leaked 757365725f383365323a666c61677b37726a6a773073367d3a31373437343832353633. Can you recover the original token?
+
+---
+
+## Challenge Technical Details
+flag: flag{7rjjw0s6}
+ciphertext: 757365725f383365323a666c61677b37726a6a773073367d3a31373437343832353633
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_83e2:flag{7rjjw0s6}:1747482563'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

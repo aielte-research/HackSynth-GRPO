@@ -1,0 +1,20 @@
+
+A careless admin generated RSA keys with small primes. Intercept the secret flag: 2414931926673729793
+
+
+The flag format is flag{...}
+n=9963293730515025179, e=4595008077011609687
+
+---
+
+## Challenge Technical Details
+flag: flag{g3y0iycj}
+cipher: RSA
+ciphertext: 2414931926673729793
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=9963293730515025179, e=4595008077011609687
+extra_info: p=3917077861, q=2543552639, φ(n)=9963293724054394680
+subtype: small_primes
+archetype: rsa

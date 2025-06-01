@@ -1,0 +1,19 @@
+An insecure lottery app encrypts the winner details using a PRNG with very low entropy. Can you recover the plaintext from the ciphertext below?666c63c27b7277c4767a6595677d
+
+The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [485, 275, 673, 541, 682, 358, 146, 390, 11, 383, 494, 280, 658, 829, 471, 707, 615, 233, 571, 1]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 871)
+
+---
+
+## Challenge Technical Details
+flag: flag{ruavzg0g}
+ciphertext: 666c63c27b7277c4767a6595677d
+cipher: Low-entropy PRNG
+hint: The PRNG seed space is small. You can try brute-forcing all possible seeds to reconstruct the sequence.
+necessary_info: The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [485, 275, 673, 541, 682, 358, 146, 390, 11, 383, 494, 280, 658, 829, 471, 707, 615, 233, 571, 1]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 871)
+extra_info: Since the seed has only 256 possible values, it can be brute-forced to recover the secret number and decrypt the flag.
+subtype: low_entropy_generator
+archetype: prng

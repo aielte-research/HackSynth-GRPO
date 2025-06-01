@@ -1,0 +1,29 @@
+
+A rogue developer hid the vault access code using an LCG-based cipher. Intercept the ciphertext, 65c3910a7897c40579db9c1b36d2, and exploit the predictability to recover the original code.
+
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1907529606
+  - Multiplier: 503074759
+  - Increment: 1871648785
+The first 5 outputs of the LCG are provided: [262801326, 1760692423, 1144489220, 1045313997, 478037644] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{84hztlv5}
+ciphertext: 65c3910a7897c40579db9c1b36d2
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1907529606
+  - Multiplier: 503074759
+  - Increment: 1871648785
+The first 5 outputs of the LCG are provided: [262801326, 1760692423, 1144489220, 1045313997, 478037644] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

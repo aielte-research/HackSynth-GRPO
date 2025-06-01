@@ -1,0 +1,14 @@
+An agent left you a secret message in plain sight—concealed as a string of hexadecimal numbers. Can you decode what 666c61677b31366d6e357262737d means?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{16mn5rbs}
+cipher: Hex
+ciphertext: 666c61677b31366d6e357262737d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

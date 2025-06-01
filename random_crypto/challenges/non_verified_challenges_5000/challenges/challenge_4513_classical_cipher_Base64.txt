@@ -1,0 +1,15 @@
+An old hacker left a secret message encoded in Base64. Can you decode it to reveal the hidden flag? Here is the ciphertext: ZmxhZ3sxamt0bGd4bH0=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{1jktlgxl}
+cipher: Base64
+ciphertext: ZmxhZ3sxamt0bGd4bH0=
+hint: Use a Base64 decoder to obtain the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is direct; no additional layers or tricks.
+subtype: Base64
+archetype: classical_cipher

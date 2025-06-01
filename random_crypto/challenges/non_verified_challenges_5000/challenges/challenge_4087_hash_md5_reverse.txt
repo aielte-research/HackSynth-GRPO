@@ -1,0 +1,15 @@
+Our admin hashed the flag with MD5, thinking it was secure. The hash is aac948072939f46b210922c66f7b2f55. Can you break their trust in MD5 and recover the original flag?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{k1991}
+ciphertext: aac948072939f46b210922c66f7b2f55
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

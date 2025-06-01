@@ -1,0 +1,19 @@
+
+Intercepted from a spy’s notebook, this message oaunqafvpdmbnnmirlxytpelizezxkrlgyfavjfaucmatrgjyawuzbcgbfybbzidwbdcrw was allegedly scrambled by a Hill cipher. Can you recover the original text?
+
+
+The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+
+---
+
+## Challenge Technical Details
+flag: flag{jdetshpl}
+ciphertext: oaunqafvpdmbnnmirlxytpelizezxkrlgyfavjfaucmatrgjyawuzbcgbfybbzidwbdcrw
+cipher: Hill
+hint: Hill ciphers can be broken using known-plaintext attacks and linear algebra mod 26.
+necessary_info: The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+extra_info: The matrix used is: [[14, 11], [19, 19]]
+subtype: hill
+archetype: classical_cipher

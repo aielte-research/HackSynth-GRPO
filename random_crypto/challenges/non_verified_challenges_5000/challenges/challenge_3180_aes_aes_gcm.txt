@@ -1,0 +1,18 @@
+Oops! Both secret messages were sent using AES-GCM, but the same nonce was reused. Can you uncover the secrets from the ciphertexts? ciphertext1:1d453190d4f067765a87bc0357e4, ciphertext2: 0f4139848fe871320c8ea94b4cb9f535901f
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{qed8fahz}
+ciphertext: ciphertext1:1d453190d4f067765a87bc0357e4, ciphertext2: 0f4139848fe871320c8ea94b4cb9f535901f
+tag1: 00fab9bade0da718102cbdada175a457
+tag2: 4049a4b0b12b736fe990ea6f5bc39f8b
+cipher: AES-GCM
+vulnerability: nonce reuse
+hint: AES-GCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 7c320c3c3cb4781d79a00c1e
+subtype: aes_gcm
+archetype: aes

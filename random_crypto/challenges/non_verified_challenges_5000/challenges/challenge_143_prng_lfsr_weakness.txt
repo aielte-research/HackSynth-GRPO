@@ -1,0 +1,19 @@
+Agent Lark intercepted 72bb75b06fb222e07be56eb965aa, an urgent message encrypted with a flawed stream cipher. Can you exploit the LFSR weakness to recover the secret?
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[24271, 44903, 55219, 27609, 13804, 39670, 19835, 42685, 21342, 10671]
+
+---
+
+## Challenge Technical Details
+flag: flag{e67o2znq}
+ciphertext: 72bb75b06fb222e07be56eb965aa
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[24271, 44903, 55219, 27609, 13804, 39670, 19835, 42685, 21342, 10671]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

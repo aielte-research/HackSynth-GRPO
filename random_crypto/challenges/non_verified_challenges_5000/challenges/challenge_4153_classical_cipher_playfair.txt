@@ -1,0 +1,17 @@
+An old spy notebook reveals a secret: messages are hidden using the Playfair cipher. Can you decode this one? bdfsotpompikuxcfykyiotpompwilxmyfnvycfbgugqofsotpompikuxcfimpgtblstopwbigcmvmknwkipamuqogddckslxfgleygugcfcpwidvumcwtocumwbtpsgxmudtmuqokmxfcwdobanelqfebs
+
+The flag format is flag{...}
+The keyword is: iuspxmtg
+
+---
+
+## Challenge Technical Details
+flag: flag{egkoedg5}
+ciphertext: bdfsotpompikuxcfykyiotpompwilxmyfnvycfbgugqofsotpompikuxcfimpgtblstopwbigcmvmknwkipamuqogddckslxfgleygugcfcpwidvumcwtocumwbtpsgxmudtmuqokmxfcwdobanelqfebs
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: iuspxmtg
+extra_info: The playfair table is [['i', 'u', 's', 'p', 'x'], ['m', 't', 'g', 'a', 'b'], ['c', 'd', 'e', 'f', 'h'], ['k', 'l', 'n', 'o', 'q'], ['r', 'v', 'w', 'y', 'z']]
+subtype: playfair
+archetype: classical_cipher

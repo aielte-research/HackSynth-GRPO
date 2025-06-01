@@ -1,0 +1,15 @@
+An old hacker left a message encrypted with MD5. Exploit its vulnerability to reverse the hash and reveal the secret: c836533f9bb0fecb21f17e7ef5baafe0
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{DAVD1}
+ciphertext: c836533f9bb0fecb21f17e7ef5baafe0
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

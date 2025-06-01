@@ -1,0 +1,15 @@
+An old hacker left his password hidden, shifting every letter in ASCII. Can you restore the secret? Ciphertext: pvkqwAxoy
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{muz7neoz}
+cipher: ASCII Shift
+ciphertext: pvkqwAxoy
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 10
+subtype: ascii_shift
+archetype: classical_cipher

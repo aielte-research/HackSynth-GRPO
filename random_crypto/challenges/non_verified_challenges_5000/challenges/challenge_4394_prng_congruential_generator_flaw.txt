@@ -1,0 +1,29 @@
+
+EvilCorp encrypted their secret launch code using a homegrown PRNG. Here's the intercepted ciphertext: 477bccf85a249dfd4827c5ec146a. Can you recover the plain text by predicting their next numbers?
+
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1819786487
+  - Multiplier: 82583819
+  - Increment: 748611734
+The first 5 outputs of the LCG are provided: [1143269790, 562572910, 1780844948, 978372589, 759392587] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{30bi0hs5}
+ciphertext: 477bccf85a249dfd4827c5ec146a
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1819786487
+  - Multiplier: 82583819
+  - Increment: 748611734
+The first 5 outputs of the LCG are provided: [1143269790, 562572910, 1780844948, 978372589, 759392587] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

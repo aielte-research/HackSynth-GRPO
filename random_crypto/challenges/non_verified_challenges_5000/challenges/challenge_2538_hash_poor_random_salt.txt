@@ -1,0 +1,19 @@
+The server stores passwords hashed with SHA-256 and a poorly-chosen random salt. Can you recover the original password from this leaked hash? bcc56e7e9cc83ecf33fe4c45d83ffec2b3ac749a16ee84de222eba2f18be4f37
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{dox}
+ciphertext: bcc56e7e9cc83ecf33fe4c45d83ffec2b3ac749a16ee84de222eba2f18be4f37
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

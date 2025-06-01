@@ -1,0 +1,21 @@
+An agent intercepted a coded message using a substitution cipher. To uncover the secret plan, decipher hzfy{crr21s28} and reveal its contents.
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'f', 'b': 's', 'c': 'i', 'd': 'p', 'e': 'j', 'f': 'h', 'g': 'y', 'h': 'o', 'i': 'n', 'j': 'm', 'k': 't', 'l': 'z', 'm': 'a', 'n': 'r', 'o': 'u', 'p': 'v', 'q': 'b', 'r': 'd', 's': 'g', 't': 'c', 'u': 'k', 'v': 'w', 'w': 'q', 'x': 'e', 'y': 'x', 'z': 'l'}
+
+---
+
+## Challenge Technical Details
+flag: flag{tnn21b28}
+cipher: Substitution
+ciphertext: hzfy{crr21s28}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'f', 'b': 's', 'c': 'i', 'd': 'p', 'e': 'j', 'f': 'h', 'g': 'y', 'h': 'o', 'i': 'n', 'j': 'm', 'k': 't', 'l': 'z', 'm': 'a', 'n': 'r', 'o': 'u', 'p': 'v', 'q': 'b', 'r': 'd', 's': 'g', 't': 'c', 'u': 'k', 'v': 'w', 'w': 'q', 'x': 'e', 'y': 'x', 'z': 'l'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

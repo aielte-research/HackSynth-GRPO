@@ -1,0 +1,15 @@
+A mysterious hacker left a coded tip about a secret vault. Can you reveal the hidden message by cracking their ancient Caesar cipher? Ciphertext: bhwc{vrqwofa2}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{zvuasje2}
+ciphertext: bhwc{vrqwofa2}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 22
+subtype: caesar
+archetype: classical_cipher

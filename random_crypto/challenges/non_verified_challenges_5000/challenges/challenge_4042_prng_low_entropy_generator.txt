@@ -1,0 +1,19 @@
+An intern encrypted the admin login with a quick script using a weak random source. Recover the password from this ciphertext: 666c610f7b65785f347a62016a7d
+
+The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [637, 261, 759, 367, 707, 757, 667, 542, 29, 476, 255, 664, 53, 160, 115, 380, 480, 252, 389, 556]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 776)
+
+---
+
+## Challenge Technical Details
+flag: flag{ex74zbij}
+ciphertext: 666c610f7b65785f347a62016a7d
+cipher: Low-entropy PRNG
+hint: The PRNG seed space is small. You can try brute-forcing all possible seeds to reconstruct the sequence.
+necessary_info: The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [637, 261, 759, 367, 707, 757, 667, 542, 29, 476, 255, 664, 53, 160, 115, 380, 480, 252, 389, 556]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 776)
+extra_info: Since the seed has only 256 possible values, it can be brute-forced to recover the secret number and decrypt the flag.
+subtype: low_entropy_generator
+archetype: prng

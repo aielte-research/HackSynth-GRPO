@@ -1,0 +1,15 @@
+An old hacker left a cryptic message in a rare Base85 encoding. Can you decode Q8sTRJX$6xX;4yHCPX|_GgotOVpc^aK~GFEQff;wK|D%WH~ to unveil their secret?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{s6ku7wpv}
+cipher: Base85
+ciphertext: Q8sTRJX$6xX;4yHCPX|_GgotOVpc^aK~GFEQff;wK|D%WH~
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 5 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

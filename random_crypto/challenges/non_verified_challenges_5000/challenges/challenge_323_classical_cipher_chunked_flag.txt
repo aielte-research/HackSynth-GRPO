@@ -1,0 +1,15 @@
+Intercepted transmissions from a rogue botnet were found encrypted using ChunkedFlag. Can you recover the secret phrase hidden in this message? fla g{ xb 4bi ue j}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{xb4biuej}
+ciphertext: fla g{ xb 4bi ue j}
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

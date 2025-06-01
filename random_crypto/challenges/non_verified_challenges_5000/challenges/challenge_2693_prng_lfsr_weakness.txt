@@ -1,0 +1,19 @@
+Intercepted signal uses an LFSR-based stream cipher. Can you break the weak key and recover the plaintext from this ciphertext? f24bf540ef49e54fe640f91ffa5a
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[40652, 20326, 10163, 5081, 2540, 34038, 17019, 41277, 20638, 10319]
+
+---
+
+## Challenge Technical Details
+flag: flag{nqhrgm8n}
+ciphertext: f24bf540ef49e54fe640f91ffa5a
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[40652, 20326, 10163, 5081, 2540, 34038, 17019, 41277, 20638, 10319]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

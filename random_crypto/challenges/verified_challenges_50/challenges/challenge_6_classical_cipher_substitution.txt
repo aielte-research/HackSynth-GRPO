@@ -1,0 +1,15 @@
+A hacker left a note in an old-school code. Can you decipher the message hidden within: zp wakmycnaembk, e dfrdyzyfyzcp wzmbla zd e ilybcq cv lpwakmyzpn zp sbzwb fpzyd cv mtezpylxy eal almtewlq szyb ybl wzmblaylxy, zp e qlvzplq ieppla, szyb ybl bltm cv e glk; ybl "fpzyd" iek rl dzpntl tlyylad (ybl icdy wciicp), mezad cv tlyylad, yazmtlyd cv tlyylad, izxyfald cv ybl ercul, epq dc vcayb. ybl alwlzula qlwzmblad ybl ylxy rk mlavcaizpn ybl zpuladl dfrdyzyfyzcp macwldd yc lxyaewy ybl caznzpet ilddenl. tzglszdl, hewjfld jfzwgtk ozmmlq ybacfnb e jfldyzcp cp olac-gpcstlqnl maccvd, lpdfazpn pc wazyzwet tlyyla sed tlvy cfy cv cfa wakmycnaembzw mfootl.vten{iniqyc5t}?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{mgmdto5l}
+ciphertext: zp wakmycnaembk, e dfrdyzyfyzcp wzmbla zd e ilybcq cv lpwakmyzpn zp sbzwb fpzyd cv mtezpylxy eal almtewlq szyb ybl wzmblaylxy, zp e qlvzplq ieppla, szyb ybl bltm cv e glk; ybl "fpzyd" iek rl dzpntl tlyylad (ybl icdy wciicp), mezad cv tlyylad, yazmtlyd cv tlyylad, izxyfald cv ybl ercul, epq dc vcayb. ybl alwlzula qlwzmblad ybl ylxy rk mlavcaizpn ybl zpuladl dfrdyzyfyzcp macwldd yc lxyaewy ybl caznzpet ilddenl. tzglszdl, hewjfld jfzwgtk ozmmlq ybacfnb e jfldyzcp cp olac-gpcstlqnl maccvd, lpdfazpn pc wazyzwet tlyyla sed tlvy cfy cv cfa wakmycnaembzw mfootl.vten{iniqyc5t}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'e', 'b': 'r', 'c': 'w', 'd': 'q', 'e': 'l', 'f': 'v', 'g': 'n', 'h': 'b', 'i': 'z', 'j': 'h', 'k': 'g', 'l': 't', 'm': 'i', 'n': 'p', 'o': 'c', 'p': 'm', 'q': 'j', 'r': 'a', 's': 'd', 't': 'y', 'u': 'f', 'v': 'u', 'w': 's', 'x': 'x', 'y': 'k', 'z': 'o'}
+subtype: substitution
+archetype: classical_cipher

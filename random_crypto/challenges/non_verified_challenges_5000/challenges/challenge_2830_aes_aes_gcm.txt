@@ -1,0 +1,18 @@
+An intern accidentally encrypted two secret messages with AES-GCM using the same nonce. Both ciphertexts were leaked. Can you exploit this mistake and recover the hidden flag from ciphertext1:c9a4ade5dc59ef2b47fbf50eb920, ciphertext2: dba0a5f18741ec7e1ff0f91eaa7d344c9eb7?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{qpu6dx0r}
+ciphertext: ciphertext1:c9a4ade5dc59ef2b47fbf50eb920, ciphertext2: dba0a5f18741ec7e1ff0f91eaa7d344c9eb7
+tag1: 762418ecbd8b227ade486a473df8912e
+tag2: 13d3d0437e1d09c82a67f76cfac80da7
+cipher: AES-GCM
+vulnerability: nonce reuse
+hint: AES-GCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: ff9d14070b6641bee693bcf9
+subtype: aes_gcm
+archetype: aes

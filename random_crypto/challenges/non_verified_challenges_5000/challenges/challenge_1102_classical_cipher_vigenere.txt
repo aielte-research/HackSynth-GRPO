@@ -1,0 +1,16 @@
+An anonymous hacker sent you a coded message about a digital heist. Can you uncover the secret by decrypting ybwa{ehs8ihkc} using the Vigenère cipher?
+
+The flag format is flag{...}
+The keyword is: tqwushvp
+
+---
+
+## Challenge Technical Details
+flag: flag{max8toug}
+ciphertext: ybwa{ehs8ihkc}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: tqwushvp
+subtype: vigenere
+archetype: classical_cipher

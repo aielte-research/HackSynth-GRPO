@@ -1,0 +1,18 @@
+An inattentive admin generated RSA keys with small primes. Message intercepted: 6623962194603801478. Can you exploit the weak primes and recover the secret?
+
+The flag format is flag{...}
+n=6682078286290537919, e=3796650835979823151
+
+---
+
+## Challenge Technical Details
+flag: flag{7p3af0pl}
+cipher: RSA
+ciphertext: 6623962194603801478
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=6682078286290537919, e=3796650835979823151
+extra_info: p=3064506491, q=2180474509, φ(n)=6682078281045556920
+subtype: small_primes
+archetype: rsa

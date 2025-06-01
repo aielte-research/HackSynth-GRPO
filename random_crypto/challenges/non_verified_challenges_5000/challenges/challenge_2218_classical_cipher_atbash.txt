@@ -1,0 +1,14 @@
+An archaeologist found a scroll with a strange encoded message. She suspects it’s based on the ancient Atbash cipher. Can you decrypt: uozt{w7h3r6a7}?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{d7s3i6z7}
+cipher: Atbash
+ciphertext: uozt{w7h3r6a7}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

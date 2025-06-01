@@ -1,0 +1,11 @@
+Intercepted during a covert exchange, this JWT token may hold the flag—if you can decode it. Ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tncXF4NjJtYn0ifQ.
+
+---
+
+## Challenge Technical Details
+flag: flag{gqqx62mb}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tncXF4NjJtYn0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

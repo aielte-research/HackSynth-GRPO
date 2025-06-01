@@ -1,0 +1,19 @@
+A desperate hacker encrypted a vital flag using a quickly-coded PRNG cipher. The low entropy might be your key. The ciphertext is: 666c61f67b3463fe72336ea2747d
+
+The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [370, 480, 492, 291, 426, 232, 457, 5, 419, 673, 728, 265, 243, 650, 227, 10, 303, 309, 343, 682]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 749)
+
+---
+
+## Challenge Technical Details
+flag: flag{4cor3n3t}
+ciphertext: 666c61f67b3463fe72336ea2747d
+cipher: Low-entropy PRNG
+hint: The PRNG seed space is small. You can try brute-forcing all possible seeds to reconstruct the sequence.
+necessary_info: The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [370, 480, 492, 291, 426, 232, 457, 5, 419, 673, 728, 265, 243, 650, 227, 10, 303, 309, 343, 682]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 749)
+extra_info: Since the seed has only 256 possible values, it can be brute-forced to recover the secret number and decrypt the flag.
+subtype: low_entropy_generator
+archetype: prng

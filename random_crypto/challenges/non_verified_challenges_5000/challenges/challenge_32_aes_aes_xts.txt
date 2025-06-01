@@ -1,0 +1,15 @@
+Your secret storage drive encrypts data with AES-XTS. Someone leaked this fragment: ciphertext1:e47517876e4d5dfcc100e6388b4ca8d4, ciphertext2: bcbda9aba869b94dbb1732e0f023cd1d98a2119425d1ed0f0538b6139845fc99. Can you recover the original plaintext?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{mwhyrj97}
+ciphertext: ciphertext1:e47517876e4d5dfcc100e6388b4ca8d4, ciphertext2: bcbda9aba869b94dbb1732e0f023cd1d98a2119425d1ed0f0538b6139845fc99
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 2c922cf8ee8624ce3eedbbbdfb505855
+subtype: aes_xts
+archetype: aes

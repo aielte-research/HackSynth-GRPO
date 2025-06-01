@@ -1,0 +1,17 @@
+A rogue AI sent a secret plan, encrypted with AES-CFB. Only the right key can reveal its message: b9355a1a7f34e777612c7d87d3546739c9f7e8d9b3ce3b7a6daa158de457b2b1f2947ab759791e2aa69113741f254ce962b3a5f2d4828daa58958ca99762b5e9e5c5a4d8304c4e4fd82c6fca3081ed88d32cc08939c7ae3c2bb0c67a10bc17461283c84629404c65385c557344c18346e74acc42543a536dee361cf579611f75bcce720e5089e2e8fff329bfc42b6d8ebb3b777249df649949c63b156043c4dddad6c4ebd81a79b13377ccc622b1033022
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{d1ufxbgy}
+ciphertext: b9355a1a7f34e777612c7d87d3546739c9f7e8d9b3ce3b7a6daa158de457b2b1f2947ab759791e2aa69113741f254ce962b3a5f2d4828daa58958ca99762b5e9e5c5a4d8304c4e4fd82c6fca3081ed88d32cc08939c7ae3c2bb0c67a10bc17461283c84629404c65385c557344c18346e74acc42543a536dee361cf579611f75bcce720e5089e2e8fff329bfc42b6d8ebb3b777249df649949c63b156043c4dddad6c4ebd81a79b13377ccc622b1033022
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: b55d23ed1fcf914ad9db6a952093d000
+subtype: aes_cfb
+archetype: aes

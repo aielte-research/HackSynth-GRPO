@@ -1,0 +1,17 @@
+An old spy diary entry is encrypted with the Playfair cipher. Decipher qmioicehgaakawfyfvaoicehgakenxbarvavfycplnpoioicehgaakawfyaeikgcuscielhzfloclasokaiqplpoolbmpsnxiruniglnfygekezclprfcigsfacgkskyplnzplpoalqgrfmegpdltswyuz to uncover the secret passphrase hidden within.
+
+The flag format is flag{...}
+The keyword is: sejylker
+
+---
+
+## Challenge Technical Details
+flag: flag{7msnlxjz}
+ciphertext: qmioicehgaakawfyfvaoicehgakenxbarvavfycplnpoioicehgaakawfyaeikgcuscielhzfloclasokaiqplpoolbmpsnxiruniglnfygekezclprfcigsfacgkskyplnzplpoalqgrfmegpdltswyuz
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: sejylker
+extra_info: The playfair table is [['s', 'e', 'i', 'y', 'l'], ['k', 'r', 'a', 'b', 'c'], ['d', 'f', 'g', 'h', 'm'], ['n', 'o', 'p', 'q', 't'], ['u', 'v', 'w', 'x', 'z']]
+subtype: playfair
+archetype: classical_cipher

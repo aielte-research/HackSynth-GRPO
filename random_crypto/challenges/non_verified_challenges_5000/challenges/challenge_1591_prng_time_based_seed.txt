@@ -1,0 +1,21 @@
+
+A hacker intercepted a secret code, encrypted using a time-dependent PRNG. Can you rewind the clock and reveal the original message? Ciphertext: 666cade57b74abfa3075a5bb6d7d
+
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 77358)
+The system time when the encryption process started was around: 2025-05-25 11:45:05 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{tgx0ui9m}
+ciphertext: 666cade57b74abfa3075a5bb6d7d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 77358)
+The system time when the encryption process started was around: 2025-05-25 11:45:05 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 52354.
+subtype: time_based_seed
+archetype: prng

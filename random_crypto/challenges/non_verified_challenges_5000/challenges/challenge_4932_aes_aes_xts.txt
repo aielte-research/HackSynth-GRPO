@@ -1,0 +1,15 @@
+An old hard drive was encrypted using AES-XTS for "security." Can you decrypt the secret message inside? The cipher text is: ciphertext1:2f72043e65a13209f0e29079405b795d, ciphertext2: 5453012a9903ec2f371e247b7e3dd64eecebe19cde978a09e0f84f8be6e840be
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{8wip71hr}
+ciphertext: ciphertext1:2f72043e65a13209f0e29079405b795d, ciphertext2: 5453012a9903ec2f371e247b7e3dd64eecebe19cde978a09e0f84f8be6e840be
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: d6612effa699845628a512a62b67cddb
+subtype: aes_xts
+archetype: aes

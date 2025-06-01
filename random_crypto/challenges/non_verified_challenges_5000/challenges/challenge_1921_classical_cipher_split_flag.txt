@@ -1,0 +1,15 @@
+Agent Mira intercepted a message hidden by the elusive SplitNumberMix cipher. She needs your help to decode it:  66666666 flag{mbj 66666666 wh 66666666 oey} 66666666 
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{mbjwhoey}
+ciphertext:  66666666 flag{mbj 66666666 wh 66666666 oey} 66666666 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 3 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

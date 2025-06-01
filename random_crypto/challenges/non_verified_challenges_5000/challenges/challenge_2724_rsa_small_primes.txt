@@ -1,0 +1,18 @@
+An intern generated an RSA key using two small primes. The CEO's encrypted password is: 4675653891234392790. Can you recover it by exploiting the weak key?
+
+The flag format is flag{...}
+n=6138532706604931439, e=4035072550728974945
+
+---
+
+## Challenge Technical Details
+flag: flag{z7nms4nt}
+cipher: RSA
+ciphertext: 4675653891234392790
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=6138532706604931439, e=4035072550728974945
+extra_info: p=2313039517, q=2653881467, φ(n)=6138532701638010456
+subtype: small_primes
+archetype: rsa

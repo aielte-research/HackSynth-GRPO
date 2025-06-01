@@ -1,0 +1,15 @@
+A rogue hacker reversed a hidden message to evade detection. Can you restore the original phrase from this scrambled code? Ciphertext: }z9yr8efp{galf
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{pfe8ry9z}
+ciphertext: }z9yr8efp{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

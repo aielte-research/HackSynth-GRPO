@@ -1,0 +1,16 @@
+A careless intern encrypted a secret with AES-ECB, using a short password padded with nulls as the key. The ciphertext is: d5e0dd84d91dbdd17b8d237537bee392
+
+An encryption key that is only 2 bytes long?.
+
+---
+
+## Challenge Technical Details
+flag: flag{j536sn5l}
+ciphertext: d5e0dd84d91dbdd17b8d237537bee392
+cipher: AES-ECB
+vulnerability: small key padded with null bytes
+hint: ECB mode with a short key makes brute-forcing possible. Consider the small key entropy.
+necessary_info: An encryption key that is only 2 bytes long?.
+extra_info: Padding follows PKCS#7. The key is padded to 16 bytes with null bytes.
+subtype: weak_cookie_encryption
+archetype: web_crypto

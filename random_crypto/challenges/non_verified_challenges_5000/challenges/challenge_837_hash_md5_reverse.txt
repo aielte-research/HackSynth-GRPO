@@ -1,0 +1,15 @@
+Intercepted logs show an admin hashed their password with MD5. Can you recover the original password from this hash? 697d2d0748c24197863966b525db7f95
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{rrbtl}
+ciphertext: 697d2d0748c24197863966b525db7f95
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

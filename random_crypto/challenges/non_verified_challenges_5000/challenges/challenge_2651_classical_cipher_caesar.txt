@@ -1,0 +1,17 @@
+
+Julius left a secret note for his general. Can you crack the code and reveal the hidden message? Ciphertext: pvkq{ilf6u7al}
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ybv6k7qb}
+ciphertext: pvkq{ilf6u7al}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 10
+subtype: caesar
+archetype: classical_cipher

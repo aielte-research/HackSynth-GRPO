@@ -1,0 +1,19 @@
+An intern encrypted tomorrow’s lunch menu with a weak PRNG. Can you recover the original message from this ciphertext? 666c62517b673b4e6133794f6b7d
+
+The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [57, 93, 86, 369, 173, 753, 828, 685, 315, 257, 620, 217, 621, 36, 595, 697, 162, 441, 653, 402]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 831)
+
+---
+
+## Challenge Technical Details
+flag: flag{g8xa3zyk}
+ciphertext: 666c62517b673b4e6133794f6b7d
+cipher: Low-entropy PRNG
+hint: The PRNG seed space is small. You can try brute-forcing all possible seeds to reconstruct the sequence.
+necessary_info: The flag format is flag{...}
+A random number generator was seeded using an 8-bit value (0-255). The first outputs of the generator are: [57, 93, 86, 369, 173, 753, 828, 685, 315, 257, 620, 217, 621, 36, 595, 697, 162, 441, 653, 402]. The next PRNG output was used as a symmetric key to XOR-encrypt the flag.
+secret_num = rng.randint(0, 831)
+extra_info: Since the seed has only 256 possible values, it can be brute-forced to recover the secret number and decrypt the flag.
+subtype: low_entropy_generator
+archetype: prng

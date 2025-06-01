@@ -1,0 +1,14 @@
+A secret message was stored in hexadecimal during a midnight hackathon. Decode the hex to uncover the crucial clue: 666c61677b6a686232717069667d
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{jhb2qpif}
+cipher: Hex
+ciphertext: 666c61677b6a686232717069667d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+A message from the hacker was intercepted, but it's oddly coded. Can you decode their scheme to reveal the secret? Ciphertext: Vm1wSmQyVkZOVWhTYTJScFRUTkNjbFV3WkRSalZscHlWbGhrYkdKSFVsaFhhMUpQVkd4YVZWVnFXbFZXVmtZelZVWkZPVkJSUFQwPQ==
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{rq37al57}
+cipher: Base64
+ciphertext: Vm1wSmQyVkZOVWhTYTJScFRUTkNjbFV3WkRSalZscHlWbGhrYkdKSFVsaFhhMUpQVkd4YVZWVnFXbFZXVmtZelZVWkZPVkJSUFQwPQ==
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 6 times in total.
+subtype: Base64_layered
+archetype: classical_cipher

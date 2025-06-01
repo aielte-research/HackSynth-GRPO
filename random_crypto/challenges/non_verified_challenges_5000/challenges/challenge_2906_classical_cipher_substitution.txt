@@ -1,0 +1,17 @@
+
+A secret agent left an encrypted message using a simple substitution cipher. Decode rj gmealdkmvaxe, v sonslrlolrdj graxhm rs v yhlxdu dt hjgmealrjk rj fxrgx ojrls dt aivrjlhzl vmh mhaivghu frlx lxh graxhmlhzl, rj v uhtrjhu yvjjhm, frlx lxh xhia dt v bhe; lxh "ojrls" yve nh srjkih ihllhms (lxh ydsl gdyydj), avrms dt ihllhms, lmraihls dt ihllhms, yrzlomhs dt lxh vndch, vju sd tdmlx. lxh mhghrchm uhgraxhms lxh lhzl ne ahmtdmyrjk lxh rjchmsh sonslrlolrdj amdghss ld hzlmvgl lxh dmrkrjvi yhssvkh. irbhfrsh, wvgqohs qorgbie praahu lxmdokx v qohslrdj dj phmd-bjdfihukh amddts, hjsomrjk jd gmrlrgvi ihllhm fvs ihtl dol dt dom gmealdkmvaxrg aoppih.tivk{3tg2tqqb} to uncover the hidden password.
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{3fc2fqqk}
+ciphertext: rj gmealdkmvaxe, v sonslrlolrdj graxhm rs v yhlxdu dt hjgmealrjk rj fxrgx ojrls dt aivrjlhzl vmh mhaivghu frlx lxh graxhmlhzl, rj v uhtrjhu yvjjhm, frlx lxh xhia dt v bhe; lxh "ojrls" yve nh srjkih ihllhms (lxh ydsl gdyydj), avrms dt ihllhms, lmraihls dt ihllhms, yrzlomhs dt lxh vndch, vju sd tdmlx. lxh mhghrchm uhgraxhms lxh lhzl ne ahmtdmyrjk lxh rjchmsh sonslrlolrdj amdghss ld hzlmvgl lxh dmrkrjvi yhssvkh. irbhfrsh, wvgqohs qorgbie praahu lxmdokx v qohslrdj dj phmd-bjdfihukh amddts, hjsomrjk jd gmrlrgvi ihllhm fvs ihtl dol dt dom gmealdkmvaxrg aoppih.tivk{3tg2tqqb}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'v', 'b': 'n', 'c': 'g', 'd': 'u', 'e': 'h', 'f': 't', 'g': 'k', 'h': 'x', 'i': 'r', 'j': 'w', 'k': 'b', 'l': 'i', 'm': 'y', 'n': 'j', 'o': 'd', 'p': 'a', 'q': 'q', 'r': 'm', 's': 's', 't': 'l', 'u': 'o', 'v': 'c', 'w': 'f', 'x': 'z', 'y': 'e', 'z': 'p'}
+subtype: substitution
+archetype: classical_cipher

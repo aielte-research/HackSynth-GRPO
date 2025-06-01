@@ -1,0 +1,27 @@
+Someone intercepted the vault's OTP codes, encrypted with a faulty LCG-based cipher. Can you predict the next numbers and recover the secrets from: 2689a59c3bdcbe9d748cf2947298
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1647604335
+  - Multiplier: 829111723
+  - Increment: 205310378
+The first 5 outputs of the LCG are provided: [718968829, 598710150, 466408373, 361125007, 1570526004] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{9zf4i6o2}
+ciphertext: 2689a59c3bdcbe9d748cf2947298
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1647604335
+  - Multiplier: 829111723
+  - Increment: 205310378
+The first 5 outputs of the LCG are provided: [718968829, 598710150, 466408373, 361125007, 1570526004] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

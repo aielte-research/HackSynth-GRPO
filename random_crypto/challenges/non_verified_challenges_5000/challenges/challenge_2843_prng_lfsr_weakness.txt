@@ -1,0 +1,21 @@
+
+Intercepted during a heist, this message encodes vault access using an LFSR-based stream. Can you reveal the secret from f5e3f2e8e8e0a3fee9eae7f7e1f2?
+
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[16301, 8150, 36843, 51189, 58362, 29181, 14590, 40063, 20031, 10015]
+
+---
+
+## Challenge Technical Details
+flag: flag{o0qzetxr}
+ciphertext: f5e3f2e8e8e0a3fee9eae7f7e1f2
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[16301, 8150, 36843, 51189, 58362, 29181, 14590, 40063, 20031, 10015]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

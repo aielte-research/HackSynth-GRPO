@@ -1,0 +1,15 @@
+A hacker left only an MD5 hash: 8ade04b7df046ae5c912505507109291. Can you exploit MD5’s weaknesses to recover the original password?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{daymn}
+ciphertext: 8ade04b7df046ae5c912505507109291
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

@@ -1,0 +1,17 @@
+
+An agent split the flag using the ChunkedFlag cipher to prevent interception. Recover the original flag from this intercepted message: fl ag{ w75 av k4a }
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{w75avk4a}
+ciphertext: fl ag{ w75 av k4a }
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+An agent left a coded message in the mirror. Can you uncover the secret by reversing }jk5jtk08{galf?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{80ktj5kj}
+ciphertext: }jk5jtk08{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

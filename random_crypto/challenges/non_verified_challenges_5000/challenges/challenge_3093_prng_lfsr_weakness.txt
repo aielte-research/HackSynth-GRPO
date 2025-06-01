@@ -1,0 +1,19 @@
+An old hacker claims this message, "5d915a9a4095489b519b08905380", was protected by a flawed LFSR-based stream cipher. Can you break the weakness and reveal the secret?
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[62702, 64119, 64827, 65181, 65358, 32679, 49107, 57321, 61428, 30714]
+
+---
+
+## Challenge Technical Details
+flag: flag{hsfjf3mh}
+ciphertext: 5d915a9a4095489b519b08905380
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[62702, 64119, 64827, 65181, 65358, 32679, 49107, 57321, 61428, 30714]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

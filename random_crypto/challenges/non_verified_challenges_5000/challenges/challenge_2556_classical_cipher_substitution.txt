@@ -1,0 +1,15 @@
+A rogue AI hid the launch code using a simple letter swap. Can you restore the original message from this cipher?: ic vqpjksxqojlp, o wdmwkikdkisc vijlfq iw o yfklsn sz fcvqpjkicx ic blivl dcikw sz jeoickfgk oqf qfjeovfn bikl klf vijlfqkfgk, ic o nfzicfn yoccfq, bikl klf lfej sz o hfp; klf "dcikw" yop mf wicxef efkkfqw (klf yswk vsyysc), joiqw sz efkkfqw, kqijefkw sz efkkfqw, yigkdqfw sz klf omstf, ocn ws zsqkl. klf qfvfitfq nfvijlfqw klf kfgk mp jfqzsqyicx klf ictfqwf wdmwkikdkisc jqsvfww ks fgkqovk klf sqixicoe yfwwoxf. eihfbiwf, rovudfw udivhep aijjfn klqsdxl o udfwkisc sc afqs-hcsbefnxf jqsszw, fcwdqicx cs vqikivoe efkkfq bow efzk sdk sz sdq vqpjksxqojliv jdaaef.zeox{417b5yai}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{417w5mzi}
+ciphertext: ic vqpjksxqojlp, o wdmwkikdkisc vijlfq iw o yfklsn sz fcvqpjkicx ic blivl dcikw sz jeoickfgk oqf qfjeovfn bikl klf vijlfqkfgk, ic o nfzicfn yoccfq, bikl klf lfej sz o hfp; klf "dcikw" yop mf wicxef efkkfqw (klf yswk vsyysc), joiqw sz efkkfqw, kqijefkw sz efkkfqw, yigkdqfw sz klf omstf, ocn ws zsqkl. klf qfvfitfq nfvijlfqw klf kfgk mp jfqzsqyicx klf ictfqwf wdmwkikdkisc jqsvfww ks fgkqovk klf sqixicoe yfwwoxf. eihfbiwf, rovudfw udivhep aijjfn klqsdxl o udfwkisc sc afqs-hcsbefnxf jqsszw, fcwdqicx cs vqikivoe efkkfq bow efzk sdk sz sdq vqpjksxqojliv jdaaef.zeox{417b5yai}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'o', 'b': 'm', 'c': 'v', 'd': 'n', 'e': 'f', 'f': 'z', 'g': 'x', 'h': 'l', 'i': 'i', 'j': 'r', 'k': 'h', 'l': 'e', 'm': 'y', 'n': 'c', 'o': 's', 'p': 'j', 'q': 'u', 'r': 'q', 's': 'w', 't': 'k', 'u': 'd', 'v': 't', 'w': 'b', 'x': 'g', 'y': 'p', 'z': 'a'}
+subtype: substitution
+archetype: classical_cipher

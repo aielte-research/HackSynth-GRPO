@@ -1,0 +1,15 @@
+An old hacker left a clue for their lost wallet key, encoded with an ASCII Shift cipher. Can you recover the message from this ciphertext? lrgmtil;>w:|
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ncf58q4v}
+cipher: ASCII Shift
+ciphertext: lrgmtil;>w:|
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 6
+subtype: ascii_shift
+archetype: classical_cipher

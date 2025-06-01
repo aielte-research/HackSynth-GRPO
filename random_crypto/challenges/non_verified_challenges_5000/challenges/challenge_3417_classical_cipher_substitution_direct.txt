@@ -1,0 +1,23 @@
+
+A message intercepted from a rival hacker group is encoded with a letter-for-letter substitution. Crack their code to reveal the secret: ivxp{hb8r64l3}
+
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'x', 'b': 'j', 'c': 's', 'd': 'k', 'e': 'h', 'f': 'i', 'g': 'p', 'h': 'w', 'i': 'l', 'j': 'm', 'k': 'b', 'l': 'v', 'm': 'c', 'n': 'a', 'o': 'u', 'p': 'e', 'q': 'y', 'r': 'o', 's': 'd', 't': 'g', 'u': 'r', 'v': 'q', 'w': 'n', 'x': 'f', 'y': 't', 'z': 'z'}
+
+---
+
+## Challenge Technical Details
+flag: flag{ek8u64i3}
+cipher: Substitution
+ciphertext: ivxp{hb8r64l3}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'x', 'b': 'j', 'c': 's', 'd': 'k', 'e': 'h', 'f': 'i', 'g': 'p', 'h': 'w', 'i': 'l', 'j': 'm', 'k': 'b', 'l': 'v', 'm': 'c', 'n': 'a', 'o': 'u', 'p': 'e', 'q': 'y', 'r': 'o', 's': 'd', 't': 'g', 'u': 'r', 'v': 'q', 'w': 'n', 'x': 'f', 'y': 't', 'z': 'z'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

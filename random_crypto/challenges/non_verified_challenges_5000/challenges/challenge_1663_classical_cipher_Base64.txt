@@ -1,0 +1,15 @@
+Decrypt the transmission intercepted from the hacker’s server. The message is encoded in a common text-to-binary cipher: ZmxhZ3tsdGRuYXkweX0=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ltdnay0y}
+cipher: Base64
+ciphertext: ZmxhZ3tsdGRuYXkweX0=
+hint: Use a Base64 decoder to obtain the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is direct; no additional layers or tricks.
+subtype: Base64
+archetype: classical_cipher

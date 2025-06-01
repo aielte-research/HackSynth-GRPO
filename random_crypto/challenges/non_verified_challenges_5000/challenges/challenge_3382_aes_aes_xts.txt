@@ -1,0 +1,15 @@
+Hidden in a mysterious hard drive sector, an old hacker's secret awaits. Decrypt ciphertext1:028825cd42d6d778a8b356ad30771183, ciphertext2: ef3b0a69959c64ea314c0ea409cfbb381e83d2a2bfc7f587f5d848167ac8e854 with AES-XTS to uncover the message.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{28dhj4aj}
+ciphertext: ciphertext1:028825cd42d6d778a8b356ad30771183, ciphertext2: ef3b0a69959c64ea314c0ea409cfbb381e83d2a2bfc7f587f5d848167ac8e854
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: d24c543acdff09cdf56559c527af7ee1
+subtype: aes_xts
+archetype: aes

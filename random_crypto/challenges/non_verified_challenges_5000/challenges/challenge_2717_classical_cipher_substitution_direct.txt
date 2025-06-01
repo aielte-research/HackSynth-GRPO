@@ -1,0 +1,21 @@
+A hacker left a coded message at the scene. Authorities believe it's a substitution cipher. Can you break it? Ciphertext: xdfb{whmpjdnz}
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'f', 'b': 'w', 'c': 'y', 'd': 'o', 'e': 'r', 'f': 'x', 'g': 'b', 'h': 'e', 'i': 'l', 'j': 'p', 'k': 'g', 'l': 'd', 'm': 'u', 'n': 'h', 'o': 'z', 'p': 'v', 'q': 'n', 'r': 'k', 's': 'c', 't': 's', 'u': 'm', 'v': 'q', 'w': 'j', 'x': 'a', 'y': 't', 'z': 'i'}
+
+---
+
+## Challenge Technical Details
+flag: flag{bnujwlqo}
+cipher: Substitution
+ciphertext: xdfb{whmpjdnz}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'f', 'b': 'w', 'c': 'y', 'd': 'o', 'e': 'r', 'f': 'x', 'g': 'b', 'h': 'e', 'i': 'l', 'j': 'p', 'k': 'g', 'l': 'd', 'm': 'u', 'n': 'h', 'o': 'z', 'p': 'v', 'q': 'n', 'r': 'k', 's': 'c', 't': 's', 'u': 'm', 'v': 'q', 'w': 'j', 'x': 'a', 'y': 't', 'z': 'i'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

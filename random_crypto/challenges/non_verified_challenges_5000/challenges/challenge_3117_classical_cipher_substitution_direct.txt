@@ -1,0 +1,21 @@
+An intercepted spy note contains a secret rendezvous. Can you crack the coded message below, encrypted with a simple substitution cipher? fpzq{z1n6ykuj}
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'z', 'b': 'e', 'c': 'a', 'd': 't', 'e': 'd', 'f': 'f', 'g': 'q', 'h': 'l', 'i': 'm', 'j': 'u', 'k': 'w', 'l': 'p', 'm': 'i', 'n': 'j', 'o': 'v', 'p': 'k', 'q': 'n', 'r': 'y', 's': 'o', 't': 'h', 'u': 'b', 'v': 'r', 'w': 's', 'x': 'x', 'y': 'g', 'z': 'c'}
+
+---
+
+## Challenge Technical Details
+flag: flag{a1q6rpjn}
+cipher: Substitution
+ciphertext: fpzq{z1n6ykuj}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'z', 'b': 'e', 'c': 'a', 'd': 't', 'e': 'd', 'f': 'f', 'g': 'q', 'h': 'l', 'i': 'm', 'j': 'u', 'k': 'w', 'l': 'p', 'm': 'i', 'n': 'j', 'o': 'v', 'p': 'k', 'q': 'n', 'r': 'y', 's': 'o', 't': 'h', 'u': 'b', 'v': 'r', 'w': 's', 'x': 'x', 'y': 'g', 'z': 'c'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

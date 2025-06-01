@@ -1,0 +1,16 @@
+An agent left a coded message in a café napkin. The intel is vital, but it's encrypted using the Vigenère cipher. Can you reveal the secret? yijn{2n5j8vq4}
+
+The flag format is flag{...}
+The keyword is: txjhl
+
+---
+
+## Challenge Technical Details
+flag: flag{2c5q8yh4}
+ciphertext: yijn{2n5j8vq4}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: txjhl
+subtype: vigenere
+archetype: classical_cipher

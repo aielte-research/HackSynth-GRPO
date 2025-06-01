@@ -1,0 +1,15 @@
+Intercepted during a shady blockchain transaction, this flag is encrypted with ChunkedFlag. Can you piece together its secrets? Ciphertext: fla g{g db ob 1b1 }
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{gdbob1b1}
+ciphertext: fla g{g db ob 1b1 }
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

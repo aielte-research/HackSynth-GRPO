@@ -1,0 +1,17 @@
+
+A hacker hid the server password by shifting ASCII codes in his last message: jpekt<<r9hu9. Can you decode it?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{p88n5dq5}
+cipher: ASCII Shift
+ciphertext: jpekt<<r9hu9
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 4
+subtype: ascii_shift
+archetype: classical_cipher

@@ -1,0 +1,17 @@
+An old journal hides its secret behind a classic cipher. Can you decode the message? Ciphertext: yupvkcwkmhsamvikshsqkcwkmhsnnbkyliqyikxynzuspvkcwkmhsamvikphrcgctxckrzgmepynomdpasvrvuusvdaopunbkmtnygnzikebsnzduvkpckeuaqcgnooqvuuxvuusmorikpkdcalafhtquc
+
+The flag format is flag{...}
+The keyword is: ujbhoxmg
+
+---
+
+## Challenge Technical Details
+flag: flag{kc6kbwno}
+ciphertext: yupvkcwkmhsamvikshsqkcwkmhsnnbkyliqyikxynzuspvkcwkmhsamvikphrcgctxckrzgmepynomdpasvrvuusvdaopunbkmtnygnzikebsnzduvkpckeuaqcgnooqvuuxvuusmorikpkdcalafhtquc
+cipher: Playfair
+hint: Playfair is vulnerable to digraph frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: ujbhoxmg
+extra_info: The playfair table is [['u', 'i', 'b', 'h', 'o'], ['x', 'm', 'g', 'a', 'c'], ['d', 'e', 'f', 'k', 'l'], ['n', 'p', 'q', 'r', 's'], ['t', 'v', 'w', 'y', 'z']]
+subtype: playfair
+archetype: classical_cipher

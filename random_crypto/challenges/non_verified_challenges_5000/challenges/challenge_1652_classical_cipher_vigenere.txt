@@ -1,0 +1,16 @@
+An old hacker left a coded message, bragging only those who know the right passphrase can read it. Decrypt the text: auyu{lx113ou2}
+
+The flag format is flag{...}
+The keyword is: vjyomygj
+
+---
+
+## Challenge Technical Details
+flag: flag{zz113il2}
+ciphertext: auyu{lx113ou2}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: vjyomygj
+subtype: vigenere
+archetype: classical_cipher

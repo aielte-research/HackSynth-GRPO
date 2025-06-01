@@ -1,0 +1,21 @@
+A mysterious message, left at the scene, hides a name. Can you reveal the truth behind this classic substitution cipher? The message: urxm{lmac9ukj}
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'x', 'b': 'q', 'c': 'a', 'd': 'e', 'e': 'i', 'f': 'u', 'g': 'm', 'h': 'g', 'i': 'h', 'j': 'j', 'k': 'y', 'l': 'r', 'm': 'w', 'n': 'c', 'o': 'k', 'p': 'b', 'q': 'n', 'r': 'p', 's': 't', 't': 'l', 'u': 'z', 'v': 'd', 'w': 's', 'x': 'f', 'y': 'v', 'z': 'o'}
+
+---
+
+## Challenge Technical Details
+flag: flag{tgcn9foj}
+cipher: Substitution
+ciphertext: urxm{lmac9ukj}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'x', 'b': 'q', 'c': 'a', 'd': 'e', 'e': 'i', 'f': 'u', 'g': 'm', 'h': 'g', 'i': 'h', 'j': 'j', 'k': 'y', 'l': 'r', 'm': 'w', 'n': 'c', 'o': 'k', 'p': 'b', 'q': 'n', 'r': 'p', 's': 't', 't': 'l', 'u': 'z', 'v': 'd', 'w': 's', 'x': 'f', 'y': 'v', 'z': 'o'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

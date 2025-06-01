@@ -1,0 +1,14 @@
+
+A careless intern built a login demo using a homebrew "Insecure Session Token" cipher. Can you recover the admin secret from this token? 757365725f6a36666d3a666c61677b6e7631637568686e7d3a31373437343833323134
+
+
+---
+
+## Challenge Technical Details
+flag: flag{nv1cuhhn}
+ciphertext: 757365725f6a36666d3a666c61677b6e7631637568686e7d3a31373437343833323134
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_j6fm:flag{nv1cuhhn}:1747483214'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

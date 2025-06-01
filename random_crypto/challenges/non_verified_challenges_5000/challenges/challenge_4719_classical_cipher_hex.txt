@@ -1,0 +1,14 @@
+A hacker left a coded message in hex on your system. Decode 666c61677b30317664346f72687d to find their secret.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{01vd4orh}
+cipher: Hex
+ciphertext: 666c61677b30317664346f72687d
+hint: Hex encoding represents bytes as pairs of 0-9 and a-f.
+necessary_info: The flag format is flag{...}
+subtype: hex
+archetype: classical_cipher

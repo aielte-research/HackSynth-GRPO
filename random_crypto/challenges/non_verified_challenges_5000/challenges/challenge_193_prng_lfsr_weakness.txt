@@ -1,0 +1,19 @@
+An intercepted spy message encrypted with a flawed LFSR-based cipher could reveal the rendezvous location. Can you break it? Ciphertext: de7fd974c326d1698824817e886e
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[20212, 10106, 5053, 2526, 1263, 631, 33083, 49309, 57422, 28711]
+
+---
+
+## Challenge Technical Details
+flag: flag{5iz079m0}
+ciphertext: de7fd974c326d1698824817e886e
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[20212, 10106, 5053, 2526, 1263, 631, 33083, 49309, 57422, 28711]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

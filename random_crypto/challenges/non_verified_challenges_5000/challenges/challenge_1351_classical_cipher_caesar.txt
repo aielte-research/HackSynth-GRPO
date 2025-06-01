@@ -1,0 +1,15 @@
+A Roman general hid secret troop movements with a Caesar cipher. Can you decrypt the message to reveal his plan? The ciphered text is: hnci{mh1wqwkq}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{kf1uouio}
+ciphertext: hnci{mh1wqwkq}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 2
+subtype: caesar
+archetype: classical_cipher

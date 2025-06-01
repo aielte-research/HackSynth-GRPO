@@ -1,0 +1,15 @@
+A hacker left a message, but the text seems backwards. Can you recover the flag from }51m14a8q{galf?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{q8a41m15}
+ciphertext: }51m14a8q{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

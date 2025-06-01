@@ -1,0 +1,16 @@
+While decoding secret blockchain messages, you find this suspicious note. Can you recover its contents? jcll{ugb8o0gw}
+
+The flag format is flag{...}
+The keyword is: erlflwwq
+
+---
+
+## Challenge Technical Details
+flag: flag{jkf8y0cf}
+ciphertext: jcll{ugb8o0gw}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: erlflwwq
+subtype: vigenere
+archetype: classical_cipher

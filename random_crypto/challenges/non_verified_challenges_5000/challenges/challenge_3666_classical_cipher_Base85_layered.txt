@@ -1,0 +1,17 @@
+
+The museum’s vault code is hidden in this Base85 message: Q8;r{Qc74PHh5S&G<irvQ&>?(V|heJa#2HLK|M`Cej_bPdU19@O>SpvQcOt. Can you recover it before the security system resets?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{2o918jik}
+cipher: Base85
+ciphertext: Q8;r{Qc74PHh5S&G<irvQ&>?(V|heJa#2HLK|M`Cej_bPdU19@O>SpvQcOt
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 6 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

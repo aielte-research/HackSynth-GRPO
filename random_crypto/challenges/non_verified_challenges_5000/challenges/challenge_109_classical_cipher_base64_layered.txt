@@ -1,0 +1,15 @@
+A hacker sent a secret code. Decode the following Base64-encoded message to reveal their hidden instruction: Vm0wd2QyVkhVWGhVYmxKV1YwZDRXRmxVUm5kVlJscHpXa2M1VjFKdGVGWlZNbmhQWVd4S2MxTnNXbGRTTTFKUVdWY3hTMUl4WkhWaVJtUnBVbXR3U1ZkV1pEUlpWMDE0VjI1R1ZXSkhhRzlVVjNOM1pVWmFjbFZyZEZSTlZUVkpWbTEwYzJGV1NuUmhSemxWVm0xb1ExcFhlR3RYUjFKSVVteHdWMkpJUWxsV2Fra3hVekpHYzFOdVRsaGlSMmhZV1d4b1UxbFdjRmhsUjBaWFlrZFNlVll5ZUVOV01rVjNZMFpTVjFaV2NGTmFSRVpEVld4Q1ZVMUVNRDA9
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{wpxslf24}
+cipher: Base64
+ciphertext: Vm0wd2QyVkhVWGhVYmxKV1YwZDRXRmxVUm5kVlJscHpXa2M1VjFKdGVGWlZNbmhQWVd4S2MxTnNXbGRTTTFKUVdWY3hTMUl4WkhWaVJtUnBVbXR3U1ZkV1pEUlpWMDE0VjI1R1ZXSkhhRzlVVjNOM1pVWmFjbFZyZEZSTlZUVkpWbTEwYzJGV1NuUmhSemxWVm0xb1ExcFhlR3RYUjFKSVVteHdWMkpJUWxsV2Fra3hVekpHYzFOdVRsaGlSMmhZV1d4b1UxbFdjRmhsUjBaWFlrZFNlVll5ZUVOV01rVjNZMFpTVjFaV2NGTmFSRVpEVld4Q1ZVMUVNRDA9
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 10 times in total.
+subtype: base64_layered
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+The secret tunnel access code is encrypted with AES-XTS. Can you recover it from this protected storage? Ciphertext: ciphertext1:3d1f2904089635fc42745ae1aee7dbc3, ciphertext2: 358eae3dec5bcad2028e5a92d94fed1b50f835ff952748b405f12753d7da3213
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{e686y6kr}
+ciphertext: ciphertext1:3d1f2904089635fc42745ae1aee7dbc3, ciphertext2: 358eae3dec5bcad2028e5a92d94fed1b50f835ff952748b405f12753d7da3213
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 905fe2d5c756904aba94e3830352471f
+subtype: aes_xts
+archetype: aes

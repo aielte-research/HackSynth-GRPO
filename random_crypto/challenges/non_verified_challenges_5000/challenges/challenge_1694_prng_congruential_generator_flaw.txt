@@ -1,0 +1,27 @@
+Someone intercepted a message encrypted with an LCG-based cipher. The cipher's predictability may let you recover the plaintext. Ciphertext: 59ac2d0e44a8220456f0755c08bd
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1137754041
+  - Multiplier: 480345743
+  - Increment: 22312457
+The first 5 outputs of the LCG are provided: [382410808, 235606348, 349723003, 607964182, 784109134] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{hnmi0957}
+ciphertext: 59ac2d0e44a8220456f0755c08bd
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1137754041
+  - Multiplier: 480345743
+  - Increment: 22312457
+The first 5 outputs of the LCG are provided: [382410808, 235606348, 349723003, 607964182, 784109134] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

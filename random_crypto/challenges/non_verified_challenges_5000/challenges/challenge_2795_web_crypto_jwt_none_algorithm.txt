@@ -1,0 +1,11 @@
+A hacker intercepted a mysterious JWT, rumored to unlock the admin panel. Can you extract the secret from this cipher? eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tnNno3OXJ1aX0ifQ.
+
+---
+
+## Challenge Technical Details
+flag: flag{g6z79rui}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3tnNno3OXJ1aX0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

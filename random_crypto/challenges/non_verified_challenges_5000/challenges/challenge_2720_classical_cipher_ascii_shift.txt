@@ -1,0 +1,15 @@
+A hacker left a message on the blockchain using a simple ASCII shift cipher. Can you shift it back to reveal the flag? Ciphertext: oujp9rlmx;lo
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{0icdo2cf}
+cipher: ASCII Shift
+ciphertext: oujp9rlmx;lo
+hint: The ASCII values of each character have been shifted by some small amount (1–10).
+necessary_info: The flag format is flag{...}
+extra_info: Shift used: 9
+subtype: ascii_shift
+archetype: classical_cipher

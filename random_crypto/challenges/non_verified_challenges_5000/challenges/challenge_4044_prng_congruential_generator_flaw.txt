@@ -1,0 +1,27 @@
+The hacker's login tokens are generated with predictable random numbers. Recover the original token used from this intercepted ciphertext: 4b89427d56d047711d80162c4698
+
+The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1091180693
+  - Multiplier: 213704028
+  - Increment: 117851114
+The first 5 outputs of the LCG are provided: [89918113, 828192170, 229668214, 871418672, 686304511] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{5dk0e56k}
+ciphertext: 4b89427d56d047711d80162c4698
+cipher: LCG Predictability
+hint: LCGs are deterministic. Find the seed or deduce the next output to recover the encryption key.
+necessary_info: The flag format is flag{...}
+A Linear Congruential Generator (LCG) was used with the following parameters:
+  - Modulus: 1091180693
+  - Multiplier: 213704028
+  - Increment: 117851114
+The first 5 outputs of the LCG are provided: [89918113, 828192170, 229668214, 871418672, 686304511] 
+The next output was used as a symmetric key to XOR-encrypt the flag.
+extra_info: LCGs have a known mathematical structure. Recovering the seed allows predicting all future values.
+subtype: congruential_generator_flaw
+archetype: prng

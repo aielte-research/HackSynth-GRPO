@@ -1,0 +1,12 @@
+An intern built a web login using weak session tokens. Find the admin's secret by analyzing this: 757365725f323179713a666c61677b79747970676935677d3a31373437343833303137
+
+---
+
+## Challenge Technical Details
+flag: flag{ytypgi5g}
+ciphertext: 757365725f323179713a666c61677b79747970676935677d3a31373437343833303137
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_21yq:flag{ytypgi5g}:1747483017'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

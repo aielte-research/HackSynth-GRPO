@@ -1,0 +1,17 @@
+A secret agent left an encrypted clue using AES-CFB. Can you decipher the hidden message from the ciphertext below? c946f5984e89a06e533816a097da04057f454e56caa73718e2caec693555405c26d2f54e011dfe96144cc3bb8c3864708e7d86ffc5f03c4fb5ac318f4e92510226c2ea162cfa306370487308b2e87a28d8bea508121d7e9fc39690aacabf69bf3281d572550b359562064210d7b5f99d9bc94a219c48480cf1bcc5c5f03f95ec0cd6f5194b65dd15b141aa8e4875b8c51a5bf5c8d682933437df49915bdf466f126e77d919a4e31c9e0c55c574d45c93ef
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{lcqoq7zb}
+ciphertext: c946f5984e89a06e533816a097da04057f454e56caa73718e2caec693555405c26d2f54e011dfe96144cc3bb8c3864708e7d86ffc5f03c4fb5ac318f4e92510226c2ea162cfa306370487308b2e87a28d8bea508121d7e9fc39690aacabf69bf3281d572550b359562064210d7b5f99d9bc94a219c48480cf1bcc5c5f03f95ec0cd6f5194b65dd15b141aa8e4875b8c51a5bf5c8d682933437df49915bdf466f126e77d919a4e31c9e0c55c574d45c93ef
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: 885a7f8ba0e50eb2326b7c07d973de49
+subtype: aes_cfb
+archetype: aes

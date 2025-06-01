@@ -1,0 +1,26 @@
+
+A message hidden by a hacker is secured with SHA-256. Find the original secret to unveil its meaning: 30399e6f62f5e0d4dc9d6cbe91bd643466ba1ceb6d4a9f30c118bb002d1c5698
+
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{383r}
+ciphertext: 30399e6f62f5e0d4dc9d6cbe91bd643466ba1ceb6d4a9f30c118bb002d1c5698
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

@@ -1,0 +1,15 @@
+An agent stashed a passcode inside this unusual cipher. Can you decode  000000000 fl 000000000 a 000000000 g{leunbeyr 000000000 } 000000000  and uncover the hidden message using the SplitNumberMix method?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{leunbeyr}
+ciphertext:  000000000 fl 000000000 a 000000000 g{leunbeyr 000000000 } 000000000 
+cipher: SplitNumberMix
+hint: Numbers are used to break up the flag. The original flag uses only letters.
+necessary_info: The flag format is flag{...}
+extra_info: Split into 4 parts with numeric sequences of length 2–5 randomly inserted.
+subtype: split_flag
+archetype: classical_cipher

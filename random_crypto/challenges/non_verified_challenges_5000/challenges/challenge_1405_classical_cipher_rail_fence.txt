@@ -1,0 +1,17 @@
+
+Intercepted spy message! We believe it’s encoded using a zig-zag pattern. Can you recover the secret by deciphering the Rail Fence cipher? Ciphertext: fa{cecelgc6tu}
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{cc6etcue}
+ciphertext: fa{cecelgc6tu}
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 2
+subtype: rail_fence
+archetype: classical_cipher

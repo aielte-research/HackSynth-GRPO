@@ -1,0 +1,15 @@
+An encrypted USB stick holds a secret, protected with AES-XTS. Recover the original message from the ciphertext below: ciphertext1:96364808ecc780a697e0eb9ce1d7670c, ciphertext2: 1068f391d51d3609fd22407d6b87d7f93dd7a3a0ada775e18a69bf07db36d6a5
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{kc5repgq}
+ciphertext: ciphertext1:96364808ecc780a697e0eb9ce1d7670c, ciphertext2: 1068f391d51d3609fd22407d6b87d7f93dd7a3a0ada775e18a69bf07db36d6a5
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: 3823d01416c845d9f05afd43074457f0
+subtype: aes_xts
+archetype: aes

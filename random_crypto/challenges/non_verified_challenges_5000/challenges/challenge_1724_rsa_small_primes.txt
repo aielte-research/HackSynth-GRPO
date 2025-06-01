@@ -1,0 +1,20 @@
+
+A rush to encrypt led to using tiny primes in RSA. See if you can recover the message from 609441317351582770 before others do.
+
+
+The flag format is flag{...}
+n=14985808780205602723, e=12041900163337511457
+
+---
+
+## Challenge Technical Details
+flag: flag{forsbytr}
+cipher: RSA
+ciphertext: 609441317351582770
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=14985808780205602723, e=12041900163337511457
+extra_info: p=4081958861, q=3671229743, φ(n)=14985808772452414120
+subtype: small_primes
+archetype: rsa

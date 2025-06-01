@@ -1,0 +1,17 @@
+
+Intercepted from a hacker forum, this message uses the secretive ChunkedFlag cipher. Can you piece together the original flag from its mysterious chunks? Ciphertext: fla g{g oyv p9 2t}
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{goyvp92t}
+ciphertext: fla g{g oyv p9 2t}
+cipher: ChunkedFlag
+hint: The flag is split into parts of 2–3 letters with spaces.
+necessary_info: The flag format is flag{...}
+extra_info: Remove the spaces to recover the original flag.
+subtype: chunked_flag
+archetype: classical_cipher

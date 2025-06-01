@@ -1,0 +1,25 @@
+A secret meeting requires you to compute a shared key using Diffie-Hellman. The intercepted message 016a10aaec753031511d6401168f awaits your decryption skills.
+
+The key exchange uses a prime modulus of 101 and generator 2.
+Alice's public key is 38 and Bob's public key is 34.
+You received a tip that the private values are at most two digits.
+You got access to some of the code:
+encryption_key = hashlib.sha256(str(shared_key).encode()).digest()[:16]
+encrypted_flag = bytes(a ^ b for a, b in zip(flag.encode(), encryption_key))
+
+---
+
+## Challenge Technical Details
+flag: flag{5qgss4xe}
+ciphertext: 016a10aaec753031511d6401168f
+cipher: Diffie-Hellman
+hint: The prime used in this key exchange is small. You can recover the private key by brute-force.
+necessary_info: The key exchange uses a prime modulus of 101 and generator 2.
+Alice's public key is 38 and Bob's public key is 34.
+You received a tip that the private values are at most two digits.
+You got access to some of the code:
+encryption_key = hashlib.sha256(str(shared_key).encode()).digest()[:16]
+encrypted_flag = bytes(a ^ b for a, b in zip(flag.encode(), encryption_key))
+extra_info: secret_a=97, secret_b=31
+subtype: broken_key_exchange
+archetype: web_crypto

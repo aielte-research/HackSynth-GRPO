@@ -1,0 +1,15 @@
+The server used MD5 to hash passwords, thinking it was secure. Someone found the hash c457155f83a132b433bc2622e00d2472—can you reverse it to retrieve the original password?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{EEMEC}
+ciphertext: c457155f83a132b433bc2622e00d2472
+cipher: MD5
+vulnerability: MD5 reversing
+hint: The input string is short, so a brute force or dictionary attack might succeed.
+necessary_info: The flag format is flag{...}
+subtype: md5_reverse
+archetype: hash

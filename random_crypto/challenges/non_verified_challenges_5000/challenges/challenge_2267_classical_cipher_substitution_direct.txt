@@ -1,0 +1,21 @@
+The hacker left a note for their accomplice. Decrypt the message below, scrambled with a simple substitution cipher: kuph{lss7g3ew}
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'p', 'b': 'w', 'c': 'l', 'd': 'b', 'e': 'v', 'f': 'k', 'g': 'h', 'h': 'q', 'i': 'f', 'j': 'n', 'k': 'z', 'l': 'u', 'm': 'c', 'n': 'x', 'o': 't', 'p': 'a', 'q': 'g', 'r': 'd', 's': 'j', 't': 's', 'u': 'm', 'v': 'e', 'w': 'r', 'x': 'i', 'y': 'o', 'z': 'y'}
+
+---
+
+## Challenge Technical Details
+flag: flag{ctt7q3vb}
+cipher: Substitution
+ciphertext: kuph{lss7g3ew}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'p', 'b': 'w', 'c': 'l', 'd': 'b', 'e': 'v', 'f': 'k', 'g': 'h', 'h': 'q', 'i': 'f', 'j': 'n', 'k': 'z', 'l': 'u', 'm': 'c', 'n': 'x', 'o': 't', 'p': 'a', 'q': 'g', 'r': 'd', 's': 'j', 't': 's', 'u': 'm', 'v': 'e', 'w': 'r', 'x': 'i', 'y': 'o', 'z': 'y'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

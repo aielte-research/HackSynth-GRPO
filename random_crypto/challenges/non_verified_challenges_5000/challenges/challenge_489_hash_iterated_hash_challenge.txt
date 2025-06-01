@@ -1,0 +1,24 @@
+While searching an old server, you find a note: "Password secured with SHA-256: cefb2be69ac2eda3d9b591e61070fb2fe7f9613c011f0c298367a19162bcdc3a". Can you discover the original password?
+
+The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{y8ki}
+ciphertext: cefb2be69ac2eda3d9b591e61070fb2fe7f9613c011f0c298367a19162bcdc3a
+cipher: SHA-256
+hint: Brute force should work.
+necessary_info: The secret is only 4 characters (a-z, 0-9).
+The flag format is flag{secret}
+The hashing process was:
+hash = secret
+for _ in range(5):
+    hash = hashlib.sha256(hash.encode('utf-8')).hexdigest()
+subtype: iterated_hash_challenge
+archetype: hash

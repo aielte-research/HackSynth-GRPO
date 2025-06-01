@@ -1,0 +1,15 @@
+An encrypted message was intercepted from a hacker forum. Decode the Base64-encoded string below to reveal their secret plan: ZmxhZ3sxcGRvMjJrcX0=
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{1pdo22kq}
+cipher: Base64
+ciphertext: ZmxhZ3sxcGRvMjJrcX0=
+hint: Use a Base64 decoder to obtain the original text.
+necessary_info: The flag format is flag{...}
+extra_info: Decoding is direct; no additional layers or tricks.
+subtype: Base64
+archetype: classical_cipher

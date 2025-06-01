@@ -1,0 +1,17 @@
+
+An old train ticket hides the next clue, but its message has been scrambled by a conductor’s rail fence. Can you reveal the secret? fa{6vnelgzzzr}
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{z6zvznre}
+ciphertext: fa{6vnelgzzzr}
+cipher: Rail Fence
+hint: Rail Fence is a simple transposition cipher vulnerable to reconstruction by analyzing positions.
+necessary_info: The flag format is flag{...}
+extra_info: The rails value is: 2
+subtype: rail_fence
+archetype: classical_cipher

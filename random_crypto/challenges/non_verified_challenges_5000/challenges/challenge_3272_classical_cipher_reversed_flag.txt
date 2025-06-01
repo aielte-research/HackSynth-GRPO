@@ -1,0 +1,15 @@
+An agent sent the passcode backwards for security. To retrieve the secret, reverse this string: }fk8iauq3{galf
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{3quai8kf}
+ciphertext: }fk8iauq3{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

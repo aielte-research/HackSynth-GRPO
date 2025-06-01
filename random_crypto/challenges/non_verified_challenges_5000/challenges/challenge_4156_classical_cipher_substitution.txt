@@ -1,0 +1,15 @@
+A famous hacker left a coded message using a substitution cipher. Can you reveal the hidden password from this encrypted note? tx ceybswlejbzy, j nrqnstsrstwx ctbzde tn j odszwh wi dxceybstxl tx fztcz rxtsn wi bkjtxsdms jed edbkjcdh ftsz szd ctbzdesdms, tx j hditxdh ojxxde, ftsz szd zdkb wi j gdy; szd "rxtsn" ojy qd ntxlkd kdssden (szd owns cwoowx), bjten wi kdssden, setbkdsn wi kdssden, otmsredn wi szd jqwad, jxh nw iwesz. szd edcdtade hdctbzden szd sdms qy bdeiweotxl szd txadend nrqnstsrstwx bewcdnn sw dmsejcs szd wetltxjk odnnjld. ktgdftnd, ujcprdn prtcgky vtbbdh szewrlz j prdnstwx wx vdew-gxwfkdhld bewwin, dxnretxl xw cetstcjk kdssde fjn kdis wrs wi wre ceybswlejbztc brvvkd.ikjl{y3q4hw3v}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{y3b4do3z}
+ciphertext: tx ceybswlejbzy, j nrqnstsrstwx ctbzde tn j odszwh wi dxceybstxl tx fztcz rxtsn wi bkjtxsdms jed edbkjcdh ftsz szd ctbzdesdms, tx j hditxdh ojxxde, ftsz szd zdkb wi j gdy; szd "rxtsn" ojy qd ntxlkd kdssden (szd owns cwoowx), bjten wi kdssden, setbkdsn wi kdssden, otmsredn wi szd jqwad, jxh nw iwesz. szd edcdtade hdctbzden szd sdms qy bdeiweotxl szd txadend nrqnstsrstwx bewcdnn sw dmsejcs szd wetltxjk odnnjld. ktgdftnd, ujcprdn prtcgky vtbbdh szewrlz j prdnstwx wx vdew-gxwfkdhld bewwin, dxnretxl xw cetstcjk kdssde fjn kdis wrs wi wre ceybswlejbztc brvvkd.ikjl{y3q4hw3v}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'j', 'b': 'q', 'c': 'c', 'd': 'h', 'e': 'd', 'f': 'i', 'g': 'l', 'h': 'z', 'i': 't', 'j': 'u', 'k': 'g', 'l': 'k', 'm': 'o', 'n': 'x', 'o': 'w', 'p': 'b', 'q': 'p', 'r': 'e', 's': 'n', 't': 's', 'u': 'r', 'v': 'a', 'w': 'f', 'x': 'm', 'y': 'y', 'z': 'v'}
+subtype: substitution
+archetype: classical_cipher

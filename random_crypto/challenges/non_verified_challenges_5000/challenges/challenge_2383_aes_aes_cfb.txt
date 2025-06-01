@@ -1,0 +1,19 @@
+
+Intercepted transmissions use AES-CFB. Someone leaked the ea05f2d23aa2ca8243bb0390e354759c1bf99c7386a8b5ef8eca72f26915d0fb46a7d8fa510ae6724d5ade60adfd59ba130ac92d4158e2a67fb09165c4360cb2ea8d240f64cafb474414ef7df1d61d17c5fa3e9867ecca62d6be1d945c1bc502fe9272c1d6a45085c2720be6eae1056500dfa8e0b8cf883c2edf9dfc3e084e70627df2a3fed1c5b044fb23d6c6016ef3e19a0a0cd3257931bf14a45f47b9ceaa8c11d50ff749b0e83330096e8286b08305, but the key is missing. Can you recover the original message?
+
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{9ffvbfzo}
+ciphertext: ea05f2d23aa2ca8243bb0390e354759c1bf99c7386a8b5ef8eca72f26915d0fb46a7d8fa510ae6724d5ade60adfd59ba130ac92d4158e2a67fb09165c4360cb2ea8d240f64cafb474414ef7df1d61d17c5fa3e9867ecca62d6be1d945c1bc502fe9272c1d6a45085c2720be6eae1056500dfa8e0b8cf883c2edf9dfc3e084e70627df2a3fed1c5b044fb23d6c6016ef3e19a0a0cd3257931bf14a45f47b9ceaa8c11d50ff749b0e83330096e8286b08305
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: a975971ec7536f10cee6c855cf00b206
+subtype: aes_cfb
+archetype: aes

@@ -1,0 +1,14 @@
+An old legend claims the treasure's map was encoded with an ancient cipher. The note reads: uozt{cbr8ize7}. Can you reveal its secret direction?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{xyi8rav7}
+cipher: Atbash
+ciphertext: uozt{cbr8ize7}
+hint: Atbash reverses the alphabet (A ↔ Z, B ↔ Y, etc.).
+necessary_info: The flag format is flag{...}
+subtype: atbash
+archetype: classical_cipher

@@ -1,0 +1,15 @@
+An operative hid coordinates inside a scrambled Base64 string. Can you recover the message from Vm0weGQxTnRVWGxXYTFwUFZsZG9WRmxVU2xOalJsSlZWR3RPYWxadVFsbGFWV1JIWVcxS1NHVkdiRlZXYkhCUVdWUkdZV1JIVWtWV2JGWnBVakZKZWxkWGRHdFRNVTVYVW01S2FsSnNXbGhXYlhSYVpXeGFWbGRyV2xCV2EwcFRWVVpSZDFCUlBUMD0=?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{9v7grw3d}
+cipher: Base64
+ciphertext: Vm0weGQxTnRVWGxXYTFwUFZsZG9WRmxVU2xOalJsSlZWR3RPYWxadVFsbGFWV1JIWVcxS1NHVkdiRlZXYkhCUVdWUkdZV1JIVWtWV2JGWnBVakZKZWxkWGRHdFRNVTVYVW01S2FsSnNXbGhXYlhSYVpXeGFWbGRyV2xCV2EwcFRWVVpSZDFCUlBUMD0=
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 8 times in total.
+subtype: Base64_layered
+archetype: classical_cipher

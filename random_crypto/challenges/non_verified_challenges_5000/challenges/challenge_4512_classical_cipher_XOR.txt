@@ -1,0 +1,17 @@
+
+Agent Vega intercepted a secret transmission, but it’s masked with an XOR cipher. Can you recover the message from the encrypted code below? stringA: 321952553d0f61770b5f3c3a0e04 stringB: 547533324637584f79394c426379
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{898rfpxm}
+cipher: XOR
+ciphertext: stringA: 321952553d0f61770b5f3c3a0e04 stringB: 547533324637584f79394c426379
+hint: XOR is undone by XORing again with the same key. (A XOR B = C ⇒ C XOR B = A)
+necessary_info: The flag format is flag{...}
+extra_info: Both strings are in hex. XOR the two provided hex strings to recover the flag.
+subtype: XOR
+archetype: classical_cipher

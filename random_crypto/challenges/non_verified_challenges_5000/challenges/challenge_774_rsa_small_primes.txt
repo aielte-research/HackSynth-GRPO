@@ -1,0 +1,18 @@
+An intern encrypted the message with RSA, using two tiny primes for speed. Can you recover the original text from the following ciphertext? 10401446560517373122
+
+The flag format is flag{...}
+n=15463049403487082791, e=8887047795569841943
+
+---
+
+## Challenge Technical Details
+flag: flag{lejwgk44}
+cipher: RSA
+ciphertext: 10401446560517373122
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=15463049403487082791, e=8887047795569841943
+extra_info: p=4132540427, q=3741778133, φ(n)=15463049395612764232
+subtype: small_primes
+archetype: rsa

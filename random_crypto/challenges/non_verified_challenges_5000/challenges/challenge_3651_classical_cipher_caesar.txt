@@ -1,0 +1,15 @@
+A mysterious message appeared in Julius Caesar’s old diary. Can you decipher his secret orders? Here it is: djye{dd4gicab}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ff4ikecd}
+ciphertext: djye{dd4gicab}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 24
+subtype: caesar
+archetype: classical_cipher

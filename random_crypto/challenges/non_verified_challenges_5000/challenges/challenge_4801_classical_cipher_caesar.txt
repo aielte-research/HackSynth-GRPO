@@ -1,0 +1,15 @@
+A hacker intercepted a secret message between spies. Luckily, it was encoded with a simple Caesar cipher. Can you decrypt the message? Ciphertext: kqfl{k1ghia9i}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{f1bcdv9d}
+ciphertext: kqfl{k1ghia9i}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 5
+subtype: caesar
+archetype: classical_cipher

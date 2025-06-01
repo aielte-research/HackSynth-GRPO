@@ -1,0 +1,18 @@
+An intercepted message encoded with the AES cipher was discovered during a simulated cyber drill. Can you recover the original plaintext from ciphertext1:724aca7e71ec159bff7654dbb2d6, ciphertext2: 724aca7e71af1ec5e37543c3b6d6?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{5ehdjbz3}
+ciphertext: ciphertext1:724aca7e71ec159bff7654dbb2d6, ciphertext2: 724aca7e71af1ec5e37543c3b6d6
+tag1: 9ac48c40275e5e48beb4986ae9d72d66
+tag2: a060eb54176ef349264fdcfaae40fbc5
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 0d804b0891e937c72ada3e
+subtype: aes_ccm
+archetype: aes

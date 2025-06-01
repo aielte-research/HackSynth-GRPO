@@ -1,0 +1,13 @@
+
+A hacker intercepted a suspicious JWT token. Can you uncover the secret message hidden inside eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3t0ZmJzeDJhan0ifQ.?
+
+
+---
+
+## Challenge Technical Details
+flag: flag{tfbsx2aj}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3t0ZmJzeDJhan0ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

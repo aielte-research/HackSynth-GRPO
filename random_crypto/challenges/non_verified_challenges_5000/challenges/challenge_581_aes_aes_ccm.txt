@@ -1,0 +1,18 @@
+Intercepted data between spies was encrypted using AES. Can you recover the original message from the ciphertext below? ciphertext1:13304f561432166fe240c6032127, ciphertext2: 13304f5614770176ae14d0487327
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{0gxx9zy5}
+ciphertext: ciphertext1:13304f561432166fe240c6032127, ciphertext2: 13304f5614770176ae14d0487327
+tag1: 7dd703dbe0afaf17293f5879d33cc923
+tag2: a9ccd5580594f2e19cc9cf4a1f3599c4
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: f0a76c1fac6fcbb0181935
+subtype: aes_ccm
+archetype: aes

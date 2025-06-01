@@ -1,0 +1,18 @@
+An intercepted message claims to reveal the safehouse location. The contents are encrypted with AES. Can you unlock the coordinates from this ciphertext? ciphertext1:594700267f749915dcb69e731520, ciphertext2: 594700267f7b9c199cb298281f20
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{mgbtanhg}
+ciphertext: ciphertext1:594700267f749915dcb69e731520, ciphertext2: 594700267f7b9c199cb298281f20
+tag1: af7c0c967d75841360673f48fd86c508
+tag2: 85b7b6baa0aac22e13b3928a3baa428c
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 675169695d48c404579804
+subtype: aes_ccm
+archetype: aes

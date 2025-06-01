@@ -1,0 +1,15 @@
+The secret sector of the hacker's encrypted SSD leaked just one clue: ciphertext1:b4b3878f73af6d53a53d8bf1a1db27fd, ciphertext2: c585499cd109736d093c96ebc92f2adc515d8da02f09f378af10b4197e63c24e. Can you recover the hidden flag using your AES-XTS skills?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{360ztbbx}
+ciphertext: ciphertext1:b4b3878f73af6d53a53d8bf1a1db27fd, ciphertext2: c585499cd109736d093c96ebc92f2adc515d8da02f09f378af10b4197e63c24e
+cipher: AES-XTS
+hint: AES-XTS with tweak reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The tweak used for both encryptions is: d40d707d3345be91bed3410dda6faa37
+subtype: aes_xts
+archetype: aes

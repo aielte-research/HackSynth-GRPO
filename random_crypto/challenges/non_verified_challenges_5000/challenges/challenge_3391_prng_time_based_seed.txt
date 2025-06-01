@@ -1,0 +1,19 @@
+At midnight, a hacker sent you 666cd6ca7b64d89f323184c46f7d, encrypted by their clock-driven cipher. Recover the secret before time runs out!
+
+The flag format is flag{...}
+secret_num = rng.randint(0, 51797)
+The system time when the encryption process started was around: 2025-05-25 12:27:57 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+
+---
+
+## Challenge Technical Details
+flag: flag{do2213io}
+ciphertext: 666cd6ca7b64d89f323184c46f7d
+cipher: Time-based PRNG
+hint: A predictable source of entropy was used to generate a secret number. Think about system time.
+necessary_info: The flag format is flag{...}
+secret_num = rng.randint(0, 51797)
+The system time when the encryption process started was around: 2025-05-25 12:27:57 UTC. This number was used as a symmetric key to XOR-encrypt the flag.
+extra_info: secret_num = 47021.
+subtype: time_based_seed
+archetype: prng

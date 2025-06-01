@@ -1,0 +1,15 @@
+A hacker hid the private key in a message, but scrambled it with a simple substitution cipher. Can you recover the secret from this encrypted text? sd znegbfunlgke, l ctocbsbtbsfd zsgkmn sc l jmbkfp fi mdznegbsdu sd qkszk tdsbc fi grlsdbmvb lnm nmgrlzmp qsbk bkm zsgkmnbmvb, sd l pmisdmp jlddmn, qsbk bkm kmrg fi l ame; bkm "tdsbc" jle om csdurm rmbbmnc (bkm jfcb zfjjfd), glsnc fi rmbbmnc, bnsgrmbc fi rmbbmnc, jsvbtnmc fi bkm lofhm, ldp cf ifnbk. bkm nmzmshmn pmzsgkmnc bkm bmvb oe gmnifnjsdu bkm sdhmncm ctocbsbtbsfd gnfzmcc bf mvbnlzb bkm fnsusdlr jmcclum. rsamqscm, ylzwtmc wtszare xsggmp bknftuk l wtmcbsfd fd xmnf-adfqrmpum gnffic, mdctnsdu df znsbszlr rmbbmn qlc rmib ftb fi ftn znegbfunlgksz gtxxrm.irlu{zcejtnss}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{csymurii}
+ciphertext: sd znegbfunlgke, l ctocbsbtbsfd zsgkmn sc l jmbkfp fi mdznegbsdu sd qkszk tdsbc fi grlsdbmvb lnm nmgrlzmp qsbk bkm zsgkmnbmvb, sd l pmisdmp jlddmn, qsbk bkm kmrg fi l ame; bkm "tdsbc" jle om csdurm rmbbmnc (bkm jfcb zfjjfd), glsnc fi rmbbmnc, bnsgrmbc fi rmbbmnc, jsvbtnmc fi bkm lofhm, ldp cf ifnbk. bkm nmzmshmn pmzsgkmnc bkm bmvb oe gmnifnjsdu bkm sdhmncm ctocbsbtbsfd gnfzmcc bf mvbnlzb bkm fnsusdlr jmcclum. rsamqscm, ylzwtmc wtszare xsggmp bknftuk l wtmcbsfd fd xmnf-adfqrmpum gnffic, mdctnsdu df znsbszlr rmbbmn qlc rmib ftb fi ftn znegbfunlgksz gtxxrm.irlu{zcejtnss}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'l', 'b': 'o', 'c': 'z', 'd': 'p', 'e': 'm', 'f': 'i', 'g': 'u', 'h': 'k', 'i': 's', 'j': 'y', 'k': 'a', 'l': 'r', 'm': 'j', 'n': 'd', 'o': 'f', 'p': 'g', 'q': 'w', 'r': 'n', 's': 'c', 't': 'b', 'u': 't', 'v': 'h', 'w': 'q', 'x': 'v', 'y': 'e', 'z': 'x'}
+subtype: substitution
+archetype: classical_cipher

@@ -1,0 +1,17 @@
+
+Intercepted from a secret club, this message hides their password using a simple substitution cipher. Can you reveal their code? za uiqwcfoidwmq, d ptepczctczfa uzwmgi zp d rgcmfb fn gauiqwczao za kmzum tazcp fn whdzacgsc dig igwhdugb kzcm cmg uzwmgicgsc, za d bgnzagb rdaagi, kzcm cmg mghw fn d ygq; cmg "tazcp" rdq eg pzaohg hgccgip (cmg rfpc ufrrfa), wdzip fn hgccgip, cizwhgcp fn hgccgip, rzsctigp fn cmg defvg, dab pf nficm. cmg igugzvgi bguzwmgip cmg cgsc eq wginfirzao cmg zavgipg ptepczctczfa wifugpp cf gsciduc cmg fizozadh rgppdog. hzygkzpg, jdultgp ltzuyhq xzwwgb cmiftom d ltgpczfa fa xgif-yafkhgbog wiffnp, gaptizao af uizczudh hgccgi kdp hgnc ftc fn fti uiqwcfoidwmzu wtxxhg.nhdo{rd4zu3av}
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ma4ic3nv}
+ciphertext: za uiqwcfoidwmq, d ptepczctczfa uzwmgi zp d rgcmfb fn gauiqwczao za kmzum tazcp fn whdzacgsc dig igwhdugb kzcm cmg uzwmgicgsc, za d bgnzagb rdaagi, kzcm cmg mghw fn d ygq; cmg "tazcp" rdq eg pzaohg hgccgip (cmg rfpc ufrrfa), wdzip fn hgccgip, cizwhgcp fn hgccgip, rzsctigp fn cmg defvg, dab pf nficm. cmg igugzvgi bguzwmgip cmg cgsc eq wginfirzao cmg zavgipg ptepczctczfa wifugpp cf gsciduc cmg fizozadh rgppdog. hzygkzpg, jdultgp ltzuyhq xzwwgb cmiftom d ltgpczfa fa xgif-yafkhgbog wiffnp, gaptizao af uizczudh hgccgi kdp hgnc ftc fn fti uiqwcfoidwmzu wtxxhg.nhdo{rd4zu3av}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'd', 'b': 'e', 'c': 'u', 'd': 'b', 'e': 'g', 'f': 'n', 'g': 'o', 'h': 'm', 'i': 'z', 'j': 'j', 'k': 'y', 'l': 'h', 'm': 'r', 'n': 'a', 'o': 'f', 'p': 'w', 'q': 'l', 'r': 'i', 's': 'p', 't': 'c', 'u': 't', 'v': 'v', 'w': 'k', 'x': 's', 'y': 'q', 'z': 'x'}
+subtype: substitution
+archetype: classical_cipher

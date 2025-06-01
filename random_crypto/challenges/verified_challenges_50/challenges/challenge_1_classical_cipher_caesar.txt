@@ -1,0 +1,17 @@
+
+A Roman general left orders encrypted for his legions. Only those who grasp Caesar’s secret can reveal the message: zfua{5i5pebxb}
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{5o5vkhdh}
+ciphertext: zfua{5i5pebxb}
+cipher: Caesar
+hint: Caesar ciphers are easily broken by brute force or frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The shift used is: 20
+subtype: caesar
+archetype: classical_cipher

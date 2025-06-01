@@ -1,0 +1,18 @@
+Your friend encrypted a secret flag using AES before disappearing. All you have is the encrypted message: ciphertext1:79d7e6f33914733e819cba10ebb6, ciphertext2: 79d7e6f33912372c8cdcb106b7b6. Can you recover the original flag?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{33zn4sz8}
+ciphertext: ciphertext1:79d7e6f33914733e819cba10ebb6, ciphertext2: 79d7e6f33912372c8cdcb106b7b6
+tag1: 28c6301f8ec25b214b5e9d8c85209cc8
+tag2: 3000277d4bc6c8cc1f5d79dfa472aeab
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: d5d4579f9646388c7b1c74
+subtype: aes_ccm
+archetype: aes

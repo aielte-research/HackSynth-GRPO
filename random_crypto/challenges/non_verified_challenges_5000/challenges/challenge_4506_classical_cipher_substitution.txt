@@ -1,0 +1,17 @@
+
+A hacker intercepted a secret club message. They used a substitution cipher! Can you recover the original text from this coded note? Ciphertext: dz wktgajokegst, e nlrnadaladjz wdgsbk dn e pbasjv jy bzwktgadzo dz qsdws lzdan jy giedzabfa ekb kbgiewbv qdas asb wdgsbkabfa, dz e vbydzbv pezzbk, qdas asb sbig jy e xbt; asb "lzdan" pet rb ndzoib ibaabkn (asb pjna wjppjz), gedkn jy ibaabkn, akdgiban jy ibaabkn, pdfalkbn jy asb erjcb, ezv nj yjkas. asb kbwbdcbk vbwdgsbkn asb abfa rt gbkyjkpdzo asb dzcbknb nlrnadaladjz gkjwbnn aj bfakewa asb jkdodzei pbnneob. idxbqdnb, mewhlbn hldwxit udggbv askjlos e hlbnadjz jz ubkj-xzjqibvob gkjjyn, bznlkdzo zj wkdadwei ibaabk qen ibya jla jy jlk wktgajokegsdw gluuib.yieo{lri4q60o}
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{ubl4w60g}
+ciphertext: dz wktgajokegst, e nlrnadaladjz wdgsbk dn e pbasjv jy bzwktgadzo dz qsdws lzdan jy giedzabfa ekb kbgiewbv qdas asb wdgsbkabfa, dz e vbydzbv pezzbk, qdas asb sbig jy e xbt; asb "lzdan" pet rb ndzoib ibaabkn (asb pjna wjppjz), gedkn jy ibaabkn, akdgiban jy ibaabkn, pdfalkbn jy asb erjcb, ezv nj yjkas. asb kbwbdcbk vbwdgsbkn asb abfa rt gbkyjkpdzo asb dzcbknb nlrnadaladjz gkjwbnn aj bfakewa asb jkdodzei pbnneob. idxbqdnb, mewhlbn hldwxit udggbv askjlos e hlbnadjz jz ubkj-xzjqibvob gkjjyn, bznlkdzo zj wkdadwei ibaabk qen ibya jla jy jlk wktgajokegsdw gluuib.yieo{lri4q60o}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'e', 'b': 'r', 'c': 'w', 'd': 'v', 'e': 'b', 'f': 'y', 'g': 'o', 'h': 's', 'i': 'd', 'j': 'm', 'k': 'x', 'l': 'i', 'm': 'p', 'n': 'z', 'o': 'j', 'p': 'g', 'q': 'h', 'r': 'k', 's': 'n', 't': 'a', 'u': 'l', 'v': 'c', 'w': 'q', 'x': 'f', 'y': 't', 'z': 'u'}
+subtype: substitution
+archetype: classical_cipher

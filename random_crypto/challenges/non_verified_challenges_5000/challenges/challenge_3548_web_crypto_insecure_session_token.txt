@@ -1,0 +1,12 @@
+Someone leaked server logs with session tokens encrypted by a custom “insecure session token” cipher. Can you recover the original token from this ciphertext? 757365725f756833383a666c61677b66707130377737657d3a31373438313639313039
+
+---
+
+## Challenge Technical Details
+flag: flag{fpq07w7e}
+ciphertext: 757365725f756833383a666c61677b66707130377737657d3a31373438313639313039
+cipher: Insecure Session Token
+hint: Hex decoding is reversible. Session tokens often contain structured data.
+extra_info: Token generation code: 'user_uh38:flag{fpq07w7e}:1748169109'.encode('utf-8').hex()
+subtype: insecure_session_token
+archetype: web_crypto

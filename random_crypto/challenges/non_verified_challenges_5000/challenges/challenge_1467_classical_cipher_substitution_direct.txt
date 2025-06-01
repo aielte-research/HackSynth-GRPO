@@ -1,0 +1,23 @@
+
+A rogue agent encoded the passphrase using a classic substitution cipher. Can you crack their code and reclaim the stolen data? Ciphertext: spzm{0ny9asc2}
+
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'z', 'b': 'e', 'c': 'u', 'd': 'l', 'e': 'g', 'f': 's', 'g': 'm', 'h': 'r', 'i': 'n', 'j': 'j', 'k': 'v', 'l': 'p', 'm': 't', 'n': 'y', 'o': 'o', 'p': 'h', 'q': 'i', 'r': 'a', 's': 'b', 't': 'k', 'u': 'q', 'v': 'c', 'w': 'w', 'x': 'f', 'y': 'd', 'z': 'x'}
+
+---
+
+## Challenge Technical Details
+flag: flag{0in9rfv2}
+cipher: Substitution
+ciphertext: spzm{0ny9asc2}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'z', 'b': 'e', 'c': 'u', 'd': 'l', 'e': 'g', 'f': 's', 'g': 'm', 'h': 'r', 'i': 'n', 'j': 'j', 'k': 'v', 'l': 'p', 'm': 't', 'n': 'y', 'o': 'o', 'p': 'h', 'q': 'i', 'r': 'a', 's': 'b', 't': 'k', 'u': 'q', 'v': 'c', 'w': 'w', 'x': 'f', 'y': 'd', 'z': 'x'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

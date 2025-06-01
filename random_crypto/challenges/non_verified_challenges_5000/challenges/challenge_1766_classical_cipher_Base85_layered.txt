@@ -1,0 +1,15 @@
+A secret club sends their passwords using Base85 encoding. Decode Q8sTRJX$6xX;4yHC`KVtBRM}(N>z79I8r82bt+1EQfW|5LI to uncover the entry key.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{8omg6wdk}
+cipher: Base85
+ciphertext: Q8sTRJX$6xX;4yHC`KVtBRM}(N>z79I8r82bt+1EQfW|5LI
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 5 times in total.
+subtype: Base85_layered
+archetype: classical_cipher

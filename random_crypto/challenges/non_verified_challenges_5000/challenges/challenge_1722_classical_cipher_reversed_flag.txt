@@ -1,0 +1,17 @@
+
+Agent X left a secret at HQ, but reversed every word to hide it. Can you decipher }2pi27o2a{galf to reveal the hidden message?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{a2o72ip2}
+ciphertext: }2pi27o2a{galf
+cipher: Reverse
+hint: The original message has simply been reversed.
+necessary_info: The flag format is flag{...}
+extra_info: Reverse the entire string to get the original flag.
+subtype: reversed_flag
+archetype: classical_cipher

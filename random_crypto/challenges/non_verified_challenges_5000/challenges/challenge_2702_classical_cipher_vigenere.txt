@@ -1,0 +1,16 @@
+An old hacker emailed you vvox{pat66l3o}, claiming it's the password for a secret server. Rumor says Vigenère was used—can you uncover the key and decrypt it?
+
+The flag format is flag{...}
+The keyword is: qkor
+
+---
+
+## Challenge Technical Details
+flag: flag{zqf66u3y}
+ciphertext: vvox{pat66l3o}
+cipher: Vigenère
+hint: Vigenère ciphers are vulnerable to Kasiski examination and frequency analysis.
+necessary_info: The flag format is flag{...}
+The keyword is: qkor
+subtype: vigenere
+archetype: classical_cipher

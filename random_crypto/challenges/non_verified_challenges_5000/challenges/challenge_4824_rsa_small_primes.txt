@@ -1,0 +1,18 @@
+An intern generated RSA keys with very small primes. The leaked message below needs to be decrypted. Ciphertext: 3201408771437154411
+
+The flag format is flag{...}
+n=9124876782445474411, e=662145558506603209
+
+---
+
+## Challenge Technical Details
+flag: flag{ovfg6vdn}
+cipher: RSA
+ciphertext: 3201408771437154411
+vulnerability: small primes
+hint: Small primes are easily factorable with typical factoring algorithms.
+necessary_info: The flag format is flag{...}
+n=9124876782445474411, e=662145558506603209
+extra_info: p=2329818233, q=3916561667, φ(n)=9124876776199094512
+subtype: small_primes
+archetype: rsa

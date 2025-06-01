@@ -1,0 +1,15 @@
+A rogue AI hides secret coordinates using a Substitution cipher. Decode am zevcxshencov, n bdpbxaxdxasm zacowe ab n iwxosf sj wmzevcxamh am koazo dmaxb sj ctnamxwrx new ewctnzwf kaxo xow zacowexwrx, am n fwjamwf inmmwe, kaxo xow owtc sj n lwv; xow "dmaxb" inv pw bamhtw twxxweb (xow isbx zsiism), cnaeb sj twxxweb, xeactwxb sj twxxweb, iarxdewb sj xow npsqw, nmf bs jsexo. xow ewzwaqwe fwzacoweb xow xwrx pv cwejseiamh xow amqwebw bdpbxaxdxasm ceszwbb xs wrxenzx xow seahamnt iwbbnhw. talwkabw, ynzudwb udazltv gaccwf xoesdho n udwbxasm sm gwes-lmsktwfhw cessjb, wmbdeamh ms zeaxaznt twxxwe knb twjx sdx sj sde zevcxshencoaz cdggtw.jtnh{5uvzxcv0} to reveal its next target before it's too late.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{5qyctpy0}
+ciphertext: am zevcxshencov, n bdpbxaxdxasm zacowe ab n iwxosf sj wmzevcxamh am koazo dmaxb sj ctnamxwrx new ewctnzwf kaxo xow zacowexwrx, am n fwjamwf inmmwe, kaxo xow owtc sj n lwv; xow "dmaxb" inv pw bamhtw twxxweb (xow isbx zsiism), cnaeb sj twxxweb, xeactwxb sj twxxweb, iarxdewb sj xow npsqw, nmf bs jsexo. xow ewzwaqwe fwzacoweb xow xwrx pv cwejseiamh xow amqwebw bdpbxaxdxasm ceszwbb xs wrxenzx xow seahamnt iwbbnhw. talwkabw, ynzudwb udazltv gaccwf xoesdho n udwbxasm sm gwes-lmsktwfhw cessjb, wmbdeamh ms zeaxaznt twxxwe knb twjx sdx sj sde zevcxshencoaz cdggtw.jtnh{5uvzxcv0}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'n', 'b': 'p', 'c': 'z', 'd': 'f', 'e': 'w', 'f': 'j', 'g': 'h', 'h': 'o', 'i': 'a', 'j': 'y', 'k': 'l', 'l': 't', 'm': 'i', 'n': 'm', 'o': 's', 'p': 'c', 'q': 'u', 'r': 'e', 's': 'b', 't': 'x', 'u': 'd', 'v': 'q', 'w': 'k', 'x': 'r', 'y': 'v', 'z': 'g'}
+subtype: substitution
+archetype: classical_cipher

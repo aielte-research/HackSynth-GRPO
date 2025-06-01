@@ -1,0 +1,15 @@
+An agent encoded the password using Base64. Decode Vm0wd2QyVkhVWGhVYmxKV1YwZDRXRmxVUm5kVlJscHpXa2M1VjFKdGVGWlZNbmhQWVd4S2MxTnNXbGRTTTFKUVdWY3hTMUl4V25GVWJHaG9UVlZ3VlZkV1pIcGxSbVJJVm10V1VtSklRazlVVkVKTFUxWmFjbHBFVWxSTmJFcElWbTAxVjJGV1NuUmhSemxWVmpOb1RGVXhXbUZqYkZaeVdrWlNUbFp1UWxsV2Fra3hWREpHYzFOdVRsaGlSMmhZV1d4b1UxbFdjRmhsUjBaWFlrZFNlVll5ZUVOV01rVjNZMFpTVjFaV2NGTmFSRVpEVld4Q1ZVMUVNRDA9 to reveal the secret needed to access the hidden server.
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{rzsmdfx5}
+cipher: Base64
+ciphertext: Vm0wd2QyVkhVWGhVYmxKV1YwZDRXRmxVUm5kVlJscHpXa2M1VjFKdGVGWlZNbmhQWVd4S2MxTnNXbGRTTTFKUVdWY3hTMUl4V25GVWJHaG9UVlZ3VlZkV1pIcGxSbVJJVm10V1VtSklRazlVVkVKTFUxWmFjbHBFVWxSTmJFcElWbTAxVjJGV1NuUmhSemxWVmpOb1RGVXhXbUZqYkZaeVdrWlNUbFp1UWxsV2Fra3hWREpHYzFOdVRsaGlSMmhZV1d4b1UxbFdjRmhsUjBaWFlrZFNlVll5ZUVOV01rVjNZMFpTVjFaV2NGTmFSRVpEVld4Q1ZVMUVNRDA9
+hint: The message is encoded multiple times with Base64. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 10 times in total.
+subtype: Base64_layered
+archetype: classical_cipher

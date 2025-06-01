@@ -1,0 +1,15 @@
+The hacker left a coded message. It looks like gibberish, but you suspect a simple substitution cipher. Can you recover the original warning? Ciphertext: ts yuhxlzoumxih, m kcbkltlcltzs ytxidu tk m wdlizp zf dsyuhxltso ts jityi cstlk zf xnmtsldrl mud udxnmydp jtli lid ytxiduldrl, ts m pdftsdp wmssdu, jtli lid idnx zf m gdh; lid "cstlk" wmh bd ktsond ndllduk (lid wzkl yzwwzs), xmtuk zf ndllduk, lutxndlk zf ndllduk, wtrlcudk zf lid mbzvd, msp kz fzuli. lid udydtvdu pdytxiduk lid ldrl bh xdufzuwtso lid tsvdukd kcbkltlcltzs xuzydkk lz drlumyl lid zutotsmn wdkkmod. ntgdjtkd, emyacdk actygnh qtxxdp liuzcoi m acdkltzs zs qduz-gszjndpod xuzzfk, dskcutso sz yutltymn ndlldu jmk ndfl zcl zf zcu yuhxlzoumxity xcqqnd.fnmo{ao05utiv}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{qg05rihv}
+ciphertext: ts yuhxlzoumxih, m kcbkltlcltzs ytxidu tk m wdlizp zf dsyuhxltso ts jityi cstlk zf xnmtsldrl mud udxnmydp jtli lid ytxiduldrl, ts m pdftsdp wmssdu, jtli lid idnx zf m gdh; lid "cstlk" wmh bd ktsond ndllduk (lid wzkl yzwwzs), xmtuk zf ndllduk, lutxndlk zf ndllduk, wtrlcudk zf lid mbzvd, msp kz fzuli. lid udydtvdu pdytxiduk lid ldrl bh xdufzuwtso lid tsvdukd kcbkltlcltzs xuzydkk lz drlumyl lid zutotsmn wdkkmod. ntgdjtkd, emyacdk actygnh qtxxdp liuzcoi m acdkltzs zs qduz-gszjndpod xuzzfk, dskcutso sz yutltymn ndlldu jmk ndfl zcl zf zcu yuhxlzoumxity xcqqnd.fnmo{ao05utiv}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'm', 'b': 'b', 'c': 'y', 'd': 'p', 'e': 'd', 'f': 'f', 'g': 'o', 'h': 'i', 'i': 't', 'j': 'e', 'k': 'g', 'l': 'n', 'm': 'w', 'n': 's', 'o': 'z', 'p': 'x', 'q': 'a', 'r': 'u', 's': 'k', 't': 'l', 'u': 'c', 'v': 'v', 'w': 'j', 'x': 'r', 'y': 'h', 'z': 'q'}
+subtype: substitution
+archetype: classical_cipher

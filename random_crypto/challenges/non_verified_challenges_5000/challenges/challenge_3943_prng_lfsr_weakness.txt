@@ -1,0 +1,19 @@
+Intercepted radio chatter was encrypted by an old engineer using a flawed LFSR cipher. Find the original message from this ciphertext: 6f226829723a6a2a64376f376033
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[14536, 40036, 20018, 42777, 21388, 10694, 38115, 19057, 9528, 4764]
+
+---
+
+## Challenge Technical Details
+flag: flag{tcdmyfyi}
+ciphertext: 6f226829723a6a2a64376f376033
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[14536, 40036, 20018, 42777, 21388, 10694, 38115, 19057, 9528, 4764]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

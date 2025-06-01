@@ -1,0 +1,20 @@
+A careless developer reused the same nonce twice when signing different messages with ECDSA. Both signatures and messages are below. Can you recover the private key? message1: Welcome to ECDSA reuse puzzle! signature1: 93190f0b537be3dfcb9deb8e8d1b8b6de4c5957dfac7dc54f8cf4b9c733403b28645bbb25e6ba4d318c32031440121b60e57d063d9a20224bc8f11c44cd7c0f0 message2: My second message! signature2: 93190f0b537be3dfcb9deb8e8d1b8b6de4c5957dfac7dc54f8cf4b9c733403b2a706c6d74b0c8f016503c30614fc9e9a02581a4e075e0487c56f5372ad558e27 public_key_x: 62583745175665201232214844855532149609143592285911839923138970450829652653912 public_key_y: 19261865314948022474847822477098637949943658973730165419049901712082202306265 
+
+You have two signatures over two messages, both using the same ephemeral nonce k.
+Signatures: (r, s1) and (r, s2). Public key is (x, y). Find the private key d.
+The flag format is flag{private_key_int}
+
+---
+
+## Challenge Technical Details
+flag: flag{89148643115437429315628709981106083342953057774849043278294404621547047873996}
+ciphertext: message1: Welcome to ECDSA reuse puzzle! signature1: 93190f0b537be3dfcb9deb8e8d1b8b6de4c5957dfac7dc54f8cf4b9c733403b28645bbb25e6ba4d318c32031440121b60e57d063d9a20224bc8f11c44cd7c0f0 message2: My second message! signature2: 93190f0b537be3dfcb9deb8e8d1b8b6de4c5957dfac7dc54f8cf4b9c733403b2a706c6d74b0c8f016503c30614fc9e9a02581a4e075e0487c56f5372ad558e27 public_key_x: 62583745175665201232214844855532149609143592285911839923138970450829652653912 public_key_y: 19261865314948022474847822477098637949943658973730165419049901712082202306265 
+cipher: ECDSA - reused_nonce
+hint: Two different messages were signed using the *same* nonce k. In ECDSA, reusing k reveals the private key via algebraic manipulation.
+necessary_info: You have two signatures over two messages, both using the same ephemeral nonce k.
+Signatures: (r, s1) and (r, s2). Public key is (x, y). Find the private key d.
+The flag format is flag{private_key_int}
+extra_info: private_key_int = 89148643115437429315628709981106083342953057774849043278294404621547047873996
+n=115792089237316195423570985008687907852837564279074904382605163141518161494337, k=60696328360965642358208241080808918809853148556180940378531936553141304670796ECDSA equation: s = k⁻¹ (H(m) + d·r) mod n; repeated k => big trouble.
+subtype: reused_nonce_ecdsa
+archetype: ecc

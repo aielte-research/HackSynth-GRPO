@@ -1,0 +1,21 @@
+A spy intercepted an encoded message using a simple Substitution cipher. Can you decipher the hidden text from the scrambled letters below? ynhf{fdlrp8ei}
+
+The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'h', 'b': 'x', 'c': 'w', 'd': 'd', 'e': 'o', 'f': 'y', 'g': 'f', 'h': 'a', 'i': 'z', 'j': 'e', 'k': 'p', 'l': 'n', 'm': 'l', 'n': 'k', 'o': 's', 'p': 'b', 'q': 't', 'r': 'i', 's': 'm', 't': 'c', 'u': 'u', 'v': 'r', 'w': 'g', 'x': 'j', 'y': 'q', 'z': 'v'}
+
+---
+
+## Challenge Technical Details
+flag: flag{gdmvk8jr}
+cipher: Substitution
+ciphertext: ynhf{fdlrp8ei}
+hint: Use the provided substitution table to restore each letter of the ciphertext to the original plaintext.
+necessary_info: The flag format is flag{...}
+
+Below is the substitution table mapping plaintext letters to ciphertext letters:
+{'a': 'h', 'b': 'x', 'c': 'w', 'd': 'd', 'e': 'o', 'f': 'y', 'g': 'f', 'h': 'a', 'i': 'z', 'j': 'e', 'k': 'p', 'l': 'n', 'm': 'l', 'n': 'k', 'o': 's', 'p': 'b', 'q': 't', 'r': 'i', 's': 'm', 't': 'c', 'u': 'u', 'v': 'r', 'w': 'g', 'x': 'j', 'y': 'q', 'z': 'v'}
+extra_info: Letters outside [a-zA-Z] are left unchanged. Case is preserved by converting letters back to uppercase if needed.
+subtype: substitution_direct
+archetype: classical_cipher

@@ -1,0 +1,21 @@
+
+A hasty admin hashed passwords using SHA-256 and a 2-digit salt. Can you recover the original password from this leaky setup? Ciphertext: 914bb7a6c4c218db7825bf8b3076c8a7651a113cfd77c54c7d07bc25ddd6400a
+
+
+The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+
+---
+
+## Challenge Technical Details
+flag: flag{suk}
+ciphertext: 914bb7a6c4c218db7825bf8b3076c8a7651a113cfd77c54c7d07bc25ddd6400a
+cipher: SHA-256
+vulnerability: poor random salt
+hint: You can brute-force the solution.
+necessary_info: The salt is the flag with the format flag{salt}.
+The code that generated the flag:
+salt = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(3))hashlib.sha256((salt + "apple").encode('utf-8')).hexdigest()
+subtype: poor_random_salt
+archetype: hash

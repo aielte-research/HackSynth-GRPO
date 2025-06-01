@@ -1,0 +1,19 @@
+Pirates sent a radio message encrypted with an old LFSR-based cipher. Can you break their weak encryption and reveal the hidden treasure's coordinates? 38f43fff25e02bf138f924ea3ae5
+
+The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[25243, 12621, 39078, 19539, 42537, 54036, 59786, 62661, 31330, 48433]
+
+---
+
+## Challenge Technical Details
+flag: flag{xuifazrd}
+ciphertext: 38f43fff25e02bf138f924ea3ae5
+cipher: LFSR Weakness
+hint: Linear Feedback Shift Registers (LFSRs) have predictable cycles. The initial state is given.
+necessary_info: The flag format is flag{...}
+A 16-bit LFSR was used with taps [0, 2, 3, 5]. The first 10 outputs are given below. The next LFSR output was used to XOR-encrypt the flag.
+[25243, 12621, 39078, 19539, 42537, 54036, 59786, 62661, 31330, 48433]
+extra_info: LFSRs are linear, meaning their entire sequence can be reconstructed given enough outputs.
+subtype: lfsr_weakness
+archetype: prng

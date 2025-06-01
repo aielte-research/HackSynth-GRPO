@@ -1,0 +1,11 @@
+Intercepted during a hacker meetup, this suspicious JWT token may hide the passphrase. Analyze eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3s1cmZvZDVwY30ifQ. to reveal the secret within.
+
+---
+
+## Challenge Technical Details
+flag: flag{5rfod5pc}
+ciphertext: eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0.eyJtc2ciOiAiZmxhZ3s1cmZvZDVwY30ifQ.
+cipher: JWT
+hint: JWT tokens with 'alg: none'.
+subtype: jwt_none_algorithm
+archetype: web_crypto

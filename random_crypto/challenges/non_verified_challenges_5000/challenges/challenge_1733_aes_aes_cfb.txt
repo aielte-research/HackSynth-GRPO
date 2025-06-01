@@ -1,0 +1,17 @@
+A hacker left a secret in an AES-CFB encrypted message. Recover the flag from: 297fb676499631c7902010041966b490d5056bb01d5db333870ff59f2c2129638768009b7d7412c5b162978c7fb611b1b171c0893cbc3dc1ffcebce4b114e62bdce5c73c56d41e5d2e83be962f81038c3c1f38db7f319caf05fd241f70dc03d8df41442f792242bdf350c9a82ddd7c9ea1d6a772558000f95229b31968fcf012a74b7a60d30e64ed288fa8a83db18fc61b2896cd8c304c29439ce06b31eebc04ce4218fa2d8ff71441a4ee27e1e502d978
+
+The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+
+---
+
+## Challenge Technical Details
+flag: flag{netu2szd}
+ciphertext: 297fb676499631c7902010041966b490d5056bb01d5db333870ff59f2c2129638768009b7d7412c5b162978c7fb611b1b171c0893cbc3dc1ffcebce4b114e62bdce5c73c56d41e5d2e83be962f81038c3c1f38db7f319caf05fd241f70dc03d8df41442f792242bdf350c9a82ddd7c9ea1d6a772558000f95229b31968fcf012a74b7a60d30e64ed288fa8a83db18fc61b2896cd8c304c29439ce06b31eebc04ce4218fa2d8ff71441a4ee27e1e502d978
+cipher: AES-CFB
+hint: AES-CFB allows for bit-flipping attacks. Use the known prefix to manipulate the ciphertext and recover the flag.
+necessary_info: The flag format is flag{...}
+The plaintext starts with: In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+extra_info: The initialization vector (IV) is: 1e23fbbf79f6b2ac3928735d860eb43d
+subtype: aes_cfb
+archetype: aes

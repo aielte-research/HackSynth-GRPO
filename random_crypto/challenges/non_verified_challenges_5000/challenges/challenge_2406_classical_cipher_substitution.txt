@@ -1,0 +1,15 @@
+A hacker intercepted a secret message between agents. It appears scrambled! Can you uncover the original text using the classic Substitution cipher? Ciphertext: ei mqchzgvqlhwc, l uoruzezozegi mehwtq eu l xtzwgf gp timqchzeiv ei dwemw oiezu gp hkleiztjz lqt qthklmtf dezw zwt mehwtqztjz, ei l ftpeitf xliitq, dezw zwt wtkh gp l stc; zwt "oiezu" xlc rt ueivkt ktzztqu (zwt xguz mgxxgi), hlequ gp ktzztqu, zqehktzu gp ktzztqu, xejzoqtu gp zwt lrgbt, lif ug pgqzw. zwt qtmtebtq ftmehwtqu zwt ztjz rc htqpgqxeiv zwt eibtqut uoruzezozegi hqgmtuu zg tjzqlmz zwt gqeveilk xtuulvt. kestdeut, almnotu noemskc yehhtf zwqgovw l notuzegi gi ytqg-sigdktfvt hqggpu, tiuoqeiv ig mqezemlk ktzztq dlu ktpz goz gp goq mqchzgvqlhwem hoyykt.pklv{wdb2j35p}
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{hwv2x35f}
+ciphertext: ei mqchzgvqlhwc, l uoruzezozegi mehwtq eu l xtzwgf gp timqchzeiv ei dwemw oiezu gp hkleiztjz lqt qthklmtf dezw zwt mehwtqztjz, ei l ftpeitf xliitq, dezw zwt wtkh gp l stc; zwt "oiezu" xlc rt ueivkt ktzztqu (zwt xguz mgxxgi), hlequ gp ktzztqu, zqehktzu gp ktzztqu, xejzoqtu gp zwt lrgbt, lif ug pgqzw. zwt qtmtebtq ftmehwtqu zwt ztjz rc htqpgqxeiv zwt eibtqut uoruzezozegi hqgmtuu zg tjzqlmz zwt gqeveilk xtuulvt. kestdeut, almnotu noemskc yehhtf zwqgovw l notuzegi gi ytqg-sigdktfvt hqggpu, tiuoqeiv ig mqezemlk ktzztq dlu ktpz goz gp goq mqchzgvqlhwem hoyykt.pklv{wdb2j35p}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'l', 'b': 'r', 'c': 'm', 'd': 'f', 'e': 't', 'f': 'p', 'g': 'v', 'h': 'w', 'i': 'e', 'j': 'a', 'k': 's', 'l': 'k', 'm': 'x', 'n': 'i', 'o': 'g', 'p': 'h', 'q': 'n', 'r': 'q', 's': 'u', 't': 'z', 'u': 'o', 'v': 'b', 'w': 'd', 'x': 'j', 'y': 'c', 'z': 'y'}
+subtype: substitution
+archetype: classical_cipher

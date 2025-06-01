@@ -1,0 +1,18 @@
+A hacker intercepted a secret message but only has the encrypted text: ciphertext1:d62c5a70b87fb08ce63738c804b0, ciphertext2: d62c5a70b866af8bed713fc312b0. Can you recover the original using your AES decryption skills?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{sxnc3qbp}
+ciphertext: ciphertext1:d62c5a70b87fb08ce63738c804b0, ciphertext2: d62c5a70b866af8bed713fc312b0
+tag1: e53bf8559f2ab27e32a47e3f591015a8
+tag2: d29a918e83cc0d9782080ab3fb2a1c0e
+cipher: AES
+mode: CCM
+hint: AES-CCM with nonce reuse is vulnerable. Exploit the relationship between the ciphertexts to recover the flag.
+necessary_info: The flag format is flag{...}
+extra_info: The nonce used for both encryptions is: 13596dd5ff0384e6f3af9f
+subtype: aes_ccm
+archetype: aes

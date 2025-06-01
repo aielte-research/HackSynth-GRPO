@@ -1,0 +1,17 @@
+
+Intercepted spy notes hide the passphrase, scrambled with a substitution cipher. Can you decode the original message from: gt yfijcvzfrjhi, r duadcgcucgvt ygjhpf gd r npchvb vs ptyfijcgtz gt lhgyh utgcd vs jwrgtcpec rfp fpjwrypb lgch chp ygjhpfcpec, gt r bpsgtpb nrttpf, lgch chp hpwj vs r kpi; chp "utgcd" nri ap dgtzwp wpccpfd (chp nvdc yvnnvt), jrgfd vs wpccpfd, cfgjwpcd vs wpccpfd, ngecufpd vs chp ravqp, rtb dv svfch. chp fpypgqpf bpygjhpfd chp cpec ai jpfsvfngtz chp gtqpfdp duadcgcucgvt jfvypdd cv pecfryc chp vfgzgtrw npddrzp. wgkplgdp, xryoupd ougykwi mgjjpb chfvuzh r oupdcgvt vt mpfv-ktvlwpbzp jfvvsd, ptdufgtz tv yfgcgyrw wpccpf lrd wpsc vuc vs vuf yfijcvzfrjhgy jummwp.swrz{asd7sdbp}?
+
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{bfs7fsde}
+ciphertext: gt yfijcvzfrjhi, r duadcgcucgvt ygjhpf gd r npchvb vs ptyfijcgtz gt lhgyh utgcd vs jwrgtcpec rfp fpjwrypb lgch chp ygjhpfcpec, gt r bpsgtpb nrttpf, lgch chp hpwj vs r kpi; chp "utgcd" nri ap dgtzwp wpccpfd (chp nvdc yvnnvt), jrgfd vs wpccpfd, cfgjwpcd vs wpccpfd, ngecufpd vs chp ravqp, rtb dv svfch. chp fpypgqpf bpygjhpfd chp cpec ai jpfsvfngtz chp gtqpfdp duadcgcucgvt jfvypdd cv pecfryc chp vfgzgtrw npddrzp. wgkplgdp, xryoupd ougykwi mgjjpb chfvuzh r oupdcgvt vt mpfv-ktvlwpbzp jfvvsd, ptdufgtz tv yfgcgyrw wpccpf lrd wpsc vuc vs vuf yfijcvzfrjhgy jummwp.swrz{asd7sdbp}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'r', 'b': 'a', 'c': 'y', 'd': 'b', 'e': 'p', 'f': 's', 'g': 'z', 'h': 'h', 'i': 'g', 'j': 'x', 'k': 'k', 'l': 'w', 'm': 'n', 'n': 't', 'o': 'v', 'p': 'j', 'q': 'o', 'r': 'f', 's': 'd', 't': 'c', 'u': 'u', 'v': 'q', 'w': 'l', 'x': 'e', 'y': 'i', 'z': 'm'}
+subtype: substitution
+archetype: classical_cipher

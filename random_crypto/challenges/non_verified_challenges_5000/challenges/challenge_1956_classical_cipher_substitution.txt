@@ -1,0 +1,15 @@
+An ancient map shows ri gdkpevfdapjk, a hxzherexervi grpjud rh a tuejvl vy uigdkperif ri wjrgj xireh vy pmarieune adu dupmagul wrej eju grpjudeune, ri a luyriul taiiud, wrej eju jump vy a buk; eju "xireh" tak zu hrifmu mueeudh (eju tvhe gvttvi), pardh vy mueeudh, edrpmueh vy mueeudh, trnexduh vy eju azvqu, ail hv yvdej. eju dugurqud lugrpjudh eju eune zk pudyvdtrif eju riqudhu hxzherexervi pdvguhh ev unedage eju vdrfriam tuhhafu. mrbuwrhu, sagoxuh oxrgbmk crppul ejdvxfj a oxuhervi vi cudv-bivwmulfu pdvvyh, uihxdrif iv gdrergam mueeud wah muye vxe vy vxd gdkpevfdapjrg pxccmu.ymaf{o9txstjc}, a hidden message. Can you break the old merchant's code and find the treasure?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{q9mujmhz}
+ciphertext: ri gdkpevfdapjk, a hxzherexervi grpjud rh a tuejvl vy uigdkperif ri wjrgj xireh vy pmarieune adu dupmagul wrej eju grpjudeune, ri a luyriul taiiud, wrej eju jump vy a buk; eju "xireh" tak zu hrifmu mueeudh (eju tvhe gvttvi), pardh vy mueeudh, edrpmueh vy mueeudh, trnexduh vy eju azvqu, ail hv yvdej. eju dugurqud lugrpjudh eju eune zk pudyvdtrif eju riqudhu hxzherexervi pdvguhh ev unedage eju vdrfriam tuhhafu. mrbuwrhu, sagoxuh oxrgbmk crppul ejdvxfj a oxuhervi vi cudv-bivwmulfu pdvvyh, uihxdrif iv gdrergam mueeud wah muye vxe vy vxd gdkpevfdapjrg pxccmu.ymaf{o9txstjc}
+cipher: Substitution
+hint: Simple substitution ciphers are susceptible to frequency analysis.
+necessary_info: The flag format is flag{...}
+extra_info: The substitution map is: {'a': 'a', 'b': 'z', 'c': 'g', 'd': 'l', 'e': 'u', 'f': 'y', 'g': 'f', 'h': 'j', 'i': 'r', 'j': 's', 'k': 'b', 'l': 'm', 'm': 't', 'n': 'i', 'o': 'v', 'p': 'p', 'q': 'o', 'r': 'd', 's': 'h', 't': 'e', 'u': 'x', 'v': 'q', 'w': 'w', 'x': 'n', 'y': 'k', 'z': 'c'}
+subtype: substitution
+archetype: classical_cipher

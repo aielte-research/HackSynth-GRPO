@@ -1,0 +1,17 @@
+A mysterious hacker left an encrypted message, rumored to reveal the next block's private key. All you have is the ciphertext: eupxmiwzmhtvanywwlhoshjljptnxmwlemhwsjhwwowgmlxvsmcmgvqacrpbuwunnzxpdo
+
+The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+
+---
+
+## Challenge Technical Details
+flag: flag{ugfnudix}
+ciphertext: eupxmiwzmhtvanywwlhoshjljptnxmwlemhwsjhwwowgmlxvsmcmgvqacrpbuwunnzxpdo
+cipher: Hill
+hint: Hill ciphers can be broken using known-plaintext attacks and linear algebra mod 26.
+necessary_info: The flag format is flag{...}
+You got a tip from a friend that the encrypted message starts with: welcome to the ancient library. hidden within these words is your key: 
+extra_info: The matrix used is: [[25, 0], [19, 11]]
+subtype: hill
+archetype: classical_cipher

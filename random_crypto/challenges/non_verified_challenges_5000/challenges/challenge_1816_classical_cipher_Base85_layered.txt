@@ -1,0 +1,15 @@
+A hacker left a secret message encoded with Base85 on a forgotten server. Can you decode Q8+7fbYyZsPf15ALm_fVLM1IeN?KPfc2Ff%WNAl5M>0)MNmMd5R(x7>C}B5ZY;RL|M|eI$cu+rPV^TG5c2PxmMt4JCHDU to uncover their plan?
+
+The flag format is flag{...}
+
+---
+
+## Challenge Technical Details
+flag: flag{v1xk296j}
+cipher: Base85
+ciphertext: Q8+7fbYyZsPf15ALm_fVLM1IeN?KPfc2Ff%WNAl5M>0)MNmMd5R(x7>C}B5ZY;RL|M|eI$cu+rPV^TG5c2PxmMt4JCHDU
+hint: The message is encoded multiple times with Base85. Decode iteratively to recover the original flag.
+necessary_info: The flag format is flag{...}
+extra_info: Encoded 8 times in total.
+subtype: Base85_layered
+archetype: classical_cipher
