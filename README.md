@@ -134,4 +134,4 @@ The MCP server was built using [Python REPL MCP Server](https://github.com/hdres
 
 ---
 ## License
-The project uses the MIT license.
+The project uses the AGPL v3.0 license.
