@@ -7,6 +7,15 @@ This project extends the [HackSynth autonomous penetration testing project](http
 
 ---
 
+## 🧪 Random-Crypto Benchmark
+The Random-Crypto Benchmark generates cryptographic CTF challenges tailored for evaluating and training large language models in reinforcement learning settings.
+The benchmark is located [here](https://github.com/aielte-research/HackSynth-GRPO/tree/main/random_crypto). 
+
+It includes two pre-generated sets of problems:
+
+* ✅ 50 Human-verified challenges for evaluation [(link)](https://github.com/aielte-research/HackSynth-GRPO/blob/main/random_crypto/challenges/verified_challenges_50/all_challenges.csv)
+* ⚙️ 5000 Non-Verified Challenges for training [(link)](https://github.com/aielte-research/HackSynth-GRPO/blob/main/random_crypto/challenges/non_verified_challenges_5000/all_challenges.csv)
+
 ## 📦 Setup
 
 Two different environments are required due to compatibility differences between GRPO training and vLLM inference:
@@ -27,7 +36,7 @@ Two different environments are required due to compatibility differences between
    pip install -r requirements_vllm.txt
    ```
 
-Additionally, create a `.env` file with the required environment variables for the project (see example_env).
+Additionally, create a `.env` file with the required environment variables for the project (see `example_env` for reference).
 
 ---
 
@@ -93,28 +102,6 @@ python train_agent.py --model_id <model> --data_path <path> --output_dir <dir> [
 
 ---
 
-## 📊 Results
-
-### Random-Crypto Benchmark
-
-<p align="center">
-  <img src="images/LLM_benchmark.png" alt="Performance of LLMs on the benchmark" width="500"/><br>
-  <em>Performance of LLMs on the benchmark</em>
-</p>
-
-Tool-augmented agents significantly outperform their vanilla counterparts, with larger models like o3 demonstrating the best performance across cryptographic CTF challenges.
-
-
-### Reinforcement Learning
-<p align="center">
-  <img src="images/training_rewards.png" alt="Reward progression during training" width="500"/>
-</p>
-
-Reinforcement learning with GRPO steadily improved agent performance, enhancing both tool-use reliability and generalization to external benchmarks like picoCTF.
-
-
----
-
 ## Contributors
 - Lajos Muzsai (muzsailajos@protonmail.com)
 - David Imolai (david@imol.ai)
@@ -122,15 +109,21 @@ Reinforcement learning with GRPO steadily improved agent performance, enhancing 
 
 ---
 ## How To Cite
+```bibtex
+@article{muzsai2025improving,
+  title={Improving LLM Agents with Reinforcement Learning on Cryptographic CTF Challenges},
+  author={Muzsai, Lajos and Imolai, David and Luk{\'a}cs, Andr{\'a}s},
+  journal={arXiv preprint arXiv:2506.02048},
+  year={2025}
+}
+```
 
-TODO: Insert citation lated
-
---
+---
 
 ## 🏆 Credits
 
 This project was built using [Unsloth's Efficient GRPO code](https://unsloth.ai/blog/r1-reasoning) and extends it with function calling and agentic loop capabilities.
-The MCP server was built using [Python REPL MCP Server](https://github.com/hdresearch/mcp-python), however slight modifications had to be made the sandbox the executed code.
+The MCP server was built using [Python REPL MCP Server](https://github.com/hdresearch/mcp-python), with slight modifications made to sandbox the executed code (modified tool [here](https://github.com/MuzsaiLajos/mcp-python-sandboxed)).
 
 ---
 ## License
