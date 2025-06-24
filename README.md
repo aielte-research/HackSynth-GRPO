@@ -16,6 +16,8 @@ It includes two pre-generated sets of problems:
 * ✅ 50 Human-verified challenges for evaluation [(link)](https://github.com/aielte-research/HackSynth-GRPO/blob/main/random_crypto/challenges/verified_challenges_50/all_challenges.csv)
 * ⚙️ 5000 Non-Verified Challenges for training [(link)](https://github.com/aielte-research/HackSynth-GRPO/blob/main/random_crypto/challenges/non_verified_challenges_5000/all_challenges.csv)
 
+> 🧠 **Note:** To evaluate an LLM using this benchmark, concatenate the `story` and `necessary_info` fields before passing them as input.
+
 ## 📦 Setup
 
 Two different environments are required due to compatibility differences between GRPO training and vLLM inference:
