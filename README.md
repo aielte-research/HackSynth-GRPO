@@ -1,7 +1,7 @@
 # Improving LLM Agents With Reinforcement Learning on Cryptographic CTF Challenges
 
 This project introduces the **Random-Crypto Benchmark**, a set of cryptographic challenges designed for reinforcement learning (RL) with large language models (LLMs).
-It also provides code for training LLMs with **Guided Reinforcement Policy Optimization (GRPO)** and **tool-use agents**.
+It also provides code for training LLMs with **Group Relative Policy Optimization (GRPO)** and **tool-use agents**.
 
 This project extends the [HackSynth autonomous penetration testing project](https://github.com/aielte-research/HackSynth).
 
@@ -129,4 +129,4 @@ The MCP server was built using [Python REPL MCP Server](https://github.com/hdres
 
 ---
 ## License
-The project uses the AGPL v3.0 license.
+The project is licensed under the AGPL v3.0.
