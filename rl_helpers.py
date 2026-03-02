@@ -23,9 +23,9 @@ LOG_DIR = f"logs/{time.time()}"
 
 MCP_TOOL_LIST = json.dumps(mcp.list_tools_sync(), indent=2)
 
-FLAG_BOX_RE = re.compile(r"\\boxed\{(flag|picoCTF)\{[^}]+\}\}", flags=re.IGNORECASE)
+FLAG_BOX_RE = re.compile(r"\\boxed\{(?:flag|picoCTF)\{[^}]+\}\}", flags=re.IGNORECASE)
 
-FLAG_CONTENT_RE = re.compile(r"(flag|picoCTF)\{[^}]+\}", flags=re.IGNORECASE)
+FLAG_CONTENT_RE = re.compile(r"(?:flag|picoCTF)\{[^}]+\}", flags=re.IGNORECASE)
 
 # Constants for prompts and tool definitions
 def get_system_prompt():
